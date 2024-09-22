@@ -27,13 +27,16 @@ async function loadICSFile(f_toload) {
     }
     catch (error) {
         console.error('Erreur lors du chargement du fichier ICS:', error);
-        window.location.href = "index.html?alert=Le Calendrier n'a pas pu être chargé.";
+        showCustomAlert("Le Calendrier n'a pas pu être chargé._nl_Veuillez réessayer ou Re-choisissez votre groupe.");
     }
 }
 
 // Fonction pour ajouter un événement au calendrier
 function addEventToCalendar(event) {
     const startDate = event.startDate.toJSDate();
+    const endDate = event.endDate.toJSDate();
+    const formattedStartDate = startDate.toLocaleString('belgium');
+    const formattedEndDate = endDate.toLocaleString('belgium');
     const summary = event.summary;
     const location = event.location;
 
@@ -45,7 +48,7 @@ function addEventToCalendar(event) {
     if (calendarDay) {
         const eventElement = document.createElement('div');
         eventElement.className = 'event';
-        eventElement.innerHTML = `${summary} - ${location} (${startDate.toLocaleDateString()})`;
+        eventElement.innerHTML = `${summary} - ${location} (${formattedStartDate} - ${formattedEndDate})`;
         calendarDay.appendChild(eventElement);
     }
 }
@@ -123,7 +126,7 @@ function generateCalendar(calendar_display = "daily") {
 
 // Récupère les informations de l'URL
 let params = new URLSearchParams(window.location.search);
-const calendar_group = params.get('calendar_group') || (window.location.href = "index.html?alert=Aucun calendrier spécifié._nl_Veuillez sélectionner un groupe.");
+const calendar_group = params.get('calendar_group') || showCustomAlert("Aucun calendrier spécifié._nl_Veuillez sélectionner un groupe.");
 const calendar_display = params.get('display');
 
 // Générer le calendrier et charger les événements
