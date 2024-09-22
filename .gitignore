@@ -1,0 +1,10 @@
+# IDE files
+.idea
+.vscode
+
+# logs
+logs/
+*.log
+
+# Powershell
+*.ps1
