@@ -9,7 +9,6 @@ fetch('./ics/ics.json')
     .then(data => {
         // Trouver l'élément <main> ou fallback sur <body>
         const main = document.querySelector('main') || document.body;
-
         // Boucle sur chaque clé de l'objet JSON
         let calendar_group;
         for (const [key, value] of Object.entries(data)) {

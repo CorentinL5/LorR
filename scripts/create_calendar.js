@@ -1,3 +1,15 @@
+const json_colors = {
+    "light": [
+        "#ff5871", "#ee6291", "#c47ecd", "#9f7fcf", "#818cce", "#5db4f3", "#56c7f9", "#66d7e6", "#7ec9c5", "#84ca8a",
+        "#abd57b", "#dae66b", "#eeda00", "#ffd651", "#ffbb50", "#e6776b", "#b3a097", "#afafaf", "#9aaab4", "#ff4356"
+    ],
+    "dark": [
+        "#263238", "#212121", "#37474F", "#1C313A", "#004D40", "#3E2723", "#BF360C", "#4A148C", "#880E4F", "#311B92",
+        "#0D47A1", "#01579B", "#006064", "#1B5E20", "#33691E", "#827717", "#F57F17", "#E65100", "#4E342E", "#5D4037"
+    ]
+}
+const colorCache = {};
+
 //mettre l'info dans l'url lors d'un clic sur un bouton
 function addInfoToURL(param, info) {
     const url = new URL(window.location.href);
@@ -5,6 +17,38 @@ function addInfoToURL(param, info) {
     window.history.replaceState({}, '', url);
     params = new URLSearchParams(window.location.search);
     console.log(params.get('display'))
+}
+
+// Fonction simple de hachage pour obtenir un index unique basé sur une chaîne
+function hashStringToIndex(str, max) {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+        hash = str.charCodeAt(i) + ((hash << 4) - hash);
+        hash = hash & hash; // Convertit en 32 bits
+    }
+    return Math.abs(hash) % max;
+}
+
+// Fonction pour attribuer une couleur à un événement
+function assignColor(vevent) {
+    // Obtient le résumé de l'événement
+    const vevent_summary = vevent.summary;
+    let color;
+
+    // Vérifie si une couleur a déjà été assignée à ce résumé
+    if (vevent_summary in colorCache) {
+        color = colorCache[vevent_summary]; // Utilise la couleur déjà assignée
+    } else {
+        // Génère un index basé sur le résumé pour choisir une couleur
+        const index = hashStringToIndex(vevent_summary, json_colors.light.length);
+        color = json_colors.light[index]; // Sélectionne une couleur basée sur l'index
+
+        // Enregistre la couleur dans le cache pour ce résumé
+        colorCache[vevent_summary] = color;
+    }
+
+    // Retourne la couleur assignée pour l'événement
+    return color;
 }
 
 // Fonction pour charger et parser le fichier ICS
@@ -22,23 +66,30 @@ async function loadICSFile(f_toload) {
         // Récupérer les événements et les ajouter au calendrier
         events.forEach(event => {
             const vevent = new ICAL.Event(event);
-            addEventToCalendar(vevent);
+            addEventToCalendar(vevent, assignColor(vevent));
         });
     }
     catch (error) {
         console.error('Erreur lors du chargement du fichier ICS:', error);
-        showCustomAlert("Le Calendrier n'a pas pu être chargé._nl_Veuillez réessayer ou Re-choisissez votre groupe.");
+        showCustomAlert("Le Calendrier n'a pas pu être chargé complétement,_nl_Veuillez réessayer ou Re-choisissez votre groupe.");
     }
 }
 
 // Fonction pour ajouter un événement au calendrier
-function addEventToCalendar(event) {
+function addEventToCalendar(event ,color) {
     const startDate = event.startDate.toJSDate();
     const endDate = event.endDate.toJSDate();
     const formattedStartDate = startDate.toLocaleString('belgium');
     const formattedEndDate = endDate.toLocaleString('belgium');
-    const summary = event.summary;
-    const location = event.location;
+    let summary = event.summary;
+    let description = event.description;
+    if (description == null && summary != null) {
+        description = summary
+        color = "#808080"
+    } else if (description == null && summary == null) {
+        description = "Description non disponible"
+    }
+
 
     // Format de l'identifiant : `day-YYYY-MM-DD`
     const calendarDayId = `day-${startDate.getFullYear()}-${startDate.getMonth() + 1}-${startDate.getDate()}`;
@@ -48,7 +99,8 @@ function addEventToCalendar(event) {
     if (calendarDay) {
         const eventElement = document.createElement('div');
         eventElement.className = 'event';
-        eventElement.innerHTML = `${summary} - ${location} (${formattedStartDate} - ${formattedEndDate})`;
+        eventElement.innerHTML = `${description}<ul><li> -${formattedStartDate}</li> <li> -${formattedEndDate}</li></ul>`;
+        eventElement.style.backgroundColor = color;
         calendarDay.appendChild(eventElement);
     }
 }
@@ -129,6 +181,8 @@ let params = new URLSearchParams(window.location.search);
 const calendar_group = params.get('calendar_group') || showCustomAlert("Aucun calendrier spécifié._nl_Veuillez sélectionner un groupe.");
 const calendar_display = params.get('display');
 
-// Générer le calendrier et charger les événements
+
+
 generateCalendar(calendar_display);
 loadICSFile(calendar_group).then(() => console.log('Calendrier chargé avec succès!'));
+

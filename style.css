@@ -31,10 +31,11 @@ header {
 }
 
 main {
-    margin: 10px;
+    margin: 20px 20px 100px;
 }
 
 nav {
+    /* display: flex; */
     background-color: whitesmoke;
     color: #fff;
     text-align: center;
@@ -42,10 +43,16 @@ nav {
     width: 100%;
     bottom: 0;
     position: fixed;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-footer {
-    margin-bottom: 10px;
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    width: 50%;
 }
 
 .week-row {
@@ -63,4 +70,9 @@ footer {
     border: solid 1px black;
     margin: 5px;
     padding: 5px;
+}
+
+
+.old {
+    filter: grayscale(0.90);
 }
