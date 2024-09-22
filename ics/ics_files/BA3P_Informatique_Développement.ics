@@ -1,0 +1,1831 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
+METHOD:PUBLISH
+X-CALSTART:20240916T000000Z
+X-CALEND:20241221T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - <BA3P Informatique> <Développement> Groupe D
+ éveloppement BA3P Informatique - du 16 septembre au 21 décembre 2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de <BA3P Informatique> <Développem
+ ent> Groupe Développement BA3P Informatique généré par le logiciel HP (©IN
+ DEX ÉDUCATION) le 22 sept. 2024 - Haute Ecole en Hainaut - valable sur la 
+ période du 16 septembre au 21 décembre 2024 - Semaines : semaine 38 - 51
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230925T113048Z
+UID:Cours-155527-3-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241004T113000Z
+DTEND:20241004T133000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique\, Groupe Sécurit
+ é BA3P Informatique - Développement des softskills - Bouillon\, Lenaerts\,
+  Naizy - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\, Group
+ e Sécurité BA3P Informatique\nMatière : Développement des softskills\nEnse
+ ignants : Bouillon\, Lenaerts\, Naizy\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique\, 
+ Groupe Sécurité BA3P Informatique<br/>Matière : Développement des softskil
+ ls<br/>Enseignants : Bouillon\, Lenaerts\, Naizy<br/>Salle : 2/09C<br/>Typ
+ e : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240619T072350Z
+UID:Cours-155581-8-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241107T073000Z
+DTEND:20241107T114500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Développement 
+ des softskills - Lenaerts\, Naizy - Cours
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Développement des softskills\nEnseignants : Lenaerts\, Naizy\nType : C
+ ours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Développement des softskills<br/>Enseignants : Lenaerts\, Naiz
+ y<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230901T095207Z
+UID:Cours-155582-4-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241010T113000Z
+DTEND:20241010T133000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique\, Groupe Sécurit
+ é BA3P Informatique - Développement des softskills - Lenaerts\, Naizy - Co
+ urs
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\, Group
+ e Sécurité BA3P Informatique\nMatière : Développement des softskills\nEnse
+ ignants : Lenaerts\, Naizy\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique\, 
+ Groupe Sécurité BA3P Informatique<br/>Matière : Développement des softskil
+ ls<br/>Enseignants : Lenaerts\, Naizy<br/>Salle : 2/09C<br/>Type : Cours<b
+ r/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230829T093704Z
+UID:Cours-155585-11-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241126T073000Z
+DTEND:20241126T161500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Adm. avancée -
+ TP - Pietrzak - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Adm. avancée -TP\nEnseignant : Pietrzak\nSalle : 2/10F\nType : Laborat
+ oires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Adm. avancée -TP<br/>Enseignant : Pietrzak<br/>Salle : 2/10F<b
+ r/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20220705T125604Z
+UID:Cours-155586-11-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241125T073000Z
+DTEND:20241125T163000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Adm. avancée -
+ TP - Pietrzak - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Adm. avancée -TP\nEnseignant : Pietrzak\nSalle : 2/10F\nType : Laborat
+ oires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Adm. avancée -TP<br/>Enseignant : Pietrzak<br/>Salle : 2/10F<b
+ r/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230907T131645Z
+UID:Cours-155587-11-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241127T071500Z
+DTEND:20241127T160000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Adm. avancée -
+ TP - Pietrzak - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Adm. avancée -TP\nEnseignant : Pietrzak\nSalle : 2/10F\nType : Laborat
+ oires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Adm. avancée -TP<br/>Enseignant : Pietrzak<br/>Salle : 2/10F<b
+ r/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230829T093715Z
+UID:Cours-155588-11-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241128T073000Z
+DTEND:20241128T163000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Adm. avancée -
+ TP - Pietrzak - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Adm. avancée -TP\nEnseignant : Pietrzak\nSalle : 2/10F\nType : Laborat
+ oires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Adm. avancée -TP<br/>Enseignant : Pietrzak<br/>Salle : 2/10F<b
+ r/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230829T093719Z
+UID:Cours-155589-11-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241129T073000Z
+DTEND:20241129T163000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Adm. avancée -
+ TP - Pietrzak - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Adm. avancée -TP\nEnseignant : Pietrzak\nSalle : 2/10F\nType : Laborat
+ oires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Adm. avancée -TP<br/>Enseignant : Pietrzak<br/>Salle : 2/10F<b
+ r/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20220705T125632Z
+UID:Cours-155601-12-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241203T073000Z
+DTEND:20241203T161500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Program. résea
+ u Java - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Program. réseau Java\nEnseignant : Tricarico\nSalle : 2/10F\nType : La
+ boratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Program. réseau Java<br/>Enseignant : Tricarico<br/>Salle : 2/
+ 10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240710T070229Z
+UID:Cours-155602-12-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241206T071500Z
+DTEND:20241206T163000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Program. résea
+ u Java - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Program. réseau Java\nEnseignant : Tricarico\nSalle : 2/10F\nType : La
+ boratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Program. réseau Java<br/>Enseignant : Tricarico<br/>Salle : 2/
+ 10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20220705T125632Z
+UID:Cours-155603-12-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241204T073000Z
+DTEND:20241204T161500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Program. résea
+ u Java - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Program. réseau Java\nEnseignant : Tricarico\nSalle : 2/10F\nType : La
+ boratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Program. réseau Java<br/>Enseignant : Tricarico<br/>Salle : 2/
+ 10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20220705T125632Z
+UID:Cours-155604-12-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241205T073000Z
+DTEND:20241205T161500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Program. résea
+ u Java - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Program. réseau Java\nEnseignant : Tricarico\nSalle : 2/10F\nType : La
+ boratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Program. réseau Java<br/>Enseignant : Tricarico<br/>Salle : 2/
+ 10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230831T123655Z
+UID:Cours-155618-2-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20240924T113000Z
+DTEND:20240924T133000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Program. résea
+ u Java - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Program. réseau Java\nEnseignant : Tricarico\nSalle : 2/10F\nType : La
+ boratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Program. réseau Java<br/>Enseignant : Tricarico<br/>Salle : 2/
+ 10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230831T123655Z
+UID:Cours-155618-4-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241008T113000Z
+DTEND:20241008T133000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Program. résea
+ u Java - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Program. réseau Java\nEnseignant : Tricarico\nSalle : 2/10F\nType : La
+ boratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Program. réseau Java<br/>Enseignant : Tricarico<br/>Salle : 2/
+ 10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230831T123655Z
+UID:Cours-155618-5-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241015T113000Z
+DTEND:20241015T133000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Program. résea
+ u Java - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Program. réseau Java\nEnseignant : Tricarico\nSalle : 2/10F\nType : La
+ boratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Program. réseau Java<br/>Enseignant : Tricarico<br/>Salle : 2/
+ 10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230831T123655Z
+UID:Cours-155618-9-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241112T123000Z
+DTEND:20241112T143000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Program. résea
+ u Java - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Program. réseau Java\nEnseignant : Tricarico\nSalle : 2/10F\nType : La
+ boratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Program. réseau Java<br/>Enseignant : Tricarico<br/>Salle : 2/
+ 10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230831T123655Z
+UID:Cours-155618-10-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241119T123000Z
+DTEND:20241119T143000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Program. résea
+ u Java - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10E
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Program. réseau Java\nEnseignant : Tricarico\nSalle : 2/10E\nType : La
+ boratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Program. réseau Java<br/>Enseignant : Tricarico<br/>Salle : 2/
+ 10E<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240710T071705Z
+UID:Cours-155621-1-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20240917T083000Z
+DTEND:20240917T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl. microcon
+ trôleurs - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl. microcontrôleurs\nEnseignant : Scopel\nSalle : 2/10F\nType : Cou
+ rs\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl. microcontrôleurs<br/>Enseignant : Scopel<br/>Salle : 2/1
+ 0F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240710T071659Z
+UID:Cours-155625-1-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20240917T061500Z
+DTEND:20240917T081500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl. microcon
+ trôleurs - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl. microcontrôleurs\nEnseignant : Scopel\nSalle : 2/10F\nType : Cou
+ rs\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl. microcontrôleurs<br/>Enseignant : Scopel<br/>Salle : 2/1
+ 0F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130145Z
+UID:Cours-155629-8-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241105T093000Z
+DTEND:20241105T113000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130145Z
+UID:Cours-155629-9-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241112T093000Z
+DTEND:20241112T113000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130145Z
+UID:Cours-155629-13-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241210T093000Z
+DTEND:20241210T113000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130145Z
+UID:Cours-155644-8-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241105T071500Z
+DTEND:20241105T091500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130145Z
+UID:Cours-155644-9-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241112T071500Z
+DTEND:20241112T091500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130145Z
+UID:Cours-155644-13-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241210T071500Z
+DTEND:20241210T091500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130158Z
+UID:Cours-155650-13-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241212T123000Z
+DTEND:20241212T153000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.& systeme
+ s entreprise tp - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.& systemes entreprise tp\nEnseignant : Tricarico\nSalle : 2/16\nT
+ ype : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.& systemes entreprise tp<br/>Enseignant : Tricarico<br/>S
+ alle : 2/16<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130158Z
+UID:Cours-155650-14-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241219T123000Z
+DTEND:20241219T153000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.& systeme
+ s entreprise tp - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.& systemes entreprise tp\nEnseignant : Tricarico\nSalle : 2/10F\n
+ Type : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.& systemes entreprise tp<br/>Enseignant : Tricarico<br/>S
+ alle : 2/10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20231114T130628Z
+UID:Cours-155655-3-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20240930T083000Z
+DTEND:20240930T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.&systèmes
+  entreprise th - Tricarico - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.&systèmes entreprise th\nEnseignant : Tricarico\nSalle : 2/10F\nT
+ ype : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.&systèmes entreprise th<br/>Enseignant : Tricarico<br/>Sa
+ lle : 2/10F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20231114T130628Z
+UID:Cours-155655-4-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241007T083000Z
+DTEND:20241007T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.&systèmes
+  entreprise th - Tricarico - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.&systèmes entreprise th\nEnseignant : Tricarico\nSalle : 2/10F\nT
+ ype : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.&systèmes entreprise th<br/>Enseignant : Tricarico<br/>Sa
+ lle : 2/10F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20231114T130628Z
+UID:Cours-155655-5-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241014T083000Z
+DTEND:20241014T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.&systèmes
+  entreprise th - Tricarico - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.&systèmes entreprise th\nEnseignant : Tricarico\nSalle : 2/10F\nT
+ ype : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.&systèmes entreprise th<br/>Enseignant : Tricarico<br/>Sa
+ lle : 2/10F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20231114T130628Z
+UID:Cours-155655-6-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241021T083000Z
+DTEND:20241021T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.&systèmes
+  entreprise th - Tricarico - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.&systèmes entreprise th\nEnseignant : Tricarico\nSalle : 2/10F\nT
+ ype : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.&systèmes entreprise th<br/>Enseignant : Tricarico<br/>Sa
+ lle : 2/10F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130151Z
+UID:Cours-156026-3-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241002T061500Z
+DTEND:20241002T081500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130151Z
+UID:Cours-156026-4-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241009T061500Z
+DTEND:20241009T081500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130151Z
+UID:Cours-156026-5-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241016T061500Z
+DTEND:20241016T081500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130151Z
+UID:Cours-156026-6-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241023T061500Z
+DTEND:20241023T081500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130151Z
+UID:Cours-156026-8-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241106T071500Z
+DTEND:20241106T091500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130151Z
+UID:Cours-156026-10-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241120T071500Z
+DTEND:20241120T091500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130151Z
+UID:Cours-156026-13-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241211T071500Z
+DTEND:20241211T091500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10C\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130151Z
+UID:Cours-156026-14-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241218T071500Z
+DTEND:20241218T091500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10B\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230901T094014Z
+UID:Cours-159133-6-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241021T061500Z
+DTEND:20241021T081500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Program. résea
+ u Java - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Program. réseau Java\nEnseignant : Tricarico\nSalle : 2/10F\nType : La
+ boratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Program. réseau Java<br/>Enseignant : Tricarico<br/>Salle : 2/
+ 10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20220826T090002Z
+UID:Cours-159463-10-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241121T071500Z
+DTEND:20241121T114500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Adm. avancée -
+ TP - Naizy\, Pietrzak - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Adm. avancée -TP\nEnseignants : Naizy\, Pietrzak\nSalle : 2/10F\nType 
+ : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Adm. avancée -TP<br/>Enseignants : Naizy\, Pietrzak<br/>Salle 
+ : 2/10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130158Z
+UID:Cours-160991-13-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241212T093000Z
+DTEND:20241212T113000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.&systèmes
+  entreprise th - Tricarico - Cours
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.&systèmes entreprise th\nEnseignant : Tricarico\nSalle : 2/16\nTy
+ pe : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.&systèmes entreprise th<br/>Enseignant : Tricarico<br/>Sa
+ lle : 2/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130158Z
+UID:Cours-160991-14-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241219T093000Z
+DTEND:20241219T113000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.&systèmes
+  entreprise th - Tricarico - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.&systèmes entreprise th\nEnseignant : Tricarico\nSalle : 2/10F\nT
+ ype : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.&systèmes entreprise th<br/>Enseignant : Tricarico<br/>Sa
+ lle : 2/10F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240621T063154Z
+UID:Cours-163345-8-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241104T093000Z
+DTEND:20241104T113000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.& systeme
+ s entreprise tp - Tricarico - Laboratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.& systemes entreprise tp\nEnseignant : Tricarico\nType : Laborato
+ ires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.& systemes entreprise tp<br/>Enseignant : Tricarico<br/>T
+ ype : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240823T071011Z
+UID:Cours-179964-6-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241024T063000Z
+DTEND:20241024T083000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Développement 
+ des softskills - Depreter\, Desmet\, Lenaerts\, Naizy - Journée du client 
+ - Triptyk - Cours
+LOCATION;LANGUAGE=fr:1/10B\, 2/SA
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Développement des softskills\nEnseignants : Depreter\, Desmet\, Lenaer
+ ts\, Naizy\nSalles : 1/10B\, 2/SA\nMémo : Journée du client - Triptyk\nTyp
+ e : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Développement des softskills<br/>Enseignants : Depreter\, Desm
+ et\, Lenaerts\, Naizy<br/>Salles : 1/10B\, 2/SA<br/>Mémo : Journée du clie
+ nt - Triptyk<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20231114T130628Z
+UID:Cours-180116-4-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241011T083000Z
+DTEND:20241011T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.&systèmes
+  entreprise th - Tricarico - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.&systèmes entreprise th\nEnseignant : Tricarico\nSalle : 2/10F\nT
+ ype : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.&systèmes entreprise th<br/>Enseignant : Tricarico<br/>Sa
+ lle : 2/10F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20231114T130628Z
+UID:Cours-180116-5-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241018T083000Z
+DTEND:20241018T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.&systèmes
+  entreprise th - Tricarico - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.&systèmes entreprise th\nEnseignant : Tricarico\nSalle : 2/10F\nT
+ ype : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.&systèmes entreprise th<br/>Enseignant : Tricarico<br/>Sa
+ lle : 2/10F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240619T070709Z
+UID:Cours-180117-8-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241108T093000Z
+DTEND:20241108T113000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240619T070707Z
+UID:Cours-180119-8-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241108T073000Z
+DTEND:20241108T093000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230829T094459Z
+UID:Cours-180124-2-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20240923T083000Z
+DTEND:20240923T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Program. résea
+ u Java - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Program. réseau Java\nEnseignant : Tricarico\nSalle : 2/10F\nType : La
+ boratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Program. réseau Java<br/>Enseignant : Tricarico<br/>Salle : 2/
+ 10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230831T122607Z
+UID:Cours-182271-2-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20240924T061500Z
+DTEND:20240924T081500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl. microcon
+ trôleurs - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl. microcontrôleurs\nEnseignant : Scopel\nSalle : 2/10F\nType : Cou
+ rs\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl. microcontrôleurs<br/>Enseignant : Scopel<br/>Salle : 2/1
+ 0F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230831T122607Z
+UID:Cours-182271-3-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241001T061500Z
+DTEND:20241001T081500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl. microcon
+ trôleurs - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl. microcontrôleurs\nEnseignant : Scopel\nSalle : 2/10F\nType : Cou
+ rs\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl. microcontrôleurs<br/>Enseignant : Scopel<br/>Salle : 2/1
+ 0F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230831T122607Z
+UID:Cours-182271-4-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241008T061500Z
+DTEND:20241008T081500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl. microcon
+ trôleurs - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl. microcontrôleurs\nEnseignant : Scopel\nSalle : 2/10F\nType : Cou
+ rs\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl. microcontrôleurs<br/>Enseignant : Scopel<br/>Salle : 2/1
+ 0F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230831T122607Z
+UID:Cours-182271-5-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241015T061500Z
+DTEND:20241015T081500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl. microcon
+ trôleurs - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl. microcontrôleurs\nEnseignant : Scopel\nSalle : 2/10F\nType : Cou
+ rs\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl. microcontrôleurs<br/>Enseignant : Scopel<br/>Salle : 2/1
+ 0F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230831T122607Z
+UID:Cours-182272-2-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20240924T083000Z
+DTEND:20240924T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl. microcon
+ trôleurs - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl. microcontrôleurs\nEnseignant : Scopel\nSalle : 2/10F\nType : Cou
+ rs\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl. microcontrôleurs<br/>Enseignant : Scopel<br/>Salle : 2/1
+ 0F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230831T122607Z
+UID:Cours-182272-3-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241001T083000Z
+DTEND:20241001T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl. microcon
+ trôleurs - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl. microcontrôleurs\nEnseignant : Scopel\nSalle : 2/10F\nType : Cou
+ rs\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl. microcontrôleurs<br/>Enseignant : Scopel<br/>Salle : 2/1
+ 0F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230831T122607Z
+UID:Cours-182272-4-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241008T083000Z
+DTEND:20241008T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl. microcon
+ trôleurs - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl. microcontrôleurs\nEnseignant : Scopel\nSalle : 2/10F\nType : Cou
+ rs\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl. microcontrôleurs<br/>Enseignant : Scopel<br/>Salle : 2/1
+ 0F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230831T122607Z
+UID:Cours-182272-5-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241015T083000Z
+DTEND:20241015T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl. microcon
+ trôleurs - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl. microcontrôleurs\nEnseignant : Scopel\nSalle : 2/10F\nType : Cou
+ rs\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl. microcontrôleurs<br/>Enseignant : Scopel<br/>Salle : 2/1
+ 0F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20231114T130628Z
+UID:Cours-185170-1-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20240919T061500Z
+DTEND:20240919T081500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.&systèmes
+  entreprise th - Tricarico - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.&systèmes entreprise th\nEnseignant : Tricarico\nSalle : 2/10F\nT
+ ype : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.&systèmes entreprise th<br/>Enseignant : Tricarico<br/>Sa
+ lle : 2/10F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20231114T130628Z
+UID:Cours-185170-2-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20240926T061500Z
+DTEND:20240926T081500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.&systèmes
+  entreprise th - Tricarico - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.&systèmes entreprise th\nEnseignant : Tricarico\nSalle : 2/10F\nT
+ ype : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.&systèmes entreprise th<br/>Enseignant : Tricarico<br/>Sa
+ lle : 2/10F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20231114T130628Z
+UID:Cours-185170-3-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241003T061500Z
+DTEND:20241003T081500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.&systèmes
+  entreprise th - Tricarico - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.&systèmes entreprise th\nEnseignant : Tricarico\nSalle : 2/10F\nT
+ ype : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.&systèmes entreprise th<br/>Enseignant : Tricarico<br/>Sa
+ lle : 2/10F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20231114T130628Z
+UID:Cours-185170-4-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241010T061500Z
+DTEND:20241010T081500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.&systèmes
+  entreprise th - Tricarico - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.&systèmes entreprise th\nEnseignant : Tricarico\nSalle : 2/10F\nT
+ ype : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.&systèmes entreprise th<br/>Enseignant : Tricarico<br/>Sa
+ lle : 2/10F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230829T094448Z
+UID:Cours-185171-10-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241118T093000Z
+DTEND:20241118T113000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.& systeme
+ s entreprise tp - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.& systemes entreprise tp\nEnseignant : Tricarico\nSalle : 2/10F\n
+ Type : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.& systemes entreprise tp<br/>Enseignant : Tricarico<br/>S
+ alle : 2/10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240710T071319Z
+UID:Cours-185173-13-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241209T093000Z
+DTEND:20241209T113000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.& systeme
+ s entreprise tp - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.& systemes entreprise tp\nEnseignant : Tricarico\nSalle : 2/10F\n
+ Type : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.& systemes entreprise tp<br/>Enseignant : Tricarico<br/>S
+ alle : 2/10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230829T094635Z
+UID:Cours-185181-13-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241210T123000Z
+DTEND:20241210T153000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.& systeme
+ s entreprise tp - Tricarico - Laboratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.& systemes entreprise tp\nEnseignant : Tricarico\nType : Laborato
+ ires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.& systemes entreprise tp<br/>Enseignant : Tricarico<br/>T
+ ype : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230901T094014Z
+UID:Cours-187461-3-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241003T113000Z
+DTEND:20241003T133000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Program. résea
+ u Java - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Program. réseau Java\nEnseignant : Tricarico\nSalle : 2/10F\nType : La
+ boratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Program. réseau Java<br/>Enseignant : Tricarico<br/>Salle : 2/
+ 10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230928T080927Z
+UID:Cours-187462-1-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20240919T083000Z
+DTEND:20240919T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique\, Groupe Sécurit
+ é BA3P Informatique - Développement des softskills - Lenaerts\, Naizy - Co
+ urs
+LOCATION;LANGUAGE=fr:1/37
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\, Group
+ e Sécurité BA3P Informatique\nMatière : Développement des softskills\nEnse
+ ignants : Lenaerts\, Naizy\nSalle : 1/37\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique\, 
+ Groupe Sécurité BA3P Informatique<br/>Matière : Développement des softskil
+ ls<br/>Enseignants : Lenaerts\, Naizy<br/>Salle : 1/37<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230928T080927Z
+UID:Cours-187462-3-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241003T083000Z
+DTEND:20241003T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique\, Groupe Sécurit
+ é BA3P Informatique - Développement des softskills - Lenaerts\, Naizy - Co
+ urs
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\, Group
+ e Sécurité BA3P Informatique\nMatière : Développement des softskills\nEnse
+ ignants : Lenaerts\, Naizy\nSalle : 2/08\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique\, 
+ Groupe Sécurité BA3P Informatique<br/>Matière : Développement des softskil
+ ls<br/>Enseignants : Lenaerts\, Naizy<br/>Salle : 2/08<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20231114T130628Z
+UID:Cours-191445-2-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20240925T083000Z
+DTEND:20240925T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.&systèmes
+  entreprise th - Tricarico - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.&systèmes entreprise th\nEnseignant : Tricarico\nSalle : 2/10F\nT
+ ype : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.&systèmes entreprise th<br/>Enseignant : Tricarico<br/>Sa
+ lle : 2/10F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240710T070211Z
+UID:Cours-205239-12-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241202T073000Z
+DTEND:20241202T163000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Program. résea
+ u Java - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Program. réseau Java\nEnseignant : Tricarico\nSalle : 2/10F\nType : La
+ boratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Program. réseau Java<br/>Enseignant : Tricarico<br/>Salle : 2/
+ 10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240710T071504Z
+UID:Cours-205240-3-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241001T113000Z
+DTEND:20241001T133000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.&systèmes
+  entreprise th - Tricarico - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.&systèmes entreprise th\nEnseignant : Tricarico\nSalle : 2/10F\nT
+ ype : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.&systèmes entreprise th<br/>Enseignant : Tricarico<br/>Sa
+ lle : 2/10F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240710T071504Z
+UID:Cours-205240-8-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241105T123000Z
+DTEND:20241105T143000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.&systèmes
+  entreprise th - Tricarico - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.&systèmes entreprise th\nEnseignant : Tricarico\nSalle : 2/10F\nT
+ ype : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.&systèmes entreprise th<br/>Enseignant : Tricarico<br/>Sa
+ lle : 2/10F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240710T070346Z
+UID:Cours-205241-5-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241017T083000Z
+DTEND:20241017T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.&systèmes
+  entreprise th - Tricarico - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.&systèmes entreprise th\nEnseignant : Tricarico\nSalle : 2/10F\nT
+ ype : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.&systèmes entreprise th<br/>Enseignant : Tricarico<br/>Sa
+ lle : 2/10F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240710T070404Z
+UID:Cours-205242-6-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241025T083000Z
+DTEND:20241025T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.&systèmes
+  entreprise th - Tricarico - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.&systèmes entreprise th\nEnseignant : Tricarico\nSalle : 2/10F\nT
+ ype : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.&systèmes entreprise th<br/>Enseignant : Tricarico<br/>Sa
+ lle : 2/10F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240710T070534Z
+UID:Cours-205245-10-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241118T071500Z
+DTEND:20241118T091500Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.&systèmes
+  entreprise th - Tricarico - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.&systèmes entreprise th\nEnseignant : Tricarico\nSalle : 2/10F\nT
+ ype : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.&systèmes entreprise th<br/>Enseignant : Tricarico<br/>Sa
+ lle : 2/10F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240710T071327Z
+UID:Cours-205246-3-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20240930T113000Z
+DTEND:20240930T143000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.& systeme
+ s entreprise tp - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.& systemes entreprise tp\nEnseignant : Tricarico\nSalle : 2/10F\n
+ Type : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.& systemes entreprise tp<br/>Enseignant : Tricarico<br/>S
+ alle : 2/10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240710T071327Z
+UID:Cours-205246-5-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241014T113000Z
+DTEND:20241014T143000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.& systeme
+ s entreprise tp - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.& systemes entreprise tp\nEnseignant : Tricarico\nSalle : 2/10F\n
+ Type : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.& systemes entreprise tp<br/>Enseignant : Tricarico<br/>S
+ alle : 2/10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240710T071327Z
+UID:Cours-205246-6-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241021T113000Z
+DTEND:20241021T143000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.& systeme
+ s entreprise tp - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.& systemes entreprise tp\nEnseignant : Tricarico\nSalle : 1/28\nT
+ ype : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.& systemes entreprise tp<br/>Enseignant : Tricarico<br/>S
+ alle : 1/28<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240710T071327Z
+UID:Cours-205246-8-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241104T123000Z
+DTEND:20241104T153000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.& systeme
+ s entreprise tp - Tricarico - Laboratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.& systemes entreprise tp\nEnseignant : Tricarico\nType : Laborato
+ ires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.& systemes entreprise tp<br/>Enseignant : Tricarico<br/>T
+ ype : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240710T071327Z
+UID:Cours-205246-10-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241118T123000Z
+DTEND:20241118T153000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.& systeme
+ s entreprise tp - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.& systemes entreprise tp\nEnseignant : Tricarico\nSalle : 2/10F\n
+ Type : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.& systemes entreprise tp<br/>Enseignant : Tricarico<br/>S
+ alle : 2/10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240710T071327Z
+UID:Cours-205246-13-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241209T123000Z
+DTEND:20241209T153000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.& systeme
+ s entreprise tp - Tricarico - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.& systemes entreprise tp\nEnseignant : Tricarico\nSalle : 2/10F\n
+ Type : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.& systemes entreprise tp<br/>Enseignant : Tricarico<br/>S
+ alle : 2/10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240710T071504Z
+UID:Cours-205249-9-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241113T093000Z
+DTEND:20241113T113000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Appl.&systèmes
+  entreprise th - Tricarico - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Appl.&systèmes entreprise th\nEnseignant : Tricarico\nSalle : 2/10F\nT
+ ype : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Appl.&systèmes entreprise th<br/>Enseignant : Tricarico<br/>Sa
+ lle : 2/10F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130151Z
+UID:Cours-205250-3-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241002T083000Z
+DTEND:20241002T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130151Z
+UID:Cours-205250-4-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241009T083000Z
+DTEND:20241009T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130151Z
+UID:Cours-205250-5-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241016T083000Z
+DTEND:20241016T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130151Z
+UID:Cours-205250-6-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241023T083000Z
+DTEND:20241023T103000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130151Z
+UID:Cours-205250-8-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241106T093000Z
+DTEND:20241106T113000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130151Z
+UID:Cours-205250-10-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241120T093000Z
+DTEND:20241120T113000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130151Z
+UID:Cours-205250-13-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241211T093000Z
+DTEND:20241211T113000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10C\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T130151Z
+UID:Cours-205250-14-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241218T093000Z
+DTEND:20241218T113000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10B\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240710T071614Z
+UID:Cours-205252-10-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241122T123000Z
+DTEND:20241122T163000Z
+SUMMARY;LANGUAGE=fr:Groupe Développement BA3P Informatique - Applications h
+ ybrides - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe Développement BA3P Informatique\nMatièr
+ e : Applications hybrides\nEnseignant : Scopel\nSalle : 2/10F\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe Développement BA3P Informatique<br
+ />Matière : Applications hybrides<br/>Enseignant : Scopel<br/>Salle : 2/10
+ F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240626T073317Z
+UID:Cours-155548-1-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20240918T073000Z
+DTEND:20240918T103000Z
+SUMMARY;LANGUAGE=fr:Projets informatiques - Depreter\, Desmet\, Malaise\, M
+ andoux - Cours
+LOCATION;LANGUAGE=fr:2/10D\, 2/10F
+DESCRIPTION;LANGUAGE=fr:Matière : Projets informatiques\nEnseignants : Depr
+ eter\, Desmet\, Malaise\, Mandoux\nSalles : 2/10D\, 2/10F\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projets informatiques<br/>Enseignant
+ s : Depreter\, Desmet\, Malaise\, Mandoux<br/>Salles : 2/10D\, 2/10F<br/>T
+ ype : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240904T073016Z
+UID:Cours-155549-5-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241018T061500Z
+DTEND:20241018T081500Z
+SUMMARY;LANGUAGE=fr:Projets informatiques - Depreter\, Desmet\, Malaise - C
+ ours
+LOCATION;LANGUAGE=fr:2/17D (LCAO)
+DESCRIPTION;LANGUAGE=fr:Matière : Projets informatiques\nEnseignants : Depr
+ eter\, Desmet\, Malaise\nSalle : 2/17D (LCAO)\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projets informatiques<br/>Enseignant
+ s : Depreter\, Desmet\, Malaise<br/>Salle : 2/17D (LCAO)<br/>Type : Cours<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240912T080541Z
+UID:Cours-155557-2-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20240926T083000Z
+DTEND:20240926T103000Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240823T070921Z
+UID:Cours-158882-4-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241010T083000Z
+DTEND:20241010T103000Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T061024Z
+UID:Cours-159135-9-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241115T123000Z
+DTEND:20241115T153000Z
+SUMMARY;LANGUAGE=fr:Projets informatiques - Depreter\, Desmet\, Malaise\, M
+ andoux - Cours
+LOCATION;LANGUAGE=fr:2/10F\, 2/13
+DESCRIPTION;LANGUAGE=fr:Matière : Projets informatiques\nEnseignants : Depr
+ eter\, Desmet\, Malaise\, Mandoux\nSalles : 2/10F\, 2/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projets informatiques<br/>Enseignant
+ s : Depreter\, Desmet\, Malaise\, Mandoux<br/>Salles : 2/10F\, 2/13<br/>Ty
+ pe : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240918T121408Z
+UID:Cours-180126-2-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20240923T113000Z
+DTEND:20240923T123000Z
+SUMMARY;LANGUAGE=fr:Projets informatiques - Depreter\, Desmet\, Malaise\, M
+ andoux - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Projets informatiques\nEnseignants : Depr
+ eter\, Desmet\, Malaise\, Mandoux\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projets informatiques<br/>Enseignant
+ s : Depreter\, Desmet\, Malaise\, Mandoux<br/>Salle : 2/09C<br/>Type : Cou
+ rs<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240912T080718Z
+UID:Cours-187471-2-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20240923T061500Z
+DTEND:20240923T081500Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240912T080718Z
+UID:Cours-187471-3-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20240930T061500Z
+DTEND:20240930T081500Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240912T080718Z
+UID:Cours-187471-4-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241007T061500Z
+DTEND:20241007T081500Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240912T080718Z
+UID:Cours-187471-5-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241014T061500Z
+DTEND:20241014T081500Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240912T080718Z
+UID:Cours-187471-8-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241104T071500Z
+DTEND:20241104T091500Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 1/18<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240918T121441Z
+UID:Cours-188993-3-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241004T090000Z
+DTEND:20241004T103000Z
+SUMMARY;LANGUAGE=fr:Projets informatiques - Depreter\, Desmet\, Malaise - C
+ ours
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:Matière : Projets informatiques\nEnseignants : Depr
+ eter\, Desmet\, Malaise\nSalle : 2/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projets informatiques<br/>Enseignant
+ s : Depreter\, Desmet\, Malaise<br/>Salle : 2/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20231107T133500Z
+UID:Cours-188994-13-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241213T083000Z
+DTEND:20241213T113000Z
+SUMMARY;LANGUAGE=fr:Projets informatiques - Depreter\, Desmet\, Malaise - C
+ ours
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:Matière : Projets informatiques\nEnseignants : Depr
+ eter\, Desmet\, Malaise\nSalle : 2/10F\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projets informatiques<br/>Enseignant
+ s : Depreter\, Desmet\, Malaise<br/>Salle : 2/10F<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240905T061803Z
+UID:Cours-192639-4-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241008T143000Z
+DTEND:20241008T153000Z
+SUMMARY;LANGUAGE=fr:Projets informatiques - Depreter\, Desmet\, Malaise - C
+ ours
+LOCATION;LANGUAGE=fr:2/10F\, 2/13
+DESCRIPTION;LANGUAGE=fr:Matière : Projets informatiques\nEnseignants : Depr
+ eter\, Desmet\, Malaise\nSalles : 2/10F\, 2/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projets informatiques<br/>Enseignant
+ s : Depreter\, Desmet\, Malaise<br/>Salles : 2/10F\, 2/13<br/>Type : Cours
+ <br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20230929T113851Z
+UID:Cours-192640-6-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241025T063000Z
+DTEND:20241025T080000Z
+SUMMARY;LANGUAGE=fr:Projets informatiques - Mandoux - pour les étudiants de
+  sécurité prendre rdv avec Monsieur Mandoux par mail - Cours
+LOCATION;LANGUAGE=fr:2/10F\, 2/13
+DESCRIPTION;LANGUAGE=fr:Matière : Projets informatiques\nEnseignant : Mando
+ ux\nSalles : 2/10F\, 2/13\nMémo : pour les étudiants de sécurité prendre r
+ dv avec Monsieur Mandoux par mail\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projets informatiques<br/>Enseignant
+  : Mandoux<br/>Salles : 2/10F\, 2/13<br/>Mémo : pour les étudiants de sécu
+ rité prendre rdv avec Monsieur Mandoux par mail<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+LAST-MODIFIED:20240710T072140Z
+UID:Cours-203791-6-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART:20241022T061500Z
+DTEND:20241022T143000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Informatique\, BA3 TL 
+ - LDT - Salon Job contact - 24-25
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Informat
+ ique\, BA3 TL - LDT\nMatière : Salon Job contact\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Inf
+ ormatique\, BA3 TL - LDT<br/>Matière : Salon Job contact<br/>Mémo : 24-25<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+UID:Ferie-939-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240928
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+UID:Ferie-940-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222530Z
+UID:Ferie-941-Groupe_Developpement_BA3P_Informatique-Index-Education
+DTSTART;VALUE=DATE:20241111
+DTEND;VALUE=DATE:20241112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+END:VCALENDAR

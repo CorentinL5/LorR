@@ -1,0 +1,389 @@
+{
+  "AESI 3 SC HUM ARTICLE 132": {
+    "groupes": {
+    }
+  },
+  "AESI Arts Plastiques B3 Mons": {
+    "groupes": {
+    }
+  },
+  "AESI Français EPC B3 Tournai": {
+    "groupes": {
+    }
+  },
+  "AESI Français Morale B3 Tournai": {
+    "groupes": {
+    }
+  },
+  "AESI Français-FLE B3 Mons": {
+    "groupes": {
+    }
+  },
+  "AESI Langues Germaniques B3 Mons": {
+    "groupes": {
+    }
+  },
+  "AESI Mathématiques B3 Mons": {
+    "groupes": {
+    }
+  },
+  "AESI Mathématiques B3 Tournai": {
+    "groupes": {
+    }
+  },
+  "AESI Sciences B3 Mons": {
+    "groupes": {
+    }
+  },
+  "AESI Sciences Humaines B3 Mons": {
+    "groupes": {
+    }
+  },
+  "AESI Sciences Humaines B3 Tournai": {
+    "groupes": {
+    }
+  },
+  "B3 PP Mons Session Prolongée": {
+    "groupes": {
+    }
+  },
+  "BA1 Assistant de direction": {
+    "groupes": {
+    }
+  },
+  "BA1 Assistant social (Ms)": {
+    "groupes": {
+    }
+  },
+  "BA1 Assistant social (To)": {
+    "groupes": {
+    }
+  },
+  "BA1 Conseiller social": {
+    "groupes": {
+    }
+  },
+  "BA1 Droit": {
+    "groupes": {
+    }
+  },
+  "BA1 Sciences industrielles": {
+    "groupes": {
+    }
+  },
+  "BA1 Tourisme": {
+    "groupes": {
+    }
+  },
+  "BA1P Biotechnique": {
+    "groupes": {
+    }
+  },
+  "BA1P Electronique": {
+    "groupes": {
+    }
+  },
+  "BA1P Infographie": {
+    "groupes": {
+    }
+  },
+  "BA1P Informatique": {
+    "groupes": {
+      "g1": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_1_BA1P_Informatique.ics?version=2024.0.8.0&icalsecurise=EC99A4C0D7D6270368B9B3F1586727DBF92BC2C1CB4AE19D1600672E66C1A8D8262695BFC2007B2D61CEE878D3CB86D0&param=643d5b312e2e36325d2666683d3126663d3131313131",
+      "g2": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_2_BA1P_Informatique.ics?version=2024.0.8.0&icalsecurise=9E3A1D05EA92779D797F5025FACE145D856B61DB77D5D00D1CC60E6AC3A343E459A6433BB62C2A600313F2890E1697AC&param=643d5b312e2e36325d2666683d3126663d3131313131",
+      "g3": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_3_BA1P_Informatique.ics?version=2024.0.8.0&icalsecurise=431E00C6341F19EB973DE1052872F756BEA5D2A956A4D6D56B42B4479E141FBAE9631A6BDB3F177EAF9C2C28A07244C5&param=643d5b312e2e36325d2666683d3126663d3131313131",
+      "g4": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_4_BA1P_Informatique.ics?version=2024.0.8.0&icalsecurise=431E00C6341F19EB973DE1052872F75619A92C6D53B4B63C2CA3A2CA7BDDB5D1CBBF7C837F0DAA02DF81EA2CB6DD0EB3&param=643d5b312e2e36325d2666683d3126663d3131313131",
+      "g5": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_5_BA1P_Informatique.ics?version=2024.0.8.0&icalsecurise=CA726228FFEAD412CD9AC9A1054854D8A6B491B053F2DA04E801CF77446D259C66C152EB945D33A6A425862CA7917BD1&param=643d5b312e2e36325d2666683d3126663d3131313131"
+    }
+  },
+  "BA2 Assistant de direction": {
+    "groupes": {
+    }
+  },
+  "BA2 Assistant social (Ms)": {
+    "groupes": {
+    }
+  },
+  "BA2 Assistant social (To)": {
+    "groupes": {
+    }
+  },
+  "BA2 Conseiller social": {
+    "groupes": {
+    }
+  },
+  "BA2 Droit": {
+    "groupes": {
+    }
+  },
+  "BA2 Sciences industrielles": {
+    "groupes": {
+    }
+  },
+  "BA2 Tourisme": {
+    "groupes": {
+    }
+  },
+  "BA2P Biotechnique": {
+    "groupes": {
+    }
+  },
+  "BA2P Electronique": {
+    "groupes": {
+    }
+  },
+  "BA2P Infographie": {
+    "groupes": {
+    }
+  },
+  "BA2P Informatique": {
+    "groupes": {
+      "Développement1": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_1_BA2P_Informatique_Develop_.ics?version=2024.0.8.0&icalsecurise=0ED009EA4ADA0632833671314CB0ABA996FAD0E43493797C0AFA6A2ABDF5045F9500ABA06AB188AAA7121C602B65E1CC&param=643d5b312e2e36325d2666683d3126663d3131313131",
+      "Développement2": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_2_BA2P_Informatique_Develop_.ics?version=2024.0.8.0&icalsecurise=8BC05FB2690C5DE57C4E03AECE273597121493E952B95C71D170FD46AF1CCB32CAC20287E02729138430E877D7A2D2B8&param=643d5b312e2e36325d2666683d3126663d3131313131",
+      "Sécurité1": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_1_BA2P_Informatique_Securite.ics?version=2024.0.8.0&icalsecurise=5A6815D77ADB4AD3C57997700926DEC2C0275C4A651169E962BF140A922CD6F63A23E84C8CFAAD4B72057228907E0606&param=643d5b312e2e36325d2666683d3126663d3131313131",
+      "Sécurité2": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_2_BA2P_Informatique_Securite.ics?version=2024.0.8.0&icalsecurise=5A6815D77ADB4AD3C57997700926DEC259FAE083E58FE04133B01E1CD204DECA3F018A8DA86A51CD09D0256D1656F71D&param=643d5b312e2e36325d2666683d3126663d3131313131"
+    }
+  },
+  "BA3 Assistant de direction": {
+    "groupes": {
+    }
+  },
+  "BA3 Assistant social (Ms)": {
+    "groupes": {
+    }
+  },
+  "BA3 Assistant social (To)": {
+    "groupes": {
+    }
+  },
+  "BA3 Conseiller social": {
+    "groupes": {
+    }
+  },
+  "BA3 Droit": {
+    "groupes": {
+    }
+  },
+  "BA3 Sciences industrielles": {
+    "groupes": {
+    }
+  },
+  "BA3 Session prolongée Tournai": {
+    "groupes": {
+    }
+  },
+  "BA3 Tourisme": {
+    "groupes": {
+    }
+  },
+  "BA3P Biotechnique": {
+    "groupes": {
+    }
+  },
+  "BA3P Electronique": {
+    "groupes": {
+    }
+  },
+  "BA3P Infographie": {
+    "groupes": {
+    }
+  },
+  "BA3P Informatique": {
+    "groupes": {
+      "Développement": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_Developpement_BA3P_Informatique.ics?version=2024.0.8.0&icalsecurise=0ED009EA4ADA0632833671314CB0ABA9D852EAF36D553CD0A51A121288ECD4E3EC8A6E250AAD06675C5CAF1377FB9063&param=643d5b312e2e36325d2666683d3126663d3131313131",
+      "Sécurité": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_Securite_BA3P_Informatique.ics?version=2024.0.8.0&icalsecurise=8BC05FB2690C5DE57C4E03AECE2735976E9460AD80F1E76F59B51817D5C93B0F89F367FBFF508FCCE27416880C5E86FF&param=643d5b312e2e36325d2666683d3126663d3131313131"
+    }
+  },
+  "BA3PP session prolongée Tournai": {
+    "groupes": {
+    }
+  },
+  "EPC Péda Mons": {
+    "groupes": {
+    }
+  },
+  "ES B1 Mons": {
+    "groupes": {
+    }
+  },
+  "ES B1 Tournai": {
+    "groupes": {
+    }
+  },
+  "ES B2 Mons": {
+    "groupes": {
+    }
+  },
+  "ES B2 Tournai": {
+    "groupes": {
+    }
+  },
+  "ES B3 Mons": {
+    "groupes": {
+    }
+  },
+  "ES B3 Tournai": {
+    "groupes": {
+    }
+  },
+  "M0 LDT BioChimieAgro": {
+    "groupes": {
+    }
+  },
+  "M0 LDT Info": {
+    "groupes": {
+    }
+  },
+  "M0 LDT-Bioinfo": {
+    "groupes": {
+    }
+  },
+  "M0 Pass Electro vers Master Informatique": {
+    "groupes": {
+    }
+  },
+  "M0 Pass Info vers Master Informatique": {
+    "groupes": {
+    }
+  },
+  "M0 Passerelle Construction": {
+    "groupes": {
+    }
+  },
+  "MA1 Ingénieur industriel": {
+    "groupes": {
+    }
+  },
+  "MA2 Ingénieur industriel": {
+    "groupes": {
+    }
+  },
+  "PP B3 Mons": {
+    "groupes": {
+    }
+  },
+  "PP B3 Tournai": {
+    "groupes": {
+    }
+  },
+  "PS B3 Tournai": {
+    "groupes": {
+    }
+  },
+  "S1 B1 Tournai": {
+    "groupes": {
+    }
+  },
+  "S1 B2 Tournai": {
+    "groupes": {
+    }
+  },
+  "S2 B1 Mons": {
+    "groupes": {
+    }
+  },
+  "S2 B1 Tournai": {
+    "groupes": {
+    }
+  },
+  "S2 B2 Mons": {
+    "groupes": {
+    }
+  },
+  "S2 B2 Tournai": {
+    "groupes": {
+    }
+  },
+  "S3 Arts Plastiques-ECA B1 Mons": {
+    "groupes": {
+    }
+  },
+  "S3 Arts Plastiques-ECA B2 Mons": {
+    "groupes": {
+    }
+  },
+  "S3 FMTTN B1 Tournai": {
+    "groupes": {
+    }
+  },
+  "S3 Français-ECA B1 Mons": {
+    "groupes": {
+    }
+  },
+  "S3 Français-ECA B1 Tournai": {
+    "groupes": {
+    }
+  },
+  "S3 Français-ECA B2 Mons": {
+    "groupes": {
+    }
+  },
+  "S3 Français-ECA B2 Tournai": {
+    "groupes": {
+    }
+  },
+  "S3 Français-EPC B1 Tournai": {
+    "groupes": {
+    }
+  },
+  "S3 Français-EPC B2 Tournai": {
+    "groupes": {
+    }
+  },
+  "S3 Français-FLE-FLA B1 Mons": {
+    "groupes": {
+    }
+  },
+  "S3 Français-FLE-FLA B2 Mons": {
+    "groupes": {
+    }
+  },
+  "S3 Langues Germaniques B1 Mons": {
+    "groupes": {
+    }
+  },
+  "S3 Langues Germaniques B2 Mons": {
+    "groupes": {
+    }
+  },
+  "S3 Mathématiques-Numérique B1 Mons": {
+    "groupes": {
+    }
+  },
+  "S3 Mathématiques-Numérique B1 Tournai": {
+    "groupes": {
+    }
+  },
+  "S3 Mathématiques-Numérique B2 Mons": {
+    "groupes": {
+    }
+  },
+  "S3 Mathématiques-Numérique B2 Tournai": {
+    "groupes": {
+    }
+  },
+  "S3 Sciences B1 Mons": {
+    "groupes": {
+    }
+  },
+  "S3 Sciences B2 Mons": {
+    "groupes": {
+    }
+  },
+  "S3 Sciences Humaines B1 Mons": {
+    "groupes": {
+    }
+  },
+  "S3 Sciences Humaines B1 Tournai": {
+    "groupes": {
+    }
+  },
+  "S3 Sciences Humaines B2 Mons": {
+    "groupes": {
+    }
+  },
+  "S3 Sciences Humaines B2 Tournai": {
+    "groupes": {
+    }
+  }
+}

@@ -1,0 +1,1817 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
+METHOD:PUBLISH
+X-CALSTART:20240916T000000Z
+X-CALEND:20241221T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - <BA2P Informatique> <Sécurité> Groupe 1 BA2P
+  Informatique Sécurité - du 16 septembre au 21 décembre 2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de <BA2P Informatique> <Sécurité> 
+ Groupe 1 BA2P Informatique Sécurité généré par le logiciel HP (©INDEX ÉDUC
+ ATION) le 22 sept. 2024 - Haute Ecole en Hainaut - valable sur la période 
+ du 16 septembre au 21 décembre 2024 - Semaines : semaine 38 - 51
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T111051Z
+UID:Cours-156295-2-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20240926T061500Z
+DTEND:20240926T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Administration Li
+ nux -TP - Malaise - Laboratoires
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Administration Linux -TP\nEnseignant : Malaise\nSalle : 2/10D\nType : Lab
+ oratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Administration Linux -TP<br/>Enseignant : Malaise<br/>Salle : 2/1
+ 0D<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T111051Z
+UID:Cours-156295-3-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241003T061500Z
+DTEND:20241003T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Administration Li
+ nux -TP - Malaise - Laboratoires
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Administration Linux -TP\nEnseignant : Malaise\nSalle : 1/23\nType : Labo
+ ratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Administration Linux -TP<br/>Enseignant : Malaise<br/>Salle : 1/2
+ 3<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T111051Z
+UID:Cours-156295-4-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241010T061500Z
+DTEND:20241010T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Administration Li
+ nux -TP - Malaise - Laboratoires
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Administration Linux -TP\nEnseignant : Malaise\nSalle : 1/23\nType : Labo
+ ratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Administration Linux -TP<br/>Enseignant : Malaise<br/>Salle : 1/2
+ 3<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T111051Z
+UID:Cours-156295-6-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241024T061500Z
+DTEND:20241024T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Administration Li
+ nux -TP - Malaise - Laboratoires
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Administration Linux -TP\nEnseignant : Malaise\nSalle : 1/23\nType : Labo
+ ratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Administration Linux -TP<br/>Enseignant : Malaise<br/>Salle : 1/2
+ 3<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T111051Z
+UID:Cours-156295-11-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241128T071500Z
+DTEND:20241128T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Administration Li
+ nux -TP - Malaise - Laboratoires
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Administration Linux -TP\nEnseignant : Malaise\nSalle : 1/23\nType : Labo
+ ratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Administration Linux -TP<br/>Enseignant : Malaise<br/>Salle : 1/2
+ 3<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T111051Z
+UID:Cours-156295-12-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241205T071500Z
+DTEND:20241205T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Administration Li
+ nux -TP - Malaise - Laboratoires
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Administration Linux -TP\nEnseignant : Malaise\nSalle : 2/10B\nType : Lab
+ oratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Administration Linux -TP<br/>Enseignant : Malaise<br/>Salle : 2/1
+ 0B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T111051Z
+UID:Cours-156295-13-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241212T071500Z
+DTEND:20241212T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Administration Li
+ nux -TP - Malaise - Laboratoires
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Administration Linux -TP\nEnseignant : Malaise\nSalle : 2/10B\nType : Lab
+ oratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Administration Linux -TP<br/>Enseignant : Malaise<br/>Salle : 2/1
+ 0B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T095041Z
+UID:Cours-158913-8-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241107T071500Z
+DTEND:20241107T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Télécom.&réseaux 
+ avancés-TP - Mandoux - Laboratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Télécom.&réseaux avancés-TP\nEnseignant : Mandoux\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Télécom.&réseaux avancés-TP<br/>Enseignant : Mandoux<br/>Type : L
+ aboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20230904T130019Z
+UID:Cours-158914-13-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241212T121500Z
+DTEND:20241212T161500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Télécom.&réseaux 
+ avancés-TP - Mandoux - Laboratoires
+LOCATION;LANGUAGE=fr:2/13
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Télécom.&réseaux avancés-TP\nEnseignant : Mandoux\nSalle : 2/13\nType : L
+ aboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Télécom.&réseaux avancés-TP<br/>Enseignant : Mandoux<br/>Salle : 
+ 2/13<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20221130T133016Z
+UID:Cours-169656-13-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241210T093000Z
+DTEND:20241210T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Concepts routage&
+ commut-TP - Petein - Laboratoires
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Concepts routage&commut-TP\nEnseignant : Petein\nSalle : 1/27\nType : Lab
+ oratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Concepts routage&commut-TP<br/>Enseignant : Petein<br/>Salle : 1/
+ 27<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T095103Z
+UID:Cours-169657-10-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241121T071500Z
+DTEND:20241121T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Concepts routage&
+ commut-TP - Petein - Laboratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Concepts routage&commut-TP\nEnseignant : Petein\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Concepts routage&commut-TP<br/>Enseignant : Petein<br/>Type : Lab
+ oratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240909T091744Z
+UID:Cours-171892-10-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241118T123000Z
+DTEND:20241118T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Concepts routage&
+ commut-TP - Petein - Laboratoires
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Concepts routage&commut-TP\nEnseignant : Petein\nSalle : 2/10D\nType : La
+ boratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Concepts routage&commut-TP<br/>Enseignant : Petein<br/>Salle : 2/
+ 10D<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20221130T133005Z
+UID:Cours-171893-13-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241210T123000Z
+DTEND:20241210T143000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Concepts routage&
+ commut-TP - Petein - Laboratoires
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Concepts routage&commut-TP\nEnseignant : Petein\nSalle : 1/21\nType : Lab
+ oratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Concepts routage&commut-TP<br/>Enseignant : Petein<br/>Salle : 1/
+ 21<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240902T105057Z
+UID:Cours-192701-4-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241008T113000Z
+DTEND:20241008T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - B. de données & D
+ év back-endTP - Miller - Laboratoires
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  B. de données & Dév back-endTP\nEnseignant : Miller\nSalle : 2/16\nType :
+  Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : B. de données & Dév back-endTP<br/>Enseignant : Miller<br/>Salle 
+ : 2/16<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T093116Z
+UID:Cours-192702-5-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241018T113000Z
+DTEND:20241018T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - B. de données & D
+ év back-endTP - Miller - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  B. de données & Dév back-endTP\nEnseignant : Miller\nSalle : 2/10F\nType 
+ : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : B. de données & Dév back-endTP<br/>Enseignant : Miller<br/>Salle 
+ : 2/10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T095720Z
+UID:Cours-196274-5-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241015T113000Z
+DTEND:20241015T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - B. de données & D
+ év back-endTP - Miller - Laboratoires
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  B. de données & Dév back-endTP\nEnseignant : Miller\nSalle : 2/16\nType :
+  Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : B. de données & Dév back-endTP<br/>Enseignant : Miller<br/>Salle 
+ : 2/16<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T095720Z
+UID:Cours-196274-8-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241105T123000Z
+DTEND:20241105T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - B. de données & D
+ év back-endTP - Miller - Laboratoires
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  B. de données & Dév back-endTP\nEnseignant : Miller\nSalle : 2/10D\nType 
+ : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : B. de données & Dév back-endTP<br/>Enseignant : Miller<br/>Salle 
+ : 2/10D<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T095720Z
+UID:Cours-196274-9-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241112T123000Z
+DTEND:20241112T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - B. de données & D
+ év back-endTP - Miller - Laboratoires
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  B. de données & Dév back-endTP\nEnseignant : Miller\nSalle : 1/21\nType :
+  Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : B. de données & Dév back-endTP<br/>Enseignant : Miller<br/>Salle 
+ : 1/21<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T095720Z
+UID:Cours-196274-10-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241119T123000Z
+DTEND:20241119T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - B. de données & D
+ év back-endTP - Miller - Laboratoires
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  B. de données & Dév back-endTP\nEnseignant : Miller\nSalle : 1/21\nType :
+  Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : B. de données & Dév back-endTP<br/>Enseignant : Miller<br/>Salle 
+ : 1/21<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T095720Z
+UID:Cours-196274-11-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241126T123000Z
+DTEND:20241126T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - B. de données & D
+ év back-endTP - Miller - Laboratoires
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  B. de données & Dév back-endTP\nEnseignant : Miller\nSalle : 1/21\nType :
+  Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : B. de données & Dév back-endTP<br/>Enseignant : Miller<br/>Salle 
+ : 1/21<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T095720Z
+UID:Cours-196274-12-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241203T123000Z
+DTEND:20241203T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - B. de données & D
+ év back-endTP - Miller - Laboratoires
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  B. de données & Dév back-endTP\nEnseignant : Miller\nSalle : 1/21\nType :
+  Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : B. de données & Dév back-endTP<br/>Enseignant : Miller<br/>Salle 
+ : 1/21<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20231116T141457Z
+UID:Cours-196275-12-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241202T123000Z
+DTEND:20241202T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - B. de données & D
+ év back-endTP - Miller - Laboratoires
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  B. de données & Dév back-endTP\nEnseignant : Miller\nSalle : 1/21\nType :
+  Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : B. de données & Dév back-endTP<br/>Enseignant : Miller<br/>Salle 
+ : 1/21<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T065424Z
+UID:Cours-205024-8-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241105T071500Z
+DTEND:20241105T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Windows server - 
+ TP - Pietrzak - Laboratoires
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Windows server - TP\nEnseignant : Pietrzak\nSalle : 2/16\nType : Laborato
+ ires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Windows server - TP<br/>Enseignant : Pietrzak<br/>Salle : 2/16<br
+ />Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T095041Z
+UID:Cours-205030-12-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241205T121500Z
+DTEND:20241205T161500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Télécom.&réseaux 
+ avancés-TP - Mandoux - Laboratoires
+LOCATION;LANGUAGE=fr:2/17D (LCAO)
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Télécom.&réseaux avancés-TP\nEnseignant : Mandoux\nSalle : 2/17D (LCAO)\n
+ Type : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Télécom.&réseaux avancés-TP<br/>Enseignant : Mandoux<br/>Salle : 
+ 2/17D (LCAO)<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T095616Z
+UID:Cours-205035-8-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241108T123000Z
+DTEND:20241108T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Windows server - 
+ TP - Pietrzak - Laboratoires
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Windows server - TP\nEnseignant : Pietrzak\nSalle : 2/16\nType : Laborato
+ ires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Windows server - TP<br/>Enseignant : Pietrzak<br/>Salle : 2/16<br
+ />Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T123611Z
+UID:Cours-205055-9-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241115T123000Z
+DTEND:20241115T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Windows server - 
+ TP - Pietrzak - Laboratoires
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Windows server - TP\nEnseignant : Pietrzak\nSalle : 2/16\nType : Laborato
+ ires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Windows server - TP<br/>Enseignant : Pietrzak<br/>Salle : 2/16<br
+ />Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T064802Z
+UID:Cours-205237-13-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241211T071500Z
+DTEND:20241211T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Windows server - 
+ TP - Pietrzak - Examen hors session - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Windows server - TP\nEnseignant : Pietrzak\nSalle : 2/10F\nMémo : Examen 
+ hors session\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Windows server - TP<br/>Enseignant : Pietrzak<br/>Salle : 2/10F<b
+ r/>Mémo : Examen hors session<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240903T085537Z
+UID:Cours-212124-5-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241017T113000Z
+DTEND:20241017T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Administration Li
+ nux -TP - Malaise - Laboratoires
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Administration Linux -TP\nEnseignant : Malaise\nSalle : 1/23\nType : Labo
+ ratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Administration Linux -TP<br/>Enseignant : Malaise<br/>Salle : 1/2
+ 3<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T065424Z
+UID:Cours-214106-4-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241007T113000Z
+DTEND:20241007T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Windows server - 
+ TP - Pietrzak - Laboratoires
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Windows server - TP\nEnseignant : Pietrzak\nSalle : 2/16\nType : Laborato
+ ires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Windows server - TP<br/>Enseignant : Pietrzak<br/>Salle : 2/16<br
+ />Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T065424Z
+UID:Cours-214106-5-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241014T113000Z
+DTEND:20241014T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Windows server - 
+ TP - Pietrzak - Laboratoires
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Windows server - TP\nEnseignant : Pietrzak\nSalle : 2/16\nType : Laborato
+ ires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Windows server - TP<br/>Enseignant : Pietrzak<br/>Salle : 2/16<br
+ />Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T065424Z
+UID:Cours-214106-6-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241021T113000Z
+DTEND:20241021T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Informatique Sécurité - Windows server - 
+ TP - Pietrzak - Laboratoires
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Informatique Sécurité\nMatière :
+  Windows server - TP\nEnseignant : Pietrzak\nSalle : 2/16\nType : Laborato
+ ires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Informatique Sécurité<br/>M
+ atière : Windows server - TP<br/>Enseignant : Pietrzak<br/>Salle : 2/16<br
+ />Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T095016Z
+UID:Cours-156258-9-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241115T093000Z
+DTEND:20241115T113000Z
+SUMMARY;LANGUAGE=fr:Math. et statistique appl. - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Math. et statistique appl.\nEnseignant : 
+ Carlier\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. et statistique appl.<br/>Ensei
+ gnant : Carlier<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20231026T054850Z
+UID:Cours-156259-1-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20240919T133000Z
+DTEND:20240919T153000Z
+SUMMARY;LANGUAGE=fr:Administration Linux - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Administration Linux - théorie\nEnseignan
+ t : Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Administration Linux - théorie<br/>E
+ nseignant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T062214Z
+UID:Cours-156260-1-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20240916T083000Z
+DTEND:20240916T103000Z
+SUMMARY;LANGUAGE=fr:Administration Linux - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Administration Linux - théorie\nEnseignan
+ t : Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Administration Linux - théorie<br/>E
+ nseignant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T062214Z
+UID:Cours-156260-2-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20240923T083000Z
+DTEND:20240923T103000Z
+SUMMARY;LANGUAGE=fr:Administration Linux - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Administration Linux - théorie\nEnseignan
+ t : Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Administration Linux - théorie<br/>E
+ nseignant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T062214Z
+UID:Cours-156260-3-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20240930T083000Z
+DTEND:20240930T103000Z
+SUMMARY;LANGUAGE=fr:Administration Linux - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Administration Linux - théorie\nEnseignan
+ t : Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Administration Linux - théorie<br/>E
+ nseignant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T062214Z
+UID:Cours-156260-4-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241007T083000Z
+DTEND:20241007T103000Z
+SUMMARY;LANGUAGE=fr:Administration Linux - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Administration Linux - théorie\nEnseignan
+ t : Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Administration Linux - théorie<br/>E
+ nseignant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T062214Z
+UID:Cours-156260-5-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241014T083000Z
+DTEND:20241014T103000Z
+SUMMARY;LANGUAGE=fr:Administration Linux - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Administration Linux - théorie\nEnseignan
+ t : Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Administration Linux - théorie<br/>E
+ nseignant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T062214Z
+UID:Cours-156260-6-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241021T083000Z
+DTEND:20241021T103000Z
+SUMMARY;LANGUAGE=fr:Administration Linux - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Administration Linux - théorie\nEnseignan
+ t : Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Administration Linux - théorie<br/>E
+ nseignant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T062214Z
+UID:Cours-156260-8-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241104T093000Z
+DTEND:20241104T113000Z
+SUMMARY;LANGUAGE=fr:Administration Linux - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Administration Linux - théorie\nEnseignan
+ t : Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Administration Linux - théorie<br/>E
+ nseignant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T062214Z
+UID:Cours-156260-9-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241111T093000Z
+DTEND:20241111T113000Z
+SUMMARY;LANGUAGE=fr:Administration Linux - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Administration Linux - théorie\nEnseignan
+ t : Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Administration Linux - théorie<br/>E
+ nseignant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T062214Z
+UID:Cours-156260-10-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241118T093000Z
+DTEND:20241118T113000Z
+SUMMARY;LANGUAGE=fr:Administration Linux - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Administration Linux - théorie\nEnseignan
+ t : Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Administration Linux - théorie<br/>E
+ nseignant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T062214Z
+UID:Cours-156260-11-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241125T093000Z
+DTEND:20241125T113000Z
+SUMMARY;LANGUAGE=fr:Administration Linux - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Administration Linux - théorie\nEnseignan
+ t : Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Administration Linux - théorie<br/>E
+ nseignant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20231020T125858Z
+UID:Cours-156278-10-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241120T071500Z
+DTEND:20241120T091500Z
+SUMMARY;LANGUAGE=fr:Concepts routage&commut-Théo - Petein - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Concepts routage&commut-Théo\nEnseignant 
+ : Petein\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Concepts routage&commut-Théo<br/>Ens
+ eignant : Petein<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240902T072353Z
+UID:Cours-156286-1-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20240917T061500Z
+DTEND:20240917T081500Z
+SUMMARY;LANGUAGE=fr:Physique appliquée - Roland - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée\nEnseignant : Roland\n
+ Salle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée<br/>Enseignant : 
+ Roland<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240902T072518Z
+UID:Cours-156287-2-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20240924T061500Z
+DTEND:20240924T081500Z
+SUMMARY;LANGUAGE=fr:Physique appliquée - Roland - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée\nEnseignant : Roland\n
+ Salle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée<br/>Enseignant : 
+ Roland<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240902T072518Z
+UID:Cours-156287-4-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241008T061500Z
+DTEND:20241008T081500Z
+SUMMARY;LANGUAGE=fr:Physique appliquée - Roland - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée\nEnseignant : Roland\n
+ Salle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée<br/>Enseignant : 
+ Roland<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240902T072518Z
+UID:Cours-156287-5-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241015T061500Z
+DTEND:20241015T081500Z
+SUMMARY;LANGUAGE=fr:Physique appliquée - Roland - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée\nEnseignant : Roland\n
+ Salle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée<br/>Enseignant : 
+ Roland<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240902T072518Z
+UID:Cours-156287-6-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241022T061500Z
+DTEND:20241022T081500Z
+SUMMARY;LANGUAGE=fr:Physique appliquée - Roland - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée\nEnseignant : Roland\n
+ Salle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée<br/>Enseignant : 
+ Roland<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240902T072518Z
+UID:Cours-156287-10-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241119T071500Z
+DTEND:20241119T091500Z
+SUMMARY;LANGUAGE=fr:Physique appliquée - Roland - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée\nEnseignant : Roland\n
+ Salle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée<br/>Enseignant : 
+ Roland<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T062254Z
+UID:Cours-156288-3-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241001T083000Z
+DTEND:20241001T103000Z
+SUMMARY;LANGUAGE=fr:Math. et statistique appl. - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Math. et statistique appl.\nEnseignant : 
+ Carlier\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. et statistique appl.<br/>Ensei
+ gnant : Carlier<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20221012T090301Z
+UID:Cours-156323-11-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241127T093000Z
+DTEND:20241127T113000Z
+SUMMARY;LANGUAGE=fr:Télécom.&réseaux avancés-Théo - Mandoux - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom.&réseaux avancés-Théo\nEnseignant
+  : Mandoux\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom.&réseaux avancés-Théo<br/>En
+ seignant : Mandoux<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20221012T090301Z
+UID:Cours-156323-12-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241204T093000Z
+DTEND:20241204T113000Z
+SUMMARY;LANGUAGE=fr:Télécom.&réseaux avancés-Théo - Mandoux - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom.&réseaux avancés-Théo\nEnseignant
+  : Mandoux\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom.&réseaux avancés-Théo<br/>En
+ seignant : Mandoux<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T061513Z
+UID:Cours-156330-1-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20240920T083000Z
+DTEND:20240920T103000Z
+SUMMARY;LANGUAGE=fr:Télécom.&réseaux avancés-Théo - Mandoux - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom.&réseaux avancés-Théo\nEnseignant
+  : Mandoux\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom.&réseaux avancés-Théo<br/>En
+ seignant : Mandoux<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T061513Z
+UID:Cours-156330-3-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241004T083000Z
+DTEND:20241004T103000Z
+SUMMARY;LANGUAGE=fr:Télécom.&réseaux avancés-Théo - Mandoux - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom.&réseaux avancés-Théo\nEnseignant
+  : Mandoux\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom.&réseaux avancés-Théo<br/>En
+ seignant : Mandoux<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T061513Z
+UID:Cours-156330-6-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241025T083000Z
+DTEND:20241025T103000Z
+SUMMARY;LANGUAGE=fr:Télécom.&réseaux avancés-Théo - Mandoux - Cours
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom.&réseaux avancés-Théo\nEnseignant
+  : Mandoux\nSalle : 2/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom.&réseaux avancés-Théo<br/>En
+ seignant : Mandoux<br/>Salle : 2/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T061513Z
+UID:Cours-156330-8-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241108T093000Z
+DTEND:20241108T113000Z
+SUMMARY;LANGUAGE=fr:Télécom.&réseaux avancés-Théo - Mandoux - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom.&réseaux avancés-Théo\nEnseignant
+  : Mandoux\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom.&réseaux avancés-Théo<br/>En
+ seignant : Mandoux<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T061513Z
+UID:Cours-156330-10-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241122T093000Z
+DTEND:20241122T113000Z
+SUMMARY;LANGUAGE=fr:Télécom.&réseaux avancés-Théo - Mandoux - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom.&réseaux avancés-Théo\nEnseignant
+  : Mandoux\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom.&réseaux avancés-Théo<br/>En
+ seignant : Mandoux<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T061513Z
+UID:Cours-156330-11-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241129T093000Z
+DTEND:20241129T113000Z
+SUMMARY;LANGUAGE=fr:Télécom.&réseaux avancés-Théo - Mandoux - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom.&réseaux avancés-Théo\nEnseignant
+  : Mandoux\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom.&réseaux avancés-Théo<br/>En
+ seignant : Mandoux<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T061513Z
+UID:Cours-156330-12-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241206T093000Z
+DTEND:20241206T113000Z
+SUMMARY;LANGUAGE=fr:Télécom.&réseaux avancés-Théo - Mandoux - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom.&réseaux avancés-Théo\nEnseignant
+  : Mandoux\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom.&réseaux avancés-Théo<br/>En
+ seignant : Mandoux<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20231020T125858Z
+UID:Cours-156338-1-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20240919T113000Z
+DTEND:20240919T133000Z
+SUMMARY;LANGUAGE=fr:Concepts routage&commut-Théo - Petein - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Concepts routage&commut-Théo\nEnseignant 
+ : Petein\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Concepts routage&commut-Théo<br/>Ens
+ eignant : Petein<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T092745Z
+UID:Cours-156835-1-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20240918T083000Z
+DTEND:20240918T103000Z
+SUMMARY;LANGUAGE=fr:Concepts routage&commut-Théo - Petein - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Concepts routage&commut-Théo\nEnseignant 
+ : Petein\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Concepts routage&commut-Théo<br/>Ens
+ eignant : Petein<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T092745Z
+UID:Cours-156835-2-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20240925T083000Z
+DTEND:20240925T103000Z
+SUMMARY;LANGUAGE=fr:Concepts routage&commut-Théo - Petein - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Concepts routage&commut-Théo\nEnseignant 
+ : Petein\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Concepts routage&commut-Théo<br/>Ens
+ eignant : Petein<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T092745Z
+UID:Cours-156835-3-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241002T083000Z
+DTEND:20241002T103000Z
+SUMMARY;LANGUAGE=fr:Concepts routage&commut-Théo - Petein - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Concepts routage&commut-Théo\nEnseignant 
+ : Petein\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Concepts routage&commut-Théo<br/>Ens
+ eignant : Petein<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T092745Z
+UID:Cours-156835-4-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241009T083000Z
+DTEND:20241009T103000Z
+SUMMARY;LANGUAGE=fr:Concepts routage&commut-Théo - Petein - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Concepts routage&commut-Théo\nEnseignant 
+ : Petein\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Concepts routage&commut-Théo<br/>Ens
+ eignant : Petein<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T092745Z
+UID:Cours-156835-5-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241016T083000Z
+DTEND:20241016T103000Z
+SUMMARY;LANGUAGE=fr:Concepts routage&commut-Théo - Petein - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Concepts routage&commut-Théo\nEnseignant 
+ : Petein\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Concepts routage&commut-Théo<br/>Ens
+ eignant : Petein<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T092745Z
+UID:Cours-156835-6-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241023T083000Z
+DTEND:20241023T103000Z
+SUMMARY;LANGUAGE=fr:Concepts routage&commut-Théo - Petein - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Concepts routage&commut-Théo\nEnseignant 
+ : Petein\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Concepts routage&commut-Théo<br/>Ens
+ eignant : Petein<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T092745Z
+UID:Cours-156835-9-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241113T093000Z
+DTEND:20241113T113000Z
+SUMMARY;LANGUAGE=fr:Concepts routage&commut-Théo - Petein - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Concepts routage&commut-Théo\nEnseignant 
+ : Petein\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Concepts routage&commut-Théo<br/>Ens
+ eignant : Petein<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T092745Z
+UID:Cours-156835-10-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241120T093000Z
+DTEND:20241120T113000Z
+SUMMARY;LANGUAGE=fr:Concepts routage&commut-Théo - Petein - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Concepts routage&commut-Théo\nEnseignant 
+ : Petein\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Concepts routage&commut-Théo<br/>Ens
+ eignant : Petein<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240821T122754Z
+UID:Cours-158603-12-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241206T123000Z
+DTEND:20241206T143000Z
+SUMMARY;LANGUAGE=fr:Math. et statistique appl. - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Math. et statistique appl.\nEnseignant : 
+ Carlier\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. et statistique appl.<br/>Ensei
+ gnant : Carlier<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20231026T054944Z
+UID:Cours-158606-9-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241113T071500Z
+DTEND:20241113T091500Z
+SUMMARY;LANGUAGE=fr:Administration Linux - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Administration Linux - théorie\nEnseignan
+ t : Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Administration Linux - théorie<br/>E
+ nseignant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240909T084911Z
+UID:Cours-163269-12-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241204T071500Z
+DTEND:20241204T091500Z
+SUMMARY;LANGUAGE=fr:Physique appliquée - Roland - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée\nEnseignant : Roland\n
+ Salle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée<br/>Enseignant : 
+ Roland<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20231020T125743Z
+UID:Cours-185522-1-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20240919T061500Z
+DTEND:20240919T081500Z
+SUMMARY;LANGUAGE=fr:Bases de données - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données - théorie\nEnseignant : 
+ Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données - théorie<br/>Ensei
+ gnant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T093352Z
+UID:Cours-185523-1-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20240917T083000Z
+DTEND:20240917T103000Z
+SUMMARY;LANGUAGE=fr:Bases de données - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données - théorie\nEnseignant : 
+ Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données - théorie<br/>Ensei
+ gnant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T093352Z
+UID:Cours-185523-2-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20240924T083000Z
+DTEND:20240924T103000Z
+SUMMARY;LANGUAGE=fr:Bases de données - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données - théorie\nEnseignant : 
+ Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données - théorie<br/>Ensei
+ gnant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T093352Z
+UID:Cours-185523-4-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241008T083000Z
+DTEND:20241008T103000Z
+SUMMARY;LANGUAGE=fr:Bases de données - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données - théorie\nEnseignant : 
+ Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données - théorie<br/>Ensei
+ gnant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T093352Z
+UID:Cours-185523-5-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241015T083000Z
+DTEND:20241015T103000Z
+SUMMARY;LANGUAGE=fr:Bases de données - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données - théorie\nEnseignant : 
+ Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données - théorie<br/>Ensei
+ gnant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T093352Z
+UID:Cours-185523-6-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241022T083000Z
+DTEND:20241022T103000Z
+SUMMARY;LANGUAGE=fr:Bases de données - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données - théorie\nEnseignant : 
+ Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données - théorie<br/>Ensei
+ gnant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T093352Z
+UID:Cours-185523-9-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241112T093000Z
+DTEND:20241112T113000Z
+SUMMARY;LANGUAGE=fr:Bases de données - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données - théorie\nEnseignant : 
+ Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données - théorie<br/>Ensei
+ gnant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T093352Z
+UID:Cours-185523-10-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241119T093000Z
+DTEND:20241119T113000Z
+SUMMARY;LANGUAGE=fr:Bases de données - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données - théorie\nEnseignant : 
+ Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données - théorie<br/>Ensei
+ gnant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T061326Z
+UID:Cours-185549-3-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241001T061500Z
+DTEND:20241001T081500Z
+SUMMARY;LANGUAGE=fr:Windows server - théorie - Naizy - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Windows server - théorie\nEnseignant : Na
+ izy\nSalle : 2/09C\nType : Cours\n\nContenu pédagogique de cette séance : 
+ \n<span  style="color: Silver\;"><span style="font-weight:normal\; font-st
+ yle:italic\;">Sans titre</span></span>\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Windows server - théorie<br/>Enseign
+ ant : Naizy<br/>Salle : 2/09C<br/>Type : Cours<br/><br/>Contenu pédagogiqu
+ e de cette séance : <br/><span  style="color: Silver\;"><span style="font-
+ weight:normal\; font-style:italic\;">Sans titre</span></span><br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T061525Z
+UID:Cours-185550-1-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20240920T061500Z
+DTEND:20240920T081500Z
+SUMMARY;LANGUAGE=fr:Windows server - théorie - Naizy - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Windows server - théorie\nEnseignant : Na
+ izy\nSalle : 2/09C\nType : Cours\n\nContenu pédagogique de cette séance : 
+ \n<span  style="color: Silver\;"><span style="font-weight:normal\; font-st
+ yle:italic\;">Sans titre</span></span>\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Windows server - théorie<br/>Enseign
+ ant : Naizy<br/>Salle : 2/09C<br/>Type : Cours<br/><br/>Contenu pédagogiqu
+ e de cette séance : <br/><span  style="color: Silver\;"><span style="font-
+ weight:normal\; font-style:italic\;">Sans titre</span></span><br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T061525Z
+UID:Cours-185550-9-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241115T071500Z
+DTEND:20241115T091500Z
+SUMMARY;LANGUAGE=fr:Windows server - théorie - Naizy - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Windows server - théorie\nEnseignant : Na
+ izy\nSalle : 2/09C\nType : Cours\n\nContenu pédagogique de cette séance : 
+ \n<span style="font-weight:bold\;">test</span>\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Windows server - théorie<br/>Enseign
+ ant : Naizy<br/>Salle : 2/09C<br/>Type : Cours<br/><br/>Contenu pédagogiqu
+ e de cette séance : <br/><span style="font-weight:bold\;">test</span><br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T061525Z
+UID:Cours-185550-12-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241206T071500Z
+DTEND:20241206T091500Z
+SUMMARY;LANGUAGE=fr:Windows server - théorie - Naizy - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Windows server - théorie\nEnseignant : Na
+ izy\nSalle : 2/09C\nType : Cours\n\nContenu pédagogique de cette séance : 
+ \n<span  style="color: Silver\;"><span style="font-weight:normal\; font-st
+ yle:italic\;">Sans titre</span></span>\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Windows server - théorie<br/>Enseign
+ ant : Naizy<br/>Salle : 2/09C<br/>Type : Cours<br/><br/>Contenu pédagogiqu
+ e de cette séance : <br/><span  style="color: Silver\;"><span style="font-
+ weight:normal\; font-style:italic\;">Sans titre</span></span><br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T061427Z
+UID:Cours-185553-3-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241002T061500Z
+DTEND:20241002T081500Z
+SUMMARY;LANGUAGE=fr:Télécom.&réseaux avancés-Théo - Mandoux - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom.&réseaux avancés-Théo\nEnseignant
+  : Mandoux\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom.&réseaux avancés-Théo<br/>En
+ seignant : Mandoux<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240902T072406Z
+UID:Cours-189310-9-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241112T071500Z
+DTEND:20241112T091500Z
+SUMMARY;LANGUAGE=fr:Physique appliquée - Roland - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée\nEnseignant : Roland\n
+ Salle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée<br/>Enseignant : 
+ Roland<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20231026T054850Z
+UID:Cours-192335-2-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20240925T061500Z
+DTEND:20240925T081500Z
+SUMMARY;LANGUAGE=fr:Administration Linux - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Administration Linux - théorie\nEnseignan
+ t : Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Administration Linux - théorie<br/>E
+ nseignant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20231026T054850Z
+UID:Cours-192335-4-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241009T061500Z
+DTEND:20241009T081500Z
+SUMMARY;LANGUAGE=fr:Administration Linux - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Administration Linux - théorie\nEnseignan
+ t : Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Administration Linux - théorie<br/>E
+ nseignant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20231026T054850Z
+UID:Cours-192335-5-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241016T061500Z
+DTEND:20241016T081500Z
+SUMMARY;LANGUAGE=fr:Administration Linux - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Administration Linux - théorie\nEnseignan
+ t : Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Administration Linux - théorie<br/>E
+ nseignant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20231026T054850Z
+UID:Cours-192335-6-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241023T061500Z
+DTEND:20241023T081500Z
+SUMMARY;LANGUAGE=fr:Administration Linux - théorie - Malaise - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Administration Linux - théorie\nEnseignan
+ t : Malaise\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Administration Linux - théorie<br/>E
+ nseignant : Malaise<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240821T125433Z
+UID:Cours-195862-13-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241213T071500Z
+DTEND:20241213T091500Z
+SUMMARY;LANGUAGE=fr:Windows server - théorie - Naizy - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Windows server - théorie\nEnseignant : Na
+ izy\nSalle : 2/09C\nType : Cours\n\nContenu pédagogique de cette séance : 
+ \n<span  style="color: Silver\;"><span style="font-weight:normal\; font-st
+ yle:italic\;">Sans titre</span></span>\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Windows server - théorie<br/>Enseign
+ ant : Naizy<br/>Salle : 2/09C<br/>Type : Cours<br/><br/>Contenu pédagogiqu
+ e de cette séance : <br/><span  style="color: Silver\;"><span style="font-
+ weight:normal\; font-style:italic\;">Sans titre</span></span><br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T094848Z
+UID:Cours-205022-3-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241004T061500Z
+DTEND:20241004T081500Z
+SUMMARY;LANGUAGE=fr:Windows server - théorie - Naizy - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Windows server - théorie\nEnseignant : Na
+ izy\nSalle : 2/09C\nType : Cours\n\nContenu pédagogique de cette séance : 
+ \n<span  style="color: Silver\;"><span style="font-weight:normal\; font-st
+ yle:italic\;">Sans titre</span></span>\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Windows server - théorie<br/>Enseign
+ ant : Naizy<br/>Salle : 2/09C<br/>Type : Cours<br/><br/>Contenu pédagogiqu
+ e de cette séance : <br/><span  style="color: Silver\;"><span style="font-
+ weight:normal\; font-style:italic\;">Sans titre</span></span><br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T094848Z
+UID:Cours-205022-6-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241025T061500Z
+DTEND:20241025T081500Z
+SUMMARY;LANGUAGE=fr:Windows server - théorie - Naizy - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Windows server - théorie\nEnseignant : Na
+ izy\nSalle : 2/09C\nType : Cours\n\nContenu pédagogique de cette séance : 
+ \n<span  style="color: Silver\;"><span style="font-weight:normal\; font-st
+ yle:italic\;">Sans titre</span></span>\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Windows server - théorie<br/>Enseign
+ ant : Naizy<br/>Salle : 2/09C<br/>Type : Cours<br/><br/>Contenu pédagogiqu
+ e de cette séance : <br/><span  style="color: Silver\;"><span style="font-
+ weight:normal\; font-style:italic\;">Sans titre</span></span><br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T094848Z
+UID:Cours-205022-8-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241108T071500Z
+DTEND:20241108T091500Z
+SUMMARY;LANGUAGE=fr:Windows server - théorie - Naizy - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Windows server - théorie\nEnseignant : Na
+ izy\nSalle : 2/09C\nType : Cours\n\nContenu pédagogique de cette séance : 
+ \n<span  style="color: Silver\;"><span style="font-weight:normal\; font-st
+ yle:italic\;">Sans titre</span></span>\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Windows server - théorie<br/>Enseign
+ ant : Naizy<br/>Salle : 2/09C<br/>Type : Cours<br/><br/>Contenu pédagogiqu
+ e de cette séance : <br/><span  style="color: Silver\;"><span style="font-
+ weight:normal\; font-style:italic\;">Sans titre</span></span><br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T094848Z
+UID:Cours-205022-10-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241122T071500Z
+DTEND:20241122T091500Z
+SUMMARY;LANGUAGE=fr:Windows server - théorie - Naizy - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Windows server - théorie\nEnseignant : Na
+ izy\nSalle : 2/09C\nType : Cours\n\nContenu pédagogique de cette séance : 
+ \n<span  style="color: Silver\;"><span style="font-weight:normal\; font-st
+ yle:italic\;">Sans titre</span></span>\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Windows server - théorie<br/>Enseign
+ ant : Naizy<br/>Salle : 2/09C<br/>Type : Cours<br/><br/>Contenu pédagogiqu
+ e de cette séance : <br/><span  style="color: Silver\;"><span style="font-
+ weight:normal\; font-style:italic\;">Sans titre</span></span><br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T094848Z
+UID:Cours-205022-11-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241129T071500Z
+DTEND:20241129T091500Z
+SUMMARY;LANGUAGE=fr:Windows server - théorie - Naizy - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Windows server - théorie\nEnseignant : Na
+ izy\nSalle : 2/09C\nType : Cours\n\nContenu pédagogique de cette séance : 
+ \n<span  style="color: Silver\;"><span style="font-weight:normal\; font-st
+ yle:italic\;">Sans titre</span></span>\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Windows server - théorie<br/>Enseign
+ ant : Naizy<br/>Salle : 2/09C<br/>Type : Cours<br/><br/>Contenu pédagogiqu
+ e de cette séance : <br/><span  style="color: Silver\;"><span style="font-
+ weight:normal\; font-style:italic\;">Sans titre</span></span><br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T115802Z
+UID:Cours-205048-14-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241216T071500Z
+DTEND:20241216T163000Z
+SUMMARY;LANGUAGE=fr:Projet interdisciplinaire - Depreter\, Desmet\, Malaise
+ \, Pietrzak
+LOCATION;LANGUAGE=fr:2/10D\, 2/10E\, 2/13\, 2/16
+DESCRIPTION;LANGUAGE=fr:Matière : Projet interdisciplinaire\nEnseignants : 
+ Depreter\, Desmet\, Malaise\, Pietrzak\nSalles : 2/10D\, 2/10E\, 2/13\, 2/
+ 16\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projet interdisciplinaire<br/>Enseig
+ nants : Depreter\, Desmet\, Malaise\, Pietrzak<br/>Salles : 2/10D\, 2/10E\
+ , 2/13\, 2/16<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T115758Z
+UID:Cours-205050-14-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241217T071500Z
+DTEND:20241217T163000Z
+SUMMARY;LANGUAGE=fr:Projet interdisciplinaire - Depreter\, Desmet\, Malaise
+ \, Pietrzak
+LOCATION;LANGUAGE=fr:2/10D\, 2/10E\, 2/13\, 2/16
+DESCRIPTION;LANGUAGE=fr:Matière : Projet interdisciplinaire\nEnseignants : 
+ Depreter\, Desmet\, Malaise\, Pietrzak\nSalles : 2/10D\, 2/10E\, 2/13\, 2/
+ 16\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projet interdisciplinaire<br/>Enseig
+ nants : Depreter\, Desmet\, Malaise\, Pietrzak<br/>Salles : 2/10D\, 2/10E\
+ , 2/13\, 2/16<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T115744Z
+UID:Cours-205051-14-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241219T071500Z
+DTEND:20241219T160000Z
+SUMMARY;LANGUAGE=fr:Projet interdisciplinaire - Depreter\, Desmet\, Malaise
+ \, Pietrzak
+LOCATION;LANGUAGE=fr:2/10D\, 2/10E\, 2/13\, 2/16
+DESCRIPTION;LANGUAGE=fr:Matière : Projet interdisciplinaire\nEnseignants : 
+ Depreter\, Desmet\, Malaise\, Pietrzak\nSalles : 2/10D\, 2/10E\, 2/13\, 2/
+ 16\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projet interdisciplinaire<br/>Enseig
+ nants : Depreter\, Desmet\, Malaise\, Pietrzak<br/>Salles : 2/10D\, 2/10E\
+ , 2/13\, 2/16<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T115751Z
+UID:Cours-205052-14-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241218T071500Z
+DTEND:20241218T163000Z
+SUMMARY;LANGUAGE=fr:Projet interdisciplinaire - Depreter\, Desmet\, Malaise
+ \, Pietrzak
+LOCATION;LANGUAGE=fr:2/10D\, 2/10E\, 2/13\, 2/16
+DESCRIPTION;LANGUAGE=fr:Matière : Projet interdisciplinaire\nEnseignants : 
+ Depreter\, Desmet\, Malaise\, Pietrzak\nSalles : 2/10D\, 2/10E\, 2/13\, 2/
+ 16\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projet interdisciplinaire<br/>Enseig
+ nants : Depreter\, Desmet\, Malaise\, Pietrzak<br/>Salles : 2/10D\, 2/10E\
+ , 2/13\, 2/16<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240709T115740Z
+UID:Cours-205053-14-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241220T071500Z
+DTEND:20241220T160000Z
+SUMMARY;LANGUAGE=fr:Projet interdisciplinaire - Depreter\, Desmet\, Malaise
+ \, Pietrzak
+LOCATION;LANGUAGE=fr:2/10D\, 2/10E\, 2/13\, 2/16
+DESCRIPTION;LANGUAGE=fr:Matière : Projet interdisciplinaire\nEnseignants : 
+ Depreter\, Desmet\, Malaise\, Pietrzak\nSalles : 2/10D\, 2/10E\, 2/13\, 2/
+ 16\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projet interdisciplinaire<br/>Enseig
+ nants : Depreter\, Desmet\, Malaise\, Pietrzak<br/>Salles : 2/10D\, 2/10E\
+ , 2/13\, 2/16<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T062254Z
+UID:Cours-205233-11-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241126T071500Z
+DTEND:20241126T091500Z
+SUMMARY;LANGUAGE=fr:Math. et statistique appl. - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Math. et statistique appl.\nEnseignant : 
+ Carlier\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. et statistique appl.<br/>Ensei
+ gnant : Carlier<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240710T062254Z
+UID:Cours-205233-12-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241203T071500Z
+DTEND:20241203T091500Z
+SUMMARY;LANGUAGE=fr:Math. et statistique appl. - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Math. et statistique appl.\nEnseignant : 
+ Carlier\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. et statistique appl.<br/>Ensei
+ gnant : Carlier<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T070641Z
+UID:Cours-208738-3-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241001T133000Z
+DTEND:20241001T153000Z
+SUMMARY;LANGUAGE=fr:Math. et statistique appl. - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Math. et statistique appl.\nEnseignant : 
+ Carlier\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. et statistique appl.<br/>Ensei
+ gnant : Carlier<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240902T080248Z
+UID:Cours-211522-13-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241209T093000Z
+DTEND:20241209T113000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée - Roland - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée\nEnseignant : Roland\n
+ Salle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée<br/>Enseignant : 
+ Roland<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240902T072751Z
+UID:Cours-211523-12-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241202T093000Z
+DTEND:20241202T113000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée - Roland - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée\nEnseignant : Roland\n
+ Salle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée<br/>Enseignant : 
+ Roland<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240902T072820Z
+UID:Cours-211524-3-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241001T113000Z
+DTEND:20241001T133000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée - Roland - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée\nEnseignant : Roland\n
+ Salle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée<br/>Enseignant : 
+ Roland<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240902T080239Z
+UID:Cours-211536-13-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241213T093000Z
+DTEND:20241213T113000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée - Roland - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée\nEnseignant : Roland\n
+ Salle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée<br/>Enseignant : 
+ Roland<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T070641Z
+UID:Cours-214107-2-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20240923T061500Z
+DTEND:20240923T081500Z
+SUMMARY;LANGUAGE=fr:Math. et statistique appl. - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Math. et statistique appl.\nEnseignant : 
+ Carlier\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. et statistique appl.<br/>Ensei
+ gnant : Carlier<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T070641Z
+UID:Cours-214107-3-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20240930T061500Z
+DTEND:20240930T081500Z
+SUMMARY;LANGUAGE=fr:Math. et statistique appl. - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Math. et statistique appl.\nEnseignant : 
+ Carlier\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. et statistique appl.<br/>Ensei
+ gnant : Carlier<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T070641Z
+UID:Cours-214107-4-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241007T061500Z
+DTEND:20241007T081500Z
+SUMMARY;LANGUAGE=fr:Math. et statistique appl. - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Math. et statistique appl.\nEnseignant : 
+ Carlier\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. et statistique appl.<br/>Ensei
+ gnant : Carlier<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T070641Z
+UID:Cours-214107-6-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241021T061500Z
+DTEND:20241021T081500Z
+SUMMARY;LANGUAGE=fr:Math. et statistique appl. - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Math. et statistique appl.\nEnseignant : 
+ Carlier\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. et statistique appl.<br/>Ensei
+ gnant : Carlier<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T070641Z
+UID:Cours-214107-8-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241104T071500Z
+DTEND:20241104T091500Z
+SUMMARY;LANGUAGE=fr:Math. et statistique appl. - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Math. et statistique appl.\nEnseignant : 
+ Carlier\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. et statistique appl.<br/>Ensei
+ gnant : Carlier<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T070641Z
+UID:Cours-214107-10-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241118T071500Z
+DTEND:20241118T091500Z
+SUMMARY;LANGUAGE=fr:Math. et statistique appl. - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Math. et statistique appl.\nEnseignant : 
+ Carlier\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. et statistique appl.<br/>Ensei
+ gnant : Carlier<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T070641Z
+UID:Cours-214107-11-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241125T071500Z
+DTEND:20241125T091500Z
+SUMMARY;LANGUAGE=fr:Math. et statistique appl. - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Math. et statistique appl.\nEnseignant : 
+ Carlier\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. et statistique appl.<br/>Ensei
+ gnant : Carlier<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T070641Z
+UID:Cours-214107-12-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241202T071500Z
+DTEND:20241202T091500Z
+SUMMARY;LANGUAGE=fr:Math. et statistique appl. - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Math. et statistique appl.\nEnseignant : 
+ Carlier\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. et statistique appl.<br/>Ensei
+ gnant : Carlier<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+LAST-MODIFIED:20240905T070641Z
+UID:Cours-214107-13-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART:20241209T071500Z
+DTEND:20241209T091500Z
+SUMMARY;LANGUAGE=fr:Math. et statistique appl. - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Math. et statistique appl.\nEnseignant : 
+ Carlier\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. et statistique appl.<br/>Ensei
+ gnant : Carlier<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+UID:Ferie-939-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240928
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+UID:Ferie-940-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240921T222529Z
+UID:Ferie-941-Groupe_1_BA2P_Informatique_Securite-Index-Education
+DTSTART;VALUE=DATE:20241111
+DTEND;VALUE=DATE:20241112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+END:VCALENDAR
