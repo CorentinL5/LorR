@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="daily.css">
+    <link rel="stylesheet" href="calendar.css">
+
+
+    <script src="scripts/custom_alerts.js"></script>
+    <!-- Librairie pour parser l'ICS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ical.js/1.5.0/ical.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Your Calendar</h1>
+    </header>
+
+    <main>
+        <div id="calendar">
+            <!-- Calendrier généré ici -->
+        </div>
+
+    </main>
+
+    <footer>
+        <p>By Tarumo</p>
+        <nav>
+            <ul>
+                <li><button onclick="addInfoToURL('display', 'Daily')">Daily</button></li>
+                <li><button onclick="addInfoToURL('display', 'Weekly')">Weekly</button></li>
+            </ul>
+        </nav>
+
+    </footer>
+
+    <script src="scripts/custom_alerts.js"></script>
+    <script src="scripts/create_calendar.js"></script>
+</body>
+</html>
