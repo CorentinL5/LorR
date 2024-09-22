@@ -73,7 +73,7 @@ function remove_alertbox(alertBox) {
 
 // Check if the URL has the 'alert' parameter and display the custom alert
 let url = new URL(window.location.href);
-if (url.searchParams.has('alert')) {
+if (url.searchParams.has('alert') && !url.searchParams.has('noalert')) {
     const alertMessage = url.searchParams.get('alert');
     url.searchParams.delete('alert');
     window.history.replaceState({}, '', url);
