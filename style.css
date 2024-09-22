@@ -31,7 +31,7 @@ header {
 }
 
 main {
-
+    margin: 10px;
 }
 
 nav {
@@ -46,4 +46,21 @@ nav {
 
 footer {
     margin-bottom: 10px;
+}
+
+.week-row {
+    display:flex;
+}
+
+.day-header, .day {
+    height:50%;
+    width: calc(100%/7) ;
+    border: solid 1px black;
+}
+
+.event {
+    background-color: #f0f0f0;
+    border: solid 1px black;
+    margin: 5px;
+    padding: 5px;
 }
