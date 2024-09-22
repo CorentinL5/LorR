@@ -1,5 +1,8 @@
 // Function to create a custom alert box
 function showCustomAlert(message) {
+    url = new URL(window.location.href);
+    if (url.searchParams.has('noalert')) { return; }
+
     // Create the alert container
     const alertBox = document.createElement('div');
     alertBox.style.position = 'fixed';
