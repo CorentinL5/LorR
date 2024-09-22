@@ -1,5 +1,5 @@
 // Chargement du fichier JSON avec fetch
-fetch('/ics/ics.json')
+fetch('./ics/ics.json')
     .then(response => {
         if (!response.ok) {
             throw new Error('Erreur lors du chargement du fichier JSON');
