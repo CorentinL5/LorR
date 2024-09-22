@@ -41,5 +41,4 @@ fetch('/ics/ics.json')
     })
     .catch(error => {
         console.error('Erreur lors du chargement du fichier JSON:', error);
-        window.location.href = "index.html?alert=Le Calendrier n'a pas pu être chargé.";
     });
