@@ -19,6 +19,21 @@ function addInfoToURL(param, info) {
     console.log(params.get('display'))
 }
 
+function msToTime(duration, display = "short") {
+    let milliseconds = ((duration % 1000) / 100)
+        , seconds = ((duration / 1000) % 60)
+        , minutes = ((duration / (1000 * 60)) % 60)
+        , hours = ((duration / (1000 * 60 * 60)) % 24);
+
+    hours = (hours < 10) ? "0" + hours : hours;
+    minutes = (minutes < 10) ? "0" + minutes : minutes;
+    seconds = (seconds < 10) ? "0" + seconds : seconds;
+    if (display === "short") {
+        return hours + "h" + minutes;
+    } else {return hours + ":" + minutes + ":" + seconds + "." + milliseconds;}
+
+}
+
 // Fonction simple de hachage pour obtenir un index unique basé sur une chaîne
 function hashStringToIndex(str, max) {
     let hash = 0;
@@ -97,9 +112,13 @@ function addEventToCalendar(event ,color) {
     // Trouver la case du calendrier correspondant à la date
     const calendarDay = document.getElementById(calendarDayId);
     if (calendarDay) {
+        // Supprimer la classe "empty" de la case du calendrier
+        calendarDay.classList.remove('empty');
+
+        // Créer un élément pour l'événement et l'ajouter à la case du calendrier
         const eventElement = document.createElement('div');
         eventElement.className = 'event';
-        eventElement.innerHTML = `${description}<ul><li> -${formattedStartDate}</li> <li> -${formattedEndDate}</li></ul>`;
+        eventElement.innerHTML = `${description}<ul><li> -${formattedStartDate}</li> <li> -${formattedEndDate}</li></ul> <br> ${msToTime(endDate - startDate)}`;
         eventElement.style.backgroundColor = color;
         calendarDay.appendChild(eventElement);
     }
@@ -107,73 +126,64 @@ function addEventToCalendar(event ,color) {
 
 // Fonction pour générer un calendrier structuré en semaines pour le mois en cours
 function generateCalendar(calendar_display = "daily") {
+    let currentWeek = document.createElement('div');
     calendar_display = calendar_display.toLowerCase();
     console.log(calendar_display);
     const calendar = document.getElementById('calendar');
+    calendar.innerHTML = ''; // Vider le calendrier avant de le remplir
     const date = new Date();
     const currentYear = date.getFullYear();
     const currentMonth = date.getMonth(); // Mois actuel (0-11)
+    const currentDate = date.getDate(); // Jour actuel (1-31)
+    const currentDayOfWeek = (date.getDay() === 0) ? 7 : date.getDay(); // Jour de la semaine actuel (lundi=1, dimanche=7)
 
-    // Détermine le nombre de jours dans le mois
-    const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
-
-    // Détermine le jour de la semaine du premier jour du mois (0 = Dimanche, 1 = Lundi, ...)
-    const firstDayOfMonth = new Date(currentYear, currentMonth, 1).getDay();
-
-    // Ajustement pour commencer le calendrier du lundi (si dimanche, mettre à 7 pour aligner sur le lundi)
-    const startDay = (firstDayOfMonth === 0) ? 7 : firstDayOfMonth;
-
-    // Créer les en-têtes de jours de la semaine
-    const daysOfWeek = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche'];
-    const headerRow = document.createElement('div');
-    headerRow.className = 'week-row';
-    daysOfWeek.forEach(day => {
-        const dayHeader = document.createElement('div');
-        dayHeader.className = 'day-header';
-        dayHeader.textContent = day;
-        headerRow.appendChild(dayHeader);
-    });
-    calendar.appendChild(headerRow);
-
+    // Calculer les dates pour la semaine précédente, actuelle et suivante
+    const startDate = new Date(currentYear, currentMonth, currentDate - currentDayOfWeek - 6); // Début de la semaine précédente (lundi)
+    const endDate = new Date(currentYear, currentMonth, currentDate + (7 - currentDayOfWeek) + 7); // Fin de la semaine suivante (dimanche)
+    console.log(startDate, endDate);
     // Variables pour créer le calendrier
-    let currentDay = 1;
-    let currentWeek = document.createElement('div');
-    currentWeek.className = 'week-row';
+    let currentDay = new Date(startDate);
 
-    // Remplir les jours vides avant le début du mois
-    for (let i = 1; i < startDay; i++) {
-        const emptyDay = document.createElement('div');
-        emptyDay.className = 'day empty';
-        currentWeek.appendChild(emptyDay);
-    }
-
-    // Générer les jours du mois
-    while (currentDay <= daysInMonth) {
-        if (currentWeek.children.length === 7) {
-            calendar.appendChild(currentWeek);
-            currentWeek = document.createElement('div');
+    // Générer les jours du calendrier de la semaine précédente à la suivante
+    while (currentDay <= endDate) {
+        // Commencer une nouvelle semaine chaque lundi
+        if (currentDay.getDay() === 1 || calendar.lastChild === null) {
             currentWeek.className = 'week-row';
+            calendar.appendChild(currentWeek);
         }
 
+        // Créer l'élément du jour avec la date formatée
         const dayElement = document.createElement('div');
-        dayElement.id = `day-${currentYear}-${currentMonth + 1}-${currentDay}`;
-        dayElement.className = 'day';
-        dayElement.innerHTML = `<strong>${currentDay}</strong>`;
+        dayElement.className = 'day empty';
+        dayElement.id = `day-${currentDay.getFullYear()}-${(currentDay.getMonth() + 1)}-${currentDay.getDate()}`;
+        const dayName = ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'][currentDay.getDay()];
+        const formattedDate = `${dayName} ${currentDay.getDate().toString().padStart(2, '0')}/${(currentDay.getMonth() + 1).toString().padStart(2, '0')}/${currentDay.getFullYear().toString().slice(-2)}`;
+        dayElement.innerHTML = `<strong>${formattedDate}</strong>`;
+
+        // Ajouter la classe "old" si la date est passée
+        if (currentDay < date) {
+            dayElement.classList.add('old');
+        }
+
         currentWeek.appendChild(dayElement);
 
-        currentDay++;
+        // Passer au jour suivant
+        currentDay.setDate(currentDay.getDate() + 1);
     }
 
-    // Remplir les jours vides à la fin du mois pour compléter la dernière semaine
-    while (currentWeek.children.length < 7) {
-        const emptyDay = document.createElement('div');
-        emptyDay.className = 'day empty';
-        currentWeek.appendChild(emptyDay);
+    if (calendar_display) {
+        // ajoute un bouton pour aller au jour actuel
+        const currentDayElement = `day-${currentYear}-${currentMonth + 1}-${currentDate}`;
+        const todayButton = document.createElement('button');
+        todayButton.className = 'today-button';
+        todayButton.innerHTML = 'Aujourd\'hui';
+        todayButton.onclick = () => {
+            window.location.href = window.location.origin +  window.location.pathname + `?calendar_group=${calendar_group}&display=${calendar_display}#${currentDayElement}`;
+        }
+        calendar.insertBefore(todayButton, calendar.firstChild);
     }
-
-    // Ajouter la dernière semaine au calendrier
-    calendar.appendChild(currentWeek);
 }
+
 
 
 // Récupère les informations de l'URL

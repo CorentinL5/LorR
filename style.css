@@ -57,9 +57,11 @@ nav ul li {
 
 .week-row {
     display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.day-header, .day {
+.day {
     height:50%;
     width: calc(100%/7) ;
     border: solid 1px black;
@@ -72,7 +74,23 @@ nav ul li {
     padding: 5px;
 }
 
-
 .old {
-    filter: grayscale(0.90);
+    filter: grayscale(0.55);
+}
+
+#calendar * {
+    border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+    .week-row {
+        flex-direction: column;
+    }
+    .day {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .day.empty {
+        display: none;
+    }
 }
