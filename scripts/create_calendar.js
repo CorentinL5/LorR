@@ -97,13 +97,14 @@ function addEventToCalendar(event ,color) {
     const formattedStartDate = startDate.toLocaleString('belgium');
     const formattedEndDate = endDate.toLocaleString('belgium');
     let summary = event.summary;
-    let description = event.description;
+    let location = event.location;
+    /*let description = event.description;
     if (description == null && summary != null) {
         description = summary
         color = "#808080"
     } else if (description == null && summary == null) {
         description = "Description non disponible"
-    }
+    }*/
 
 
     // Format de l'identifiant : `day-YYYY-MM-DD`
@@ -118,7 +119,7 @@ function addEventToCalendar(event ,color) {
         // Créer un élément pour l'événement et l'ajouter à la case du calendrier
         const eventElement = document.createElement('div');
         eventElement.className = 'event';
-        eventElement.innerHTML = `${description}<ul><li> -${formattedStartDate}</li> <li> -${formattedEndDate}</li></ul> <br> ${msToTime(endDate - startDate)}`;
+        eventElement.innerHTML = `${summary}<br> ${location}<ul><li> -${formattedStartDate}</li> <li> -${formattedEndDate}</li></ul> <br> ${msToTime(endDate - startDate)}`;
         eventElement.style.backgroundColor = color;
         calendarDay.appendChild(eventElement);
     }
