@@ -1,7 +1,7 @@
 // Function to create a custom alert box
 function showCustomAlert(message) {
-    url = new URL(window.location.href);
-    if (url.searchParams.has('noalert')) { return;}
+    getUrl = new URL(window.location.href);
+    if (getUrl.searchParams.has('noalert')) { return;}
 
     // Create the alert container
     const alertBox = document.createElement('div');
@@ -75,10 +75,10 @@ function remove_alertbox(alertBox) {
 }
 
 // Check if the URL has the 'alert' parameter and display the custom alert
-let url = new URL(window.location.href);
-if (url.searchParams.has('alert') && !url.searchParams.has('noalert')) {
-    const alertMessage = url.searchParams.get('alert');
-    url.searchParams.delete('alert');
-    window.history.replaceState({}, '', url);
+let getUrl = new URL(window.location.href);
+if (getUrl.searchParams.has('alert') && !getUrl.searchParams.has('noalert')) {
+    const alertMessage = getUrl.searchParams.get('alert');
+    getUrl.searchParams.delete('alert');
+    window.history.replaceState({}, '', getUrl);
     showCustomAlert(alertMessage);
 }

@@ -175,13 +175,15 @@ function generateCalendar(calendar_display = "daily") {
     if (calendar_display) {
         // ajoute un bouton pour aller au jour actuel
         const currentDayElement = `day-${currentYear}-${currentMonth + 1}-${currentDate}`;
-        const todayButton = document.createElement('button');
+        const todayButton = document.createElement('a');
         todayButton.className = 'today-button';
+        todayButton.href = `#${currentDayElement}`
         todayButton.innerHTML = 'Aujourd\'hui';
-        todayButton.onclick = () => {
-            window.location.href = window.location.origin +  window.location.pathname + `?calendar_group=${calendar_group}&display=${calendar_display}#${currentDayElement}`;
+        if (calendar && calendar.parentNode) {
+            calendar.parentNode.insertBefore(todayButton, calendar);
+        } else {
+            console.error('Impossible de trouver le parent du calendrier.');
         }
-        calendar.insertBefore(todayButton, calendar.firstChild);
     }
 }
 
