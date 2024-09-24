@@ -1,0 +1,1500 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
+METHOD:PUBLISH
+X-CALSTART:20240916T000000Z
+X-CALEND:20241221T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - TTNA3 - BA3P Electronique - du 16 septembre 
+ au 21 décembre 2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de TTNA3 - BA3P Electronique génér
+ é par le logiciel HP (©INDEX ÉDUCATION) le 24 sept. 2024 - Haute Ecole en 
+ Hainaut - valable sur la période du 16 septembre au 21 décembre 2024 - Sem
+ aines : semaine 38 - 51
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240912T080541Z
+UID:Cours-155557-2-BA3P_Electronique-Index-Education
+DTSTART:20240926T083000Z
+DTEND:20240926T103000Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T051214Z
+UID:Cours-157065-8-BA3P_Electronique-Index-Education
+DTSTART:20241106T123000Z
+DTEND:20241106T154500Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20230907T051913Z
+UID:Cours-157075-13-BA3P_Electronique-Index-Education
+DTSTART:20241213T071500Z
+DTEND:20241213T111500Z
+SUMMARY;LANGUAGE=fr:Automat.program.industriels - Scopel - Cours
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Matière : Automat.program.industriels\nEnseignant :
+  Scopel\nSalle : 1/28\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automat.program.industriels<br/>Ense
+ ignant : Scopel<br/>Salle : 1/28<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20230711T065217Z
+UID:Cours-157076-6-BA3P_Electronique-Index-Education
+DTSTART:20241025T061500Z
+DTEND:20241025T101500Z
+SUMMARY;LANGUAGE=fr:Automat.program.industriels - Scopel - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Automat.program.industriels\nEnseignant :
+  Scopel\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automat.program.industriels<br/>Ense
+ ignant : Scopel<br/>Salle : 1/23<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20231114T094918Z
+UID:Cours-157094-10-BA3P_Electronique-Index-Education
+DTSTART:20241120T071500Z
+DTEND:20241120T111500Z
+SUMMARY;LANGUAGE=fr:Composants program. - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Composants program.\nEnseignant : Paulet\
+ nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Composants program.<br/>Enseignant :
+  Paulet<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T062228Z
+UID:Cours-157107-10-BA3P_Electronique-Index-Education
+DTSTART:20241121T071500Z
+DTEND:20241121T111500Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T070143Z
+UID:Cours-157108-13-BA3P_Electronique-Index-Education
+DTSTART:20241211T071500Z
+DTEND:20241211T111500Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Laboratoires
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nSalle : 1/26\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Salle : 1/26<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240823T070921Z
+UID:Cours-158882-4-BA3P_Electronique-Index-Education
+DTSTART:20241010T083000Z
+DTEND:20241010T103000Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20230829T084409Z
+UID:Cours-163333-4-BA3P_Electronique-Index-Education
+DTSTART:20241011T061500Z
+DTEND:20241011T101500Z
+SUMMARY;LANGUAGE=fr:Automat.program.industriels - Scopel - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Automat.program.industriels\nEnseignant :
+  Scopel\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automat.program.industriels<br/>Ense
+ ignant : Scopel<br/>Salle : 1/23<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T063841Z
+UID:Cours-163334-14-BA3P_Electronique-Index-Education
+DTSTART:20241220T071500Z
+DTEND:20241220T111500Z
+SUMMARY;LANGUAGE=fr:Automat.program.industriels - Scopel - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Automat.program.industriels\nEnseignant :
+  Scopel\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automat.program.industriels<br/>Ense
+ ignant : Scopel<br/>Salle : 1/23<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20231122T063208Z
+UID:Cours-163693-11-BA3P_Electronique-Index-Education
+DTSTART:20241127T071500Z
+DTEND:20241127T111500Z
+SUMMARY;LANGUAGE=fr:Composants program. - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Composants program.\nEnseignant : Paulet\
+ nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Composants program.<br/>Enseignant :
+  Paulet<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T080221Z
+UID:Cours-163694-8-BA3P_Electronique-Index-Education
+DTSTART:20241106T071500Z
+DTEND:20241106T111500Z
+SUMMARY;LANGUAGE=fr:Composants program. - Paulet - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Composants program.\nEnseignant : Paulet\
+ nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Composants program.<br/>Enseignant :
+  Paulet<br/>Salle : 1/23<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240923T073737Z
+UID:Cours-164171-10-BA3P_Electronique-Index-Education
+DTSTART:20241119T071500Z
+DTEND:20241119T153000Z
+SUMMARY;LANGUAGE=fr:Composants program. - Paulet - visites STIB + TRANZCOM 
+ - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Composants program.\nEnseignant : Paulet\
+ nSalle : 2/17A\nMémo : visites STIB + TRANZCOM\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Composants program.<br/>Enseignant :
+  Paulet<br/>Salle : 2/17A<br/>Mémo : visites STIB + TRANZCOM<br/>Type : Co
+ urs<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20231122T063226Z
+UID:Cours-170402-11-BA3P_Electronique-Index-Education
+DTSTART:20241128T123000Z
+DTEND:20241128T163000Z
+SUMMARY;LANGUAGE=fr:Composants program. - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Composants program.\nEnseignant : Paulet\
+ nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Composants program.<br/>Enseignant :
+  Paulet<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240905T130117Z
+UID:Cours-180781-13-BA3P_Electronique-Index-Education
+DTSTART:20241211T123000Z
+DTEND:20241211T163000Z
+SUMMARY;LANGUAGE=fr:Automat.program.industriels - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Automat.program.industriels\nEnseignant :
+  Scopel\nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automat.program.industriels<br/>Ense
+ ignant : Scopel<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240906T092759Z
+UID:Cours-182927-6-BA3P_Electronique-Index-Education
+DTSTART:20241021T083000Z
+DTEND:20241021T103000Z
+SUMMARY;LANGUAGE=fr:Régulation numérique - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Régulation numérique\nEnseignant : Isidor
+ o\nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Régulation numérique<br/>Enseignant 
+ : Isidoro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240822T083517Z
+UID:Cours-182930-3-BA3P_Electronique-Index-Education
+DTSTART:20241003T061500Z
+DTEND:20241003T081500Z
+SUMMARY;LANGUAGE=fr:Régulation numérique - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Régulation numérique\nEnseignant : Isidor
+ o\nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Régulation numérique<br/>Enseignant 
+ : Isidoro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T080232Z
+UID:Cours-185104-9-BA3P_Electronique-Index-Education
+DTSTART:20241112T123000Z
+DTEND:20241112T153000Z
+SUMMARY;LANGUAGE=fr:Composants program. - Paulet - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Composants program.\nEnseignant : Paulet\
+ nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Composants program.<br/>Enseignant :
+  Paulet<br/>Salle : 1/23<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T080253Z
+UID:Cours-185105-1-BA3P_Electronique-Index-Education
+DTSTART:20240920T061500Z
+DTEND:20240920T081500Z
+SUMMARY;LANGUAGE=fr:Composants program. - Paulet - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Composants program.\nEnseignant : Paulet\
+ nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Composants program.<br/>Enseignant :
+  Paulet<br/>Salle : 1/23<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T080253Z
+UID:Cours-185105-3-BA3P_Electronique-Index-Education
+DTSTART:20241004T061500Z
+DTEND:20241004T081500Z
+SUMMARY;LANGUAGE=fr:Composants program. - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Composants program.\nEnseignant : Paulet\
+ nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Composants program.<br/>Enseignant :
+  Paulet<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T080214Z
+UID:Cours-185123-11-BA3P_Electronique-Index-Education
+DTSTART:20241126T123000Z
+DTEND:20241126T163000Z
+SUMMARY;LANGUAGE=fr:Composants program. - Paulet - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Composants program.\nEnseignant : Paulet\
+ nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Composants program.<br/>Enseignant :
+  Paulet<br/>Salle : 1/23<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240923T073710Z
+UID:Cours-185127-14-BA3P_Electronique-Index-Education
+DTSTART:20241219T123000Z
+DTEND:20241219T163000Z
+SUMMARY;LANGUAGE=fr:Domotique - Maillez - Laboratoires
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Domotique\nEnseignant : Maillez\nSalle : 
+ 1/26\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Domotique<br/>Enseignant : Maillez<b
+ r/>Salle : 1/26<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T051307Z
+UID:Cours-185131-1-BA3P_Electronique-Index-Education
+DTSTART:20240920T083000Z
+DTEND:20240920T103000Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T051307Z
+UID:Cours-185131-3-BA3P_Electronique-Index-Education
+DTSTART:20241004T083000Z
+DTEND:20241004T103000Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Cours
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nSalle : 1/26\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Salle : 1/26<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20230829T090936Z
+UID:Cours-185134-4-BA3P_Electronique-Index-Education
+DTSTART:20241011T113000Z
+DTEND:20241011T153000Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Cours
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nSalle : 1/26\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Salle : 1/26<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20230829T090936Z
+UID:Cours-185134-5-BA3P_Electronique-Index-Education
+DTSTART:20241018T113000Z
+DTEND:20241018T153000Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Cours
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nSalle : 1/26\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Salle : 1/26<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T051311Z
+UID:Cours-185135-1-BA3P_Electronique-Index-Education
+DTSTART:20240920T113000Z
+DTEND:20240920T133000Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T051311Z
+UID:Cours-185135-3-BA3P_Electronique-Index-Education
+DTSTART:20241004T113000Z
+DTEND:20241004T133000Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Cours
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nSalle : 1/26\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Salle : 1/26<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240905T110954Z
+UID:Cours-185139-9-BA3P_Electronique-Index-Education
+DTSTART:20241114T071500Z
+DTEND:20241114T111500Z
+SUMMARY;LANGUAGE=fr:Régulation numérique - Taira - Laboratoires
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Régulation numérique\nEnseignant : Taira\
+ nSalle : 2/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Régulation numérique<br/>Enseignant 
+ : Taira<br/>Salle : 2/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20230831T135355Z
+UID:Cours-185214-11-BA3P_Electronique-Index-Education
+DTSTART:20241129T071500Z
+DTEND:20241129T111500Z
+SUMMARY;LANGUAGE=fr:Composants program. - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Composants program.\nEnseignant : Paulet\
+ nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Composants program.<br/>Enseignant :
+  Paulet<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20230829T115509Z
+UID:Cours-185223-13-BA3P_Electronique-Index-Education
+DTSTART:20241212T123000Z
+DTEND:20241212T163000Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Cours
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nSalle : 1/26\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Salle : 1/26<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240903T102308Z
+UID:Cours-185228-3-BA3P_Electronique-Index-Education
+DTSTART:20241002T063000Z
+DTEND:20241002T103000Z
+SUMMARY;LANGUAGE=fr:Régulation numérique - Taira - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Matière : Régulation numérique\nEnseignant : Taira\
+ nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Régulation numérique<br/>Enseignant 
+ : Taira<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T083105Z
+UID:Cours-185230-4-BA3P_Electronique-Index-Education
+DTSTART:20241010T061500Z
+DTEND:20241010T081500Z
+SUMMARY;LANGUAGE=fr:Régulation numérique - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Régulation numérique\nEnseignant : Isidor
+ o\nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Régulation numérique<br/>Enseignant 
+ : Isidoro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240902T081004Z
+UID:Cours-185231-8-BA3P_Electronique-Index-Education
+DTSTART:20241105T143000Z
+DTEND:20241105T163000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux\nEnseignant : Michiel
+ s\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux<br/>Enseignant :
+  Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240902T080950Z
+UID:Cours-185232-9-BA3P_Electronique-Index-Education
+DTSTART:20241113T123000Z
+DTEND:20241113T143000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux\nEnseignant : Michiel
+ s\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux<br/>Enseignant :
+  Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T062313Z
+UID:Cours-185233-13-BA3P_Electronique-Index-Education
+DTSTART:20241210T123000Z
+DTEND:20241210T163000Z
+SUMMARY;LANGUAGE=fr:Composants program. - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Composants program.\nEnseignant : Paulet\
+ nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Composants program.<br/>Enseignant :
+  Paulet<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240917T094805Z
+UID:Cours-185239-2-BA3P_Electronique-Index-Education
+DTSTART:20240924T061500Z
+DTEND:20240924T081500Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Cours
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nSalle : 1/26\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Salle : 1/26<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240920T092518Z
+UID:Cours-215590-4-BA3P_Electronique-Index-Education
+DTSTART:20241008T063000Z
+DTEND:20241008T133000Z
+SUMMARY;LANGUAGE=fr:Visite - Isidoro\, Paulet - Salon SAM
+DESCRIPTION;LANGUAGE=fr:Matière : Visite\nEnseignants : Isidoro\, Paulet\nM
+ émo : Salon SAM\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Visite<br/>Enseignants : Isidoro\, P
+ aulet<br/>Mémo : Salon SAM<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20230829T115409Z
+UID:Cours-185246-3-BA3P_Electronique-Index-Education
+DTSTART:20240930T113000Z
+DTEND:20240930T153000Z
+SUMMARY;LANGUAGE=fr:Automat.program.industriels - Scopel - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Automat.program.industriels\nEnseignant :
+  Scopel\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automat.program.industriels<br/>Ense
+ ignant : Scopel<br/>Salle : 1/23<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20230829T115409Z
+UID:Cours-185246-4-BA3P_Electronique-Index-Education
+DTSTART:20241007T113000Z
+DTEND:20241007T153000Z
+SUMMARY;LANGUAGE=fr:Automat.program.industriels - Scopel - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Automat.program.industriels\nEnseignant :
+  Scopel\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automat.program.industriels<br/>Ense
+ ignant : Scopel<br/>Salle : 1/23<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20230829T115409Z
+UID:Cours-185246-5-BA3P_Electronique-Index-Education
+DTSTART:20241014T113000Z
+DTEND:20241014T153000Z
+SUMMARY;LANGUAGE=fr:Automat.program.industriels - Scopel - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Automat.program.industriels\nEnseignant :
+  Scopel\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automat.program.industriels<br/>Ense
+ ignant : Scopel<br/>Salle : 1/23<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T051225Z
+UID:Cours-185248-10-BA3P_Electronique-Index-Education
+DTSTART:20241121T123000Z
+DTEND:20241121T163000Z
+SUMMARY;LANGUAGE=fr:Composants program. - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Composants program.\nEnseignant : Paulet\
+ nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Composants program.<br/>Enseignant :
+  Paulet<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240912T080718Z
+UID:Cours-187471-2-BA3P_Electronique-Index-Education
+DTSTART:20240923T061500Z
+DTEND:20240923T081500Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240912T080718Z
+UID:Cours-187471-3-BA3P_Electronique-Index-Education
+DTSTART:20240930T061500Z
+DTEND:20240930T081500Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240912T080718Z
+UID:Cours-187471-4-BA3P_Electronique-Index-Education
+DTSTART:20241007T061500Z
+DTEND:20241007T081500Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240912T080718Z
+UID:Cours-187471-5-BA3P_Electronique-Index-Education
+DTSTART:20241014T061500Z
+DTEND:20241014T081500Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240912T080718Z
+UID:Cours-187471-8-BA3P_Electronique-Index-Education
+DTSTART:20241104T071500Z
+DTEND:20241104T091500Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 1/18<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20230922T135415Z
+UID:Cours-190995-5-BA3P_Electronique-Index-Education
+DTSTART:20241016T061500Z
+DTEND:20241016T103000Z
+SUMMARY;LANGUAGE=fr:Composants program. - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Composants program.\nEnseignant : Paulet\
+ nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Composants program.<br/>Enseignant :
+  Paulet<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20231128T084725Z
+UID:Cours-197759-4-BA3P_Electronique-Index-Education
+DTSTART:20241009T113000Z
+DTEND:20241009T153000Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Laboratoires
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nSalle : 1/26\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Salle : 1/26<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20231128T084725Z
+UID:Cours-197759-5-BA3P_Electronique-Index-Education
+DTSTART:20241016T113000Z
+DTEND:20241016T153000Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Laboratoires
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nSalle : 1/26\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Salle : 1/26<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20231128T084725Z
+UID:Cours-197759-6-BA3P_Electronique-Index-Education
+DTSTART:20241023T113000Z
+DTEND:20241023T153000Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Laboratoires
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nSalle : 1/26\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Salle : 1/26<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20231128T084725Z
+UID:Cours-197759-10-BA3P_Electronique-Index-Education
+DTSTART:20241120T123000Z
+DTEND:20241120T163000Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Laboratoires
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nSalle : 1/26\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Salle : 1/26<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20231128T084725Z
+UID:Cours-197759-11-BA3P_Electronique-Index-Education
+DTSTART:20241127T123000Z
+DTEND:20241127T163000Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Laboratoires
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nSalle : 1/26\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Salle : 1/26<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240710T072140Z
+UID:Cours-203791-6-BA3P_Electronique-Index-Education
+DTSTART:20241022T061500Z
+DTEND:20241022T143000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Informatique\, BA3 TL 
+ - LDT - Salon Job contact - 24-25
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Informat
+ ique\, BA3 TL - LDT\nMatière : Salon Job contact\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Inf
+ ormatique\, BA3 TL - LDT<br/>Matière : Salon Job contact<br/>Mémo : 24-25<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240923T073710Z
+UID:Cours-215720-8-BA3P_Electronique-Index-Education
+DTSTART:20241105T073000Z
+DTEND:20241105T113000Z
+SUMMARY;LANGUAGE=fr:Domotique - Maillez - Laboratoires
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Domotique\nEnseignant : Maillez\nSalle : 
+ 1/26\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Domotique<br/>Enseignant : Maillez<b
+ r/>Salle : 1/26<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240923T073710Z
+UID:Cours-215720-14-BA3P_Electronique-Index-Education
+DTSTART:20241217T073000Z
+DTEND:20241217T113000Z
+SUMMARY;LANGUAGE=fr:Domotique - Maillez - Laboratoires
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Domotique\nEnseignant : Maillez\nSalle : 
+ 1/26\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Domotique<br/>Enseignant : Maillez<b
+ r/>Salle : 1/26<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T062228Z
+UID:Cours-206653-4-BA3P_Electronique-Index-Education
+DTSTART:20241010T113000Z
+DTEND:20241010T153000Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Laboratoires
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nSalle : 1/26\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Salle : 1/26<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T062228Z
+UID:Cours-206653-5-BA3P_Electronique-Index-Education
+DTSTART:20241017T113000Z
+DTEND:20241017T153000Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Laboratoires
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nSalle : 1/26\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Salle : 1/26<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T064213Z
+UID:Cours-206656-12-BA3P_Electronique-Index-Education
+DTSTART:20241202T071500Z
+DTEND:20241202T163000Z
+SUMMARY;LANGUAGE=fr:Syst. expl embarqués et interf - Taira - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Syst. expl embarqués et interf\nEnseignan
+ t : Taira\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Syst. expl embarqués et interf<br/>E
+ nseignant : Taira<br/>Salle : 1/23<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240902T080957Z
+UID:Cours-206660-1-BA3P_Electronique-Index-Education
+DTSTART:20240916T083000Z
+DTEND:20240916T103000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux\nEnseignant : Michiel
+ s\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux<br/>Enseignant :
+  Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240902T080957Z
+UID:Cours-206660-3-BA3P_Electronique-Index-Education
+DTSTART:20240930T083000Z
+DTEND:20240930T103000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux\nEnseignant : Michiel
+ s\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux<br/>Enseignant :
+  Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240902T080957Z
+UID:Cours-206660-4-BA3P_Electronique-Index-Education
+DTSTART:20241007T083000Z
+DTEND:20241007T103000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux\nEnseignant : Michiel
+ s\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux<br/>Enseignant :
+  Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240902T080957Z
+UID:Cours-206660-5-BA3P_Electronique-Index-Education
+DTSTART:20241014T083000Z
+DTEND:20241014T103000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux\nEnseignant : Michiel
+ s\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux<br/>Enseignant :
+  Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240902T080957Z
+UID:Cours-206660-8-BA3P_Electronique-Index-Education
+DTSTART:20241104T093000Z
+DTEND:20241104T113000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux\nEnseignant : Michiel
+ s\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux<br/>Enseignant :
+  Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240902T080957Z
+UID:Cours-206660-10-BA3P_Electronique-Index-Education
+DTSTART:20241118T093000Z
+DTEND:20241118T113000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux\nEnseignant : Michiel
+ s\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux<br/>Enseignant :
+  Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240902T080957Z
+UID:Cours-206660-11-BA3P_Electronique-Index-Education
+DTSTART:20241125T093000Z
+DTEND:20241125T113000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux\nEnseignant : Michiel
+ s\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux<br/>Enseignant :
+  Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240902T080957Z
+UID:Cours-206660-13-BA3P_Electronique-Index-Education
+DTSTART:20241209T093000Z
+DTEND:20241209T113000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux - Michiels - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux\nEnseignant : Michiel
+ s\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux<br/>Enseignant :
+  Michiels<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T064220Z
+UID:Cours-206666-12-BA3P_Electronique-Index-Education
+DTSTART:20241203T071500Z
+DTEND:20241203T163000Z
+SUMMARY;LANGUAGE=fr:Syst. expl embarqués et interf - Taira - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Syst. expl embarqués et interf\nEnseignan
+ t : Taira\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Syst. expl embarqués et interf<br/>E
+ nseignant : Taira<br/>Salle : 1/23<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T064229Z
+UID:Cours-206667-12-BA3P_Electronique-Index-Education
+DTSTART:20241204T071500Z
+DTEND:20241204T163000Z
+SUMMARY;LANGUAGE=fr:Syst. expl embarqués et interf - Taira - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Syst. expl embarqués et interf\nEnseignan
+ t : Taira\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Syst. expl embarqués et interf<br/>E
+ nseignant : Taira<br/>Salle : 1/23<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T064237Z
+UID:Cours-206668-12-BA3P_Electronique-Index-Education
+DTSTART:20241205T071500Z
+DTEND:20241205T120000Z
+SUMMARY;LANGUAGE=fr:Syst. expl embarqués et interf - Taira - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Syst. expl embarqués et interf\nEnseignan
+ t : Taira\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Syst. expl embarqués et interf<br/>E
+ nseignant : Taira<br/>Salle : 1/23<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T064246Z
+UID:Cours-206669-12-BA3P_Electronique-Index-Education
+DTSTART:20241206T071500Z
+DTEND:20241206T163000Z
+SUMMARY;LANGUAGE=fr:Syst. expl embarqués et interf - Taira - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Syst. expl embarqués et interf\nEnseignan
+ t : Taira\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Syst. expl embarqués et interf<br/>E
+ nseignant : Taira<br/>Salle : 1/23<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T064454Z
+UID:Cours-206670-9-BA3P_Electronique-Index-Education
+DTSTART:20241113T071500Z
+DTEND:20241113T113000Z
+SUMMARY;LANGUAGE=fr:Syst. expl embarqués et interf - Taira - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Syst. expl embarqués et interf\nEnseignan
+ t : Taira\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Syst. expl embarqués et interf<br/>E
+ nseignant : Taira<br/>Salle : 1/23<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T070153Z
+UID:Cours-206671-14-BA3P_Electronique-Index-Education
+DTSTART:20241216T080000Z
+DTEND:20241216T120000Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T070220Z
+UID:Cours-206672-9-BA3P_Electronique-Index-Education
+DTSTART:20241114T123000Z
+DTEND:20241114T163000Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T071452Z
+UID:Cours-206673-1-BA3P_Electronique-Index-Education
+DTSTART:20240916T113000Z
+DTEND:20240916T153000Z
+SUMMARY;LANGUAGE=fr:Automat.program.industriels - Scopel - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Automat.program.industriels\nEnseignant :
+  Scopel\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automat.program.industriels<br/>Ense
+ ignant : Scopel<br/>Salle : 1/23<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240814T071452Z
+UID:Cours-206673-2-BA3P_Electronique-Index-Education
+DTSTART:20240923T113000Z
+DTEND:20240923T153000Z
+SUMMARY;LANGUAGE=fr:Automat.program.industriels - Scopel - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Automat.program.industriels\nEnseignant :
+  Scopel\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automat.program.industriels<br/>Ense
+ ignant : Scopel<br/>Salle : 1/23<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240902T063836Z
+UID:Cours-206677-5-BA3P_Electronique-Index-Education
+DTSTART:20241015T113000Z
+DTEND:20241015T133000Z
+SUMMARY;LANGUAGE=fr:Régulation numérique - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Régulation numérique\nEnseignant : Isidor
+ o\nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Régulation numérique<br/>Enseignant 
+ : Isidoro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240923T073710Z
+UID:Cours-206711-9-BA3P_Electronique-Index-Education
+DTSTART:20241115T073000Z
+DTEND:20241115T113000Z
+SUMMARY;LANGUAGE=fr:Domotique - Maillez - Laboratoires
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Domotique\nEnseignant : Maillez\nSalle : 
+ 1/26\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Domotique<br/>Enseignant : Maillez<b
+ r/>Salle : 1/26<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240923T073710Z
+UID:Cours-206712-6-BA3P_Electronique-Index-Education
+DTSTART:20241021T113000Z
+DTEND:20241021T153000Z
+SUMMARY;LANGUAGE=fr:Domotique - Maillez - Laboratoires
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Domotique\nEnseignant : Maillez\nSalle : 
+ 1/26\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Domotique<br/>Enseignant : Maillez<b
+ r/>Salle : 1/26<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240923T073710Z
+UID:Cours-206712-10-BA3P_Electronique-Index-Education
+DTSTART:20241118T123000Z
+DTEND:20241118T163000Z
+SUMMARY;LANGUAGE=fr:Domotique - Maillez - Laboratoires
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Domotique\nEnseignant : Maillez\nSalle : 
+ 1/26\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Domotique<br/>Enseignant : Maillez<b
+ r/>Salle : 1/26<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240923T073710Z
+UID:Cours-206714-4-BA3P_Electronique-Index-Education
+DTSTART:20241009T061500Z
+DTEND:20241009T101500Z
+SUMMARY;LANGUAGE=fr:Domotique - Maillez - Laboratoires
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Domotique\nEnseignant : Maillez\nSalle : 
+ 1/26\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Domotique<br/>Enseignant : Maillez<b
+ r/>Salle : 1/26<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240923T073710Z
+UID:Cours-206714-6-BA3P_Electronique-Index-Education
+DTSTART:20241023T061500Z
+DTEND:20241023T101500Z
+SUMMARY;LANGUAGE=fr:Domotique - Maillez - Laboratoires
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Domotique\nEnseignant : Maillez\nSalle : 
+ 1/26\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Domotique<br/>Enseignant : Maillez<b
+ r/>Salle : 1/26<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240822T091112Z
+UID:Cours-208949-1-BA3P_Electronique-Index-Education
+DTSTART:20240917T083000Z
+DTEND:20240917T103000Z
+SUMMARY;LANGUAGE=fr:PROJETS (MER + TFE) - Arnaud\, Maillez\, Paulet\, Taira
+LOCATION;LANGUAGE=fr:2/10B\, 2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : PROJETS (MER + TFE)\nEnseignants : Arnaud
+ \, Maillez\, Paulet\, Taira\nSalles : 2/10B\, 2/10C\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PROJETS (MER + TFE)<br/>Enseignants 
+ : Arnaud\, Maillez\, Paulet\, Taira<br/>Salles : 2/10B\, 2/10C<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240822T091112Z
+UID:Cours-208955-2-BA3P_Electronique-Index-Education
+DTSTART:20240924T083000Z
+DTEND:20240924T103000Z
+SUMMARY;LANGUAGE=fr:PROJETS (MER + TFE) - Arnaud\, Maillez\, Paulet\, Taira
+LOCATION;LANGUAGE=fr:2/10B\, 2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : PROJETS (MER + TFE)\nEnseignants : Arnaud
+ \, Maillez\, Paulet\, Taira\nSalles : 2/10B\, 2/10C\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PROJETS (MER + TFE)<br/>Enseignants 
+ : Arnaud\, Maillez\, Paulet\, Taira<br/>Salles : 2/10B\, 2/10C<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240822T090945Z
+UID:Cours-208968-6-BA3P_Electronique-Index-Education
+DTSTART:20241024T113000Z
+DTEND:20241024T153000Z
+SUMMARY;LANGUAGE=fr:PROJETS (MER + TFE) - Arnaud\, Maillez\, Paulet\, Taira
+LOCATION;LANGUAGE=fr:2/10A\, 2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : PROJETS (MER + TFE)\nEnseignants : Arnaud
+ \, Maillez\, Paulet\, Taira\nSalles : 2/10A\, 2/10C\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PROJETS (MER + TFE)<br/>Enseignants 
+ : Arnaud\, Maillez\, Paulet\, Taira<br/>Salles : 2/10A\, 2/10C<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240822T084519Z
+UID:Cours-208982-6-BA3P_Electronique-Index-Education
+DTSTART:20241025T113000Z
+DTEND:20241025T153000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux - Maillez - Laboratoires
+LOCATION;LANGUAGE=fr:1/24
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux\nEnseignant : Maillez
+ \nSalle : 1/24\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux<br/>Enseignant :
+  Maillez<br/>Salle : 1/24<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240822T084519Z
+UID:Cours-208982-8-BA3P_Electronique-Index-Education
+DTSTART:20241108T123000Z
+DTEND:20241108T163000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux - Maillez - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux\nEnseignant : Maillez
+ \nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux<br/>Enseignant :
+  Maillez<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240822T084519Z
+UID:Cours-208982-10-BA3P_Electronique-Index-Education
+DTSTART:20241122T123000Z
+DTEND:20241122T163000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux - Maillez - Laboratoires
+LOCATION;LANGUAGE=fr:1/24
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux\nEnseignant : Maillez
+ \nSalle : 1/24\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux<br/>Enseignant :
+  Maillez<br/>Salle : 1/24<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240822T084519Z
+UID:Cours-208982-13-BA3P_Electronique-Index-Education
+DTSTART:20241213T123000Z
+DTEND:20241213T163000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux - Maillez - Laboratoires
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux\nEnseignant : Maillez
+ \nSalle : 1/26\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux<br/>Enseignant :
+  Maillez<br/>Salle : 1/26<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240822T084519Z
+UID:Cours-208983-12-BA3P_Electronique-Index-Education
+DTSTART:20241205T123000Z
+DTEND:20241205T163000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux - Maillez - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux\nEnseignant : Maillez
+ \nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux<br/>Enseignant :
+  Maillez<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240822T090832Z
+UID:Cours-208986-9-BA3P_Electronique-Index-Education
+DTSTART:20241115T123000Z
+DTEND:20241115T164500Z
+SUMMARY;LANGUAGE=fr:PROJETS (MER + TFE) - Arnaud\, Maillez\, Paulet\, Taira
+LOCATION;LANGUAGE=fr:2/10B\, 2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : PROJETS (MER + TFE)\nEnseignants : Arnaud
+ \, Maillez\, Paulet\, Taira\nSalles : 2/10B\, 2/10C\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PROJETS (MER + TFE)<br/>Enseignants 
+ : Arnaud\, Maillez\, Paulet\, Taira<br/>Salles : 2/10B\, 2/10C<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240912T072142Z
+UID:Cours-208999-13-BA3P_Electronique-Index-Education
+DTSTART:20241212T071500Z
+DTEND:20241212T111500Z
+SUMMARY;LANGUAGE=fr:PROJETS (MER + TFE) - Arnaud\, Maillez\, Paulet\, Taira
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : PROJETS (MER + TFE)\nEnseignants : Arnaud
+ \, Maillez\, Paulet\, Taira\nSalle : 2/10C\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PROJETS (MER + TFE)<br/>Enseignants 
+ : Arnaud\, Maillez\, Paulet\, Taira<br/>Salle : 2/10C<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240822T090823Z
+UID:Cours-209010-14-BA3P_Electronique-Index-Education
+DTSTART:20241220T123000Z
+DTEND:20241220T163000Z
+SUMMARY;LANGUAGE=fr:PROJETS (MER + TFE) - Arnaud\, Maillez\, Paulet\, Taira
+LOCATION;LANGUAGE=fr:2/10A\, 2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : PROJETS (MER + TFE)\nEnseignants : Arnaud
+ \, Maillez\, Paulet\, Taira\nSalles : 2/10A\, 2/10C\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PROJETS (MER + TFE)<br/>Enseignants 
+ : Arnaud\, Maillez\, Paulet\, Taira<br/>Salles : 2/10A\, 2/10C<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240923T074923Z
+UID:Cours-209011-3-BA3P_Electronique-Index-Education
+DTSTART:20241002T120000Z
+DTEND:20241002T140000Z
+SUMMARY;LANGUAGE=fr:PROJETS (MER + TFE) - Arnaud\, Maillez\, Paulet\, Taira
+LOCATION;LANGUAGE=fr:2/10B\, 2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : PROJETS (MER + TFE)\nEnseignants : Arnaud
+ \, Maillez\, Paulet\, Taira\nSalles : 2/10B\, 2/10C\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PROJETS (MER + TFE)<br/>Enseignants 
+ : Arnaud\, Maillez\, Paulet\, Taira<br/>Salles : 2/10B\, 2/10C<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240916T114205Z
+UID:Cours-210508-1-BA3P_Electronique-Index-Education
+DTSTART:20240919T083000Z
+DTEND:20240919T103000Z
+SUMMARY;LANGUAGE=fr:Anglais professionnel - Delmotte - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Anglais professionnel\nEnseignant : Delmo
+ tte\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Anglais professionnel<br/>Enseignant
+  : Delmotte<br/>Salle : 1/23<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240916T114205Z
+UID:Cours-210510-5-BA3P_Electronique-Index-Education
+DTSTART:20241017T063000Z
+DTEND:20241017T083000Z
+SUMMARY;LANGUAGE=fr:Anglais professionnel - Delmotte - Cours
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:Matière : Anglais professionnel\nEnseignant : Delmo
+ tte\nSalle : 2/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Anglais professionnel<br/>Enseignant
+  : Delmotte<br/>Salle : 2/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240916T114217Z
+UID:Cours-210511-1-BA3P_Electronique-Index-Education
+DTSTART:20240919T113000Z
+DTEND:20240919T133000Z
+SUMMARY;LANGUAGE=fr:Anglais professionnel - Delmotte - Cours
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Anglais professionnel\nEnseignant : Delmo
+ tte\nSalle : 1/29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Anglais professionnel<br/>Enseignant
+  : Delmotte<br/>Salle : 1/29<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240916T114217Z
+UID:Cours-210511-3-BA3P_Electronique-Index-Education
+DTSTART:20241003T113000Z
+DTEND:20241003T133000Z
+SUMMARY;LANGUAGE=fr:Anglais professionnel - Delmotte - Cours
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:Matière : Anglais professionnel\nEnseignant : Delmo
+ tte\nSalle : 2/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Anglais professionnel<br/>Enseignant
+  : Delmotte<br/>Salle : 2/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240828T091649Z
+UID:Cours-210513-8-BA3P_Electronique-Index-Education
+DTSTART:20241104T123000Z
+DTEND:20241104T143000Z
+SUMMARY;LANGUAGE=fr:Anglais professionnel - Delmotte - Examen hors session 
+ - Examen Oral
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:Matière : Anglais professionnel\nEnseignant : Delmo
+ tte\nSalle : 2/11\nMémo : Examen hors session\nType : Examen Oral\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Anglais professionnel<br/>Enseignant
+  : Delmotte<br/>Salle : 2/11<br/>Mémo : Examen hors session<br/>Type : Exa
+ men Oral<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240828T091854Z
+UID:Cours-210530-5-BA3P_Electronique-Index-Education
+DTSTART:20241015T083000Z
+DTEND:20241015T103000Z
+SUMMARY;LANGUAGE=fr:Anglais professionnel - Delmotte - Cours
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:Matière : Anglais professionnel\nEnseignant : Delmo
+ tte\nSalle : 2/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Anglais professionnel<br/>Enseignant
+  : Delmotte<br/>Salle : 2/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240830T122706Z
+UID:Cours-210888-1-BA3P_Electronique-Index-Education
+DTSTART:20240917T113000Z
+DTEND:20240917T133000Z
+SUMMARY;LANGUAGE=fr:Stage - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Stage\nEnseignant : Isidoro\nSalle : 2/17
+ A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Stage<br/>Enseignant : Isidoro<br/>S
+ alle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240902T063836Z
+UID:Cours-211518-8-BA3P_Electronique-Index-Education
+DTSTART:20241107T091500Z
+DTEND:20241107T111500Z
+SUMMARY;LANGUAGE=fr:Régulation numérique - Isidoro - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Régulation numérique\nEnseignant : Isidor
+ o\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Régulation numérique<br/>Enseignant 
+ : Isidoro<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240905T111107Z
+UID:Cours-212359-6-BA3P_Electronique-Index-Education
+DTSTART:20241024T061500Z
+DTEND:20241024T101500Z
+SUMMARY;LANGUAGE=fr:Régulation numérique - Taira - Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Régulation numérique\nEnseignant : Taira\
+ nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Régulation numérique<br/>Enseignant 
+ : Taira<br/>Salle : 2/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240905T111107Z
+UID:Cours-212359-11-BA3P_Electronique-Index-Education
+DTSTART:20241128T071500Z
+DTEND:20241128T111500Z
+SUMMARY;LANGUAGE=fr:Régulation numérique - Taira - Laboratoires
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Régulation numérique\nEnseignant : Taira\
+ nSalle : 2/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Régulation numérique<br/>Enseignant 
+ : Taira<br/>Salle : 2/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+LAST-MODIFIED:20240917T094805Z
+UID:Cours-215470-2-BA3P_Electronique-Index-Education
+DTSTART:20240926T061500Z
+DTEND:20240926T081500Z
+SUMMARY;LANGUAGE=fr:Systèmes embarqués - Maillez - Cours
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Matière : Systèmes embarqués\nEnseignant : Maillez\
+ nSalle : 1/26\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Systèmes embarqués<br/>Enseignant : 
+ Maillez<br/>Salle : 1/26<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+UID:Ferie-939-BA3P_Electronique-Index-Education
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240928
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+UID:Ferie-940-BA3P_Electronique-Index-Education
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145706Z
+UID:Ferie-941-BA3P_Electronique-Index-Education
+DTSTART;VALUE=DATE:20241111
+DTEND;VALUE=DATE:20241112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+END:VCALENDAR

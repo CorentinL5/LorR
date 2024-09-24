@@ -1,0 +1,1558 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
+METHOD:PUBLISH
+X-CALSTART:20240916T000000Z
+X-CALEND:20241221T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - <BA1P Infographie> <Laboratoires> Groupe 1 B
+ A1P Infographie - du 16 septembre au 21 décembre 2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de <BA1P Infographie> <Laboratoire
+ s> Groupe 1 BA1P Infographie généré par le logiciel HP (©INDEX ÉDUCATION) 
+ le 24 sept. 2024 - Haute Ecole en Hainaut - valable sur la période du 16 s
+ eptembre au 21 décembre 2024 - Semaines : semaine 38 - 51
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T093212Z
+UID:Cours-156854-12-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241204T071500Z
+DTEND:20241204T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie\, Groupe 2 BA1P Infographie\,
+  Groupe 3 BA1P Infographie\, Groupe 4 BA1P Infographie - Coding Day - Clau
+ s\, Depreter\, Miller - 24-25 - TP
+LOCATION;LANGUAGE=fr:1/RESTO2
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\, Groupe 2 BA1P Info
+ graphie\, Groupe 3 BA1P Infographie\, Groupe 4 BA1P Infographie\nMatière :
+  Coding Day\nEnseignants : Claus\, Depreter\, Miller\nSalle : 1/RESTO2\nMé
+ mo : 24-25\nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie\, Groupe 2 BA1P
+  Infographie\, Groupe 3 BA1P Infographie\, Groupe 4 BA1P Infographie<br/>M
+ atière : Coding Day<br/>Enseignants : Claus\, Depreter\, Miller<br/>Salle 
+ : 1/RESTO2<br/>Mémo : 24-25<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240705T063414Z
+UID:Cours-156920-8-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241107T071500Z
+DTEND:20241107T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Informatique: Programmation
+  - Quevy - Laboratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Informati
+ que: Programmation\nEnseignant : Quevy\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : I
+ nformatique: Programmation<br/>Enseignant : Quevy<br/>Type : Laboratoires<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240709T115718Z
+UID:Cours-156922-14-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241218T071500Z
+DTEND:20241218T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Informatique: Programmation
+  - Quevy - Laboratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Informati
+ que: Programmation\nEnseignant : Quevy\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : I
+ nformatique: Programmation<br/>Enseignant : Quevy<br/>Type : Laboratoires<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240705T080131Z
+UID:Cours-158641-12-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241206T123000Z
+DTEND:20241206T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Informatique: Programmation
+  - Quevy - Laboratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Informati
+ que: Programmation\nEnseignant : Quevy\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : I
+ nformatique: Programmation<br/>Enseignant : Quevy<br/>Type : Laboratoires<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240913T085758Z
+UID:Cours-158682-13-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241213T123000Z
+DTEND:20241213T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Dessin industriel 2D - Sour
+ is - Laboratoires
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Dessin in
+ dustriel 2D\nEnseignant : Souris\nSalle : 1/21\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ essin industriel 2D<br/>Enseignant : Souris<br/>Salle : 1/21<br/>Type : La
+ boratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20221017T130131Z
+UID:Cours-158851-13-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241212T071500Z
+DTEND:20241212T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Informatique: Programmation
+  - Quevy - Laboratoires
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Informati
+ que: Programmation\nEnseignant : Quevy\nSalle : 1/23\nType : Laboratoires\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : I
+ nformatique: Programmation<br/>Enseignant : Quevy<br/>Salle : 1/23<br/>Typ
+ e : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240910T114047Z
+UID:Cours-158852-10-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241118T071500Z
+DTEND:20241118T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Informatique: Programmation
+  - Quevy - Laboratoires
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Informati
+ que: Programmation\nEnseignant : Quevy\nSalle : 1/27\nType : Laboratoires\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : I
+ nformatique: Programmation<br/>Enseignant : Quevy<br/>Salle : 1/27<br/>Typ
+ e : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20230831T135028Z
+UID:Cours-158853-3-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241001T061500Z
+DTEND:20241001T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Informatique: Programmation
+  - Quevy - Laboratoires
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Informati
+ que: Programmation\nEnseignant : Quevy\nSalle : 1/23\nType : Laboratoires\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : I
+ nformatique: Programmation<br/>Enseignant : Quevy<br/>Salle : 1/23<br/>Typ
+ e : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240913T085306Z
+UID:Cours-159002-9-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241112T071500Z
+DTEND:20241112T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Dessin industriel 2D - Sour
+ is - Laboratoires
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Dessin in
+ dustriel 2D\nEnseignant : Souris\nSalle : 1/14\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ essin industriel 2D<br/>Enseignant : Souris<br/>Salle : 1/14<br/>Type : La
+ boratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240913T085306Z
+UID:Cours-159002-10-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241119T071500Z
+DTEND:20241119T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Dessin industriel 2D - Sour
+ is - Laboratoires
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Dessin in
+ dustriel 2D\nEnseignant : Souris\nSalle : 1/14\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ essin industriel 2D<br/>Enseignant : Souris<br/>Salle : 1/14<br/>Type : La
+ boratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240913T085306Z
+UID:Cours-159002-11-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241126T071500Z
+DTEND:20241126T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Dessin industriel 2D - Sour
+ is - Laboratoires
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Dessin in
+ dustriel 2D\nEnseignant : Souris\nSalle : 1/14\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ essin industriel 2D<br/>Enseignant : Souris<br/>Salle : 1/14<br/>Type : La
+ boratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240913T085306Z
+UID:Cours-159002-13-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241210T071500Z
+DTEND:20241210T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Dessin industriel 2D - Sour
+ is - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Dessin in
+ dustriel 2D\nEnseignant : Souris\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ essin industriel 2D<br/>Enseignant : Souris<br/>Salle : 1/10B<br/>Type : L
+ aboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240913T085306Z
+UID:Cours-159002-14-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241217T071500Z
+DTEND:20241217T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Dessin industriel 2D - Sour
+ is - Laboratoires
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Dessin in
+ dustriel 2D\nEnseignant : Souris\nSalle : 1/14\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ essin industriel 2D<br/>Enseignant : Souris<br/>Salle : 1/14<br/>Type : La
+ boratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20230831T135042Z
+UID:Cours-165252-11-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241126T123000Z
+DTEND:20241126T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Informatique: Programmation
+  - Quevy - Laboratoires
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Informati
+ que: Programmation\nEnseignant : Quevy\nSalle : 2/10D\nType : Laboratoires
+ \n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : I
+ nformatique: Programmation<br/>Enseignant : Quevy<br/>Salle : 2/10D<br/>Ty
+ pe : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T054344Z
+UID:Cours-168980-1-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20240918T113000Z
+DTEND:20240918T133000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Character design-Storyboard
+ ing - Derville - Laboratoires
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Character
+  design-Storyboarding\nEnseignant : Derville\nSalle : 1/18\nType : Laborat
+ oires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : C
+ haracter design-Storyboarding<br/>Enseignant : Derville<br/>Salle : 1/18<b
+ r/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20231211T141746Z
+UID:Cours-168981-14-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241218T123000Z
+DTEND:20241218T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Character design-Storyboard
+ ing - Derville - Examen
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Character
+  design-Storyboarding\nEnseignant : Derville\nSalle : 1/18\nType : Examen\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : C
+ haracter design-Storyboarding<br/>Enseignant : Derville<br/>Salle : 1/18<b
+ r/>Type : Examen<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20230712T071738Z
+UID:Cours-169521-6-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241024T061500Z
+DTEND:20241024T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Informatique: Programmation
+  - Quevy - Laboratoires
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Informati
+ que: Programmation\nEnseignant : Quevy\nSalle : 1/27\nType : Laboratoires\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : I
+ nformatique: Programmation<br/>Enseignant : Quevy<br/>Salle : 1/27<br/>Typ
+ e : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T064437Z
+UID:Cours-184320-3-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20240930T061500Z
+DTEND:20240930T103000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Dessin industriel 2D - Clau
+ s - Laboratoires
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Dessin in
+ dustriel 2D\nEnseignant : Claus\nSalle : 1/14\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ essin industriel 2D<br/>Enseignant : Claus<br/>Salle : 1/14<br/>Type : Lab
+ oratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240705T075602Z
+UID:Cours-184332-8-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241105T071500Z
+DTEND:20241105T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Dessin industriel 2D - Sour
+ is - Laboratoires
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Dessin in
+ dustriel 2D\nEnseignant : Souris\nSalle : 1/14\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ essin industriel 2D<br/>Enseignant : Souris<br/>Salle : 1/14<br/>Type : La
+ boratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T064418Z
+UID:Cours-190590-5-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241015T071500Z
+DTEND:20241015T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Dessin industriel 2D - Clau
+ s - Laboratoires
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Dessin in
+ dustriel 2D\nEnseignant : Claus\nSalle : 1/14\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ essin industriel 2D<br/>Enseignant : Claus<br/>Salle : 1/14<br/>Type : Lab
+ oratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240905T115541Z
+UID:Cours-197434-3-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241002T113000Z
+DTEND:20241002T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Character design-Storyboard
+ ing - Petit - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Character
+  design-Storyboarding\nEnseignant : Petit\nSalle : 1/10B\nType : Laboratoi
+ res\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : C
+ haracter design-Storyboarding<br/>Enseignant : Petit<br/>Salle : 1/10B<br/
+ >Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240916T133637Z
+UID:Cours-204147-1-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20240917T061500Z
+DTEND:20240917T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Informatique: Programmation
+  - Quevy - Laboratoires
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Informati
+ que: Programmation\nEnseignant : Quevy\nSalle : 2/10D\nType : Laboratoires
+ \n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : I
+ nformatique: Programmation<br/>Enseignant : Quevy<br/>Salle : 2/10D<br/>Ty
+ pe : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240916T133637Z
+UID:Cours-204147-2-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20240924T061500Z
+DTEND:20240924T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Informatique: Programmation
+  - Quevy - Laboratoires
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Informati
+ que: Programmation\nEnseignant : Quevy\nSalle : 1/28\nType : Laboratoires\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : I
+ nformatique: Programmation<br/>Enseignant : Quevy<br/>Salle : 1/28<br/>Typ
+ e : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240705T080109Z
+UID:Cours-204648-12-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241203T123000Z
+DTEND:20241203T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Dessin industriel 2D - Sour
+ is - Laboratoires
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Dessin in
+ dustriel 2D\nEnseignant : Souris\nSalle : 1/11\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ essin industriel 2D<br/>Enseignant : Souris<br/>Salle : 1/11<br/>Type : La
+ boratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240814T093355Z
+UID:Cours-206733-5-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241014T061500Z
+DTEND:20241014T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Informatique: Programmation
+  - Quevy - Laboratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Informati
+ que: Programmation\nEnseignant : Quevy\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : I
+ nformatique: Programmation<br/>Enseignant : Quevy<br/>Type : Laboratoires<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240814T093355Z
+UID:Cours-206733-6-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241021T061500Z
+DTEND:20241021T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Informatique: Programmation
+  - Quevy - Laboratoires
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Informati
+ que: Programmation\nEnseignant : Quevy\nSalle : 1/23\nType : Laboratoires\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : I
+ nformatique: Programmation<br/>Enseignant : Quevy<br/>Salle : 1/23<br/>Typ
+ e : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240902T171853Z
+UID:Cours-206752-11-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241128T083000Z
+DTEND:20241128T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Math appl. 1 - Lebailly - E
+ xercices
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Math appl
+ . 1\nEnseignant : Lebailly\nSalle : 1/36A\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : M
+ ath appl. 1<br/>Enseignant : Lebailly<br/>Salle : 1/36A<br/>Type : Exercic
+ es<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T091745Z
+UID:Cours-208371-14-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241216T093000Z
+DTEND:20241216T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Math appl. 1 - Lebailly - E
+ xercices
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Math appl
+ . 1\nEnseignant : Lebailly\nSalle : 2/11\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : M
+ ath appl. 1<br/>Enseignant : Lebailly<br/>Salle : 2/11<br/>Type : Exercice
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T055142Z
+UID:Cours-208526-3-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241002T061500Z
+DTEND:20241002T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Image & retouche numérique 
+ 1 - Claus - Laboratoires
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Image & r
+ etouche numérique 1\nEnseignant : Claus\nSalle : 1/21\nType : Laboratoires
+ \n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : I
+ mage & retouche numérique 1<br/>Enseignant : Claus<br/>Salle : 1/21<br/>Ty
+ pe : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240913T114439Z
+UID:Cours-211807-12-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241203T083000Z
+DTEND:20241203T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Math appl. 1 - Lebailly - E
+ xercices
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Math appl
+ . 1\nEnseignant : Lebailly\nSalle : 1/29\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : M
+ ath appl. 1<br/>Enseignant : Lebailly<br/>Salle : 1/29<br/>Type : Exercice
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T055059Z
+UID:Cours-212918-6-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241022T061500Z
+DTEND:20241022T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Image & retouche numérique 
+ 1 - Claus - Laboratoires
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Image & r
+ etouche numérique 1\nEnseignant : Claus\nSalle : 1/14\nType : Laboratoires
+ \n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : I
+ mage & retouche numérique 1<br/>Enseignant : Claus<br/>Salle : 1/14<br/>Ty
+ pe : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T093257Z
+UID:Cours-212921-4-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241009T061500Z
+DTEND:20241009T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Développement web - Claus -
+  Laboratoires
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Développe
+ ment web\nEnseignant : Claus\nSalle : 1/14\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ éveloppement web<br/>Enseignant : Claus<br/>Salle : 1/14<br/>Type : Labora
+ toires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T093257Z
+UID:Cours-212921-5-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241016T061500Z
+DTEND:20241016T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Développement web - Claus -
+  Laboratoires
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Développe
+ ment web\nEnseignant : Claus\nSalle : 1/14\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ éveloppement web<br/>Enseignant : Claus<br/>Salle : 1/14<br/>Type : Labora
+ toires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T093257Z
+UID:Cours-212921-6-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241023T061500Z
+DTEND:20241023T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Développement web - Claus -
+  Laboratoires
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Développe
+ ment web\nEnseignant : Claus\nSalle : 1/21\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ éveloppement web<br/>Enseignant : Claus<br/>Salle : 1/21<br/>Type : Labora
+ toires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T093257Z
+UID:Cours-212921-8-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241106T071500Z
+DTEND:20241106T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Développement web - Claus -
+  Laboratoires
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Développe
+ ment web\nEnseignant : Claus\nSalle : 1/14\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ éveloppement web<br/>Enseignant : Claus<br/>Salle : 1/14<br/>Type : Labora
+ toires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T093257Z
+UID:Cours-212921-9-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241113T071500Z
+DTEND:20241113T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Développement web - Claus -
+  Laboratoires
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Développe
+ ment web\nEnseignant : Claus\nSalle : 1/21\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ éveloppement web<br/>Enseignant : Claus<br/>Salle : 1/21<br/>Type : Labora
+ toires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T093257Z
+UID:Cours-212921-10-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241120T071500Z
+DTEND:20241120T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Développement web - Claus -
+  Laboratoires
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Développe
+ ment web\nEnseignant : Claus\nSalle : 1/21\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ éveloppement web<br/>Enseignant : Claus<br/>Salle : 1/21<br/>Type : Labora
+ toires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T093257Z
+UID:Cours-212921-11-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241127T071500Z
+DTEND:20241127T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Développement web - Claus -
+  Laboratoires
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Développe
+ ment web\nEnseignant : Claus\nSalle : 1/21\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ éveloppement web<br/>Enseignant : Claus<br/>Salle : 1/21<br/>Type : Labora
+ toires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240906T072950Z
+UID:Cours-212922-5-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241015T113000Z
+DTEND:20241015T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Image & retouche numérique 
+ 1 - Claus - Laboratoires
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Image & r
+ etouche numérique 1\nEnseignant : Claus\nSalle : 1/21\nType : Laboratoires
+ \n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : I
+ mage & retouche numérique 1<br/>Enseignant : Claus<br/>Salle : 1/21<br/>Ty
+ pe : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T074841Z
+UID:Cours-212923-14-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241219T073000Z
+DTEND:20241219T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Développement web - Claus -
+  Laboratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Développe
+ ment web\nEnseignant : Claus\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ éveloppement web<br/>Enseignant : Claus<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T054344Z
+UID:Cours-212929-2-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20240925T113000Z
+DTEND:20240925T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Character design-Storyboard
+ ing - Petit - Laboratoires
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Character
+  design-Storyboarding\nEnseignant : Petit\nSalle : 1/18\nType : Laboratoir
+ es\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : C
+ haracter design-Storyboarding<br/>Enseignant : Petit<br/>Salle : 1/18<br/>
+ Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T054344Z
+UID:Cours-212929-4-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241009T113000Z
+DTEND:20241009T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Character design-Storyboard
+ ing - Derville - Laboratoires
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Character
+  design-Storyboarding\nEnseignant : Derville\nSalle : 1/18\nType : Laborat
+ oires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : C
+ haracter design-Storyboarding<br/>Enseignant : Derville<br/>Salle : 1/18<b
+ r/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T054344Z
+UID:Cours-212929-5-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241016T113000Z
+DTEND:20241016T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Character design-Storyboard
+ ing - Derville - Laboratoires
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Character
+  design-Storyboarding\nEnseignant : Derville\nSalle : 1/18\nType : Laborat
+ oires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : C
+ haracter design-Storyboarding<br/>Enseignant : Derville<br/>Salle : 1/18<b
+ r/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T054344Z
+UID:Cours-212929-6-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241023T113000Z
+DTEND:20241023T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Character design-Storyboard
+ ing - Derville - Laboratoires
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Character
+  design-Storyboarding\nEnseignant : Derville\nSalle : 1/18\nType : Laborat
+ oires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : C
+ haracter design-Storyboarding<br/>Enseignant : Derville<br/>Salle : 1/18<b
+ r/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T054344Z
+UID:Cours-212929-8-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241106T123000Z
+DTEND:20241106T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Character design-Storyboard
+ ing - Derville - Laboratoires
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Character
+  design-Storyboarding\nEnseignant : Derville\nSalle : 1/18\nType : Laborat
+ oires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : C
+ haracter design-Storyboarding<br/>Enseignant : Derville<br/>Salle : 1/18<b
+ r/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T054344Z
+UID:Cours-212929-10-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241120T123000Z
+DTEND:20241120T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Character design-Storyboard
+ ing - Derville - Laboratoires
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Character
+  design-Storyboarding\nEnseignant : Derville\nSalle : 1/18\nType : Laborat
+ oires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : C
+ haracter design-Storyboarding<br/>Enseignant : Derville<br/>Salle : 1/18<b
+ r/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T054344Z
+UID:Cours-212929-11-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241127T123000Z
+DTEND:20241127T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Character design-Storyboard
+ ing - Derville - Laboratoires
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Character
+  design-Storyboarding\nEnseignant : Derville\nSalle : 1/18\nType : Laborat
+ oires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : C
+ haracter design-Storyboarding<br/>Enseignant : Derville<br/>Salle : 1/18<b
+ r/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T054359Z
+UID:Cours-212930-1-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20240918T133000Z
+DTEND:20240918T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Character design-Storyboard
+ ing - Petit - Laboratoires
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Character
+  design-Storyboarding\nEnseignant : Petit\nSalle : 1/18\nType : Laboratoir
+ es\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : C
+ haracter design-Storyboarding<br/>Enseignant : Petit<br/>Salle : 1/18<br/>
+ Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T064503Z
+UID:Cours-212936-4-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241007T073000Z
+DTEND:20241007T103000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Dessin industriel 2D - Clau
+ s - Laboratoires
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Dessin in
+ dustriel 2D\nEnseignant : Claus\nSalle : 1/14\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ essin industriel 2D<br/>Enseignant : Claus<br/>Salle : 1/14<br/>Type : Lab
+ oratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T064503Z
+UID:Cours-212937-2-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20240923T061500Z
+DTEND:20240923T103000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Dessin industriel 2D - Clau
+ s - Laboratoires
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Dessin in
+ dustriel 2D\nEnseignant : Claus\nSalle : 1/14\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ essin industriel 2D<br/>Enseignant : Claus<br/>Salle : 1/14<br/>Type : Lab
+ oratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T074327Z
+UID:Cours-212939-10-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241122T123000Z
+DTEND:20241122T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Image & retouche numérique 
+ 1 - Claus - Laboratoires
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Image & r
+ etouche numérique 1\nEnseignant : Claus\nSalle : 1/16\nType : Laboratoires
+ \n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : I
+ mage & retouche numérique 1<br/>Enseignant : Claus<br/>Salle : 1/16<br/>Ty
+ pe : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T074327Z
+UID:Cours-212984-11-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241125T071500Z
+DTEND:20241125T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Image & retouche numérique 
+ 1 - Claus - Laboratoires
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Image & r
+ etouche numérique 1\nEnseignant : Claus\nSalle : 1/16\nType : Laboratoires
+ \n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : I
+ mage & retouche numérique 1<br/>Enseignant : Claus<br/>Salle : 1/16<br/>Ty
+ pe : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T074327Z
+UID:Cours-212984-13-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241209T071500Z
+DTEND:20241209T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Image & retouche numérique 
+ 1 - Claus - Laboratoires
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Image & r
+ etouche numérique 1\nEnseignant : Claus\nSalle : 1/14\nType : Laboratoires
+ \n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : I
+ mage & retouche numérique 1<br/>Enseignant : Claus<br/>Salle : 1/14<br/>Ty
+ pe : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240913T114401Z
+UID:Cours-213301-2-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20240924T113000Z
+DTEND:20240924T143000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Math appl. 1 - Lebailly - E
+ xercices
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Math appl
+ . 1\nEnseignant : Lebailly\nSalle : 2/11\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : M
+ ath appl. 1<br/>Enseignant : Lebailly<br/>Salle : 2/11<br/>Type : Exercice
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240913T114401Z
+UID:Cours-213301-4-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241008T113000Z
+DTEND:20241008T143000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Math appl. 1 - Lebailly - E
+ xercices
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Math appl
+ . 1\nEnseignant : Lebailly\nSalle : 2/11\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : M
+ ath appl. 1<br/>Enseignant : Lebailly<br/>Salle : 2/11<br/>Type : Exercice
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240913T114401Z
+UID:Cours-213301-6-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241022T113000Z
+DTEND:20241022T143000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Math appl. 1 - Lebailly - E
+ xercices
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Math appl
+ . 1\nEnseignant : Lebailly\nSalle : 2/11\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : M
+ ath appl. 1<br/>Enseignant : Lebailly<br/>Salle : 2/11<br/>Type : Exercice
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240913T114401Z
+UID:Cours-213301-9-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241112T123000Z
+DTEND:20241112T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Math appl. 1 - Lebailly - E
+ xercices
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Math appl
+ . 1\nEnseignant : Lebailly\nSalles : 1/36A\, 1/36B\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : M
+ ath appl. 1<br/>Enseignant : Lebailly<br/>Salles : 1/36A\, 1/36B<br/>Type 
+ : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240912T094715Z
+UID:Cours-215111-8-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241104T123000Z
+DTEND:20241104T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Dessin-illustration vectori
+ els - Derville - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Dessin-il
+ lustration vectoriels\nEnseignant : Derville\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ essin-illustration vectoriels<br/>Enseignant : Derville<br/>Salle : 1/18<b
+ r/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240912T094715Z
+UID:Cours-215111-10-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241118T123000Z
+DTEND:20241118T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Dessin-illustration vectori
+ els - Derville - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Dessin-il
+ lustration vectoriels\nEnseignant : Derville\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ essin-illustration vectoriels<br/>Enseignant : Derville<br/>Salle : 1/18<b
+ r/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240912T094715Z
+UID:Cours-215111-11-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241125T123000Z
+DTEND:20241125T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Dessin-illustration vectori
+ els - Derville - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Dessin-il
+ lustration vectoriels\nEnseignant : Derville\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ essin-illustration vectoriels<br/>Enseignant : Derville<br/>Salle : 1/18<b
+ r/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240912T094715Z
+UID:Cours-215111-13-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241209T123000Z
+DTEND:20241209T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Dessin-illustration vectori
+ els - Derville - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Dessin-il
+ lustration vectoriels\nEnseignant : Derville\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ essin-illustration vectoriels<br/>Enseignant : Derville<br/>Salle : 1/18<b
+ r/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240912T094715Z
+UID:Cours-215111-14-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241216T123000Z
+DTEND:20241216T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Dessin-illustration vectori
+ els - Derville - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Dessin-il
+ lustration vectoriels\nEnseignant : Derville\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ essin-illustration vectoriels<br/>Enseignant : Derville<br/>Salle : 1/18<b
+ r/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240912T094715Z
+UID:Cours-215112-9-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241113T123000Z
+DTEND:20241113T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie - Dessin-illustration vectori
+ els - Derville - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\nMatière : Dessin-il
+ lustration vectoriels\nEnseignant : Derville\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie<br/>Matière : D
+ essin-illustration vectoriels<br/>Enseignant : Derville<br/>Salle : 1/18<b
+ r/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240923T074216Z
+UID:Cours-156828-5-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241017T061500Z
+DTEND:20241017T081500Z
+SUMMARY;LANGUAGE=fr:Communication : les fondements - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Communication : les fondements\nEnseignan
+ t : Sottiaux\nSalle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication : les fondements<br/>E
+ nseignant : Sottiaux<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20220707T093618Z
+UID:Cours-156831-2-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20240926T113000Z
+DTEND:20240926T133000Z
+SUMMARY;LANGUAGE=fr:Développement web - Miller - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Développement web\nEnseignant : Miller\nS
+ alle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Développement web<br/>Enseignant : M
+ iller<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240903T065158Z
+UID:Cours-156832-5-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241017T113000Z
+DTEND:20241017T133000Z
+SUMMARY;LANGUAGE=fr:Développement web - Miller - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Développement web\nEnseignant : Miller\nS
+ alle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Développement web<br/>Enseignant : M
+ iller<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T082537Z
+UID:Cours-156903-1-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20240919T083000Z
+DTEND:20240919T103000Z
+SUMMARY;LANGUAGE=fr:Développement web - Miller - Cours
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Développement web\nEnseignant : Miller\nS
+ alle : 2/SA\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Développement web<br/>Enseignant : M
+ iller<br/>Salle : 2/SA<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240912T074641Z
+UID:Cours-214909-4-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241010T061500Z
+DTEND:20241010T081500Z
+SUMMARY;LANGUAGE=fr:Informatique: Programmation - Roland - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique: Programmation\nEnseignant :
+  Roland\nSalle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique: Programmation<br/>Ense
+ ignant : Roland<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240705T081434Z
+UID:Cours-160081-3-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241003T061500Z
+DTEND:20241003T081500Z
+SUMMARY;LANGUAGE=fr:Informatique: Programmation - Roland - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique: Programmation\nEnseignant :
+  Roland\nSalle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique: Programmation<br/>Ense
+ ignant : Roland<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T075603Z
+UID:Cours-161542-1-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20240916T061500Z
+DTEND:20240916T081500Z
+SUMMARY;LANGUAGE=fr:Développement web - Miller - Cours
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Développement web\nEnseignant : Miller\nS
+ alle : 2/SA\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Développement web<br/>Enseignant : M
+ iller<br/>Salle : 2/SA<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240821T130345Z
+UID:Cours-161543-5-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241017T083000Z
+DTEND:20241017T103000Z
+SUMMARY;LANGUAGE=fr:Informatique: Programmation - Roland - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique: Programmation\nEnseignant :
+  Roland\nSalle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique: Programmation<br/>Ense
+ ignant : Roland<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240705T081434Z
+UID:Cours-161544-2-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20240926T061500Z
+DTEND:20240926T081500Z
+SUMMARY;LANGUAGE=fr:Informatique: Programmation - Roland - Cours
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique: Programmation\nEnseignant :
+  Roland\nSalle : 2/SA\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique: Programmation<br/>Ense
+ ignant : Roland<br/>Salle : 2/SA<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240705T081959Z
+UID:Cours-204715-1-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20240920T083000Z
+DTEND:20240920T103000Z
+SUMMARY;LANGUAGE=fr:Développement web - Miller - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Développement web\nEnseignant : Miller\nS
+ alle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Développement web<br/>Enseignant : M
+ iller<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240705T081959Z
+UID:Cours-204715-3-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241004T083000Z
+DTEND:20241004T103000Z
+SUMMARY;LANGUAGE=fr:Développement web - Miller - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Développement web\nEnseignant : Miller\nS
+ alle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Développement web<br/>Enseignant : M
+ iller<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240705T081959Z
+UID:Cours-204715-4-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241011T083000Z
+DTEND:20241011T103000Z
+SUMMARY;LANGUAGE=fr:Développement web - Miller - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Développement web\nEnseignant : Miller\nS
+ alle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Développement web<br/>Enseignant : M
+ iller<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240705T081959Z
+UID:Cours-204715-5-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241018T083000Z
+DTEND:20241018T103000Z
+SUMMARY;LANGUAGE=fr:Développement web - Miller - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Développement web\nEnseignant : Miller\nS
+ alle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Développement web<br/>Enseignant : M
+ iller<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240705T081959Z
+UID:Cours-204715-6-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241025T083000Z
+DTEND:20241025T103000Z
+SUMMARY;LANGUAGE=fr:Développement web - Miller - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Développement web\nEnseignant : Miller\nS
+ alle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Développement web<br/>Enseignant : M
+ iller<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240705T081959Z
+UID:Cours-204715-8-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241108T093000Z
+DTEND:20241108T113000Z
+SUMMARY;LANGUAGE=fr:Développement web - Miller - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Développement web\nEnseignant : Miller\nS
+ alle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Développement web<br/>Enseignant : M
+ iller<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240705T084725Z
+UID:Cours-204722-3-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241003T113000Z
+DTEND:20241003T133000Z
+SUMMARY;LANGUAGE=fr:Développement web - Miller - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Développement web\nEnseignant : Miller\nS
+ alle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Développement web<br/>Enseignant : M
+ iller<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240705T084725Z
+UID:Cours-204722-4-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241010T113000Z
+DTEND:20241010T133000Z
+SUMMARY;LANGUAGE=fr:Développement web - Miller - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Développement web\nEnseignant : Miller\nS
+ alle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Développement web<br/>Enseignant : M
+ iller<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240705T094256Z
+UID:Cours-204740-9-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241115T093000Z
+DTEND:20241115T113000Z
+SUMMARY;LANGUAGE=fr:Communication : les fondements - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Communication : les fondements\nEnseignan
+ t : Sottiaux\nSalle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication : les fondements<br/>E
+ nseignant : Sottiaux<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240705T094256Z
+UID:Cours-204740-10-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241122T093000Z
+DTEND:20241122T113000Z
+SUMMARY;LANGUAGE=fr:Communication : les fondements - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Communication : les fondements\nEnseignan
+ t : Sottiaux\nSalle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication : les fondements<br/>E
+ nseignant : Sottiaux<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240705T094256Z
+UID:Cours-204740-12-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241206T093000Z
+DTEND:20241206T113000Z
+SUMMARY;LANGUAGE=fr:Communication : les fondements - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Communication : les fondements\nEnseignan
+ t : Sottiaux\nSalle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication : les fondements<br/>E
+ nseignant : Sottiaux<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240705T093858Z
+UID:Cours-204742-11-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241129T093000Z
+DTEND:20241129T113000Z
+SUMMARY;LANGUAGE=fr:Communication : les fondements - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Communication : les fondements\nEnseignan
+ t : Sottiaux\nSalle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication : les fondements<br/>E
+ nseignant : Sottiaux<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240923T074320Z
+UID:Cours-215721-12-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241206T071500Z
+DTEND:20241206T091500Z
+SUMMARY;LANGUAGE=fr:Communication : les fondements - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Communication : les fondements\nEnseignan
+ t : Sottiaux\nSalle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication : les fondements<br/>E
+ nseignant : Sottiaux<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240821T060539Z
+UID:Cours-208369-4-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241010T133000Z
+DTEND:20241010T153000Z
+SUMMARY;LANGUAGE=fr:Intelligences art. génératives - Derville
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Intelligences art. génératives\nEnseignan
+ t : Derville\nSalle : 2/09A\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intelligences art. génératives<br/>E
+ nseignant : Derville<br/>Salle : 2/09A<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240821T074522Z
+UID:Cours-208370-11-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241129T071500Z
+DTEND:20241129T091500Z
+SUMMARY;LANGUAGE=fr:Intelligences art. génératives - Derville
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Intelligences art. génératives\nEnseignan
+ t : Derville\nSalle : 2/09A\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intelligences art. génératives<br/>E
+ nseignant : Derville<br/>Salle : 2/09A<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240821T060756Z
+UID:Cours-208374-9-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241115T071500Z
+DTEND:20241115T091500Z
+SUMMARY;LANGUAGE=fr:Intelligences art. génératives - Derville
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Intelligences art. génératives\nEnseignan
+ t : Derville\nSalle : 2/09A\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intelligences art. génératives<br/>E
+ nseignant : Derville<br/>Salle : 2/09A<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T080323Z
+UID:Cours-208775-1-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20240916T083000Z
+DTEND:20240916T103000Z
+SUMMARY;LANGUAGE=fr:Communication : les fondements - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Communication : les fondements\nEnseignan
+ t : Sottiaux\nSalle : 2/SA\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication : les fondements<br/>E
+ nseignant : Sottiaux<br/>Salle : 2/SA<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240912T074641Z
+UID:Cours-208776-1-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20240916T113000Z
+DTEND:20240916T133000Z
+SUMMARY;LANGUAGE=fr:Informatique: Programmation - Roland - Cours
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique: Programmation\nEnseignant :
+  Roland\nSalle : 2/SA\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique: Programmation<br/>Ense
+ ignant : Roland<br/>Salle : 2/SA<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240923T074305Z
+UID:Cours-215722-5-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241017T133000Z
+DTEND:20241017T153000Z
+SUMMARY;LANGUAGE=fr:Communication : les fondements - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Communication : les fondements\nEnseignan
+ t : Sottiaux\nSalle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication : les fondements<br/>E
+ nseignant : Sottiaux<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240822T112355Z
+UID:Cours-209063-6-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241024T113000Z
+DTEND:20241024T143000Z
+SUMMARY;LANGUAGE=fr:Communication : les fondements - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Communication : les fondements\nEnseignan
+ t : Sottiaux\nSalle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication : les fondements<br/>E
+ nseignant : Sottiaux<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240822T112355Z
+UID:Cours-209063-14-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241219T123000Z
+DTEND:20241219T153000Z
+SUMMARY;LANGUAGE=fr:Communication : les fondements - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Communication : les fondements\nEnseignan
+ t : Sottiaux\nSalle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication : les fondements<br/>E
+ nseignant : Sottiaux<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240902T092519Z
+UID:Cours-209065-13-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241211T071500Z
+DTEND:20241211T091500Z
+SUMMARY;LANGUAGE=fr:Communication : les fondements - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Communication : les fondements\nEnseignan
+ t : Sottiaux\nSalle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication : les fondements<br/>E
+ nseignant : Sottiaux<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T080201Z
+UID:Cours-213011-2-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20240926T083000Z
+DTEND:20240926T103000Z
+SUMMARY;LANGUAGE=fr:Communication : les fondements - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Communication : les fondements\nEnseignan
+ t : Sottiaux\nSalle : 2/SA\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication : les fondements<br/>E
+ nseignant : Sottiaux<br/>Salle : 2/SA<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T080201Z
+UID:Cours-213011-3-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241003T083000Z
+DTEND:20241003T103000Z
+SUMMARY;LANGUAGE=fr:Communication : les fondements - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Communication : les fondements\nEnseignan
+ t : Sottiaux\nSalle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication : les fondements<br/>E
+ nseignant : Sottiaux<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240904T080201Z
+UID:Cours-213011-4-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241010T083000Z
+DTEND:20241010T103000Z
+SUMMARY;LANGUAGE=fr:Communication : les fondements - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Matière : Communication : les fondements\nEnseignan
+ t : Sottiaux\nSalle : 2/09A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication : les fondements<br/>E
+ nseignant : Sottiaux<br/>Salle : 2/09A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+LAST-MODIFIED:20240912T095142Z
+UID:Cours-215115-12-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART:20241202T074500Z
+DTEND:20241202T153000Z
+SUMMARY;LANGUAGE=fr:L'IA Générative avec Adobe - prof : Jasper Warson
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : L'IA Générative avec Adobe\nSalle : 2/SA\
+ nMémo : prof : Jasper Warson\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : L'IA Générative avec Adobe<br/>Salle
+  : 2/SA<br/>Mémo : prof : Jasper Warson<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+UID:Ferie-939-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240928
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+UID:Ferie-940-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145712Z
+UID:Ferie-941-Groupe_1_BA1P_Infographie-Index-Education
+DTSTART;VALUE=DATE:20241111
+DTEND;VALUE=DATE:20241112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+END:VCALENDAR

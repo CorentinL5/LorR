@@ -1,0 +1,1869 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
+METHOD:PUBLISH
+X-CALSTART:20240916T000000Z
+X-CALEND:20241221T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - <BA1P Electronique> <laboratoire> Groupe2 BA
+ 1P Electronique - du 16 septembre au 21 décembre 2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de <BA1P Electronique> <laboratoir
+ e> Groupe2 BA1P Electronique généré par le logiciel HP (©INDEX ÉDUCATION) 
+ le 24 sept. 2024 - Haute Ecole en Hainaut - valable sur la période du 16 s
+ eptembre au 21 décembre 2024 - Semaines : semaine 38 - 51
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230831T140454Z
+UID:Cours-161355-3-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241001T083000Z
+DTEND:20241001T103000Z
+SUMMARY;LANGUAGE=fr:Groupe2 BA1P Electronique - Labo Electronique - Taira -
+  Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Groupe2 BA1P Electronique\nMatière : Labo Elec
+ tronique\nEnseignant : Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe2 BA1P Electronique<br/>Matière : L
+ abo Electronique<br/>Enseignant : Taira<br/>Salle : 2/10A<br/>Type : Labor
+ atoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230831T140454Z
+UID:Cours-161355-5-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241015T083000Z
+DTEND:20241015T103000Z
+SUMMARY;LANGUAGE=fr:Groupe2 BA1P Electronique - Labo Electronique - Taira -
+  Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Groupe2 BA1P Electronique\nMatière : Labo Elec
+ tronique\nEnseignant : Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe2 BA1P Electronique<br/>Matière : L
+ abo Electronique<br/>Enseignant : Taira<br/>Salle : 2/10A<br/>Type : Labor
+ atoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230831T140506Z
+UID:Cours-161357-3-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241001T113000Z
+DTEND:20241001T133000Z
+SUMMARY;LANGUAGE=fr:Groupe2 BA1P Electronique - Labo Electronique - Taira -
+  Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Groupe2 BA1P Electronique\nMatière : Labo Elec
+ tronique\nEnseignant : Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe2 BA1P Electronique<br/>Matière : L
+ abo Electronique<br/>Enseignant : Taira<br/>Salle : 2/10A<br/>Type : Labor
+ atoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230831T140506Z
+UID:Cours-161357-5-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241015T113000Z
+DTEND:20241015T133000Z
+SUMMARY;LANGUAGE=fr:Groupe2 BA1P Electronique - Labo Electronique - Taira -
+  Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Groupe2 BA1P Electronique\nMatière : Labo Elec
+ tronique\nEnseignant : Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe2 BA1P Electronique<br/>Matière : L
+ abo Electronique<br/>Enseignant : Taira<br/>Salle : 2/10A<br/>Type : Labor
+ atoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240620T091902Z
+UID:Cours-180144-10-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241121T071500Z
+DTEND:20241121T163000Z
+SUMMARY;LANGUAGE=fr:Groupe2 BA1P Electronique - Capteurs - Taira - 24-25 FS
+  instrumentation
+DESCRIPTION;LANGUAGE=fr:TD : Groupe2 BA1P Electronique\nMatière : Capteurs\
+ nEnseignant : Taira\nMémo : 24-25 FS instrumentation\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe2 BA1P Electronique<br/>Matière : C
+ apteurs<br/>Enseignant : Taira<br/>Mémo : 24-25 FS instrumentation<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240620T091856Z
+UID:Cours-180145-10-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241122T071500Z
+DTEND:20241122T163000Z
+SUMMARY;LANGUAGE=fr:Groupe2 BA1P Electronique - Capteurs - Taira - 24-25 FS
+  instrumentation
+DESCRIPTION;LANGUAGE=fr:TD : Groupe2 BA1P Electronique\nMatière : Capteurs\
+ nEnseignant : Taira\nMémo : 24-25 FS instrumentation\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe2 BA1P Electronique<br/>Matière : C
+ apteurs<br/>Enseignant : Taira<br/>Mémo : 24-25 FS instrumentation<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230829T113801Z
+UID:Cours-184882-3-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241003T061500Z
+DTEND:20241003T101500Z
+SUMMARY;LANGUAGE=fr:Groupe2 BA1P Electronique - Labo Electronique - Taira -
+  Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Groupe2 BA1P Electronique\nMatière : Labo Elec
+ tronique\nEnseignant : Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe2 BA1P Electronique<br/>Matière : L
+ abo Electronique<br/>Enseignant : Taira<br/>Salle : 2/10A<br/>Type : Labor
+ atoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T115316Z
+UID:Cours-184896-12-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241203T071500Z
+DTEND:20241203T111500Z
+SUMMARY;LANGUAGE=fr:Groupe2 BA1P Electronique - Labo d'électro. num.1 - Isi
+ doro - Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Groupe2 BA1P Electronique\nMatière : Labo d'él
+ ectro. num.1\nEnseignant : Isidoro\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe2 BA1P Electronique<br/>Matière : L
+ abo d'électro. num.1<br/>Enseignant : Isidoro<br/>Salle : 2/10A<br/>Type :
+  Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240911T062443Z
+UID:Cours-184897-10-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241120T071500Z
+DTEND:20241120T111500Z
+SUMMARY;LANGUAGE=fr:Groupe2 BA1P Electronique - Labo d'électro. num.1 - Isi
+ doro - Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Groupe2 BA1P Electronique\nMatière : Labo d'él
+ ectro. num.1\nEnseignant : Isidoro\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe2 BA1P Electronique<br/>Matière : L
+ abo d'électro. num.1<br/>Enseignant : Isidoro<br/>Salle : 2/10A<br/>Type :
+  Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240704T120207Z
+UID:Cours-195503-8-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241108T123000Z
+DTEND:20241108T163000Z
+SUMMARY;LANGUAGE=fr:Groupe2 BA1P Electronique - Labo d'électro. num.1 - Isi
+ doro - Laboratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe2 BA1P Electronique\nMatière : Labo d'él
+ ectro. num.1\nEnseignant : Isidoro\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe2 BA1P Electronique<br/>Matière : L
+ abo d'électro. num.1<br/>Enseignant : Isidoro<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240704T120207Z
+UID:Cours-195503-12-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241206T123000Z
+DTEND:20241206T163000Z
+SUMMARY;LANGUAGE=fr:Groupe2 BA1P Electronique - Labo d'électro. num.1 - Isi
+ doro - Laboratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe2 BA1P Electronique\nMatière : Labo d'él
+ ectro. num.1\nEnseignant : Isidoro\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe2 BA1P Electronique<br/>Matière : L
+ abo d'électro. num.1<br/>Enseignant : Isidoro<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240710T123313Z
+UID:Cours-205443-5-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241017T113000Z
+DTEND:20241017T133000Z
+SUMMARY;LANGUAGE=fr:Groupe2 BA1P Electronique - Labo Electronique - Taira -
+  Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Groupe2 BA1P Electronique\nMatière : Labo Elec
+ tronique\nEnseignant : Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe2 BA1P Electronique<br/>Matière : L
+ abo Electronique<br/>Enseignant : Taira<br/>Salle : 2/10A<br/>Type : Labor
+ atoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T114714Z
+UID:Cours-205444-1-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240919T113000Z
+DTEND:20240919T153000Z
+SUMMARY;LANGUAGE=fr:Groupe2 BA1P Electronique - Labo Electronique - Taira -
+  Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Groupe2 BA1P Electronique\nMatière : Labo Elec
+ tronique\nEnseignant : Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe2 BA1P Electronique<br/>Matière : L
+ abo Electronique<br/>Enseignant : Taira<br/>Salle : 2/10A<br/>Type : Labor
+ atoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T114714Z
+UID:Cours-205444-2-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240926T113000Z
+DTEND:20240926T153000Z
+SUMMARY;LANGUAGE=fr:Groupe2 BA1P Electronique - Labo Electronique - Taira -
+  Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Groupe2 BA1P Electronique\nMatière : Labo Elec
+ tronique\nEnseignant : Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe2 BA1P Electronique<br/>Matière : L
+ abo Electronique<br/>Enseignant : Taira<br/>Salle : 2/10A<br/>Type : Labor
+ atoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240710T123336Z
+UID:Cours-205445-2-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240924T113000Z
+DTEND:20240924T153000Z
+SUMMARY;LANGUAGE=fr:Groupe2 BA1P Electronique - Labo Electronique - Taira -
+  Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Groupe2 BA1P Electronique\nMatière : Labo Elec
+ tronique\nEnseignant : Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe2 BA1P Electronique<br/>Matière : L
+ abo Electronique<br/>Enseignant : Taira<br/>Salle : 2/10A<br/>Type : Labor
+ atoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T105732Z
+UID:Cours-214470-6-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241021T061500Z
+DTEND:20241021T101500Z
+SUMMARY;LANGUAGE=fr:Groupe2 BA1P Electronique - Labo Electronique - Taira -
+  Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Groupe2 BA1P Electronique\nMatière : Labo Elec
+ tronique\nEnseignant : Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe2 BA1P Electronique<br/>Matière : L
+ abo Electronique<br/>Enseignant : Taira<br/>Salle : 2/10A<br/>Type : Labor
+ atoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T110059Z
+UID:Cours-214471-4-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241008T113000Z
+DTEND:20241008T153000Z
+SUMMARY;LANGUAGE=fr:Groupe2 BA1P Electronique - Labo Electronique - Taira -
+  Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Groupe2 BA1P Electronique\nMatière : Labo Elec
+ tronique\nEnseignant : Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe2 BA1P Electronique<br/>Matière : L
+ abo Electronique<br/>Enseignant : Taira<br/>Salle : 2/10A<br/>Type : Labor
+ atoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240911T062423Z
+UID:Cours-214783-9-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241112T123000Z
+DTEND:20241112T163000Z
+SUMMARY;LANGUAGE=fr:Groupe2 BA1P Electronique - Labo d'électro. num.1 - Isi
+ doro - Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Groupe2 BA1P Electronique\nMatière : Labo d'él
+ ectro. num.1\nEnseignant : Isidoro\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe2 BA1P Electronique<br/>Matière : L
+ abo d'électro. num.1<br/>Enseignant : Isidoro<br/>Salle : 2/10A<br/>Type :
+  Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240911T062621Z
+UID:Cours-214784-9-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241115T071500Z
+DTEND:20241115T113000Z
+SUMMARY;LANGUAGE=fr:Groupe2 BA1P Electronique - Labo Electronique - Taira -
+  Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Groupe2 BA1P Electronique\nMatière : Labo Elec
+ tronique\nEnseignant : Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe2 BA1P Electronique<br/>Matière : L
+ abo Electronique<br/>Enseignant : Taira<br/>Salle : 2/10A<br/>Type : Labor
+ atoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240904T083943Z
+UID:Cours-156939-8-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241107T123000Z
+DTEND:20241107T153000Z
+SUMMARY;LANGUAGE=fr:Math. appl.1 - Lebailly - Exercices
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.1\nEnseignant : Lebailly\nSall
+ e : 2/11\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.1<br/>Enseignant : Lebail
+ ly<br/>Salle : 2/11<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240904T083943Z
+UID:Cours-156939-9-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241114T123000Z
+DTEND:20241114T153000Z
+SUMMARY;LANGUAGE=fr:Math. appl.1 - Lebailly - Exercices
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.1\nEnseignant : Lebailly\nSall
+ e : 2/11\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.1<br/>Enseignant : Lebail
+ ly<br/>Salle : 2/11<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240904T083943Z
+UID:Cours-156939-11-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241128T123000Z
+DTEND:20241128T153000Z
+SUMMARY;LANGUAGE=fr:Math. appl.1 - Lebailly - Exercices
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.1\nEnseignant : Lebailly\nSall
+ e : 2/11\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.1<br/>Enseignant : Lebail
+ ly<br/>Salle : 2/11<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T105149Z
+UID:Cours-156945-6-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241022T061500Z
+DTEND:20241022T081500Z
+SUMMARY;LANGUAGE=fr:Capteurs - Taira - Cours
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Capteurs\nEnseignant : Taira\nSalle : 2/1
+ 0A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Capteurs<br/>Enseignant : Taira<br/>
+ Salle : 2/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240710T123015Z
+UID:Cours-156965-11-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241126T071500Z
+DTEND:20241126T091500Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nEnseignant : Isidoro\nSall
+ e : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Enseignant : Isido
+ ro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240704T130102Z
+UID:Cours-156971-1-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240916T061500Z
+DTEND:20240916T081500Z
+SUMMARY;LANGUAGE=fr:Electronique - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique\nEnseignant : Paulet\nSalle 
+ : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique<br/>Enseignant : Paulet
+ <br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230919T143139Z
+UID:Cours-156978-5-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241014T113000Z
+DTEND:20241014T133000Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nEnseignant : Isidoro\nSall
+ e : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Enseignant : Isido
+ ro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T072659Z
+UID:Cours-214908-2-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240926T083000Z
+DTEND:20240926T103000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Peto - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Peto\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Peto<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T114845Z
+UID:Cours-162666-6-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241023T061500Z
+DTEND:20241023T081500Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nEnseignant : Isidoro\nSall
+ e : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Enseignant : Isido
+ ro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230907T052052Z
+UID:Cours-163066-2-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240925T083000Z
+DTEND:20240925T103000Z
+SUMMARY;LANGUAGE=fr:Informatique - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique\nEnseignant : Scopel\nSalle 
+ : 2/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique<br/>Enseignant : Scopel
+ <br/>Salle : 2/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230831T140109Z
+UID:Cours-173675-6-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241023T113000Z
+DTEND:20241023T153000Z
+SUMMARY;LANGUAGE=fr:Labo informatique - Scopel - Laboratoires
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Labo informatique\nEnseignant : Scopel\nS
+ alle : 2/17A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo informatique<br/>Enseignant : S
+ copel<br/>Salle : 2/17A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240704T125430Z
+UID:Cours-180139-12-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241202T073000Z
+DTEND:20241202T113000Z
+SUMMARY;LANGUAGE=fr:Labo informatique - Scopel - Laboratoires
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Labo informatique\nEnseignant : Scopel\nS
+ alle : 2/17A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo informatique<br/>Enseignant : S
+ copel<br/>Salle : 2/17A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230913T103417Z
+UID:Cours-180141-1-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240919T083000Z
+DTEND:20240919T103000Z
+SUMMARY;LANGUAGE=fr:Math. appl.1 - Lebailly - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.1\nEnseignant : Lebailly\nSall
+ e : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.1<br/>Enseignant : Lebail
+ ly<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240913T114252Z
+UID:Cours-180142-8-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241106T093000Z
+DTEND:20241106T113000Z
+SUMMARY;LANGUAGE=fr:Math. appl.1 - Lebailly - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.1\nEnseignant : Lebailly\nSall
+ e : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.1<br/>Enseignant : Lebail
+ ly<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T114738Z
+UID:Cours-180189-8-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241106T123000Z
+DTEND:20241106T163000Z
+SUMMARY;LANGUAGE=fr:Labo informatique - Scopel - Laboratoires
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Labo informatique\nEnseignant : Scopel\nS
+ alle : 2/17A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo informatique<br/>Enseignant : S
+ copel<br/>Salle : 2/17A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T114738Z
+UID:Cours-180189-12-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241204T123000Z
+DTEND:20241204T163000Z
+SUMMARY;LANGUAGE=fr:Labo informatique - Scopel - Laboratoires
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Labo informatique\nEnseignant : Scopel\nS
+ alle : 2/17A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo informatique<br/>Enseignant : S
+ copel<br/>Salle : 2/17A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240911T063926Z
+UID:Cours-180272-12-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241203T123000Z
+DTEND:20241203T143000Z
+SUMMARY;LANGUAGE=fr:Math. appl.aux circuits élec.1 - Carlier - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.aux circuits élec.1\nEnseignan
+ t : Carlier\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.aux circuits élec.1<br/>E
+ nseignant : Carlier<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T072735Z
+UID:Cours-214785-14-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241220T071500Z
+DTEND:20241220T111500Z
+SUMMARY;LANGUAGE=fr:Projet d'électronique 1 - Arnaud\, Taira
+DESCRIPTION;LANGUAGE=fr:Matière : Projet d'électronique 1\nEnseignants : Ar
+ naud\, Taira\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projet d'électronique 1<br/>Enseigna
+ nts : Arnaud\, Taira<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T072720Z
+UID:Cours-182922-3-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241004T083000Z
+DTEND:20241004T103000Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Isidoro - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nEnseignant : Isidoro\nType
+  : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Enseignant : Isido
+ ro<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T115231Z
+UID:Cours-184749-8-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241105T071500Z
+DTEND:20241105T091500Z
+SUMMARY;LANGUAGE=fr:Math. appl.aux circuits élec.1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.aux circuits élec.1\nEnseignan
+ t : Carlier\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.aux circuits élec.1<br/>E
+ nseignant : Carlier<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230831T140343Z
+UID:Cours-184750-11-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241126T093000Z
+DTEND:20241126T113000Z
+SUMMARY;LANGUAGE=fr:Math. appl.aux circuits élec.1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.aux circuits élec.1\nEnseignan
+ t : Carlier\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.aux circuits élec.1<br/>E
+ nseignant : Carlier<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T114937Z
+UID:Cours-184767-1-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240916T083000Z
+DTEND:20240916T103000Z
+SUMMARY;LANGUAGE=fr:Informatique - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique\nEnseignant : Scopel\nSalle 
+ : 2/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique<br/>Enseignant : Scopel
+ <br/>Salle : 2/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T093217Z
+UID:Cours-184777-1-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240920T083000Z
+DTEND:20240920T103000Z
+SUMMARY;LANGUAGE=fr:Informatique - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique\nEnseignant : Scopel\nSalle 
+ : 2/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique<br/>Enseignant : Scopel
+ <br/>Salle : 2/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T093217Z
+UID:Cours-184777-5-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241018T083000Z
+DTEND:20241018T103000Z
+SUMMARY;LANGUAGE=fr:Informatique - Scopel - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique\nEnseignant : Scopel\nType :
+  Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique<br/>Enseignant : Scopel
+ <br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T115238Z
+UID:Cours-184799-8-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241105T093000Z
+DTEND:20241105T113000Z
+SUMMARY;LANGUAGE=fr:Electro. num.1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. num.1\nEnseignant : Isidoro\nSal
+ le : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. num.1<br/>Enseignant : Isid
+ oro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T115212Z
+UID:Cours-184801-8-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241104T071500Z
+DTEND:20241104T091500Z
+SUMMARY;LANGUAGE=fr:Electro. num.1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. num.1\nEnseignant : Isidoro\nSal
+ le : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. num.1<br/>Enseignant : Isid
+ oro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240906T092423Z
+UID:Cours-184802-9-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241112T071500Z
+DTEND:20241112T091500Z
+SUMMARY;LANGUAGE=fr:Electro. num.1 - Isidoro - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. num.1\nEnseignant : Isidoro\nTyp
+ e : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. num.1<br/>Enseignant : Isid
+ oro<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20231019T063806Z
+UID:Cours-184803-11-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241126T123000Z
+DTEND:20241126T143000Z
+SUMMARY;LANGUAGE=fr:Electro. num.1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. num.1\nEnseignant : Isidoro\nSal
+ le : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. num.1<br/>Enseignant : Isid
+ oro<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240913T084420Z
+UID:Cours-184807-11-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241125T093000Z
+DTEND:20241125T113000Z
+SUMMARY;LANGUAGE=fr:Electronique - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique\nEnseignant : Paulet\nSalle 
+ : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique<br/>Enseignant : Paulet
+ <br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240906T092548Z
+UID:Cours-184809-11-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241128T093000Z
+DTEND:20241128T113000Z
+SUMMARY;LANGUAGE=fr:Electro. num.1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. num.1\nEnseignant : Isidoro\nSal
+ le : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. num.1<br/>Enseignant : Isid
+ oro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230828T144005Z
+UID:Cours-184824-11-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241127T123000Z
+DTEND:20241127T163000Z
+SUMMARY;LANGUAGE=fr:Labo informatique - Scopel - Laboratoires
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Labo informatique\nEnseignant : Scopel\nS
+ alle : 2/17A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo informatique<br/>Enseignant : S
+ copel<br/>Salle : 2/17A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230828T144005Z
+UID:Cours-184824-14-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241218T123000Z
+DTEND:20241218T163000Z
+SUMMARY;LANGUAGE=fr:Labo informatique - Scopel - Laboratoires
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Labo informatique\nEnseignant : Scopel\nS
+ alle : 2/17A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo informatique<br/>Enseignant : S
+ copel<br/>Salle : 2/17A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240621T072118Z
+UID:Cours-184980-13-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241209T093000Z
+DTEND:20241209T113000Z
+SUMMARY;LANGUAGE=fr:Electro. num.1 - Isidoro - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. num.1\nEnseignant : Isidoro\nTyp
+ e : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. num.1<br/>Enseignant : Isid
+ oro<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T072634Z
+UID:Cours-185216-12-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241202T123000Z
+DTEND:20241202T143000Z
+SUMMARY;LANGUAGE=fr:Electro. num.1 - Isidoro - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. num.1\nEnseignant : Isidoro\nTyp
+ e : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. num.1<br/>Enseignant : Isid
+ oro<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240904T083959Z
+UID:Cours-187419-12-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241205T083000Z
+DTEND:20241205T111500Z
+SUMMARY;LANGUAGE=fr:Math. appl.1 - Lebailly - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.1\nEnseignant : Lebailly\nSall
+ es : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.1<br/>Enseignant : Lebail
+ ly<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240913T114242Z
+UID:Cours-187422-2-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240925T061500Z
+DTEND:20240925T081500Z
+SUMMARY;LANGUAGE=fr:Math. appl.1 - Lebailly - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.1\nEnseignant : Lebailly\nSall
+ e : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.1<br/>Enseignant : Lebail
+ ly<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240913T114242Z
+UID:Cours-187422-3-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241002T061500Z
+DTEND:20241002T081500Z
+SUMMARY;LANGUAGE=fr:Math. appl.1 - Lebailly - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.1\nEnseignant : Lebailly\nSall
+ e : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.1<br/>Enseignant : Lebail
+ ly<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240913T114242Z
+UID:Cours-187422-4-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241009T061500Z
+DTEND:20241009T081500Z
+SUMMARY;LANGUAGE=fr:Math. appl.1 - Lebailly - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.1\nEnseignant : Lebailly\nSall
+ e : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.1<br/>Enseignant : Lebail
+ ly<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240913T114242Z
+UID:Cours-187422-5-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241016T061500Z
+DTEND:20241016T081500Z
+SUMMARY;LANGUAGE=fr:Math. appl.1 - Lebailly - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.1\nEnseignant : Lebailly\nSall
+ es : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.1<br/>Enseignant : Lebail
+ ly<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240913T114242Z
+UID:Cours-187422-9-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241113T071500Z
+DTEND:20241113T091500Z
+SUMMARY;LANGUAGE=fr:Math. appl.1 - Lebailly - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.1\nEnseignant : Lebailly\nSall
+ e : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.1<br/>Enseignant : Lebail
+ ly<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240913T114242Z
+UID:Cours-187422-14-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241218T071500Z
+DTEND:20241218T091500Z
+SUMMARY;LANGUAGE=fr:Math. appl.1 - Lebailly - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.1\nEnseignant : Lebailly\nType
+  : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.1<br/>Enseignant : Lebail
+ ly<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T114620Z
+UID:Cours-191610-4-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241011T083000Z
+DTEND:20241011T103000Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nEnseignant : Isidoro\nSall
+ e : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Enseignant : Isido
+ ro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T114620Z
+UID:Cours-191610-8-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241108T093000Z
+DTEND:20241108T113000Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nEnseignant : Isidoro\nSall
+ e : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Enseignant : Isido
+ ro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T114620Z
+UID:Cours-191610-12-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241206T093000Z
+DTEND:20241206T113000Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nEnseignant : Isidoro\nSall
+ e : 2/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Enseignant : Isido
+ ro<br/>Salle : 2/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240822T073906Z
+UID:Cours-192336-5-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241017T061500Z
+DTEND:20241017T081500Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nEnseignant : Isidoro\nSall
+ e : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Enseignant : Isido
+ ro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T072645Z
+UID:Cours-193013-12-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241202T143000Z
+DTEND:20241202T163000Z
+SUMMARY;LANGUAGE=fr:Electro. num.1 - Isidoro - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. num.1\nEnseignant : Isidoro\nTyp
+ e : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. num.1<br/>Enseignant : Isid
+ oro<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T115425Z
+UID:Cours-193096-13-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241209T071500Z
+DTEND:20241209T091500Z
+SUMMARY;LANGUAGE=fr:Informatique - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique\nEnseignant : Scopel\nSalle 
+ : 2/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique<br/>Enseignant : Scopel
+ <br/>Salle : 2/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240710T122757Z
+UID:Cours-193308-3-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241002T083000Z
+DTEND:20241002T103000Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nEnseignant : Isidoro\nSall
+ e : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Enseignant : Isido
+ ro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240913T084325Z
+UID:Cours-194023-13-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241210T093000Z
+DTEND:20241210T113000Z
+SUMMARY;LANGUAGE=fr:Electronique - Paulet - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique\nEnseignant : Paulet\nType :
+  Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique<br/>Enseignant : Paulet
+ <br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T072618Z
+UID:Cours-199527-13-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241210T123000Z
+DTEND:20241210T143000Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nEnseignant : Isidoro\nSall
+ e : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Enseignant : Isido
+ ro<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T072659Z
+UID:Cours-199529-13-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241212T091500Z
+DTEND:20241212T111500Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Peto - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Peto\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Peto<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T114706Z
+UID:Cours-203845-6-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241025T083000Z
+DTEND:20241025T103000Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nEnseignant : Isidoro\nSall
+ e : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Enseignant : Isido
+ ro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T114706Z
+UID:Cours-203845-11-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241129T093000Z
+DTEND:20241129T113000Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/13
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nEnseignant : Isidoro\nSall
+ e : 2/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Enseignant : Isido
+ ro<br/>Salle : 2/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240906T092352Z
+UID:Cours-203888-6-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241024T113000Z
+DTEND:20241024T133000Z
+SUMMARY;LANGUAGE=fr:Electro. num.1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. num.1\nEnseignant : Isidoro\nSal
+ le : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. num.1<br/>Enseignant : Isid
+ oro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240920T093025Z
+UID:Cours-203901-8-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241105T123000Z
+DTEND:20241105T143000Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nEnseignant : Isidoro\nSall
+ e : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Enseignant : Isido
+ ro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240704T125414Z
+UID:Cours-204496-2-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240925T113000Z
+DTEND:20240925T133000Z
+SUMMARY;LANGUAGE=fr:Math. appl.aux circuits élec.1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.aux circuits élec.1\nEnseignan
+ t : Carlier\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.aux circuits élec.1<br/>E
+ nseignant : Carlier<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240704T125414Z
+UID:Cours-204496-4-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241009T113000Z
+DTEND:20241009T133000Z
+SUMMARY;LANGUAGE=fr:Math. appl.aux circuits élec.1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.aux circuits élec.1\nEnseignan
+ t : Carlier\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.aux circuits élec.1<br/>E
+ nseignant : Carlier<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240704T125414Z
+UID:Cours-204496-5-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241016T113000Z
+DTEND:20241016T133000Z
+SUMMARY;LANGUAGE=fr:Math. appl.aux circuits élec.1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.aux circuits élec.1\nEnseignan
+ t : Carlier\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.aux circuits élec.1<br/>E
+ nseignant : Carlier<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T125538Z
+UID:Cours-204497-6-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241021T113000Z
+DTEND:20241021T153000Z
+SUMMARY;LANGUAGE=fr:Labo informatique - Scopel - Laboratoires
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Labo informatique\nEnseignant : Scopel\nS
+ alle : 2/17A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo informatique<br/>Enseignant : S
+ copel<br/>Salle : 2/17A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T125538Z
+UID:Cours-204497-8-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241104T123000Z
+DTEND:20241104T163000Z
+SUMMARY;LANGUAGE=fr:Labo informatique - Scopel - Laboratoires
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Labo informatique\nEnseignant : Scopel\nS
+ alle : 2/17A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo informatique<br/>Enseignant : S
+ copel<br/>Salle : 2/17A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T125538Z
+UID:Cours-204497-13-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241209T123000Z
+DTEND:20241209T163000Z
+SUMMARY;LANGUAGE=fr:Labo informatique - Scopel - Laboratoires
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Labo informatique\nEnseignant : Scopel\nS
+ alle : 2/17A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo informatique<br/>Enseignant : S
+ copel<br/>Salle : 2/17A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T125538Z
+UID:Cours-204497-14-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241216T123000Z
+DTEND:20241216T163000Z
+SUMMARY;LANGUAGE=fr:Labo informatique - Scopel - Laboratoires
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Labo informatique\nEnseignant : Scopel\nS
+ alle : 2/17A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo informatique<br/>Enseignant : S
+ copel<br/>Salle : 2/17A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T115439Z
+UID:Cours-204499-2-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240923T083000Z
+DTEND:20240923T103000Z
+SUMMARY;LANGUAGE=fr:Informatique - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique\nEnseignant : Scopel\nSalle 
+ : 2/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique<br/>Enseignant : Scopel
+ <br/>Salle : 2/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T115439Z
+UID:Cours-204499-3-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240930T083000Z
+DTEND:20240930T103000Z
+SUMMARY;LANGUAGE=fr:Informatique - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique\nEnseignant : Scopel\nSalle 
+ : 2/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique<br/>Enseignant : Scopel
+ <br/>Salle : 2/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T115439Z
+UID:Cours-204499-4-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241007T083000Z
+DTEND:20241007T103000Z
+SUMMARY;LANGUAGE=fr:Informatique - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique\nEnseignant : Scopel\nSalle 
+ : 2/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique<br/>Enseignant : Scopel
+ <br/>Salle : 2/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T115439Z
+UID:Cours-204499-5-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241014T083000Z
+DTEND:20241014T103000Z
+SUMMARY;LANGUAGE=fr:Informatique - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique\nEnseignant : Scopel\nSalle 
+ : 2/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique<br/>Enseignant : Scopel
+ <br/>Salle : 2/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T115439Z
+UID:Cours-204499-8-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241104T093000Z
+DTEND:20241104T113000Z
+SUMMARY;LANGUAGE=fr:Informatique - Scopel - Cours
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique\nEnseignant : Scopel\nSalle 
+ : 2/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique<br/>Enseignant : Scopel
+ <br/>Salle : 2/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T115439Z
+UID:Cours-204499-14-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241216T093000Z
+DTEND:20241216T113000Z
+SUMMARY;LANGUAGE=fr:Informatique - Scopel - Cours
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique\nEnseignant : Scopel\nSalle 
+ : 1/21\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique<br/>Enseignant : Scopel
+ <br/>Salle : 1/21<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240913T084413Z
+UID:Cours-204500-11-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241125T071500Z
+DTEND:20241125T091500Z
+SUMMARY;LANGUAGE=fr:Informatique - Scopel - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique\nEnseignant : Scopel\nType :
+  Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique<br/>Enseignant : Scopel
+ <br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T115408Z
+UID:Cours-204501-14-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241217T071500Z
+DTEND:20241217T111500Z
+SUMMARY;LANGUAGE=fr:Labo informatique - Scopel - Laboratoires
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Labo informatique\nEnseignant : Scopel\nS
+ alle : 2/17A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo informatique<br/>Enseignant : S
+ copel<br/>Salle : 2/17A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T114611Z
+UID:Cours-204502-12-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241205T123000Z
+DTEND:20241205T143000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Peto - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Peto\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Peto<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240911T062558Z
+UID:Cours-204512-8-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241107T093000Z
+DTEND:20241107T113000Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240704T130342Z
+UID:Cours-204513-2-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240923T061500Z
+DTEND:20240923T081500Z
+SUMMARY;LANGUAGE=fr:Electronique - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique\nEnseignant : Paulet\nSalle 
+ : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique<br/>Enseignant : Paulet
+ <br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240704T130342Z
+UID:Cours-204513-3-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240930T061500Z
+DTEND:20240930T081500Z
+SUMMARY;LANGUAGE=fr:Electronique - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique\nEnseignant : Paulet\nSalle 
+ : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique<br/>Enseignant : Paulet
+ <br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240704T130342Z
+UID:Cours-204513-4-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241007T061500Z
+DTEND:20241007T081500Z
+SUMMARY;LANGUAGE=fr:Electronique - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique\nEnseignant : Paulet\nSalle 
+ : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique<br/>Enseignant : Paulet
+ <br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240911T064009Z
+UID:Cours-204519-9-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241115T123000Z
+DTEND:20241115T143000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Peto - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Peto\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Peto<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240906T092126Z
+UID:Cours-205439-2-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240924T083000Z
+DTEND:20240924T103000Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nEnseignant : Isidoro\nSall
+ e : 2/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Enseignant : Isido
+ ro<br/>Salle : 2/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240710T123049Z
+UID:Cours-205441-6-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241024T083000Z
+DTEND:20241024T103000Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nEnseignant : Isidoro\nSall
+ e : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Enseignant : Isido
+ ro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240710T123049Z
+UID:Cours-205441-9-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241114T093000Z
+DTEND:20241114T113000Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nEnseignant : Isidoro\nSall
+ e : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Enseignant : Isido
+ ro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240822T073903Z
+UID:Cours-205442-5-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241017T083000Z
+DTEND:20241017T103000Z
+SUMMARY;LANGUAGE=fr:Electronique - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique\nEnseignant : Paulet\nSalle 
+ : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique<br/>Enseignant : Paulet
+ <br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T114831Z
+UID:Cours-206636-4-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241009T083000Z
+DTEND:20241009T103000Z
+SUMMARY;LANGUAGE=fr:Electro. num.1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. num.1\nEnseignant : Isidoro\nSal
+ le : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. num.1<br/>Enseignant : Isid
+ oro<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T114831Z
+UID:Cours-206636-5-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241016T083000Z
+DTEND:20241016T103000Z
+SUMMARY;LANGUAGE=fr:Electro. num.1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. num.1\nEnseignant : Isidoro\nSal
+ le : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. num.1<br/>Enseignant : Isid
+ oro<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T114831Z
+UID:Cours-206636-6-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241023T083000Z
+DTEND:20241023T103000Z
+SUMMARY;LANGUAGE=fr:Electro. num.1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. num.1\nEnseignant : Isidoro\nSal
+ le : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. num.1<br/>Enseignant : Isid
+ oro<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T114831Z
+UID:Cours-206636-9-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241113T093000Z
+DTEND:20241113T113000Z
+SUMMARY;LANGUAGE=fr:Electro. num.1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. num.1\nEnseignant : Isidoro\nSal
+ le : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. num.1<br/>Enseignant : Isid
+ oro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T114831Z
+UID:Cours-206636-11-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241127T093000Z
+DTEND:20241127T113000Z
+SUMMARY;LANGUAGE=fr:Electro. num.1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. num.1\nEnseignant : Isidoro\nSal
+ le : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. num.1<br/>Enseignant : Isid
+ oro<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T114904Z
+UID:Cours-208458-1-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240918T113000Z
+DTEND:20240918T133000Z
+SUMMARY;LANGUAGE=fr:Math. appl.aux circuits élec.1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.aux circuits élec.1\nEnseignan
+ t : Carlier\nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.aux circuits élec.1<br/>E
+ nseignant : Carlier<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T114904Z
+UID:Cours-208458-3-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241002T113000Z
+DTEND:20241002T133000Z
+SUMMARY;LANGUAGE=fr:Math. appl.aux circuits élec.1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.aux circuits élec.1\nEnseignan
+ t : Carlier\nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.aux circuits élec.1<br/>E
+ nseignant : Carlier<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T122524Z
+UID:Cours-208461-3-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241001T061500Z
+DTEND:20241001T081500Z
+SUMMARY;LANGUAGE=fr:Math. appl.aux circuits élec.1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.aux circuits élec.1\nEnseignan
+ t : Carlier\nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.aux circuits élec.1<br/>E
+ nseignant : Carlier<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T081148Z
+UID:Cours-208466-5-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241014T061500Z
+DTEND:20241014T081500Z
+SUMMARY;LANGUAGE=fr:Electro. num.1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. num.1\nEnseignant : Isidoro\nSal
+ le : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. num.1<br/>Enseignant : Isid
+ oro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240822T073903Z
+UID:Cours-208865-1-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240919T061500Z
+DTEND:20240919T081500Z
+SUMMARY;LANGUAGE=fr:Electronique - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique\nEnseignant : Paulet\nSalle 
+ : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique<br/>Enseignant : Paulet
+ <br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240822T073903Z
+UID:Cours-208865-2-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240926T061500Z
+DTEND:20240926T081500Z
+SUMMARY;LANGUAGE=fr:Electronique - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique\nEnseignant : Paulet\nSalle 
+ : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique<br/>Enseignant : Paulet
+ <br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240822T073903Z
+UID:Cours-208865-6-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241024T061500Z
+DTEND:20241024T081500Z
+SUMMARY;LANGUAGE=fr:Electronique - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique\nEnseignant : Paulet\nSalle 
+ : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique<br/>Enseignant : Paulet
+ <br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240822T073903Z
+UID:Cours-208865-8-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241107T071500Z
+DTEND:20241107T091500Z
+SUMMARY;LANGUAGE=fr:Electronique - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique\nEnseignant : Paulet\nSalle 
+ : 2/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique<br/>Enseignant : Paulet
+ <br/>Salle : 2/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240822T073903Z
+UID:Cours-208865-9-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241114T071500Z
+DTEND:20241114T091500Z
+SUMMARY;LANGUAGE=fr:Electronique - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique\nEnseignant : Paulet\nSalle 
+ : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique<br/>Enseignant : Paulet
+ <br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240913T114532Z
+UID:Cours-213186-9-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241112T093000Z
+DTEND:20241112T113000Z
+SUMMARY;LANGUAGE=fr:Math. appl.1 - Lebailly - Exercices
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.1\nEnseignant : Lebailly\nSall
+ e : 1/32\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.1<br/>Enseignant : Lebail
+ ly<br/>Salle : 1/32<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240906T092555Z
+UID:Cours-214582-11-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241128T071500Z
+DTEND:20241128T091500Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nEnseignant : Isidoro\nSall
+ e : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Enseignant : Isido
+ ro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240906T092201Z
+UID:Cours-214583-1-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240917T083000Z
+DTEND:20240917T103000Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nEnseignant : Isidoro\nSall
+ e : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Enseignant : Isido
+ ro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240906T092201Z
+UID:Cours-214584-2-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240923T113000Z
+DTEND:20240923T133000Z
+SUMMARY;LANGUAGE=fr:Electricité 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité 1\nEnseignant : Isidoro\nSall
+ e : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité 1<br/>Enseignant : Isido
+ ro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240911T064754Z
+UID:Cours-214786-13-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241211T071500Z
+DTEND:20241211T111500Z
+SUMMARY;LANGUAGE=fr:Projet d'électronique 1 - Arnaud\, Taira
+DESCRIPTION;LANGUAGE=fr:Matière : Projet d'électronique 1\nEnseignants : Ar
+ naud\, Taira\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projet d'électronique 1<br/>Enseigna
+ nts : Arnaud\, Taira<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T072730Z
+UID:Cours-214787-14-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241219T123000Z
+DTEND:20241219T163000Z
+SUMMARY;LANGUAGE=fr:Projet d'électronique 1 - Arnaud\, Taira
+DESCRIPTION;LANGUAGE=fr:Matière : Projet d'électronique 1\nEnseignants : Ar
+ naud\, Taira\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projet d'électronique 1<br/>Enseigna
+ nts : Arnaud\, Taira<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T072347Z
+UID:Cours-214788-14-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241218T093000Z
+DTEND:20241218T113000Z
+SUMMARY;LANGUAGE=fr:Math. appl.aux circuits élec.1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appl.aux circuits élec.1\nEnseignan
+ t : Carlier\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appl.aux circuits élec.1<br/>E
+ nseignant : Carlier<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240911T064009Z
+UID:Cours-214789-1-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20240920T061500Z
+DTEND:20240920T081500Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Peto - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Peto\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Peto<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240911T064009Z
+UID:Cours-214789-3-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241004T061500Z
+DTEND:20241004T081500Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Peto - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Peto\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Peto<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240911T064009Z
+UID:Cours-214789-4-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241011T061500Z
+DTEND:20241011T081500Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Peto - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Peto\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Peto<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240911T064009Z
+UID:Cours-214789-5-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241018T061500Z
+DTEND:20241018T081500Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Peto - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Peto\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Peto<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240911T064009Z
+UID:Cours-214789-6-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241025T061500Z
+DTEND:20241025T081500Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Peto - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Peto\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Peto<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240911T064009Z
+UID:Cours-214789-8-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241108T071500Z
+DTEND:20241108T091500Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Peto - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Peto\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Peto<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240911T064009Z
+UID:Cours-214789-11-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241129T071500Z
+DTEND:20241129T091500Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Peto - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Peto\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Peto<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240911T064009Z
+UID:Cours-214789-12-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241206T071500Z
+DTEND:20241206T091500Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Peto - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Peto\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Peto<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240911T064709Z
+UID:Cours-214791-13-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241211T123000Z
+DTEND:20241211T163000Z
+SUMMARY;LANGUAGE=fr:Projet d'électronique 1 - Arnaud
+DESCRIPTION;LANGUAGE=fr:Matière : Projet d'électronique 1\nEnseignant : Arn
+ aud\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projet d'électronique 1<br/>Enseigna
+ nt : Arnaud<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T072743Z
+UID:Cours-214792-14-Groupe2_BA1P_Electronique-Index-Education
+DTSTART:20241219T073000Z
+DTEND:20241219T113000Z
+SUMMARY;LANGUAGE=fr:Projet d'électronique 1 - Arnaud\, Taira
+DESCRIPTION;LANGUAGE=fr:Matière : Projet d'électronique 1\nEnseignants : Ar
+ naud\, Taira\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projet d'électronique 1<br/>Enseigna
+ nts : Arnaud\, Taira<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+UID:Ferie-939-Groupe2_BA1P_Electronique-Index-Education
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240928
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+UID:Ferie-940-Groupe2_BA1P_Electronique-Index-Education
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+UID:Ferie-941-Groupe2_BA1P_Electronique-Index-Education
+DTSTART;VALUE=DATE:20241111
+DTEND;VALUE=DATE:20241112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,1408 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
+METHOD:PUBLISH
+X-CALSTART:20240916T000000Z
+X-CALEND:20241221T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - TTMLDTinfo0 - M0 LDT Info - du 16 septembre 
+ au 21 décembre 2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de TTMLDTinfo0 - M0 LDT Info génér
+ é par le logiciel HP (©INDEX ÉDUCATION) le 24 sept. 2024 - Haute Ecole en 
+ Hainaut - valable sur la période du 16 septembre au 21 décembre 2024 - Sem
+ aines : semaine 38 - 51
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240819T094949Z
+UID:Cours-156090-14-M0_LDT_Info-Index-Education
+DTSTART:20241217T123000Z
+DTEND:20241217T153000Z
+SUMMARY;LANGUAGE=fr:BA2TL - LDT - Chimie 4 - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Option : BA2TL - LDT\nMatière : Chimie 4\nEnseignan
+ t : Pietka\nSalle : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : BA2TL - LDT<br/>Matière : Chimie 4<br
+ />Enseignant : Pietka<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240711T080221Z
+UID:Cours-156446-4-M0_LDT_Info-Index-Education
+DTSTART:20241009T113000Z
+DTEND:20241009T133000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Construction IngéPlus 
+ - Machines fluides - Chardome
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Construc
+ tion IngéPlus\nMatière : Machines fluides\nEnseignant : Chardome\nSalle : 
+ 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Con
+ struction IngéPlus<br/>Matière : Machines fluides<br/>Enseignant : Chardom
+ e<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240711T080632Z
+UID:Cours-156481-4-M0_LDT_Info-Index-Education
+DTSTART:20241008T083000Z
+DTEND:20241008T103000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Construction IngéPlus\
+ , BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL - LDT - Machines
+  fluides - Chardome
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Construc
+ tion IngéPlus\, BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL - 
+ LDT\nMatière : Machines fluides\nEnseignant : Chardome\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Con
+ struction IngéPlus\, BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 
+ TL - LDT<br/>Matière : Machines fluides<br/>Enseignant : Chardome<br/>Sall
+ e : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240711T102158Z
+UID:Cours-156753-6-M0_LDT_Info-Index-Education
+DTSTART:20241023T083000Z
+DTEND:20241023T103000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Construction IngéPlus\
+ , BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL - LDT - Machines
+  fluides - Chardome
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Construc
+ tion IngéPlus\, BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL - 
+ LDT\nMatière : Machines fluides\nEnseignant : Chardome\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Con
+ struction IngéPlus\, BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 
+ TL - LDT<br/>Matière : Machines fluides<br/>Enseignant : Chardome<br/>Sall
+ e : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240905T130010Z
+UID:Cours-156759-5-M0_LDT_Info-Index-Education
+DTSTART:20241016T113000Z
+DTEND:20241016T153000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Informatique\, BA3 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data - L'entreprise:Cont.Struc & enje - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Informat
+ ique\, BA3 TL - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL 
+ - PASS Info IA et Big Data\nMatière : L'entreprise:Cont.Struc & enje\nEnse
+ ignant : Baras\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Inf
+ ormatique\, BA3 TL - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA
+ 1 TL - PASS Info IA et Big Data<br/>Matière : L'entreprise:Cont.Struc & en
+ je<br/>Enseignant : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240711T082751Z
+UID:Cours-156770-11-M0_LDT_Info-Index-Education
+DTSTART:20241128T093000Z
+DTEND:20241128T113000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Informatique\, BA3 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data - L'entreprise:Cont.Struc & enje - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Informat
+ ique\, BA3 TL - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL 
+ - PASS Info IA et Big Data\nMatière : L'entreprise:Cont.Struc & enje\nEnse
+ ignant : Baras\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Inf
+ ormatique\, BA3 TL - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA
+ 1 TL - PASS Info IA et Big Data<br/>Matière : L'entreprise:Cont.Struc & en
+ je<br/>Enseignant : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240920T114846Z
+UID:Cours-157149-5-M0_LDT_Info-Index-Education
+DTSTART:20241017T113000Z
+DTEND:20241017T153000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Capteurs - Avaert
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Capteurs\nEnseignant : Avaert\nSalle : 2/S
+ A\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Capteurs<br/>Enseignant : Avaert<b
+ r/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240920T114846Z
+UID:Cours-157159-3-M0_LDT_Info-Index-Education
+DTSTART:20241003T113000Z
+DTEND:20241003T153000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Capteurs - Avaert
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Capteurs\nEnseignant : Avaert\nSalle : 1/2
+ 9\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Capteurs<br/>Enseignant : Avaert<b
+ r/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240920T114846Z
+UID:Cours-157164-8-M0_LDT_Info-Index-Education
+DTSTART:20241107T123000Z
+DTEND:20241107T163000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Capteurs - Avaert
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Capteurs\nEnseignant : Avaert\nSalle : 2/S
+ A\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Capteurs<br/>Enseignant : Avaert<b
+ r/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240711T101636Z
+UID:Cours-157169-10-M0_LDT_Info-Index-Education
+DTSTART:20241122T083000Z
+DTEND:20241122T113000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Capteurs - Avaert
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Capteurs\nEnseignant : Avaert\nSalle : 2/S
+ A\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Capteurs<br/>Enseignant : Avaert<b
+ r/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240711T101636Z
+UID:Cours-157169-11-M0_LDT_Info-Index-Education
+DTSTART:20241129T083000Z
+DTEND:20241129T113000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Capteurs - Avaert
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Capteurs\nEnseignant : Avaert\nSalle : 2/S
+ A\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Capteurs<br/>Enseignant : Avaert<b
+ r/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20230915T072905Z
+UID:Cours-158721-4-M0_LDT_Info-Index-Education
+DTSTART:20241009T133000Z
+DTEND:20241009T153000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Construction IngéPlus\
+ , BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL - LDT - Machines
+  fluides - Chardome
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Construc
+ tion IngéPlus\, BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL - 
+ LDT\nMatière : Machines fluides\nEnseignant : Chardome\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Con
+ struction IngéPlus\, BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 
+ TL - LDT<br/>Matière : Machines fluides<br/>Enseignant : Chardome<br/>Sall
+ e : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240819T111853Z
+UID:Cours-158760-2-M0_LDT_Info-Index-Education
+DTSTART:20240925T113000Z
+DTEND:20240925T153000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Informatique\, BA3 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data - L'entreprise:Cont.Struc & enje - Baras
+LOCATION;LANGUAGE=fr:1/37
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Informat
+ ique\, BA3 TL - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL 
+ - PASS Info IA et Big Data\nMatière : L'entreprise:Cont.Struc & enje\nEnse
+ ignant : Baras\nSalle : 1/37\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Inf
+ ormatique\, BA3 TL - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA
+ 1 TL - PASS Info IA et Big Data<br/>Matière : L'entreprise:Cont.Struc & en
+ je<br/>Enseignant : Baras<br/>Salle : 1/37<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20230915T073027Z
+UID:Cours-159085-12-M0_LDT_Info-Index-Education
+DTSTART:20241202T093000Z
+DTEND:20241202T113000Z
+SUMMARY;LANGUAGE=fr:Mécanique des fluides - Dupuis
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Mécanique des fluides\nEnseignant : Dupui
+ s\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mécanique des fluides<br/>Enseignant
+  : Dupuis<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20230915T073027Z
+UID:Cours-159086-10-M0_LDT_Info-Index-Education
+DTSTART:20241121T093000Z
+DTEND:20241121T113000Z
+SUMMARY;LANGUAGE=fr:Mécanique des fluides - Dupuis
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Mécanique des fluides\nEnseignant : Dupui
+ s\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mécanique des fluides<br/>Enseignant
+  : Dupuis<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240821T114316Z
+UID:Cours-159138-1-M0_LDT_Info-Index-Education
+DTSTART:20240917T133000Z
+DTEND:20240917T153000Z
+SUMMARY;LANGUAGE=fr:Mécanique des fluides - Dupuis
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Mécanique des fluides\nEnseignant : Dupui
+ s\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mécanique des fluides<br/>Enseignant
+  : Dupuis<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240711T081018Z
+UID:Cours-159316-3-M0_LDT_Info-Index-Education
+DTSTART:20241002T083000Z
+DTEND:20241002T103000Z
+SUMMARY;LANGUAGE=fr:Mécanique des fluides - Dupuis
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Mécanique des fluides\nEnseignant : Dupui
+ s\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mécanique des fluides<br/>Enseignant
+  : Dupuis<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20230915T073027Z
+UID:Cours-159317-2-M0_LDT_Info-Index-Education
+DTSTART:20240926T083000Z
+DTEND:20240926T103000Z
+SUMMARY;LANGUAGE=fr:Mécanique des fluides - Dupuis
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Mécanique des fluides\nEnseignant : Dupui
+ s\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mécanique des fluides<br/>Enseignant
+  : Dupuis<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20230915T072900Z
+UID:Cours-159345-4-M0_LDT_Info-Index-Education
+DTSTART:20241008T061500Z
+DTEND:20241008T081500Z
+SUMMARY;LANGUAGE=fr:Math. appliquée à l'info. - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appliquée à l'info.\nEnseignant : H
+ ubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appliquée à l'info.<br/>Enseig
+ nant : Hubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240821T113203Z
+UID:Cours-159346-1-M0_LDT_Info-Index-Education
+DTSTART:20240920T061500Z
+DTEND:20240920T081500Z
+SUMMARY;LANGUAGE=fr:Math. appliquée à l'info. - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appliquée à l'info.\nEnseignant : H
+ ubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appliquée à l'info.<br/>Enseig
+ nant : Hubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240819T094754Z
+UID:Cours-159348-8-M0_LDT_Info-Index-Education
+DTSTART:20241105T071500Z
+DTEND:20241105T091500Z
+SUMMARY;LANGUAGE=fr:Math. appliquée à l'info. - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appliquée à l'info.\nEnseignant : H
+ ubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appliquée à l'info.<br/>Enseig
+ nant : Hubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240711T104443Z
+UID:Cours-159349-6-M0_LDT_Info-Index-Education
+DTSTART:20241022T073000Z
+DTEND:20241022T103000Z
+SUMMARY;LANGUAGE=fr:Math. appliquée à l'info. - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appliquée à l'info.\nEnseignant : H
+ ubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appliquée à l'info.<br/>Enseig
+ nant : Hubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20230915T072900Z
+UID:Cours-159350-3-M0_LDT_Info-Index-Education
+DTSTART:20240930T083000Z
+DTEND:20240930T103000Z
+SUMMARY;LANGUAGE=fr:Math. appliquée à l'info. - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appliquée à l'info.\nEnseignant : H
+ ubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appliquée à l'info.<br/>Enseig
+ nant : Hubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20230915T072900Z
+UID:Cours-159351-3-M0_LDT_Info-Index-Education
+DTSTART:20241004T061500Z
+DTEND:20241004T081500Z
+SUMMARY;LANGUAGE=fr:Math. appliquée à l'info. - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appliquée à l'info.\nEnseignant : H
+ ubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appliquée à l'info.<br/>Enseig
+ nant : Hubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240711T102107Z
+UID:Cours-159352-8-M0_LDT_Info-Index-Education
+DTSTART:20241104T093000Z
+DTEND:20241104T113000Z
+SUMMARY;LANGUAGE=fr:Math. appliquée à l'info. - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appliquée à l'info.\nEnseignant : H
+ ubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appliquée à l'info.<br/>Enseig
+ nant : Hubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240711T102107Z
+UID:Cours-159352-14-M0_LDT_Info-Index-Education
+DTSTART:20241216T093000Z
+DTEND:20241216T113000Z
+SUMMARY;LANGUAGE=fr:Math. appliquée à l'info. - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appliquée à l'info.\nEnseignant : H
+ ubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appliquée à l'info.<br/>Enseig
+ nant : Hubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20230915T072900Z
+UID:Cours-159353-2-M0_LDT_Info-Index-Education
+DTSTART:20240925T073000Z
+DTEND:20240925T103000Z
+SUMMARY;LANGUAGE=fr:Math. appliquée à l'info. - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appliquée à l'info.\nEnseignant : H
+ ubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appliquée à l'info.<br/>Enseig
+ nant : Hubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20230915T072900Z
+UID:Cours-159364-13-M0_LDT_Info-Index-Education
+DTSTART:20241209T071500Z
+DTEND:20241209T113000Z
+SUMMARY;LANGUAGE=fr:Math. appliquée à l'info. - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appliquée à l'info.\nEnseignant : H
+ ubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appliquée à l'info.<br/>Enseig
+ nant : Hubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240826T101736Z
+UID:Cours-159748-4-M0_LDT_Info-Index-Education
+DTSTART:20241008T113000Z
+DTEND:20241008T153000Z
+SUMMARY;LANGUAGE=fr:BA2TL - LDT - Chimie 4 - Pietka - Cours
+DESCRIPTION;LANGUAGE=fr:Option : BA2TL - LDT\nMatière : Chimie 4\nEnseignan
+ t : Pietka\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : BA2TL - LDT<br/>Matière : Chimie 4<br
+ />Enseignant : Pietka<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240826T101736Z
+UID:Cours-159766-13-M0_LDT_Info-Index-Education
+DTSTART:20241210T123000Z
+DTEND:20241210T153000Z
+SUMMARY;LANGUAGE=fr:BA2TL - LDT - Chimie 4 - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Option : BA2TL - LDT\nMatière : Chimie 4\nEnseignan
+ t : Pietka\nSalle : 1/29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : BA2TL - LDT<br/>Matière : Chimie 4<br
+ />Enseignant : Pietka<br/>Salle : 1/29<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240821T114316Z
+UID:Cours-161590-1-M0_LDT_Info-Index-Education
+DTSTART:20240919T083000Z
+DTEND:20240919T103000Z
+SUMMARY;LANGUAGE=fr:Mécanique des fluides - Dupuis
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Mécanique des fluides\nEnseignant : Dupui
+ s\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mécanique des fluides<br/>Enseignant
+  : Dupuis<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240821T114316Z
+UID:Cours-161590-5-M0_LDT_Info-Index-Education
+DTSTART:20241017T083000Z
+DTEND:20241017T103000Z
+SUMMARY;LANGUAGE=fr:Mécanique des fluides - Dupuis
+LOCATION;LANGUAGE=fr:1/37
+DESCRIPTION;LANGUAGE=fr:Matière : Mécanique des fluides\nEnseignant : Dupui
+ s\nSalle : 1/37\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mécanique des fluides<br/>Enseignant
+  : Dupuis<br/>Salle : 1/37<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240711T081052Z
+UID:Cours-163285-2-M0_LDT_Info-Index-Education
+DTSTART:20240924T133000Z
+DTEND:20240924T153000Z
+SUMMARY;LANGUAGE=fr:Mécanique des fluides - Dupuis
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Mécanique des fluides\nEnseignant : Dupui
+ s\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mécanique des fluides<br/>Enseignant
+  : Dupuis<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240819T094000Z
+UID:Cours-163409-3-M0_LDT_Info-Index-Education
+DTSTART:20241001T133000Z
+DTEND:20241001T153000Z
+SUMMARY;LANGUAGE=fr:BA2TL - LDT - Chimie 4 - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Option : BA2TL - LDT\nMatière : Chimie 4\nEnseignan
+ t : Pietka\nSalle : 1/29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : BA2TL - LDT<br/>Matière : Chimie 4<br
+ />Enseignant : Pietka<br/>Salle : 1/29<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240819T094000Z
+UID:Cours-163410-2-M0_LDT_Info-Index-Education
+DTSTART:20240924T113000Z
+DTEND:20240924T133000Z
+SUMMARY;LANGUAGE=fr:BA2TL - LDT - Chimie 4 - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Option : BA2TL - LDT\nMatière : Chimie 4\nEnseignan
+ t : Pietka\nSalle : 1/29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : BA2TL - LDT<br/>Matière : Chimie 4<br
+ />Enseignant : Pietka<br/>Salle : 1/29<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240711T101425Z
+UID:Cours-164702-1-M0_LDT_Info-Index-Education
+DTSTART:20240919T113000Z
+DTEND:20240919T143000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Capteurs - Avaert
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Capteurs\nEnseignant : Avaert\nSalle : 2/1
+ 1\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Capteurs<br/>Enseignant : Avaert<b
+ r/>Salle : 2/11<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240711T101425Z
+UID:Cours-164702-2-M0_LDT_Info-Index-Education
+DTSTART:20240926T113000Z
+DTEND:20240926T143000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Capteurs - Avaert
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Capteurs\nEnseignant : Avaert\nSalle : 2/1
+ 1\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Capteurs<br/>Enseignant : Avaert<b
+ r/>Salle : 2/11<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240913T063039Z
+UID:Cours-183505-10-M0_LDT_Info-Index-Education
+DTSTART:20241118T071500Z
+DTEND:20241118T091500Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Construction IngéPlus\
+ , BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL - LDT - Machines
+  fluides - Chardome
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Construc
+ tion IngéPlus\, BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL - 
+ LDT\nMatière : Machines fluides\nEnseignant : Chardome\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Con
+ struction IngéPlus\, BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 
+ TL - LDT<br/>Matière : Machines fluides<br/>Enseignant : Chardome<br/>Sall
+ e : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240711T081904Z
+UID:Cours-183530-12-M0_LDT_Info-Index-Education
+DTSTART:20241204T123000Z
+DTEND:20241204T163000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Informatique\, BA3 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data - L'entreprise:Cont.Struc & enje - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Informat
+ ique\, BA3 TL - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL 
+ - PASS Info IA et Big Data\nMatière : L'entreprise:Cont.Struc & enje\nEnse
+ ignant : Baras\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Inf
+ ormatique\, BA3 TL - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA
+ 1 TL - PASS Info IA et Big Data<br/>Matière : L'entreprise:Cont.Struc & en
+ je<br/>Enseignant : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240711T101454Z
+UID:Cours-183567-9-M0_LDT_Info-Index-Education
+DTSTART:20241115T083000Z
+DTEND:20241115T113000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Capteurs - Avaert
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Capteurs\nEnseignant : Avaert\nSalle : 2/S
+ A\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Capteurs<br/>Enseignant : Avaert<b
+ r/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20230915T072900Z
+UID:Cours-184360-6-M0_LDT_Info-Index-Education
+DTSTART:20241021T061500Z
+DTEND:20241021T081500Z
+SUMMARY;LANGUAGE=fr:Math. appliquée à l'info. - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appliquée à l'info.\nEnseignant : H
+ ubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appliquée à l'info.<br/>Enseig
+ nant : Hubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240819T061646Z
+UID:Cours-184361-10-M0_LDT_Info-Index-Education
+DTSTART:20241120T093000Z
+DTEND:20241120T113000Z
+SUMMARY;LANGUAGE=fr:Math. appliquée à l'info. - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Matière : Math. appliquée à l'info.\nEnseignant : H
+ ubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Math. appliquée à l'info.<br/>Enseig
+ nant : Hubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240903T071009Z
+UID:Cours-186177-4-M0_LDT_Info-Index-Education
+DTSTART:20241007T133000Z
+DTEND:20241007T153000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Informatique\, BA3 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data - L'entreprise:Cont.Struc & enje - Baras
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Informat
+ ique\, BA3 TL - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL 
+ - PASS Info IA et Big Data\nMatière : L'entreprise:Cont.Struc & enje\nEnse
+ ignant : Baras\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Inf
+ ormatique\, BA3 TL - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA
+ 1 TL - PASS Info IA et Big Data<br/>Matière : L'entreprise:Cont.Struc & en
+ je<br/>Enseignant : Baras<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240711T081052Z
+UID:Cours-186179-1-M0_LDT_Info-Index-Education
+DTSTART:20240918T083000Z
+DTEND:20240918T103000Z
+SUMMARY;LANGUAGE=fr:Mécanique des fluides - Dupuis
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Mécanique des fluides\nEnseignant : Dupui
+ s\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mécanique des fluides<br/>Enseignant
+  : Dupuis<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240702T090657Z
+UID:Cours-186193-11-M0_LDT_Info-Index-Education
+DTSTART:20241128T071500Z
+DTEND:20241128T091500Z
+SUMMARY;LANGUAGE=fr:BA3 TL - LDT\, BA3TL-LDT HELHa - Protéomique - Leonet -
+  Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - LDT\, BA3TL-LDT HELHa\nMatière :
+  Protéomique\nEnseignant : Leonet\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - LDT\, BA3TL-LDT HELHa<br/>M
+ atière : Protéomique<br/>Enseignant : Leonet<br/>Salle : 1/10A<br/>Type : 
+ Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240923T073714Z
+UID:Cours-186195-5-M0_LDT_Info-Index-Education
+DTSTART:20241018T113000Z
+DTEND:20241018T133000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - LDT\, BA3TL-LDT HELHa - Protéomique - Leonet -
+  Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - LDT\, BA3TL-LDT HELHa\nMatière :
+  Protéomique\nEnseignant : Leonet\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - LDT\, BA3TL-LDT HELHa<br/>M
+ atière : Protéomique<br/>Enseignant : Leonet<br/>Salle : 1/13<br/>Type : C
+ ours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20230915T122807Z
+UID:Cours-192096-5-M0_LDT_Info-Index-Education
+DTSTART:20241015T113000Z
+DTEND:20241015T133000Z
+SUMMARY;LANGUAGE=fr:BA2TL - LDT - Chimie 4 - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Option : BA2TL - LDT\nMatière : Chimie 4\nEnseignan
+ t : Pietka\nSalle : 1/29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : BA2TL - LDT<br/>Matière : Chimie 4<br
+ />Enseignant : Pietka<br/>Salle : 1/29<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240704T065822Z
+UID:Cours-192226-6-M0_LDT_Info-Index-Education
+DTSTART:20241022T113000Z
+DTEND:20241022T153000Z
+SUMMARY;LANGUAGE=fr:BA2TL - LDT - Chimie 4 - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Option : BA2TL - LDT\nMatière : Chimie 4\nEnseignan
+ t : Pietka\nSalle : 1/29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : BA2TL - LDT<br/>Matière : Chimie 4<br
+ />Enseignant : Pietka<br/>Salle : 1/29<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20231121T083414Z
+UID:Cours-192227-11-M0_LDT_Info-Index-Education
+DTSTART:20241127T123000Z
+DTEND:20241127T163000Z
+SUMMARY;LANGUAGE=fr:BA2TL - LDT - Chimie 4 - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/37
+DESCRIPTION;LANGUAGE=fr:Option : BA2TL - LDT\nMatière : Chimie 4\nEnseignan
+ t : Pietka\nSalle : 1/37\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : BA2TL - LDT<br/>Matière : Chimie 4<br
+ />Enseignant : Pietka<br/>Salle : 1/37<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240819T094938Z
+UID:Cours-192228-9-M0_LDT_Info-Index-Education
+DTSTART:20241113T123000Z
+DTEND:20241113T153000Z
+SUMMARY;LANGUAGE=fr:BA2TL - LDT - Chimie 4 - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Option : BA2TL - LDT\nMatière : Chimie 4\nEnseignan
+ t : Pietka\nSalle : 1/29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : BA2TL - LDT<br/>Matière : Chimie 4<br
+ />Enseignant : Pietka<br/>Salle : 1/29<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240709T080935Z
+UID:Cours-192229-10-M0_LDT_Info-Index-Education
+DTSTART:20241120T123000Z
+DTEND:20241120T163000Z
+SUMMARY;LANGUAGE=fr:BA2TL - LDT - Chimie 4 - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/30
+DESCRIPTION;LANGUAGE=fr:Option : BA2TL - LDT\nMatière : Chimie 4\nEnseignan
+ t : Pietka\nSalle : 1/30\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : BA2TL - LDT<br/>Matière : Chimie 4<br
+ />Enseignant : Pietka<br/>Salle : 1/30<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240819T094942Z
+UID:Cours-192230-12-M0_LDT_Info-Index-Education
+DTSTART:20241203T123000Z
+DTEND:20241203T153000Z
+SUMMARY;LANGUAGE=fr:BA2TL - LDT - Chimie 4 - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Option : BA2TL - LDT\nMatière : Chimie 4\nEnseignan
+ t : Pietka\nSalle : 1/29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : BA2TL - LDT<br/>Matière : Chimie 4<br
+ />Enseignant : Pietka<br/>Salle : 1/29<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20230918T054747Z
+UID:Cours-192231-6-M0_LDT_Info-Index-Education
+DTSTART:20241023T113000Z
+DTEND:20241023T153000Z
+SUMMARY;LANGUAGE=fr:BA2TL - LDT - Chimie 4 - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Option : BA2TL - LDT\nMatière : Chimie 4\nEnseignan
+ t : Pietka\nSalle : 1/29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : BA2TL - LDT<br/>Matière : Chimie 4<br
+ />Enseignant : Pietka<br/>Salle : 1/29<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240923T073616Z
+UID:Cours-203930-13-M0_LDT_Info-Index-Education
+DTSTART:20241213T123000Z
+DTEND:20241213T153000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - LDT\, BA3TL-LDT HELHa - Protéomique - Leonet -
+  Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - LDT\, BA3TL-LDT HELHa\nMatière :
+  Protéomique\nEnseignant : Leonet\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - LDT\, BA3TL-LDT HELHa<br/>M
+ atière : Protéomique<br/>Enseignant : Leonet<br/>Salle : 1/10A<br/>Type : 
+ Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240709T080940Z
+UID:Cours-204900-13-M0_LDT_Info-Index-Education
+DTSTART:20241211T123000Z
+DTEND:20241211T160000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - LDT - Immunologie - Maes\, Semoulin - 24-25 - 
+ elearning
+DESCRIPTION;LANGUAGE=fr:Option : BA3 TL - LDT\nMatière : Immunologie\nEnsei
+ gnants : Maes\, Semoulin\nMémo : 24-25\nType : elearning\n
+X-ALT-DESC;FMTTYPE=text/html:Option : BA3 TL - LDT<br/>Matière : Immunologi
+ e<br/>Enseignants : Maes\, Semoulin<br/>Mémo : 24-25<br/>Type : elearning<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240709T080940Z
+UID:Cours-204900-14-M0_LDT_Info-Index-Education
+DTSTART:20241218T123000Z
+DTEND:20241218T160000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - LDT - Immunologie - Maes\, Semoulin - 24-25 - 
+ elearning
+DESCRIPTION;LANGUAGE=fr:Option : BA3 TL - LDT\nMatière : Immunologie\nEnsei
+ gnants : Maes\, Semoulin\nMémo : 24-25\nType : elearning\n
+X-ALT-DESC;FMTTYPE=text/html:Option : BA3 TL - LDT<br/>Matière : Immunologi
+ e<br/>Enseignants : Maes\, Semoulin<br/>Mémo : 24-25<br/>Type : elearning<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240711T081052Z
+UID:Cours-205544-5-M0_LDT_Info-Index-Education
+DTSTART:20241015T133000Z
+DTEND:20241015T153000Z
+SUMMARY;LANGUAGE=fr:Mécanique des fluides - Dupuis
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Mécanique des fluides\nEnseignant : Dupui
+ s\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mécanique des fluides<br/>Enseignant
+  : Dupuis<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240819T094010Z
+UID:Cours-205580-8-M0_LDT_Info-Index-Education
+DTSTART:20241106T123000Z
+DTEND:20241106T163000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Construction IngéPlus\
+ , BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL - LDT - Machines
+  fluides - Chardome
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Construc
+ tion IngéPlus\, BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL - 
+ LDT\nMatière : Machines fluides\nEnseignant : Chardome\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Con
+ struction IngéPlus\, BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 
+ TL - LDT<br/>Matière : Machines fluides<br/>Enseignant : Chardome<br/>Sall
+ e : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240913T062930Z
+UID:Cours-205595-5-M0_LDT_Info-Index-Education
+DTSTART:20241014T061500Z
+DTEND:20241014T103000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Construction IngéPlus\
+ , BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL - LDT - Machines
+  fluides - Chardome
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Construc
+ tion IngéPlus\, BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL - 
+ LDT\nMatière : Machines fluides\nEnseignant : Chardome\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Con
+ struction IngéPlus\, BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 
+ TL - LDT<br/>Matière : Machines fluides<br/>Enseignant : Chardome<br/>Sall
+ e : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240904T090219Z
+UID:Cours-205606-8-M0_LDT_Info-Index-Education
+DTSTART:20241105T123000Z
+DTEND:20241105T163000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Informatique\, BA3 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data - L'entreprise:Cont.Struc & enje - Baras
+LOCATION;LANGUAGE=fr:1/37
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Informat
+ ique\, BA3 TL - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL 
+ - PASS Info IA et Big Data\nMatière : L'entreprise:Cont.Struc & enje\nEnse
+ ignant : Baras\nSalle : 1/37\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Inf
+ ormatique\, BA3 TL - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA
+ 1 TL - PASS Info IA et Big Data<br/>Matière : L'entreprise:Cont.Struc & en
+ je<br/>Enseignant : Baras<br/>Salle : 1/37<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240819T111607Z
+UID:Cours-205607-11-M0_LDT_Info-Index-Education
+DTSTART:20241126T071500Z
+DTEND:20241126T091500Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Informatique\, BA3 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data - L'entreprise:Cont.Struc & enje - Baras
+LOCATION;LANGUAGE=fr:1/37
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Informat
+ ique\, BA3 TL - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL 
+ - PASS Info IA et Big Data\nMatière : L'entreprise:Cont.Struc & enje\nEnse
+ ignant : Baras\nSalle : 1/37\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Inf
+ ormatique\, BA3 TL - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA
+ 1 TL - PASS Info IA et Big Data<br/>Matière : L'entreprise:Cont.Struc & en
+ je<br/>Enseignant : Baras<br/>Salle : 1/37<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240819T111537Z
+UID:Cours-205636-8-M0_LDT_Info-Index-Education
+DTSTART:20241104T071500Z
+DTEND:20241104T091500Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Informatique\, BA3 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data - L'entreprise:Cont.Struc & enje - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Informat
+ ique\, BA3 TL - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL 
+ - PASS Info IA et Big Data\nMatière : L'entreprise:Cont.Struc & enje\nEnse
+ ignant : Baras\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Inf
+ ormatique\, BA3 TL - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA
+ 1 TL - PASS Info IA et Big Data<br/>Matière : L'entreprise:Cont.Struc & en
+ je<br/>Enseignant : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240819T111701Z
+UID:Cours-205637-14-M0_LDT_Info-Index-Education
+DTSTART:20241218T093000Z
+DTEND:20241218T113000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Informatique\, BA3 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data - L'entreprise:Cont.Struc & enje - Baras
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Informat
+ ique\, BA3 TL - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL 
+ - PASS Info IA et Big Data\nMatière : L'entreprise:Cont.Struc & enje\nEnse
+ ignant : Baras\nSalle : 2/09C\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Inf
+ ormatique\, BA3 TL - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA
+ 1 TL - PASS Info IA et Big Data<br/>Matière : L'entreprise:Cont.Struc & en
+ je<br/>Enseignant : Baras<br/>Salle : 2/09C<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240904T080309Z
+UID:Cours-205921-1-M0_LDT_Info-Index-Education
+DTSTART:20240916T083000Z
+DTEND:20240916T103000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Capteurs - Avaert
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Capteurs\nEnseignant : Avaert\nSalle : 1/2
+ 9\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Capteurs<br/>Enseignant : Avaert<b
+ r/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240913T062956Z
+UID:Cours-205923-8-M0_LDT_Info-Index-Education
+DTSTART:20241105T093000Z
+DTEND:20241105T113000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Construction IngéPlus\
+ , BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL - LDT - Machines
+  fluides - Chardome
+LOCATION;LANGUAGE=fr:2/09A
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Construc
+ tion IngéPlus\, BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL - 
+ LDT\nMatière : Machines fluides\nEnseignant : Chardome\nSalle : 2/09A\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Con
+ struction IngéPlus\, BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 
+ TL - LDT<br/>Matière : Machines fluides<br/>Enseignant : Chardome<br/>Sall
+ e : 2/09A<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240813T073413Z
+UID:Cours-206576-1-M0_LDT_Info-Index-Education
+DTSTART:20240917T061500Z
+DTEND:20240917T081500Z
+SUMMARY;LANGUAGE=fr:BA3 TL - LDT\, BA3TL-LDT HELHa - Protéomique - Leonet -
+  Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - LDT\, BA3TL-LDT HELHa\nMatière :
+  Protéomique\nEnseignant : Leonet\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - LDT\, BA3TL-LDT HELHa<br/>M
+ atière : Protéomique<br/>Enseignant : Leonet<br/>Salle : 1/13<br/>Type : C
+ ours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240813T073413Z
+UID:Cours-206576-3-M0_LDT_Info-Index-Education
+DTSTART:20241001T061500Z
+DTEND:20241001T081500Z
+SUMMARY;LANGUAGE=fr:BA3 TL - LDT\, BA3TL-LDT HELHa - Protéomique - Leonet -
+  Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - LDT\, BA3TL-LDT HELHa\nMatière :
+  Protéomique\nEnseignant : Leonet\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - LDT\, BA3TL-LDT HELHa<br/>M
+ atière : Protéomique<br/>Enseignant : Leonet<br/>Salle : 1/13<br/>Type : C
+ ours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240923T063407Z
+UID:Cours-206577-3-M0_LDT_Info-Index-Education
+DTSTART:20241004T113000Z
+DTEND:20241004T133000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - LDT\, BA3TL-LDT HELHa - Protéomique - Leonet -
+  Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - LDT\, BA3TL-LDT HELHa\nMatière :
+  Protéomique\nEnseignant : Leonet\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - LDT\, BA3TL-LDT HELHa<br/>M
+ atière : Protéomique<br/>Enseignant : Leonet<br/>Salle : 1/13<br/>Type : C
+ ours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240819T091320Z
+UID:Cours-207195-3-M0_LDT_Info-Index-Education
+DTSTART:20241003T083000Z
+DTEND:20241003T103000Z
+SUMMARY;LANGUAGE=fr:Mécanique des fluides - Dupuis
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Mécanique des fluides\nEnseignant : Dupui
+ s\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mécanique des fluides<br/>Enseignant
+  : Dupuis<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240819T091320Z
+UID:Cours-207195-4-M0_LDT_Info-Index-Education
+DTSTART:20241010T083000Z
+DTEND:20241010T103000Z
+SUMMARY;LANGUAGE=fr:Mécanique des fluides - Dupuis
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Mécanique des fluides\nEnseignant : Dupui
+ s\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mécanique des fluides<br/>Enseignant
+  : Dupuis<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240819T091320Z
+UID:Cours-207195-8-M0_LDT_Info-Index-Education
+DTSTART:20241107T093000Z
+DTEND:20241107T113000Z
+SUMMARY;LANGUAGE=fr:Mécanique des fluides - Dupuis
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Mécanique des fluides\nEnseignant : Dupui
+ s\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mécanique des fluides<br/>Enseignant
+  : Dupuis<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240819T091320Z
+UID:Cours-207195-9-M0_LDT_Info-Index-Education
+DTSTART:20241114T093000Z
+DTEND:20241114T113000Z
+SUMMARY;LANGUAGE=fr:Mécanique des fluides - Dupuis
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Mécanique des fluides\nEnseignant : Dupui
+ s\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mécanique des fluides<br/>Enseignant
+  : Dupuis<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240923T070132Z
+UID:Cours-207253-6-M0_LDT_Info-Index-Education
+DTSTART:20241025T113000Z
+DTEND:20241025T143000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - LDT\, BA3TL-LDT HELHa - Protéomique - Leonet -
+  Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - LDT\, BA3TL-LDT HELHa\nMatière :
+  Protéomique\nEnseignant : Leonet\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - LDT\, BA3TL-LDT HELHa<br/>M
+ atière : Protéomique<br/>Enseignant : Leonet<br/>Salle : 1/13<br/>Type : C
+ ours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240923T073701Z
+UID:Cours-207255-10-M0_LDT_Info-Index-Education
+DTSTART:20241119T123000Z
+DTEND:20241119T143000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - LDT\, BA3TL-LDT HELHa - Protéomique - Leonet -
+  Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - LDT\, BA3TL-LDT HELHa\nMatière :
+  Protéomique\nEnseignant : Leonet\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - LDT\, BA3TL-LDT HELHa<br/>M
+ atière : Protéomique<br/>Enseignant : Leonet<br/>Salle : 1/13<br/>Type : C
+ ours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240826T074501Z
+UID:Cours-210181-5-M0_LDT_Info-Index-Education
+DTSTART:20241018T061500Z
+DTEND:20241018T081500Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Trait du signal - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Trait du signal\nEnseignant : Hubert\nSall
+ e : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Trait du signal<br/>Enseignant : H
+ ubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240826T075023Z
+UID:Cours-210182-3-M0_LDT_Info-Index-Education
+DTSTART:20240930T113000Z
+DTEND:20240930T133000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Trait du signal - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Trait du signal\nEnseignant : Hubert\nSall
+ e : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Trait du signal<br/>Enseignant : H
+ ubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240826T075023Z
+UID:Cours-210182-4-M0_LDT_Info-Index-Education
+DTSTART:20241007T113000Z
+DTEND:20241007T133000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Trait du signal - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Trait du signal\nEnseignant : Hubert\nSall
+ e : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Trait du signal<br/>Enseignant : H
+ ubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240826T075023Z
+UID:Cours-210193-1-M0_LDT_Info-Index-Education
+DTSTART:20240916T113000Z
+DTEND:20240916T143000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Trait du signal - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Trait du signal\nEnseignant : Hubert\nSall
+ e : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Trait du signal<br/>Enseignant : H
+ ubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240826T075023Z
+UID:Cours-210193-2-M0_LDT_Info-Index-Education
+DTSTART:20240923T113000Z
+DTEND:20240923T143000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Trait du signal - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Trait du signal\nEnseignant : Hubert\nSall
+ e : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Trait du signal<br/>Enseignant : H
+ ubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240826T075023Z
+UID:Cours-210193-5-M0_LDT_Info-Index-Education
+DTSTART:20241014T113000Z
+DTEND:20241014T143000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Trait du signal - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Trait du signal\nEnseignant : Hubert\nSall
+ e : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Trait du signal<br/>Enseignant : H
+ ubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240826T075023Z
+UID:Cours-210193-6-M0_LDT_Info-Index-Education
+DTSTART:20241021T113000Z
+DTEND:20241021T143000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Trait du signal - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Trait du signal\nEnseignant : Hubert\nSall
+ e : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Trait du signal<br/>Enseignant : H
+ ubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240826T075023Z
+UID:Cours-210193-8-M0_LDT_Info-Index-Education
+DTSTART:20241104T123000Z
+DTEND:20241104T153000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Trait du signal - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Trait du signal\nEnseignant : Hubert\nSall
+ e : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Trait du signal<br/>Enseignant : H
+ ubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240826T075023Z
+UID:Cours-210193-10-M0_LDT_Info-Index-Education
+DTSTART:20241118T123000Z
+DTEND:20241118T153000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Trait du signal - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Trait du signal\nEnseignant : Hubert\nSall
+ e : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Trait du signal<br/>Enseignant : H
+ ubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240826T075023Z
+UID:Cours-210193-11-M0_LDT_Info-Index-Education
+DTSTART:20241125T123000Z
+DTEND:20241125T153000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Trait du signal - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Trait du signal\nEnseignant : Hubert\nSall
+ e : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Trait du signal<br/>Enseignant : H
+ ubert<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240826T075023Z
+UID:Cours-210193-12-M0_LDT_Info-Index-Education
+DTSTART:20241202T123000Z
+DTEND:20241202T153000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, BA3 TL
+  - LDT - Trait du signal - Hubert
+LOCATION;LANGUAGE=fr:1/37
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, BA3 TL - LDT\nMatière : Trait du signal\nEnseignant : Hubert\nSall
+ e : 1/37\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, BA3 TL - LDT<br/>Matière : Trait du signal<br/>Enseignant : H
+ ubert<br/>Salle : 1/37<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+LAST-MODIFIED:20240906T052421Z
+UID:Cours-214568-5-M0_LDT_Info-Index-Education
+DTSTART:20241016T093000Z
+DTEND:20241016T103000Z
+SUMMARY;LANGUAGE=fr:Plan langues - Besanger\, Remacle
+DESCRIPTION;LANGUAGE=fr:Matière : Plan langues\nEnseignants : Besanger\, Re
+ macle\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Plan langues<br/>Enseignants : Besan
+ ger\, Remacle<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+UID:Ferie-939-M0_LDT_Info-Index-Education
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240928
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+UID:Ferie-940-M0_LDT_Info-Index-Education
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145729Z
+UID:Ferie-941-M0_LDT_Info-Index-Education
+DTSTART;VALUE=DATE:20241111
+DTEND;VALUE=DATE:20241112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,2375 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
+METHOD:PUBLISH
+X-CALSTART:20240916T000000Z
+X-CALEND:20241221T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - <TTM1 - MA1 Ingénieur industriel> <Options> 
+ TTMS1 MA1 TL - Info Automation et Sys. emb. - du 16 septembre au 21 décemb
+ re 2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de <TTM1 - MA1 Ingénieur industrie
+ l> <Options> TTMS1 MA1 TL - Info Automation et Sys. emb. généré par le log
+ iciel HP (©INDEX ÉDUCATION) le 24 sept. 2024 - Haute Ecole en Hainaut - va
+ lable sur la période du 16 septembre au 21 décembre 2024 - Semaines : sema
+ ine 38 - 51
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240902T060757Z
+UID:Cours-157790-6-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241023T061500Z
+DTEND:20241023T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20230905T141437Z
+UID:Cours-157846-4-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241007T073000Z
+DTEND:20241007T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Rech opérationnelle
+  - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Rech opérationnelle\nEnseignant : Hubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Rech opérationnelle<br/>Enseignant : Hubert<br/>Salle : 1/25<b
+ r/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T065219Z
+UID:Cours-157847-8-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241106T083000Z
+DTEND:20241106T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Rech opérationnelle
+  - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Rech opérationnelle\nEnseignant : Hubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Rech opérationnelle<br/>Enseignant : Hubert<br/>Salle : 1/25<b
+ r/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240905T130301Z
+UID:Cours-157848-1-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20240917T113000Z
+DTEND:20240917T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Informatique embarq
+ uée - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Informatique embarquée\nEnseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Informatique embarquée<br/>Enseignant : Maillez<br/>Salle : 1/
+ 26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240905T130301Z
+UID:Cours-157848-2-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20240924T113000Z
+DTEND:20240924T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Informatique embarq
+ uée - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Informatique embarquée\nEnseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Informatique embarquée<br/>Enseignant : Maillez<br/>Salle : 1/
+ 26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240905T130301Z
+UID:Cours-157848-3-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241001T113000Z
+DTEND:20241001T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Informatique embarq
+ uée - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Informatique embarquée\nEnseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Informatique embarquée<br/>Enseignant : Maillez<br/>Salle : 1/
+ 26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240905T130301Z
+UID:Cours-157848-4-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241008T113000Z
+DTEND:20241008T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Informatique embarq
+ uée - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Informatique embarquée\nEnseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Informatique embarquée<br/>Enseignant : Maillez<br/>Salle : 1/
+ 26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240905T130301Z
+UID:Cours-157848-5-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241015T113000Z
+DTEND:20241015T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Informatique embarq
+ uée - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Informatique embarquée\nEnseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Informatique embarquée<br/>Enseignant : Maillez<br/>Salle : 1/
+ 26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240905T130301Z
+UID:Cours-157848-9-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241112T123000Z
+DTEND:20241112T163000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Informatique embarq
+ uée - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Informatique embarquée\nEnseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Informatique embarquée<br/>Enseignant : Maillez<br/>Salle : 1/
+ 26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240905T130301Z
+UID:Cours-157848-10-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241119T123000Z
+DTEND:20241119T163000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Informatique embarq
+ uée - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Informatique embarquée\nEnseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Informatique embarquée<br/>Enseignant : Maillez<br/>Salle : 1/
+ 26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240905T130301Z
+UID:Cours-157848-11-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241126T123000Z
+DTEND:20241126T163000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Informatique embarq
+ uée - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Informatique embarquée\nEnseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Informatique embarquée<br/>Enseignant : Maillez<br/>Salle : 1/
+ 26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240905T130301Z
+UID:Cours-157848-12-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241203T123000Z
+DTEND:20241203T163000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Informatique embarq
+ uée - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Informatique embarquée\nEnseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Informatique embarquée<br/>Enseignant : Maillez<br/>Salle : 1/
+ 26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240905T130301Z
+UID:Cours-157848-13-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241210T123000Z
+DTEND:20241210T163000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Informatique embarq
+ uée - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Informatique embarquée\nEnseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Informatique embarquée<br/>Enseignant : Maillez<br/>Salle : 1/
+ 26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240905T130301Z
+UID:Cours-157848-14-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241217T123000Z
+DTEND:20241217T163000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Informatique embarq
+ uée - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Informatique embarquée\nEnseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Informatique embarquée<br/>Enseignant : Maillez<br/>Salle : 1/
+ 26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20230831T084433Z
+UID:Cours-157853-2-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20240923T083000Z
+DTEND:20240923T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion - Syst. d'expl. - Cortisse
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\nMatière : Sys
+ t. d'expl.\nEnseignant : Cortisse\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion<br/>Matiè
+ re : Syst. d'expl.<br/>Enseignant : Cortisse<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T061854Z
+UID:Cours-157855-4-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241009T073000Z
+DTEND:20241009T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion - Syst. d'expl. - Cortisse
+LOCATION;LANGUAGE=fr:1/28\, 1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\nMatière : Sys
+ t. d'expl.\nEnseignant : Cortisse\nSalles : 1/28\, 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion<br/>Matiè
+ re : Syst. d'expl.<br/>Enseignant : Cortisse<br/>Salles : 1/28\, 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T073150Z
+UID:Cours-157861-10-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241121T123000Z
+DTEND:20241121T163000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion - Syst. d'expl. - Cortisse
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\nMatière : Sys
+ t. d'expl.\nEnseignant : Cortisse\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion<br/>Matiè
+ re : Syst. d'expl.<br/>Enseignant : Cortisse<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20230831T085227Z
+UID:Cours-157870-1-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20240919T083000Z
+DTEND:20240919T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Cybersécurité 1 - L
+ erat
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Cybersécurité 1\nEnseignant : Lerat\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Cybersécurité 1<br/>Enseignant : Lerat<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20220818T105722Z
+UID:Cours-157920-9-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241114T123000Z
+DTEND:20241114T163000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion - Syst. d'expl. - Cortisse
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\nMatière : Sys
+ t. d'expl.\nEnseignant : Cortisse\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion<br/>Matiè
+ re : Syst. d'expl.<br/>Enseignant : Cortisse<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240826T075132Z
+UID:Cours-158151-3-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20240930T113000Z
+DTEND:20240930T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Systèmes embarqués - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Systèmes embarqués\nE
+ nseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Systèmes emba
+ rqués<br/>Enseignant : Maillez<br/>Salle : 1/26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T062117Z
+UID:Cours-158152-5-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241014T061500Z
+DTEND:20241014T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Cybersécurité 1 - L
+ erat
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Cybersécurité 1\nEnseignant : Lerat\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Cybersécurité 1<br/>Enseignant : Lerat<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T062116Z
+UID:Cours-158153-10-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241120T093000Z
+DTEND:20241120T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Cybersécurité 1 - L
+ erat
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Cybersécurité 1\nEnseignant : Lerat\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Cybersécurité 1<br/>Enseignant : Lerat<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240820T091354Z
+UID:Cours-158156-11-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241125T071500Z
+DTEND:20241125T091500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Cybersécurité 1 - L
+ erat
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Cybersécurité 1\nEnseignant : Lerat\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Cybersécurité 1<br/>Enseignant : Lerat<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20230828T084351Z
+UID:Cours-158157-12-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241202T123000Z
+DTEND:20241202T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Cybersécurité 1 - L
+ erat
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Cybersécurité 1\nEnseignant : Lerat\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Cybersécurité 1<br/>Enseignant : Lerat<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20220829T062530Z
+UID:Cours-158587-14-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241219T093000Z
+DTEND:20241219T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Réseaux mobiles - Isidoro
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Réseaux mobiles\nEnse
+ ignant : Isidoro\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Réseaux mobil
+ es<br/>Enseignant : Isidoro<br/>Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T093216Z
+UID:Cours-158787-5-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241016T113000Z
+DTEND:20241016T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion - Syst. d'expl. - Cortisse
+LOCATION;LANGUAGE=fr:1/28\, 1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\nMatière : Sys
+ t. d'expl.\nEnseignant : Cortisse\nSalles : 1/28\, 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion<br/>Matiè
+ re : Syst. d'expl.<br/>Enseignant : Cortisse<br/>Salles : 1/28\, 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240709T083946Z
+UID:Cours-159223-3-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241002T073000Z
+DTEND:20241002T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer - Cours
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\nTy
+ pe : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240902T061350Z
+UID:Cours-159269-6-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241024T083000Z
+DTEND:20241024T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Lang
+ ues - Remacle - Cours
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Langues\nEnseignant : Remacle\nSalle : 1/29\nType : Cou
+ rs\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Langues<br/>Enseignant : Remacle<br/>Salle : 1/
+ 29<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T064915Z
+UID:Cours-159270-3-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241001T083000Z
+DTEND:20241001T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Lang
+ ues - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Langues\nEnseignant : Remacle\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Langues<br/>Enseignant : Remacle<br/>Salle : 1/
+ 29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T070302Z
+UID:Cours-159578-2-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20240926T113000Z
+DTEND:20240926T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Réseaux mobiles - Isidoro
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Réseaux mobiles\nEnse
+ ignant : Isidoro\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Réseaux mobil
+ es<br/>Enseignant : Isidoro<br/>Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T062134Z
+UID:Cours-159583-3-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241003T083000Z
+DTEND:20241003T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Réseaux mobiles - Isidoro
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Réseaux mobiles\nEnse
+ ignant : Isidoro\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Réseaux mobil
+ es<br/>Enseignant : Isidoro<br/>Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20220831T072619Z
+UID:Cours-161566-11-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241125T123000Z
+DTEND:20241125T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Projet\, bureau d'é
+ tudes - Cremer\, Lerat
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Projet\, bureau d'études\nEnseignants : Cremer\, Lerat\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Projet\, bureau d'études<br/>Enseignants : Cremer\, Lerat<br/>
+ Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20221124T075415Z
+UID:Cours-161570-14-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241216T123000Z
+DTEND:20241216T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Projet\, bureau d'é
+ tudes - Cremer\, Lerat
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Projet\, bureau d'études\nEnseignants : Cremer\, Lerat\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Projet\, bureau d'études<br/>Enseignants : Cremer\, Lerat<br/>
+ Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T093258Z
+UID:Cours-163423-9-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241115T130000Z
+DTEND:20241115T160000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240709T083549Z
+UID:Cours-164040-6-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241022T113000Z
+DTEND:20241022T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20231011T061516Z
+UID:Cours-166551-5-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241016T061500Z
+DTEND:20241016T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Proj
+ ect management - Bouillon
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Project management\nEnseignant : Bouillon\nSalle : 1/25
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Project management<br/>Enseignant : Bouillon<br
+ />Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240626T072734Z
+UID:Cours-179978-14-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241219T123000Z
+DTEND:20241219T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20230904T132242Z
+UID:Cours-182281-9-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241113T083000Z
+DTEND:20241113T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Rech opérationnelle
+  - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Rech opérationnelle\nEnseignant : Hubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Rech opérationnelle<br/>Enseignant : Hubert<br/>Salle : 1/25<b
+ r/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240621T072112Z
+UID:Cours-182921-13-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241209T123000Z
+DTEND:20241209T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Réseaux mobiles - Isidoro
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Réseaux mobiles\nEnse
+ ignant : Isidoro\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Réseaux mobil
+ es<br/>Enseignant : Isidoro<br/>Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20230831T085246Z
+UID:Cours-182936-11-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241127T123000Z
+DTEND:20241127T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Réseaux mobiles - Isidoro
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Réseaux mobiles\nEnse
+ ignant : Isidoro\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Réseaux mobil
+ es<br/>Enseignant : Isidoro<br/>Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240905T123705Z
+UID:Cours-183294-5-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241017T113000Z
+DTEND:20241017T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240905T123705Z
+UID:Cours-183294-6-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241024T113000Z
+DTEND:20241024T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240905T123705Z
+UID:Cours-183294-13-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241212T123000Z
+DTEND:20241212T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240711T105206Z
+UID:Cours-183823-6-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241021T083000Z
+DTEND:20241021T103000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Info IngéPlus\, BA3 TL - Informatique\, MA1 TL
+  - Info Automation et Sys. emb.\, MA1 TL - Info IA et Big Data\, MA1 TL - 
+ Informatique Gestion\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL
+  - PASS Info IA et Big Data - Projet\, bureau d'études - Cremer\, Lerat
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Info IngéPlus\, BA3 TL - Informa
+ tique\, MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info IA et Big Da
+ ta\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automation et Sys.
+  emb.\, MA1 TL - PASS Info IA et Big Data\nMatière : Projet\, bureau d'étu
+ des\nEnseignants : Cremer\, Lerat\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Info IngéPlus\, BA3 TL - In
+ formatique\, MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info IA et B
+ ig Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automation et
+  Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br/>Matière : Projet\, bure
+ au d'études<br/>Enseignants : Cremer\, Lerat<br/>Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240826T074843Z
+UID:Cours-184267-4-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241010T063000Z
+DTEND:20241010T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Systèmes embarqués - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Systèmes embarqués\nE
+ nseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Systèmes emba
+ rqués<br/>Enseignant : Maillez<br/>Salle : 1/26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240826T074843Z
+UID:Cours-184268-3-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241003T113000Z
+DTEND:20241003T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Systèmes embarqués - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Systèmes embarqués\nE
+ nseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Systèmes emba
+ rqués<br/>Enseignant : Maillez<br/>Salle : 1/26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T093216Z
+UID:Cours-184359-11-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241128T093000Z
+DTEND:20241128T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion - Syst. d'expl. - Cortisse
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\nMatière : Sys
+ t. d'expl.\nEnseignant : Cortisse\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion<br/>Matiè
+ re : Syst. d'expl.<br/>Enseignant : Cortisse<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20230828T035606Z
+UID:Cours-184362-2-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20240925T073000Z
+DTEND:20240925T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Projet\, bureau d'é
+ tudes - Cremer\, Lerat
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Projet\, bureau d'études\nEnseignants : Cremer\, Lerat\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Projet\, bureau d'études<br/>Enseignants : Cremer\, Lerat<br/>
+ Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T092914Z
+UID:Cours-184363-5-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241018T120000Z
+DTEND:20241018T150000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Projet\, bureau d'é
+ tudes - Cremer\, Lerat
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Projet\, bureau d'études\nEnseignants : Cremer\, Lerat\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Projet\, bureau d'études<br/>Enseignants : Cremer\, Lerat<br/>
+ Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T092919Z
+UID:Cours-184364-3-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241004T120000Z
+DTEND:20241004T150000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Projet\, bureau d'é
+ tudes - Cremer\, Lerat
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Projet\, bureau d'études\nEnseignants : Cremer\, Lerat\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Projet\, bureau d'études<br/>Enseignants : Cremer\, Lerat<br/>
+ Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240709T082216Z
+UID:Cours-184370-1-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20240917T081500Z
+DTEND:20240917T101500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Lang
+ ues - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Langues\nEnseignant : Remacle\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Langues<br/>Enseignant : Remacle<br/>Salle : 1/
+ 29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T071253Z
+UID:Cours-184376-1-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20240916T113000Z
+DTEND:20240916T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Tech. de prog avanc
+ ées 3 - Cortisse
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Tech. de prog avancées 3\nEnseignant : Cortisse\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Tech. de prog avancées 3<br/>Enseignant : Cortisse<br/>Salle :
+  1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T071253Z
+UID:Cours-184376-2-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20240923T113000Z
+DTEND:20240923T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Tech. de prog avanc
+ ées 3 - Cortisse
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Tech. de prog avancées 3\nEnseignant : Cortisse\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Tech. de prog avancées 3<br/>Enseignant : Cortisse<br/>Salle :
+  1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20230828T044410Z
+UID:Cours-184377-3-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20240930T061500Z
+DTEND:20240930T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Tech. de prog avanc
+ ées 3 - Cortisse
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Tech. de prog avancées 3\nEnseignant : Cortisse\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Tech. de prog avancées 3<br/>Enseignant : Cortisse<br/>Salle :
+  1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T111523Z
+UID:Cours-184378-12-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241202T083000Z
+DTEND:20241202T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Tech. de prog avanc
+ ées 3 - Cortisse
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Tech. de prog avancées 3\nEnseignant : Cortisse\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Tech. de prog avancées 3<br/>Enseignant : Cortisse<br/>Salle :
+  1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20230925T055323Z
+UID:Cours-184384-14-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241217T071500Z
+DTEND:20241217T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Tech. de prog avanc
+ ées 3 - Cortisse
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Tech. de prog avancées 3\nEnseignant : Cortisse\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Tech. de prog avancées 3<br/>Enseignant : Cortisse<br/>Salle :
+  1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20230828T044500Z
+UID:Cours-184385-13-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241211T123000Z
+DTEND:20241211T163000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Tech. de prog avanc
+ ées 3 - Cortisse
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Tech. de prog avancées 3\nEnseignant : Cortisse\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Tech. de prog avancées 3<br/>Enseignant : Cortisse<br/>Salle :
+  1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240905T130239Z
+UID:Cours-184386-14-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241216T071500Z
+DTEND:20241216T093000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Tech. de prog avanc
+ ées 3 - Cortisse
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Tech. de prog avancées 3\nEnseignant : Cortisse\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Tech. de prog avancées 3<br/>Enseignant : Cortisse<br/>Salle :
+  1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20230925T055309Z
+UID:Cours-184390-10-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241118T073000Z
+DTEND:20241118T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Tech. de prog avanc
+ ées 3 - Cortisse
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Tech. de prog avancées 3\nEnseignant : Cortisse\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Tech. de prog avancées 3<br/>Enseignant : Cortisse<br/>Salle :
+  1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T111839Z
+UID:Cours-184396-2-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20240926T083000Z
+DTEND:20240926T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Cybersécurité 1 - L
+ erat
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Cybersécurité 1\nEnseignant : Lerat\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Cybersécurité 1<br/>Enseignant : Lerat<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T091045Z
+UID:Cours-185252-8-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241106T123000Z
+DTEND:20241106T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Cybersécurité 1 - L
+ erat
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Cybersécurité 1\nEnseignant : Lerat\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Cybersécurité 1<br/>Enseignant : Lerat<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T111551Z
+UID:Cours-186205-9-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241112T083000Z
+DTEND:20241112T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Rech opérationnelle
+  - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Rech opérationnelle\nEnseignant : Hubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Rech opérationnelle<br/>Enseignant : Hubert<br/>Salle : 1/25<b
+ r/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240902T061333Z
+UID:Cours-186208-10-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241120T071500Z
+DTEND:20241120T091500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Rech opérationnelle
+  - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Rech opérationnelle\nEnseignant : Hubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Rech opérationnelle<br/>Enseignant : Hubert<br/>Salle : 1/25<b
+ r/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T111555Z
+UID:Cours-186221-11-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241126T093000Z
+DTEND:20241126T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Rech opérationnelle
+  - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Rech opérationnelle\nEnseignant : Hubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Rech opérationnelle<br/>Enseignant : Hubert<br/>Salle : 1/25<b
+ r/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T093256Z
+UID:Cours-186293-10-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241122T130000Z
+DTEND:20241122T160000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240823T071244Z
+UID:Cours-187119-9-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241114T071500Z
+DTEND:20241114T101500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Proj
+ ect management - Bouillon
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Project management\nEnseignant : Bouillon\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Project management<br/>Enseignant : Bouillon<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T070218Z
+UID:Cours-189751-1-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20240916T061500Z
+DTEND:20240916T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240905T130255Z
+UID:Cours-189754-5-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241016T083000Z
+DTEND:20241016T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240905T130255Z
+UID:Cours-189754-6-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241023T083000Z
+DTEND:20241023T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240709T082614Z
+UID:Cours-191438-12-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241206T130000Z
+DTEND:20241206T150000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Proj
+ ect management - Bouillon
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Project management\nEnseignant : Bouillon\nSalle : 2/SA
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Project management<br/>Enseignant : Bouillon<br
+ />Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T072810Z
+UID:Cours-198567-12-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241205T123000Z
+DTEND:20241205T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Tech. de prog avanc
+ ées 3 - Cortisse
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Tech. de prog avancées 3\nEnseignant : Cortisse\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Tech. de prog avancées 3<br/>Enseignant : Cortisse<br/>Salle :
+  1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240906T093034Z
+UID:Cours-203887-5-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241014T083000Z
+DTEND:20241014T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Réseaux mobiles - Isidoro
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Réseaux mobiles\nEnse
+ ignant : Isidoro\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Réseaux mobil
+ es<br/>Enseignant : Isidoro<br/>Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240709T084826Z
+UID:Cours-204957-5-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241017T133000Z
+DTEND:20241017T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240709T084826Z
+UID:Cours-204957-13-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241212T143000Z
+DTEND:20241212T163000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T065932Z
+UID:Cours-204959-1-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20240919T113000Z
+DTEND:20240919T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240709T085008Z
+UID:Cours-204961-1-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20240920T063000Z
+DTEND:20240920T083000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Proj
+ ect management - Bouillon
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Project management\nEnseignant : Bouillon\nSalle : 2/SA
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Project management<br/>Enseignant : Bouillon<br
+ />Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T093216Z
+UID:Cours-206569-10-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241120T123000Z
+DTEND:20241120T163000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion - Syst. d'expl. - Cortisse
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\nMatière : Sys
+ t. d'expl.\nEnseignant : Cortisse\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion<br/>Matiè
+ re : Syst. d'expl.<br/>Enseignant : Cortisse<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T093216Z
+UID:Cours-206569-12-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241204T123000Z
+DTEND:20241204T163000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion - Syst. d'expl. - Cortisse
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\nMatière : Sys
+ t. d'expl.\nEnseignant : Cortisse\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion<br/>Matiè
+ re : Syst. d'expl.<br/>Enseignant : Cortisse<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T093216Z
+UID:Cours-206569-14-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241218T123000Z
+DTEND:20241218T163000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion - Syst. d'expl. - Cortisse
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\nMatière : Sys
+ t. d'expl.\nEnseignant : Cortisse\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion<br/>Matiè
+ re : Syst. d'expl.<br/>Enseignant : Cortisse<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T061837Z
+UID:Cours-206973-1-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20240918T113000Z
+DTEND:20240918T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion - Syst. d'expl. - Cortisse
+LOCATION;LANGUAGE=fr:1/28\, 1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\nMatière : Sys
+ t. d'expl.\nEnseignant : Cortisse\nSalles : 1/28\, 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion<br/>Matiè
+ re : Syst. d'expl.<br/>Enseignant : Cortisse<br/>Salles : 1/28\, 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T061925Z
+UID:Cours-206974-8-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241105T123000Z
+DTEND:20241105T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion - Syst. d'expl. - Cortisse
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\nMatière : Sys
+ t. d'expl.\nEnseignant : Cortisse\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion<br/>Matiè
+ re : Syst. d'expl.<br/>Enseignant : Cortisse<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T062111Z
+UID:Cours-206975-8-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241105T073000Z
+DTEND:20241105T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Tech. de prog avanc
+ ées 3 - Cortisse
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Tech. de prog avancées 3\nEnseignant : Cortisse\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Tech. de prog avancées 3<br/>Enseignant : Cortisse<br/>Salle :
+  1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T073138Z
+UID:Cours-206976-4-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241010T113000Z
+DTEND:20241010T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Réseaux mobiles - Isidoro
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Réseaux mobiles\nEnse
+ ignant : Isidoro\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Réseaux mobil
+ es<br/>Enseignant : Isidoro<br/>Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T073138Z
+UID:Cours-206976-11-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241128T123000Z
+DTEND:20241128T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Réseaux mobiles - Isidoro
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Réseaux mobiles\nEnse
+ ignant : Isidoro\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Réseaux mobil
+ es<br/>Enseignant : Isidoro<br/>Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T064829Z
+UID:Cours-206977-8-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241104T123000Z
+DTEND:20241104T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Projet\, bureau d'é
+ tudes - Cremer\, Lerat
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Projet\, bureau d'études\nEnseignants : Cremer\, Lerat\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Projet\, bureau d'études<br/>Enseignants : Cremer\, Lerat<br/>
+ Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240902T061144Z
+UID:Cours-206978-6-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241022T073000Z
+DTEND:20241022T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Lang
+ ues - Remacle
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Langues\nEnseignant : Remacle\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Langues<br/>Enseignant : Remacle<br/>Salle : 2/
+ SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240902T061456Z
+UID:Cours-206979-10-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241121T083000Z
+DTEND:20241121T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Lang
+ ues - Remacle - TEST TOEIC
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Langues\nEnseignant : Remacle\nSalle : 2/SA\nMémo : TES
+ T TOEIC\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Langues<br/>Enseignant : Remacle<br/>Salle : 2/
+ SA<br/>Mémo : TEST TOEIC<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240902T061730Z
+UID:Cours-206980-4-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241009T113000Z
+DTEND:20241009T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Lang
+ ues - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Langues\nEnseignant : Remacle\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Langues<br/>Enseignant : Remacle<br/>Salle : 1/
+ 29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240902T060932Z
+UID:Cours-206982-3-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241002T113000Z
+DTEND:20241002T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Lang
+ ues - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Langues\nEnseignant : Remacle\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Langues<br/>Enseignant : Remacle<br/>Salle : 1/
+ 29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T065852Z
+UID:Cours-206983-4-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241010T133000Z
+DTEND:20241010T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T070500Z
+UID:Cours-206994-11-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241127T083000Z
+DTEND:20241127T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Systèmes embarqués - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Systèmes embarqués\nE
+ nseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Systèmes emba
+ rqués<br/>Enseignant : Maillez<br/>Salle : 1/26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T070507Z
+UID:Cours-206995-4-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241011T061500Z
+DTEND:20241011T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Proj
+ ect management - Bouillon
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Project management\nEnseignant : Bouillon\nSalle : 1/25
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Project management<br/>Enseignant : Bouillon<br
+ />Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T070507Z
+UID:Cours-206995-6-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241025T061500Z
+DTEND:20241025T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Proj
+ ect management - Bouillon
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Project management\nEnseignant : Bouillon\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Project management<br/>Enseignant : Bouillon<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T070507Z
+UID:Cours-206995-11-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241129T071500Z
+DTEND:20241129T091500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Proj
+ ect management - Bouillon
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Project management\nEnseignant : Bouillon\nSalle : 1/25
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Project management<br/>Enseignant : Bouillon<br
+ />Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T071317Z
+UID:Cours-206999-4-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241008T063000Z
+DTEND:20241008T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Tech. de prog avanc
+ ées 3 - Cortisse
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Tech. de prog avancées 3\nEnseignant : Cortisse\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Tech. de prog avancées 3<br/>Enseignant : Cortisse<br/>Salle :
+  1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T071417Z
+UID:Cours-207000-3-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241001T061500Z
+DTEND:20241001T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Cybersécurité 1 - L
+ erat
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Cybersécurité 1\nEnseignant : Lerat\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Cybersécurité 1<br/>Enseignant : Lerat<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240820T085819Z
+UID:Cours-207001-6-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241021T061500Z
+DTEND:20241021T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Cybersécurité 1 - L
+ erat
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Cybersécurité 1\nEnseignant : Lerat\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Cybersécurité 1<br/>Enseignant : Lerat<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240906T092947Z
+UID:Cours-207017-6-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241021T113000Z
+DTEND:20241021T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Réseaux mobiles - Isidoro
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Réseaux mobiles\nEnse
+ ignant : Isidoro\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Réseaux mobil
+ es<br/>Enseignant : Isidoro<br/>Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240820T092048Z
+UID:Cours-207018-9-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241115T071500Z
+DTEND:20241115T091500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Réseaux mobiles - Isidoro
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Réseaux mobiles\nEnse
+ ignant : Isidoro\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Réseaux mobil
+ es<br/>Enseignant : Isidoro<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T074237Z
+UID:Cours-207021-10-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241122T083000Z
+DTEND:20241122T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Systèmes embarqués - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Systèmes embarqués\nE
+ nseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Systèmes emba
+ rqués<br/>Enseignant : Maillez<br/>Salle : 1/26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T074237Z
+UID:Cours-207021-12-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241206T083000Z
+DTEND:20241206T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Systèmes embarqués - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Systèmes embarqués\nE
+ nseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Systèmes emba
+ rqués<br/>Enseignant : Maillez<br/>Salle : 1/26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T074237Z
+UID:Cours-207021-13-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241213T083000Z
+DTEND:20241213T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Systèmes embarqués - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Systèmes embarqués\nE
+ nseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Systèmes emba
+ rqués<br/>Enseignant : Maillez<br/>Salle : 1/26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T074237Z
+UID:Cours-207021-14-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241220T083000Z
+DTEND:20241220T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Systèmes embarqués - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Systèmes embarqués\nE
+ nseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Systèmes emba
+ rqués<br/>Enseignant : Maillez<br/>Salle : 1/26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T111551Z
+UID:Cours-207267-13-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241210T093000Z
+DTEND:20241210T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Rech opérationnelle
+  - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Rech opérationnelle\nEnseignant : Hubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Rech opérationnelle<br/>Enseignant : Hubert<br/>Salle : 1/25<b
+ r/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T111555Z
+UID:Cours-207268-2-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20240924T073000Z
+DTEND:20240924T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Rech opérationnelle
+  - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Rech opérationnelle\nEnseignant : Hubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Rech opérationnelle<br/>Enseignant : Hubert<br/>Salle : 1/25<b
+ r/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T111555Z
+UID:Cours-207268-5-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241015T073000Z
+DTEND:20241015T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Rech opérationnelle
+  - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Rech opérationnelle\nEnseignant : Hubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Rech opérationnelle<br/>Enseignant : Hubert<br/>Salle : 1/25<b
+ r/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T111555Z
+UID:Cours-207268-10-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241119T083000Z
+DTEND:20241119T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Rech opérationnelle
+  - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Rech opérationnelle\nEnseignant : Hubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Rech opérationnelle<br/>Enseignant : Hubert<br/>Salle : 1/25<b
+ r/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T111555Z
+UID:Cours-207268-12-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241203T083000Z
+DTEND:20241203T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Rech opérationnelle
+  - Hubert
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Rech opérationnelle\nEnseignant : Hubert\nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Rech opérationnelle<br/>Enseignant : Hubert<br/>Salle : 1/25<b
+ r/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T111839Z
+UID:Cours-207269-6-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241023T113000Z
+DTEND:20241023T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Cybersécurité 1 - L
+ erat
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Cybersécurité 1\nEnseignant : Lerat\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Cybersécurité 1<br/>Enseignant : Lerat<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240819T111839Z
+UID:Cours-207269-9-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241113T123000Z
+DTEND:20241113T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PASS Info Automat
+ ion et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Cybersécurité 1 - L
+ erat
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - PAS
+ S Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data\nMatièr
+ e : Cybersécurité 1\nEnseignant : Lerat\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data<br
+ />Matière : Cybersécurité 1<br/>Enseignant : Lerat<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240826T074827Z
+UID:Cours-210189-5-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241014T113000Z
+DTEND:20241014T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Systèmes embarqués - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Systèmes embarqués\nE
+ nseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Systèmes emba
+ rqués<br/>Enseignant : Maillez<br/>Salle : 1/26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240826T074827Z
+UID:Cours-210190-4-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241007T113000Z
+DTEND:20241007T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Systèmes embarqués - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Systèmes embarqués\nE
+ nseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Systèmes emba
+ rqués<br/>Enseignant : Maillez<br/>Salle : 1/26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240826T074843Z
+UID:Cours-210191-5-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241017T073000Z
+DTEND:20241017T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Systèmes embarqués - Maillez
+LOCATION;LANGUAGE=fr:1/26
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Systèmes embarqués\nE
+ nseignant : Maillez\nSalle : 1/26\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Systèmes emba
+ rqués<br/>Enseignant : Maillez<br/>Salle : 1/26<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+LAST-MODIFIED:20240906T093053Z
+UID:Cours-214589-13-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART:20241210T071500Z
+DTEND:20241210T091500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - PASS I
+ nfo Automation et Sys. emb. - Réseaux mobiles - Isidoro
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - PASS Info Automation et Sys. emb.\nMatière : Réseaux mobiles\nEnse
+ ignant : Isidoro\nSalle : 2/17A\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - PASS Info Automation et Sys. emb.<br/>Matière : Réseaux mobil
+ es<br/>Enseignant : Isidoro<br/>Salle : 2/17A<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+UID:Ferie-939-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240928
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+UID:Ferie-940-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145724Z
+UID:Ferie-941-MA1_TL_-_Info_Automation_et_Sys._emb.-Index-Education
+DTSTART;VALUE=DATE:20241111
+DTEND;VALUE=DATE:20241112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+END:VCALENDAR

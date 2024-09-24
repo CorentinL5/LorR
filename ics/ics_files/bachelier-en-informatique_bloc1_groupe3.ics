@@ -4,749 +4,770 @@ PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
 METHOD:PUBLISH
 X-CALSTART:20240916T000000Z
 X-CALEND:20241221T000000Z
-X-WR-CALNAME;LANGUAGE=fr:HYP - <BA1P Informatique> <Laboratoires> Groupe 4 
+X-WR-CALNAME;LANGUAGE=fr:HYP - <BA1P Informatique> <Laboratoires> Groupe 3 
  BA1P Informatique - du 16 septembre au 21 décembre 2024
 X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de <BA1P Informatique> <Laboratoir
- es> Groupe 4 BA1P Informatique généré par le logiciel HP (©INDEX ÉDUCATION
- ) le 22 sept. 2024 - Haute Ecole en Hainaut - valable sur la période du 16
+ es> Groupe 3 BA1P Informatique généré par le logiciel HP (©INDEX ÉDUCATION
+ ) le 24 sept. 2024 - Haute Ecole en Hainaut - valable sur la période du 16
   septembre au 21 décembre 2024 - Semaines : semaine 38 - 51
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240917T081535Z
-UID:Cours-156373-2-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20240924T113000Z
-DTEND:20240924T143000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Techniques numeriques-TP -
-  Depreter - Laboratoires
-LOCATION;LANGUAGE=fr:2/10B
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Techniqu
- es numeriques-TP\nEnseignant : Depreter\nSalle : 2/10B\nType : Laboratoire
- s\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Techniques numeriques-TP<br/>Enseignant : Depreter<br/>Salle : 2/10B<br/>T
- ype : Laboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240822T083420Z
-UID:Cours-156383-1-Groupe_4_BA1P_Informatique-Index-Education
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240821T130654Z
+UID:Cours-156372-1-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240919T113000Z
-DTEND:20240919T153000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Electricité - TP - Arnaud 
- - Laboratoires
-LOCATION;LANGUAGE=fr:2/10C
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Electric
- ité - TP\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Electricité - TP<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labo
- ratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240822T083420Z
-UID:Cours-156383-2-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20240926T113000Z
-DTEND:20240926T153000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Electricité - TP - Arnaud 
- - Laboratoires
-LOCATION;LANGUAGE=fr:2/10C
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Electric
- ité - TP\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Electricité - TP<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labo
- ratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240822T083420Z
-UID:Cours-156383-3-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241003T113000Z
-DTEND:20241003T153000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Electricité - TP - Arnaud 
- - Laboratoires
-LOCATION;LANGUAGE=fr:2/10C
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Electric
- ité - TP\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Electricité - TP<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labo
- ratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240822T083420Z
-UID:Cours-156383-4-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241010T113000Z
-DTEND:20241010T153000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Electricité - TP - Arnaud 
- - Laboratoires
-LOCATION;LANGUAGE=fr:2/10C
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Electric
- ité - TP\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Electricité - TP<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labo
- ratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240822T083420Z
-UID:Cours-156383-5-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241017T113000Z
-DTEND:20241017T153000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Electricité - TP - Arnaud 
- - Laboratoires
-LOCATION;LANGUAGE=fr:2/10C
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Electric
- ité - TP\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Electricité - TP<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labo
- ratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240911T061908Z
-UID:Cours-157010-11-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241127T071500Z
-DTEND:20241127T111500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Etude de projet - Arnaud -
+DTEND:20240919T143000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Techniques numeriques-TP -
   Laboratoires
-LOCATION;LANGUAGE=fr:2/10C
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Etude de
-  projet\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Etude de projet<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labor
- atoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240822T084237Z
-UID:Cours-157011-8-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241105T073000Z
-DTEND:20241105T113000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Etude de projet - Arnaud -
-  Laboratoires
-LOCATION;LANGUAGE=fr:2/10C
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Etude de
-  projet\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Etude de projet<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labor
- atoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240905T064915Z
-UID:Cours-158735-9-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241115T071500Z
-DTEND:20241115T111500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Télécom. et réseaux - TP1 
- - Pietrzak - Laboratoires
-LOCATION;LANGUAGE=fr:2/16
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Télécom.
-  et réseaux - TP1\nEnseignant : Pietrzak\nSalle : 2/16\nType : Laboratoire
- s\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Télécom. et réseaux - TP1<br/>Enseignant : Pietrzak<br/>Salle : 2/16<br/>T
- ype : Laboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20220908T065047Z
-UID:Cours-158736-10-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241122T071500Z
-DTEND:20241122T111500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Télécom. et réseaux - TP1 
- - Pietrzak - Laboratoires
-LOCATION;LANGUAGE=fr:2/10F
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Télécom.
-  et réseaux - TP1\nEnseignant : Pietrzak\nSalle : 2/10F\nType : Laboratoir
- es\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Télécom. et réseaux - TP1<br/>Enseignant : Pietrzak<br/>Salle : 2/10F<br/>
- Type : Laboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240814T064149Z
-UID:Cours-180186-11-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241129T073000Z
-DTEND:20241129T113000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Bases de Program.-TP - Sco
- pel - Laboratoires
-LOCATION;LANGUAGE=fr:1/23
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Bases de
-  Program.-TP\nEnseignant : Scopel\nSalle : 1/23\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Bases de Program.-TP<br/>Enseignant : Scopel<br/>Salle : 1/23<br/>Type : L
- aboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240814T064149Z
-UID:Cours-180186-12-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241206T073000Z
-DTEND:20241206T113000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Bases de Program.-TP - Sco
- pel - Laboratoires
-LOCATION;LANGUAGE=fr:1/14
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Bases de
-  Program.-TP\nEnseignant : Scopel\nSalle : 1/14\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Bases de Program.-TP<br/>Enseignant : Scopel<br/>Salle : 1/14<br/>Type : L
- aboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240905T125715Z
-UID:Cours-180303-4-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241010T061500Z
-DTEND:20241010T101500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Bases de Program.-TP - Sco
- pel - Laboratoires
-LOCATION;LANGUAGE=fr:1/21
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Bases de
-  Program.-TP\nEnseignant : Scopel\nSalle : 1/21\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Bases de Program.-TP<br/>Enseignant : Scopel<br/>Salle : 1/21<br/>Type : L
- aboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240905T125715Z
-UID:Cours-180303-5-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241017T061500Z
-DTEND:20241017T101500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Bases de Program.-TP - Sco
- pel - Laboratoires
-LOCATION;LANGUAGE=fr:1/21
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Bases de
-  Program.-TP\nEnseignant : Scopel\nSalle : 1/21\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Bases de Program.-TP<br/>Enseignant : Scopel<br/>Salle : 1/21<br/>Type : L
- aboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240905T125715Z
-UID:Cours-180303-6-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241024T061500Z
-DTEND:20241024T101500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Bases de Program.-TP - Sco
- pel - Laboratoires
-LOCATION;LANGUAGE=fr:2/10F
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Bases de
-  Program.-TP\nEnseignant : Scopel\nSalle : 2/10F\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Bases de Program.-TP<br/>Enseignant : Scopel<br/>Salle : 2/10F<br/>Type : 
- Laboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240905T125715Z
-UID:Cours-180303-8-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241107T071500Z
-DTEND:20241107T111500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Bases de Program.-TP - Sco
- pel - Laboratoires
-LOCATION;LANGUAGE=fr:2/10F
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Bases de
-  Program.-TP\nEnseignant : Scopel\nSalle : 2/10F\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Bases de Program.-TP<br/>Enseignant : Scopel<br/>Salle : 2/10F<br/>Type : 
- Laboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240905T125715Z
-UID:Cours-180303-11-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241128T071500Z
-DTEND:20241128T111500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Bases de Program.-TP - Sco
- pel - Laboratoires
-LOCATION;LANGUAGE=fr:2/10E
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Bases de
-  Program.-TP\nEnseignant : Scopel\nSalle : 2/10E\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Bases de Program.-TP<br/>Enseignant : Scopel<br/>Salle : 2/10E<br/>Type : 
- Laboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240905T125715Z
-UID:Cours-180303-12-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241205T071500Z
-DTEND:20241205T111500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Bases de Program.-TP - Sco
- pel - Laboratoires
-LOCATION;LANGUAGE=fr:2/17D (LCAO)
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Bases de
-  Program.-TP\nEnseignant : Scopel\nSalle : 2/17D (LCAO)\nType : Laboratoir
- es\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Bases de Program.-TP<br/>Enseignant : Scopel<br/>Salle : 2/17D (LCAO)<br/>
- Type : Laboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240905T125715Z
-UID:Cours-180303-14-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241219T071500Z
-DTEND:20241219T111500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Bases de Program.-TP - Sco
- pel - Laboratoires
-LOCATION;LANGUAGE=fr:2/17D (LCAO)
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Bases de
-  Program.-TP\nEnseignant : Scopel\nSalle : 2/17D (LCAO)\nType : Laboratoir
- es\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Bases de Program.-TP<br/>Enseignant : Scopel<br/>Salle : 2/17D (LCAO)<br/>
- Type : Laboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20230831T123714Z
-UID:Cours-183486-10-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241119T123000Z
-DTEND:20241119T163000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Télécom. et réseaux - TP1 
- - Pietrzak - Laboratoires
-LOCATION;LANGUAGE=fr:2/10F
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Télécom.
-  et réseaux - TP1\nEnseignant : Pietrzak\nSalle : 2/10F\nType : Laboratoir
- es\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Télécom. et réseaux - TP1<br/>Enseignant : Pietrzak<br/>Salle : 2/10F<br/>
- Type : Laboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240905T064901Z
-UID:Cours-185218-5-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241018T113000Z
-DTEND:20241018T153000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Télécom. et réseaux - TP1 
- - Pietrzak - Laboratoires
-LOCATION;LANGUAGE=fr:2/17A
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Télécom.
-  et réseaux - TP1\nEnseignant : Pietrzak\nSalle : 2/17A\nType : Laboratoir
- es\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Télécom. et réseaux - TP1<br/>Enseignant : Pietrzak<br/>Salle : 2/17A<br/>
- Type : Laboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240917T081828Z
-UID:Cours-204174-3-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241001T113000Z
-DTEND:20241001T143000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Techniques numeriques-TP -
-  Depreter - Laboratoires
-LOCATION;LANGUAGE=fr:2/10C
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Techniqu
- es numeriques-TP\nEnseignant : Depreter\nSalle : 2/10C\nType : Laboratoire
- s\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Techniques numeriques-TP<br/>Enseignant : Depreter<br/>Salle : 2/10C<br/>T
- ype : Laboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240917T081828Z
-UID:Cours-204174-4-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241008T113000Z
-DTEND:20241008T143000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Techniques numeriques-TP -
-  Depreter - Laboratoires
-LOCATION;LANGUAGE=fr:2/17A
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Techniqu
- es numeriques-TP\nEnseignant : Depreter\nSalle : 2/17A\nType : Laboratoire
- s\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Techniques numeriques-TP<br/>Enseignant : Depreter<br/>Salle : 2/17A<br/>T
- ype : Laboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240917T081828Z
-UID:Cours-204174-5-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241015T113000Z
-DTEND:20241015T143000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Techniques numeriques-TP -
-  Depreter - Laboratoires
-LOCATION;LANGUAGE=fr:2/10C
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Techniqu
- es numeriques-TP\nEnseignant : Depreter\nSalle : 2/10C\nType : Laboratoire
- s\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Techniques numeriques-TP<br/>Enseignant : Depreter<br/>Salle : 2/10C<br/>T
- ype : Laboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240917T081828Z
-UID:Cours-204174-6-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241022T113000Z
-DTEND:20241022T143000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Techniques numeriques-TP -
-  Depreter - Laboratoires
-LOCATION;LANGUAGE=fr:2/10F
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Techniqu
- es numeriques-TP\nEnseignant : Depreter\nSalle : 2/10F\nType : Laboratoire
- s\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Techniques numeriques-TP<br/>Enseignant : Depreter<br/>Salle : 2/10F<br/>T
- ype : Laboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240917T081828Z
-UID:Cours-204174-8-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241105T123000Z
-DTEND:20241105T153000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Techniques numeriques-TP -
-  Depreter - Laboratoires
-LOCATION;LANGUAGE=fr:2/10E
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Techniqu
- es numeriques-TP\nEnseignant : Depreter\nSalle : 2/10E\nType : Laboratoire
- s\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Techniques numeriques-TP<br/>Enseignant : Depreter<br/>Salle : 2/10E<br/>T
- ype : Laboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240917T081828Z
-UID:Cours-204174-9-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241112T123000Z
-DTEND:20241112T153000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Techniques numeriques-TP -
-  Depreter - Laboratoires
-LOCATION;LANGUAGE=fr:2/17D (LCAO)
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Techniqu
- es numeriques-TP\nEnseignant : Depreter\nSalle : 2/17D (LCAO)\nType : Labo
- ratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Techniques numeriques-TP<br/>Enseignant : Depreter<br/>Salle : 2/17D (LCAO
- )<br/>Type : Laboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240917T081828Z
-UID:Cours-204174-11-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241126T123000Z
-DTEND:20241126T153000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Techniques numeriques-TP -
-  Depreter - Laboratoires
-LOCATION;LANGUAGE=fr:2/10E
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Techniqu
- es numeriques-TP\nEnseignant : Depreter\nSalle : 2/10E\nType : Laboratoire
- s\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Techniques numeriques-TP<br/>Enseignant : Depreter<br/>Salle : 2/10E<br/>T
- ype : Laboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240917T081828Z
-UID:Cours-204174-12-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241203T123000Z
-DTEND:20241203T153000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Techniques numeriques-TP -
-  Depreter - Laboratoires
 LOCATION;LANGUAGE=fr:2/10B
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Techniqu
- es numeriques-TP\nEnseignant : Depreter\nSalle : 2/10B\nType : Laboratoire
- s\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Techniques numeriques-TP<br/>Enseignant : Depreter<br/>Salle : 2/10B<br/>T
- ype : Laboratoires<br/>
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Techniqu
+ es numeriques-TP\nSalle : 2/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Techniques numeriques-TP<br/>Salle : 2/10B<br/>Type : Laboratoires<br/>
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240704T085756Z
-UID:Cours-204177-1-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20240917T113000Z
-DTEND:20240917T143000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Techniques numeriques-TP -
-  Depreter - Laboratoires
-LOCATION;LANGUAGE=fr:2/10B
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Techniqu
- es numeriques-TP\nEnseignant : Depreter\nSalle : 2/10B\nType : Laboratoire
- s\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Techniques numeriques-TP<br/>Enseignant : Depreter<br/>Salle : 2/10B<br/>T
- ype : Laboratoires<br/>
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240905T090708Z
+UID:Cours-156382-1-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20240920T061500Z
+DTEND:20240920T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Electricité - TP - Arnaud 
+ - Laboratoires
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Electric
+ ité - TP\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Electricité - TP<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labo
+ ratoires<br/>
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240917T081721Z
-UID:Cours-204184-5-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241014T113000Z
-DTEND:20241014T143000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Techniques numeriques-TP -
-  Depreter - Laboratoires
-LOCATION;LANGUAGE=fr:2/10E
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Techniqu
- es numeriques-TP\nEnseignant : Depreter\nSalle : 2/10E\nType : Laboratoire
- s\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Techniques numeriques-TP<br/>Enseignant : Depreter<br/>Salle : 2/10E<br/>T
- ype : Laboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240905T093335Z
-UID:Cours-204298-13-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241212T071500Z
-DTEND:20241212T111500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Bases de Program.-TP - Sco
- pel - Laboratoires
-LOCATION;LANGUAGE=fr:1/21
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Bases de
-  Program.-TP\nEnseignant : Scopel\nSalle : 1/21\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Bases de Program.-TP<br/>Enseignant : Scopel<br/>Salle : 1/21<br/>Type : L
- aboratoires<br/>
-END:VEVENT
-BEGIN:VEVENT
-CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240905T093311Z
-UID:Cours-204300-3-Groupe_4_BA1P_Informatique-Index-Education
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240905T090708Z
+UID:Cours-156382-3-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241004T061500Z
 DTEND:20241004T101500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Bases de Program.-TP - Sco
- pel - Laboratoires
-LOCATION;LANGUAGE=fr:2/10F
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Bases de
-  Program.-TP\nEnseignant : Scopel\nSalle : 2/10F\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Bases de Program.-TP<br/>Enseignant : Scopel<br/>Salle : 2/10F<br/>Type : 
- Laboratoires<br/>
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Electricité - TP - Arnaud 
+ - Laboratoires
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Electric
+ ité - TP\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Electricité - TP<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labo
+ ratoires<br/>
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240905T125719Z
-UID:Cours-204317-8-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241104T123000Z
-DTEND:20241104T143000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Mathématique - Carlier - L
- aboratoires
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Mathémat
- ique\nEnseignant : Carlier\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Mathématique<br/>Enseignant : Carlier<br/>Type : Laboratoires<br/>
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240905T090708Z
+UID:Cours-156382-5-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241018T061500Z
+DTEND:20241018T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Electricité - TP - Arnaud 
+ - Laboratoires
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Electric
+ ité - TP\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Electricité - TP<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labo
+ ratoires<br/>
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240905T125719Z
-UID:Cours-204317-11-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241125T123000Z
-DTEND:20241125T143000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Mathématique - Carlier - L
- aboratoires
-LOCATION;LANGUAGE=fr:2/09C
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Mathémat
- ique\nEnseignant : Carlier\nSalle : 2/09C\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Mathématique<br/>Enseignant : Carlier<br/>Salle : 2/09C<br/>Type : Laborat
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240905T090708Z
+UID:Cours-156382-6-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241025T061500Z
+DTEND:20241025T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Electricité - TP - Arnaud 
+ - Laboratoires
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Electric
+ ité - TP\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Electricité - TP<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labo
+ ratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240905T090708Z
+UID:Cours-156382-8-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241108T071500Z
+DTEND:20241108T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Electricité - TP - Arnaud 
+ - Laboratoires
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Electric
+ ité - TP\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Electricité - TP<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labo
+ ratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240912T081202Z
+UID:Cours-156405-12-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241203T123000Z
+DTEND:20241203T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Etude de projet - Arnaud -
+  Laboratoires
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Etude de
+  projet\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Etude de projet<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labor
+ atoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240912T081202Z
+UID:Cours-156405-13-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241210T123000Z
+DTEND:20241210T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Etude de projet - Arnaud -
+  Laboratoires
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Etude de
+  projet\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Etude de projet<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labor
+ atoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240905T125707Z
+UID:Cours-156462-14-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241218T123000Z
+DTEND:20241218T143000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Mathématique - Lebailly - 
+ Laboratoires
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Mathémat
+ ique\nEnseignant : Lebailly\nSalle : 2/11\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Mathématique<br/>Enseignant : Lebailly<br/>Salle : 2/11<br/>Type : Laborat
  oires<br/>
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240905T125719Z
-UID:Cours-204317-14-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241216T123000Z
-DTEND:20241216T143000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Mathématique - Carlier - L
- aboratoires
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Mathémat
- ique\nEnseignant : Carlier\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Mathématique<br/>Enseignant : Carlier<br/>Type : Laboratoires<br/>
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240913T114304Z
+UID:Cours-156463-8-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241107T091500Z
+DTEND:20241107T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Mathématique - Lebailly - 
+ Laboratoires
+LOCATION;LANGUAGE=fr:1/32\, 1/37
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Mathémat
+ ique\nEnseignant : Lebailly\nSalles : 1/32\, 1/37\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Mathématique<br/>Enseignant : Lebailly<br/>Salles : 1/32\, 1/37<br/>Type :
+  Laboratoires<br/>
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240905T125719Z
-UID:Cours-204318-13-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241210T123000Z
-DTEND:20241210T143000Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Mathématique - Carlier - L
- aboratoires
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Mathémat
- ique\nEnseignant : Carlier\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Mathématique<br/>Enseignant : Carlier<br/>Type : Laboratoires<br/>
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240912T081202Z
+UID:Cours-157012-9-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241115T071500Z
+DTEND:20241115T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Etude de projet - Arnaud -
+  Laboratoires
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Etude de
+  projet\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Etude de projet<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labor
+ atoires<br/>
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240704T111431Z
-UID:Cours-204319-9-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241114T091500Z
-DTEND:20241114T111500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Mathématique - Carlier - L
- aboratoires
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Mathémat
- ique\nEnseignant : Carlier\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Mathématique<br/>Enseignant : Carlier<br/>Type : Laboratoires<br/>
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240912T081202Z
+UID:Cours-157012-10-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241122T071500Z
+DTEND:20241122T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Etude de projet - Arnaud -
+  Laboratoires
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Etude de
+  projet\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Etude de projet<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labor
+ atoires<br/>
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240704T121232Z
-UID:Cours-204336-6-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241025T061500Z
-DTEND:20241025T101500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Télécom. et réseaux - TP1 
- - Pietrzak - Laboratoires
-LOCATION;LANGUAGE=fr:2/16
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Télécom.
-  et réseaux - TP1\nEnseignant : Pietrzak\nSalle : 2/16\nType : Laboratoire
- s\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Télécom. et réseaux - TP1<br/>Enseignant : Pietrzak<br/>Salle : 2/16<br/>T
- ype : Laboratoires<br/>
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240912T081202Z
+UID:Cours-157012-11-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241129T071500Z
+DTEND:20241129T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Etude de projet - Arnaud -
+  Laboratoires
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Etude de
+  projet\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Etude de projet<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labor
+ atoires<br/>
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240704T121232Z
-UID:Cours-204336-8-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241108T071500Z
-DTEND:20241108T111500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Télécom. et réseaux - TP1 
- - Pietrzak - Laboratoires
-LOCATION;LANGUAGE=fr:2/16
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Télécom.
-  et réseaux - TP1\nEnseignant : Pietrzak\nSalle : 2/16\nType : Laboratoire
- s\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Télécom. et réseaux - TP1<br/>Enseignant : Pietrzak<br/>Salle : 2/16<br/>T
- ype : Laboratoires<br/>
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240903T055742Z
+UID:Cours-158422-12-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241205T081500Z
+DTEND:20241205T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Bases de Program.-TP - Des
+ met - Laboratoires
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Bases de
+  Program.-TP\nEnseignant : Desmet\nSalle : 1/21\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Bases de Program.-TP<br/>Enseignant : Desmet<br/>Salle : 1/21<br/>Type : L
+ aboratoires<br/>
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240912T081054Z
-UID:Cours-204370-6-Groupe_4_BA1P_Informatique-Index-Education
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240904T072952Z
+UID:Cours-158423-5-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241014T113000Z
+DTEND:20241014T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Bases de Program.-TP - Des
+ met - Laboratoires
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Bases de
+  Program.-TP\nEnseignant : Desmet\nSalle : 2/10D\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Bases de Program.-TP<br/>Enseignant : Desmet<br/>Salle : 2/10D<br/>Type : 
+ Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240903T055632Z
+UID:Cours-158752-8-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241104T123000Z
+DTEND:20241104T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Télécom. et réseaux - TP1 
+ - Desmet - Laboratoires
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Télécom.
+  et réseaux - TP1\nEnseignant : Desmet\nSalle : 2/10D\nType : Laboratoires
+ \n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Télécom. et réseaux - TP1<br/>Enseignant : Desmet<br/>Salle : 2/10D<br/>Ty
+ pe : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20230901T085824Z
+UID:Cours-187436-11-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241127T123000Z
+DTEND:20241127T143000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Mathématique - Lebailly - 
+ Laboratoires
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Mathémat
+ ique\nEnseignant : Lebailly\nSalle : 1/29\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Mathématique<br/>Enseignant : Lebailly<br/>Salle : 1/29<br/>Type : Laborat
+ oires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240704T111004Z
+UID:Cours-187437-13-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241212T123000Z
+DTEND:20241212T143000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Mathématique - Lebailly - 
+ Laboratoires
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Mathémat
+ ique\nEnseignant : Lebailly\nSalle : 2/11\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Mathématique<br/>Enseignant : Lebailly<br/>Salle : 2/11<br/>Type : Laborat
+ oires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20230904T125439Z
+UID:Cours-188956-6-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241021T113000Z
+DTEND:20241021T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Télécom. et réseaux - TP1 
+ - Desmet - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Télécom.
+  et réseaux - TP1\nEnseignant : Desmet\nSalle : 2/10F\nType : Laboratoires
+ \n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Télécom. et réseaux - TP1<br/>Enseignant : Desmet<br/>Salle : 2/10F<br/>Ty
+ pe : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240704T110001Z
+UID:Cours-198526-13-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241212T071500Z
+DTEND:20241212T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Bases de Program.-TP - Des
+ met - Laboratoires
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Bases de
+  Program.-TP\nEnseignant : Desmet\nSalle : 2/17A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Bases de Program.-TP<br/>Enseignant : Desmet<br/>Salle : 2/17A<br/>Type : 
+ Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240903T055623Z
+UID:Cours-203903-4-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241007T113000Z
+DTEND:20241007T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Bases de Program.-TP - Des
+ met - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Bases de
+  Program.-TP\nEnseignant : Desmet\nSalle : 2/10F\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Bases de Program.-TP<br/>Enseignant : Desmet<br/>Salle : 2/10F<br/>Type : 
+ Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240903T055647Z
+UID:Cours-203904-3-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20240930T113000Z
+DTEND:20240930T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Bases de Program.-TP - Des
+ met - Laboratoires
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Bases de
+  Program.-TP\nEnseignant : Desmet\nSalle : 2/10D\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Bases de Program.-TP<br/>Enseignant : Desmet<br/>Salle : 2/10D<br/>Type : 
+ Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240903T055713Z
+UID:Cours-203905-5-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241017T061500Z
+DTEND:20241017T101500Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Télécom. et réseaux - TP1 
+ - Desmet - Laboratoires
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Télécom.
+  et réseaux - TP1\nEnseignant : Desmet\nSalle : 1/23\nType : Laboratoires\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Télécom. et réseaux - TP1<br/>Enseignant : Desmet<br/>Salle : 1/23<br/>Typ
+ e : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240626T073148Z
+UID:Cours-203908-5-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241018T113000Z
+DTEND:20241018T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Bases de Program.-TP - Des
+ met - Laboratoires
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Bases de
+  Program.-TP\nEnseignant : Desmet\nSalle : 2/10D\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Bases de Program.-TP<br/>Enseignant : Desmet<br/>Salle : 2/10D<br/>Type : 
+ Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240626T073148Z
+UID:Cours-203908-8-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241108T123000Z
+DTEND:20241108T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Bases de Program.-TP - Lab
+ oratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Bases de
+  Program.-TP\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Bases de Program.-TP<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240626T075125Z
+UID:Cours-203909-12-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241206T071500Z
+DTEND:20241206T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Bases de Program.-TP - Des
+ met - Laboratoires
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Bases de
+  Program.-TP\nEnseignant : Desmet\nSalle : 2/10D\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Bases de Program.-TP<br/>Enseignant : Desmet<br/>Salle : 2/10D<br/>Type : 
+ Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240903T055615Z
+UID:Cours-203910-6-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241022T061500Z
 DTEND:20241022T101500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Télécom. et réseaux - TP1 
- - Pietrzak - Laboratoires
-LOCATION;LANGUAGE=fr:2/13
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Télécom.
-  et réseaux - TP1\nEnseignant : Pietrzak\nSalle : 2/13\nType : Laboratoire
- s\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Télécom. et réseaux - TP1<br/>Enseignant : Pietrzak<br/>Salle : 2/13<br/>T
- ype : Laboratoires<br/>
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Bases de Program.-TP - Des
+ met - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Bases de
+  Program.-TP\nEnseignant : Desmet\nSalle : 2/10F\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Bases de Program.-TP<br/>Enseignant : Desmet<br/>Salle : 2/10F<br/>Type : 
+ Laboratoires<br/>
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240911T061908Z
-UID:Cours-214782-9-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241114T121500Z
-DTEND:20241114T161500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Etude de projet - Arnaud -
-  Laboratoires
-LOCATION;LANGUAGE=fr:2/10C
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Etude de
-  projet\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Etude de projet<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labor
- atoires<br/>
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240904T073120Z
+UID:Cours-203914-11-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241127T071500Z
+DTEND:20241127T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Télécom. et réseaux - TP1 
+ - Desmet - Laboratoires
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Télécom.
+  et réseaux - TP1\nEnseignant : Desmet\nSalle : 2/10D\nType : Laboratoires
+ \n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Télécom. et réseaux - TP1<br/>Enseignant : Desmet<br/>Salle : 2/10D<br/>Ty
+ pe : Laboratoires<br/>
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240911T061908Z
-UID:Cours-214782-10-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241121T121500Z
-DTEND:20241121T161500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Etude de projet - Arnaud -
-  Laboratoires
-LOCATION;LANGUAGE=fr:2/10C
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Etude de
-  projet\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Etude de projet<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labor
- atoires<br/>
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240904T073120Z
+UID:Cours-203914-13-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241211T071500Z
+DTEND:20241211T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Télécom. et réseaux - TP1 
+ - Desmet - Laboratoires
+LOCATION;LANGUAGE=fr:2/17D (LCAO)
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Télécom.
+  et réseaux - TP1\nEnseignant : Desmet\nSalle : 2/17D (LCAO)\nType : Labor
+ atoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Télécom. et réseaux - TP1<br/>Enseignant : Desmet<br/>Salle : 2/17D (LCAO)
+ <br/>Type : Laboratoires<br/>
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240911T061908Z
-UID:Cours-214782-11-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241128T121500Z
-DTEND:20241128T161500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Etude de projet - Arnaud -
-  Laboratoires
-LOCATION;LANGUAGE=fr:2/10C
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Etude de
-  projet\nEnseignant : Arnaud\nSalle : 2/10C\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Etude de projet<br/>Enseignant : Arnaud<br/>Salle : 2/10C<br/>Type : Labor
- atoires<br/>
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240814T064046Z
+UID:Cours-203917-12-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241202T123000Z
+DTEND:20241202T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Télécom. et réseaux - TP1 
+ - Desmet - Laboratoires
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Télécom.
+  et réseaux - TP1\nEnseignant : Desmet\nSalle : 2/10D\nType : Laboratoires
+ \n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Télécom. et réseaux - TP1<br/>Enseignant : Desmet<br/>Salle : 2/10D<br/>Ty
+ pe : Laboratoires<br/>
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240911T061908Z
-UID:Cours-214782-12-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241205T121500Z
-DTEND:20241205T161500Z
-SUMMARY;LANGUAGE=fr:Groupe 4 BA1P Informatique - Etude de projet - Arnaud -
-  Laboratoires
-LOCATION;LANGUAGE=fr:2/17B
-DESCRIPTION;LANGUAGE=fr:TD : Groupe 4 BA1P Informatique\nMatière : Etude de
-  projet\nEnseignant : Arnaud\nSalle : 2/17B\nType : Laboratoires\n
-X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 4 BA1P Informatique<br/>Matière : 
- Etude de projet<br/>Enseignant : Arnaud<br/>Salle : 2/17B<br/>Type : Labor
- atoires<br/>
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240903T055728Z
+UID:Cours-203919-9-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241114T071500Z
+DTEND:20241114T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Bases de Program.-TP - Des
+ met - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Bases de
+  Program.-TP\nEnseignant : Desmet\nSalle : 2/10F\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Bases de Program.-TP<br/>Enseignant : Desmet<br/>Salle : 2/10F<br/>Type : 
+ Laboratoires<br/>
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240924T082506Z
+UID:Cours-204139-8-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241105T123000Z
+DTEND:20241105T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Techniques numeriques-TP -
+  Quevy - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Techniqu
+ es numeriques-TP\nEnseignant : Quevy\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Techniques numeriques-TP<br/>Enseignant : Quevy<br/>Salle : 1/10B<br/>Type
+  : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240924T082506Z
+UID:Cours-204139-9-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241112T123000Z
+DTEND:20241112T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Techniques numeriques-TP -
+  Quevy - Laboratoires
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Techniqu
+ es numeriques-TP\nEnseignant : Quevy\nSalle : 1/28\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Techniques numeriques-TP<br/>Enseignant : Quevy<br/>Salle : 1/28<br/>Type 
+ : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240924T082506Z
+UID:Cours-204139-10-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241119T123000Z
+DTEND:20241119T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Techniques numeriques-TP -
+  Quevy - Laboratoires
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Techniqu
+ es numeriques-TP\nEnseignant : Quevy\nSalle : 1/28\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Techniques numeriques-TP<br/>Enseignant : Quevy<br/>Salle : 1/28<br/>Type 
+ : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240924T082333Z
+UID:Cours-204140-1-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20240917T113000Z
+DTEND:20240917T143000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Techniques numeriques-TP -
+  Quevy - Laboratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Techniqu
+ es numeriques-TP\nEnseignant : Quevy\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Techniques numeriques-TP<br/>Enseignant : Quevy<br/>Type : Laboratoires<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240924T082333Z
+UID:Cours-204140-2-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20240924T113000Z
+DTEND:20240924T143000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Techniques numeriques-TP -
+  Quevy - Laboratoires
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Techniqu
+ es numeriques-TP\nEnseignant : Quevy\nSalle : 1/28\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Techniques numeriques-TP<br/>Enseignant : Quevy<br/>Salle : 1/28<br/>Type 
+ : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240924T082333Z
+UID:Cours-204140-3-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241001T113000Z
+DTEND:20241001T143000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Techniques numeriques-TP -
+  Quevy - Laboratoires
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Techniqu
+ es numeriques-TP\nEnseignant : Quevy\nSalle : 2/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Techniques numeriques-TP<br/>Enseignant : Quevy<br/>Salle : 2/10B<br/>Type
+  : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240924T082333Z
+UID:Cours-204140-4-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241008T113000Z
+DTEND:20241008T143000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Techniques numeriques-TP -
+  Quevy - Laboratoires
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Techniqu
+ es numeriques-TP\nEnseignant : Quevy\nSalle : 1/27\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Techniques numeriques-TP<br/>Enseignant : Quevy<br/>Salle : 1/27<br/>Type 
+ : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240924T082333Z
+UID:Cours-204140-5-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241015T113000Z
+DTEND:20241015T143000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Techniques numeriques-TP -
+  Quevy - Laboratoires
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Techniqu
+ es numeriques-TP\nEnseignant : Quevy\nSalle : 2/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Techniques numeriques-TP<br/>Enseignant : Quevy<br/>Salle : 2/10B<br/>Type
+  : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240924T082333Z
+UID:Cours-204140-6-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241022T113000Z
+DTEND:20241022T143000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Techniques numeriques-TP -
+  Quevy - Laboratoires
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Techniqu
+ es numeriques-TP\nEnseignant : Quevy\nSalle : 1/21\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Techniques numeriques-TP<br/>Enseignant : Quevy<br/>Salle : 1/21<br/>Type 
+ : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240704T085117Z
+UID:Cours-204168-12-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241205T123000Z
+DTEND:20241205T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Techniques numeriques-TP -
+  Quevy - Laboratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Techniqu
+ es numeriques-TP\nEnseignant : Quevy\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Techniques numeriques-TP<br/>Enseignant : Quevy<br/>Type : Laboratoires<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240704T085128Z
+UID:Cours-204169-13-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241213T123000Z
+DTEND:20241213T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Techniques numeriques-TP -
+  Quevy - Laboratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Techniqu
+ es numeriques-TP\nEnseignant : Quevy\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Techniques numeriques-TP<br/>Enseignant : Quevy<br/>Type : Laboratoires<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240704T110048Z
+UID:Cours-204301-10-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241121T123000Z
+DTEND:20241121T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Bases de Program.-TP - Des
+ met - Laboratoires
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Bases de
+  Program.-TP\nEnseignant : Desmet\nSalle : 2/10D\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Bases de Program.-TP<br/>Enseignant : Desmet<br/>Salle : 2/10D<br/>Type : 
+ Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240704T110048Z
+UID:Cours-204301-11-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241128T123000Z
+DTEND:20241128T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Bases de Program.-TP - Des
+ met - Laboratoires
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Bases de
+  Program.-TP\nEnseignant : Desmet\nSalle : 2/10D\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Bases de Program.-TP<br/>Enseignant : Desmet<br/>Salle : 2/10D<br/>Type : 
+ Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240704T110111Z
+UID:Cours-204303-8-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241107T123000Z
+DTEND:20241107T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Bases de Program.-TP - Des
+ met - Laboratoires
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Bases de
+  Program.-TP\nEnseignant : Desmet\nSalle : 2/10D\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Bases de Program.-TP<br/>Enseignant : Desmet<br/>Salle : 2/10D<br/>Type : 
+ Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240913T114146Z
+UID:Cours-204310-6-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241023T113000Z
+DTEND:20241023T133000Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Mathématique - Lebailly - 
+ Laboratoires
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Mathémat
+ ique\nEnseignant : Lebailly\nSalle : 2/11\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Mathématique<br/>Enseignant : Lebailly<br/>Salle : 2/11<br/>Type : Laborat
+ oires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240904T073037Z
+UID:Cours-204328-10-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241121T071500Z
+DTEND:20241121T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 3 BA1P Informatique - Télécom. et réseaux - TP1 
+ - Desmet - Laboratoires
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 3 BA1P Informatique\nMatière : Télécom.
+  et réseaux - TP1\nEnseignant : Desmet\nSalle : 2/16\nType : Laboratoires\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 3 BA1P Informatique<br/>Matière : 
+ Télécom. et réseaux - TP1<br/>Enseignant : Desmet<br/>Salle : 2/16<br/>Typ
+ e : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240619T095336Z
-UID:Cours-155441-4-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-155441-4-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241011T061500Z
 DTEND:20241011T163000Z
 SUMMARY;LANGUAGE=fr:Team Building - Depreter\, Desmet\, Malaise\, Mandoux\,
@@ -758,9 +779,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Team Building<br/>Enseignants : Depr
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084107Z
-UID:Cours-156346-2-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156346-2-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240925T083000Z
 DTEND:20240925T103000Z
 SUMMARY;LANGUAGE=fr:Internet of Everything - Roland - Cours
@@ -772,9 +793,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Internet of Everything<br/>Enseignan
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084107Z
-UID:Cours-156346-3-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156346-3-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241002T083000Z
 DTEND:20241002T103000Z
 SUMMARY;LANGUAGE=fr:Internet of Everything - Roland - Cours
@@ -786,9 +807,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Internet of Everything<br/>Enseignan
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084107Z
-UID:Cours-156346-4-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156346-4-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241009T083000Z
 DTEND:20241009T103000Z
 SUMMARY;LANGUAGE=fr:Internet of Everything - Roland - Cours
@@ -800,9 +821,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Internet of Everything<br/>Enseignan
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084107Z
-UID:Cours-156346-5-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156346-5-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241016T083000Z
 DTEND:20241016T103000Z
 SUMMARY;LANGUAGE=fr:Internet of Everything - Roland - Cours
@@ -814,9 +835,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Internet of Everything<br/>Enseignan
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084107Z
-UID:Cours-156346-9-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156346-9-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241113T093000Z
 DTEND:20241113T113000Z
 SUMMARY;LANGUAGE=fr:Internet of Everything - Roland - Cours
@@ -828,9 +849,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Internet of Everything<br/>Enseignan
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084107Z
-UID:Cours-156346-12-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156346-12-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241204T093000Z
 DTEND:20241204T113000Z
 SUMMARY;LANGUAGE=fr:Internet of Everything - Roland - Cours
@@ -842,9 +863,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Internet of Everything<br/>Enseignan
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240912T081334Z
-UID:Cours-156349-1-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156349-1-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240916T083000Z
 DTEND:20240916T103000Z
 SUMMARY;LANGUAGE=fr:Mathématique - Lebailly - Cours
@@ -856,9 +877,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique<br/>Enseignant : Lebail
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240912T081334Z
-UID:Cours-156349-2-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156349-2-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240923T083000Z
 DTEND:20240923T103000Z
 SUMMARY;LANGUAGE=fr:Mathématique - Lebailly - Cours
@@ -870,9 +891,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique<br/>Enseignant : Lebail
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240912T081334Z
-UID:Cours-156349-3-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156349-3-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240930T083000Z
 DTEND:20240930T103000Z
 SUMMARY;LANGUAGE=fr:Mathématique - Lebailly - Cours
@@ -884,9 +905,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique<br/>Enseignant : Lebail
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240912T081334Z
-UID:Cours-156349-4-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156349-4-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241007T083000Z
 DTEND:20241007T103000Z
 SUMMARY;LANGUAGE=fr:Mathématique - Lebailly - Cours
@@ -898,9 +919,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique<br/>Enseignant : Lebail
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240912T081334Z
-UID:Cours-156349-5-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156349-5-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241014T083000Z
 DTEND:20241014T103000Z
 SUMMARY;LANGUAGE=fr:Mathématique - Lebailly - Cours
@@ -912,9 +933,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique<br/>Enseignant : Lebail
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240912T081334Z
-UID:Cours-156349-6-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156349-6-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241021T083000Z
 DTEND:20241021T103000Z
 SUMMARY;LANGUAGE=fr:Mathématique - Lebailly - Cours
@@ -926,9 +947,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique<br/>Enseignant : Lebail
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240912T081334Z
-UID:Cours-156349-8-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156349-8-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241104T093000Z
 DTEND:20241104T113000Z
 SUMMARY;LANGUAGE=fr:Mathématique - Lebailly - Cours
@@ -940,9 +961,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique<br/>Enseignant : Lebail
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240912T081334Z
-UID:Cours-156349-10-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156349-10-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241118T093000Z
 DTEND:20241118T113000Z
 SUMMARY;LANGUAGE=fr:Mathématique - Lebailly - Cours
@@ -954,9 +975,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique<br/>Enseignant : Lebail
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240912T081334Z
-UID:Cours-156349-11-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156349-11-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241125T093000Z
 DTEND:20241125T113000Z
 SUMMARY;LANGUAGE=fr:Mathématique - Lebailly - Cours
@@ -968,9 +989,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique<br/>Enseignant : Lebail
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240912T081334Z
-UID:Cours-156349-12-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156349-12-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241202T093000Z
 DTEND:20241202T113000Z
 SUMMARY;LANGUAGE=fr:Mathématique - Lebailly - Cours
@@ -982,9 +1003,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique<br/>Enseignant : Lebail
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240627T055106Z
-UID:Cours-156359-10-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156359-10-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241120T071500Z
 DTEND:20241120T091500Z
 SUMMARY;LANGUAGE=fr:Bases de program.-théorie - Desmet - Cours
@@ -996,9 +1017,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de program.-théorie<br/>Enseig
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20220706T113503Z
-UID:Cours-156410-1-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156410-1-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240919T083000Z
 DTEND:20240919T103000Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1010,9 +1031,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20220706T113503Z
-UID:Cours-156410-2-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156410-2-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240926T083000Z
 DTEND:20240926T103000Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1024,9 +1045,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240705T094251Z
-UID:Cours-156416-8-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156416-8-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241106T093000Z
 DTEND:20241106T113000Z
 SUMMARY;LANGUAGE=fr:Archit. des ordinateurs-Th. - Malaise - Cours
@@ -1038,9 +1059,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Archit. des ordinateurs-Th.<br/>Ense
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240704T081925Z
-UID:Cours-156417-1-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156417-1-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240920T113000Z
 DTEND:20240920T133000Z
 SUMMARY;LANGUAGE=fr:Archit. des ordinateurs-Th. - Malaise - Cours
@@ -1052,9 +1073,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Archit. des ordinateurs-Th.<br/>Ense
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240705T081352Z
-UID:Cours-156425-8-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156425-8-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241106T071500Z
 DTEND:20241106T091500Z
 SUMMARY;LANGUAGE=fr:Bases de program.-théorie - Depreter - Cours
@@ -1066,9 +1087,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de program.-théorie<br/>Enseig
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240903T054254Z
-UID:Cours-156427-3-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156427-3-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241001T061500Z
 DTEND:20241001T081500Z
 SUMMARY;LANGUAGE=fr:Bases de program.-théorie - Desmet - Cours
@@ -1080,9 +1101,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de program.-théorie<br/>Enseig
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240905T125651Z
-UID:Cours-156445-14-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-156445-14-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241216T081500Z
 DTEND:20241216T091500Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1094,9 +1115,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20230829T072433Z
-UID:Cours-165247-3-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-165247-3-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241004T113000Z
 DTEND:20241004T133000Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1108,9 +1129,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084218Z
-UID:Cours-182238-1-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-182238-1-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240917T061500Z
 DTEND:20240917T081500Z
 SUMMARY;LANGUAGE=fr:Bases de program.-théorie - Desmet - Cours
@@ -1122,9 +1143,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de program.-théorie<br/>Enseig
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084218Z
-UID:Cours-182238-2-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-182238-2-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240924T061500Z
 DTEND:20240924T081500Z
 SUMMARY;LANGUAGE=fr:Bases de program.-théorie - Desmet - Cours
@@ -1136,9 +1157,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de program.-théorie<br/>Enseig
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084218Z
-UID:Cours-182238-4-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-182238-4-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241008T061500Z
 DTEND:20241008T081500Z
 SUMMARY;LANGUAGE=fr:Bases de program.-théorie - Desmet - Cours
@@ -1150,9 +1171,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de program.-théorie<br/>Enseig
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084218Z
-UID:Cours-182238-5-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-182238-5-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241015T061500Z
 DTEND:20241015T081500Z
 SUMMARY;LANGUAGE=fr:Bases de program.-théorie - Desmet - Cours
@@ -1164,9 +1185,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de program.-théorie<br/>Enseig
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084218Z
-UID:Cours-182238-9-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-182238-9-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241112T071500Z
 DTEND:20241112T091500Z
 SUMMARY;LANGUAGE=fr:Bases de program.-théorie - Desmet - Cours
@@ -1178,9 +1199,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de program.-théorie<br/>Enseig
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084218Z
-UID:Cours-182238-10-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-182238-10-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241119T071500Z
 DTEND:20241119T091500Z
 SUMMARY;LANGUAGE=fr:Bases de program.-théorie - Desmet - Cours
@@ -1192,9 +1213,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de program.-théorie<br/>Enseig
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084218Z
-UID:Cours-182238-11-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-182238-11-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241126T071500Z
 DTEND:20241126T091500Z
 SUMMARY;LANGUAGE=fr:Bases de program.-théorie - Desmet - Cours
@@ -1206,9 +1227,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de program.-théorie<br/>Enseig
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084218Z
-UID:Cours-182238-12-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-182238-12-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241203T071500Z
 DTEND:20241203T091500Z
 SUMMARY;LANGUAGE=fr:Bases de program.-théorie - Desmet - Cours
@@ -1220,9 +1241,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de program.-théorie<br/>Enseig
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T083834Z
-UID:Cours-204074-1-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-204074-1-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240918T083000Z
 DTEND:20240918T103000Z
 SUMMARY;LANGUAGE=fr:Internet of Everything - Roland - Cours
@@ -1234,9 +1255,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Internet of Everything<br/>Enseignan
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240704T082318Z
-UID:Cours-204075-1-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-204075-1-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240916T061500Z
 DTEND:20240916T081500Z
 SUMMARY;LANGUAGE=fr:Archit. des ordinateurs-Th. - Malaise - Cours
@@ -1248,9 +1269,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Archit. des ordinateurs-Th.<br/>Ense
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240704T082318Z
-UID:Cours-204075-2-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-204075-2-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240923T061500Z
 DTEND:20240923T081500Z
 SUMMARY;LANGUAGE=fr:Archit. des ordinateurs-Th. - Malaise - Cours
@@ -1262,9 +1283,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Archit. des ordinateurs-Th.<br/>Ense
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240704T082318Z
-UID:Cours-204075-3-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-204075-3-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240930T061500Z
 DTEND:20240930T081500Z
 SUMMARY;LANGUAGE=fr:Archit. des ordinateurs-Th. - Malaise - Cours
@@ -1276,9 +1297,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Archit. des ordinateurs-Th.<br/>Ense
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240704T082318Z
-UID:Cours-204075-4-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-204075-4-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241007T061500Z
 DTEND:20241007T081500Z
 SUMMARY;LANGUAGE=fr:Archit. des ordinateurs-Th. - Malaise - Cours
@@ -1290,9 +1311,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Archit. des ordinateurs-Th.<br/>Ense
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240704T082318Z
-UID:Cours-204075-5-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-204075-5-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241014T061500Z
 DTEND:20241014T081500Z
 SUMMARY;LANGUAGE=fr:Archit. des ordinateurs-Th. - Malaise - Cours
@@ -1304,9 +1325,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Archit. des ordinateurs-Th.<br/>Ense
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240704T082318Z
-UID:Cours-204075-6-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-204075-6-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241021T061500Z
 DTEND:20241021T081500Z
 SUMMARY;LANGUAGE=fr:Archit. des ordinateurs-Th. - Malaise - Cours
@@ -1318,9 +1339,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Archit. des ordinateurs-Th.<br/>Ense
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240704T082318Z
-UID:Cours-204075-10-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-204075-10-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241118T071500Z
 DTEND:20241118T091500Z
 SUMMARY;LANGUAGE=fr:Archit. des ordinateurs-Th. - Malaise - Cours
@@ -1332,9 +1353,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Archit. des ordinateurs-Th.<br/>Ense
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240704T082318Z
-UID:Cours-204075-11-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-204075-11-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241125T071500Z
 DTEND:20241125T091500Z
 SUMMARY;LANGUAGE=fr:Archit. des ordinateurs-Th. - Malaise - Cours
@@ -1346,9 +1367,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Archit. des ordinateurs-Th.<br/>Ense
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240704T082318Z
-UID:Cours-204075-12-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-204075-12-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241202T071500Z
 DTEND:20241202T091500Z
 SUMMARY;LANGUAGE=fr:Archit. des ordinateurs-Th. - Malaise - Cours
@@ -1360,9 +1381,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Archit. des ordinateurs-Th.<br/>Ense
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240704T082318Z
-UID:Cours-204075-13-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-204075-13-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241209T071500Z
 DTEND:20241209T091500Z
 SUMMARY;LANGUAGE=fr:Archit. des ordinateurs-Th. - Malaise - Cours
@@ -1374,9 +1395,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Archit. des ordinateurs-Th.<br/>Ense
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240905T125651Z
-UID:Cours-204076-14-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-204076-14-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241216T093000Z
 DTEND:20241216T113000Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1388,9 +1409,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240904T084324Z
-UID:Cours-204320-9-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-204320-9-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241115T123000Z
 DTEND:20241115T143000Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1402,9 +1423,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240904T084324Z
-UID:Cours-204320-12-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-204320-12-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241206T123000Z
 DTEND:20241206T143000Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1416,9 +1437,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240704T113938Z
-UID:Cours-204323-1-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-204323-1-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240916T113000Z
 DTEND:20240916T133000Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1430,9 +1451,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240705T081352Z
-UID:Cours-204714-1-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-204714-1-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240919T061500Z
 DTEND:20240919T081500Z
 SUMMARY;LANGUAGE=fr:Bases de program.-théorie - Desmet - Cours
@@ -1444,9 +1465,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de program.-théorie<br/>Enseig
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T085030Z
-UID:Cours-211815-1-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-211815-1-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240918T061500Z
 DTEND:20240918T081500Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1458,9 +1479,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T085030Z
-UID:Cours-211815-2-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-211815-2-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240925T061500Z
 DTEND:20240925T081500Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1472,9 +1493,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T085030Z
-UID:Cours-211815-3-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-211815-3-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241002T061500Z
 DTEND:20241002T081500Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1486,9 +1507,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T085030Z
-UID:Cours-211815-4-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-211815-4-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241009T061500Z
 DTEND:20241009T081500Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1500,9 +1521,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T085030Z
-UID:Cours-211815-5-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-211815-5-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241016T061500Z
 DTEND:20241016T081500Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1514,9 +1535,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T085030Z
-UID:Cours-211815-6-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-211815-6-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241023T061500Z
 DTEND:20241023T081500Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1528,9 +1549,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T085030Z
-UID:Cours-211815-9-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-211815-9-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241113T071500Z
 DTEND:20241113T091500Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1542,9 +1563,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T085030Z
-UID:Cours-211815-12-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-211815-12-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241204T071500Z
 DTEND:20241204T091500Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1556,9 +1577,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T085030Z
-UID:Cours-211815-14-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-211815-14-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241218T071500Z
 DTEND:20241218T091500Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1570,9 +1591,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240903T060100Z
-UID:Cours-211826-2-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-211826-2-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240926T061500Z
 DTEND:20240926T081500Z
 SUMMARY;LANGUAGE=fr:Bases de program.-théorie - Desmet - Cours
@@ -1584,10 +1605,10 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de program.-théorie<br/>Enseig
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-LAST-MODIFIED:20240909T085019Z
-UID:Cours-214396-14-Groupe_4_BA1P_Informatique-Index-Education
-DTSTART:20241217T071500Z
+DTSTAMP:20240924T145707Z
+LAST-MODIFIED:20240923T065531Z
+UID:Cours-214396-14-Groupe_3_BA1P_Informatique-Index-Education
+DTSTART:20241217T093000Z
 DTEND:20241217T113000Z
 SUMMARY;LANGUAGE=fr:Electricité - théorie - Roland - Cours
 LOCATION;LANGUAGE=fr:2/09A
@@ -1598,9 +1619,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité - théorie<br/>Enseignant
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084329Z
-UID:Cours-214643-10-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-214643-10-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241120T093000Z
 DTEND:20241120T113000Z
 SUMMARY;LANGUAGE=fr:Internet of Everything - Roland - Cours
@@ -1612,9 +1633,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Internet of Everything<br/>Enseignan
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084529Z
-UID:Cours-214644-3-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-214644-3-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241004T133000Z
 DTEND:20241004T153000Z
 SUMMARY;LANGUAGE=fr:Internet of Everything - Roland - Cours
@@ -1626,9 +1647,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Internet of Everything<br/>Enseignan
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084529Z
-UID:Cours-214644-9-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-214644-9-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241115T143000Z
 DTEND:20241115T163000Z
 SUMMARY;LANGUAGE=fr:Internet of Everything - Roland - Cours
@@ -1640,9 +1661,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Internet of Everything<br/>Enseignan
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084529Z
-UID:Cours-214644-12-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-214644-12-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241206T143000Z
 DTEND:20241206T163000Z
 SUMMARY;LANGUAGE=fr:Internet of Everything - Roland - Cours
@@ -1654,9 +1675,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Internet of Everything<br/>Enseignan
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084822Z
-UID:Cours-214649-1-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-214649-1-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240920T133000Z
 DTEND:20240920T153000Z
 SUMMARY;LANGUAGE=fr:Electricité - théorie - Roland - Cours
@@ -1668,9 +1689,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité - théorie<br/>Enseignant
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084917Z
-UID:Cours-214650-12-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-214650-12-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241203T093000Z
 DTEND:20241203T113000Z
 SUMMARY;LANGUAGE=fr:Electricité - théorie - Roland - Cours
@@ -1682,9 +1703,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité - théorie<br/>Enseignant
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084938Z
-UID:Cours-214651-2-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-214651-2-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240924T083000Z
 DTEND:20240924T103000Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1696,9 +1717,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084938Z
-UID:Cours-214651-3-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-214651-3-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241001T083000Z
 DTEND:20241001T103000Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1710,9 +1731,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T084938Z
-UID:Cours-214651-11-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-214651-11-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241126T093000Z
 DTEND:20241126T113000Z
 SUMMARY;LANGUAGE=fr:Télécom. et réseaux -théo1 - Petein - Cours
@@ -1724,9 +1745,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux -théo1<br/>Ensei
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240920T092811Z
-UID:Cours-214654-1-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-214654-1-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20240917T083000Z
 DTEND:20240917T103000Z
 SUMMARY;LANGUAGE=fr:Electricité - théorie - Roland - Cours
@@ -1738,9 +1759,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité - théorie<br/>Enseignant
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240920T092811Z
-UID:Cours-214654-4-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-214654-4-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241008T083000Z
 DTEND:20241008T103000Z
 SUMMARY;LANGUAGE=fr:Electricité - théorie - Roland - Cours
@@ -1752,9 +1773,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité - théorie<br/>Enseignant
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240920T092811Z
-UID:Cours-214654-5-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-214654-5-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241015T083000Z
 DTEND:20241015T103000Z
 SUMMARY;LANGUAGE=fr:Electricité - théorie - Roland - Cours
@@ -1766,9 +1787,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité - théorie<br/>Enseignant
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240920T092811Z
-UID:Cours-214654-9-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-214654-9-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241112T093000Z
 DTEND:20241112T113000Z
 SUMMARY;LANGUAGE=fr:Electricité - théorie - Roland - Cours
@@ -1780,9 +1801,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité - théorie<br/>Enseignant
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240920T092811Z
-UID:Cours-214654-10-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-214654-10-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241119T093000Z
 DTEND:20241119T113000Z
 SUMMARY;LANGUAGE=fr:Electricité - théorie - Roland - Cours
@@ -1794,9 +1815,9 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité - théorie<br/>Enseignant
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
+DTSTAMP:20240924T145707Z
 LAST-MODIFIED:20240909T085036Z
-UID:Cours-214655-13-Groupe_4_BA1P_Informatique-Index-Education
+UID:Cours-214655-13-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART:20241210T071500Z
 DTEND:20241210T113000Z
 SUMMARY;LANGUAGE=fr:Electricité - théorie - Roland - Cours
@@ -1808,24 +1829,24 @@ X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité - théorie<br/>Enseignant
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-UID:Ferie-939-Groupe_4_BA1P_Informatique-Index-Education
+DTSTAMP:20240924T145707Z
+UID:Ferie-939-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART;VALUE=DATE:20240927
 DTEND;VALUE=DATE:20240928
 SUMMARY;LANGUAGE=fr:Férié
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-UID:Ferie-940-Groupe_4_BA1P_Informatique-Index-Education
+DTSTAMP:20240924T145707Z
+UID:Ferie-940-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART;VALUE=DATE:20241028
 DTEND;VALUE=DATE:20241104
 SUMMARY;LANGUAGE=fr:Vacances
 END:VEVENT
 BEGIN:VEVENT
 CATEGORIES:HYPERPLANNING
-DTSTAMP:20240921T222528Z
-UID:Ferie-941-Groupe_4_BA1P_Informatique-Index-Education
+DTSTAMP:20240924T145707Z
+UID:Ferie-941-Groupe_3_BA1P_Informatique-Index-Education
 DTSTART;VALUE=DATE:20241111
 DTEND;VALUE=DATE:20241112
 SUMMARY;LANGUAGE=fr:Férié

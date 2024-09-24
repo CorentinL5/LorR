@@ -1,0 +1,1878 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
+METHOD:PUBLISH
+X-CALSTART:20240916T000000Z
+X-CALEND:20241221T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - TTNA2 - BA2P Electronique - du 16 septembre 
+ au 21 décembre 2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de TTNA2 - BA2P Electronique génér
+ é par le logiciel HP (©INDEX ÉDUCATION) le 24 sept. 2024 - Haute Ecole en 
+ Hainaut - valable sur la période du 16 septembre au 21 décembre 2024 - Sem
+ aines : semaine 38 - 51
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T071515Z
+UID:Cours-157014-14-BA2P_Electronique-Index-Education
+DTSTART:20241218T073000Z
+DTEND:20241218T113000Z
+SUMMARY;LANGUAGE=fr:Gestion de projets - Arnaud\, Michiels\, Taira - Labora
+ toires
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion de projets\nEnseignants : Arnaud\
+ , Michiels\, Taira\nSalle : 2/10C\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion de projets<br/>Enseignants :
+  Arnaud\, Michiels\, Taira<br/>Salle : 2/10C<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T071515Z
+UID:Cours-157016-14-BA2P_Electronique-Index-Education
+DTSTART:20241217T073000Z
+DTEND:20241217T113000Z
+SUMMARY;LANGUAGE=fr:Gestion de projets - Arnaud\, Michiels\, Taira - Labora
+ toires
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion de projets\nEnseignants : Arnaud\
+ , Michiels\, Taira\nSalle : 2/10C\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion de projets<br/>Enseignants :
+  Arnaud\, Michiels\, Taira<br/>Salle : 2/10C<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T071515Z
+UID:Cours-157018-14-BA2P_Electronique-Index-Education
+DTSTART:20241216T073000Z
+DTEND:20241216T113000Z
+SUMMARY;LANGUAGE=fr:Gestion de projets - Arnaud\, Michiels\, Taira - Labora
+ toires
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion de projets\nEnseignants : Arnaud\
+ , Michiels\, Taira\nSalle : 2/10C\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion de projets<br/>Enseignants :
+  Arnaud\, Michiels\, Taira<br/>Salle : 2/10C<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T071515Z
+UID:Cours-157020-14-BA2P_Electronique-Index-Education
+DTSTART:20241216T123000Z
+DTEND:20241216T163000Z
+SUMMARY;LANGUAGE=fr:Gestion de projets - Arnaud\, Michiels\, Taira - Labora
+ toires
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion de projets\nEnseignants : Arnaud\
+ , Michiels\, Taira\nSalle : 2/10C\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion de projets<br/>Enseignants :
+  Arnaud\, Michiels\, Taira<br/>Salle : 2/10C<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T071205Z
+UID:Cours-157024-11-BA2P_Electronique-Index-Education
+DTSTART:20241128T123000Z
+DTEND:20241128T154500Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240814T053855Z
+UID:Cours-157030-2-BA2P_Electronique-Index-Education
+DTSTART:20240924T061500Z
+DTEND:20240924T081500Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Isidoro\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Isidoro<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240902T080732Z
+UID:Cours-157032-2-BA2P_Electronique-Index-Education
+DTSTART:20240924T113000Z
+DTEND:20240924T133000Z
+SUMMARY;LANGUAGE=fr:Electro. de puissance - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. de puissance\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. de puissance<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230831T135614Z
+UID:Cours-157045-4-BA2P_Electronique-Index-Education
+DTSTART:20241009T113000Z
+DTEND:20241009T133000Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Isidoro\nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Isidoro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240624T092647Z
+UID:Cours-157046-9-BA2P_Electronique-Index-Education
+DTSTART:20241114T123000Z
+DTEND:20241114T163000Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - 24-25 Formation M Basset.
+  - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nMémo : 24-25 Formation M Basset.\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Mémo : 24-25 Formation M Basset.<br/>Type : C
+ ours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240814T053820Z
+UID:Cours-157050-2-BA2P_Electronique-Index-Education
+DTSTART:20240925T113000Z
+DTEND:20240925T133000Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Isidoro\nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Isidoro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240822T073101Z
+UID:Cours-158019-2-BA2P_Electronique-Index-Education
+DTSTART:20240926T113000Z
+DTEND:20240926T133000Z
+SUMMARY;LANGUAGE=fr:Microcontrôleurs 1 - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Microcontrôleurs 1\nEnseignant : Paulet\n
+ Salle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Microcontrôleurs 1<br/>Enseignant : 
+ Paulet<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230829T073222Z
+UID:Cours-158020-1-BA2P_Electronique-Index-Education
+DTSTART:20240919T113000Z
+DTEND:20240919T133000Z
+SUMMARY;LANGUAGE=fr:Microcontrôleurs 1 - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Microcontrôleurs 1\nEnseignant : Paulet\n
+ Salle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Microcontrôleurs 1<br/>Enseignant : 
+ Paulet<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T065905Z
+UID:Cours-158582-1-BA2P_Electronique-Index-Education
+DTSTART:20240919T061500Z
+DTEND:20240919T081500Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T065905Z
+UID:Cours-158582-2-BA2P_Electronique-Index-Education
+DTSTART:20240926T061500Z
+DTEND:20240926T081500Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T065905Z
+UID:Cours-158582-3-BA2P_Electronique-Index-Education
+DTSTART:20241003T061500Z
+DTEND:20241003T081500Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T065905Z
+UID:Cours-158582-4-BA2P_Electronique-Index-Education
+DTSTART:20241010T061500Z
+DTEND:20241010T081500Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T065905Z
+UID:Cours-158582-5-BA2P_Electronique-Index-Education
+DTSTART:20241017T061500Z
+DTEND:20241017T081500Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T065905Z
+UID:Cours-158582-11-BA2P_Electronique-Index-Education
+DTSTART:20241128T071500Z
+DTEND:20241128T091500Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240822T083435Z
+UID:Cours-158826-6-BA2P_Electronique-Index-Education
+DTSTART:20241022T113000Z
+DTEND:20241022T143000Z
+SUMMARY;LANGUAGE=fr:Exercices de Microcontroleurs1 - Paulet - Exercices
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Exercices de Microcontroleurs1\nEnseignan
+ t : Paulet\nSalle : 2/17A\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Exercices de Microcontroleurs1<br/>E
+ nseignant : Paulet<br/>Salle : 2/17A<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240711T055207Z
+UID:Cours-158827-4-BA2P_Electronique-Index-Education
+DTSTART:20241007T113000Z
+DTEND:20241007T143000Z
+SUMMARY;LANGUAGE=fr:Exercices de Microcontroleurs1 - Paulet - Exercices
+DESCRIPTION;LANGUAGE=fr:Matière : Exercices de Microcontroleurs1\nEnseignan
+ t : Paulet\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Exercices de Microcontroleurs1<br/>E
+ nseignant : Paulet<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T110838Z
+UID:Cours-158830-11-BA2P_Electronique-Index-Education
+DTSTART:20241127T123000Z
+DTEND:20241127T163000Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Taira - Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Taira<br/>Salle : 2/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240821T081838Z
+UID:Cours-159171-2-BA2P_Electronique-Index-Education
+DTSTART:20240926T083000Z
+DTEND:20240926T103000Z
+SUMMARY;LANGUAGE=fr:Compléments de math 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Compléments de math 1\nEnseignant : Carli
+ er\nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Compléments de math 1<br/>Enseignant
+  : Carlier<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230831T122139Z
+UID:Cours-159172-1-BA2P_Electronique-Index-Education
+DTSTART:20240919T083000Z
+DTEND:20240919T103000Z
+SUMMARY;LANGUAGE=fr:Compléments de math 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Compléments de math 1\nEnseignant : Carli
+ er\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Compléments de math 1<br/>Enseignant
+  : Carlier<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240624T092643Z
+UID:Cours-162695-9-BA2P_Electronique-Index-Education
+DTSTART:20241115T071500Z
+DTEND:20241115T113000Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - 24-25 Formation M Basset 
+ - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nMémo : 24-25 Formation M Basset\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Mémo : 24-25 Formation M Basset<br/>Type : Co
+ urs<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T071107Z
+UID:Cours-163774-13-BA2P_Electronique-Index-Education
+DTSTART:20241211T123000Z
+DTEND:20241211T153000Z
+SUMMARY;LANGUAGE=fr:Exercices de Microcontroleurs1 - Paulet - Exercices
+DESCRIPTION;LANGUAGE=fr:Matière : Exercices de Microcontroleurs1\nEnseignan
+ t : Paulet\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Exercices de Microcontroleurs1<br/>E
+ nseignant : Paulet<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20231019T075448Z
+UID:Cours-164701-10-BA2P_Electronique-Index-Education
+DTSTART:20241121T093000Z
+DTEND:20241121T113000Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Isidoro\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Isidoro<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T071113Z
+UID:Cours-164728-10-BA2P_Electronique-Index-Education
+DTSTART:20241122T123000Z
+DTEND:20241122T164500Z
+SUMMARY;LANGUAGE=fr:Gestion de projets - Lenaerts\, Naizy\, Pietrzak
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion de projets\nEnseignants : Lenaert
+ s\, Naizy\, Pietrzak\nSalle : 2/17A\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion de projets<br/>Enseignants :
+  Lenaerts\, Naizy\, Pietrzak<br/>Salle : 2/17A<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240814T063309Z
+UID:Cours-168217-10-BA2P_Electronique-Index-Education
+DTSTART:20241118T123000Z
+DTEND:20241118T153000Z
+SUMMARY;LANGUAGE=fr:Exercices de Microcontroleurs1 - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Exercices de Microcontroleurs1\nEnseignan
+ t : Paulet\nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Exercices de Microcontroleurs1<br/>E
+ nseignant : Paulet<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T104843Z
+UID:Cours-169567-10-BA2P_Electronique-Index-Education
+DTSTART:20241121T143000Z
+DTEND:20241121T163000Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T105013Z
+UID:Cours-180372-8-BA2P_Electronique-Index-Education
+DTSTART:20241104T071500Z
+DTEND:20241104T163000Z
+SUMMARY;LANGUAGE=fr:Labo Electro. de puissance - Taira - 24-25 Unity pro - 
+ Laboratoires
+DESCRIPTION;LANGUAGE=fr:Matière : Labo Electro. de puissance\nEnseignant : 
+ Taira\nMémo : 24-25 Unity pro\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo Electro. de puissance<br/>Ensei
+ gnant : Taira<br/>Mémo : 24-25 Unity pro<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T105013Z
+UID:Cours-180373-8-BA2P_Electronique-Index-Education
+DTSTART:20241105T071500Z
+DTEND:20241105T163000Z
+SUMMARY;LANGUAGE=fr:Labo Electro. de puissance - Taira - 24-25 Unity pro - 
+ Laboratoires
+DESCRIPTION;LANGUAGE=fr:Matière : Labo Electro. de puissance\nEnseignant : 
+ Taira\nMémo : 24-25 Unity pro\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo Electro. de puissance<br/>Ensei
+ gnant : Taira<br/>Mémo : 24-25 Unity pro<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240621T071515Z
+UID:Cours-180381-13-BA2P_Electronique-Index-Education
+DTSTART:20241209T071500Z
+DTEND:20241209T160000Z
+SUMMARY;LANGUAGE=fr:Mini Usine - Taira - 24-25 CP+Régulation - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Matière : Mini Usine\nEnseignant : Taira\nMémo : 24
+ -25 CP+Régulation\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mini Usine<br/>Enseignant : Taira<br
+ />Mémo : 24-25 CP+Régulation<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240621T071542Z
+UID:Cours-180382-13-BA2P_Electronique-Index-Education
+DTSTART:20241210T071500Z
+DTEND:20241210T160000Z
+SUMMARY;LANGUAGE=fr:Mini Usine - Taira - 24-25 CP+Unity Pro - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Matière : Mini Usine\nEnseignant : Taira\nMémo : 24
+ -25 CP+Unity Pro\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mini Usine<br/>Enseignant : Taira<br
+ />Mémo : 24-25 CP+Unity Pro<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230829T074846Z
+UID:Cours-180776-9-BA2P_Electronique-Index-Education
+DTSTART:20241114T071500Z
+DTEND:20241114T091500Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Isidoro\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Isidoro<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240814T052343Z
+UID:Cours-180778-2-BA2P_Electronique-Index-Education
+DTSTART:20240925T083000Z
+DTEND:20240925T103000Z
+SUMMARY;LANGUAGE=fr:Microcontrôleurs 1 - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Microcontrôleurs 1\nEnseignant : Paulet\n
+ Salle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Microcontrôleurs 1<br/>Enseignant : 
+ Paulet<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230831T135749Z
+UID:Cours-182246-12-BA2P_Electronique-Index-Education
+DTSTART:20241206T071500Z
+DTEND:20241206T091500Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Isidoro\nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Isidoro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240814T063304Z
+UID:Cours-184984-13-BA2P_Electronique-Index-Education
+DTSTART:20241211T071500Z
+DTEND:20241211T091500Z
+SUMMARY;LANGUAGE=fr:Electro. de puissance - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. de puissance\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. de puissance<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T065829Z
+UID:Cours-184988-11-BA2P_Electronique-Index-Education
+DTSTART:20241128T093000Z
+DTEND:20241128T113000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux 1 - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux 1\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux 1<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230829T114502Z
+UID:Cours-185209-10-BA2P_Electronique-Index-Education
+DTSTART:20241118T071500Z
+DTEND:20241118T111500Z
+SUMMARY;LANGUAGE=fr:Labo Electro. de puissance - Taira - Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Labo Electro. de puissance\nEnseignant : 
+ Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo Electro. de puissance<br/>Ensei
+ gnant : Taira<br/>Salle : 2/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T065848Z
+UID:Cours-185211-3-BA2P_Electronique-Index-Education
+DTSTART:20241001T113000Z
+DTEND:20241001T133000Z
+SUMMARY;LANGUAGE=fr:Electro. de puissance - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. de puissance\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. de puissance<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T071144Z
+UID:Cours-185217-10-BA2P_Electronique-Index-Education
+DTSTART:20241122T093000Z
+DTEND:20241122T113000Z
+SUMMARY;LANGUAGE=fr:Gestion de projets - Lenaerts\, Naizy
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion de projets\nEnseignants : Lenaert
+ s\, Naizy\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion de projets<br/>Enseignants :
+  Lenaerts\, Naizy<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240913T084635Z
+UID:Cours-185219-6-BA2P_Electronique-Index-Education
+DTSTART:20241021T083000Z
+DTEND:20241021T103000Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T110748Z
+UID:Cours-185227-11-BA2P_Electronique-Index-Education
+DTSTART:20241127T073000Z
+DTEND:20241127T113000Z
+SUMMARY;LANGUAGE=fr:Labo Electro. de puissance - Taira - Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Labo Electro. de puissance\nEnseignant : 
+ Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo Electro. de puissance<br/>Ensei
+ gnant : Taira<br/>Salle : 2/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240814T052421Z
+UID:Cours-187791-10-BA2P_Electronique-Index-Education
+DTSTART:20241121T071500Z
+DTEND:20241121T091500Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux 1 - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux 1\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux 1<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230905T055930Z
+UID:Cours-189311-14-BA2P_Electronique-Index-Education
+DTSTART:20241217T123000Z
+DTEND:20241217T163000Z
+SUMMARY;LANGUAGE=fr:Gestion de projets - Arnaud\, Michiels\, Taira - Labora
+ toires
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion de projets\nEnseignants : Arnaud\
+ , Michiels\, Taira\nSalle : 2/10C\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion de projets<br/>Enseignants :
+  Arnaud\, Michiels\, Taira<br/>Salle : 2/10C<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20230905T055946Z
+UID:Cours-189312-14-BA2P_Electronique-Index-Education
+DTSTART:20241218T123000Z
+DTEND:20241218T163000Z
+SUMMARY;LANGUAGE=fr:Gestion de projets - Arnaud\, Michiels\, Taira - Labora
+ toires
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion de projets\nEnseignants : Arnaud\
+ , Michiels\, Taira\nSalle : 2/10C\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion de projets<br/>Enseignants :
+  Arnaud\, Michiels\, Taira<br/>Salle : 2/10C<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240913T091902Z
+UID:Cours-215214-1-BA2P_Electronique-Index-Education
+DTSTART:20240918T113000Z
+DTEND:20240918T133000Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Isidoro\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Isidoro<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240822T084030Z
+UID:Cours-191566-10-BA2P_Electronique-Index-Education
+DTSTART:20241121T123000Z
+DTEND:20241121T143000Z
+SUMMARY;LANGUAGE=fr:Electro. de puissance - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. de puissance\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. de puissance<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240918T093443Z
+UID:Cours-191567-12-BA2P_Electronique-Index-Education
+DTSTART:20241203T093000Z
+DTEND:20241203T113000Z
+SUMMARY;LANGUAGE=fr:Microcontrôleurs 1 - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Microcontrôleurs 1\nEnseignant : Paulet\n
+ Salle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Microcontrôleurs 1<br/>Enseignant : 
+ Paulet<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T104811Z
+UID:Cours-193306-10-BA2P_Electronique-Index-Education
+DTSTART:20241119T071500Z
+DTEND:20241119T091500Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Isidoro\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Isidoro<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20231023T125532Z
+UID:Cours-193461-3-BA2P_Electronique-Index-Education
+DTSTART:20241003T113000Z
+DTEND:20241003T133000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux 1 - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux 1\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux 1<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20231023T125532Z
+UID:Cours-193461-4-BA2P_Electronique-Index-Education
+DTSTART:20241010T113000Z
+DTEND:20241010T133000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux 1 - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux 1\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux 1<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T070036Z
+UID:Cours-193467-12-BA2P_Electronique-Index-Education
+DTSTART:20241202T093000Z
+DTEND:20241202T113000Z
+SUMMARY;LANGUAGE=fr:Electro. de puissance - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. de puissance\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. de puissance<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240620T093029Z
+UID:Cours-203867-8-BA2P_Electronique-Index-Education
+DTSTART:20241106T071500Z
+DTEND:20241106T163000Z
+SUMMARY;LANGUAGE=fr:Labo Electro. de puissance - Taira - 24-25 Départs mote
+ urs - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Matière : Labo Electro. de puissance\nEnseignant : 
+ Taira\nMémo : 24-25 Départs moteurs\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo Electro. de puissance<br/>Ensei
+ gnant : Taira<br/>Mémo : 24-25 Départs moteurs<br/>Type : Laboratoires<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240621T071205Z
+UID:Cours-203879-9-BA2P_Electronique-Index-Education
+DTSTART:20241112T071500Z
+DTEND:20241112T163000Z
+SUMMARY;LANGUAGE=fr:Labo Electro. de puissance - Taira - 24-25 Régime de ne
+ utre - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Matière : Labo Electro. de puissance\nEnseignant : 
+ Taira\nMémo : 24-25 Régime de neutre\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo Electro. de puissance<br/>Ensei
+ gnant : Taira<br/>Mémo : 24-25 Régime de neutre<br/>Type : Laboratoires<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240621T071404Z
+UID:Cours-203880-11-BA2P_Electronique-Index-Education
+DTSTART:20241125T071500Z
+DTEND:20241125T163000Z
+SUMMARY;LANGUAGE=fr:Capteurs - Taira - 24-25 FS régulation - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Matière : Capteurs\nEnseignant : Taira\nMémo : 24-2
+ 5 FS régulation\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Capteurs<br/>Enseignant : Taira<br/>
+ Mémo : 24-25 FS régulation<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240621T071415Z
+UID:Cours-203881-11-BA2P_Electronique-Index-Education
+DTSTART:20241126T071500Z
+DTEND:20241126T163000Z
+SUMMARY;LANGUAGE=fr:Capteurs - Taira - 24-25 FS régulation - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Matière : Capteurs\nEnseignant : Taira\nMémo : 24-2
+ 5 FS régulation\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Capteurs<br/>Enseignant : Taira<br/>
+ Mémo : 24-25 FS régulation<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240624T101333Z
+UID:Cours-203899-12-BA2P_Electronique-Index-Education
+DTSTART:20241204T070000Z
+DTEND:20241204T170000Z
+SUMMARY;LANGUAGE=fr:Visite - Isidoro\, Michiels\, Paulet - Paris 24-25
+DESCRIPTION;LANGUAGE=fr:Matière : Visite\nEnseignants : Isidoro\, Michiels\
+ , Paulet\nMémo : Paris 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Visite<br/>Enseignants : Isidoro\, M
+ ichiels\, Paulet<br/>Mémo : Paris 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240624T101326Z
+UID:Cours-203900-12-BA2P_Electronique-Index-Education
+DTSTART:20241205T070000Z
+DTEND:20241205T170000Z
+SUMMARY;LANGUAGE=fr:Visite - Isidoro\, Michiels\, Paulet - Paris 24-25
+DESCRIPTION;LANGUAGE=fr:Matière : Visite\nEnseignants : Isidoro\, Michiels\
+ , Paulet\nMémo : Paris 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Visite<br/>Enseignants : Isidoro\, M
+ ichiels\, Paulet<br/>Mémo : Paris 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240704T124340Z
+UID:Cours-204486-5-BA2P_Electronique-Index-Education
+DTSTART:20241014T113000Z
+DTEND:20241014T153000Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Taira - Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Taira<br/>Salle : 2/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240913T091902Z
+UID:Cours-205480-5-BA2P_Electronique-Index-Education
+DTSTART:20241015T061500Z
+DTEND:20241015T081500Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Isidoro\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Isidoro<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240711T055059Z
+UID:Cours-205481-9-BA2P_Electronique-Index-Education
+DTSTART:20241113T071500Z
+DTEND:20241113T091500Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240711T055107Z
+UID:Cours-205482-10-BA2P_Electronique-Index-Education
+DTSTART:20241119T093000Z
+DTEND:20241119T113000Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240814T063316Z
+UID:Cours-205483-13-BA2P_Electronique-Index-Education
+DTSTART:20241211T093000Z
+DTEND:20241211T113000Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T072808Z
+UID:Cours-214906-13-BA2P_Electronique-Index-Education
+DTSTART:20241212T123000Z
+DTEND:20241212T163000Z
+SUMMARY;LANGUAGE=fr:Gestion de projets - Arnaud\, Michiels\, Taira - Labora
+ toires
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion de projets\nEnseignants : Arnaud\
+ , Michiels\, Taira\nSalle : 2/10C\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion de projets<br/>Enseignants :
+  Arnaud\, Michiels\, Taira<br/>Salle : 2/10C<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T072819Z
+UID:Cours-214907-13-BA2P_Electronique-Index-Education
+DTSTART:20241213T073000Z
+DTEND:20241213T164500Z
+SUMMARY;LANGUAGE=fr:Gestion de projets - Arnaud\, Michiels\, Taira - Labora
+ toires
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion de projets\nEnseignants : Arnaud\
+ , Michiels\, Taira\nSalle : 2/10C\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion de projets<br/>Enseignants :
+  Arnaud\, Michiels\, Taira<br/>Salle : 2/10C<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240814T052112Z
+UID:Cours-206639-3-BA2P_Electronique-Index-Education
+DTSTART:20241004T113000Z
+DTEND:20241004T133000Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T110717Z
+UID:Cours-206640-1-BA2P_Electronique-Index-Education
+DTSTART:20240916T113000Z
+DTEND:20240916T153000Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Taira - Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Taira<br/>Salle : 2/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T110717Z
+UID:Cours-206640-6-BA2P_Electronique-Index-Education
+DTSTART:20241021T113000Z
+DTEND:20241021T153000Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Taira - Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Taira<br/>Salle : 2/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240814T052249Z
+UID:Cours-206642-5-BA2P_Electronique-Index-Education
+DTSTART:20241016T113000Z
+DTEND:20241016T153000Z
+SUMMARY;LANGUAGE=fr:Labo Electro. de puissance - Taira - Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Labo Electro. de puissance\nEnseignant : 
+ Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo Electro. de puissance<br/>Ensei
+ gnant : Taira<br/>Salle : 2/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240814T052249Z
+UID:Cours-206642-6-BA2P_Electronique-Index-Education
+DTSTART:20241023T113000Z
+DTEND:20241023T153000Z
+SUMMARY;LANGUAGE=fr:Labo Electro. de puissance - Taira - Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Labo Electro. de puissance\nEnseignant : 
+ Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo Electro. de puissance<br/>Ensei
+ gnant : Taira<br/>Salle : 2/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240814T054124Z
+UID:Cours-206643-6-BA2P_Electronique-Index-Education
+DTSTART:20241022T083000Z
+DTEND:20241022T103000Z
+SUMMARY;LANGUAGE=fr:Compléments de math 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Compléments de math 1\nEnseignant : Carli
+ er\nSalle : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Compléments de math 1<br/>Enseignant
+  : Carlier<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240903T102532Z
+UID:Cours-206644-5-BA2P_Electronique-Index-Education
+DTSTART:20241015T113000Z
+DTEND:20241015T133000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux 1 - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux 1\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux 1<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240814T052953Z
+UID:Cours-206645-2-BA2P_Electronique-Index-Education
+DTSTART:20240925T061500Z
+DTEND:20240925T081500Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux 1 - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux 1\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux 1<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240814T052953Z
+UID:Cours-206645-3-BA2P_Electronique-Index-Education
+DTSTART:20241002T061500Z
+DTEND:20241002T081500Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux 1 - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux 1\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux 1<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240814T052953Z
+UID:Cours-206645-10-BA2P_Electronique-Index-Education
+DTSTART:20241120T071500Z
+DTEND:20241120T091500Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux 1 - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux 1\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux 1<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240906T092625Z
+UID:Cours-206647-3-BA2P_Electronique-Index-Education
+DTSTART:20241001T083000Z
+DTEND:20241001T103000Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Isidoro\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Isidoro<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T104709Z
+UID:Cours-206648-1-BA2P_Electronique-Index-Education
+DTSTART:20240920T113000Z
+DTEND:20240920T133000Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Isidoro\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Isidoro<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240814T053707Z
+UID:Cours-206649-9-BA2P_Electronique-Index-Education
+DTSTART:20241113T123000Z
+DTEND:20241113T143000Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Isidoro\nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Isidoro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240814T053707Z
+UID:Cours-206649-10-BA2P_Electronique-Index-Education
+DTSTART:20241120T123000Z
+DTEND:20241120T143000Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Isidoro\nSalle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Isidoro<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240903T102643Z
+UID:Cours-206652-5-BA2P_Electronique-Index-Education
+DTSTART:20241015T134500Z
+DTEND:20241015T154500Z
+SUMMARY;LANGUAGE=fr:Compléments de math 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Compléments de math 1\nEnseignant : Carli
+ er\nSalle : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Compléments de math 1<br/>Enseignant
+  : Carlier<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240920T092318Z
+UID:Cours-215211-1-BA2P_Electronique-Index-Education
+DTSTART:20240917T061500Z
+DTEND:20240917T081500Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Isidoro\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Isidoro<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240920T092318Z
+UID:Cours-215211-3-BA2P_Electronique-Index-Education
+DTSTART:20241001T061500Z
+DTEND:20241001T081500Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Isidoro\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Isidoro<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240822T091112Z
+UID:Cours-208949-1-BA2P_Electronique-Index-Education
+DTSTART:20240917T083000Z
+DTEND:20240917T103000Z
+SUMMARY;LANGUAGE=fr:PROJETS (MER + TFE) - Arnaud\, Maillez\, Paulet\, Taira
+LOCATION;LANGUAGE=fr:2/10B\, 2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : PROJETS (MER + TFE)\nEnseignants : Arnaud
+ \, Maillez\, Paulet\, Taira\nSalles : 2/10B\, 2/10C\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PROJETS (MER + TFE)<br/>Enseignants 
+ : Arnaud\, Maillez\, Paulet\, Taira<br/>Salles : 2/10B\, 2/10C<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240822T091112Z
+UID:Cours-208955-2-BA2P_Electronique-Index-Education
+DTSTART:20240924T083000Z
+DTEND:20240924T103000Z
+SUMMARY;LANGUAGE=fr:PROJETS (MER + TFE) - Arnaud\, Maillez\, Paulet\, Taira
+LOCATION;LANGUAGE=fr:2/10B\, 2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : PROJETS (MER + TFE)\nEnseignants : Arnaud
+ \, Maillez\, Paulet\, Taira\nSalles : 2/10B\, 2/10C\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PROJETS (MER + TFE)<br/>Enseignants 
+ : Arnaud\, Maillez\, Paulet\, Taira<br/>Salles : 2/10B\, 2/10C<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240826T075329Z
+UID:Cours-208967-12-BA2P_Electronique-Index-Education
+DTSTART:20241206T123000Z
+DTEND:20241206T153000Z
+SUMMARY;LANGUAGE=fr:Exercices de Microcontroleurs1 - Paulet - Exercices
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Exercices de Microcontroleurs1\nEnseignan
+ t : Paulet\nSalle : 2/17A\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Exercices de Microcontroleurs1<br/>E
+ nseignant : Paulet<br/>Salle : 2/17A<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240822T090945Z
+UID:Cours-208968-6-BA2P_Electronique-Index-Education
+DTSTART:20241024T113000Z
+DTEND:20241024T153000Z
+SUMMARY;LANGUAGE=fr:PROJETS (MER + TFE) - Arnaud\, Maillez\, Paulet\, Taira
+LOCATION;LANGUAGE=fr:2/10A\, 2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : PROJETS (MER + TFE)\nEnseignants : Arnaud
+ \, Maillez\, Paulet\, Taira\nSalles : 2/10A\, 2/10C\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PROJETS (MER + TFE)<br/>Enseignants 
+ : Arnaud\, Maillez\, Paulet\, Taira<br/>Salles : 2/10A\, 2/10C<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240822T090832Z
+UID:Cours-208986-9-BA2P_Electronique-Index-Education
+DTSTART:20241115T123000Z
+DTEND:20241115T164500Z
+SUMMARY;LANGUAGE=fr:PROJETS (MER + TFE) - Arnaud\, Maillez\, Paulet\, Taira
+LOCATION;LANGUAGE=fr:2/10B\, 2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : PROJETS (MER + TFE)\nEnseignants : Arnaud
+ \, Maillez\, Paulet\, Taira\nSalles : 2/10B\, 2/10C\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PROJETS (MER + TFE)<br/>Enseignants 
+ : Arnaud\, Maillez\, Paulet\, Taira<br/>Salles : 2/10B\, 2/10C<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T072142Z
+UID:Cours-208999-13-BA2P_Electronique-Index-Education
+DTSTART:20241212T071500Z
+DTEND:20241212T111500Z
+SUMMARY;LANGUAGE=fr:PROJETS (MER + TFE) - Arnaud\, Maillez\, Paulet\, Taira
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : PROJETS (MER + TFE)\nEnseignants : Arnaud
+ \, Maillez\, Paulet\, Taira\nSalle : 2/10C\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PROJETS (MER + TFE)<br/>Enseignants 
+ : Arnaud\, Maillez\, Paulet\, Taira<br/>Salle : 2/10C<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T110053Z
+UID:Cours-209009-6-BA2P_Electronique-Index-Education
+DTSTART:20241025T113000Z
+DTEND:20241025T153000Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Taira - Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Taira<br/>Salle : 2/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240822T090823Z
+UID:Cours-209010-14-BA2P_Electronique-Index-Education
+DTSTART:20241220T123000Z
+DTEND:20241220T163000Z
+SUMMARY;LANGUAGE=fr:PROJETS (MER + TFE) - Arnaud\, Maillez\, Paulet\, Taira
+LOCATION;LANGUAGE=fr:2/10A\, 2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : PROJETS (MER + TFE)\nEnseignants : Arnaud
+ \, Maillez\, Paulet\, Taira\nSalles : 2/10A\, 2/10C\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PROJETS (MER + TFE)<br/>Enseignants 
+ : Arnaud\, Maillez\, Paulet\, Taira<br/>Salles : 2/10A\, 2/10C<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T074923Z
+UID:Cours-209011-3-BA2P_Electronique-Index-Education
+DTSTART:20241002T120000Z
+DTEND:20241002T140000Z
+SUMMARY;LANGUAGE=fr:PROJETS (MER + TFE) - Arnaud\, Maillez\, Paulet\, Taira
+LOCATION;LANGUAGE=fr:2/10B\, 2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : PROJETS (MER + TFE)\nEnseignants : Arnaud
+ \, Maillez\, Paulet\, Taira\nSalles : 2/10B\, 2/10C\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PROJETS (MER + TFE)<br/>Enseignants 
+ : Arnaud\, Maillez\, Paulet\, Taira<br/>Salles : 2/10B\, 2/10C<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240902T080742Z
+UID:Cours-210196-3-BA2P_Electronique-Index-Education
+DTSTART:20240930T113000Z
+DTEND:20240930T133000Z
+SUMMARY;LANGUAGE=fr:Electro. de puissance - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. de puissance\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. de puissance<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240918T093443Z
+UID:Cours-215532-1-BA2P_Electronique-Index-Education
+DTSTART:20240916T083000Z
+DTEND:20240916T103000Z
+SUMMARY;LANGUAGE=fr:Microcontrôleurs 1 - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Microcontrôleurs 1\nEnseignant : Paulet\n
+ Salle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Microcontrôleurs 1<br/>Enseignant : 
+ Paulet<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240918T093443Z
+UID:Cours-215532-3-BA2P_Electronique-Index-Education
+DTSTART:20240930T083000Z
+DTEND:20240930T103000Z
+SUMMARY;LANGUAGE=fr:Microcontrôleurs 1 - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Microcontrôleurs 1\nEnseignant : Paulet\n
+ Salle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Microcontrôleurs 1<br/>Enseignant : 
+ Paulet<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240918T093443Z
+UID:Cours-215532-4-BA2P_Electronique-Index-Education
+DTSTART:20241007T083000Z
+DTEND:20241007T103000Z
+SUMMARY;LANGUAGE=fr:Microcontrôleurs 1 - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Microcontrôleurs 1\nEnseignant : Paulet\n
+ Salle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Microcontrôleurs 1<br/>Enseignant : 
+ Paulet<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240918T093443Z
+UID:Cours-215532-5-BA2P_Electronique-Index-Education
+DTSTART:20241014T083000Z
+DTEND:20241014T103000Z
+SUMMARY;LANGUAGE=fr:Microcontrôleurs 1 - Paulet - Cours
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Microcontrôleurs 1\nEnseignant : Paulet\n
+ Salle : 2/17A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Microcontrôleurs 1<br/>Enseignant : 
+ Paulet<br/>Salle : 2/17A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240917T052217Z
+UID:Cours-212361-6-BA2P_Electronique-Index-Education
+DTSTART:20241021T061500Z
+DTEND:20241021T081500Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux 1 - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux 1\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux 1<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240903T102643Z
+UID:Cours-212362-1-BA2P_Electronique-Index-Education
+DTSTART:20240920T061500Z
+DTEND:20240920T081500Z
+SUMMARY;LANGUAGE=fr:Compléments de math 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Compléments de math 1\nEnseignant : Carli
+ er\nSalle : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Compléments de math 1<br/>Enseignant
+  : Carlier<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240903T102643Z
+UID:Cours-212362-3-BA2P_Electronique-Index-Education
+DTSTART:20241004T061500Z
+DTEND:20241004T081500Z
+SUMMARY;LANGUAGE=fr:Compléments de math 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Compléments de math 1\nEnseignant : Carli
+ er\nSalle : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Compléments de math 1<br/>Enseignant
+  : Carlier<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240903T102643Z
+UID:Cours-212362-4-BA2P_Electronique-Index-Education
+DTSTART:20241011T061500Z
+DTEND:20241011T081500Z
+SUMMARY;LANGUAGE=fr:Compléments de math 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Compléments de math 1\nEnseignant : Carli
+ er\nSalle : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Compléments de math 1<br/>Enseignant
+  : Carlier<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240903T102643Z
+UID:Cours-212362-6-BA2P_Electronique-Index-Education
+DTSTART:20241025T061500Z
+DTEND:20241025T081500Z
+SUMMARY;LANGUAGE=fr:Compléments de math 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Compléments de math 1\nEnseignant : Carli
+ er\nSalle : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Compléments de math 1<br/>Enseignant
+  : Carlier<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T071107Z
+UID:Cours-214901-4-BA2P_Electronique-Index-Education
+DTSTART:20241011T113000Z
+DTEND:20241011T143000Z
+SUMMARY;LANGUAGE=fr:Exercices de Microcontroleurs1 - Paulet - Exercices
+LOCATION;LANGUAGE=fr:2/17A
+DESCRIPTION;LANGUAGE=fr:Matière : Exercices de Microcontroleurs1\nEnseignan
+ t : Paulet\nSalle : 2/17A\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Exercices de Microcontroleurs1<br/>E
+ nseignant : Paulet<br/>Salle : 2/17A<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240906T092717Z
+UID:Cours-214456-12-BA2P_Electronique-Index-Education
+DTSTART:20241203T123000Z
+DTEND:20241203T143000Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Isidoro\nSalle : 2/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Isidoro<br/>Salle : 2/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T071124Z
+UID:Cours-214457-10-BA2P_Electronique-Index-Education
+DTSTART:20241122T071500Z
+DTEND:20241122T091500Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux 1 - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux 1\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux 1<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T105306Z
+UID:Cours-214458-8-BA2P_Electronique-Index-Education
+DTSTART:20241107T071500Z
+DTEND:20241107T163000Z
+SUMMARY;LANGUAGE=fr:Labo Electro. de puissance - Taira - Départs moteurs 24
+ -25 - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Matière : Labo Electro. de puissance\nEnseignant : 
+ Taira\nMémo : Départs moteurs 24-25\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo Electro. de puissance<br/>Ensei
+ gnant : Taira<br/>Mémo : Départs moteurs 24-25<br/>Type : Laboratoires<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240905T105341Z
+UID:Cours-214459-8-BA2P_Electronique-Index-Education
+DTSTART:20241108T070000Z
+DTEND:20241108T161500Z
+SUMMARY;LANGUAGE=fr:Labo Electro. de puissance - Taira - Risques electrique
+ s 24-25 - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Matière : Labo Electro. de puissance\nEnseignant : 
+ Taira\nMémo : Risques electriques 24-25\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Labo Electro. de puissance<br/>Ensei
+ gnant : Taira<br/>Mémo : Risques electriques 24-25<br/>Type : Laboratoires
+ <br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240913T084617Z
+UID:Cours-214585-5-BA2P_Electronique-Index-Education
+DTSTART:20241015T083000Z
+DTEND:20241015T103000Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/17D (LCAO)
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Isidoro\nSalle : 2/17D (LCAO)\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Isidoro<br/>Salle : 2/17D (LCAO)<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240906T092659Z
+UID:Cours-214586-11-BA2P_Electronique-Index-Education
+DTSTART:20241129T071500Z
+DTEND:20241129T091500Z
+SUMMARY;LANGUAGE=fr:Automatismes et régulation 1 - Isidoro - Cours
+LOCATION;LANGUAGE=fr:2/13
+DESCRIPTION;LANGUAGE=fr:Matière : Automatismes et régulation 1\nEnseignant 
+ : Isidoro\nSalle : 2/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Automatismes et régulation 1<br/>Ens
+ eignant : Isidoro<br/>Salle : 2/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240924T123414Z
+UID:Cours-215804-6-BA2P_Electronique-Index-Education
+DTSTART:20241023T073000Z
+DTEND:20241023T103000Z
+SUMMARY;LANGUAGE=fr:Exercices de Microcontroleurs1 - Paulet - Exercices
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Exercices de Microcontroleurs1\nEnseignan
+ t : Paulet\nSalle : 2/10B\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Exercices de Microcontroleurs1<br/>E
+ nseignant : Paulet<br/>Salle : 2/10B<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T071124Z
+UID:Cours-214902-1-BA2P_Electronique-Index-Education
+DTSTART:20240920T083000Z
+DTEND:20240920T103000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux 1 - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux 1\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux 1<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T071124Z
+UID:Cours-214902-3-BA2P_Electronique-Index-Education
+DTSTART:20241004T083000Z
+DTEND:20241004T103000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux 1 - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux 1\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux 1<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T071124Z
+UID:Cours-214902-4-BA2P_Electronique-Index-Education
+DTSTART:20241011T083000Z
+DTEND:20241011T103000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux 1 - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux 1\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux 1<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T071124Z
+UID:Cours-214902-6-BA2P_Electronique-Index-Education
+DTSTART:20241025T083000Z
+DTEND:20241025T103000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux 1 - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux 1\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux 1<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240912T071124Z
+UID:Cours-214902-11-BA2P_Electronique-Index-Education
+DTSTART:20241129T093000Z
+DTEND:20241129T113000Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux 1 - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux 1\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux 1<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T070036Z
+UID:Cours-215718-3-BA2P_Electronique-Index-Education
+DTSTART:20241003T083000Z
+DTEND:20241003T103000Z
+SUMMARY;LANGUAGE=fr:Electro. de puissance - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. de puissance\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. de puissance<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T070036Z
+UID:Cours-215718-4-BA2P_Electronique-Index-Education
+DTSTART:20241010T083000Z
+DTEND:20241010T103000Z
+SUMMARY;LANGUAGE=fr:Electro. de puissance - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. de puissance\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. de puissance<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T070036Z
+UID:Cours-215718-5-BA2P_Electronique-Index-Education
+DTSTART:20241017T083000Z
+DTEND:20241017T103000Z
+SUMMARY;LANGUAGE=fr:Electro. de puissance - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. de puissance\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. de puissance<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T070036Z
+UID:Cours-215718-9-BA2P_Electronique-Index-Education
+DTSTART:20241114T093000Z
+DTEND:20241114T113000Z
+SUMMARY;LANGUAGE=fr:Electro. de puissance - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. de puissance\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. de puissance<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T065644Z
+UID:Cours-215212-4-BA2P_Electronique-Index-Education
+DTSTART:20241008T061500Z
+DTEND:20241008T081500Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240917T052210Z
+UID:Cours-215459-1-BA2P_Electronique-Index-Education
+DTSTART:20240916T061500Z
+DTEND:20240916T081500Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240917T052210Z
+UID:Cours-215459-3-BA2P_Electronique-Index-Education
+DTSTART:20240930T061500Z
+DTEND:20240930T081500Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240917T052210Z
+UID:Cours-215459-4-BA2P_Electronique-Index-Education
+DTSTART:20241007T061500Z
+DTEND:20241007T081500Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240917T052210Z
+UID:Cours-215459-5-BA2P_Electronique-Index-Education
+DTSTART:20241014T061500Z
+DTEND:20241014T081500Z
+SUMMARY;LANGUAGE=fr:Electrotechnique - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electrotechnique\nEnseignant : Michiels\n
+ Salle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electrotechnique<br/>Enseignant : Mi
+ chiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T065829Z
+UID:Cours-215715-4-BA2P_Electronique-Index-Education
+DTSTART:20241009T061500Z
+DTEND:20241009T081500Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux 1 - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux 1\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux 1<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T065829Z
+UID:Cours-215715-5-BA2P_Electronique-Index-Education
+DTSTART:20241016T061500Z
+DTEND:20241016T081500Z
+SUMMARY;LANGUAGE=fr:Télécom. et réseaux 1 - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Télécom. et réseaux 1\nEnseignant : Michi
+ els\nSalle : 2/10B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télécom. et réseaux 1<br/>Enseignant
+  : Michiels<br/>Salle : 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T065848Z
+UID:Cours-215716-3-BA2P_Electronique-Index-Education
+DTSTART:20241002T083000Z
+DTEND:20241002T103000Z
+SUMMARY;LANGUAGE=fr:Electro. de puissance - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. de puissance\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. de puissance<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T065848Z
+UID:Cours-215716-4-BA2P_Electronique-Index-Education
+DTSTART:20241009T083000Z
+DTEND:20241009T103000Z
+SUMMARY;LANGUAGE=fr:Electro. de puissance - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. de puissance\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. de puissance<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T065848Z
+UID:Cours-215716-5-BA2P_Electronique-Index-Education
+DTSTART:20241016T083000Z
+DTEND:20241016T103000Z
+SUMMARY;LANGUAGE=fr:Electro. de puissance - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. de puissance\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. de puissance<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T065848Z
+UID:Cours-215716-9-BA2P_Electronique-Index-Education
+DTSTART:20241113T093000Z
+DTEND:20241113T113000Z
+SUMMARY;LANGUAGE=fr:Electro. de puissance - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. de puissance\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. de puissance<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+LAST-MODIFIED:20240923T065848Z
+UID:Cours-215716-10-BA2P_Electronique-Index-Education
+DTSTART:20241120T093000Z
+DTEND:20241120T113000Z
+SUMMARY;LANGUAGE=fr:Electro. de puissance - Michiels - Cours
+LOCATION;LANGUAGE=fr:2/01A
+DESCRIPTION;LANGUAGE=fr:Matière : Electro. de puissance\nEnseignant : Michi
+ els\nSalle : 2/01A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electro. de puissance<br/>Enseignant
+  : Michiels<br/>Salle : 2/01A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+UID:Ferie-939-BA2P_Electronique-Index-Education
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240928
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+UID:Ferie-940-BA2P_Electronique-Index-Education
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145705Z
+UID:Ferie-941-BA2P_Electronique-Index-Education
+DTSTART;VALUE=DATE:20241111
+DTEND;VALUE=DATE:20241112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,1940 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
+METHOD:PUBLISH
+X-CALSTART:20240916T000000Z
+X-CALEND:20241221T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - <TTM1 - MA1 Ingénieur industriel> <Options> 
+ TTMLDT1 MA1 TL - LDT - du 16 septembre au 21 décembre 2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de <TTM1 - MA1 Ingénieur industrie
+ l> <Options> TTMLDT1 MA1 TL - LDT généré par le logiciel HP (©INDEX ÉDUCAT
+ ION) le 24 sept. 2024 - Haute Ecole en Hainaut - valable sur la période du
+  16 septembre au 21 décembre 2024 - Semaines : semaine 38 - 51
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T081423Z
+UID:Cours-156171-1-MA1_TL_-_LDT-Index-Education
+DTSTART:20240916T114500Z
+DTEND:20240916T134500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - génie génétique et tp - Semoulin - 24-25
+  HELHa local 3123
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : génie génétique et
+  tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa local 3123\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : génie géné
+ tique et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa local 3123<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T083737Z
+UID:Cours-156184-4-MA1_TL_-_LDT-Index-Education
+DTSTART:20241007T114500Z
+DTEND:20241007T134500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Méthodes d'analyse spec et tp - Semoulin
+  - 24-25 HELHa 3235
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Méthodes d'analyse
+  spec et tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3235\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Méthodes d
+ 'analyse spec et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3235<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082738Z
+UID:Cours-156189-13-MA1_TL_-_LDT-Index-Education
+DTSTART:20241209T100000Z
+DTEND:20241209T120000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Génie enzymatique - Walravens - 24-25 HE
+ LHa 3123
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Génie enzymatique\
+ nEnseignant : Walravens\nMémo : 24-25 HELHa 3123\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Génie enzy
+ matique<br/>Enseignant : Walravens<br/>Mémo : 24-25 HELHa 3123<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082956Z
+UID:Cours-156192-1-MA1_TL_-_LDT-Index-Education
+DTSTART:20240917T060000Z
+DTEND:20240917T080000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Génie enzymatique - Walravens - 24-25 HE
+ LHa 3235
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Génie enzymatique\
+ nEnseignant : Walravens\nMémo : 24-25 HELHa 3235\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Génie enzy
+ matique<br/>Enseignant : Walravens<br/>Mémo : 24-25 HELHa 3235<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082851Z
+UID:Cours-156193-14-MA1_TL_-_LDT-Index-Education
+DTSTART:20241216T124500Z
+DTEND:20241216T144500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Génie enzymatique - Walravens - 24-25 HE
+ LHa  3137
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Génie enzymatique\
+ nEnseignant : Walravens\nMémo : 24-25 HELHa  3137\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Génie enzy
+ matique<br/>Enseignant : Walravens<br/>Mémo : 24-25 HELHa  3137<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082035Z
+UID:Cours-156194-5-MA1_TL_-_LDT-Index-Education
+DTSTART:20241014T064500Z
+DTEND:20241014T084500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - génie génétique et tp - Semoulin - 24-25
+  HELHa 3237
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : génie génétique et
+  tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3237\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : génie géné
+ tique et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3237<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082810Z
+UID:Cours-156197-13-MA1_TL_-_LDT-Index-Education
+DTSTART:20241209T124500Z
+DTEND:20241209T144500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - génie génétique et tp - Semoulin - 24-25
+  HELHa 3021
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : génie génétique et
+  tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3021\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : génie géné
+ tique et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3021<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T083750Z
+UID:Cours-156201-1-MA1_TL_-_LDT-Index-Education
+DTSTART:20240918T114500Z
+DTEND:20240918T134500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Méthodes d'analyse spec et tp - Semoulin
+  - 24-25 HELHa 3136
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Méthodes d'analyse
+  spec et tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3136\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Méthodes d
+ 'analyse spec et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3136<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T083737Z
+UID:Cours-156211-6-MA1_TL_-_LDT-Index-Education
+DTSTART:20241021T140000Z
+DTEND:20241021T160000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Méthodes d'analyse spec et tp - Semoulin
+  - 24-25 HELHa 3221
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Méthodes d'analyse
+  spec et tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3221\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Méthodes d
+ 'analyse spec et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3221<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082501Z
+UID:Cours-156212-11-MA1_TL_-_LDT-Index-Education
+DTSTART:20241125T100000Z
+DTEND:20241125T120000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - génie génétique et tp - Semoulin - 24-25
+  3237
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : génie génétique et
+  tp\nEnseignant : Semoulin\nMémo : 24-25 3237\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : génie géné
+ tique et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 3237<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T083737Z
+UID:Cours-156215-2-MA1_TL_-_LDT-Index-Education
+DTSTART:20240923T090000Z
+DTEND:20240923T110000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Méthodes d'analyse spec et tp - Semoulin
+  - 24-25 HELHa 3237
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Méthodes d'analyse
+  spec et tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3237\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Méthodes d
+ 'analyse spec et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3237<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T081519Z
+UID:Cours-156218-2-MA1_TL_-_LDT-Index-Education
+DTSTART:20240923T064500Z
+DTEND:20240923T084500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Génie enzymatique - Walravens - 24-25 HE
+ LHa 3023
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Génie enzymatique\
+ nEnseignant : Walravens\nMémo : 24-25 HELHa 3023\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Génie enzy
+ matique<br/>Enseignant : Walravens<br/>Mémo : 24-25 HELHa 3023<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T081934Z
+UID:Cours-156239-4-MA1_TL_-_LDT-Index-Education
+DTSTART:20241007T140000Z
+DTEND:20241007T160000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Génie enzymatique - Walravens - 24-25 HE
+ LHa 3022
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Génie enzymatique\
+ nEnseignant : Walravens\nMémo : 24-25 HELHa 3022\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Génie enzy
+ matique<br/>Enseignant : Walravens<br/>Mémo : 24-25 HELHa 3022<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T084111Z
+UID:Cours-156248-9-MA1_TL_-_LDT-Index-Education
+DTSTART:20241113T150000Z
+DTEND:20241113T170000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Génie enzymatique - Walravens - 24-25 HE
+ LHa
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Génie enzymatique\
+ nEnseignant : Walravens\nMémo : 24-25 HELHa\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Génie enzy
+ matique<br/>Enseignant : Walravens<br/>Mémo : 24-25 HELHa<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240903T130731Z
+UID:Cours-156251-13-MA1_TL_-_LDT-Index-Education
+DTSTART:20241210T074500Z
+DTEND:20241210T170000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Tp de chimie ana instr - 24-25 4016\, In
+ tervenants  MEUNIER & SCLAMENDER - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Tp de chimie ana i
+ nstr\nMémo : 24-25 4016\, Intervenants  MEUNIER & SCLAMENDER\nType : Labor
+ atoires\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Tp de chim
+ ie ana instr<br/>Mémo : 24-25 4016\, Intervenants  MEUNIER & SCLAMENDER<br
+ />Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240827T082105Z
+UID:Cours-156355-2-MA1_TL_-_LDT-Index-Education
+DTSTART:20240926T063000Z
+DTEND:20240926T144500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - GMP-GLP - Leonet\, Pirson - 24-25  (form
+ ateur Aptaskil) local 3023 (rdc du bâtiment HE3). horaires 8h45-13h et 14h
+ -18h.
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : GMP-GLP\nEnseignan
+ ts : Leonet\, Pirson\nMémo : 24-25  (formateur Aptaskil) local 3023 (rdc d
+ u bâtiment HE3). horaires 8h45-13h et 14h-18h.\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : GMP-GLP<br
+ />Enseignants : Leonet\, Pirson<br/>Mémo : 24-25  (formateur Aptaskil) loc
+ al 3023 (rdc du bâtiment HE3). horaires 8h45-13h et 14h-18h.<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T083106Z
+UID:Cours-156356-5-MA1_TL_-_LDT-Index-Education
+DTSTART:20241015T114500Z
+DTEND:20241015T160000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Génie enzymatique - Walravens - 24-25 HE
+ LHa 3024
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Génie enzymatique\
+ nEnseignant : Walravens\nMémo : 24-25 HELHa 3024\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Génie enzy
+ matique<br/>Enseignant : Walravens<br/>Mémo : 24-25 HELHa 3024<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T084051Z
+UID:Cours-156360-9-MA1_TL_-_LDT-Index-Education
+DTSTART:20241113T124500Z
+DTEND:20241113T144500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Méthodes d'analyse spec et tp - Semoulin
+  - 24-25 HELHa 3221 - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Méthodes d'analyse
+  spec et tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3221\nType : Labora
+ toires\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Méthodes d
+ 'analyse spec et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3221<
+ br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T084754Z
+UID:Cours-156422-10-MA1_TL_-_LDT-Index-Education
+DTSTART:20241121T150000Z
+DTEND:20241121T170000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Méthodes d'analyse spec et tp - Semoulin
+  - 24-25 HELHa 3237
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Méthodes d'analyse
+  spec et tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3237\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Méthodes d
+ 'analyse spec et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3237<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T084335Z
+UID:Cours-156429-11-MA1_TL_-_LDT-Index-Education
+DTSTART:20241127T124500Z
+DTEND:20241127T170000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - TP de genie enzymatique - Walravens - 24
+ -25 HELHa 4009 labo biochimie
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : TP de genie enzyma
+ tique\nEnseignant : Walravens\nMémo : 24-25 HELHa 4009 labo biochimie\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : TP de geni
+ e enzymatique<br/>Enseignant : Walravens<br/>Mémo : 24-25 HELHa 4009 labo 
+ biochimie<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T085216Z
+UID:Cours-156439-5-MA1_TL_-_LDT-Index-Education
+DTSTART:20241018T064500Z
+DTEND:20241018T134500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - TP de génie génétique - Pirson - 24-25 H
+ ELHa 4008 labo Microbiologie - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : TP de génie généti
+ que\nEnseignant : Pirson\nMémo : 24-25 HELHa 4008 labo Microbiologie\nType
+  : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : TP de géni
+ e génétique<br/>Enseignant : Pirson<br/>Mémo : 24-25 HELHa 4008 labo Micro
+ biologie<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T084847Z
+UID:Cours-157471-12-MA1_TL_-_LDT-Index-Education
+DTSTART:20241205T123000Z
+DTEND:20241205T164500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Culture cellulaire - Pirson - 24-25 HELH
+ a  Labo Microbiologie 4008  Labo de Biochimie 4009
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Culture cellulaire
+ \nEnseignant : Pirson\nMémo : 24-25 HELHa  Labo Microbiologie 4008  Labo d
+ e Biochimie 4009\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Culture ce
+ llulaire<br/>Enseignant : Pirson<br/>Mémo : 24-25 HELHa  Labo Microbiologi
+ e 4008  Labo de Biochimie 4009<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T084400Z
+UID:Cours-157472-11-MA1_TL_-_LDT-Index-Education
+DTSTART:20241127T074500Z
+DTEND:20241127T120000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Culture cellulaire - Pirson - 24-25 HELH
+ a  Labo Microbiologie 4008  Labo de Biochimie 4009
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Culture cellulaire
+ \nEnseignant : Pirson\nMémo : 24-25 HELHa  Labo Microbiologie 4008  Labo d
+ e Biochimie 4009\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Culture ce
+ llulaire<br/>Enseignant : Pirson<br/>Mémo : 24-25 HELHa  Labo Microbiologi
+ e 4008  Labo de Biochimie 4009<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240902T060757Z
+UID:Cours-157790-6-MA1_TL_-_LDT-Index-Education
+DTSTART:20241023T061500Z
+DTEND:20241023T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T083946Z
+UID:Cours-159223-3-MA1_TL_-_LDT-Index-Education
+DTSTART:20241002T073000Z
+DTEND:20241002T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer - Cours
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\nTy
+ pe : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240625T115541Z
+UID:Cours-159228-8-MA1_TL_-_LDT-Index-Education
+DTSTART:20241108T073000Z
+DTEND:20241108T160000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Compl. de tech. bioinfo. - Thieffry - 24
+ -25 - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Compl. de tech. bi
+ oinfo.\nEnseignant : Thieffry\nMémo : 24-25\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Compl. de 
+ tech. bioinfo.<br/>Enseignant : Thieffry<br/>Mémo : 24-25<br/>Type : Labor
+ atoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240902T061350Z
+UID:Cours-159269-6-MA1_TL_-_LDT-Index-Education
+DTSTART:20241024T083000Z
+DTEND:20241024T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Lang
+ ues - Remacle - Cours
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Langues\nEnseignant : Remacle\nSalle : 1/29\nType : Cou
+ rs\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Langues<br/>Enseignant : Remacle<br/>Salle : 1/
+ 29<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240819T064915Z
+UID:Cours-159270-3-MA1_TL_-_LDT-Index-Education
+DTSTART:20241001T083000Z
+DTEND:20241001T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Lang
+ ues - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Langues\nEnseignant : Remacle\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Langues<br/>Enseignant : Remacle<br/>Salle : 1/
+ 29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T083916Z
+UID:Cours-162631-2-MA1_TL_-_LDT-Index-Education
+DTSTART:20240925T114500Z
+DTEND:20240925T134500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Méthodes d'analyse spec et tp - Semoulin
+  - 24-25 HELHa 3237
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Méthodes d'analyse
+  spec et tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3237\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Méthodes d
+ 'analyse spec et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3237<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240819T093258Z
+UID:Cours-163423-9-MA1_TL_-_LDT-Index-Education
+DTSTART:20241115T130000Z
+DTEND:20241115T160000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T083549Z
+UID:Cours-164040-6-MA1_TL_-_LDT-Index-Education
+DTSTART:20241022T113000Z
+DTEND:20241022T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20231011T061516Z
+UID:Cours-166551-5-MA1_TL_-_LDT-Index-Education
+DTSTART:20241016T061500Z
+DTEND:20241016T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Proj
+ ect management - Bouillon
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Project management\nEnseignant : Bouillon\nSalle : 1/25
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Project management<br/>Enseignant : Bouillon<br
+ />Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240626T072734Z
+UID:Cours-179978-14-MA1_TL_-_LDT-Index-Education
+DTSTART:20241219T123000Z
+DTEND:20241219T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240625T115541Z
+UID:Cours-179987-8-MA1_TL_-_LDT-Index-Education
+DTSTART:20241105T073000Z
+DTEND:20241105T160000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Compl. de tech. bioinfo. - Thieffry - 24
+ -25 - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Compl. de tech. bi
+ oinfo.\nEnseignant : Thieffry\nMémo : 24-25\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Compl. de 
+ tech. bioinfo.<br/>Enseignant : Thieffry<br/>Mémo : 24-25<br/>Type : Labor
+ atoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240625T115541Z
+UID:Cours-179988-8-MA1_TL_-_LDT-Index-Education
+DTSTART:20241106T073000Z
+DTEND:20241106T160000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Compl. de tech. bioinfo. - Thieffry - 24
+ -25 - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Compl. de tech. bi
+ oinfo.\nEnseignant : Thieffry\nMémo : 24-25\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Compl. de 
+ tech. bioinfo.<br/>Enseignant : Thieffry<br/>Mémo : 24-25<br/>Type : Labor
+ atoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082204Z
+UID:Cours-182656-6-MA1_TL_-_LDT-Index-Education
+DTSTART:20241021T064500Z
+DTEND:20241021T084500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - génie génétique et tp - Semoulin - 24-25
+  3237 HELHa
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : génie génétique et
+  tp\nEnseignant : Semoulin\nMémo : 24-25 3237 HELHa\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : génie géné
+ tique et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 3237 HELHa<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240903T125301Z
+UID:Cours-182665-3-MA1_TL_-_LDT-Index-Education
+DTSTART:20240930T114500Z
+DTEND:20240930T160000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Méthodes d'analyse spec et tp - Semoulin
+  - 24-25 HELHa 3136
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Méthodes d'analyse
+  spec et tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3136\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Méthodes d
+ 'analyse spec et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3136<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082341Z
+UID:Cours-183005-8-MA1_TL_-_LDT-Index-Education
+DTSTART:20241104T124500Z
+DTEND:20241104T144500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - génie génétique et tp - Semoulin - 24-25
+  HELHa 3237
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : génie génétique et
+  tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3237\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : génie géné
+ tique et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3237<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082003Z
+UID:Cours-183006-4-MA1_TL_-_LDT-Index-Education
+DTSTART:20241007T090000Z
+DTEND:20241007T110000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - génie génétique et tp - Semoulin - 24-25
+  HELHa 3237
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : génie génétique et
+  tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3237\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : génie géné
+ tique et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3237<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082209Z
+UID:Cours-183097-6-MA1_TL_-_LDT-Index-Education
+DTSTART:20241021T090000Z
+DTEND:20241021T110000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - génie génétique et tp - Semoulin - 24-25
+  3237 HELHa
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : génie génétique et
+  tp\nEnseignant : Semoulin\nMémo : 24-25 3237 HELHa\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : génie géné
+ tique et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 3237 HELHa<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082346Z
+UID:Cours-183099-8-MA1_TL_-_LDT-Index-Education
+DTSTART:20241104T100000Z
+DTEND:20241104T120000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - génie génétique et tp - Semoulin - 24-25
+  HELHa  3237
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : génie génétique et
+  tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa  3237\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : génie géné
+ tique et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa  3237<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240910T095226Z
+UID:Cours-183148-10-MA1_TL_-_LDT-Index-Education
+DTSTART:20241118T100000Z
+DTEND:20241118T120000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Méthodes d'analyse spec et tp - Semoulin
+  - 24-25 3237 rétro
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Méthodes d'analyse
+  spec et tp\nEnseignant : Semoulin\nMémo : 24-25 3237 rétro\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Méthodes d
+ 'analyse spec et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 3237 rétro<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T084418Z
+UID:Cours-183198-12-MA1_TL_-_LDT-Index-Education
+DTSTART:20241204T124500Z
+DTEND:20241204T170000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - TP de genie enzymatique - Walravens - 24
+ -25 HELHa 4009 labo Biochimie
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : TP de genie enzyma
+ tique\nEnseignant : Walravens\nMémo : 24-25 HELHa 4009 labo Biochimie\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : TP de geni
+ e enzymatique<br/>Enseignant : Walravens<br/>Mémo : 24-25 HELHa 4009 labo 
+ Biochimie<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082419Z
+UID:Cours-183258-10-MA1_TL_-_LDT-Index-Education
+DTSTART:20241118T074500Z
+DTEND:20241118T094500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - génie génétique et tp - Semoulin - 24-25
+  3237 HELHa
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : génie génétique et
+  tp\nEnseignant : Semoulin\nMémo : 24-25 3237 HELHa\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : génie géné
+ tique et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 3237 HELHa<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240905T123705Z
+UID:Cours-183294-5-MA1_TL_-_LDT-Index-Education
+DTSTART:20241017T113000Z
+DTEND:20241017T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240905T123705Z
+UID:Cours-183294-6-MA1_TL_-_LDT-Index-Education
+DTSTART:20241024T113000Z
+DTEND:20241024T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240905T123705Z
+UID:Cours-183294-13-MA1_TL_-_LDT-Index-Education
+DTSTART:20241212T123000Z
+DTEND:20241212T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240625T115541Z
+UID:Cours-183378-8-MA1_TL_-_LDT-Index-Education
+DTSTART:20241107T073000Z
+DTEND:20241107T160000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Compl. de tech. bioinfo. - Thieffry - 24
+ -25 - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Compl. de tech. bi
+ oinfo.\nEnseignant : Thieffry\nMémo : 24-25\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Compl. de 
+ tech. bioinfo.<br/>Enseignant : Thieffry<br/>Mémo : 24-25<br/>Type : Labor
+ atoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T083737Z
+UID:Cours-183384-9-MA1_TL_-_LDT-Index-Education
+DTSTART:20241112T074500Z
+DTEND:20241112T170000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Tp de chimie ana instr - 24-25 4016. Int
+ ervenants: OLIVIER & SCLAMENDER - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Tp de chimie ana i
+ nstr\nMémo : 24-25 4016. Intervenants: OLIVIER & SCLAMENDER\nType : Labora
+ toires\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Tp de chim
+ ie ana instr<br/>Mémo : 24-25 4016. Intervenants: OLIVIER & SCLAMENDER<br/
+ >Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T083524Z
+UID:Cours-183409-11-MA1_TL_-_LDT-Index-Education
+DTSTART:20241126T074500Z
+DTEND:20241126T120000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Génie enzymatique - Walravens - 24-25 HE
+ LHa 3235 et 3237
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Génie enzymatique\
+ nEnseignant : Walravens\nMémo : 24-25 HELHa 3235 et 3237\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Génie enzy
+ matique<br/>Enseignant : Walravens<br/>Mémo : 24-25 HELHa 3235 et 3237<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240826T090814Z
+UID:Cours-183413-3-MA1_TL_-_LDT-Index-Education
+DTSTART:20241004T063000Z
+DTEND:20241004T144500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - GMP-GLP - Pirson - 24-25 (formateur Robe
+ rtto Collura) horaires 8h45-13h et 14h-18h.
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : GMP-GLP\nEnseignan
+ t : Pirson\nMémo : 24-25 (formateur Robertto Collura) horaires 8h45-13h et
+  14h-18h.\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : GMP-GLP<br
+ />Enseignant : Pirson<br/>Mémo : 24-25 (formateur Robertto Collura) horair
+ es 8h45-13h et 14h-18h.<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082815Z
+UID:Cours-183417-13-MA1_TL_-_LDT-Index-Education
+DTSTART:20241209T150000Z
+DTEND:20241209T170000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - génie génétique et tp - Semoulin - 24-25
+  HELHa 3021
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : génie génétique et
+  tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3021\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : génie géné
+ tique et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3021<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T084521Z
+UID:Cours-183435-14-MA1_TL_-_LDT-Index-Education
+DTSTART:20241218T124500Z
+DTEND:20241218T170000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - TP de genie enzymatique - Walravens - 24
+ -25 4009 HELHa labo biochimie - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : TP de genie enzyma
+ tique\nEnseignant : Walravens\nMémo : 24-25 4009 HELHa labo biochimie\nTyp
+ e : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : TP de geni
+ e enzymatique<br/>Enseignant : Walravens<br/>Mémo : 24-25 4009 HELHa labo 
+ biochimie<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082216Z
+UID:Cours-184370-1-MA1_TL_-_LDT-Index-Education
+DTSTART:20240917T081500Z
+DTEND:20240917T101500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Lang
+ ues - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Langues\nEnseignant : Remacle\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Langues<br/>Enseignant : Remacle<br/>Salle : 1/
+ 29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20231120T074503Z
+UID:Cours-184556-11-MA1_TL_-_LDT-Index-Education
+DTSTART:20241129T093000Z
+DTEND:20241129T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info IA et Big Data\, MA1 TL - LDT\, MA1 TL - 
+ PASS Info IA et Big Data - Business intelligence - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info IA et Big Data\, MA1 TL - L
+ DT\, MA1 TL - PASS Info IA et Big Data\nMatière : Business intelligence\nE
+ nseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info IA et Big Data\, MA1 T
+ L - LDT\, MA1 TL - PASS Info IA et Big Data<br/>Matière : Business intelli
+ gence<br/>Enseignant : Cremer<br/>Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240820T075257Z
+UID:Cours-186237-1-MA1_TL_-_LDT-Index-Education
+DTSTART:20240918T061500Z
+DTEND:20240918T101500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Programmation R - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Programmation R\nE
+ nseignant : Branders\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Programmat
+ ion R<br/>Enseignant : Branders<br/>Salle : 1/10B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240819T093256Z
+UID:Cours-186293-10-MA1_TL_-_LDT-Index-Education
+DTSTART:20241122T130000Z
+DTEND:20241122T160000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240820T074924Z
+UID:Cours-186369-2-MA1_TL_-_LDT-Index-Education
+DTSTART:20240924T063000Z
+DTEND:20240924T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Programmation R - Branders
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Programmation R\nE
+ nseignant : Branders\nSalle : 1/21\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Programmat
+ ion R<br/>Enseignant : Branders<br/>Salle : 1/21<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240823T071244Z
+UID:Cours-187119-9-MA1_TL_-_LDT-Index-Education
+DTSTART:20241114T071500Z
+DTEND:20241114T101500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Proj
+ ect management - Bouillon
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Project management\nEnseignant : Bouillon\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Project management<br/>Enseignant : Bouillon<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240819T070218Z
+UID:Cours-189751-1-MA1_TL_-_LDT-Index-Education
+DTSTART:20240916T061500Z
+DTEND:20240916T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240911T093749Z
+UID:Cours-189753-13-MA1_TL_-_LDT-Index-Education
+DTSTART:20241213T090000Z
+DTEND:20241213T110000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Culture cellulaire - Pirson - 24-25 HELH
+ a 3236 - Cours
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Culture cellulaire
+ \nEnseignant : Pirson\nMémo : 24-25 HELHa 3236\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Culture ce
+ llulaire<br/>Enseignant : Pirson<br/>Mémo : 24-25 HELHa 3236<br/>Type : Co
+ urs<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240905T130255Z
+UID:Cours-189754-5-MA1_TL_-_LDT-Index-Education
+DTSTART:20241016T083000Z
+DTEND:20241016T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240905T130255Z
+UID:Cours-189754-6-MA1_TL_-_LDT-Index-Education
+DTSTART:20241023T083000Z
+DTEND:20241023T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082614Z
+UID:Cours-191438-12-MA1_TL_-_LDT-Index-Education
+DTSTART:20241206T130000Z
+DTEND:20241206T150000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Proj
+ ect management - Bouillon
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Project management\nEnseignant : Bouillon\nSalle : 2/SA
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Project management<br/>Enseignant : Bouillon<br
+ />Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082454Z
+UID:Cours-196134-11-MA1_TL_-_LDT-Index-Education
+DTSTART:20241125T074500Z
+DTEND:20241125T094500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Génie enzymatique - Walravens - 24-25 HE
+ LHa3024
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Génie enzymatique\
+ nEnseignant : Walravens\nMémo : 24-25 HELHa3024\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Génie enzy
+ matique<br/>Enseignant : Walravens<br/>Mémo : 24-25 HELHa3024<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T113438Z
+UID:Cours-203751-4-MA1_TL_-_LDT-Index-Education
+DTSTART:20241008T061500Z
+DTEND:20241008T104500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Visite - Deprez - 24-25 Salon SAM
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Visite\nEnseignant
+  : Deprez\nMémo : 24-25 Salon SAM\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Visite<br/
+ >Enseignant : Deprez<br/>Mémo : 24-25 Salon SAM<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240820T075024Z
+UID:Cours-203932-5-MA1_TL_-_LDT-Index-Education
+DTSTART:20241017T061500Z
+DTEND:20241017T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Programmation R - Branders
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Programmation R\nE
+ nseignant : Branders\nSalle : 1/10A\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Programmat
+ ion R<br/>Enseignant : Branders<br/>Salle : 1/10A<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T081400Z
+UID:Cours-204904-1-MA1_TL_-_LDT-Index-Education
+DTSTART:20240916T090000Z
+DTEND:20240916T110000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Méthodes d'analyse spec et tp - Semoulin
+  - 24-25 HELHa 3123
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Méthodes d'analyse
+  spec et tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3123\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Méthodes d
+ 'analyse spec et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3123<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T081639Z
+UID:Cours-204905-2-MA1_TL_-_LDT-Index-Education
+DTSTART:20240923T114500Z
+DTEND:20240923T134500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Méthodes d'analyse spec et tp - Semoulin
+  - 24-25 HELHa 3123
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Méthodes d'analyse
+  spec et tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3123\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Méthodes d
+ 'analyse spec et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3123<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T081730Z
+UID:Cours-204906-3-MA1_TL_-_LDT-Index-Education
+DTSTART:20240930T064500Z
+DTEND:20240930T084500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - génie génétique et tp - Semoulin - 24-25
+  HELHa local 3221
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : génie génétique et
+  tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa local 3221\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : génie géné
+ tique et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa local 3221<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T081811Z
+UID:Cours-204907-3-MA1_TL_-_LDT-Index-Education
+DTSTART:20240930T090000Z
+DTEND:20240930T110000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Génie enzymatique - Walravens - 24-25HEL
+ Ha 3221
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Génie enzymatique\
+ nEnseignant : Walravens\nMémo : 24-25HELHa 3221\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Génie enzy
+ matique<br/>Enseignant : Walravens<br/>Mémo : 24-25HELHa 3221<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082058Z
+UID:Cours-204909-5-MA1_TL_-_LDT-Index-Education
+DTSTART:20241014T090000Z
+DTEND:20241014T110000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Méthodes d'analyse spec et tp - Semoulin
+  - 24-25 HELHa 3237
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Méthodes d'analyse
+  spec et tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3237\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Méthodes d
+ 'analyse spec et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3237<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082142Z
+UID:Cours-204910-5-MA1_TL_-_LDT-Index-Education
+DTSTART:20241014T140000Z
+DTEND:20241014T160000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Méthodes d'analyse spec et tp - Semoulin
+  - 24-25 HELHa 3123
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Méthodes d'analyse
+  spec et tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3123\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Méthodes d
+ 'analyse spec et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3123<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082537Z
+UID:Cours-204912-11-MA1_TL_-_LDT-Index-Education
+DTSTART:20241125T150000Z
+DTEND:20241125T170000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Méthodes d'analyse spec et tp - Semoulin
+  - 24-25 HELHa 3121
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Méthodes d'analyse
+  spec et tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3121\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Méthodes d
+ 'analyse spec et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3121<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082632Z
+UID:Cours-204913-12-MA1_TL_-_LDT-Index-Education
+DTSTART:20241202T074500Z
+DTEND:20241202T120000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Méthodes d'analyse spec et tp - Semoulin
+  - 24-25 HELHa 3121
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Méthodes d'analyse
+  spec et tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3121\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Méthodes d
+ 'analyse spec et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3121<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082714Z
+UID:Cours-204914-12-MA1_TL_-_LDT-Index-Education
+DTSTART:20241202T124500Z
+DTEND:20241202T170000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - génie génétique et tp - Semoulin - 24-25
+  3123
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : génie génétique et
+  tp\nEnseignant : Semoulin\nMémo : 24-25 3123\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : génie géné
+ tique et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 3123<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T082919Z
+UID:Cours-204917-14-MA1_TL_-_LDT-Index-Education
+DTSTART:20241216T074500Z
+DTEND:20241216T120000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Méthodes d'analyse spec et tp - Semoulin
+  - 24-25 HELHa 3235
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Méthodes d'analyse
+  spec et tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3235\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Méthodes d
+ 'analyse spec et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3235<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T083205Z
+UID:Cours-204918-5-MA1_TL_-_LDT-Index-Education
+DTSTART:20241015T064500Z
+DTEND:20241015T110000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - TP de génie génétique - Pirson - 24-25 H
+ ELHa 4009 labo biochimie - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : TP de génie généti
+ que\nEnseignant : Pirson\nMémo : 24-25 HELHa 4009 labo biochimie\nType : L
+ aboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : TP de géni
+ e génétique<br/>Enseignant : Pirson<br/>Mémo : 24-25 HELHa 4009 labo bioch
+ imie<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T083819Z
+UID:Cours-204926-1-MA1_TL_-_LDT-Index-Education
+DTSTART:20240918T140000Z
+DTEND:20240918T160000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - génie génétique et tp - Semoulin - 24-25
+  HELHa local 3136
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : génie génétique et
+  tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa local 3136\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : génie géné
+ tique et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa local 3136<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T083900Z
+UID:Cours-204929-2-MA1_TL_-_LDT-Index-Education
+DTSTART:20240925T084500Z
+DTEND:20240925T104500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - génie génétique et tp - Semoulin - 24-25
+  HELHa local 3237
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : génie génétique et
+  tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa local 3237\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : génie géné
+ tique et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa local 3237<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T083936Z
+UID:Cours-204930-2-MA1_TL_-_LDT-Index-Education
+DTSTART:20240925T140000Z
+DTEND:20240925T160000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Génie enzymatique - Walravens - 24-25 HE
+ LHa 3121
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Génie enzymatique\
+ nEnseignant : Walravens\nMémo : 24-25 HELHa 3121\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Génie enzy
+ matique<br/>Enseignant : Walravens<br/>Mémo : 24-25 HELHa 3121<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T084234Z
+UID:Cours-204944-10-MA1_TL_-_LDT-Index-Education
+DTSTART:20241120T074500Z
+DTEND:20241120T120000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Génie enzymatique - Walravens - 24-25 HE
+ LHa 32-24
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Génie enzymatique\
+ nEnseignant : Walravens\nMémo : 24-25 HELHa 32-24\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Génie enzy
+ matique<br/>Enseignant : Walravens<br/>Mémo : 24-25 HELHa 32-24<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T084252Z
+UID:Cours-204945-10-MA1_TL_-_LDT-Index-Education
+DTSTART:20241120T124500Z
+DTEND:20241120T144500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Méthodes d'analyse spec et tp - Semoulin
+  - 24-25 HELHa 3237 - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Méthodes d'analyse
+  spec et tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3237\nType : Labora
+ toires\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Méthodes d
+ 'analyse spec et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3237<
+ br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T084312Z
+UID:Cours-204946-10-MA1_TL_-_LDT-Index-Education
+DTSTART:20241120T150000Z
+DTEND:20241120T170000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - génie génétique et tp - Semoulin - 24-25
+  HELHa 3237
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : génie génétique et
+  tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3237\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : génie géné
+ tique et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3237<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T084514Z
+UID:Cours-204949-13-MA1_TL_-_LDT-Index-Education
+DTSTART:20241211T124500Z
+DTEND:20241211T170000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - TP de genie enzymatique - Walravens - 24
+ -25HELHa 4009 labo Biochimie
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : TP de genie enzyma
+ tique\nEnseignant : Walravens\nMémo : 24-25HELHa 4009 labo Biochimie\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : TP de geni
+ e enzymatique<br/>Enseignant : Walravens<br/>Mémo : 24-25HELHa 4009 labo B
+ iochimie<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T084450Z
+UID:Cours-204950-12-MA1_TL_-_LDT-Index-Education
+DTSTART:20241204T100000Z
+DTEND:20241204T120000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Génie enzymatique - Walravens - 24-25 HE
+ LHa
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Génie enzymatique\
+ nEnseignant : Walravens\nMémo : 24-25 HELHa\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Génie enzy
+ matique<br/>Enseignant : Walravens<br/>Mémo : 24-25 HELHa<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T084638Z
+UID:Cours-204951-9-MA1_TL_-_LDT-Index-Education
+DTSTART:20241114T150000Z
+DTEND:20241114T170000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - génie génétique et tp - Semoulin - 24-25
+  HELHa 3235
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : génie génétique et
+  tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3235\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : génie géné
+ tique et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3235<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T084700Z
+UID:Cours-204954-9-MA1_TL_-_LDT-Index-Education
+DTSTART:20241115T074500Z
+DTEND:20241115T094500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - génie génétique et tp - Semoulin - 24-25
+  HELHa 3235
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : génie génétique et
+  tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3235\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : génie géné
+ tique et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3235<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T084826Z
+UID:Cours-204957-5-MA1_TL_-_LDT-Index-Education
+DTSTART:20241017T133000Z
+DTEND:20241017T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T084826Z
+UID:Cours-204957-13-MA1_TL_-_LDT-Index-Education
+DTSTART:20241212T143000Z
+DTEND:20241212T163000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T084805Z
+UID:Cours-204958-10-MA1_TL_-_LDT-Index-Education
+DTSTART:20241122T074500Z
+DTEND:20241122T094500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Méthodes d'analyse spec et tp - Semoulin
+  - 24-25 HELHa 3237
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Méthodes d'analyse
+  spec et tp\nEnseignant : Semoulin\nMémo : 24-25 HELHa 3237\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Méthodes d
+ 'analyse spec et tp<br/>Enseignant : Semoulin<br/>Mémo : 24-25 HELHa 3237<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240819T065932Z
+UID:Cours-204959-1-MA1_TL_-_LDT-Index-Education
+DTSTART:20240919T113000Z
+DTEND:20240919T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240709T085008Z
+UID:Cours-204961-1-MA1_TL_-_LDT-Index-Education
+DTSTART:20240920T063000Z
+DTEND:20240920T083000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Proj
+ ect management - Bouillon
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Project management\nEnseignant : Bouillon\nSalle : 2/SA
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Project management<br/>Enseignant : Bouillon<br
+ />Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240819T050651Z
+UID:Cours-206958-2-MA1_TL_-_LDT-Index-Education
+DTSTART:20240923T140000Z
+DTEND:20240923T160000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Génie enzymatique - Walravens - 24-25 HE
+ LHa 3023
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Génie enzymatique\
+ nEnseignant : Walravens\nMémo : 24-25 HELHa 3023\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Génie enzy
+ matique<br/>Enseignant : Walravens<br/>Mémo : 24-25 HELHa 3023<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240819T050703Z
+UID:Cours-206959-13-MA1_TL_-_LDT-Index-Education
+DTSTART:20241209T074500Z
+DTEND:20241209T094500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Génie enzymatique - Walravens - 24-25 HE
+ LHa 3023
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Génie enzymatique\
+ nEnseignant : Walravens\nMémo : 24-25 HELHa 3023\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Génie enzy
+ matique<br/>Enseignant : Walravens<br/>Mémo : 24-25 HELHa 3023<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240902T061144Z
+UID:Cours-206978-6-MA1_TL_-_LDT-Index-Education
+DTSTART:20241022T073000Z
+DTEND:20241022T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Lang
+ ues - Remacle
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Langues\nEnseignant : Remacle\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Langues<br/>Enseignant : Remacle<br/>Salle : 2/
+ SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240902T061456Z
+UID:Cours-206979-10-MA1_TL_-_LDT-Index-Education
+DTSTART:20241121T083000Z
+DTEND:20241121T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Lang
+ ues - Remacle - TEST TOEIC
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Langues\nEnseignant : Remacle\nSalle : 2/SA\nMémo : TES
+ T TOEIC\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Langues<br/>Enseignant : Remacle<br/>Salle : 2/
+ SA<br/>Mémo : TEST TOEIC<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240902T061730Z
+UID:Cours-206980-4-MA1_TL_-_LDT-Index-Education
+DTSTART:20241009T113000Z
+DTEND:20241009T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Lang
+ ues - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Langues\nEnseignant : Remacle\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Langues<br/>Enseignant : Remacle<br/>Salle : 1/
+ 29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240902T060932Z
+UID:Cours-206982-3-MA1_TL_-_LDT-Index-Education
+DTSTART:20241002T113000Z
+DTEND:20241002T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Lang
+ ues - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Langues\nEnseignant : Remacle\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Langues<br/>Enseignant : Remacle<br/>Salle : 1/
+ 29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240819T065852Z
+UID:Cours-206983-4-MA1_TL_-_LDT-Index-Education
+DTSTART:20241010T133000Z
+DTEND:20241010T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Base
+ s de données - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Bases de données\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Bases de données<br/>Enseignant : Cremer<br/>Sa
+ lle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240819T070507Z
+UID:Cours-206995-4-MA1_TL_-_LDT-Index-Education
+DTSTART:20241011T061500Z
+DTEND:20241011T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Proj
+ ect management - Bouillon
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Project management\nEnseignant : Bouillon\nSalle : 1/25
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Project management<br/>Enseignant : Bouillon<br
+ />Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240819T070507Z
+UID:Cours-206995-6-MA1_TL_-_LDT-Index-Education
+DTSTART:20241025T061500Z
+DTEND:20241025T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Proj
+ ect management - Bouillon
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Project management\nEnseignant : Bouillon\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Project management<br/>Enseignant : Bouillon<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240819T070507Z
+UID:Cours-206995-11-MA1_TL_-_LDT-Index-Education
+DTSTART:20241129T071500Z
+DTEND:20241129T091500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info Automation et Sys. emb.\, MA1 TL - Info I
+ A et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT\, MA1 TL - PA
+ SS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et Big Data - Proj
+ ect management - Bouillon
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info Automation et Sys. emb.\, M
+ A1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL - LDT
+ \, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA et B
+ ig Data\nMatière : Project management\nEnseignant : Bouillon\nSalle : 1/25
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info Automation et Sys. emb
+ .\, MA1 TL - Info IA et Big Data\, MA1 TL - Informatique Gestion\, MA1 TL 
+ - LDT\, MA1 TL - PASS Info Automation et Sys. emb.\, MA1 TL - PASS Info IA
+  et Big Data<br/>Matière : Project management<br/>Enseignant : Bouillon<br
+ />Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240819T072700Z
+UID:Cours-207003-12-MA1_TL_-_LDT-Index-Education
+DTSTART:20241205T071500Z
+DTEND:20241205T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info IA et Big Data\, MA1 TL - LDT\, MA1 TL - 
+ PASS Info IA et Big Data - Business intelligence - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info IA et Big Data\, MA1 TL - L
+ DT\, MA1 TL - PASS Info IA et Big Data\nMatière : Business intelligence\nE
+ nseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info IA et Big Data\, MA1 T
+ L - LDT\, MA1 TL - PASS Info IA et Big Data<br/>Matière : Business intelli
+ gence<br/>Enseignant : Cremer<br/>Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240911T093904Z
+UID:Cours-214858-13-MA1_TL_-_LDT-Index-Education
+DTSTART:20241211T071500Z
+DTEND:20241211T091500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info IA et Big Data\, MA1 TL - LDT\, MA1 TL - 
+ PASS Info IA et Big Data - Business intelligence - Cremer
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info IA et Big Data\, MA1 TL - L
+ DT\, MA1 TL - PASS Info IA et Big Data\nMatière : Business intelligence\nE
+ nseignant : Cremer\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info IA et Big Data\, MA1 T
+ L - LDT\, MA1 TL - PASS Info IA et Big Data<br/>Matière : Business intelli
+ gence<br/>Enseignant : Cremer<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240819T073453Z
+UID:Cours-207005-14-MA1_TL_-_LDT-Index-Education
+DTSTART:20241220T093000Z
+DTEND:20241220T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info IA et Big Data\, MA1 TL - LDT\, MA1 TL - 
+ PASS Info IA et Big Data - Business intelligence - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info IA et Big Data\, MA1 TL - L
+ DT\, MA1 TL - PASS Info IA et Big Data\nMatière : Business intelligence\nE
+ nseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info IA et Big Data\, MA1 T
+ L - LDT\, MA1 TL - PASS Info IA et Big Data<br/>Matière : Business intelli
+ gence<br/>Enseignant : Cremer<br/>Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240819T073444Z
+UID:Cours-207006-12-MA1_TL_-_LDT-Index-Education
+DTSTART:20241206T071500Z
+DTEND:20241206T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info IA et Big Data\, MA1 TL - LDT\, MA1 TL - 
+ PASS Info IA et Big Data - Business intelligence - Cremer
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info IA et Big Data\, MA1 TL - L
+ DT\, MA1 TL - PASS Info IA et Big Data\nMatière : Business intelligence\nE
+ nseignant : Cremer\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info IA et Big Data\, MA1 T
+ L - LDT\, MA1 TL - PASS Info IA et Big Data<br/>Matière : Business intelli
+ gence<br/>Enseignant : Cremer<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240819T073428Z
+UID:Cours-207009-11-MA1_TL_-_LDT-Index-Education
+DTSTART:20241128T123000Z
+DTEND:20241128T163000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info IA et Big Data\, MA1 TL - LDT\, MA1 TL - 
+ PASS Info IA et Big Data - Business intelligence - Cremer
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info IA et Big Data\, MA1 TL - L
+ DT\, MA1 TL - PASS Info IA et Big Data\nMatière : Business intelligence\nE
+ nseignant : Cremer\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info IA et Big Data\, MA1 T
+ L - LDT\, MA1 TL - PASS Info IA et Big Data<br/>Matière : Business intelli
+ gence<br/>Enseignant : Cremer<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240819T073435Z
+UID:Cours-207011-14-MA1_TL_-_LDT-Index-Education
+DTSTART:20241219T093000Z
+DTEND:20241219T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info IA et Big Data\, MA1 TL - LDT\, MA1 TL - 
+ PASS Info IA et Big Data - Business intelligence - Cremer
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info IA et Big Data\, MA1 TL - L
+ DT\, MA1 TL - PASS Info IA et Big Data\nMatière : Business intelligence\nE
+ nseignant : Cremer\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info IA et Big Data\, MA1 T
+ L - LDT\, MA1 TL - PASS Info IA et Big Data<br/>Matière : Business intelli
+ gence<br/>Enseignant : Cremer<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240911T093803Z
+UID:Cours-207012-13-MA1_TL_-_LDT-Index-Education
+DTSTART:20241212T071500Z
+DTEND:20241212T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Info IA et Big Data\, MA1 TL - LDT\, MA1 TL - 
+ PASS Info IA et Big Data - Business intelligence - Cremer
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Info IA et Big Data\, MA1 TL - L
+ DT\, MA1 TL - PASS Info IA et Big Data\nMatière : Business intelligence\nE
+ nseignant : Cremer\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Info IA et Big Data\, MA1 T
+ L - LDT\, MA1 TL - PASS Info IA et Big Data<br/>Matière : Business intelli
+ gence<br/>Enseignant : Cremer<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240820T074951Z
+UID:Cours-207931-3-MA1_TL_-_LDT-Index-Education
+DTSTART:20241003T083000Z
+DTEND:20241003T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Programmation R - Branders
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Programmation R\nE
+ nseignant : Branders\nSalle : 1/28\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Programmat
+ ion R<br/>Enseignant : Branders<br/>Salle : 1/28<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240820T075005Z
+UID:Cours-207932-3-MA1_TL_-_LDT-Index-Education
+DTSTART:20241003T113000Z
+DTEND:20241003T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Programmation R - Branders
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Programmation R\nE
+ nseignant : Branders\nSalle : 2/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Programmat
+ ion R<br/>Enseignant : Branders<br/>Salle : 2/10B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+LAST-MODIFIED:20240820T075109Z
+UID:Cours-207935-4-MA1_TL_-_LDT-Index-Education
+DTSTART:20241009T061500Z
+DTEND:20241009T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Programmation R - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Programmation R\nE
+ nseignant : Branders\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Programmat
+ ion R<br/>Enseignant : Branders<br/>Salle : 1/10B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+UID:Ferie-939-MA1_TL_-_LDT-Index-Education
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240928
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+UID:Ferie-940-MA1_TL_-_LDT-Index-Education
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145730Z
+UID:Ferie-941-MA1_TL_-_LDT-Index-Education
+DTSTART;VALUE=DATE:20241111
+DTEND;VALUE=DATE:20241112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+END:VCALENDAR

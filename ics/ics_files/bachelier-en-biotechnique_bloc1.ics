@@ -1,0 +1,2062 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
+METHOD:PUBLISH
+X-CALSTART:20240916T000000Z
+X-CALEND:20241221T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - TTXY1 - BA1P Biotechnique - du 16 septembre 
+ au 21 décembre 2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de TTXY1 - BA1P Biotechnique génér
+ é par le logiciel HP (©INDEX ÉDUCATION) le 24 sept. 2024 - Haute Ecole en 
+ Hainaut - valable sur la période du 16 septembre au 21 décembre 2024 - Sem
+ aines : semaine 38 - 51
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125507Z
+UID:Cours-154748-3-BA1P_Biotechnique-Index-Education
+DTSTART:20241004T071500Z
+DTEND:20241004T103000Z
+SUMMARY;LANGUAGE=fr:Biologie appliquée 1 - Conjaerts - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Biologie appliquée 1\nEnseignant : Conjae
+ rts\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biologie appliquée 1<br/>Enseignant 
+ : Conjaerts<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125507Z
+UID:Cours-154748-4-BA1P_Biotechnique-Index-Education
+DTSTART:20241011T071500Z
+DTEND:20241011T103000Z
+SUMMARY;LANGUAGE=fr:Biologie appliquée 1 - Conjaerts - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Biologie appliquée 1\nEnseignant : Conjae
+ rts\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biologie appliquée 1<br/>Enseignant 
+ : Conjaerts<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125507Z
+UID:Cours-154748-5-BA1P_Biotechnique-Index-Education
+DTSTART:20241018T071500Z
+DTEND:20241018T103000Z
+SUMMARY;LANGUAGE=fr:Biologie appliquée 1 - Conjaerts - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Biologie appliquée 1\nEnseignant : Conjae
+ rts\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biologie appliquée 1<br/>Enseignant 
+ : Conjaerts<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125507Z
+UID:Cours-154748-6-BA1P_Biotechnique-Index-Education
+DTSTART:20241025T071500Z
+DTEND:20241025T103000Z
+SUMMARY;LANGUAGE=fr:Biologie appliquée 1 - Conjaerts - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Biologie appliquée 1\nEnseignant : Conjae
+ rts\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biologie appliquée 1<br/>Enseignant 
+ : Conjaerts<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125507Z
+UID:Cours-154748-8-BA1P_Biotechnique-Index-Education
+DTSTART:20241108T081500Z
+DTEND:20241108T113000Z
+SUMMARY;LANGUAGE=fr:Biologie appliquée 1 - Conjaerts - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Biologie appliquée 1\nEnseignant : Conjae
+ rts\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biologie appliquée 1<br/>Enseignant 
+ : Conjaerts<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125507Z
+UID:Cours-154748-9-BA1P_Biotechnique-Index-Education
+DTSTART:20241115T081500Z
+DTEND:20241115T113000Z
+SUMMARY;LANGUAGE=fr:Biologie appliquée 1 - Conjaerts - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Biologie appliquée 1\nEnseignant : Conjae
+ rts\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biologie appliquée 1<br/>Enseignant 
+ : Conjaerts<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125507Z
+UID:Cours-154748-10-BA1P_Biotechnique-Index-Education
+DTSTART:20241122T081500Z
+DTEND:20241122T113000Z
+SUMMARY;LANGUAGE=fr:Biologie appliquée 1 - Conjaerts - Cours
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Biologie appliquée 1\nEnseignant : Conjae
+ rts\nSalle : 1/29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biologie appliquée 1<br/>Enseignant 
+ : Conjaerts<br/>Salle : 1/29<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125507Z
+UID:Cours-154748-11-BA1P_Biotechnique-Index-Education
+DTSTART:20241129T081500Z
+DTEND:20241129T113000Z
+SUMMARY;LANGUAGE=fr:Biologie appliquée 1 - Conjaerts - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Biologie appliquée 1\nEnseignant : Conjae
+ rts\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biologie appliquée 1<br/>Enseignant 
+ : Conjaerts<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125507Z
+UID:Cours-154748-12-BA1P_Biotechnique-Index-Education
+DTSTART:20241206T081500Z
+DTEND:20241206T113000Z
+SUMMARY;LANGUAGE=fr:Biologie appliquée 1 - Conjaerts - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Biologie appliquée 1\nEnseignant : Conjae
+ rts\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biologie appliquée 1<br/>Enseignant 
+ : Conjaerts<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125507Z
+UID:Cours-154748-13-BA1P_Biotechnique-Index-Education
+DTSTART:20241213T081500Z
+DTEND:20241213T113000Z
+SUMMARY;LANGUAGE=fr:Biologie appliquée 1 - Conjaerts - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Biologie appliquée 1\nEnseignant : Conjae
+ rts\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biologie appliquée 1<br/>Enseignant 
+ : Conjaerts<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125507Z
+UID:Cours-154748-14-BA1P_Biotechnique-Index-Education
+DTSTART:20241220T081500Z
+DTEND:20241220T113000Z
+SUMMARY;LANGUAGE=fr:Biologie appliquée 1 - Conjaerts - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Biologie appliquée 1\nEnseignant : Conjae
+ rts\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biologie appliquée 1<br/>Enseignant 
+ : Conjaerts<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125502Z
+UID:Cours-154751-10-BA1P_Biotechnique-Index-Education
+DTSTART:20241121T073000Z
+DTEND:20241121T113000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Gryspeert - Laboratoires
+LOCATION;LANGUAGE=fr:1/PHY
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Gryspe
+ ert\nSalle : 1/PHY\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Gryspeert<br/>Salle : 1/PHY<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125502Z
+UID:Cours-154751-11-BA1P_Biotechnique-Index-Education
+DTSTART:20241128T073000Z
+DTEND:20241128T113000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Gryspeert - Laboratoires
+LOCATION;LANGUAGE=fr:1/PHY
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Gryspe
+ ert\nSalle : 1/PHY\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Gryspeert<br/>Salle : 1/PHY<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125502Z
+UID:Cours-154751-12-BA1P_Biotechnique-Index-Education
+DTSTART:20241205T073000Z
+DTEND:20241205T113000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Gryspeert - Laboratoires
+LOCATION;LANGUAGE=fr:1/PHY
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Gryspe
+ ert\nSalle : 1/PHY\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Gryspeert<br/>Salle : 1/PHY<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125502Z
+UID:Cours-154751-13-BA1P_Biotechnique-Index-Education
+DTSTART:20241212T073000Z
+DTEND:20241212T113000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Gryspeert - Laboratoires
+LOCATION;LANGUAGE=fr:1/PHY
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Gryspe
+ ert\nSalle : 1/PHY\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Gryspeert<br/>Salle : 1/PHY<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125502Z
+UID:Cours-154751-14-BA1P_Biotechnique-Index-Education
+DTSTART:20241219T073000Z
+DTEND:20241219T113000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Gryspeert - Laboratoires
+LOCATION;LANGUAGE=fr:1/PHY
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Gryspe
+ ert\nSalle : 1/PHY\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Gryspeert<br/>Salle : 1/PHY<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125507Z
+UID:Cours-154756-13-BA1P_Biotechnique-Index-Education
+DTSTART:20241211T123000Z
+DTEND:20241211T164500Z
+SUMMARY;LANGUAGE=fr:Electronique appliquée-Labo - Taira - Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique appliquée-Labo\nEnseignant :
+  Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique appliquée-Labo<br/>Ense
+ ignant : Taira<br/>Salle : 2/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T075357Z
+UID:Cours-154808-3-BA1P_Biotechnique-Index-Education
+DTSTART:20241003T083000Z
+DTEND:20241003T103000Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20230823T083636Z
+UID:Cours-154810-6-BA1P_Biotechnique-Index-Education
+DTSTART:20241021T083000Z
+DTEND:20241021T103000Z
+SUMMARY;LANGUAGE=fr:Electricité appliquée - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité appliquée\nEnseignant : Dupui
+ s\nSalle : 1/29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité appliquée<br/>Enseignant
+  : Dupuis<br/>Salle : 1/29<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20230831T122108Z
+UID:Cours-154812-10-BA1P_Biotechnique-Index-Education
+DTSTART:20241120T123000Z
+DTEND:20241120T143000Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240826T100754Z
+UID:Cours-154817-8-BA1P_Biotechnique-Index-Education
+DTSTART:20241106T123000Z
+DTEND:20241106T163000Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Pietka - Laboratoires
+LOCATION;LANGUAGE=fr:1/30
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Pietka\n
+ Salle : 1/30\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Pietka<br/>Salle : 1/30<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20230823T083451Z
+UID:Cours-154822-4-BA1P_Biotechnique-Index-Education
+DTSTART:20241007T133000Z
+DTEND:20241007T153000Z
+SUMMARY;LANGUAGE=fr:Mathématique appl. 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Mathématique appl. 1\nEnseignant : Carlie
+ r\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique appl. 1<br/>Enseignant 
+ : Carlier<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20230823T083451Z
+UID:Cours-154822-5-BA1P_Biotechnique-Index-Education
+DTSTART:20241014T133000Z
+DTEND:20241014T153000Z
+SUMMARY;LANGUAGE=fr:Mathématique appl. 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Mathématique appl. 1\nEnseignant : Carlie
+ r\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique appl. 1<br/>Enseignant 
+ : Carlier<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20230823T083451Z
+UID:Cours-154822-6-BA1P_Biotechnique-Index-Education
+DTSTART:20241021T133000Z
+DTEND:20241021T153000Z
+SUMMARY;LANGUAGE=fr:Mathématique appl. 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Mathématique appl. 1\nEnseignant : Carlie
+ r\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique appl. 1<br/>Enseignant 
+ : Carlier<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240821T124332Z
+UID:Cours-154853-1-BA1P_Biotechnique-Index-Education
+DTSTART:20240918T061500Z
+DTEND:20240918T081500Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Dupuis
+ \nSalle : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Dupuis<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240917T052611Z
+UID:Cours-158929-1-BA1P_Biotechnique-Index-Education
+DTSTART:20240917T083000Z
+DTEND:20240917T103000Z
+SUMMARY;LANGUAGE=fr:Electricité appliquée - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité appliquée\nEnseignant : Dupui
+ s\nSalle : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité appliquée<br/>Enseignant
+  : Dupuis<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240917T052611Z
+UID:Cours-158929-8-BA1P_Biotechnique-Index-Education
+DTSTART:20241105T093000Z
+DTEND:20241105T113000Z
+SUMMARY;LANGUAGE=fr:Electricité appliquée - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité appliquée\nEnseignant : Dupui
+ s\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité appliquée<br/>Enseignant
+  : Dupuis<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240704T122125Z
+UID:Cours-159156-1-BA1P_Biotechnique-Index-Education
+DTSTART:20240916T133000Z
+DTEND:20240916T153000Z
+SUMMARY;LANGUAGE=fr:Mathématique appl. 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Mathématique appl. 1\nEnseignant : Carlie
+ r\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique appl. 1<br/>Enseignant 
+ : Carlier<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240823T070855Z
+UID:Cours-162640-2-BA1P_Biotechnique-Index-Education
+DTSTART:20240926T061500Z
+DTEND:20240926T081500Z
+SUMMARY;LANGUAGE=fr:Mathématique appl. 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Mathématique appl. 1\nEnseignant : Carlie
+ r\nSalle : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique appl. 1<br/>Enseignant 
+ : Carlier<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T074653Z
+UID:Cours-165257-2-BA1P_Biotechnique-Index-Education
+DTSTART:20240924T061500Z
+DTEND:20240924T081500Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240705T052625Z
+UID:Cours-180188-12-BA1P_Biotechnique-Index-Education
+DTSTART:20241202T123000Z
+DTEND:20241202T163000Z
+SUMMARY;LANGUAGE=fr:Informatique 1- laboratoire - Scopel - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique 1- laboratoire\nEnseignant :
+  Scopel\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique 1- laboratoire<br/>Ense
+ ignant : Scopel<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T110453Z
+UID:Cours-180304-8-BA1P_Biotechnique-Index-Education
+DTSTART:20241107T123000Z
+DTEND:20241107T163000Z
+SUMMARY;LANGUAGE=fr:Informatique 1- laboratoire - Scopel - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique 1- laboratoire\nEnseignant :
+  Scopel\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique 1- laboratoire<br/>Ense
+ ignant : Scopel<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T110453Z
+UID:Cours-180304-13-BA1P_Biotechnique-Index-Education
+DTSTART:20241212T123000Z
+DTEND:20241212T163000Z
+SUMMARY;LANGUAGE=fr:Informatique 1- laboratoire - Scopel - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique 1- laboratoire\nEnseignant :
+  Scopel\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique 1- laboratoire<br/>Ense
+ ignant : Scopel<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T110453Z
+UID:Cours-180304-14-BA1P_Biotechnique-Index-Education
+DTSTART:20241219T123000Z
+DTEND:20241219T163000Z
+SUMMARY;LANGUAGE=fr:Informatique 1- laboratoire - Scopel - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique 1- laboratoire\nEnseignant :
+  Scopel\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique 1- laboratoire<br/>Ense
+ ignant : Scopel<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20230823T083429Z
+UID:Cours-180744-2-BA1P_Biotechnique-Index-Education
+DTSTART:20240923T083000Z
+DTEND:20240923T103000Z
+SUMMARY;LANGUAGE=fr:Electricité appliquée - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité appliquée\nEnseignant : Dupui
+ s\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité appliquée<br/>Enseignant
+  : Dupuis<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20230823T083429Z
+UID:Cours-180744-3-BA1P_Biotechnique-Index-Education
+DTSTART:20240930T083000Z
+DTEND:20240930T103000Z
+SUMMARY;LANGUAGE=fr:Electricité appliquée - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité appliquée\nEnseignant : Dupui
+ s\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité appliquée<br/>Enseignant
+  : Dupuis<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20230823T083429Z
+UID:Cours-180744-4-BA1P_Biotechnique-Index-Education
+DTSTART:20241007T083000Z
+DTEND:20241007T103000Z
+SUMMARY;LANGUAGE=fr:Electricité appliquée - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité appliquée\nEnseignant : Dupui
+ s\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité appliquée<br/>Enseignant
+  : Dupuis<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20230823T083429Z
+UID:Cours-180744-5-BA1P_Biotechnique-Index-Education
+DTSTART:20241014T083000Z
+DTEND:20241014T103000Z
+SUMMARY;LANGUAGE=fr:Electricité appliquée - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité appliquée\nEnseignant : Dupui
+ s\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité appliquée<br/>Enseignant
+  : Dupuis<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240821T114506Z
+UID:Cours-180746-13-BA1P_Biotechnique-Index-Education
+DTSTART:20241210T093000Z
+DTEND:20241210T113000Z
+SUMMARY;LANGUAGE=fr:Electricité appliquée - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité appliquée\nEnseignant : Dupui
+ s\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité appliquée<br/>Enseignant
+  : Dupuis<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T075514Z
+UID:Cours-180750-1-BA1P_Biotechnique-Index-Education
+DTSTART:20240919T061500Z
+DTEND:20240919T081500Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Dupuis
+ \nSalle : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Dupuis<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240704T121443Z
+UID:Cours-180751-2-BA1P_Biotechnique-Index-Education
+DTSTART:20240923T133000Z
+DTEND:20240923T153000Z
+SUMMARY;LANGUAGE=fr:Mathématique appl. 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Mathématique appl. 1\nEnseignant : Carlie
+ r\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique appl. 1<br/>Enseignant 
+ : Carlier<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240821T083149Z
+UID:Cours-180755-3-BA1P_Biotechnique-Index-Education
+DTSTART:20241003T113000Z
+DTEND:20241003T133000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Dupuis
+ \nSalle : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Dupuis<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240913T115542Z
+UID:Cours-180756-1-BA1P_Biotechnique-Index-Education
+DTSTART:20240916T113000Z
+DTEND:20240916T133000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Dupuis
+ \nSalle : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Dupuis<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240913T115542Z
+UID:Cours-180756-2-BA1P_Biotechnique-Index-Education
+DTSTART:20240923T113000Z
+DTEND:20240923T133000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Dupuis
+ \nSalle : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Dupuis<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240913T115542Z
+UID:Cours-180756-3-BA1P_Biotechnique-Index-Education
+DTSTART:20240930T113000Z
+DTEND:20240930T133000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Dupuis
+ \nSalle : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Dupuis<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240913T115542Z
+UID:Cours-180756-4-BA1P_Biotechnique-Index-Education
+DTSTART:20241007T113000Z
+DTEND:20241007T133000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Dupuis
+ \nSalle : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Dupuis<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240913T115542Z
+UID:Cours-180756-5-BA1P_Biotechnique-Index-Education
+DTSTART:20241014T113000Z
+DTEND:20241014T133000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Dupuis
+ \nSalle : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Dupuis<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240913T115542Z
+UID:Cours-180756-6-BA1P_Biotechnique-Index-Education
+DTSTART:20241021T113000Z
+DTEND:20241021T133000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Dupuis
+ \nSalle : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Dupuis<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T075431Z
+UID:Cours-180757-6-BA1P_Biotechnique-Index-Education
+DTSTART:20241023T113000Z
+DTEND:20241023T133000Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20230711T055650Z
+UID:Cours-180762-12-BA1P_Biotechnique-Index-Education
+DTSTART:20241204T123000Z
+DTEND:20241204T153000Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T065604Z
+UID:Cours-180763-2-BA1P_Biotechnique-Index-Education
+DTSTART:20240926T083000Z
+DTEND:20240926T103000Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T065604Z
+UID:Cours-180763-8-BA1P_Biotechnique-Index-Education
+DTSTART:20241107T093000Z
+DTEND:20241107T113000Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalle : 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salle : 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20230831T122151Z
+UID:Cours-182231-1-BA1P_Biotechnique-Index-Education
+DTSTART:20240919T083000Z
+DTEND:20240919T103000Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T074619Z
+UID:Cours-183599-3-BA1P_Biotechnique-Index-Education
+DTSTART:20241001T061500Z
+DTEND:20241001T081500Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T074619Z
+UID:Cours-183599-4-BA1P_Biotechnique-Index-Education
+DTSTART:20241008T061500Z
+DTEND:20241008T081500Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T074619Z
+UID:Cours-183599-5-BA1P_Biotechnique-Index-Education
+DTSTART:20241015T061500Z
+DTEND:20241015T081500Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T074619Z
+UID:Cours-183599-9-BA1P_Biotechnique-Index-Education
+DTSTART:20241112T071500Z
+DTEND:20241112T091500Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T074619Z
+UID:Cours-183599-10-BA1P_Biotechnique-Index-Education
+DTSTART:20241119T071500Z
+DTEND:20241119T091500Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T074619Z
+UID:Cours-183599-11-BA1P_Biotechnique-Index-Education
+DTSTART:20241126T071500Z
+DTEND:20241126T091500Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20230823T083451Z
+UID:Cours-183600-3-BA1P_Biotechnique-Index-Education
+DTSTART:20240930T133000Z
+DTEND:20240930T153000Z
+SUMMARY;LANGUAGE=fr:Mathématique appl. 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Mathématique appl. 1\nEnseignant : Carlie
+ r\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique appl. 1<br/>Enseignant 
+ : Carlier<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T075403Z
+UID:Cours-183601-4-BA1P_Biotechnique-Index-Education
+DTSTART:20241010T083000Z
+DTEND:20241010T103000Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240913T115532Z
+UID:Cours-183611-1-BA1P_Biotechnique-Index-Education
+DTSTART:20240916T083000Z
+DTEND:20240916T103000Z
+SUMMARY;LANGUAGE=fr:Electricité appliquée - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité appliquée\nEnseignant : Dupui
+ s\nSalle : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité appliquée<br/>Enseignant
+  : Dupuis<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T075907Z
+UID:Cours-183626-13-BA1P_Biotechnique-Index-Education
+DTSTART:20241210T071500Z
+DTEND:20241210T091500Z
+SUMMARY;LANGUAGE=fr:Mathématique appl. 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Mathématique appl. 1\nEnseignant : Carlie
+ r\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique appl. 1<br/>Enseignant 
+ : Carlier<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240923T073047Z
+UID:Cours-215719-2-BA1P_Biotechnique-Index-Education
+DTSTART:20240925T113000Z
+DTEND:20240925T133000Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240923T073047Z
+UID:Cours-215719-3-BA1P_Biotechnique-Index-Education
+DTSTART:20241002T113000Z
+DTEND:20241002T133000Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalle : 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salle : 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240923T073047Z
+UID:Cours-215719-4-BA1P_Biotechnique-Index-Education
+DTSTART:20241009T113000Z
+DTEND:20241009T133000Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240923T073047Z
+UID:Cours-215719-11-BA1P_Biotechnique-Index-Education
+DTSTART:20241127T123000Z
+DTEND:20241127T143000Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T075335Z
+UID:Cours-192546-1-BA1P_Biotechnique-Index-Education
+DTSTART:20240917T061500Z
+DTEND:20240917T081500Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalle : 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salle : 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T075142Z
+UID:Cours-192737-6-BA1P_Biotechnique-Index-Education
+DTSTART:20241022T083000Z
+DTEND:20241022T103000Z
+SUMMARY;LANGUAGE=fr:Physique appliquée 1 - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Physique appliquée 1\nEnseignant : Dupuis
+ \nSalle : 1/29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Physique appliquée 1<br/>Enseignant 
+ : Dupuis<br/>Salle : 1/29<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240826T101703Z
+UID:Cours-195975-9-BA1P_Biotechnique-Index-Education
+DTSTART:20241115T123000Z
+DTEND:20241115T163000Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Pietka - Laboratoires
+LOCATION;LANGUAGE=fr:1/30
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Pietka\n
+ Salle : 1/30\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Pietka<br/>Salle : 1/30<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240923T090520Z
+UID:Cours-204394-11-BA1P_Biotechnique-Index-Education
+DTSTART:20241125T093000Z
+DTEND:20241125T103000Z
+SUMMARY;LANGUAGE=fr:Mathématique appl. 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Mathématique appl. 1\nEnseignant : Carlie
+ r\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique appl. 1<br/>Enseignant 
+ : Carlier<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240923T090512Z
+UID:Cours-204403-8-BA1P_Biotechnique-Index-Education
+DTSTART:20241104T093000Z
+DTEND:20241104T103000Z
+SUMMARY;LANGUAGE=fr:Mathématique appl. 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Mathématique appl. 1\nEnseignant : Carlie
+ r\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique appl. 1<br/>Enseignant 
+ : Carlier<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T075121Z
+UID:Cours-204408-6-BA1P_Biotechnique-Index-Education
+DTSTART:20241022T061500Z
+DTEND:20241022T081500Z
+SUMMARY;LANGUAGE=fr:Mathématique appl. 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Mathématique appl. 1\nEnseignant : Carlie
+ r\nSalle : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique appl. 1<br/>Enseignant 
+ : Carlier<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240704T123103Z
+UID:Cours-204422-9-BA1P_Biotechnique-Index-Education
+DTSTART:20241114T071500Z
+DTEND:20241114T163000Z
+SUMMARY;LANGUAGE=fr:Bioch. appl.1 - Besanger - 24-25
+DESCRIPTION;LANGUAGE=fr:Matière : Bioch. appl.1\nEnseignant : Besanger\nMém
+ o : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioch. appl.1<br/>Enseignant : Besan
+ ger<br/>Mémo : 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240704T124113Z
+UID:Cours-204449-13-BA1P_Biotechnique-Index-Education
+DTSTART:20241211T080000Z
+DTEND:20241211T111500Z
+SUMMARY;LANGUAGE=fr:Bioch. appl.1 - Delannay - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Bioch. appl.1\nEnseignant : Delannay\nSal
+ le : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioch. appl.1<br/>Enseignant : Delan
+ nay<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240704T123525Z
+UID:Cours-204450-2-BA1P_Biotechnique-Index-Education
+DTSTART:20240925T063000Z
+DTEND:20240925T103000Z
+SUMMARY;LANGUAGE=fr:Bioch. appl.1 - Delannay - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Bioch. appl.1\nEnseignant : Delannay\nSal
+ le : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioch. appl.1<br/>Enseignant : Delan
+ nay<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240704T123624Z
+UID:Cours-204452-8-BA1P_Biotechnique-Index-Education
+DTSTART:20241105T071500Z
+DTEND:20241105T091500Z
+SUMMARY;LANGUAGE=fr:Bioch. appl.1 - Besanger
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Bioch. appl.1\nEnseignant : Besanger\nSal
+ les : 1/36A\, 1/36B\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioch. appl.1<br/>Enseignant : Besan
+ ger<br/>Salles : 1/36A\, 1/36B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240705T052715Z
+UID:Cours-204466-2-BA1P_Biotechnique-Index-Education
+DTSTART:20240924T083000Z
+DTEND:20240924T103000Z
+SUMMARY;LANGUAGE=fr:Electricité appliquée - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité appliquée\nEnseignant : Dupui
+ s\nSalle : 1/36A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité appliquée<br/>Enseignant
+  : Dupuis<br/>Salle : 1/36A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240705T052715Z
+UID:Cours-204466-3-BA1P_Biotechnique-Index-Education
+DTSTART:20241001T083000Z
+DTEND:20241001T103000Z
+SUMMARY;LANGUAGE=fr:Electricité appliquée - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité appliquée\nEnseignant : Dupui
+ s\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité appliquée<br/>Enseignant
+  : Dupuis<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240705T052715Z
+UID:Cours-204466-4-BA1P_Biotechnique-Index-Education
+DTSTART:20241008T083000Z
+DTEND:20241008T103000Z
+SUMMARY;LANGUAGE=fr:Electricité appliquée - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité appliquée\nEnseignant : Dupui
+ s\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité appliquée<br/>Enseignant
+  : Dupuis<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240705T052715Z
+UID:Cours-204466-5-BA1P_Biotechnique-Index-Education
+DTSTART:20241015T083000Z
+DTEND:20241015T103000Z
+SUMMARY;LANGUAGE=fr:Electricité appliquée - Dupuis - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité appliquée\nEnseignant : Dupui
+ s\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité appliquée<br/>Enseignant
+  : Dupuis<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240705T052715Z
+UID:Cours-204466-9-BA1P_Biotechnique-Index-Education
+DTSTART:20241112T093000Z
+DTEND:20241112T113000Z
+SUMMARY;LANGUAGE=fr:Electricité appliquée - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité appliquée\nEnseignant : Dupui
+ s\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité appliquée<br/>Enseignant
+  : Dupuis<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240705T052715Z
+UID:Cours-204466-10-BA1P_Biotechnique-Index-Education
+DTSTART:20241119T093000Z
+DTEND:20241119T113000Z
+SUMMARY;LANGUAGE=fr:Electricité appliquée - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité appliquée\nEnseignant : Dupui
+ s\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité appliquée<br/>Enseignant
+  : Dupuis<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240705T052715Z
+UID:Cours-204466-11-BA1P_Biotechnique-Index-Education
+DTSTART:20241126T093000Z
+DTEND:20241126T113000Z
+SUMMARY;LANGUAGE=fr:Electricité appliquée - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité appliquée\nEnseignant : Dupui
+ s\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité appliquée<br/>Enseignant
+  : Dupuis<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T110613Z
+UID:Cours-204469-11-BA1P_Biotechnique-Index-Education
+DTSTART:20241127T071500Z
+DTEND:20241127T091500Z
+SUMMARY;LANGUAGE=fr:Electronique appliquée1-Th - Fanchon - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique appliquée1-Th\nEnseignant : 
+ Fanchon\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique appliquée1-Th<br/>Ensei
+ gnant : Fanchon<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125502Z
+UID:Cours-204477-3-BA1P_Biotechnique-Index-Education
+DTSTART:20241002T071500Z
+DTEND:20241002T103000Z
+SUMMARY;LANGUAGE=fr:Bioch. appl.1 - Delannay - Cours
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Matière : Bioch. appl.1\nEnseignant : Delannay\nSal
+ le : 1/25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioch. appl.1<br/>Enseignant : Delan
+ nay<br/>Salle : 1/25<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125502Z
+UID:Cours-204477-4-BA1P_Biotechnique-Index-Education
+DTSTART:20241009T071500Z
+DTEND:20241009T103000Z
+SUMMARY;LANGUAGE=fr:Bioch. appl.1 - Delannay - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Bioch. appl.1\nEnseignant : Delannay\nSal
+ le : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioch. appl.1<br/>Enseignant : Delan
+ nay<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125502Z
+UID:Cours-204477-5-BA1P_Biotechnique-Index-Education
+DTSTART:20241016T071500Z
+DTEND:20241016T103000Z
+SUMMARY;LANGUAGE=fr:Bioch. appl.1 - Delannay - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Bioch. appl.1\nEnseignant : Delannay\nSal
+ le : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioch. appl.1<br/>Enseignant : Delan
+ nay<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125502Z
+UID:Cours-204477-6-BA1P_Biotechnique-Index-Education
+DTSTART:20241023T071500Z
+DTEND:20241023T103000Z
+SUMMARY;LANGUAGE=fr:Bioch. appl.1 - Delannay - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Bioch. appl.1\nEnseignant : Delannay\nSal
+ le : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioch. appl.1<br/>Enseignant : Delan
+ nay<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125502Z
+UID:Cours-204477-8-BA1P_Biotechnique-Index-Education
+DTSTART:20241106T081500Z
+DTEND:20241106T113000Z
+SUMMARY;LANGUAGE=fr:Bioch. appl.1 - Delannay - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Bioch. appl.1\nEnseignant : Delannay\nSal
+ le : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioch. appl.1<br/>Enseignant : Delan
+ nay<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125502Z
+UID:Cours-204477-9-BA1P_Biotechnique-Index-Education
+DTSTART:20241113T081500Z
+DTEND:20241113T113000Z
+SUMMARY;LANGUAGE=fr:Bioch. appl.1 - Delannay - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Bioch. appl.1\nEnseignant : Delannay\nSal
+ le : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioch. appl.1<br/>Enseignant : Delan
+ nay<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125502Z
+UID:Cours-204477-10-BA1P_Biotechnique-Index-Education
+DTSTART:20241120T081500Z
+DTEND:20241120T113000Z
+SUMMARY;LANGUAGE=fr:Bioch. appl.1 - Delannay - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Bioch. appl.1\nEnseignant : Delannay\nSal
+ le : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioch. appl.1<br/>Enseignant : Delan
+ nay<br/>Salle : 1/18<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240705T053039Z
+UID:Cours-204485-5-BA1P_Biotechnique-Index-Education
+DTSTART:20241017T061500Z
+DTEND:20241017T103000Z
+SUMMARY;LANGUAGE=fr:Electronique appliquée-Labo - Taira - Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique appliquée-Labo\nEnseignant :
+  Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique appliquée-Labo<br/>Ense
+ ignant : Taira<br/>Salle : 2/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240704T124351Z
+UID:Cours-204487-10-BA1P_Biotechnique-Index-Education
+DTSTART:20241118T123000Z
+DTEND:20241118T163000Z
+SUMMARY;LANGUAGE=fr:Electronique appliquée-Labo - Taira - Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique appliquée-Labo\nEnseignant :
+  Taira\nSalle : 2/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique appliquée-Labo<br/>Ense
+ ignant : Taira<br/>Salle : 2/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240821T114458Z
+UID:Cours-204637-12-BA1P_Biotechnique-Index-Education
+DTSTART:20241203T093000Z
+DTEND:20241203T113000Z
+SUMMARY;LANGUAGE=fr:Electricité appliquée - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité appliquée\nEnseignant : Dupui
+ s\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité appliquée<br/>Enseignant
+  : Dupuis<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240821T114443Z
+UID:Cours-204642-8-BA1P_Biotechnique-Index-Education
+DTSTART:20241105T123000Z
+DTEND:20241105T143000Z
+SUMMARY;LANGUAGE=fr:Electronique appliquée1-Th - Fanchon - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique appliquée1-Th\nEnseignant : 
+ Fanchon\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique appliquée1-Th<br/>Ensei
+ gnant : Fanchon<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240821T114443Z
+UID:Cours-204642-11-BA1P_Biotechnique-Index-Education
+DTSTART:20241126T123000Z
+DTEND:20241126T143000Z
+SUMMARY;LANGUAGE=fr:Electronique appliquée1-Th - Fanchon - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique appliquée1-Th\nEnseignant : 
+ Fanchon\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique appliquée1-Th<br/>Ensei
+ gnant : Fanchon<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240821T114443Z
+UID:Cours-204642-12-BA1P_Biotechnique-Index-Education
+DTSTART:20241203T123000Z
+DTEND:20241203T143000Z
+SUMMARY;LANGUAGE=fr:Electronique appliquée1-Th - Fanchon - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique appliquée1-Th\nEnseignant : 
+ Fanchon\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique appliquée1-Th<br/>Ensei
+ gnant : Fanchon<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240821T114443Z
+UID:Cours-204642-13-BA1P_Biotechnique-Index-Education
+DTSTART:20241210T123000Z
+DTEND:20241210T143000Z
+SUMMARY;LANGUAGE=fr:Electronique appliquée1-Th - Fanchon - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique appliquée1-Th\nEnseignant : 
+ Fanchon\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique appliquée1-Th<br/>Ensei
+ gnant : Fanchon<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240821T114443Z
+UID:Cours-204642-14-BA1P_Biotechnique-Index-Education
+DTSTART:20241217T123000Z
+DTEND:20241217T143000Z
+SUMMARY;LANGUAGE=fr:Electronique appliquée1-Th - Fanchon - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique appliquée1-Th\nEnseignant : 
+ Fanchon\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique appliquée1-Th<br/>Ensei
+ gnant : Fanchon<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240821T114516Z
+UID:Cours-204645-14-BA1P_Biotechnique-Index-Education
+DTSTART:20241217T093000Z
+DTEND:20241217T113000Z
+SUMMARY;LANGUAGE=fr:Electricité appliquée - Dupuis - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Electricité appliquée\nEnseignant : Dupui
+ s\nSalle : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electricité appliquée<br/>Enseignant
+  : Dupuis<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T075327Z
+UID:Cours-205268-4-BA1P_Biotechnique-Index-Education
+DTSTART:20241010T061500Z
+DTEND:20241010T081500Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 1/10B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T080256Z
+UID:Cours-205271-1-BA1P_Biotechnique-Index-Education
+DTSTART:20240916T061500Z
+DTEND:20240916T081500Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 1/10B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T080256Z
+UID:Cours-205271-2-BA1P_Biotechnique-Index-Education
+DTSTART:20240923T061500Z
+DTEND:20240923T081500Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 1/10B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T080256Z
+UID:Cours-205271-3-BA1P_Biotechnique-Index-Education
+DTSTART:20240930T061500Z
+DTEND:20240930T081500Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 1/10B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T080256Z
+UID:Cours-205271-4-BA1P_Biotechnique-Index-Education
+DTSTART:20241007T061500Z
+DTEND:20241007T081500Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 1/10B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T080256Z
+UID:Cours-205271-5-BA1P_Biotechnique-Index-Education
+DTSTART:20241014T061500Z
+DTEND:20241014T081500Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 1/10B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T080256Z
+UID:Cours-205271-6-BA1P_Biotechnique-Index-Education
+DTSTART:20241021T061500Z
+DTEND:20241021T081500Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 1/10B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T080256Z
+UID:Cours-205271-8-BA1P_Biotechnique-Index-Education
+DTSTART:20241104T071500Z
+DTEND:20241104T091500Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 2/10D\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 2/10D<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T080256Z
+UID:Cours-205271-10-BA1P_Biotechnique-Index-Education
+DTSTART:20241118T071500Z
+DTEND:20241118T091500Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 1/10B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T080256Z
+UID:Cours-205271-11-BA1P_Biotechnique-Index-Education
+DTSTART:20241125T071500Z
+DTEND:20241125T091500Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 1/10B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T080256Z
+UID:Cours-205271-12-BA1P_Biotechnique-Index-Education
+DTSTART:20241202T071500Z
+DTEND:20241202T091500Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 1/10B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T080256Z
+UID:Cours-205271-13-BA1P_Biotechnique-Index-Education
+DTSTART:20241209T071500Z
+DTEND:20241209T091500Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 1/10B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T080256Z
+UID:Cours-205271-14-BA1P_Biotechnique-Index-Education
+DTSTART:20241216T071500Z
+DTEND:20241216T091500Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 1/10B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T080317Z
+UID:Cours-205279-3-BA1P_Biotechnique-Index-Education
+DTSTART:20241003T061500Z
+DTEND:20241003T081500Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:2/16
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 2/16\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 2/16<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T080317Z
+UID:Cours-205279-6-BA1P_Biotechnique-Index-Education
+DTSTART:20241024T061500Z
+DTEND:20241024T081500Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:2/13
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 2/13\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 2/13<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T075438Z
+UID:Cours-205286-5-BA1P_Biotechnique-Index-Education
+DTSTART:20241016T113000Z
+DTEND:20241016T133000Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T080429Z
+UID:Cours-205291-1-BA1P_Biotechnique-Index-Education
+DTSTART:20240919T113000Z
+DTEND:20240919T133000Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 2/10D\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 2/10D<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T080429Z
+UID:Cours-205291-2-BA1P_Biotechnique-Index-Education
+DTSTART:20240926T113000Z
+DTEND:20240926T133000Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 2/10D\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 2/10D<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T080429Z
+UID:Cours-205291-5-BA1P_Biotechnique-Index-Education
+DTSTART:20241017T113000Z
+DTEND:20241017T133000Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:2/13
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 2/13\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 2/13<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240826T101716Z
+UID:Cours-205298-11-BA1P_Biotechnique-Index-Education
+DTSTART:20241127T093000Z
+DTEND:20241127T113000Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 1/10B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240826T101716Z
+UID:Cours-205298-14-BA1P_Biotechnique-Index-Education
+DTSTART:20241218T093000Z
+DTEND:20241218T113000Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 1/10B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240826T100747Z
+UID:Cours-205299-9-BA1P_Biotechnique-Index-Education
+DTSTART:20241113T123000Z
+DTEND:20241113T143000Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 1/10B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T080413Z
+UID:Cours-205304-14-BA1P_Biotechnique-Index-Education
+DTSTART:20241217T071500Z
+DTEND:20241217T091500Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 2/10F\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 2/10F<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240826T101553Z
+UID:Cours-205305-14-BA1P_Biotechnique-Index-Education
+DTSTART:20241218T071500Z
+DTEND:20241218T091500Z
+SUMMARY;LANGUAGE=fr:Programmation Python - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Programmation Python\nEnseignant : Brande
+ rs\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Programmation Python<br/>Enseignant 
+ : Branders<br/>Salle : 1/10B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091541Z
+UID:Cours-208709-10-BA1P_Biotechnique-Index-Education
+DTSTART:20241119T123000Z
+DTEND:20241119T163000Z
+SUMMARY;LANGUAGE=fr:Bioéthique et qualité - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Bioéthique et qualité\nEnseignant : Biond
+ o\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioéthique et qualité<br/>Enseignant
+  : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240826T101010Z
+UID:Cours-210300-12-BA1P_Biotechnique-Index-Education
+DTSTART:20241206T123000Z
+DTEND:20241206T163000Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Pietka - Laboratoires
+LOCATION;LANGUAGE=fr:1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Pietka\n
+ Salle : 1/36B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Pietka<br/>Salle : 1/36B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240923T073047Z
+UID:Cours-211519-14-BA1P_Biotechnique-Index-Education
+DTSTART:20241216T123000Z
+DTEND:20241216T143000Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Besanger - Cours
+LOCATION;LANGUAGE=fr:1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Besanger
+ \nSalle : 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Besanger<br/>Salle : 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T084733Z
+UID:Cours-211520-6-BA1P_Biotechnique-Index-Education
+DTSTART:20241025T113000Z
+DTEND:20241025T153000Z
+SUMMARY;LANGUAGE=fr:Chimie appliquée 1 - Pietka - Laboratoires
+LOCATION;LANGUAGE=fr:1/29\, 1/30
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie appliquée 1\nEnseignant : Pietka\n
+ Salles : 1/29\, 1/30\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie appliquée 1<br/>Enseignant : 
+ Pietka<br/>Salles : 1/29\, 1/30<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091541Z
+UID:Cours-211542-1-BA1P_Biotechnique-Index-Education
+DTSTART:20240917T113000Z
+DTEND:20240917T133000Z
+SUMMARY;LANGUAGE=fr:Bioéthique et qualité - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Bioéthique et qualité\nEnseignant : Biond
+ o\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioéthique et qualité<br/>Enseignant
+  : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091541Z
+UID:Cours-211542-2-BA1P_Biotechnique-Index-Education
+DTSTART:20240924T113000Z
+DTEND:20240924T133000Z
+SUMMARY;LANGUAGE=fr:Bioéthique et qualité - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Bioéthique et qualité\nEnseignant : Biond
+ o\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioéthique et qualité<br/>Enseignant
+  : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091541Z
+UID:Cours-211542-3-BA1P_Biotechnique-Index-Education
+DTSTART:20241001T113000Z
+DTEND:20241001T133000Z
+SUMMARY;LANGUAGE=fr:Bioéthique et qualité - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Bioéthique et qualité\nEnseignant : Biond
+ o\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioéthique et qualité<br/>Enseignant
+  : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091541Z
+UID:Cours-211542-4-BA1P_Biotechnique-Index-Education
+DTSTART:20241008T113000Z
+DTEND:20241008T133000Z
+SUMMARY;LANGUAGE=fr:Bioéthique et qualité - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Bioéthique et qualité\nEnseignant : Biond
+ o\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioéthique et qualité<br/>Enseignant
+  : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091541Z
+UID:Cours-211542-5-BA1P_Biotechnique-Index-Education
+DTSTART:20241015T113000Z
+DTEND:20241015T133000Z
+SUMMARY;LANGUAGE=fr:Bioéthique et qualité - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Bioéthique et qualité\nEnseignant : Biond
+ o\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioéthique et qualité<br/>Enseignant
+  : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091533Z
+UID:Cours-211543-9-BA1P_Biotechnique-Index-Education
+DTSTART:20241112T123000Z
+DTEND:20241112T143000Z
+SUMMARY;LANGUAGE=fr:Electronique appliquée1-Th - Fanchon - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique appliquée1-Th\nEnseignant : 
+ Fanchon\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique appliquée1-Th<br/>Ensei
+ gnant : Fanchon<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T110449Z
+UID:Cours-214473-10-BA1P_Biotechnique-Index-Education
+DTSTART:20241121T123000Z
+DTEND:20241121T163000Z
+SUMMARY;LANGUAGE=fr:Informatique 1- laboratoire - Scopel - Laboratoires
+DESCRIPTION;LANGUAGE=fr:Matière : Informatique 1- laboratoire\nEnseignant :
+  Scopel\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Informatique 1- laboratoire<br/>Ense
+ ignant : Scopel<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T111014Z
+UID:Cours-214474-11-BA1P_Biotechnique-Index-Education
+DTSTART:20241128T123000Z
+DTEND:20241128T163000Z
+SUMMARY;LANGUAGE=fr:Electronique appliquée-Labo - Taira - Laboratoires
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Electronique appliquée-Labo\nEnseignant :
+  Taira\nSalle : 2/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Electronique appliquée-Labo<br/>Ense
+ ignant : Taira<br/>Salle : 2/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240912T092227Z
+UID:Cours-215104-8-BA1P_Biotechnique-Index-Education
+DTSTART:20241104T123000Z
+DTEND:20241104T163000Z
+SUMMARY;LANGUAGE=fr:Biologie appliquée 1 - Sclavons - Ath
+DESCRIPTION;LANGUAGE=fr:Matière : Biologie appliquée 1\nEnseignant : Sclavo
+ ns\nMémo : Ath\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biologie appliquée 1<br/>Enseignant 
+ : Sclavons<br/>Mémo : Ath<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240912T092227Z
+UID:Cours-215104-11-BA1P_Biotechnique-Index-Education
+DTSTART:20241125T123000Z
+DTEND:20241125T163000Z
+SUMMARY;LANGUAGE=fr:Biologie appliquée 1 - Sclavons - Ath
+DESCRIPTION;LANGUAGE=fr:Matière : Biologie appliquée 1\nEnseignant : Sclavo
+ ns\nMémo : Ath\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biologie appliquée 1<br/>Enseignant 
+ : Sclavons<br/>Mémo : Ath<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240912T092248Z
+UID:Cours-215109-1-BA1P_Biotechnique-Index-Education
+DTSTART:20240918T083000Z
+DTEND:20240918T103000Z
+SUMMARY;LANGUAGE=fr:Biologie appliquée 1 - Sclavons - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Biologie appliquée 1\nEnseignant : Sclavo
+ ns\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biologie appliquée 1<br/>Enseignant 
+ : Sclavons<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240923T090506Z
+UID:Cours-215742-8-BA1P_Biotechnique-Index-Education
+DTSTART:20241105T143000Z
+DTEND:20241105T163000Z
+SUMMARY;LANGUAGE=fr:Mathématique appl. 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Mathématique appl. 1\nEnseignant : Carlie
+ r\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique appl. 1<br/>Enseignant 
+ : Carlier<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240923T090520Z
+UID:Cours-215743-10-BA1P_Biotechnique-Index-Education
+DTSTART:20241118T093000Z
+DTEND:20241118T113000Z
+SUMMARY;LANGUAGE=fr:Mathématique appl. 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Mathématique appl. 1\nEnseignant : Carlie
+ r\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique appl. 1<br/>Enseignant 
+ : Carlier<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240923T090520Z
+UID:Cours-215743-12-BA1P_Biotechnique-Index-Education
+DTSTART:20241202T093000Z
+DTEND:20241202T113000Z
+SUMMARY;LANGUAGE=fr:Mathématique appl. 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Mathématique appl. 1\nEnseignant : Carlie
+ r\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique appl. 1<br/>Enseignant 
+ : Carlier<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240923T090520Z
+UID:Cours-215743-13-BA1P_Biotechnique-Index-Education
+DTSTART:20241209T093000Z
+DTEND:20241209T113000Z
+SUMMARY;LANGUAGE=fr:Mathématique appl. 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Mathématique appl. 1\nEnseignant : Carlie
+ r\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique appl. 1<br/>Enseignant 
+ : Carlier<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240923T090520Z
+UID:Cours-215743-14-BA1P_Biotechnique-Index-Education
+DTSTART:20241216T093000Z
+DTEND:20241216T113000Z
+SUMMARY;LANGUAGE=fr:Mathématique appl. 1 - Carlier - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:Matière : Mathématique appl. 1\nEnseignant : Carlie
+ r\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Mathématique appl. 1<br/>Enseignant 
+ : Carlier<br/>Salles : 1/36A\, 1/36B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+UID:Ferie-939-BA1P_Biotechnique-Index-Education
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240928
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+UID:Ferie-940-BA1P_Biotechnique-Index-Education
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+UID:Ferie-941-BA1P_Biotechnique-Index-Education
+DTSTART;VALUE=DATE:20241111
+DTEND;VALUE=DATE:20241112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+END:VCALENDAR

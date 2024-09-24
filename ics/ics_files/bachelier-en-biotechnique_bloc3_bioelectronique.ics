@@ -1,0 +1,2141 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
+METHOD:PUBLISH
+X-CALSTART:20240916T000000Z
+X-CALEND:20241221T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - <BA3P Biotechnique> <Option> Bioelectronique
+  & Instrum. Bloc3 - du 16 septembre au 21 décembre 2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de <BA3P Biotechnique> <Option> Bi
+ oelectronique & Instrum. Bloc3 généré par le logiciel HP (©INDEX ÉDUCATION
+ ) le 24 sept. 2024 - Haute Ecole en Hainaut - valable sur la période du 16
+  septembre au 21 décembre 2024 - Semaines : semaine 38 - 51
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T115606Z
+UID:Cours-155348-5-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241015T061500Z
+DTEND:20241015T081500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10B\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20230824T123802Z
+UID:Cours-160173-2-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240924T113000Z
+DTEND:20240924T133000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - TFE - Fanchon - Cour
+ s
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : TF
+ E\nEnseignant : Fanchon\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : TFE<br/>Enseignant : Fanchon<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T115648Z
+UID:Cours-164033-9-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241112T071500Z
+DTEND:20241112T091500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10B\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T115648Z
+UID:Cours-164033-13-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241210T071500Z
+DTEND:20241210T091500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10B\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T115648Z
+UID:Cours-164034-9-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241112T093000Z
+DTEND:20241112T113000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10B\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T115648Z
+UID:Cours-164034-13-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241210T093000Z
+DTEND:20241210T113000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10B\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240910T094503Z
+UID:Cours-165298-5-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241018T083000Z
+DTEND:20241018T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2\, Bioelectronique & I
+ nstrum. Bloc3 - Appli. élec & électro-sécurité - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\, Bioelectro
+ nique & Instrum. Bloc3\nMatière : Appli. élec & électro-sécurité\nEnseigna
+ nt : Fanchon\nSalle : 2/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2\, Bioel
+ ectronique & Instrum. Bloc3<br/>Matière : Appli. élec & électro-sécurité<b
+ r/>Enseignant : Fanchon<br/>Salle : 2/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T120850Z
+UID:Cours-172620-10-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241119T071500Z
+DTEND:20241119T091500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10B\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240910T094041Z
+UID:Cours-179996-4-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241007T113000Z
+DTEND:20241007T143000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Régulation - Fanchon
+  - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Ré
+ gulation\nEnseignant : Fanchon\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Régulation<br/>Enseignant : Fanchon<br/>Salle : 1/13<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240910T094037Z
+UID:Cours-179997-3-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240930T133000Z
+DTEND:20240930T153000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Régulation - Fanchon
+  - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Ré
+ gulation\nEnseignant : Fanchon\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Régulation<br/>Enseignant : Fanchon<br/>Salle : 1/13<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240910T094037Z
+UID:Cours-179997-5-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241014T133000Z
+DTEND:20241014T153000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Régulation - Fanchon
+  - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Ré
+ gulation\nEnseignant : Fanchon\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Régulation<br/>Enseignant : Fanchon<br/>Salle : 1/13<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240910T094037Z
+UID:Cours-179997-6-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241021T133000Z
+DTEND:20241021T153000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Régulation - Fanchon
+  - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Ré
+ gulation\nEnseignant : Fanchon\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Régulation<br/>Enseignant : Fanchon<br/>Salle : 1/13<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240910T094651Z
+UID:Cours-180361-8-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241105T093000Z
+DTEND:20241105T113000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 1/13\nType : C
+ ours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240910T094651Z
+UID:Cours-180362-8-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241105T071500Z
+DTEND:20241105T091500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 1/13\nType : C
+ ours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240910T093943Z
+UID:Cours-180365-10-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241118T073000Z
+DTEND:20241118T164500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Régulation - Fanchon
+  - 24-25 MU 2: CP + Régulation
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Ré
+ gulation\nEnseignant : Fanchon\nMémo : 24-25 MU 2: CP + Régulation\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Régulation<br/>Enseignant : Fanchon<br/>Mémo : 24-25 MU 2: CP + Régu
+ lation<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T121411Z
+UID:Cours-180366-9-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241114T071500Z
+DTEND:20241114T161500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Régulation - Fanchon
+  - 24-25 Technocampus
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Ré
+ gulation\nEnseignant : Fanchon\nMémo : 24-25 Technocampus\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Régulation<br/>Enseignant : Fanchon<br/>Mémo : 24-25 Technocampus<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T115606Z
+UID:Cours-184026-5-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241015T083000Z
+DTEND:20241015T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10B\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T121316Z
+UID:Cours-184035-6-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241023T073000Z
+DTEND:20241023T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Transmission de donn
+ ées - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Tr
+ ansmission de données\nEnseignant : Fanchon\nSalle : 2/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Transmission de données<br/>Enseignant : Fanchon<br/>Salle : 2/10A<b
+ r/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T121242Z
+UID:Cours-184047-4-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241010T061500Z
+DTEND:20241010T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Transmission de donn
+ ées - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Tr
+ ansmission de données\nEnseignant : Fanchon\nSalle : 2/10B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Transmission de données<br/>Enseignant : Fanchon<br/>Salle : 2/10B<b
+ r/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T120854Z
+UID:Cours-184051-10-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241119T093000Z
+DTEND:20241119T113000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10B\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240828T063019Z
+UID:Cours-185378-10-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241121T123000Z
+DTEND:20241121T160000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Gestion assistée pr 
+ ordinateur - Gontel - 24-25 - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Ge
+ stion assistée pr ordinateur\nEnseignant : Gontel\nSalles : 1/36A\, 1/36B\
+ nMémo : 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Gestion assistée pr ordinateur<br/>Enseignant : Gontel<br/>Salles : 
+ 1/36A\, 1/36B<br/>Mémo : 24-25<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240828T063019Z
+UID:Cours-185378-12-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241205T123000Z
+DTEND:20241205T160000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Gestion assistée pr 
+ ordinateur - Gontel - 24-25 - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Ge
+ stion assistée pr ordinateur\nEnseignant : Gontel\nSalles : 1/36A\, 1/36B\
+ nMémo : 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Gestion assistée pr ordinateur<br/>Enseignant : Gontel<br/>Salles : 
+ 1/36A\, 1/36B<br/>Mémo : 24-25<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240828T063019Z
+UID:Cours-185378-13-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241212T123000Z
+DTEND:20241212T160000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Gestion assistée pr 
+ ordinateur - Gontel - 24-25 - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Ge
+ stion assistée pr ordinateur\nEnseignant : Gontel\nSalles : 1/36A\, 1/36B\
+ nMémo : 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Gestion assistée pr ordinateur<br/>Enseignant : Gontel<br/>Salles : 
+ 1/36A\, 1/36B<br/>Mémo : 24-25<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240828T063008Z
+UID:Cours-185379-11-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241128T123000Z
+DTEND:20241128T160000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Gestion assistée pr 
+ ordinateur - Gontel - 24-25 - Cours
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Ge
+ stion assistée pr ordinateur\nEnseignant : Gontel\nSalles : 1/36A\, 1/36B\
+ nMémo : 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Gestion assistée pr ordinateur<br/>Enseignant : Gontel<br/>Salles : 
+ 1/36A\, 1/36B<br/>Mémo : 24-25<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240910T093936Z
+UID:Cours-203846-9-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241115T071500Z
+DTEND:20241115T170000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Régulation - Fanchon
+  - 24-25 Technocampus
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Ré
+ gulation\nEnseignant : Fanchon\nMémo : 24-25 Technocampus\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Régulation<br/>Enseignant : Fanchon<br/>Mémo : 24-25 Technocampus<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T130059Z
+UID:Cours-205385-1-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240917T061500Z
+DTEND:20240917T081500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10A\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T130059Z
+UID:Cours-205385-2-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240924T061500Z
+DTEND:20240924T081500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10A\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T130059Z
+UID:Cours-205385-3-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241001T061500Z
+DTEND:20241001T081500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10B\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T130059Z
+UID:Cours-205385-11-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241126T071500Z
+DTEND:20241126T091500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10B\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T130059Z
+UID:Cours-205385-12-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241203T071500Z
+DTEND:20241203T091500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10B\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T130059Z
+UID:Cours-205385-14-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241217T071500Z
+DTEND:20241217T091500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10B\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T130059Z
+UID:Cours-205386-1-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240917T083000Z
+DTEND:20240917T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10A\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T130059Z
+UID:Cours-205386-2-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240924T083000Z
+DTEND:20240924T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10A\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T130059Z
+UID:Cours-205386-3-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241001T083000Z
+DTEND:20241001T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10B\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T130059Z
+UID:Cours-205386-11-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241126T093000Z
+DTEND:20241126T113000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10B\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T130059Z
+UID:Cours-205386-12-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241203T093000Z
+DTEND:20241203T113000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10B\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T130059Z
+UID:Cours-205386-14-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241217T093000Z
+DTEND:20241217T113000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Electro app & trait.
+  signaux 3 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : El
+ ectro app & trait. signaux 3\nEnseignant : Fanchon\nSalle : 2/10B\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Electro app & trait. signaux 3<br/>Enseignant : Fanchon<br/>Salle : 
+ 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T120010Z
+UID:Cours-205390-2-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240923T133000Z
+DTEND:20240923T153000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Régulation - Fanchon
+  - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Ré
+ gulation\nEnseignant : Fanchon\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Régulation<br/>Enseignant : Fanchon<br/>Salle : 1/13<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240910T094008Z
+UID:Cours-205391-1-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240916T113000Z
+DTEND:20240916T143000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Régulation - Fanchon
+  - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Ré
+ gulation\nEnseignant : Fanchon\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Régulation<br/>Enseignant : Fanchon<br/>Salle : 1/13<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240911T100651Z
+UID:Cours-205394-8-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241108T123000Z
+DTEND:20241108T163000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Tech. mise serv & dé
+ pannage 2 - Berrah - Cours
+LOCATION;LANGUAGE=fr:2/LELEC
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Te
+ ch. mise serv & dépannage 2\nEnseignant : Berrah\nSalle : 2/LELEC\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Tech. mise serv & dépannage 2<br/>Enseignant : Berrah<br/>Salle : 2/
+ LELEC<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240911T100651Z
+UID:Cours-205394-10-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241122T123000Z
+DTEND:20241122T163000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Tech. mise serv & dé
+ pannage 2 - Berrah - Cours
+LOCATION;LANGUAGE=fr:2/LELEC
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Te
+ ch. mise serv & dépannage 2\nEnseignant : Berrah\nSalle : 2/LELEC\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Tech. mise serv & dépannage 2<br/>Enseignant : Berrah<br/>Salle : 2/
+ LELEC<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240911T100651Z
+UID:Cours-205394-12-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241206T123000Z
+DTEND:20241206T163000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Tech. mise serv & dé
+ pannage 2 - Berrah - Cours
+LOCATION;LANGUAGE=fr:2/LELEC
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Te
+ ch. mise serv & dépannage 2\nEnseignant : Berrah\nSalle : 2/LELEC\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Tech. mise serv & dépannage 2<br/>Enseignant : Berrah<br/>Salle : 2/
+ LELEC<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240911T100651Z
+UID:Cours-205394-13-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241213T123000Z
+DTEND:20241213T163000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Tech. mise serv & dé
+ pannage 2 - Berrah - Cours
+LOCATION;LANGUAGE=fr:2/LELEC
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Te
+ ch. mise serv & dépannage 2\nEnseignant : Berrah\nSalle : 2/LELEC\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Tech. mise serv & dépannage 2<br/>Enseignant : Berrah<br/>Salle : 2/
+ LELEC<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240911T100651Z
+UID:Cours-205394-14-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241220T123000Z
+DTEND:20241220T163000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Tech. mise serv & dé
+ pannage 2 - Berrah - Cours
+LOCATION;LANGUAGE=fr:2/LELEC
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Te
+ ch. mise serv & dépannage 2\nEnseignant : Berrah\nSalle : 2/LELEC\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Tech. mise serv & dépannage 2<br/>Enseignant : Berrah<br/>Salle : 2/
+ LELEC<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T121234Z
+UID:Cours-205423-10-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241120T123000Z
+DTEND:20241120T163000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Transmission de donn
+ ées - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Tr
+ ansmission de données\nEnseignant : Fanchon\nSalle : 2/10B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Transmission de données<br/>Enseignant : Fanchon<br/>Salle : 2/10B<b
+ r/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T121234Z
+UID:Cours-205423-11-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241127T123000Z
+DTEND:20241127T163000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Transmission de donn
+ ées - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Tr
+ ansmission de données\nEnseignant : Fanchon\nSalle : 2/10B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Transmission de données<br/>Enseignant : Fanchon<br/>Salle : 2/10B<b
+ r/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T121234Z
+UID:Cours-205423-13-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241211T123000Z
+DTEND:20241211T163000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Transmission de donn
+ ées - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Tr
+ ansmission de données\nEnseignant : Fanchon\nSalle : 2/10B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Transmission de données<br/>Enseignant : Fanchon<br/>Salle : 2/10B<b
+ r/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T121252Z
+UID:Cours-205432-1-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240919T061500Z
+DTEND:20240919T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Transmission de donn
+ ées - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Tr
+ ansmission de données\nEnseignant : Fanchon\nSalle : 2/10B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Transmission de données<br/>Enseignant : Fanchon<br/>Salle : 2/10B<b
+ r/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T121252Z
+UID:Cours-205432-2-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240926T061500Z
+DTEND:20240926T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Transmission de donn
+ ées - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Tr
+ ansmission de données\nEnseignant : Fanchon\nSalle : 2/10B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Transmission de données<br/>Enseignant : Fanchon<br/>Salle : 2/10B<b
+ r/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T121252Z
+UID:Cours-205432-3-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241003T061500Z
+DTEND:20241003T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Transmission de donn
+ ées - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Tr
+ ansmission de données\nEnseignant : Fanchon\nSalle : 2/10B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Transmission de données<br/>Enseignant : Fanchon<br/>Salle : 2/10B<b
+ r/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T130019Z
+UID:Cours-214100-3-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241004T113000Z
+DTEND:20241004T143000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Tech. mise serv & dé
+ pannage 2 - Berrah - Cours
+LOCATION;LANGUAGE=fr:2/LELEC
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Te
+ ch. mise serv & dépannage 2\nEnseignant : Berrah\nSalle : 2/LELEC\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Tech. mise serv & dépannage 2<br/>Enseignant : Berrah<br/>Salle : 2/
+ LELEC<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T130019Z
+UID:Cours-214100-4-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241011T113000Z
+DTEND:20241011T143000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Tech. mise serv & dé
+ pannage 2 - Berrah - Cours
+LOCATION;LANGUAGE=fr:2/LELEC
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Te
+ ch. mise serv & dépannage 2\nEnseignant : Berrah\nSalle : 2/LELEC\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Tech. mise serv & dépannage 2<br/>Enseignant : Berrah<br/>Salle : 2/
+ LELEC<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T130019Z
+UID:Cours-214100-5-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241018T113000Z
+DTEND:20241018T143000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Tech. mise serv & dé
+ pannage 2 - Berrah - Cours
+LOCATION;LANGUAGE=fr:2/LELEC
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Te
+ ch. mise serv & dépannage 2\nEnseignant : Berrah\nSalle : 2/LELEC\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Tech. mise serv & dépannage 2<br/>Enseignant : Berrah<br/>Salle : 2/
+ LELEC<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T130019Z
+UID:Cours-214100-6-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241025T113000Z
+DTEND:20241025T143000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Tech. mise serv & dé
+ pannage 2 - Berrah - Cours
+LOCATION;LANGUAGE=fr:2/LELEC
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Te
+ ch. mise serv & dépannage 2\nEnseignant : Berrah\nSalle : 2/LELEC\nType : 
+ Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Tech. mise serv & dépannage 2<br/>Enseignant : Berrah<br/>Salle : 2/
+ LELEC<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240910T094041Z
+UID:Cours-214726-2-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240923T113000Z
+DTEND:20240923T133000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Régulation - Fanchon
+  - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Ré
+ gulation\nEnseignant : Fanchon\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Régulation<br/>Enseignant : Fanchon<br/>Salle : 1/13<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240910T094041Z
+UID:Cours-214726-3-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240930T113000Z
+DTEND:20240930T133000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Régulation - Fanchon
+  - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Ré
+ gulation\nEnseignant : Fanchon\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Régulation<br/>Enseignant : Fanchon<br/>Salle : 1/13<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240910T094041Z
+UID:Cours-214726-5-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241014T113000Z
+DTEND:20241014T133000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Régulation - Fanchon
+  - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Ré
+ gulation\nEnseignant : Fanchon\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Régulation<br/>Enseignant : Fanchon<br/>Salle : 1/13<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240910T094041Z
+UID:Cours-214726-6-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241021T113000Z
+DTEND:20241021T133000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Régulation - Fanchon
+  - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Ré
+ gulation\nEnseignant : Fanchon\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Régulation<br/>Enseignant : Fanchon<br/>Salle : 1/13<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240910T094338Z
+UID:Cours-214727-3-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241001T113000Z
+DTEND:20241001T133000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Régulation - Fanchon
+  - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : Ré
+ gulation\nEnseignant : Fanchon\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Régulation<br/>Enseignant : Fanchon<br/>Salle : 1/13<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240910T094904Z
+UID:Cours-214728-5-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241015T113000Z
+DTEND:20241015T133000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - TFE - Fanchon - Cour
+ s
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : TF
+ E\nEnseignant : Fanchon\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : TFE<br/>Enseignant : Fanchon<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240911T100337Z
+UID:Cours-214869-1-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240916T071500Z
+DTEND:20240916T101500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Instrumentation médi
+ cale - Devilers - Cours
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : In
+ strumentation médicale\nEnseignant : Devilers\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Instrumentation médicale<br/>Enseignant : Devilers<br/>Type : Cours<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240911T100337Z
+UID:Cours-214869-2-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240923T071500Z
+DTEND:20240923T101500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Instrumentation médi
+ cale - Devilers - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : In
+ strumentation médicale\nEnseignant : Devilers\nSalle : 1/13\nType : Cours\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Instrumentation médicale<br/>Enseignant : Devilers<br/>Salle : 1/13<
+ br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240911T100337Z
+UID:Cours-214869-3-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240930T071500Z
+DTEND:20240930T101500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Instrumentation médi
+ cale - Devilers - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : In
+ strumentation médicale\nEnseignant : Devilers\nSalle : 1/13\nType : Cours\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Instrumentation médicale<br/>Enseignant : Devilers<br/>Salle : 1/13<
+ br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240911T100337Z
+UID:Cours-214869-4-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241007T071500Z
+DTEND:20241007T101500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Instrumentation médi
+ cale - Devilers - Cours
+LOCATION;LANGUAGE=fr:2/LELEC
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : In
+ strumentation médicale\nEnseignant : Devilers\nSalle : 2/LELEC\nType : Cou
+ rs\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Instrumentation médicale<br/>Enseignant : Devilers<br/>Salle : 2/LEL
+ EC<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240911T100337Z
+UID:Cours-214869-5-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241014T071500Z
+DTEND:20241014T101500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Instrumentation médi
+ cale - Devilers - Cours
+LOCATION;LANGUAGE=fr:2/LELEC
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : In
+ strumentation médicale\nEnseignant : Devilers\nSalle : 2/LELEC\nType : Cou
+ rs\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Instrumentation médicale<br/>Enseignant : Devilers<br/>Salle : 2/LEL
+ EC<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240911T100337Z
+UID:Cours-214869-6-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241021T071500Z
+DTEND:20241021T101500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Instrumentation médi
+ cale - Devilers - Cours
+LOCATION;LANGUAGE=fr:2/LELEC
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : In
+ strumentation médicale\nEnseignant : Devilers\nSalle : 2/LELEC\nType : Cou
+ rs\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Instrumentation médicale<br/>Enseignant : Devilers<br/>Salle : 2/LEL
+ EC<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240911T100337Z
+UID:Cours-214869-8-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241104T081500Z
+DTEND:20241104T111500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Instrumentation médi
+ cale - Devilers - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : In
+ strumentation médicale\nEnseignant : Devilers\nSalle : 1/13\nType : Cours\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Instrumentation médicale<br/>Enseignant : Devilers<br/>Salle : 1/13<
+ br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240911T100337Z
+UID:Cours-214869-11-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241125T081500Z
+DTEND:20241125T111500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Instrumentation médi
+ cale - Devilers - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : In
+ strumentation médicale\nEnseignant : Devilers\nSalle : 1/13\nType : Cours\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Instrumentation médicale<br/>Enseignant : Devilers<br/>Salle : 1/13<
+ br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240911T100337Z
+UID:Cours-214869-12-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241202T081500Z
+DTEND:20241202T111500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Instrumentation médi
+ cale - Devilers - Cours
+LOCATION;LANGUAGE=fr:2/LELEC
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : In
+ strumentation médicale\nEnseignant : Devilers\nSalle : 2/LELEC\nType : Cou
+ rs\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Instrumentation médicale<br/>Enseignant : Devilers<br/>Salle : 2/LEL
+ EC<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240911T100337Z
+UID:Cours-214869-13-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241209T081500Z
+DTEND:20241209T111500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Instrumentation médi
+ cale - Devilers - Cours
+LOCATION;LANGUAGE=fr:2/LELEC
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : In
+ strumentation médicale\nEnseignant : Devilers\nSalle : 2/LELEC\nType : Cou
+ rs\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Instrumentation médicale<br/>Enseignant : Devilers<br/>Salle : 2/LEL
+ EC<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240911T100327Z
+UID:Cours-214870-14-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241216T071500Z
+DTEND:20241216T111500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc3 - Instrumentation médi
+ cale - Devilers - Cours
+LOCATION;LANGUAGE=fr:2/LELEC
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc3\nMatière : In
+ strumentation médicale\nEnseignant : Devilers\nSalle : 2/LELEC\nType : Cou
+ rs\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc3<br/>Mati
+ ère : Instrumentation médicale<br/>Enseignant : Devilers<br/>Salle : 2/LEL
+ EC<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240911T100736Z
+UID:Cours-154972-14-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241219T070000Z
+DTEND:20241219T110000Z
+SUMMARY;LANGUAGE=fr:Tech. mise serv & dépannage 2 - Berrah - 24-25 - Cours
+LOCATION;LANGUAGE=fr:2/LELEC
+DESCRIPTION;LANGUAGE=fr:Matière : Tech. mise serv & dépannage 2\nEnseignant
+  : Berrah\nSalle : 2/LELEC\nMémo : 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Tech. mise serv & dépannage 2<br/>En
+ seignant : Berrah<br/>Salle : 2/LELEC<br/>Mémo : 24-25<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T121800Z
+UID:Cours-154981-4-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241009T083000Z
+DTEND:20241009T103000Z
+SUMMARY;LANGUAGE=fr:Télématique - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10E
+DESCRIPTION;LANGUAGE=fr:Matière : Télématique\nEnseignant : Fanchon\nSalle 
+ : 2/10E\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télématique<br/>Enseignant : Fanchon
+ <br/>Salle : 2/10E<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T115859Z
+UID:Cours-154984-11-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241129T071500Z
+DTEND:20241129T091500Z
+SUMMARY;LANGUAGE=fr:Télématique - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Télématique\nEnseignant : Fanchon\nSalle 
+ : 2/10B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télématique<br/>Enseignant : Fanchon
+ <br/>Salle : 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240906T084433Z
+UID:Cours-160688-4-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241009T113000Z
+DTEND:20241009T143000Z
+SUMMARY;LANGUAGE=fr:Com. ds la pratiques hospi. - Delle Monache - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Com. ds la pratiques hospi.\nEnseignant :
+  Delle Monache\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Com. ds la pratiques hospi.<br/>Ense
+ ignant : Delle Monache<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240906T084433Z
+UID:Cours-160688-6-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241023T113000Z
+DTEND:20241023T143000Z
+SUMMARY;LANGUAGE=fr:Com. ds la pratiques hospi. - Delle Monache - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Com. ds la pratiques hospi.\nEnseignant :
+  Delle Monache\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Com. ds la pratiques hospi.<br/>Ense
+ ignant : Delle Monache<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240906T084433Z
+UID:Cours-160688-8-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241106T123000Z
+DTEND:20241106T153000Z
+SUMMARY;LANGUAGE=fr:Com. ds la pratiques hospi. - Delle Monache - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Com. ds la pratiques hospi.\nEnseignant :
+  Delle Monache\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Com. ds la pratiques hospi.<br/>Ense
+ ignant : Delle Monache<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T110646Z
+UID:Cours-160689-2-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240925T113000Z
+DTEND:20240925T143000Z
+SUMMARY;LANGUAGE=fr:Com. ds la pratiques hospi. - Delle Monache - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Com. ds la pratiques hospi.\nEnseignant :
+  Delle Monache\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Com. ds la pratiques hospi.<br/>Ense
+ ignant : Delle Monache<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T113202Z
+UID:Cours-162818-14-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241216T123000Z
+DTEND:20241216T153000Z
+SUMMARY;LANGUAGE=fr:Elém. de Physio. humaine - Sclavons - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Elém. de Physio. humaine\nEnseignant : Sc
+ lavons\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Elém. de Physio. humaine<br/>Enseign
+ ant : Sclavons<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T115913Z
+UID:Cours-163814-11-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241129T093000Z
+DTEND:20241129T113000Z
+SUMMARY;LANGUAGE=fr:Télématique - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Télématique\nEnseignant : Fanchon\nSalle 
+ : 2/10B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télématique<br/>Enseignant : Fanchon
+ <br/>Salle : 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T084544Z
+UID:Cours-170385-12-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241206T093000Z
+DTEND:20241206T113000Z
+SUMMARY;LANGUAGE=fr:Télématique - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : Télématique\nEnseignant : Fanchon\nSalle 
+ : 2/10C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télématique<br/>Enseignant : Fanchon
+ <br/>Salle : 2/10C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T084544Z
+UID:Cours-170385-13-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241213T093000Z
+DTEND:20241213T113000Z
+SUMMARY;LANGUAGE=fr:Télématique - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Télématique\nEnseignant : Fanchon\nSalle 
+ : 2/10B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télématique<br/>Enseignant : Fanchon
+ <br/>Salle : 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240912T091912Z
+UID:Cours-184000-3-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241002T113000Z
+DTEND:20241002T143000Z
+SUMMARY;LANGUAGE=fr:Elém. de Physio. humaine - Sclavons - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Elém. de Physio. humaine\nEnseignant : Sc
+ lavons\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Elém. de Physio. humaine<br/>Enseign
+ ant : Sclavons<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240826T101355Z
+UID:Cours-184013-8-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241107T123000Z
+DTEND:20241107T143000Z
+SUMMARY;LANGUAGE=fr:Communication écrite - Pietka - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Communication écrite\nEnseignant : Pietka
+ \nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication écrite<br/>Enseignant 
+ : Pietka<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T080608Z
+UID:Cours-184015-11-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241127T071500Z
+DTEND:20241127T091500Z
+SUMMARY;LANGUAGE=fr:Communication écrite - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Communication écrite\nEnseignant : Pietka
+ \nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication écrite<br/>Enseignant 
+ : Pietka<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20230920T132146Z
+UID:Cours-189317-9-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241113T093000Z
+DTEND:20241113T113000Z
+SUMMARY;LANGUAGE=fr:Communication écrite - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Communication écrite\nEnseignant : Pietka
+ \nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication écrite<br/>Enseignant 
+ : Pietka<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20231114T094439Z
+UID:Cours-190870-10-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241120T073000Z
+DTEND:20241120T113000Z
+SUMMARY;LANGUAGE=fr:Prépa et simul. d'embauche - Pietka
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Prépa et simul. d'embauche\nEnseignant : 
+ Pietka\nSalle : 1/13\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prépa et simul. d'embauche<br/>Ensei
+ gnant : Pietka<br/>Salle : 1/13<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240823T070947Z
+UID:Cours-198350-5-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241017T071500Z
+DTEND:20241017T103000Z
+SUMMARY;LANGUAGE=fr:Imagerie médicale & métrologie - Stanicki - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Imagerie médicale & métrologie\nEnseignan
+ t : Stanicki\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Imagerie médicale & métrologie<br/>E
+ nseignant : Stanicki<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240823T070947Z
+UID:Cours-198350-6-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241024T071500Z
+DTEND:20241024T103000Z
+SUMMARY;LANGUAGE=fr:Imagerie médicale & métrologie - Stanicki - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Imagerie médicale & métrologie\nEnseignan
+ t : Stanicki\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Imagerie médicale & métrologie<br/>E
+ nseignant : Stanicki<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240823T070947Z
+UID:Cours-198350-8-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241107T081500Z
+DTEND:20241107T113000Z
+SUMMARY;LANGUAGE=fr:Imagerie médicale & métrologie - Stanicki - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Imagerie médicale & métrologie\nEnseignan
+ t : Stanicki\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Imagerie médicale & métrologie<br/>E
+ nseignant : Stanicki<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240823T070947Z
+UID:Cours-198350-10-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241121T081500Z
+DTEND:20241121T113000Z
+SUMMARY;LANGUAGE=fr:Imagerie médicale & métrologie - Stanicki - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Imagerie médicale & métrologie\nEnseignan
+ t : Stanicki\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Imagerie médicale & métrologie<br/>E
+ nseignant : Stanicki<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240823T070947Z
+UID:Cours-198350-11-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241128T081500Z
+DTEND:20241128T113000Z
+SUMMARY;LANGUAGE=fr:Imagerie médicale & métrologie - Stanicki - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Imagerie médicale & métrologie\nEnseignan
+ t : Stanicki\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Imagerie médicale & métrologie<br/>E
+ nseignant : Stanicki<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240823T070947Z
+UID:Cours-198350-12-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241205T081500Z
+DTEND:20241205T113000Z
+SUMMARY;LANGUAGE=fr:Imagerie médicale & métrologie - Stanicki - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Imagerie médicale & métrologie\nEnseignan
+ t : Stanicki\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Imagerie médicale & métrologie<br/>E
+ nseignant : Stanicki<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240904T071551Z
+UID:Cours-203748-1-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240919T113000Z
+DTEND:20240919T153000Z
+SUMMARY;LANGUAGE=fr:Présentation de stage - Deprez
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Présentation de stage\nEnseignant : Depre
+ z\nSalle : 1/11\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Présentation de stage<br/>Enseignant
+  : Deprez<br/>Salle : 1/11<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240709T113438Z
+UID:Cours-203751-4-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241008T061500Z
+DTEND:20241008T104500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - LDT - Visite - Deprez - 24-25 Salon SAM
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - LDT\nMatière : Visite\nEnseignant
+  : Deprez\nMémo : 24-25 Salon SAM\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - LDT<br/>Matière : Visite<br/
+ >Enseignant : Deprez<br/>Mémo : 24-25 Salon SAM<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T072140Z
+UID:Cours-203791-6-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241022T061500Z
+DTEND:20241022T143000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Informatique\, BA3 TL 
+ - LDT - Salon Job contact - 24-25
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Informat
+ ique\, BA3 TL - LDT\nMatière : Salon Job contact\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Inf
+ ormatique\, BA3 TL - LDT<br/>Matière : Salon Job contact<br/>Mémo : 24-25<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240912T091930Z
+UID:Cours-205338-5-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241016T113000Z
+DTEND:20241016T143000Z
+SUMMARY;LANGUAGE=fr:Elém. de Physio. humaine - Sclavons - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Elém. de Physio. humaine\nEnseignant : Sc
+ lavons\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Elém. de Physio. humaine<br/>Enseign
+ ant : Sclavons<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T102253Z
+UID:Cours-205346-12-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241203T123000Z
+DTEND:20241203T153000Z
+SUMMARY;LANGUAGE=fr:Langues - Remacle - Test TOEIC
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Langues\nEnseignant : Remacle\nSalle : 2/
+ SA\nMémo : Test TOEIC\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Langues<br/>Enseignant : Remacle<br/
+ >Salle : 2/SA<br/>Mémo : Test TOEIC<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T102458Z
+UID:Cours-205349-8-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241105T123000Z
+DTEND:20241105T143000Z
+SUMMARY;LANGUAGE=fr:Langues - Remacle - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Langues\nEnseignant : Remacle\nSalle : 1/
+ 13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Langues<br/>Enseignant : Remacle<br/
+ >Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T080603Z
+UID:Cours-205350-12-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241204T071500Z
+DTEND:20241204T091500Z
+SUMMARY;LANGUAGE=fr:Langues - Remacle - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Langues\nEnseignant : Remacle\nSalle : 1/
+ 13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Langues<br/>Enseignant : Remacle<br/
+ >Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T111039Z
+UID:Cours-205353-8-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241105T143000Z
+DTEND:20241105T163000Z
+SUMMARY;LANGUAGE=fr:Télématique - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Télématique\nEnseignant : Fanchon\nSalle 
+ : 2/10B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télématique<br/>Enseignant : Fanchon
+ <br/>Salle : 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T084544Z
+UID:Cours-205354-1-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240920T061500Z
+DTEND:20240920T081500Z
+SUMMARY;LANGUAGE=fr:Télématique - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Télématique\nEnseignant : Fanchon\nSalle 
+ : 2/10B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télématique<br/>Enseignant : Fanchon
+ <br/>Salle : 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T084544Z
+UID:Cours-205354-3-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241004T061500Z
+DTEND:20241004T081500Z
+SUMMARY;LANGUAGE=fr:Télématique - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Télématique\nEnseignant : Fanchon\nSalle 
+ : 2/10B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télématique<br/>Enseignant : Fanchon
+ <br/>Salle : 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T084544Z
+UID:Cours-205354-4-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241011T061500Z
+DTEND:20241011T081500Z
+SUMMARY;LANGUAGE=fr:Télématique - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Télématique\nEnseignant : Fanchon\nSalle 
+ : 2/10B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télématique<br/>Enseignant : Fanchon
+ <br/>Salle : 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T084544Z
+UID:Cours-205354-5-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241018T061500Z
+DTEND:20241018T081500Z
+SUMMARY;LANGUAGE=fr:Télématique - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Télématique\nEnseignant : Fanchon\nSalle 
+ : 2/10B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télématique<br/>Enseignant : Fanchon
+ <br/>Salle : 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T084544Z
+UID:Cours-205354-6-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241025T061500Z
+DTEND:20241025T081500Z
+SUMMARY;LANGUAGE=fr:Télématique - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Télématique\nEnseignant : Fanchon\nSalle 
+ : 2/10B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télématique<br/>Enseignant : Fanchon
+ <br/>Salle : 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T084544Z
+UID:Cours-205354-12-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241206T071500Z
+DTEND:20241206T091500Z
+SUMMARY;LANGUAGE=fr:Télématique - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:Matière : Télématique\nEnseignant : Fanchon\nSalle 
+ : 2/10C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télématique<br/>Enseignant : Fanchon
+ <br/>Salle : 2/10C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T084544Z
+UID:Cours-205354-13-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241213T071500Z
+DTEND:20241213T091500Z
+SUMMARY;LANGUAGE=fr:Télématique - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Télématique\nEnseignant : Fanchon\nSalle 
+ : 2/10B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Télématique<br/>Enseignant : Fanchon
+ <br/>Salle : 2/10B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T080548Z
+UID:Cours-205436-8-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241107T143000Z
+DTEND:20241107T163000Z
+SUMMARY;LANGUAGE=fr:Communication écrite - Pietka - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Communication écrite\nEnseignant : Pietka
+ \nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication écrite<br/>Enseignant 
+ : Pietka<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240904T082638Z
+UID:Cours-210304-2-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240926T113000Z
+DTEND:20240926T133000Z
+SUMMARY;LANGUAGE=fr:Communication écrite - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Communication écrite\nEnseignant : Pietka
+ \nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication écrite<br/>Enseignant 
+ : Pietka<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240904T082638Z
+UID:Cours-210304-3-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241003T113000Z
+DTEND:20241003T133000Z
+SUMMARY;LANGUAGE=fr:Communication écrite - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Communication écrite\nEnseignant : Pietka
+ \nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication écrite<br/>Enseignant 
+ : Pietka<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240904T082638Z
+UID:Cours-210304-5-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241017T113000Z
+DTEND:20241017T133000Z
+SUMMARY;LANGUAGE=fr:Communication écrite - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Communication écrite\nEnseignant : Pietka
+ \nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication écrite<br/>Enseignant 
+ : Pietka<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240904T082638Z
+UID:Cours-210304-6-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241024T113000Z
+DTEND:20241024T133000Z
+SUMMARY;LANGUAGE=fr:Communication écrite - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Communication écrite\nEnseignant : Pietka
+ \nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication écrite<br/>Enseignant 
+ : Pietka<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240904T082631Z
+UID:Cours-210308-9-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241112T123000Z
+DTEND:20241112T143000Z
+SUMMARY;LANGUAGE=fr:Langues - Remacle - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Langues\nEnseignant : Remacle\nSalle : 1/
+ 13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Langues<br/>Enseignant : Remacle<br/
+ >Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240904T082656Z
+UID:Cours-210309-2-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240925T083000Z
+DTEND:20240925T103000Z
+SUMMARY;LANGUAGE=fr:Langues - Remacle - Cours
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Langues\nEnseignant : Remacle\nSalle : 1/
+ 29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Langues<br/>Enseignant : Remacle<br/
+ >Salle : 1/29<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240826T101414Z
+UID:Cours-210311-1-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240918T063000Z
+DTEND:20240918T083000Z
+SUMMARY;LANGUAGE=fr:Communication écrite - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Communication écrite\nEnseignant : Pietka
+ \nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication écrite<br/>Enseignant 
+ : Pietka<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240826T101421Z
+UID:Cours-210312-4-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241009T061500Z
+DTEND:20241009T081500Z
+SUMMARY;LANGUAGE=fr:Communication écrite - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Communication écrite\nEnseignant : Pietka
+ \nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication écrite<br/>Enseignant 
+ : Pietka<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240904T082631Z
+UID:Cours-211511-3-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241004T083000Z
+DTEND:20241004T103000Z
+SUMMARY;LANGUAGE=fr:Langues - Remacle - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Langues\nEnseignant : Remacle\nSalle : 1/
+ 13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Langues<br/>Enseignant : Remacle<br/
+ >Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240904T082631Z
+UID:Cours-211511-4-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241011T083000Z
+DTEND:20241011T103000Z
+SUMMARY;LANGUAGE=fr:Langues - Remacle - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Langues\nEnseignant : Remacle\nSalle : 1/
+ 13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Langues<br/>Enseignant : Remacle<br/
+ >Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240904T082631Z
+UID:Cours-211511-6-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241025T083000Z
+DTEND:20241025T103000Z
+SUMMARY;LANGUAGE=fr:Langues - Remacle - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Langues\nEnseignant : Remacle\nSalle : 1/
+ 13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Langues<br/>Enseignant : Remacle<br/
+ >Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T080548Z
+UID:Cours-211952-9-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241113T071500Z
+DTEND:20241113T091500Z
+SUMMARY;LANGUAGE=fr:Communication écrite - Pietka - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Communication écrite\nEnseignant : Pietka
+ \nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication écrite<br/>Enseignant 
+ : Pietka<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T080608Z
+UID:Cours-211953-11-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241127T093000Z
+DTEND:20241127T113000Z
+SUMMARY;LANGUAGE=fr:Communication écrite - Pietka - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Communication écrite\nEnseignant : Pietka
+ \nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Communication écrite<br/>Enseignant 
+ : Pietka<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240906T082126Z
+UID:Cours-214572-8-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241108T093000Z
+DTEND:20241108T113000Z
+SUMMARY;LANGUAGE=fr:Bioréacteurs - Leonet - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Bioréacteurs\nEnseignant : Leonet\nType :
+  Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioréacteurs<br/>Enseignant : Leonet
+ <br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240906T082126Z
+UID:Cours-214572-10-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241122T093000Z
+DTEND:20241122T113000Z
+SUMMARY;LANGUAGE=fr:Bioréacteurs - Leonet - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Bioréacteurs\nEnseignant : Leonet\nType :
+  Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioréacteurs<br/>Enseignant : Leonet
+ <br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240906T082126Z
+UID:Cours-214576-13-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241212T093000Z
+DTEND:20241212T113000Z
+SUMMARY;LANGUAGE=fr:Bioréacteurs - Leonet - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Bioréacteurs\nEnseignant : Leonet\nType :
+  Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioréacteurs<br/>Enseignant : Leonet
+ <br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240906T082126Z
+UID:Cours-214577-13-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241212T071500Z
+DTEND:20241212T091500Z
+SUMMARY;LANGUAGE=fr:Bioréacteurs - Leonet - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Bioréacteurs\nEnseignant : Leonet\nType :
+  Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioréacteurs<br/>Enseignant : Leonet
+ <br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240923T080622Z
+UID:Cours-214578-2-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240925T061500Z
+DTEND:20240925T081500Z
+SUMMARY;LANGUAGE=fr:Bioréacteurs - Leonet - Cours
+LOCATION;LANGUAGE=fr:1/28
+DESCRIPTION;LANGUAGE=fr:Matière : Bioréacteurs\nEnseignant : Leonet\nSalle 
+ : 1/28\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioréacteurs<br/>Enseignant : Leonet
+ <br/>Salle : 1/28<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240923T080622Z
+UID:Cours-214578-5-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241016T061500Z
+DTEND:20241016T081500Z
+SUMMARY;LANGUAGE=fr:Bioréacteurs - Leonet - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Bioréacteurs\nEnseignant : Leonet\nType :
+  Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioréacteurs<br/>Enseignant : Leonet
+ <br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240918T065440Z
+UID:Cours-214579-4-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241008T113000Z
+DTEND:20241008T133000Z
+SUMMARY;LANGUAGE=fr:Bioréacteurs - Leonet - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Bioréacteurs\nEnseignant : Leonet\nType :
+  Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioréacteurs<br/>Enseignant : Leonet
+ <br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240924T085334Z
+UID:Cours-214580-13-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241211T073000Z
+DTEND:20241211T093000Z
+SUMMARY;LANGUAGE=fr:Bioréacteurs - Leonet - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Bioréacteurs\nEnseignant : Leonet\nType :
+  Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioréacteurs<br/>Enseignant : Leonet
+ <br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240911T100524Z
+UID:Cours-214871-14-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241219T120000Z
+DTEND:20241219T160000Z
+SUMMARY;LANGUAGE=fr:Tech. mise serv & dépannage 2 - Berrah - 24-25 - Cours
+LOCATION;LANGUAGE=fr:2/LELEC
+DESCRIPTION;LANGUAGE=fr:Matière : Tech. mise serv & dépannage 2\nEnseignant
+  : Berrah\nSalle : 2/LELEC\nMémo : 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Tech. mise serv & dépannage 2<br/>En
+ seignant : Berrah<br/>Salle : 2/LELEC<br/>Mémo : 24-25<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240912T091912Z
+UID:Cours-215103-12-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241202T123000Z
+DTEND:20241202T153000Z
+SUMMARY;LANGUAGE=fr:Elém. de Physio. humaine - Sclavons - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Elém. de Physio. humaine\nEnseignant : Sc
+ lavons\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Elém. de Physio. humaine<br/>Enseign
+ ant : Sclavons<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240912T091912Z
+UID:Cours-215103-13-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241209T123000Z
+DTEND:20241209T153000Z
+SUMMARY;LANGUAGE=fr:Elém. de Physio. humaine - Sclavons - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Matière : Elém. de Physio. humaine\nEnseignant : Sc
+ lavons\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Elém. de Physio. humaine<br/>Enseign
+ ant : Sclavons<br/>Salle : 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240924T085339Z
+UID:Cours-215510-12-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241204T093000Z
+DTEND:20241204T113000Z
+SUMMARY;LANGUAGE=fr:Bioréacteurs - Leonet - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Bioréacteurs\nEnseignant : Leonet\nType :
+  Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioréacteurs<br/>Enseignant : Leonet
+ <br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240924T085339Z
+UID:Cours-215510-13-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241211T093000Z
+DTEND:20241211T113000Z
+SUMMARY;LANGUAGE=fr:Bioréacteurs - Leonet - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Bioréacteurs\nEnseignant : Leonet\nType :
+  Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bioréacteurs<br/>Enseignant : Leonet
+ <br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240918T065843Z
+UID:Cours-215512-3-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241002T073000Z
+DTEND:20241002T103000Z
+SUMMARY;LANGUAGE=fr:Com. ds la pratiques hospi. - Delle Monache - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Com. ds la pratiques hospi.\nEnseignant :
+  Delle Monache\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Com. ds la pratiques hospi.<br/>Ense
+ ignant : Delle Monache<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240924T085408Z
+UID:Cours-215787-14-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20241218T071500Z
+DTEND:20241218T163000Z
+SUMMARY;LANGUAGE=fr:Visite - Stanicki - CMMI
+DESCRIPTION;LANGUAGE=fr:Matière : Visite\nEnseignant : Stanicki\nMémo : CMM
+ I\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Visite<br/>Enseignant : Stanicki<br/
+ >Mémo : CMMI<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240918T065859Z
+UID:COURSANNULE-869-1-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART:20240918T113000Z
+DTEND:20240918T143000Z
+SUMMARY;LANGUAGE=fr:Annulation : Com. ds la pratiques hospi. - Delle Monach
+ e - Cours
+LOCATION;LANGUAGE=fr:2/10C2
+DESCRIPTION;LANGUAGE=fr:Annulation : \nMatière : Com. ds la pratiques hospi
+ .\nEnseignant : Delle Monache\nSalle : 2/10C2\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Annulation : <br/>Matière : Com. ds la pratiqu
+ es hospi.<br/>Enseignant : Delle Monache<br/>Salle : 2/10C2<br/>Type : Cou
+ rs<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+UID:Ferie-939-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240928
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+UID:Ferie-940-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+UID:Ferie-941-Bioelectronique_&_Instrum._Bloc3-Index-Education
+DTSTART;VALUE=DATE:20241111
+DTEND;VALUE=DATE:20241112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+END:VCALENDAR

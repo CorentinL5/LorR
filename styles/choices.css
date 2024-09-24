@@ -1,0 +1,63 @@
+
+/* Style pour le conteneur */
+#groupes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    margin: 20px;
+
+}
+/* Style pour le conteneur principal */
+#groupes div {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Style pour le titre principal */
+#groupes div > strong {
+    font-size: 1.5em;
+    color: #2c3e50;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style pour les blocs */
+#groupes div > div {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+/* Style pour les sous-titres */
+#groupes div > div > strong {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #2980b9;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style pour les liens */
+#groupes div > div > div > a,
+div > a {
+    color: #3498db;
+    text-decoration: none;
+    margin-left: 10px;
+    display: block;
+}
+
+#groupes div > div > div > a:hover,
+div > a:hover {
+    text-decoration: underline;
+}
+
+#groupes div > div > div > a:active,
+div > a:active {
+    color: #2980b9;
+}

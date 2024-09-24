@@ -1,0 +1,1612 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
+METHOD:PUBLISH
+X-CALSTART:20240916T000000Z
+X-CALEND:20241221T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - <TTM2 - MA2 Ingénieur industriel> <Options> 
+ TTMG2 MA2 TL - Géomètre - du 16 septembre au 21 décembre 2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de <TTM2 - MA2 Ingénieur industrie
+ l> <Options> TTMG2 MA2 TL - Géomètre généré par le logiciel HP (©INDEX ÉDU
+ CATION) le 24 sept. 2024 - Haute Ecole en Hainaut - valable sur la période
+  du 16 septembre au 21 décembre 2024 - Semaines : semaine 38 - 51
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240711T074658Z
+UID:Cours-154828-3-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241004T063000Z
+DTEND:20241004T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Géomètre - Speed dating Pro - Lenoir - 24-25 B
+ UILDWISE (Limette)
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Géomètre\nMatière : Speed dating
+  Pro\nEnseignant : Lenoir\nMémo : 24-25 BUILDWISE (Limette)\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Géomètre<br/>Matière : Spee
+ d dating Pro<br/>Enseignant : Lenoir<br/>Mémo : 24-25 BUILDWISE (Limette)<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T114947Z
+UID:Cours-155199-3-MA2_TL_-_Geometre-Index-Education
+DTSTART:20240930T093000Z
+DTEND:20240930T103000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - VCA
+  - Lenoir
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : VCA\nEnseignant : Lenoir\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : VCA<br/>Enseignant : Lenoir<br/>Salle : 2/SA<b
+ r/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240905T130339Z
+UID:Cours-155440-10-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241118T071500Z
+DTEND:20241118T091500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction GC & Bâtiment\, MA2 TL - Géomètre
+  - Path et défauts de la const. - Froment
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction GC & Bâtiment\, MA2
+  TL - Géomètre\nMatière : Path et défauts de la const.\nEnseignant : Frome
+ nt\nSalle : 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction GC & Bâtiment\
+ , MA2 TL - Géomètre<br/>Matière : Path et défauts de la const.<br/>Enseign
+ ant : Froment<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240916T113014Z
+UID:Cours-156016-2-MA2_TL_-_Geometre-Index-Education
+DTSTART:20240926T083000Z
+DTEND:20240926T103000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Géomètre -
+  Le CoDT - Mercier
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Géomètre\nMatière : Le CoDT\nEnseignant : Mercier\nSalle : 2/01B\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Géomètre<br/>Matière : Le CoDT<br/>Enseignant : Mercier<br/>Salle
+  : 2/01B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240916T113002Z
+UID:Cours-159154-1-MA2_TL_-_Geometre-Index-Education
+DTSTART:20240919T113000Z
+DTEND:20240919T133000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Géomètre -
+  Le CoDT - Mercier
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Géomètre\nMatière : Le CoDT\nEnseignant : Mercier\nSalle : 2/01B\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Géomètre<br/>Matière : Le CoDT<br/>Enseignant : Mercier<br/>Salle
+  : 2/01B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240916T112936Z
+UID:Cours-159155-2-MA2_TL_-_Geometre-Index-Education
+DTSTART:20240923T083000Z
+DTEND:20240923T103000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Géomètre -
+  Le CoDT - Mercier
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Géomètre\nMatière : Le CoDT\nEnseignant : Mercier\nSalle : 2/01B\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Géomètre<br/>Matière : Le CoDT<br/>Enseignant : Mercier<br/>Salle
+  : 2/01B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240913T091451Z
+UID:Cours-215213-8-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241105T123000Z
+DTEND:20241105T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Permis d'urbanisation - Mercier
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Permis d'urba
+ nisation\nEnseignant : Mercier\nSalle : 2/01B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Permi
+ s d'urbanisation<br/>Enseignant : Mercier<br/>Salle : 2/01B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240905T123406Z
+UID:Cours-162779-6-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241024T073000Z
+DTEND:20241024T103000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Expertises - Froment
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Expertises\nE
+ nseignant : Froment\nSalle : 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Exper
+ tises<br/>Enseignant : Froment<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240905T123406Z
+UID:Cours-162779-10-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241121T083000Z
+DTEND:20241121T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Expertises
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Expertises\nS
+ alle : 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Exper
+ tises<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240912T113110Z
+UID:Cours-163220-6-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241023T113000Z
+DTEND:20241023T143000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Ges
+ tion de chantiers - Timmermans - Test 1/4
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Gestion de chantiers\nEnseignant : Timmermans\nSalle :
+  2/03\nMémo : Test 1/4\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Gestion de chantiers<br/>Enseignant : Timmerma
+ ns<br/>Salle : 2/03<br/>Mémo : Test 1/4<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240913T090132Z
+UID:Cours-163222-11-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241126T083000Z
+DTEND:20241126T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Ges
+ tion de chantiers - Timmermans - Test 3/4 + installer MS Project !
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Gestion de chantiers\nEnseignant : Timmermans\nSalle :
+  2/03\nMémo : Test 3/4 + installer MS Project !\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Gestion de chantiers<br/>Enseignant : Timmerma
+ ns<br/>Salle : 2/03<br/>Mémo : Test 3/4 + installer MS Project !<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240912T113110Z
+UID:Cours-163223-14-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241218T123000Z
+DTEND:20241218T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Ges
+ tion de chantiers - Timmermans - Test 4/4
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Gestion de chantiers\nEnseignant : Timmermans\nSalle :
+  2/03\nMémo : Test 4/4\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Gestion de chantiers<br/>Enseignant : Timmerma
+ ns<br/>Salle : 2/03<br/>Mémo : Test 4/4<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240619T072951Z
+UID:Cours-179952-5-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241016T110000Z
+DTEND:20241016T150000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Pro
+ jet entrepreneurial - Lenaerts - 24-25
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Projet entrepreneurial\nEnseignant : Lenaerts\nSalle :
+  1/25\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Projet entrepreneurial<br/>Enseignant : Lenaer
+ ts<br/>Salle : 1/25<br/>Mémo : 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240619T072922Z
+UID:Cours-179961-11-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241127T123000Z
+DTEND:20241127T163000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre\, MA2
+  TL - Info Automation et Sys. emb.\, MA2 TL - Info Gestion\, MA2 TL - Info
+  Réseaux et sécurité\, MA2 TL - Life Data Technologies - Projet entreprene
+ urial - Lenaerts - 24-25
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\, MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info Gestion\,
+  MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologies\nMati
+ ère : Projet entrepreneurial\nEnseignant : Lenaerts\nSalle : 1/25\nMémo : 
+ 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre\, MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info Gest
+ ion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologies<
+ br/>Matière : Projet entrepreneurial<br/>Enseignant : Lenaerts<br/>Salle :
+  1/25<br/>Mémo : 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240619T072958Z
+UID:Cours-179962-8-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241106T123000Z
+DTEND:20241106T163000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Pro
+ jet entrepreneurial - Lenaerts - 24-25
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Projet entrepreneurial\nEnseignant : Lenaerts\nSalle :
+  1/25\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Projet entrepreneurial<br/>Enseignant : Lenaer
+ ts<br/>Salle : 1/25<br/>Mémo : 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240619T072958Z
+UID:Cours-179963-9-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241114T123000Z
+DTEND:20241114T163000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Pro
+ jet entrepreneurial - Lenaerts - 24-25
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Projet entrepreneurial\nEnseignant : Lenaerts\nSalle :
+  1/25\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Projet entrepreneurial<br/>Enseignant : Lenaer
+ ts<br/>Salle : 1/25<br/>Mémo : 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240910T052028Z
+UID:Cours-179965-9-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241114T073000Z
+DTEND:20241114T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Path. & défauts construc 2 - Fromen
+ t
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Path. & défau
+ ts construc 2\nEnseignant : Froment\nSalle : 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Path.
+  & défauts construc 2<br/>Enseignant : Froment<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240917T052813Z
+UID:Cours-184304-1-MA2_TL_-_Geometre-Index-Education
+DTSTART:20240920T061500Z
+DTEND:20240920T081500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Géomètre -
+  Le CoDT - Mercier
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Géomètre\nMatière : Le CoDT\nEnseignant : Mercier\nSalle : 2/01B\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Géomètre<br/>Matière : Le CoDT<br/>Enseignant : Mercier<br/>Salle
+  : 2/01B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T122158Z
+UID:Cours-184307-8-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241105T093000Z
+DTEND:20241105T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction GC & Bâtiment\, MA2 TL - Géomètre
+  - Path et défauts de la const. - Froment
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction GC & Bâtiment\, MA2
+  TL - Géomètre\nMatière : Path et défauts de la const.\nEnseignant : Frome
+ nt\nSalle : 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction GC & Bâtiment\
+ , MA2 TL - Géomètre<br/>Matière : Path et défauts de la const.<br/>Enseign
+ ant : Froment<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T122158Z
+UID:Cours-184308-4-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241009T113000Z
+DTEND:20241009T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction GC & Bâtiment\, MA2 TL - Géomètre
+  - Path et défauts de la const. - Froment
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction GC & Bâtiment\, MA2
+  TL - Géomètre\nMatière : Path et défauts de la const.\nEnseignant : Frome
+ nt\nSalle : 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction GC & Bâtiment\
+ , MA2 TL - Géomètre<br/>Matière : Path et défauts de la const.<br/>Enseign
+ ant : Froment<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T122158Z
+UID:Cours-184309-9-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241112T123000Z
+DTEND:20241112T143000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction GC & Bâtiment\, MA2 TL - Géomètre
+  - Path et défauts de la const. - Froment
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction GC & Bâtiment\, MA2
+  TL - Géomètre\nMatière : Path et défauts de la const.\nEnseignant : Frome
+ nt\nSalle : 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction GC & Bâtiment\
+ , MA2 TL - Géomètre<br/>Matière : Path et défauts de la const.<br/>Enseign
+ ant : Froment<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240922T105915Z
+UID:Cours-189315-4-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241010T073000Z
+DTEND:20241010T103000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Géomètre -
+  Portails carto RW - Mercier - Venir avec son ordinateur
+LOCATION;LANGUAGE=fr:2/17D (LCAO)
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Géomètre\nMatière : Portails carto RW\nEnseignant : Mercier\nSalle : 2
+ /17D (LCAO)\nMémo : Venir avec son ordinateur\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Géomètre<br/>Matière : Portails carto RW<br/>Enseignant : Mercier
+ <br/>Salle : 2/17D (LCAO)<br/>Mémo : Venir avec son ordinateur<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240912T113110Z
+UID:Cours-189460-2-MA2_TL_-_Geometre-Index-Education
+DTSTART:20240923T113000Z
+DTEND:20240923T143000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Ges
+ tion de chantiers - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Gestion de chantiers\nEnseignant : Timmermans\nSalle :
+  2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Gestion de chantiers<br/>Enseignant : Timmerma
+ ns<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240912T113110Z
+UID:Cours-189460-4-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241007T113000Z
+DTEND:20241007T143000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Ges
+ tion de chantiers - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Gestion de chantiers\nEnseignant : Timmermans\nSalle :
+  2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Gestion de chantiers<br/>Enseignant : Timmerma
+ ns<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240912T113128Z
+UID:Cours-192331-13-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241210T083000Z
+DTEND:20241210T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Ges
+ tion de chantiers - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Gestion de chantiers\nEnseignant : Timmermans\nSalle :
+  2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Gestion de chantiers<br/>Enseignant : Timmerma
+ ns<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240923T081412Z
+UID:Cours-215707-3-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241002T111500Z
+DTEND:20241002T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Sta
+ ge - Delchevalerie
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Stage\nEnseignant : Delchevalerie\nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Stage<br/>Enseignant : Delchevalerie<br/>Salle
+  : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T122448Z
+UID:Cours-193734-14-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241220T073000Z
+DTEND:20241220T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Photogram & bathymétrie - Ridelaire
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Photogram & b
+ athymétrie\nEnseignant : Ridelaire\nSalle : 2/01B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Photo
+ gram & bathymétrie<br/>Enseignant : Ridelaire<br/>Salle : 2/01B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T122433Z
+UID:Cours-193735-13-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241213T073000Z
+DTEND:20241213T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Photogram & bathymétrie - Ridelaire
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Photogram & b
+ athymétrie\nEnseignant : Ridelaire\nSalle : 2/01B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Photo
+ gram & bathymétrie<br/>Enseignant : Ridelaire<br/>Salle : 2/01B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240909T062441Z
+UID:Cours-193736-3-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241003T113000Z
+DTEND:20241003T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Photogram & bathymétrie - Ridelaire
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Photogram & b
+ athymétrie\nEnseignant : Ridelaire\nSalle : 2/01B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Photo
+ gram & bathymétrie<br/>Enseignant : Ridelaire<br/>Salle : 2/01B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240913T091444Z
+UID:Cours-215122-8-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241108T083000Z
+DTEND:20241108T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Permis d'urbanisation - Mercier
+LOCATION;LANGUAGE=fr:2/17D (LCAO)
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Permis d'urba
+ nisation\nEnseignant : Mercier\nSalle : 2/17D (LCAO)\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Permi
+ s d'urbanisation<br/>Enseignant : Mercier<br/>Salle : 2/17D (LCAO)<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240910T052028Z
+UID:Cours-203778-11-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241126T123000Z
+DTEND:20241126T143000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Path. & défauts construc 2 - Fromen
+ t
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Path. & défau
+ ts construc 2\nEnseignant : Froment\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Path.
+  & défauts construc 2<br/>Enseignant : Froment<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240922T105857Z
+UID:Cours-203833-4-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241009T061500Z
+DTEND:20241009T081500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Géomètre -
+  Le CoDT - Mercier - Télécharger le CoDT dans Ecampus et venir avec son or
+ dinateur
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Géomètre\nMatière : Le CoDT\nEnseignant : Mercier\nSalle : 2/01B\nMémo
+  : Télécharger le CoDT dans Ecampus et venir avec son ordinateur\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Géomètre<br/>Matière : Le CoDT<br/>Enseignant : Mercier<br/>Salle
+  : 2/01B<br/>Mémo : Télécharger le CoDT dans Ecampus et venir avec son ord
+ inateur<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240912T113253Z
+UID:Cours-203946-1-MA2_TL_-_Geometre-Index-Education
+DTSTART:20240917T113000Z
+DTEND:20240917T143000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Géomètre - Gestion de chantiers - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Géomètre\nMatière : Gestion de c
+ hantiers\nEnseignant : Timmermans\nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Géomètre<br/>Matière : Gest
+ ion de chantiers<br/>Enseignant : Timmermans<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240912T113110Z
+UID:Cours-208174-3-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241002T113000Z
+DTEND:20241002T143000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Ges
+ tion de chantiers - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Gestion de chantiers\nEnseignant : Timmermans\nSalle :
+  2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Gestion de chantiers<br/>Enseignant : Timmerma
+ ns<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240912T113110Z
+UID:Cours-208174-9-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241113T123000Z
+DTEND:20241113T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Ges
+ tion de chantiers - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Gestion de chantiers\nEnseignant : Timmermans\nSalle :
+  2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Gestion de chantiers<br/>Enseignant : Timmerma
+ ns<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240912T113110Z
+UID:Cours-208174-10-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241120T123000Z
+DTEND:20241120T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Ges
+ tion de chantiers - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Gestion de chantiers\nEnseignant : Timmermans\nSalle :
+  2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Gestion de chantiers<br/>Enseignant : Timmerma
+ ns<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240913T085526Z
+UID:Cours-208179-4-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241009T083000Z
+DTEND:20241009T103000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Rés
+ istance au feu - Froment
+LOCATION;LANGUAGE=fr:2/17D (LCAO)
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Résistance au feu\nEnseignant : Froment\nSalle : 2/17D
+  (LCAO)\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Résistance au feu<br/>Enseignant : Froment<br/
+ >Salle : 2/17D (LCAO)<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240905T123257Z
+UID:Cours-208180-8-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241107T123000Z
+DTEND:20241107T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Rés
+ istance au feu - Froment
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Résistance au feu\nEnseignant : Froment\nSalle : 2/17B
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Résistance au feu<br/>Enseignant : Froment<br/
+ >Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240905T123305Z
+UID:Cours-208181-9-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241115T093000Z
+DTEND:20241115T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Rés
+ istance au feu - Froment
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Résistance au feu\nEnseignant : Froment\nSalle : 2/17B
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Résistance au feu<br/>Enseignant : Froment<br/
+ >Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240905T123248Z
+UID:Cours-208182-10-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241121T123000Z
+DTEND:20241121T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Rés
+ istance au feu - Froment
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Résistance au feu\nEnseignant : Froment\nSalle : 2/17B
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Résistance au feu<br/>Enseignant : Froment<br/
+ >Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240905T123221Z
+UID:Cours-208183-11-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241127T093000Z
+DTEND:20241127T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Rés
+ istance au feu - Froment
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Résistance au feu\nEnseignant : Froment\nSalle : 2/17B
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Résistance au feu<br/>Enseignant : Froment<br/
+ >Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T115454Z
+UID:Cours-208195-3-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241001T113000Z
+DTEND:20241001T133000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Expertises - Froment
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Expertises\nE
+ nseignant : Froment\nSalle : 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Exper
+ tises<br/>Enseignant : Froment<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T115454Z
+UID:Cours-208195-4-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241008T113000Z
+DTEND:20241008T133000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Expertises - Froment
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Expertises\nE
+ nseignant : Froment\nSalle : 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Exper
+ tises<br/>Enseignant : Froment<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T115454Z
+UID:Cours-208195-5-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241015T113000Z
+DTEND:20241015T133000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Expertises - Froment
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Expertises\nE
+ nseignant : Froment\nSalle : 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Exper
+ tises<br/>Enseignant : Froment<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240910T052028Z
+UID:Cours-208231-13-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241211T071500Z
+DTEND:20241211T111500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Path. & défauts construc 2 - Fromen
+ t
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Path. & défau
+ ts construc 2\nEnseignant : Froment\nSalle : 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Path.
+  & défauts construc 2<br/>Enseignant : Froment<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T122444Z
+UID:Cours-208232-10-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241122T073000Z
+DTEND:20241122T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Photogram & bathymétrie - Ridelaire
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Photogram & b
+ athymétrie\nEnseignant : Ridelaire\nSalle : 2/01B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Photo
+ gram & bathymétrie<br/>Enseignant : Ridelaire<br/>Salle : 2/01B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T122444Z
+UID:Cours-208232-11-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241129T073000Z
+DTEND:20241129T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Photogram & bathymétrie - Ridelaire
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Photogram & b
+ athymétrie\nEnseignant : Ridelaire\nSalle : 2/01B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Photo
+ gram & bathymétrie<br/>Enseignant : Ridelaire<br/>Salle : 2/01B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T122508Z
+UID:Cours-208234-4-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241011T113000Z
+DTEND:20241011T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Photogram & bathymétrie - Ridelaire
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Photogram & b
+ athymétrie\nEnseignant : Ridelaire\nSalle : 2/01B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Photo
+ gram & bathymétrie<br/>Enseignant : Ridelaire<br/>Salle : 2/01B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T122508Z
+UID:Cours-208234-5-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241018T113000Z
+DTEND:20241018T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Photogram & bathymétrie - Ridelaire
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Photogram & b
+ athymétrie\nEnseignant : Ridelaire\nSalle : 2/01B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Photo
+ gram & bathymétrie<br/>Enseignant : Ridelaire<br/>Salle : 2/01B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T122508Z
+UID:Cours-208234-6-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241025T113000Z
+DTEND:20241025T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Photogram & bathymétrie - Ridelaire
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Photogram & b
+ athymétrie\nEnseignant : Ridelaire\nSalle : 2/01B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Photo
+ gram & bathymétrie<br/>Enseignant : Ridelaire<br/>Salle : 2/01B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240905T122809Z
+UID:Cours-208688-2-MA2_TL_-_Geometre-Index-Education
+DTSTART:20240923T061500Z
+DTEND:20240923T081500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Rés
+ istance au feu - Froment
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Résistance au feu\nEnseignant : Froment\nSalle : 2/17B
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Résistance au feu<br/>Enseignant : Froment<br/
+ >Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240905T123336Z
+UID:Cours-208689-1-MA2_TL_-_Geometre-Index-Education
+DTSTART:20240920T083000Z
+DTEND:20240920T103000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - Rés
+ istance au feu - Froment
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : Résistance au feu\nEnseignant : Froment\nSalle : 2/17B
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : Résistance au feu<br/>Enseignant : Froment<br/
+ >Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240916T113026Z
+UID:Cours-208695-3-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241003T083000Z
+DTEND:20241003T103000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Géomètre -
+  Le CoDT - Mercier
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Géomètre\nMatière : Le CoDT\nEnseignant : Mercier\nSalle : 2/01B\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Géomètre<br/>Matière : Le CoDT<br/>Enseignant : Mercier<br/>Salle
+  : 2/01B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240823T094321Z
+UID:Cours-209944-13-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241212T071500Z
+DTEND:20241212T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction GC & Bâtiment\, MA2 TL - Géomètre
+  - Path et défauts de la const. - Froment
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction GC & Bâtiment\, MA2
+  TL - Géomètre\nMatière : Path et défauts de la const.\nEnseignant : Frome
+ nt\nSalle : 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction GC & Bâtiment\
+ , MA2 TL - Géomètre<br/>Matière : Path et défauts de la const.<br/>Enseign
+ ant : Froment<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240905T052816Z
+UID:Cours-209946-8-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241107T083000Z
+DTEND:20241107T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre - TFE
+  - Chardome\, Ridelaire\, Timmermans - Intégration des ODD
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\nMatière : TFE\nEnseignants : Chardome\, Ridelaire\, Timmermans\n
+ Salle : 2/08\nMémo : Intégration des ODD\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre<br/>Matière : TFE<br/>Enseignants : Chardome\, Ridelaire\, T
+ immermans<br/>Salle : 2/08<br/>Mémo : Intégration des ODD<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240903T073339Z
+UID:Cours-211865-9-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241115T123000Z
+DTEND:20241115T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Permis d'urbanisation - Mercier
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Permis d'urba
+ nisation\nEnseignant : Mercier\nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Permi
+ s d'urbanisation<br/>Enseignant : Mercier<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240910T052028Z
+UID:Cours-214638-10-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241119T123000Z
+DTEND:20241119T163000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Path. & défauts construc 2 - Fromen
+ t
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Path. & défau
+ ts construc 2\nEnseignant : Froment\nSalle : 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Path.
+  & défauts construc 2<br/>Enseignant : Froment<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240912T091228Z
+UID:Cours-214639-1-MA2_TL_-_Geometre-Index-Education
+DTSTART:20240916T113000Z
+DTEND:20240916T133000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction GC & Bâtiment\, MA2 TL - Géomètre
+  - Path et défauts de la const. - Froment
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction GC & Bâtiment\, MA2
+  TL - Géomètre\nMatière : Path et défauts de la const.\nEnseignant : Frome
+ nt\nSalle : 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction GC & Bâtiment\
+ , MA2 TL - Géomètre<br/>Matière : Path et défauts de la const.<br/>Enseign
+ ant : Froment<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240910T052120Z
+UID:Cours-214702-1-MA2_TL_-_Geometre-Index-Education
+DTSTART:20240918T061500Z
+DTEND:20240918T101500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Expertises - Froment
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Expertises\nE
+ nseignant : Froment\nSalle : 2/01B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Exper
+ tises<br/>Enseignant : Froment<br/>Salle : 2/01B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240910T052120Z
+UID:Cours-214702-2-MA2_TL_-_Geometre-Index-Education
+DTSTART:20240925T061500Z
+DTEND:20240925T101500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Expertises - Froment
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Expertises\nE
+ nseignant : Froment\nSalle : 2/01B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Exper
+ tises<br/>Enseignant : Froment<br/>Salle : 2/01B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240910T052120Z
+UID:Cours-214702-3-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241002T061500Z
+DTEND:20241002T101500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Expertises - Froment
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Expertises\nE
+ nseignant : Froment\nSalle : 2/01B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Exper
+ tises<br/>Enseignant : Froment<br/>Salle : 2/01B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240910T052120Z
+UID:Cours-214702-6-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241023T061500Z
+DTEND:20241023T101500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Expertises - Froment
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Expertises\nE
+ nseignant : Froment\nSalle : 2/01B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Exper
+ tises<br/>Enseignant : Froment<br/>Salle : 2/01B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240910T052120Z
+UID:Cours-214702-8-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241106T071500Z
+DTEND:20241106T111500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Expertises - Froment
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Expertises\nE
+ nseignant : Froment\nSalle : 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Exper
+ tises<br/>Enseignant : Froment<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240910T052120Z
+UID:Cours-214702-9-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241113T071500Z
+DTEND:20241113T111500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Expertises - Froment
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Expertises\nE
+ nseignant : Froment\nSalle : 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Exper
+ tises<br/>Enseignant : Froment<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240910T052120Z
+UID:Cours-214702-10-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241120T071500Z
+DTEND:20241120T111500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Expertises - Froment
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Expertises\nE
+ nseignant : Froment\nSalle : 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Exper
+ tises<br/>Enseignant : Froment<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240910T052131Z
+UID:Cours-214703-11-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241128T073000Z
+DTEND:20241128T163000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Expertises - Froment - Visite du ca
+ dastre
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Expertises\nE
+ nseignant : Froment\nMémo : Visite du cadastre\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Exper
+ tises<br/>Enseignant : Froment<br/>Mémo : Visite du cadastre<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240913T091444Z
+UID:Cours-215120-9-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241112T083000Z
+DTEND:20241112T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Permis d'urbanisation - Mercier
+LOCATION;LANGUAGE=fr:2/17D (LCAO)
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Permis d'urba
+ nisation\nEnseignant : Mercier\nSalle : 2/17D (LCAO)\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Permi
+ s d'urbanisation<br/>Enseignant : Mercier<br/>Salle : 2/17D (LCAO)<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240913T091444Z
+UID:Cours-215120-10-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241119T083000Z
+DTEND:20241119T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Géomètre - Permis d'urbanisation - Mercier
+LOCATION;LANGUAGE=fr:2/17D (LCAO)
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Géomètre\nMatière : Permis d'urba
+ nisation\nEnseignant : Mercier\nSalle : 2/17D (LCAO)\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Géomètre<br/>Matière : Permi
+ s d'urbanisation<br/>Enseignant : Mercier<br/>Salle : 2/17D (LCAO)<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240913T062921Z
+UID:Cours-154659-5-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241014T063000Z
+DTEND:20241014T103000Z
+SUMMARY;LANGUAGE=fr:Intercultural communication - Parmentier - Placé AA 24-
+ 25 - Cours
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Matière : Intercultural communication\nEnseignant :
+  Parmentier\nSalle : 2/08\nMémo : Placé AA 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intercultural communication<br/>Ense
+ ignant : Parmentier<br/>Salle : 2/08<br/>Mémo : Placé AA 24-25<br/>Type : 
+ Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240821T121012Z
+UID:Cours-154661-5-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241015T063000Z
+DTEND:20241015T103000Z
+SUMMARY;LANGUAGE=fr:Intercultural communication - Parmentier - Placé AA 24-
+ 25 - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Intercultural communication\nEnseignant :
+  Parmentier\nMémo : Placé AA 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intercultural communication<br/>Ense
+ ignant : Parmentier<br/>Mémo : Placé AA 24-25<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240821T121007Z
+UID:Cours-154664-5-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241016T063000Z
+DTEND:20241016T103000Z
+SUMMARY;LANGUAGE=fr:Intercultural communication - Parmentier - Placé AA 23-
+ 24 - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Intercultural communication\nEnseignant :
+  Parmentier\nMémo : Placé AA 23-24\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intercultural communication<br/>Ense
+ ignant : Parmentier<br/>Mémo : Placé AA 23-24<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240821T121002Z
+UID:Cours-154667-5-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241017T063000Z
+DTEND:20241017T103000Z
+SUMMARY;LANGUAGE=fr:Intercultural communication - Parmentier - Placé AA 24-
+ 25 - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Intercultural communication\nEnseignant :
+  Parmentier\nMémo : Placé AA 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intercultural communication<br/>Ense
+ ignant : Parmentier<br/>Mémo : Placé AA 24-25<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240619T072947Z
+UID:Cours-154733-2-MA2_TL_-_Geometre-Index-Education
+DTSTART:20240926T113000Z
+DTEND:20240926T133000Z
+SUMMARY;LANGUAGE=fr:Projet entrepreneurial - Lenaerts - 24-25 - Laurent Gil
+ is
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Projet entrepreneurial\nEnseignant : Lena
+ erts\nSalle : 2/SA\nMémo : 24-25 - Laurent Gilis\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projet entrepreneurial<br/>Enseignan
+ t : Lenaerts<br/>Salle : 2/SA<br/>Mémo : 24-25 - Laurent Gilis<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240619T093018Z
+UID:Cours-154772-11-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241127T071500Z
+DTEND:20241127T091500Z
+SUMMARY;LANGUAGE=fr:Simulation en gestion - Lenaerts - 24-25
+LOCATION;LANGUAGE=fr:UMONS-Wa-Drechsel
+DESCRIPTION;LANGUAGE=fr:Matière : Simulation en gestion\nEnseignant : Lenae
+ rts\nSalle : UMONS-Wa-Drechsel\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Simulation en gestion<br/>Enseignant
+  : Lenaerts<br/>Salle : UMONS-Wa-Drechsel<br/>Mémo : 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T091900Z
+UID:Cours-155184-2-MA2_TL_-_Geometre-Index-Education
+DTSTART:20240926T134500Z
+DTEND:20240926T154500Z
+SUMMARY;LANGUAGE=fr:Inter.management & HR - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Inter.management & HR\nEnseignant : Baras
+ \nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Inter.management & HR<br/>Enseignant
+  : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T084355Z
+UID:Cours-158526-13-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241211T123000Z
+DTEND:20241211T163000Z
+SUMMARY;LANGUAGE=fr:Prob. Co2 & Bilan Carbone - Mathot
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Prob. Co2 & Bilan Carbone\nEnseignant : M
+ athot\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prob. Co2 & Bilan Carbone<br/>Enseig
+ nant : Mathot<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T084355Z
+UID:Cours-158527-8-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241104T123000Z
+DTEND:20241104T163000Z
+SUMMARY;LANGUAGE=fr:Prob. Co2 & Bilan Carbone - Mathot
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Prob. Co2 & Bilan Carbone\nEnseignant : M
+ athot\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prob. Co2 & Bilan Carbone<br/>Enseig
+ nant : Mathot<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T084355Z
+UID:Cours-158527-11-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241125T123000Z
+DTEND:20241125T163000Z
+SUMMARY;LANGUAGE=fr:Prob. Co2 & Bilan Carbone - Mathot
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Prob. Co2 & Bilan Carbone\nEnseignant : M
+ athot\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prob. Co2 & Bilan Carbone<br/>Enseig
+ nant : Mathot<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T084355Z
+UID:Cours-158527-13-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241209T123000Z
+DTEND:20241209T163000Z
+SUMMARY;LANGUAGE=fr:Prob. Co2 & Bilan Carbone - Mathot
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Prob. Co2 & Bilan Carbone\nEnseignant : M
+ athot\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prob. Co2 & Bilan Carbone<br/>Enseig
+ nant : Mathot<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240904T090057Z
+UID:Cours-159588-4-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241008T061500Z
+DTEND:20241008T081500Z
+SUMMARY;LANGUAGE=fr:Inter.management & HR - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Inter.management & HR\nEnseignant : Baras
+ \nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Inter.management & HR<br/>Enseignant
+  : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240826T075357Z
+UID:Cours-167879-4-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241007T093000Z
+DTEND:20241007T103000Z
+SUMMARY;LANGUAGE=fr:Inter.management & HR - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Inter.management & HR\nEnseignant : Baras
+ \nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Inter.management & HR<br/>Enseignant
+  : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240619T093008Z
+UID:Cours-179944-8-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241105T071500Z
+DTEND:20241105T091500Z
+SUMMARY;LANGUAGE=fr:Simulation en gestion - Lenaerts - 24-25
+LOCATION;LANGUAGE=fr:UMONS-SalleAcadWA
+DESCRIPTION;LANGUAGE=fr:Matière : Simulation en gestion\nEnseignant : Lenae
+ rts\nSalle : UMONS-SalleAcadWA\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Simulation en gestion<br/>Enseignant
+  : Lenaerts<br/>Salle : UMONS-SalleAcadWA<br/>Mémo : 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240821T053226Z
+UID:Cours-180384-13-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241209T071500Z
+DTEND:20241209T113000Z
+SUMMARY;LANGUAGE=fr:Inter.management & HR - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Inter.management & HR\nEnseignant : Baras
+ \nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Inter.management & HR<br/>Enseignant
+  : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T080122Z
+UID:Cours-187109-12-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241206T073000Z
+DTEND:20241206T113000Z
+SUMMARY;LANGUAGE=fr:Inter.management & HR - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Inter.management & HR\nEnseignant : Baras
+ \nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Inter.management & HR<br/>Enseignant
+  : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T112058Z
+UID:Cours-187113-3-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241001T061500Z
+DTEND:20241001T081500Z
+SUMMARY;LANGUAGE=fr:Inter.management & HR - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Inter.management & HR\nEnseignant : Baras
+ \nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Inter.management & HR<br/>Enseignant
+  : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240619T092951Z
+UID:Cours-203785-12-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241203T071500Z
+DTEND:20241203T163000Z
+SUMMARY;LANGUAGE=fr:Simulation en gestion - Lenaerts - 24-25
+DESCRIPTION;LANGUAGE=fr:Matière : Simulation en gestion\nEnseignant : Lenae
+ rts\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Simulation en gestion<br/>Enseignant
+  : Lenaerts<br/>Mémo : 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240619T092925Z
+UID:Cours-203787-12-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241204T071500Z
+DTEND:20241204T163000Z
+SUMMARY;LANGUAGE=fr:Simulation en gestion - Lenaerts - 24-25
+DESCRIPTION;LANGUAGE=fr:Matière : Simulation en gestion\nEnseignant : Lenae
+ rts\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Simulation en gestion<br/>Enseignant
+  : Lenaerts<br/>Mémo : 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240619T092958Z
+UID:Cours-203788-12-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241205T071500Z
+DTEND:20241205T163000Z
+SUMMARY;LANGUAGE=fr:Simulation en gestion - Lenaerts - 24-25
+DESCRIPTION;LANGUAGE=fr:Matière : Simulation en gestion\nEnseignant : Lenae
+ rts\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Simulation en gestion<br/>Enseignant
+  : Lenaerts<br/>Mémo : 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240710T072140Z
+UID:Cours-203791-6-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241022T061500Z
+DTEND:20241022T143000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Informatique\, BA3 TL 
+ - LDT - Salon Job contact - 24-25
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Informat
+ ique\, BA3 TL - LDT\nMatière : Salon Job contact\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Inf
+ ormatique\, BA3 TL - LDT<br/>Matière : Salon Job contact<br/>Mémo : 24-25<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240820T084355Z
+UID:Cours-203873-13-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241210T123000Z
+DTEND:20241210T163000Z
+SUMMARY;LANGUAGE=fr:Prob. Co2 & Bilan Carbone - Mathot
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Prob. Co2 & Bilan Carbone\nEnseignant : M
+ athot\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prob. Co2 & Bilan Carbone<br/>Enseig
+ nant : Mathot<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240821T053217Z
+UID:Cours-203944-11-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241125T071500Z
+DTEND:20241125T113000Z
+SUMMARY;LANGUAGE=fr:Inter.management & HR - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Inter.management & HR\nEnseignant : Baras
+ \nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Inter.management & HR<br/>Enseignant
+  : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240821T121057Z
+UID:Cours-207937-5-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241014T113000Z
+DTEND:20241014T153000Z
+SUMMARY;LANGUAGE=fr:Inter.management & HR - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Inter.management & HR\nEnseignant : Baras
+ \nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Inter.management & HR<br/>Enseignant
+  : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240912T081320Z
+UID:Cours-207942-4-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241007T061500Z
+DTEND:20241007T091500Z
+SUMMARY;LANGUAGE=fr:Compétences managériales - Bouillon
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Compétences managériales\nEnseignant : Bo
+ uillon\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Compétences managériales<br/>Enseign
+ ant : Bouillon<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240912T081320Z
+UID:Cours-207942-6-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241021T061500Z
+DTEND:20241021T091500Z
+SUMMARY;LANGUAGE=fr:Compétences managériales - Bouillon
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Compétences managériales\nEnseignant : Bo
+ uillon\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Compétences managériales<br/>Enseign
+ ant : Bouillon<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240912T081320Z
+UID:Cours-207942-8-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241104T071500Z
+DTEND:20241104T101500Z
+SUMMARY;LANGUAGE=fr:Compétences managériales - Bouillon
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Compétences managériales\nEnseignant : Bo
+ uillon\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Compétences managériales<br/>Enseign
+ ant : Bouillon<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240821T120946Z
+UID:Cours-208699-5-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241018T063000Z
+DTEND:20241018T103000Z
+SUMMARY;LANGUAGE=fr:Intercultural communication - Parmentier - Placé AA 24-
+ 25 - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Intercultural communication\nEnseignant :
+  Parmentier\nMémo : Placé AA 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intercultural communication<br/>Ense
+ ignant : Parmentier<br/>Mémo : Placé AA 24-25<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240822T074452Z
+UID:Cours-208873-3-MA2_TL_-_Geometre-Index-Education
+DTSTART:20240930T113000Z
+DTEND:20240930T143000Z
+SUMMARY;LANGUAGE=fr:Compétences managériales - Bouillon
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Compétences managériales\nEnseignant : Bo
+ uillon\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Compétences managériales<br/>Enseign
+ ant : Bouillon<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240822T074452Z
+UID:Cours-208873-10-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241118T123000Z
+DTEND:20241118T153000Z
+SUMMARY;LANGUAGE=fr:Compétences managériales - Bouillon
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Compétences managériales\nEnseignant : Bo
+ uillon\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Compétences managériales<br/>Enseign
+ ant : Bouillon<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+LAST-MODIFIED:20240826T075410Z
+UID:Cours-210200-8-MA2_TL_-_Geometre-Index-Education
+DTSTART:20241104T103000Z
+DTEND:20241104T113000Z
+SUMMARY;LANGUAGE=fr:Inter.management & HR - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Inter.management & HR\nEnseignant : Baras
+ \nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Inter.management & HR<br/>Enseignant
+  : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+UID:Ferie-939-MA2_TL_-_Geometre-Index-Education
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240928
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+UID:Ferie-940-MA2_TL_-_Geometre-Index-Education
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145722Z
+UID:Ferie-941-MA2_TL_-_Geometre-Index-Education
+DTSTART;VALUE=DATE:20241111
+DTEND;VALUE=DATE:20241112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+END:VCALENDAR

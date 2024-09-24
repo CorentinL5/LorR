@@ -1,0 +1,2857 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
+METHOD:PUBLISH
+X-CALSTART:20240916T000000Z
+X-CALEND:20241221T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - <TTM1 - MA1 Ingénieur industriel> <Options> 
+ TTMO1 MA1 TL - Construction GC & Bâtiment - du 16 septembre au 21 décembre
+  2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de <TTM1 - MA1 Ingénieur industrie
+ l> <Options> TTMO1 MA1 TL - Construction GC & Bâtiment généré par le logic
+ iel HP (©INDEX ÉDUCATION) le 24 sept. 2024 - Haute Ecole en Hainaut - vala
+ ble sur la période du 16 septembre au 21 décembre 2024 - Semaines : semain
+ e 38 - 51
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240619T094047Z
+UID:Cours-155459-11-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241127T071500Z
+DTEND:20241127T163000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Hydro urbaine - Quittelier - Formation Geberit 24-25
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Hydro urbaine\nEnseignant : Quittelier\nMémo
+  : Formation Geberit 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Hydro urbaine<br/>Enseignant : Quitt
+ elier<br/>Mémo : Formation Geberit 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T055647Z
+UID:Cours-157245-3-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241004T061500Z
+DTEND:20241004T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Langues - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Langues\nEnseignant : Remacle\nSalle : 1/29\
+ n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Langues<br/>Enseignant : Remacle<br/
+ >Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240916T055651Z
+UID:Cours-157249-1-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240918T061500Z
+DTEND:20240918T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Cours
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/03\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/03<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240819T121407Z
+UID:Cours-157250-1-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240917T061500Z
+DTEND:20240917T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Cours
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/03\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/03<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240819T121407Z
+UID:Cours-157250-2-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240924T061500Z
+DTEND:20240924T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Cours
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/03\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/03<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240819T121407Z
+UID:Cours-157250-4-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241008T061500Z
+DTEND:20241008T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Cours
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/03\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/03<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240819T121413Z
+UID:Cours-157252-1-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240916T061500Z
+DTEND:20240916T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Cours
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/03\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/03<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240819T121413Z
+UID:Cours-157252-2-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240923T061500Z
+DTEND:20240923T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Cours
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/03\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/03<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20220916T060655Z
+UID:Cours-157253-3-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240930T061500Z
+DTEND:20240930T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Cours
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/03\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/03<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20220916T060655Z
+UID:Cours-157253-4-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241007T061500Z
+DTEND:20241007T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Cours
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/03\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/03<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20220916T060655Z
+UID:Cours-157253-5-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241014T061500Z
+DTEND:20241014T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Cours
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/03\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/03<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240905T130250Z
+UID:Cours-157271-6-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241021T073000Z
+DTEND:20241021T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Exercices
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/08\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/08<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240905T130250Z
+UID:Cours-157271-8-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241104T083000Z
+DTEND:20241104T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Exercices
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/08\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/08<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240905T130250Z
+UID:Cours-157271-11-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241125T083000Z
+DTEND:20241125T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Exercices
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/08\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/08<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240916T113327Z
+UID:Cours-157276-8-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241106T123000Z
+DTEND:20241106T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Exercices
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/08\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/08<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20220826T092844Z
+UID:Cours-157279-12-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241204T123000Z
+DTEND:20241204T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Exercices
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/08\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/08<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20230825T114048Z
+UID:Cours-157282-14-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241219T083000Z
+DTEND:20241219T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Exercices
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/08\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/08<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20230828T051917Z
+UID:Cours-157283-11-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241128T123000Z
+DTEND:20241128T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Exercices
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/08\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/08<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240819T052511Z
+UID:Cours-157284-6-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241022T061500Z
+DTEND:20241022T101500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construc
+ tion Gestion - Structures métalliques - Bienfait - TP
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction GC & Bâtiment\, MA1
+  TL - Construction Gestion\nMatière : Structures métalliques\nEnseignant :
+  Bienfait\nSalle : 2/08\nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction GC & Bâtiment\
+ , MA1 TL - Construction Gestion<br/>Matière : Structures métalliques<br/>E
+ nseignant : Bienfait<br/>Salle : 2/08<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T064857Z
+UID:Cours-157285-4-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241011T061500Z
+DTEND:20241011T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Cours
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/03\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/03<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20230906T091727Z
+UID:Cours-157287-11-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241125T123000Z
+DTEND:20241125T163000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion - Structures mé
+ talliques - Bienfait - TP
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\n
+ Matière : Structures métalliques\nEnseignant : Bienfait\nSalle : 2/03\nTyp
+ e : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion<br/>Matière : Structures métalliques<br/>Enseignant : Bienfait<br/>Sal
+ le : 2/03<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20230901T073453Z
+UID:Cours-157290-11-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241126T073000Z
+DTEND:20241126T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion - Structures mé
+ talliques - Bienfait - TP
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\n
+ Matière : Structures métalliques\nEnseignant : Bienfait\nSalle : 2/08\nTyp
+ e : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion<br/>Matière : Structures métalliques<br/>Enseignant : Bienfait<br/>Sal
+ le : 2/08<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240913T062912Z
+UID:Cours-157292-2-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240923T083000Z
+DTEND:20240923T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/08
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240913T062912Z
+UID:Cours-157292-3-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240930T083000Z
+DTEND:20240930T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/08
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240913T062912Z
+UID:Cours-157292-4-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241007T083000Z
+DTEND:20241007T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/08
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240913T062912Z
+UID:Cours-157292-5-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241014T083000Z
+DTEND:20241014T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/03
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T055452Z
+UID:Cours-157295-1-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240917T083000Z
+DTEND:20240917T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/08
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T055452Z
+UID:Cours-157295-2-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240924T083000Z
+DTEND:20240924T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/08
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240905T130245Z
+UID:Cours-157296-1-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240916T083000Z
+DTEND:20240916T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/08
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240912T112638Z
+UID:Cours-157301-3-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241001T083000Z
+DTEND:20241001T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/03
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240905T130304Z
+UID:Cours-157305-9-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241112T123000Z
+DTEND:20241112T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans - TP
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/08
+ \nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/08<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240905T130304Z
+UID:Cours-157305-10-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241119T123000Z
+DTEND:20241119T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans - TP
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/08
+ \nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/08<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240905T130304Z
+UID:Cours-157305-12-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241203T123000Z
+DTEND:20241203T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans - TP
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/08
+ \nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/08<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240905T130304Z
+UID:Cours-157305-13-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241210T123000Z
+DTEND:20241210T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans - TP
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/08
+ \nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/08<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240905T130304Z
+UID:Cours-157305-14-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241217T123000Z
+DTEND:20241217T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans - TP
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/08
+ \nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/08<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240821T125910Z
+UID:Cours-157320-8-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241107T071500Z
+DTEND:20241107T091500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Hydro urbaine - Quittelier
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Hydro urbaine\nEnseignant : Quittelier\nSall
+ e : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Hydro urbaine<br/>Enseignant : Quitt
+ elier<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240619T094819Z
+UID:Cours-157330-3-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241002T113000Z
+DTEND:20241002T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Résistance - Bienfait
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Résistance\nEnseignant : Bienfait\nSalle : 2
+ /08\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Résistance<br/>Enseignant : Bienfait
+ <br/>Salle : 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240619T094819Z
+UID:Cours-157330-4-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241009T113000Z
+DTEND:20241009T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Résistance - Bienfait
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Résistance\nEnseignant : Bienfait\nSalle : 2
+ /03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Résistance<br/>Enseignant : Bienfait
+ <br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240619T094819Z
+UID:Cours-157330-5-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241016T113000Z
+DTEND:20241016T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Résistance - Bienfait
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Résistance\nEnseignant : Bienfait\nSalle : 2
+ /08\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Résistance<br/>Enseignant : Bienfait
+ <br/>Salle : 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240619T094819Z
+UID:Cours-157330-6-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241023T113000Z
+DTEND:20241023T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Résistance - Bienfait
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Résistance\nEnseignant : Bienfait\nSalle : 2
+ /08\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Résistance<br/>Enseignant : Bienfait
+ <br/>Salle : 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240913T091304Z
+UID:Cours-157339-10-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241120T123000Z
+DTEND:20241120T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion - Stabilité - Q
+ uittelier - Exercices
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\n
+ Matière : Stabilité\nEnseignant : Quittelier\nSalle : 2/17B\nType : Exerci
+ ces\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion<br/>Matière : Stabilité<br/>Enseignant : Quittelier<br/>Salle : 2/17B<
+ br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240905T130325Z
+UID:Cours-157342-13-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241209T123000Z
+DTEND:20241209T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion - Stabilité - Q
+ uittelier - Exercices
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\n
+ Matière : Stabilité\nEnseignant : Quittelier\nSalle : 2/17B\nType : Exerci
+ ces\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion<br/>Matière : Stabilité<br/>Enseignant : Quittelier<br/>Salle : 2/17B<
+ br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240905T130325Z
+UID:Cours-157342-14-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241216T123000Z
+DTEND:20241216T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion - Stabilité - Q
+ uittelier - Exercices
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\n
+ Matière : Stabilité\nEnseignant : Quittelier\nSalle : 2/03\nType : Exercic
+ es\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion<br/>Matière : Stabilité<br/>Enseignant : Quittelier<br/>Salle : 2/03<b
+ r/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240913T063017Z
+UID:Cours-157356-8-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241106T071500Z
+DTEND:20241106T091500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Gestion de l'énergie - Chardome
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Gestion de l'énergie\nEnseignant : Chardome\
+ nSalle : 2/08\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Gestion de l'énergie<br/>Enseignant 
+ : Chardome<br/>Salle : 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T073321Z
+UID:Cours-157362-9-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241114T123000Z
+DTEND:20241114T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Climatisation - Delchevalerie
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Climatisation\nEnseignant : Delchevalerie\nS
+ alle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Climatisation<br/>Enseignant : Delch
+ evalerie<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240819T120147Z
+UID:Cours-157363-9-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241112T093000Z
+DTEND:20241112T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Climatisation - Delchevalerie
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Climatisation\nEnseignant : Delchevalerie\nS
+ alle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Climatisation<br/>Enseignant : Delch
+ evalerie<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240903T090153Z
+UID:Cours-157364-5-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241015T061500Z
+DTEND:20241015T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Climatisation - Delchevalerie
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Climatisation\nEnseignant : Delchevalerie\nS
+ alle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Climatisation<br/>Enseignant : Delch
+ evalerie<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T064930Z
+UID:Cours-157388-4-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241010T063000Z
+DTEND:20241010T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction GC & Bâtiment - Complément de Bét
+ on armé - Bienfait
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - Construction GC & Bâtiment\nMatiè
+ re : Complément de Béton armé\nEnseignant : Bienfait\nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - Construction GC & Bâtiment<b
+ r/>Matière : Complément de Béton armé<br/>Enseignant : Bienfait<br/>Salle 
+ : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20220919T080114Z
+UID:Cours-157399-2-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240926T083000Z
+DTEND:20240926T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction GC & Bâtiment - Complément de Bét
+ on armé - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - Construction GC & Bâtiment\nMatiè
+ re : Complément de Béton armé\nEnseignant : Timmermans\nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - Construction GC & Bâtiment<b
+ r/>Matière : Complément de Béton armé<br/>Enseignant : Timmermans<br/>Sall
+ e : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20231017T060226Z
+UID:Cours-158627-11-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241126T123000Z
+DTEND:20241126T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans - TP
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/08
+ \nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/08<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20220824T084144Z
+UID:Cours-158628-9-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241112T071500Z
+DTEND:20241112T091500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Hydro urbaine - Quittelier
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Hydro urbaine\nEnseignant : Quittelier\nSall
+ e : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Hydro urbaine<br/>Enseignant : Quitt
+ elier<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20220824T084206Z
+UID:Cours-158629-10-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241118T123000Z
+DTEND:20241118T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Hydro urbaine - Quittelier
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Hydro urbaine\nEnseignant : Quittelier\nSall
+ e : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Hydro urbaine<br/>Enseignant : Quitt
+ elier<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20231016T084802Z
+UID:Cours-158630-13-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241209T093000Z
+DTEND:20241209T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Hydro urbaine - Quittelier
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Hydro urbaine\nEnseignant : Quittelier\nSall
+ e : 2/08\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Hydro urbaine<br/>Enseignant : Quitt
+ elier<br/>Salle : 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20221128T083858Z
+UID:Cours-158631-12-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241204T093000Z
+DTEND:20241204T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Hydro urbaine - Quittelier
+LOCATION;LANGUAGE=fr:2/17D (LCAO)
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Hydro urbaine\nEnseignant : Quittelier\nSall
+ e : 2/17D (LCAO)\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Hydro urbaine<br/>Enseignant : Quitt
+ elier<br/>Salle : 2/17D (LCAO)<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20220824T084508Z
+UID:Cours-158632-12-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241204T071500Z
+DTEND:20241204T091500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Climatisation - Delchevalerie
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Climatisation\nEnseignant : Delchevalerie\nS
+ alle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Climatisation<br/>Enseignant : Delch
+ evalerie<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20230828T055420Z
+UID:Cours-158635-10-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241118T143000Z
+DTEND:20241118T163000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Gestion de l'énergie - Chardome
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Gestion de l'énergie\nEnseignant : Chardome\
+ nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Gestion de l'énergie<br/>Enseignant 
+ : Chardome<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240821T124246Z
+UID:Cours-158636-14-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241218T093000Z
+DTEND:20241218T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Gestion de l'énergie - Chardome
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Gestion de l'énergie\nEnseignant : Chardome\
+ nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Gestion de l'énergie<br/>Enseignant 
+ : Chardome<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20220919T071314Z
+UID:Cours-159140-10-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241118T083000Z
+DTEND:20241118T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion - Stabilité - Q
+ uittelier - Exercices
+LOCATION;LANGUAGE=fr:2/17D (LCAO)
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\n
+ Matière : Stabilité\nEnseignant : Quittelier\nSalle : 2/17D (LCAO)\nType :
+  Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion<br/>Matière : Stabilité<br/>Enseignant : Quittelier<br/>Salle : 2/17D 
+ (LCAO)<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20230918T082725Z
+UID:Cours-159322-12-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241205T073000Z
+DTEND:20241205T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion - Structures mé
+ talliques - Bienfait - TP
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\n
+ Matière : Structures métalliques\nEnseignant : Bienfait\nSalle : 2/03\nTyp
+ e : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion<br/>Matière : Structures métalliques<br/>Enseignant : Bienfait<br/>Sal
+ le : 2/03<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20220826T061305Z
+UID:Cours-159323-10-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241121T073000Z
+DTEND:20241121T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construc
+ tion Gestion - Structures métalliques - Bienfait - TP
+LOCATION;LANGUAGE=fr:2/01B
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction GC & Bâtiment\, MA1
+  TL - Construction Gestion\nMatière : Structures métalliques\nEnseignant :
+  Bienfait\nSalle : 2/01B\nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction GC & Bâtiment\
+ , MA1 TL - Construction Gestion<br/>Matière : Structures métalliques<br/>E
+ nseignant : Bienfait<br/>Salle : 2/01B<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20220912T080757Z
+UID:Cours-159324-1-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240919T113000Z
+DTEND:20240919T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Béton armé - Bienfait - Exercices
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Béton armé\nEnseignant : Bienfait\nSalle : 2
+ /08\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Béton armé<br/>Enseignant : Bienfait
+ <br/>Salle : 2/08<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T060935Z
+UID:Cours-159399-13-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241212T093000Z
+DTEND:20241212T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Gestion de l'énergie - Chardome
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Gestion de l'énergie\nEnseignant : Chardome\
+ nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Gestion de l'énergie<br/>Enseignant 
+ : Chardome<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240823T094955Z
+UID:Cours-159400-4-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241009T061500Z
+DTEND:20241009T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Gestion de l'énergie - Chardome
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Gestion de l'énergie\nEnseignant : Chardome\
+ nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Gestion de l'énergie<br/>Enseignant 
+ : Chardome<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240823T094955Z
+UID:Cours-159400-14-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241218T071500Z
+DTEND:20241218T091500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Gestion de l'énergie - Chardome
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Gestion de l'énergie\nEnseignant : Chardome\
+ nSalle : 2/08\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Gestion de l'énergie<br/>Enseignant 
+ : Chardome<br/>Salle : 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240823T095938Z
+UID:Cours-168893-14-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241218T123000Z
+DTEND:20241218T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction GC & Bâtiment - Cplts Bâtiments e
+ t techniques - Delchevalerie - ordinateurs nécessaires
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - Construction GC & Bâtiment\nMatiè
+ re : Cplts Bâtiments et techniques\nEnseignant : Delchevalerie\nSalle : 2/
+ 17B\nMémo : ordinateurs nécessaires\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - Construction GC & Bâtiment<b
+ r/>Matière : Cplts Bâtiments et techniques<br/>Enseignant : Delchevalerie<
+ br/>Salle : 2/17B<br/>Mémo : ordinateurs nécessaires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240912T112841Z
+UID:Cours-168894-11-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241129T071500Z
+DTEND:20241129T101500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction GC & Bâtiment - Cplts Bâtiments e
+ t techniques - Delchevalerie - ordinateurs nécessaires
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - Construction GC & Bâtiment\nMatiè
+ re : Cplts Bâtiments et techniques\nEnseignant : Delchevalerie\nMémo : ord
+ inateurs nécessaires\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - Construction GC & Bâtiment<b
+ r/>Matière : Cplts Bâtiments et techniques<br/>Enseignant : Delchevalerie<
+ br/>Mémo : ordinateurs nécessaires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T113800Z
+UID:Cours-184402-9-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241115T071500Z
+DTEND:20241115T091500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Stabilité - Quittelier
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Stabilité\nEnseignant : Quittelier\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Stabilité<br/>Enseignant : Quittelie
+ r<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20230828T051557Z
+UID:Cours-184408-4-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241008T113000Z
+DTEND:20241008T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Langues - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Langues\nEnseignant : Remacle\nSalle : 1/29\
+ n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Langues<br/>Enseignant : Remacle<br/
+ >Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240829T112443Z
+UID:Cours-184416-3-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241001T061500Z
+DTEND:20241001T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Cours
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/03\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/03<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T113800Z
+UID:Cours-184417-2-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240925T083000Z
+DTEND:20240925T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Stabilité - Quittelier
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Stabilité\nEnseignant : Quittelier\nSalle : 
+ 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Stabilité<br/>Enseignant : Quittelie
+ r<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T113800Z
+UID:Cours-184417-3-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241002T083000Z
+DTEND:20241002T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Stabilité - Quittelier
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Stabilité\nEnseignant : Quittelier\nSalle : 
+ 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Stabilité<br/>Enseignant : Quittelie
+ r<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T113800Z
+UID:Cours-184417-4-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241009T083000Z
+DTEND:20241009T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Stabilité - Quittelier
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Stabilité\nEnseignant : Quittelier\nSalle : 
+ 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Stabilité<br/>Enseignant : Quittelie
+ r<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T113800Z
+UID:Cours-184417-5-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241016T083000Z
+DTEND:20241016T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Stabilité - Quittelier
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Stabilité\nEnseignant : Quittelier\nSalle : 
+ 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Stabilité<br/>Enseignant : Quittelie
+ r<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T113800Z
+UID:Cours-184417-6-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241023T083000Z
+DTEND:20241023T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Stabilité - Quittelier
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Stabilité\nEnseignant : Quittelier\nSalle : 
+ 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Stabilité<br/>Enseignant : Quittelie
+ r<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T062437Z
+UID:Cours-184418-8-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241107T093000Z
+DTEND:20241107T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Cours
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/03\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/03<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20230828T054948Z
+UID:Cours-184419-4-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241007T113000Z
+DTEND:20241007T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Béton armé - Bienfait - Exercices
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Béton armé\nEnseignant : Bienfait\nSalle : 2
+ /08\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Béton armé<br/>Enseignant : Bienfait
+ <br/>Salle : 2/08<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20230828T054948Z
+UID:Cours-184420-3-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241004T113000Z
+DTEND:20241004T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Béton armé - Bienfait - Exercices
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Béton armé\nEnseignant : Bienfait\nSalle : 2
+ /08\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Béton armé<br/>Enseignant : Bienfait
+ <br/>Salle : 2/08<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20230828T054948Z
+UID:Cours-184421-2-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240925T113000Z
+DTEND:20240925T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Béton armé - Bienfait - Exercices
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Béton armé\nEnseignant : Bienfait\nSalle : 2
+ /08\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Béton armé<br/>Enseignant : Bienfait
+ <br/>Salle : 2/08<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T060000Z
+UID:Cours-184422-1-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240916T113000Z
+DTEND:20240916T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Hydro urbaine - Quittelier
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Hydro urbaine\nEnseignant : Quittelier\nSall
+ e : 2/08\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Hydro urbaine<br/>Enseignant : Quitt
+ elier<br/>Salle : 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T060000Z
+UID:Cours-184422-2-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240923T113000Z
+DTEND:20240923T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Hydro urbaine - Quittelier
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Hydro urbaine\nEnseignant : Quittelier\nSall
+ e : 2/08\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Hydro urbaine<br/>Enseignant : Quitt
+ elier<br/>Salle : 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T060000Z
+UID:Cours-184422-3-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240930T113000Z
+DTEND:20240930T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Hydro urbaine - Quittelier
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Hydro urbaine\nEnseignant : Quittelier\nSall
+ e : 2/08\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Hydro urbaine<br/>Enseignant : Quitt
+ elier<br/>Salle : 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T060000Z
+UID:Cours-184422-5-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241014T113000Z
+DTEND:20241014T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Hydro urbaine - Quittelier
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Hydro urbaine\nEnseignant : Quittelier\nSall
+ e : 2/08\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Hydro urbaine<br/>Enseignant : Quitt
+ elier<br/>Salle : 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T060000Z
+UID:Cours-184422-6-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241021T113000Z
+DTEND:20241021T133000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Hydro urbaine - Quittelier
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Hydro urbaine\nEnseignant : Quittelier\nSall
+ e : 2/08\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Hydro urbaine<br/>Enseignant : Quitt
+ elier<br/>Salle : 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T060000Z
+UID:Cours-184423-13-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241211T123000Z
+DTEND:20241211T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Hydro urbaine - Quittelier
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Hydro urbaine\nEnseignant : Quittelier\nSall
+ e : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Hydro urbaine<br/>Enseignant : Quitt
+ elier<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T115933Z
+UID:Cours-184424-8-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241104T123000Z
+DTEND:20241104T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion - Stabilité - Q
+ uittelier - Exercices
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\n
+ Matière : Stabilité\nEnseignant : Quittelier\nSalle : 2/03\nType : Exercic
+ es\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion<br/>Matière : Stabilité<br/>Enseignant : Quittelier<br/>Salle : 2/03<b
+ r/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T060617Z
+UID:Cours-184441-8-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241107T123000Z
+DTEND:20241107T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Stabilité - Quittelier
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Stabilité\nEnseignant : Quittelier\nSalle : 
+ 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Stabilité<br/>Enseignant : Quittelie
+ r<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20230906T093415Z
+UID:Cours-187004-12-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241203T091500Z
+DTEND:20241203T111500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Gestion de l'énergie - Chardome
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Gestion de l'énergie\nEnseignant : Chardome\
+ nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Gestion de l'énergie<br/>Enseignant 
+ : Chardome<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20230906T092837Z
+UID:Cours-187005-2-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240923T133000Z
+DTEND:20240923T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Gestion de l'énergie - Chardome
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Gestion de l'énergie\nEnseignant : Chardome\
+ nSalle : 2/08\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Gestion de l'énergie<br/>Enseignant 
+ : Chardome<br/>Salle : 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20230906T092837Z
+UID:Cours-187005-3-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240930T133000Z
+DTEND:20240930T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Gestion de l'énergie - Chardome
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Gestion de l'énergie\nEnseignant : Chardome\
+ nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Gestion de l'énergie<br/>Enseignant 
+ : Chardome<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20230901T061526Z
+UID:Cours-187009-10-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241119T093000Z
+DTEND:20241119T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Gestion de l'énergie - Chardome
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Gestion de l'énergie\nEnseignant : Chardome\
+ nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Gestion de l'énergie<br/>Enseignant 
+ : Chardome<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T061305Z
+UID:Cours-187787-13-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241212T071500Z
+DTEND:20241212T091500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Climatisation - Delchevalerie
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Climatisation\nEnseignant : Delchevalerie\nS
+ alle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Climatisation<br/>Enseignant : Delch
+ evalerie<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240912T112742Z
+UID:Cours-187788-13-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241213T071500Z
+DTEND:20241213T101500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction GC & Bâtiment - Cplts Bâtiments e
+ t techniques - Delchevalerie - ordinateurs nécessaires
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - Construction GC & Bâtiment\nMatiè
+ re : Cplts Bâtiments et techniques\nEnseignant : Delchevalerie\nMémo : ord
+ inateurs nécessaires\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - Construction GC & Bâtiment<b
+ r/>Matière : Cplts Bâtiments et techniques<br/>Enseignant : Delchevalerie<
+ br/>Mémo : ordinateurs nécessaires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T115707Z
+UID:Cours-193689-5-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241018T061500Z
+DTEND:20241018T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/03
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20231026T130713Z
+UID:Cours-193690-6-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241023T061500Z
+DTEND:20241023T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/08
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240905T130310Z
+UID:Cours-194358-10-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241119T071500Z
+DTEND:20241119T091500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Climatisation - Delchevalerie
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Climatisation\nEnseignant : Delchevalerie\nS
+ alle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Climatisation<br/>Enseignant : Delch
+ evalerie<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240905T130310Z
+UID:Cours-194358-12-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241203T071500Z
+DTEND:20241203T091500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Climatisation - Delchevalerie
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Climatisation\nEnseignant : Delchevalerie\nS
+ alle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Climatisation<br/>Enseignant : Delch
+ evalerie<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240711T072719Z
+UID:Cours-203803-8-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241105T083000Z
+DTEND:20241105T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion - Stabilité - Q
+ uittelier - Exercices
+LOCATION;LANGUAGE=fr:2/17D (LCAO)
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\n
+ Matière : Stabilité\nEnseignant : Quittelier\nSalle : 2/17D (LCAO)\nType :
+  Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion<br/>Matière : Stabilité<br/>Enseignant : Quittelier<br/>Salle : 2/17D 
+ (LCAO)<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T065033Z
+UID:Cours-203890-8-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241108T073000Z
+DTEND:20241108T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction GC & Bâtiment - Complément de Bét
+ on armé - Bienfait
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - Construction GC & Bâtiment\nMatiè
+ re : Complément de Béton armé\nEnseignant : Bienfait\nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - Construction GC & Bâtiment<b
+ r/>Matière : Complément de Béton armé<br/>Enseignant : Bienfait<br/>Salle 
+ : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T065002Z
+UID:Cours-203891-6-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241024T063000Z
+DTEND:20241024T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction GC & Bâtiment - Complément de Bét
+ on armé - Bienfait
+LOCATION;LANGUAGE=fr:2/17D (LCAO)
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - Construction GC & Bâtiment\nMatiè
+ re : Complément de Béton armé\nEnseignant : Bienfait\nSalle : 2/17D (LCAO)
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - Construction GC & Bâtiment<b
+ r/>Matière : Complément de Béton armé<br/>Enseignant : Bienfait<br/>Salle 
+ : 2/17D (LCAO)<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T065002Z
+UID:Cours-203891-9-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241114T073000Z
+DTEND:20241114T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction GC & Bâtiment - Complément de Bét
+ on armé - Bienfait
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - Construction GC & Bâtiment\nMatiè
+ re : Complément de Béton armé\nEnseignant : Bienfait\nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - Construction GC & Bâtiment<b
+ r/>Matière : Complément de Béton armé<br/>Enseignant : Bienfait<br/>Salle 
+ : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240828T083626Z
+UID:Cours-203892-5-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241017T061500Z
+DTEND:20241017T120000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction GC & Bâtiment - Visite - Timmerma
+ ns - SPW Mobilité Infrastructures 24-25
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - Construction GC & Bâtiment\nMatiè
+ re : Visite\nEnseignant : Timmermans\nMémo : SPW Mobilité Infrastructures 
+ 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - Construction GC & Bâtiment<b
+ r/>Matière : Visite<br/>Enseignant : Timmermans<br/>Mémo : SPW Mobilité In
+ frastructures 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T060726Z
+UID:Cours-205537-5-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241015T113000Z
+DTEND:20241015T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion - Stabilité - Q
+ uittelier - Exercices
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\n
+ Matière : Stabilité\nEnseignant : Quittelier\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion<br/>Matière : Stabilité<br/>Enseignant : Quittelier<br/>Type : Exercic
+ es<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T073230Z
+UID:Cours-205952-12-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241205T123000Z
+DTEND:20241205T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans - TP
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/08
+ \nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/08<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T060220Z
+UID:Cours-207276-10-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241120T083000Z
+DTEND:20241120T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Langues - Remacle - TEST TOEIC
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Langues\nEnseignant : Remacle\nSalle : 2/SA\
+ nMémo : TEST TOEIC\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Langues<br/>Enseignant : Remacle<br/
+ >Salle : 2/SA<br/>Mémo : TEST TOEIC<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T062206Z
+UID:Cours-207277-3-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241002T061500Z
+DTEND:20241002T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Langues - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Langues\nEnseignant : Remacle\nSalle : 1/29\
+ n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Langues<br/>Enseignant : Remacle<br/
+ >Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240819T121133Z
+UID:Cours-207304-9-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241113T093000Z
+DTEND:20241113T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Langues - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Langues\nEnseignant : Remacle\nSalle : 1/29\
+ n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Langues<br/>Enseignant : Remacle<br/
+ >Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240819T121210Z
+UID:Cours-207305-2-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240925T061500Z
+DTEND:20240925T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Langues - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Langues\nEnseignant : Remacle\nSalle : 1/29\
+ n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Langues<br/>Enseignant : Remacle<br/
+ >Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240819T122040Z
+UID:Cours-207367-6-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241022T113000Z
+DTEND:20241022T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Exercices
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/08\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/08<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240916T113456Z
+UID:Cours-207398-12-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241202T083000Z
+DTEND:20241202T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Exercices
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/03\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/03<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240916T113541Z
+UID:Cours-207399-12-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241206T130000Z
+DTEND:20241206T160000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Exercices
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/03\nType : Exercices\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/03<br/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240819T122552Z
+UID:Cours-207418-14-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241220T130000Z
+DTEND:20241220T163000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Examen hors session - Examen
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nMémo : Examen hors session\nType : Examen\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Mémo : Examen hors session<br/>Type : Examen<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240819T122546Z
+UID:Cours-207438-14-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241220T071500Z
+DTEND:20241220T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment - Structures métalliques - Mercier - Examen hor
+ s session - Examen
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\nMatière : Structures métalliques
+ \nEnseignant : Mercier\nSalle : 2/08\nMémo : Examen hors session\nType : E
+ xamen\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment<br/>Matière : Structures mét
+ alliques<br/>Enseignant : Mercier<br/>Salle : 2/08<br/>Mémo : Examen hors 
+ session<br/>Type : Examen<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T055528Z
+UID:Cours-207850-8-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241105T123000Z
+DTEND:20241105T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans - TP
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/03
+ \nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/03<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240913T085953Z
+UID:Cours-207851-13-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241211T083000Z
+DTEND:20241211T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion - Stabilité - Q
+ uittelier - Exercices
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\n
+ Matière : Stabilité\nEnseignant : Quittelier\nSalle : 2/08\nType : Exercic
+ es\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion<br/>Matière : Stabilité<br/>Enseignant : Quittelier<br/>Salle : 2/08<b
+ r/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T062326Z
+UID:Cours-207852-1-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240918T083000Z
+DTEND:20240918T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Stabilité - Quittelier
+LOCATION;LANGUAGE=fr:2/17B
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Stabilité\nEnseignant : Quittelier\nSalle : 
+ 2/17B\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Stabilité<br/>Enseignant : Quittelie
+ r<br/>Salle : 2/17B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T060755Z
+UID:Cours-207853-10-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241121T123000Z
+DTEND:20241121T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion - Stabilité - Q
+ uittelier - Exercices
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\n
+ Matière : Stabilité\nEnseignant : Quittelier\nSalle : 2/08\nType : Exercic
+ es\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion<br/>Matière : Stabilité<br/>Enseignant : Quittelier<br/>Salle : 2/08<b
+ r/>Type : Exercices<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T073338Z
+UID:Cours-207854-5-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241016T061500Z
+DTEND:20241016T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Gestion de l'énergie - Chardome
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Gestion de l'énergie\nEnseignant : Chardome\
+ nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Gestion de l'énergie<br/>Enseignant 
+ : Chardome<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T060959Z
+UID:Cours-207855-9-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241113T071500Z
+DTEND:20241113T091500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Gestion de l'énergie - Chardome
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Gestion de l'énergie\nEnseignant : Chardome\
+ nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Gestion de l'énergie<br/>Enseignant 
+ : Chardome<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240913T063053Z
+UID:Cours-207856-12-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241202T123000Z
+DTEND:20241202T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Gestion de l'énergie - Chardome
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Gestion de l'énergie\nEnseignant : Chardome\
+ nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Gestion de l'énergie<br/>Enseignant 
+ : Chardome<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240909T062521Z
+UID:Cours-207865-2-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240926T061500Z
+DTEND:20240926T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Cours
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/03\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/03<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240909T062521Z
+UID:Cours-207865-3-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241003T061500Z
+DTEND:20241003T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Structures métalliques - Mercier - Cours
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Structures métalliques\nEnseignant : Mercier
+ \nSalle : 2/03\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Structures métalliques<br/>Enseignan
+ t : Mercier<br/>Salle : 2/03<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T073230Z
+UID:Cours-207909-13-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241213T130000Z
+DTEND:20241213T160000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans - TP
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T073230Z
+UID:Cours-207915-6-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241025T113000Z
+DTEND:20241025T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans - TP
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/08
+ \nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/08<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T073230Z
+UID:Cours-207915-8-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241108T123000Z
+DTEND:20241108T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans - TP
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/08
+ \nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/08<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T073230Z
+UID:Cours-207915-9-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241115T123000Z
+DTEND:20241115T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans - TP
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/08
+ \nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/08<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240820T073230Z
+UID:Cours-207915-10-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241122T123000Z
+DTEND:20241122T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans - TP
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/08
+ \nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/08<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240912T113211Z
+UID:Cours-208684-3-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241004T083000Z
+DTEND:20241004T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction GC & Bâtiment - Complément de Bét
+ on armé - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - Construction GC & Bâtiment\nMatiè
+ re : Complément de Béton armé\nEnseignant : Timmermans\nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - Construction GC & Bâtiment<b
+ r/>Matière : Complément de Béton armé<br/>Enseignant : Timmermans<br/>Sall
+ e : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240912T113211Z
+UID:Cours-208684-4-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241011T083000Z
+DTEND:20241011T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction GC & Bâtiment - Complément de Bét
+ on armé - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - Construction GC & Bâtiment\nMatiè
+ re : Complément de Béton armé\nEnseignant : Timmermans\nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - Construction GC & Bâtiment<b
+ r/>Matière : Complément de Béton armé<br/>Enseignant : Timmermans<br/>Sall
+ e : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240912T113211Z
+UID:Cours-208684-5-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241018T083000Z
+DTEND:20241018T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction GC & Bâtiment - Complément de Bét
+ on armé - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - Construction GC & Bâtiment\nMatiè
+ re : Complément de Béton armé\nEnseignant : Timmermans\nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - Construction GC & Bâtiment<b
+ r/>Matière : Complément de Béton armé<br/>Enseignant : Timmermans<br/>Sall
+ e : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240912T113211Z
+UID:Cours-208684-6-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241025T083000Z
+DTEND:20241025T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction GC & Bâtiment - Complément de Bét
+ on armé - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - Construction GC & Bâtiment\nMatiè
+ re : Complément de Béton armé\nEnseignant : Timmermans\nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - Construction GC & Bâtiment<b
+ r/>Matière : Complément de Béton armé<br/>Enseignant : Timmermans<br/>Sall
+ e : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240912T113211Z
+UID:Cours-208684-9-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241115T093000Z
+DTEND:20241115T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction GC & Bâtiment - Complément de Bét
+ on armé - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - Construction GC & Bâtiment\nMatiè
+ re : Complément de Béton armé\nEnseignant : Timmermans\nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - Construction GC & Bâtiment<b
+ r/>Matière : Complément de Béton armé<br/>Enseignant : Timmermans<br/>Sall
+ e : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240912T113211Z
+UID:Cours-208685-3-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241003T083000Z
+DTEND:20241003T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction GC & Bâtiment - Complément de Bét
+ on armé - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - Construction GC & Bâtiment\nMatiè
+ re : Complément de Béton armé\nEnseignant : Timmermans\nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - Construction GC & Bâtiment<b
+ r/>Matière : Complément de Béton armé<br/>Enseignant : Timmermans<br/>Sall
+ e : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240913T090313Z
+UID:Cours-210484-2-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20240926T113000Z
+DTEND:20240926T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Béton précontraint - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Béton précontraint\nEnseignant : Timmermans\
+ nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Béton précontraint<br/>Enseignant : 
+ Timmermans<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240913T090313Z
+UID:Cours-210484-3-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241003T113000Z
+DTEND:20241003T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Béton précontraint - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Béton précontraint\nEnseignant : Timmermans\
+ nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Béton précontraint<br/>Enseignant : 
+ Timmermans<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240913T090313Z
+UID:Cours-210484-4-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241010T113000Z
+DTEND:20241010T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Béton précontraint - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Béton précontraint\nEnseignant : Timmermans\
+ nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Béton précontraint<br/>Enseignant : 
+ Timmermans<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240913T090313Z
+UID:Cours-210484-6-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241024T113000Z
+DTEND:20241024T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Béton précontraint - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Béton précontraint\nEnseignant : Timmermans\
+ nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Béton précontraint<br/>Enseignant : 
+ Timmermans<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240828T083619Z
+UID:Cours-210485-5-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241017T123000Z
+DTEND:20241017T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Béton précontraint - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Béton précontraint\nEnseignant : Timmermans\
+ nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Béton précontraint<br/>Enseignant : 
+ Timmermans<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T060043Z
+UID:Cours-211506-8-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241106T093000Z
+DTEND:20241106T113000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Langues - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Langues\nEnseignant : Remacle\nSalle : 1/29\
+ n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Langues<br/>Enseignant : Remacle<br/
+ >Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T061633Z
+UID:Cours-211507-6-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241025T061500Z
+DTEND:20241025T081500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Langues - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Langues\nEnseignant : Remacle\nSalle : 1/29\
+ n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Langues<br/>Enseignant : Remacle<br/
+ >Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240902T115951Z
+UID:Cours-211673-14-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241219T123000Z
+DTEND:20241219T143000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Ponts - Timmermans
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Ponts\nEnseignant : Timmermans\nSalle : 2/03
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Ponts<br/>Enseignant : Timmermans<br
+ />Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240903T090156Z
+UID:Cours-212153-5-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241014T133000Z
+DTEND:20241014T153000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Gestion de l'énergie - Chardome
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Gestion de l'énergie\nEnseignant : Chardome\
+ nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Gestion de l'énergie<br/>Enseignant 
+ : Chardome<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240903T090156Z
+UID:Cours-212154-5-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241015T083000Z
+DTEND:20241015T103000Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Gestion de l'énergie - Chardome
+LOCATION;LANGUAGE=fr:2/03
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Gestion de l'énergie\nEnseignant : Chardome\
+ nSalle : 2/03\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Gestion de l'énergie<br/>Enseignant 
+ : Chardome<br/>Salle : 2/03<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240904T050409Z
+UID:Cours-212915-14-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241217T071500Z
+DTEND:20241217T091500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction Energie Environnement\, MA1 TL - 
+ Construction GC & Bâtiment\, MA1 TL - Construction Gestion\, MA1 TL - Géom
+ ètre - Climatisation - Delchevalerie
+DESCRIPTION;LANGUAGE=fr:Options : MA1 TL - Construction Energie Environneme
+ nt\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gestion\,
+  MA1 TL - Géomètre\nMatière : Climatisation\nEnseignant : Delchevalerie\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA1 TL - Construction Energie Enviro
+ nnement\, MA1 TL - Construction GC & Bâtiment\, MA1 TL - Construction Gest
+ ion\, MA1 TL - Géomètre<br/>Matière : Climatisation<br/>Enseignant : Delch
+ evalerie<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240904T051413Z
+UID:Cours-212917-10-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241122T071500Z
+DTEND:20241122T101500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction GC & Bâtiment - Cplts Bâtiments e
+ t techniques - Delchevalerie - ordinateurs nécessaires 2/08
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - Construction GC & Bâtiment\nMatiè
+ re : Cplts Bâtiments et techniques\nEnseignant : Delchevalerie\nMémo : ord
+ inateurs nécessaires 2/08\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - Construction GC & Bâtiment<b
+ r/>Matière : Cplts Bâtiments et techniques<br/>Enseignant : Delchevalerie<
+ br/>Mémo : ordinateurs nécessaires 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+LAST-MODIFIED:20240904T051413Z
+UID:Cours-212917-12-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART:20241206T071500Z
+DTEND:20241206T101500Z
+SUMMARY;LANGUAGE=fr:MA1 TL - Construction GC & Bâtiment - Cplts Bâtiments e
+ t techniques - Delchevalerie - ordinateurs nécessaires 2/08
+DESCRIPTION;LANGUAGE=fr:Option : MA1 TL - Construction GC & Bâtiment\nMatiè
+ re : Cplts Bâtiments et techniques\nEnseignant : Delchevalerie\nMémo : ord
+ inateurs nécessaires 2/08\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA1 TL - Construction GC & Bâtiment<b
+ r/>Matière : Cplts Bâtiments et techniques<br/>Enseignant : Delchevalerie<
+ br/>Mémo : ordinateurs nécessaires 2/08<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+UID:Ferie-939-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240928
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+UID:Ferie-940-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145719Z
+UID:Ferie-941-MA1_TL_-_Construction_GC_&_Batiment-Index-Education
+DTSTART;VALUE=DATE:20241111
+DTEND;VALUE=DATE:20241112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,1878 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
+METHOD:PUBLISH
+X-CALSTART:20240916T000000Z
+X-CALEND:20241221T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - <BA2P Biotechnique> <Option> Bioinformatique
+  Bloc 2 - du 16 septembre au 21 décembre 2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de <BA2P Biotechnique> <Option> Bi
+ oinformatique Bloc 2 généré par le logiciel HP (©INDEX ÉDUCATION) le 24 se
+ pt. 2024 - Haute Ecole en Hainaut - valable sur la période du 16 septembre
+  au 21 décembre 2024 - Semaines : semaine 38 - 51
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240821T084429Z
+UID:Cours-154934-14-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241216T071500Z
+DTEND:20241216T091500Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Biostatistiques - Carlier - Co
+ urs
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Biostatistiq
+ ues\nEnseignant : Carlier\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Bios
+ tatistiques<br/>Enseignant : Carlier<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20231106T132637Z
+UID:Cours-154938-14-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241219T143000Z
+DTEND:20241219T163000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Banques & index. données bio. 
+ - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Banques & in
+ dex. données bio.\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Banq
+ ues & index. données bio.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/
+ >Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20231106T132637Z
+UID:Cours-154939-14-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241219T123000Z
+DTEND:20241219T143000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Banques & index. données bio. 
+ - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Banques & in
+ dex. données bio.\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Banq
+ ues & index. données bio.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/
+ >Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20220829T154947Z
+UID:Cours-154942-2-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240925T061500Z
+DTEND:20240925T081500Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20220826T100136Z
+UID:Cours-155390-6-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241025T083000Z
+DTEND:20241025T103000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Biostatistiques - Carlier - Co
+ urs
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Biostatistiq
+ ues\nEnseignant : Carlier\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Bios
+ tatistiques<br/>Enseignant : Carlier<br/>Salles : 1/36A\, 1/36B<br/>Type :
+  Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T081256Z
+UID:Cours-159434-14-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241218T093000Z
+DTEND:20241218T113000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Banques & index. données bio. 
+ - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Banques & in
+ dex. données bio.\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Banq
+ ues & index. données bio.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/
+ >Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T081248Z
+UID:Cours-159436-14-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241218T071500Z
+DTEND:20241218T091500Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Banques & index. données bio. 
+ - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Banques & in
+ dex. données bio.\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Banq
+ ues & index. données bio.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/
+ >Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20231106T132637Z
+UID:Cours-159438-12-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241205T143000Z
+DTEND:20241205T163000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Banques & index. données bio. 
+ - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Banques & in
+ dex. données bio.\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Banq
+ ues & index. données bio.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/
+ >Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20231106T132637Z
+UID:Cours-159441-12-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241205T123000Z
+DTEND:20241205T143000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Banques & index. données bio. 
+ - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Banques & in
+ dex. données bio.\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Banq
+ ues & index. données bio.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/
+ >Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20220826T084838Z
+UID:Cours-159442-5-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241014T061500Z
+DTEND:20241014T081500Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20220826T084843Z
+UID:Cours-159445-5-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241014T083000Z
+DTEND:20241014T103000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20231106T132637Z
+UID:Cours-159448-10-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241121T143000Z
+DTEND:20241121T163000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Banques & index. données bio. 
+ - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Banques & in
+ dex. données bio.\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Banq
+ ues & index. données bio.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/
+ >Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20231106T132637Z
+UID:Cours-159448-11-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241128T143000Z
+DTEND:20241128T163000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Banques & index. données bio. 
+ - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Banques & in
+ dex. données bio.\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Banq
+ ues & index. données bio.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/
+ >Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20231106T132637Z
+UID:Cours-159452-9-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241114T123000Z
+DTEND:20241114T143000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Banques & index. données bio. 
+ - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Banques & in
+ dex. données bio.\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Banq
+ ues & index. données bio.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/
+ >Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20231106T132637Z
+UID:Cours-159452-10-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241121T123000Z
+DTEND:20241121T143000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Banques & index. données bio. 
+ - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Banques & in
+ dex. données bio.\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Banq
+ ues & index. données bio.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/
+ >Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20231106T132637Z
+UID:Cours-159452-11-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241128T123000Z
+DTEND:20241128T143000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Banques & index. données bio. 
+ - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Banques & in
+ dex. données bio.\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Banq
+ ues & index. données bio.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/
+ >Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20231106T132637Z
+UID:Cours-159454-9-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241114T143000Z
+DTEND:20241114T163000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Banques & index. données bio. 
+ - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Banques & in
+ dex. données bio.\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Banq
+ ues & index. données bio.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/
+ >Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20230921T065431Z
+UID:Cours-160235-1-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240919T113000Z
+DTEND:20240919T133000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20230921T065431Z
+UID:Cours-160235-2-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240926T113000Z
+DTEND:20240926T133000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20230921T065431Z
+UID:Cours-160235-3-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241003T113000Z
+DTEND:20241003T133000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20230921T065431Z
+UID:Cours-160235-4-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241010T113000Z
+DTEND:20241010T133000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20230921T065431Z
+UID:Cours-160235-5-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241017T113000Z
+DTEND:20241017T133000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20230921T065431Z
+UID:Cours-160235-6-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241024T113000Z
+DTEND:20241024T133000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20230921T065440Z
+UID:Cours-160236-2-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240926T133000Z
+DTEND:20240926T153000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20230921T065440Z
+UID:Cours-160236-3-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241003T133000Z
+DTEND:20241003T153000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20230921T065440Z
+UID:Cours-160236-4-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241010T133000Z
+DTEND:20241010T153000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20230921T065440Z
+UID:Cours-160236-5-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241017T133000Z
+DTEND:20241017T153000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20230921T065440Z
+UID:Cours-160236-6-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241024T133000Z
+DTEND:20241024T153000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20220829T131806Z
+UID:Cours-160290-2-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240923T061500Z
+DTEND:20240923T081500Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20220829T131806Z
+UID:Cours-160290-3-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240930T061500Z
+DTEND:20240930T081500Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20220829T131806Z
+UID:Cours-160290-4-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241007T061500Z
+DTEND:20241007T081500Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20220829T131909Z
+UID:Cours-160303-2-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240923T083000Z
+DTEND:20240923T103000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20220829T131909Z
+UID:Cours-160303-3-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240930T083000Z
+DTEND:20240930T103000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20220829T131909Z
+UID:Cours-160303-4-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241007T083000Z
+DTEND:20241007T103000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20231106T132637Z
+UID:Cours-170418-10-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241120T093000Z
+DTEND:20241120T113000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Banques & index. données bio. 
+ - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Banques & in
+ dex. données bio.\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Banq
+ ues & index. données bio.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/
+ >Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20231106T132637Z
+UID:Cours-180350-10-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241120T071500Z
+DTEND:20241120T091500Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Banques & index. données bio. 
+ - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Banques & in
+ dex. données bio.\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Banq
+ ues & index. données bio.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/
+ >Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T075407Z
+UID:Cours-183803-10-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241118T123000Z
+DTEND:20241118T143000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Biostatistiques - Carlier - Co
+ urs
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Biostatistiq
+ ues\nEnseignant : Carlier\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Bios
+ tatistiques<br/>Enseignant : Carlier<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T075407Z
+UID:Cours-183803-12-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241202T123000Z
+DTEND:20241202T143000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Biostatistiques - Carlier - Co
+ urs
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Biostatistiq
+ ues\nEnseignant : Carlier\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Bios
+ tatistiques<br/>Enseignant : Carlier<br/>Salles : 1/36A\, 1/36B<br/>Type :
+  Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T075407Z
+UID:Cours-183803-13-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241209T123000Z
+DTEND:20241209T143000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Biostatistiques - Carlier - Co
+ urs
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Biostatistiq
+ ues\nEnseignant : Carlier\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Bios
+ tatistiques<br/>Enseignant : Carlier<br/>Salles : 1/36A\, 1/36B<br/>Type :
+  Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20230921T065424Z
+UID:Cours-192384-2-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240925T083000Z
+DTEND:20240925T103000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20230921T065424Z
+UID:Cours-192384-4-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241009T083000Z
+DTEND:20241009T103000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20230921T065424Z
+UID:Cours-192384-5-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241016T083000Z
+DTEND:20241016T103000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20230921T065416Z
+UID:Cours-192385-4-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241009T061500Z
+DTEND:20241009T081500Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20230921T065416Z
+UID:Cours-192385-5-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241016T061500Z
+DTEND:20241016T081500Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Syst. d'expl. - Coornaert - Co
+ urs
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Syst. d'expl
+ .\nEnseignant : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Syst
+ . d'expl.<br/>Enseignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br
+ />
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T080441Z
+UID:Cours-203927-2-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240925T133000Z
+DTEND:20240925T153000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Biostatistiques - Carlier - Co
+ urs
+LOCATION;LANGUAGE=fr:1/36A\, 1/36B
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Biostatistiq
+ ues\nEnseignant : Carlier\nSalles : 1/36A\, 1/36B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Bios
+ tatistiques<br/>Enseignant : Carlier<br/>Salles : 1/36A\, 1/36B<br/>Type :
+  Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T102700Z
+UID:Cours-205332-3-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241002T133000Z
+DTEND:20241002T153000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Biostatistiques - Carlier - Co
+ urs
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Biostatistiq
+ ues\nEnseignant : Carlier\nSalle : 1/29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Bios
+ tatistiques<br/>Enseignant : Carlier<br/>Salle : 1/29<br/>Type : Cours<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T100036Z
+UID:Cours-205334-10-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241119T123000Z
+DTEND:20241119T143000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Biostatistiques - Carlier - Co
+ urs
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Biostatistiq
+ ues\nEnseignant : Carlier\nSalle : 1/29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Bios
+ tatistiques<br/>Enseignant : Carlier<br/>Salle : 1/29<br/>Type : Cours<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T093222Z
+UID:Cours-205335-14-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241217T071500Z
+DTEND:20241217T091500Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Biostatistiques - Carlier - Co
+ urs
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Biostatistiq
+ ues\nEnseignant : Carlier\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Bios
+ tatistiques<br/>Enseignant : Carlier<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T093330Z
+UID:Cours-205337-9-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241113T123000Z
+DTEND:20241113T143000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Biostatistiques - Carlier - Co
+ urs
+LOCATION;LANGUAGE=fr:1/37
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Biostatistiq
+ ues\nEnseignant : Carlier\nSalle : 1/37\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Bios
+ tatistiques<br/>Enseignant : Carlier<br/>Salle : 1/37<br/>Type : Cours<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T093330Z
+UID:Cours-205337-10-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241120T123000Z
+DTEND:20241120T143000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Biostatistiques - Carlier - Co
+ urs
+LOCATION;LANGUAGE=fr:1/37
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Biostatistiq
+ ues\nEnseignant : Carlier\nSalle : 1/37\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Bios
+ tatistiques<br/>Enseignant : Carlier<br/>Salle : 1/37<br/>Type : Cours<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T080441Z
+UID:Cours-211941-9-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241115T123000Z
+DTEND:20241115T143000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Biostatistiques - Carlier - Co
+ urs
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Biostatistiq
+ ues\nEnseignant : Carlier\nSalle : 1/29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Bios
+ tatistiques<br/>Enseignant : Carlier<br/>Salle : 1/29<br/>Type : Cours<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T102700Z
+UID:Cours-212363-1-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240920T083000Z
+DTEND:20240920T103000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Biostatistiques - Carlier - Co
+ urs
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Biostatistiq
+ ues\nEnseignant : Carlier\nSalle : 1/29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Bios
+ tatistiques<br/>Enseignant : Carlier<br/>Salle : 1/29<br/>Type : Cours<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T102700Z
+UID:Cours-212363-3-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241004T083000Z
+DTEND:20241004T103000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Biostatistiques - Carlier - Co
+ urs
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Biostatistiq
+ ues\nEnseignant : Carlier\nSalle : 1/29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Bios
+ tatistiques<br/>Enseignant : Carlier<br/>Salle : 1/29<br/>Type : Cours<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T102700Z
+UID:Cours-212363-4-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241011T083000Z
+DTEND:20241011T103000Z
+SUMMARY;LANGUAGE=fr:Bioinformatique Bloc 2 - Biostatistiques - Carlier - Co
+ urs
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:TD : Bioinformatique Bloc 2\nMatière : Biostatistiq
+ ues\nEnseignant : Carlier\nSalle : 1/29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioinformatique Bloc 2<br/>Matière : Bios
+ tatistiques<br/>Enseignant : Carlier<br/>Salle : 1/29<br/>Type : Cours<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T125838Z
+UID:Cours-154879-1-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240917T113000Z
+DTEND:20240917T133000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T125838Z
+UID:Cours-154879-2-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240924T113000Z
+DTEND:20240924T133000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T125838Z
+UID:Cours-154879-3-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241001T113000Z
+DTEND:20241001T133000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T125838Z
+UID:Cours-154879-4-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241008T113000Z
+DTEND:20241008T133000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T125838Z
+UID:Cours-154879-5-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241015T113000Z
+DTEND:20241015T133000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240905T125838Z
+UID:Cours-154879-6-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241022T113000Z
+DTEND:20241022T133000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T075556Z
+UID:Cours-154888-3-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241004T113000Z
+DTEND:20241004T143000Z
+SUMMARY;LANGUAGE=fr:Biotechnologie - Conjaerts - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Biotechnologie\nEnseignant : Conjaerts\nS
+ alle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biotechnologie<br/>Enseignant : Conj
+ aerts<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T075556Z
+UID:Cours-154888-4-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241011T113000Z
+DTEND:20241011T143000Z
+SUMMARY;LANGUAGE=fr:Biotechnologie - Conjaerts - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Biotechnologie\nEnseignant : Conjaerts\nS
+ alle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biotechnologie<br/>Enseignant : Conj
+ aerts<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T075556Z
+UID:Cours-154888-5-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241018T113000Z
+DTEND:20241018T143000Z
+SUMMARY;LANGUAGE=fr:Biotechnologie - Conjaerts - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Biotechnologie\nEnseignant : Conjaerts\nS
+ alle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biotechnologie<br/>Enseignant : Conj
+ aerts<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T075556Z
+UID:Cours-154888-6-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241025T113000Z
+DTEND:20241025T143000Z
+SUMMARY;LANGUAGE=fr:Biotechnologie - Conjaerts - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Biotechnologie\nEnseignant : Conjaerts\nS
+ alle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biotechnologie<br/>Enseignant : Conj
+ aerts<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-1-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240919T073000Z
+DTEND:20240919T103000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-2-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240926T073000Z
+DTEND:20240926T103000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-3-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241003T073000Z
+DTEND:20241003T103000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-4-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241010T073000Z
+DTEND:20241010T103000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-5-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241017T073000Z
+DTEND:20241017T103000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-6-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241024T073000Z
+DTEND:20241024T103000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-9-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241114T083000Z
+DTEND:20241114T113000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 2/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 2/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-10-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241121T083000Z
+DTEND:20241121T113000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:2/LELEC
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 2/LELEC\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 2/LELEC<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-11-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241128T083000Z
+DTEND:20241128T113000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 2/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 2/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-12-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241205T083000Z
+DTEND:20241205T113000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 2/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 2/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T091702Z
+UID:Cours-154922-14-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241219T093000Z
+DTEND:20241219T113000Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T100028Z
+UID:Cours-154944-14-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241217T123000Z
+DTEND:20241217T163000Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240613T091102Z
+UID:Cours-155384-11-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241126T071500Z
+DTEND:20241126T164500Z
+SUMMARY;LANGUAGE=fr:Culture cellulaire - Conjaerts - Formation Aptaskil 24-
+ 25 - TP
+DESCRIPTION;LANGUAGE=fr:Matière : Culture cellulaire\nEnseignant : Conjaert
+ s\nMémo : Formation Aptaskil 24-25\nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Culture cellulaire<br/>Enseignant : 
+ Conjaerts<br/>Mémo : Formation Aptaskil 24-25<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240613T091102Z
+UID:Cours-155393-11-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241125T071500Z
+DTEND:20241125T164500Z
+SUMMARY;LANGUAGE=fr:Culture cellulaire - Conjaerts - Formation Aptaskil 24-
+ 25 - TP
+DESCRIPTION;LANGUAGE=fr:Matière : Culture cellulaire\nEnseignant : Conjaert
+ s\nMémo : Formation Aptaskil 24-25\nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Culture cellulaire<br/>Enseignant : 
+ Conjaerts<br/>Mémo : Formation Aptaskil 24-25<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T081133Z
+UID:Cours-160282-12-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241206T123000Z
+DTEND:20241206T143000Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T091712Z
+UID:Cours-160283-14-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241219T071500Z
+DTEND:20241219T091500Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240612T073217Z
+UID:Cours-183639-8-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241105T071500Z
+DTEND:20241105T161500Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Labo Ath condorc
+ et 24-25 - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nMémo : Labo Ath condorcet 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Mémo : Labo Ath condorcet 24-25<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240612T073217Z
+UID:Cours-183639-9-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241112T071500Z
+DTEND:20241112T161500Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Labo Ath condorc
+ et 24-25 - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nMémo : Labo Ath condorcet 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Mémo : Labo Ath condorcet 24-25<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240919T070148Z
+UID:Cours-183671-6-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241021T113000Z
+DTEND:20241021T143000Z
+SUMMARY;LANGUAGE=fr:Elém. de Physio. humaine - Sclavons - interrogation dis
+ pensatoire sur les 3 premiers chapitres du cours d'éléments de physiologie
+  humaine - Cours
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Elém. de Physio. humaine\nEnseignant : Sc
+ lavons\nSalle : 1/29\nMémo : interrogation dispensatoire sur les 3 premier
+ s chapitres du cours d'éléments de physiologie humaine\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Elém. de Physio. humaine<br/>Enseign
+ ant : Sclavons<br/>Salle : 1/29<br/>Mémo : interrogation dispensatoire sur
+  les 3 premiers chapitres du cours d'éléments de physiologie humaine<br/>T
+ ype : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T120058Z
+UID:Cours-183672-3-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240930T113000Z
+DTEND:20240930T143000Z
+SUMMARY;LANGUAGE=fr:Elém. de Physio. humaine - Sclavons - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Elém. de Physio. humaine\nEnseignant : Sc
+ lavons\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Elém. de Physio. humaine<br/>Enseign
+ ant : Sclavons<br/>Salle : 1/18<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T091634Z
+UID:Cours-183910-4-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241008T073000Z
+DTEND:20241008T103000Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T091634Z
+UID:Cours-183910-5-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241015T073000Z
+DTEND:20241015T103000Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T091634Z
+UID:Cours-183910-6-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241022T073000Z
+DTEND:20241022T103000Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240902T091634Z
+UID:Cours-183910-13-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241210T083000Z
+DTEND:20241210T113000Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T075916Z
+UID:Cours-203716-13-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241213T071500Z
+DTEND:20241213T113000Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240821T084413Z
+UID:Cours-203717-14-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241216T093000Z
+DTEND:20241216T113000Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240613T091111Z
+UID:Cours-203718-11-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241127T070000Z
+DTEND:20241127T163000Z
+SUMMARY;LANGUAGE=fr:Culture cellulaire - Conjaerts - Formation Aptaskil 24-
+ 25 - TP
+DESCRIPTION;LANGUAGE=fr:Matière : Culture cellulaire\nEnseignant : Conjaert
+ s\nMémo : Formation Aptaskil 24-25\nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Culture cellulaire<br/>Enseignant : 
+ Conjaerts<br/>Mémo : Formation Aptaskil 24-25<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T093341Z
+UID:Cours-205308-2-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240925T110000Z
+DTEND:20240925T130000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T093341Z
+UID:Cours-205308-3-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241002T110000Z
+DTEND:20241002T130000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/21\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/21<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T093341Z
+UID:Cours-205308-4-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241009T110000Z
+DTEND:20241009T130000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T093341Z
+UID:Cours-205308-5-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241016T110000Z
+DTEND:20241016T130000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T093341Z
+UID:Cours-205308-6-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241023T110000Z
+DTEND:20241023T130000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240821T084044Z
+UID:Cours-205311-1-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240916T113000Z
+DTEND:20240916T133000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T081658Z
+UID:Cours-205321-12-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241203T123000Z
+DTEND:20241203T143000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T081708Z
+UID:Cours-205322-14-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241217T093000Z
+DTEND:20241217T113000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 2/10F\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 2/10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240710T081650Z
+UID:Cours-205323-10-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241119T071500Z
+DTEND:20241119T091500Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 2/10F\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 2/10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240917T082853Z
+UID:Cours-205341-1-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240917T083000Z
+DTEND:20240917T103000Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240917T082853Z
+UID:Cours-205341-2-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240924T083000Z
+DTEND:20240924T103000Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240917T082853Z
+UID:Cours-205341-3-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241001T083000Z
+DTEND:20241001T103000Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240917T082853Z
+UID:Cours-205341-10-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241119T093000Z
+DTEND:20241119T113000Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240917T082853Z
+UID:Cours-205341-12-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241203T093000Z
+DTEND:20241203T113000Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T080332Z
+UID:Cours-205342-6-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241023T083000Z
+DTEND:20241023T103000Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T080332Z
+UID:Cours-205342-9-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241113T093000Z
+DTEND:20241113T113000Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T075544Z
+UID:Cours-211896-8-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241108T071500Z
+DTEND:20241108T113000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T075544Z
+UID:Cours-211896-9-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241115T071500Z
+DTEND:20241115T113000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T075544Z
+UID:Cours-211896-10-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241122T071500Z
+DTEND:20241122T113000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T075544Z
+UID:Cours-211896-11-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241129T071500Z
+DTEND:20241129T113000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T075544Z
+UID:Cours-211896-12-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241206T071500Z
+DTEND:20241206T113000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/27\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/27<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T075544Z
+UID:Cours-211896-14-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241220T071500Z
+DTEND:20241220T113000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T075544Z
+UID:Cours-211897-13-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241210T123000Z
+DTEND:20241210T164500Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T080824Z
+UID:Cours-211900-13-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241211T073000Z
+DTEND:20241211T170000Z
+SUMMARY;LANGUAGE=fr:Culture cellulaire - Pietka
+LOCATION;LANGUAGE=fr:1/30
+DESCRIPTION;LANGUAGE=fr:Matière : Culture cellulaire\nEnseignant : Pietka\n
+ Salle : 1/30\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Culture cellulaire<br/>Enseignant : 
+ Pietka<br/>Salle : 1/30<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T080458Z
+UID:Cours-211901-8-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241108T123000Z
+DTEND:20241108T163000Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T080653Z
+UID:Cours-211902-13-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241212T071500Z
+DTEND:20241212T113000Z
+SUMMARY;LANGUAGE=fr:Culture cellulaire - Pietka
+LOCATION;LANGUAGE=fr:1/30
+DESCRIPTION;LANGUAGE=fr:Matière : Culture cellulaire\nEnseignant : Pietka\n
+ Salle : 1/30\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Culture cellulaire<br/>Enseignant : 
+ Pietka<br/>Salle : 1/30<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T080326Z
+UID:Cours-211927-6-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241023T061500Z
+DTEND:20241023T081500Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T080326Z
+UID:Cours-211927-9-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241113T071500Z
+DTEND:20241113T091500Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T080458Z
+UID:Cours-211947-12-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241206T143000Z
+DTEND:20241206T163000Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240903T080632Z
+UID:Cours-211948-12-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241204T073000Z
+DTEND:20241204T170000Z
+SUMMARY;LANGUAGE=fr:Culture cellulaire - Pietka
+LOCATION;LANGUAGE=fr:1/30
+DESCRIPTION;LANGUAGE=fr:Matière : Culture cellulaire\nEnseignant : Pietka\n
+ Salle : 1/30\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Culture cellulaire<br/>Enseignant : 
+ Pietka<br/>Salle : 1/30<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240919T070148Z
+UID:Cours-215555-2-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20240923T113000Z
+DTEND:20240923T143000Z
+SUMMARY;LANGUAGE=fr:Elém. de Physio. humaine - Sclavons - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Elém. de Physio. humaine\nEnseignant : Sc
+ lavons\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Elém. de Physio. humaine<br/>Enseign
+ ant : Sclavons<br/>Salle : 1/18<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240919T070148Z
+UID:Cours-215555-4-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241007T113000Z
+DTEND:20241007T143000Z
+SUMMARY;LANGUAGE=fr:Elém. de Physio. humaine - Sclavons - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Elém. de Physio. humaine\nEnseignant : Sc
+ lavons\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Elém. de Physio. humaine<br/>Enseign
+ ant : Sclavons<br/>Salle : 1/18<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+LAST-MODIFIED:20240919T070148Z
+UID:Cours-215555-5-Bioinformatique_Bloc_2-Index-Education
+DTSTART:20241014T113000Z
+DTEND:20241014T143000Z
+SUMMARY;LANGUAGE=fr:Elém. de Physio. humaine - Sclavons - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Elém. de Physio. humaine\nEnseignant : Sc
+ lavons\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Elém. de Physio. humaine<br/>Enseign
+ ant : Sclavons<br/>Salle : 1/18<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+UID:Ferie-939-Bioinformatique_Bloc_2-Index-Education
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240928
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+UID:Ferie-940-Bioinformatique_Bloc_2-Index-Education
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145703Z
+UID:Ferie-941-Bioinformatique_Bloc_2-Index-Education
+DTSTART;VALUE=DATE:20241111
+DTEND;VALUE=DATE:20241112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,1730 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
+METHOD:PUBLISH
+X-CALSTART:20240916T000000Z
+X-CALEND:20241221T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - <TTM2 - MA2 Ingénieur industriel> <Options> 
+ TTML2 MA2 TL - Life Data Technologies - du 16 septembre au 21 décembre 202
+ 4
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de <TTM2 - MA2 Ingénieur industrie
+ l> <Options> TTML2 MA2 TL - Life Data Technologies généré par le logiciel 
+ HP (©INDEX ÉDUCATION) le 24 sept. 2024 - Haute Ecole en Hainaut - valable 
+ sur la période du 16 septembre au 21 décembre 2024 - Semaines : semaine 38
+  - 51
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T123824Z
+UID:Cours-155212-8-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241106T093000Z
+DTEND:20241106T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info G
+ estion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologi
+ es - Green IT - Cremer - Cours
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life D
+ ata Technologies\nMatière : Green IT\nEnseignant : Cremer\nSalle : 1/27\nT
+ ype : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - L
+ ife Data Technologies<br/>Matière : Green IT<br/>Enseignant : Cremer<br/>S
+ alle : 1/27<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240819T073558Z
+UID:Cours-155214-8-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241108T071500Z
+DTEND:20241108T091500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info G
+ estion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologi
+ es - Green IT - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life D
+ ata Technologies\nMatière : Green IT\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - L
+ ife Data Technologies<br/>Matière : Green IT<br/>Enseignant : Cremer<br/>S
+ alle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T085355Z
+UID:Cours-155215-11-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241129T071500Z
+DTEND:20241129T091500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info G
+ estion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologi
+ es - Green IT - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life D
+ ata Technologies\nMatière : Green IT\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - L
+ ife Data Technologies<br/>Matière : Green IT<br/>Enseignant : Cremer<br/>S
+ alle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240703T093640Z
+UID:Cours-157875-14-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241218T071500Z
+DTEND:20241218T154500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Projet omique - Van D
+ amme - 24-25 - Cours
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Projet omique\nEnseignant : Van Damme\nMémo : 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Projet omique<br/>Enseignant : Van Damme<br/>Mémo : 24-25<br/>Typ
+ e : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240703T093646Z
+UID:Cours-157887-14-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241219T073000Z
+DTEND:20241219T160000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Projet omique - Van D
+ amme - 24-25 - Cours
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Projet omique\nEnseignant : Van Damme\nMémo : 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Projet omique<br/>Enseignant : Van Damme<br/>Mémo : 24-25<br/>Typ
+ e : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240703T093623Z
+UID:Cours-157888-14-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241216T073000Z
+DTEND:20241216T161500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Projet omique - Van D
+ amme - 24-25 - Cours
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Projet omique\nEnseignant : Van Damme\nMémo : 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Projet omique<br/>Enseignant : Van Damme<br/>Mémo : 24-25<br/>Typ
+ e : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T052754Z
+UID:Cours-157922-1-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20240920T113000Z
+DTEND:20240920T150000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Elements d'écologie -
+  Hacquin - Cours
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Elements d'écologie\nEnseignant : Hacquin\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Elements d'écologie<br/>Enseignant : Hacquin<br/>Type : Cours<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T052754Z
+UID:Cours-157922-3-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241004T113000Z
+DTEND:20241004T150000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Elements d'écologie -
+  Hacquin - Cours
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Elements d'écologie\nEnseignant : Hacquin\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Elements d'écologie<br/>Enseignant : Hacquin<br/>Type : Cours<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T052754Z
+UID:Cours-157922-4-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241011T113000Z
+DTEND:20241011T150000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Elements d'écologie -
+  Hacquin - Cours
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Elements d'écologie\nEnseignant : Hacquin\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Elements d'écologie<br/>Enseignant : Hacquin<br/>Type : Cours<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T052653Z
+UID:Cours-157974-1-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20240919T083000Z
+DTEND:20240919T103000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Analyse phylogénétiqu
+ e - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Analyse phylogénétique\nEnseignant : Branders\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Analyse phylogénétique<br/>Enseignant : Branders<br/>Salle : 1/10
+ B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T130338Z
+UID:Cours-157976-13-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241212T123000Z
+DTEND:20241212T143000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Trends in bioinformat
+ ics - Branders
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Trends in bioinformatics\nEnseignant : Branders\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Trends in bioinformatics<br/>Enseignant : Branders<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T124651Z
+UID:Cours-157979-9-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241114T083000Z
+DTEND:20241114T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Analyse phylogénétiqu
+ e - Branders - Projet
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Analyse phylogénétique\nEnseignant : Branders\nSalle : 1/10A\nType : Proj
+ et\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Analyse phylogénétique<br/>Enseignant : Branders<br/>Salle : 1/10
+ A<br/>Type : Projet<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T124651Z
+UID:Cours-157979-10-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241121T083000Z
+DTEND:20241121T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Analyse phylogénétiqu
+ e - Branders - Projet
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Analyse phylogénétique\nEnseignant : Branders\nSalle : 1/10A\nType : Proj
+ et\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Analyse phylogénétique<br/>Enseignant : Branders<br/>Salle : 1/10
+ A<br/>Type : Projet<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T124651Z
+UID:Cours-157979-13-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241212T083000Z
+DTEND:20241212T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Analyse phylogénétiqu
+ e - Branders - Projet
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Analyse phylogénétique\nEnseignant : Branders\nSalle : 1/10A\nType : Proj
+ et\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Analyse phylogénétique<br/>Enseignant : Branders<br/>Salle : 1/10
+ A<br/>Type : Projet<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240710T081350Z
+UID:Cours-158008-11-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241128T073000Z
+DTEND:20241128T093000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Precision Health - Br
+ anders
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Precision Health\nEnseignant : Branders\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Precision Health<br/>Enseignant : Branders<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T125907Z
+UID:Cours-159144-8-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241105T100000Z
+DTEND:20241105T120000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Precision Health - Br
+ anders
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Precision Health\nEnseignant : Branders\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Precision Health<br/>Enseignant : Branders<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240619T092745Z
+UID:Cours-159149-13-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241211T081500Z
+DTEND:20241211T111500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Precision Health - Br
+ anders
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Precision Health\nEnseignant : Branders\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Precision Health<br/>Enseignant : Branders<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T090009Z
+UID:Cours-159150-9-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241113T093000Z
+DTEND:20241113T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Precision Health - Br
+ anders
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Precision Health\nEnseignant : Branders\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Precision Health<br/>Enseignant : Branders<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240703T093629Z
+UID:Cours-161521-14-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241217T073000Z
+DTEND:20241217T160000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Projet omique - Van D
+ amme - 24-25 - Cours
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Projet omique\nEnseignant : Van Damme\nMémo : 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Projet omique<br/>Enseignant : Van Damme<br/>Mémo : 24-25<br/>Typ
+ e : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T092738Z
+UID:Cours-162977-2-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20240923T113000Z
+DTEND:20240923T123000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info G
+ estion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologi
+ es - TFE - Cremer\, Leonet - Cours
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life D
+ ata Technologies\nMatière : TFE\nEnseignants : Cremer\, Leonet\nSalle : 1/
+ 27\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - L
+ ife Data Technologies<br/>Matière : TFE<br/>Enseignants : Cremer\, Leonet<
+ br/>Salle : 1/27<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20230907T081336Z
+UID:Cours-163427-2-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20240925T113000Z
+DTEND:20240925T143000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info G
+ estion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologi
+ es - Optimisation combinatoire - Cremer - Cours
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life D
+ ata Technologies\nMatière : Optimisation combinatoire\nEnseignant : Cremer
+ \nSalle : 1/27\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - L
+ ife Data Technologies<br/>Matière : Optimisation combinatoire<br/>Enseigna
+ nt : Cremer<br/>Salle : 1/27<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240703T093106Z
+UID:Cours-163649-10-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241121T123000Z
+DTEND:20241121T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Precision Health - Br
+ anders
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Precision Health\nEnseignant : Branders\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Precision Health<br/>Enseignant : Branders<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T084315Z
+UID:Cours-163653-10-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241118T093000Z
+DTEND:20241118T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Precision Health - Br
+ anders
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Precision Health\nEnseignant : Branders\nSalle : 1/23\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Precision Health<br/>Enseignant : Branders<br/>Salle : 1/23<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T085514Z
+UID:Cours-179143-10-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241120T093000Z
+DTEND:20241120T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info G
+ estion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologi
+ es - Green IT - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life D
+ ata Technologies\nMatière : Green IT\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - L
+ ife Data Technologies<br/>Matière : Green IT<br/>Enseignant : Cremer<br/>S
+ alle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20230522T142836Z
+UID:Cours-179144-9-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241112T093000Z
+DTEND:20241112T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info G
+ estion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologi
+ es - Green IT - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life D
+ ata Technologies\nMatière : Green IT\nEnseignant : Cremer\nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - L
+ ife Data Technologies<br/>Matière : Green IT<br/>Enseignant : Cremer<br/>S
+ alle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240619T072951Z
+UID:Cours-179953-5-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241017T113000Z
+DTEND:20241017T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info G
+ estion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologi
+ es - Projet entrepreneurial - Lenaerts - 24-25
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life D
+ ata Technologies\nMatière : Projet entrepreneurial\nEnseignant : Lenaerts\
+ nSalle : 1/25\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - L
+ ife Data Technologies<br/>Matière : Projet entrepreneurial<br/>Enseignant 
+ : Lenaerts<br/>Salle : 1/25<br/>Mémo : 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240619T072958Z
+UID:Cours-179955-9-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241113T123000Z
+DTEND:20241113T163000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info G
+ estion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologi
+ es - Projet entrepreneurial - Lenaerts - 24-25
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life D
+ ata Technologies\nMatière : Projet entrepreneurial\nEnseignant : Lenaerts\
+ nSalle : 1/25\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - L
+ ife Data Technologies<br/>Matière : Projet entrepreneurial<br/>Enseignant 
+ : Lenaerts<br/>Salle : 1/25<br/>Mémo : 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240619T072958Z
+UID:Cours-179956-8-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241107T123000Z
+DTEND:20241107T163000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info G
+ estion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologi
+ es - Projet entrepreneurial - Lenaerts - 24-25
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life D
+ ata Technologies\nMatière : Projet entrepreneurial\nEnseignant : Lenaerts\
+ nSalle : 1/25\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - L
+ ife Data Technologies<br/>Matière : Projet entrepreneurial<br/>Enseignant 
+ : Lenaerts<br/>Salle : 1/25<br/>Mémo : 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240619T072922Z
+UID:Cours-179961-11-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241127T123000Z
+DTEND:20241127T163000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Construction Energie env\, MA2 TL - Constructi
+ on GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - Géomètre\, MA2
+  TL - Info Automation et Sys. emb.\, MA2 TL - Info Gestion\, MA2 TL - Info
+  Réseaux et sécurité\, MA2 TL - Life Data Technologies - Projet entreprene
+ urial - Lenaerts - 24-25
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Construction Energie env\, MA2 T
+ L - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 TL - 
+ Géomètre\, MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info Gestion\,
+  MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologies\nMati
+ ère : Projet entrepreneurial\nEnseignant : Lenaerts\nSalle : 1/25\nMémo : 
+ 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Construction Energie env\, 
+ MA2 TL - Construction GC & Bâtiment\, MA2 TL - Construction Gestion\, MA2 
+ TL - Géomètre\, MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info Gest
+ ion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologies<
+ br/>Matière : Projet entrepreneurial<br/>Enseignant : Lenaerts<br/>Salle :
+  1/25<br/>Mémo : 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20230626T133448Z
+UID:Cours-179989-4-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241010T103000Z
+DTEND:20241010T154500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Visites et conférence
+ s - Stage & alternance Meeting organisé par Essenscia au CEME Charleroi 05
+ /10/2023 - Cours
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Visites et conférences\nMémo : Stage & alternance Meeting organisé par Es
+ senscia au CEME Charleroi 05/10/2023\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Visites et conférences<br/>Mémo : Stage & alternance Meeting orga
+ nisé par Essenscia au CEME Charleroi 05/10/2023<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T130502Z
+UID:Cours-184060-9-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241112T143000Z
+DTEND:20241112T163000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Trends in bioinformat
+ ics - Branders
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Trends in bioinformatics\nEnseignant : Branders\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Trends in bioinformatics<br/>Enseignant : Branders<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T085022Z
+UID:Cours-184062-1-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20240918T113000Z
+DTEND:20240918T143000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info G
+ estion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologi
+ es - Optimisation combinatoire - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life D
+ ata Technologies\nMatière : Optimisation combinatoire\nEnseignant : Cremer
+ \nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - L
+ ife Data Technologies<br/>Matière : Optimisation combinatoire<br/>Enseigna
+ nt : Cremer<br/>Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T052552Z
+UID:Cours-185096-3-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241004T061500Z
+DTEND:20241004T081500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Analyse phylogénétiqu
+ e - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Analyse phylogénétique\nEnseignant : Branders\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Analyse phylogénétique<br/>Enseignant : Branders<br/>Salle : 1/10
+ B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T053214Z
+UID:Cours-185251-12-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241202T071500Z
+DTEND:20241202T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info R
+ éseaux et sécurité\, MA2 TL - Life Data Technologies - Optimisation combin
+ atoire - Lerat - Laboratoires
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologies\nMatièr
+ e : Optimisation combinatoire\nEnseignant : Lerat\nSalle : 1/27\nType : La
+ boratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologies<br
+ />Matière : Optimisation combinatoire<br/>Enseignant : Lerat<br/>Salle : 1
+ /27<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T053138Z
+UID:Cours-185255-8-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241105T123000Z
+DTEND:20241105T163000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info R
+ éseaux et sécurité\, MA2 TL - Life Data Technologies - Optimisation combin
+ atoire - Lerat - Laboratoires
+LOCATION;LANGUAGE=fr:1/27\, 1/28
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologies\nMatièr
+ e : Optimisation combinatoire\nEnseignant : Lerat\nSalles : 1/27\, 1/28\nT
+ ype : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologies<br
+ />Matière : Optimisation combinatoire<br/>Enseignant : Lerat<br/>Salles : 
+ 1/27\, 1/28<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T090100Z
+UID:Cours-185257-5-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241016T113000Z
+DTEND:20241016T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info R
+ éseaux et sécurité\, MA2 TL - Life Data Technologies - Optimisation combin
+ atoire - Lerat - Laboratoires
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologies\nMatièr
+ e : Optimisation combinatoire\nEnseignant : Lerat\nSalle : 1/27\nType : La
+ boratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologies<br
+ />Matière : Optimisation combinatoire<br/>Enseignant : Lerat<br/>Salle : 1
+ /27<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T124527Z
+UID:Cours-186225-2-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20240925T061500Z
+DTEND:20240925T081500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Analyse phylogénétiqu
+ e - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Analyse phylogénétique\nEnseignant : Branders\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Analyse phylogénétique<br/>Enseignant : Branders<br/>Salle : 1/10
+ B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T052436Z
+UID:Cours-186226-6-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241025T061500Z
+DTEND:20241025T081500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Trends in bioinformat
+ ics - Branders
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Trends in bioinformatics\nEnseignant : Branders\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Trends in bioinformatics<br/>Enseignant : Branders<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T130428Z
+UID:Cours-192334-8-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241106T143000Z
+DTEND:20241106T163000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Trends in bioinformat
+ ics - Branders
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Trends in bioinformatics\nEnseignant : Branders\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Trends in bioinformatics<br/>Enseignant : Branders<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240702T085912Z
+UID:Cours-193725-9-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241114T143000Z
+DTEND:20241114T163000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Precision Health - Br
+ anders
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Precision Health\nEnseignant : Branders\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Precision Health<br/>Enseignant : Branders<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240702T085924Z
+UID:Cours-193726-11-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241128T093000Z
+DTEND:20241128T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Precision Health - Br
+ anders
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Precision Health\nEnseignant : Branders\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Precision Health<br/>Enseignant : Branders<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240702T090511Z
+UID:Cours-193727-2-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20240925T081500Z
+DTEND:20240925T101500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Precision Health - Br
+ anders
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Precision Health\nEnseignant : Branders\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Precision Health<br/>Enseignant : Branders<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T130007Z
+UID:Cours-193728-9-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241112T123000Z
+DTEND:20241112T143000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Precision Health - Br
+ anders
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Precision Health\nEnseignant : Branders\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Precision Health<br/>Enseignant : Branders<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240710T075954Z
+UID:Cours-203782-10-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241119T093000Z
+DTEND:20241119T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Precision Health - Br
+ anders
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Precision Health\nEnseignant : Branders\nSalle : 1/23\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Precision Health<br/>Enseignant : Branders<br/>Salle : 1/23<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240710T075954Z
+UID:Cours-203782-11-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241126T093000Z
+DTEND:20241126T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Precision Health - Br
+ anders
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Precision Health\nEnseignant : Branders\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Precision Health<br/>Enseignant : Branders<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T124733Z
+UID:Cours-203783-11-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241126T071500Z
+DTEND:20241126T091500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Ethique et déontologi
+ e - Janssens - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Ethique et déontologie\nEnseignant : Janssens\nSalle : 1/13\nType : Cours
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Ethique et déontologie<br/>Enseignant : Janssens<br/>Salle : 1/13
+ <br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240703T093252Z
+UID:Cours-203950-9-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241112T071500Z
+DTEND:20241112T091500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Ethique et déontologi
+ e - Janssens - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Ethique et déontologie\nEnseignant : Janssens\nSalle : 1/13\nType : Cours
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Ethique et déontologie<br/>Enseignant : Janssens<br/>Salle : 1/13
+ <br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240703T093252Z
+UID:Cours-203950-10-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241119T071500Z
+DTEND:20241119T091500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Ethique et déontologi
+ e - Janssens - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Ethique et déontologie\nEnseignant : Janssens\nSalle : 1/13\nType : Cours
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Ethique et déontologie<br/>Enseignant : Janssens<br/>Salle : 1/13
+ <br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240703T093252Z
+UID:Cours-203950-13-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241210T071500Z
+DTEND:20241210T091500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Ethique et déontologi
+ e - Janssens - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Ethique et déontologie\nEnseignant : Janssens\nSalle : 1/13\nType : Cours
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Ethique et déontologie<br/>Enseignant : Janssens<br/>Salle : 1/13
+ <br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240703T093252Z
+UID:Cours-203951-13-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241210T093000Z
+DTEND:20241210T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Ethique et déontologi
+ e - Janssens - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Ethique et déontologie\nEnseignant : Janssens\nSalle : 1/13\nType : Cours
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Ethique et déontologie<br/>Enseignant : Janssens<br/>Salle : 1/13
+ <br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240703T093656Z
+UID:Cours-203954-14-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241220T073000Z
+DTEND:20241220T160000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Projet omique - Van D
+ amme - 24-25 - Cours
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Projet omique\nEnseignant : Van Damme\nMémo : 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Projet omique<br/>Enseignant : Van Damme<br/>Mémo : 24-25<br/>Typ
+ e : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240905T123732Z
+UID:Cours-207986-2-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20240923T123000Z
+DTEND:20240923T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info G
+ estion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologi
+ es - Optimisation combinatoire - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life D
+ ata Technologies\nMatière : Optimisation combinatoire\nEnseignant : Cremer
+ \nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - L
+ ife Data Technologies<br/>Matière : Optimisation combinatoire<br/>Enseigna
+ nt : Cremer<br/>Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240909T092524Z
+UID:Cours-207987-2-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20240924T113000Z
+DTEND:20240924T143000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info G
+ estion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologi
+ es - Optimisation combinatoire - Cremer
+LOCATION;LANGUAGE=fr:1/25
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life D
+ ata Technologies\nMatière : Optimisation combinatoire\nEnseignant : Cremer
+ \nSalle : 1/25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - L
+ ife Data Technologies<br/>Matière : Optimisation combinatoire<br/>Enseigna
+ nt : Cremer<br/>Salle : 1/25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T090053Z
+UID:Cours-207998-4-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241009T113000Z
+DTEND:20241009T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info R
+ éseaux et sécurité\, MA2 TL - Life Data Technologies - Optimisation combin
+ atoire - Lerat - Laboratoires
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologies\nMatièr
+ e : Optimisation combinatoire\nEnseignant : Lerat\nSalle : 1/27\nType : La
+ boratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologies<br
+ />Matière : Optimisation combinatoire<br/>Enseignant : Lerat<br/>Salle : 1
+ /27<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T090120Z
+UID:Cours-208015-10-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241120T123000Z
+DTEND:20241120T163000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info R
+ éseaux et sécurité\, MA2 TL - Life Data Technologies - Optimisation combin
+ atoire - Lerat - Laboratoires
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologies\nMatièr
+ e : Optimisation combinatoire\nEnseignant : Lerat\nSalle : 1/27\nType : La
+ boratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologies<br
+ />Matière : Optimisation combinatoire<br/>Enseignant : Lerat<br/>Salle : 1
+ /27<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T130437Z
+UID:Cours-208257-3-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241002T081500Z
+DTEND:20241002T101500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Analyse phylogénétiqu
+ e - Branders - Cours
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Analyse phylogénétique\nEnseignant : Branders\nSalle : 1/10B\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Analyse phylogénétique<br/>Enseignant : Branders<br/>Salle : 1/10
+ B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T124600Z
+UID:Cours-208258-9-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241113T071500Z
+DTEND:20241113T091500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Analyse phylogénétiqu
+ e - Branders - Cours
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Analyse phylogénétique\nEnseignant : Branders\nSalle : 1/10B\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Analyse phylogénétique<br/>Enseignant : Branders<br/>Salle : 1/10
+ B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T124600Z
+UID:Cours-208258-10-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241120T071500Z
+DTEND:20241120T091500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Analyse phylogénétiqu
+ e - Branders - Cours
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Analyse phylogénétique\nEnseignant : Branders\nSalle : 1/10B\nType : Cour
+ s\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Analyse phylogénétique<br/>Enseignant : Branders<br/>Salle : 1/10
+ B<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T124904Z
+UID:Cours-208266-1-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20240920T061500Z
+DTEND:20240920T081500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Computational biology
+  project - Branders - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Computational biology project\nEnseignant : Branders\nSalle : 1/10A\nType
+  : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Computational biology project<br/>Enseignant : Branders<br/>Salle
+  : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T052928Z
+UID:Cours-208267-4-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241008T083000Z
+DTEND:20241008T103000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Computational biology
+  project - Branders - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Computational biology project\nEnseignant : Branders\nSalle : 1/10A\nType
+  : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Computational biology project<br/>Enseignant : Branders<br/>Salle
+  : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T124943Z
+UID:Cours-208268-8-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241107T093000Z
+DTEND:20241107T113000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Computational biology
+  project - Branders - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Computational biology project\nEnseignant : Branders\nSalle : 1/10A\nType
+  : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Computational biology project<br/>Enseignant : Branders<br/>Salle
+  : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T125004Z
+UID:Cours-208269-8-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241107T071500Z
+DTEND:20241107T091500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Computational biology
+  project - Branders - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Computational biology project\nEnseignant : Branders\nSalle : 1/10A\nType
+  : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Computational biology project<br/>Enseignant : Branders<br/>Salle
+  : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T130018Z
+UID:Cours-208272-12-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241202T123000Z
+DTEND:20241202T143000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Precision Health - Br
+ anders
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Precision Health\nEnseignant : Branders\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Precision Health<br/>Enseignant : Branders<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T130156Z
+UID:Cours-208273-9-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241114T123000Z
+DTEND:20241114T143000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Trends in bioinformat
+ ics - Branders
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Trends in bioinformatics\nEnseignant : Branders\nSalle : 1/11\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Trends in bioinformatics<br/>Enseignant : Branders<br/>Salle : 1/
+ 11<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T130156Z
+UID:Cours-208273-11-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241128T123000Z
+DTEND:20241128T143000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Trends in bioinformat
+ ics - Branders
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Trends in bioinformatics\nEnseignant : Branders\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Trends in bioinformatics<br/>Enseignant : Branders<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T130530Z
+UID:Cours-208275-12-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241202T143000Z
+DTEND:20241202T163000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Trends in bioinformat
+ ics - Branders
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Trends in bioinformatics\nEnseignant : Branders\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Trends in bioinformatics<br/>Enseignant : Branders<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T052806Z
+UID:Cours-208363-6-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241023T061500Z
+DTEND:20241023T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - EcologieQuantitative&
+ Modélisa. - Hacquin
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  EcologieQuantitative&Modélisa.\nEnseignant : Hacquin\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : EcologieQuantitative&Modélisa.<br/>Enseignant : Hacquin<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T052705Z
+UID:Cours-208364-2-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20240926T083000Z
+DTEND:20240926T103000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Analyse phylogénétiqu
+ e - Branders
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Analyse phylogénétique\nEnseignant : Branders\nSalle : 1/10B\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Analyse phylogénétique<br/>Enseignant : Branders<br/>Salle : 1/10
+ B<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T052811Z
+UID:Cours-208367-6-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241024T061500Z
+DTEND:20241024T153000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - EcologieQuantitative&
+ Modélisa. - Hacquin
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  EcologieQuantitative&Modélisa.\nEnseignant : Hacquin\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : EcologieQuantitative&Modélisa.<br/>Enseignant : Hacquin<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T120925Z
+UID:Cours-208697-3-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241004T083000Z
+DTEND:20241004T103000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Computational biology
+  project - Branders - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Computational biology project\nEnseignant : Branders\nSalle : 1/10A\nType
+  : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Computational biology project<br/>Enseignant : Branders<br/>Salle
+  : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T120925Z
+UID:Cours-208697-4-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241011T083000Z
+DTEND:20241011T103000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Computational biology
+  project - Branders - Cours
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Computational biology project\nEnseignant : Branders\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Computational biology project<br/>Enseignant : Branders<br/>Type 
+ : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T120925Z
+UID:Cours-208697-6-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241025T083000Z
+DTEND:20241025T103000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Computational biology
+  project - Branders - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Computational biology project\nEnseignant : Branders\nSalle : 1/10A\nType
+  : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Computational biology project<br/>Enseignant : Branders<br/>Salle
+  : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T120925Z
+UID:Cours-208698-3-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241002T061500Z
+DTEND:20241002T081500Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Life Data Technologies - Computational biology
+  project - Branders - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Option : MA2 TL - Life Data Technologies\nMatière :
+  Computational biology project\nEnseignant : Branders\nSalle : 1/10A\nType
+  : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : MA2 TL - Life Data Technologies<br/>M
+ atière : Computational biology project<br/>Enseignant : Branders<br/>Salle
+  : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240822T074438Z
+UID:Cours-208872-1-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20240916T113000Z
+DTEND:20240916T143000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info G
+ estion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologi
+ es - Optimisation combinatoire - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life D
+ ata Technologies\nMatière : Optimisation combinatoire\nEnseignant : Cremer
+ \nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - L
+ ife Data Technologies<br/>Matière : Optimisation combinatoire<br/>Enseigna
+ nt : Cremer<br/>Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240822T074438Z
+UID:Cours-208872-4-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241007T113000Z
+DTEND:20241007T143000Z
+SUMMARY;LANGUAGE=fr:MA2 TL - Info Automation et Sys. emb.\, MA2 TL - Info G
+ estion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life Data Technologi
+ es - Optimisation combinatoire - Cremer
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Options : MA2 TL - Info Automation et Sys. emb.\, M
+ A2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - Life D
+ ata Technologies\nMatière : Optimisation combinatoire\nEnseignant : Cremer
+ \nSalle : 1/27\n
+X-ALT-DESC;FMTTYPE=text/html:Options : MA2 TL - Info Automation et Sys. emb
+ .\, MA2 TL - Info Gestion\, MA2 TL - Info Réseaux et sécurité\, MA2 TL - L
+ ife Data Technologies<br/>Matière : Optimisation combinatoire<br/>Enseigna
+ nt : Cremer<br/>Salle : 1/27<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240913T062921Z
+UID:Cours-154659-5-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241014T063000Z
+DTEND:20241014T103000Z
+SUMMARY;LANGUAGE=fr:Intercultural communication - Parmentier - Placé AA 24-
+ 25 - Cours
+LOCATION;LANGUAGE=fr:2/08
+DESCRIPTION;LANGUAGE=fr:Matière : Intercultural communication\nEnseignant :
+  Parmentier\nSalle : 2/08\nMémo : Placé AA 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intercultural communication<br/>Ense
+ ignant : Parmentier<br/>Salle : 2/08<br/>Mémo : Placé AA 24-25<br/>Type : 
+ Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T121012Z
+UID:Cours-154661-5-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241015T063000Z
+DTEND:20241015T103000Z
+SUMMARY;LANGUAGE=fr:Intercultural communication - Parmentier - Placé AA 24-
+ 25 - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Intercultural communication\nEnseignant :
+  Parmentier\nMémo : Placé AA 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intercultural communication<br/>Ense
+ ignant : Parmentier<br/>Mémo : Placé AA 24-25<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T121007Z
+UID:Cours-154664-5-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241016T063000Z
+DTEND:20241016T103000Z
+SUMMARY;LANGUAGE=fr:Intercultural communication - Parmentier - Placé AA 23-
+ 24 - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Intercultural communication\nEnseignant :
+  Parmentier\nMémo : Placé AA 23-24\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intercultural communication<br/>Ense
+ ignant : Parmentier<br/>Mémo : Placé AA 23-24<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T121002Z
+UID:Cours-154667-5-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241017T063000Z
+DTEND:20241017T103000Z
+SUMMARY;LANGUAGE=fr:Intercultural communication - Parmentier - Placé AA 24-
+ 25 - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Intercultural communication\nEnseignant :
+  Parmentier\nMémo : Placé AA 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intercultural communication<br/>Ense
+ ignant : Parmentier<br/>Mémo : Placé AA 24-25<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240619T072947Z
+UID:Cours-154733-2-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20240926T113000Z
+DTEND:20240926T133000Z
+SUMMARY;LANGUAGE=fr:Projet entrepreneurial - Lenaerts - 24-25 - Laurent Gil
+ is
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Projet entrepreneurial\nEnseignant : Lena
+ erts\nSalle : 2/SA\nMémo : 24-25 - Laurent Gilis\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projet entrepreneurial<br/>Enseignan
+ t : Lenaerts<br/>Salle : 2/SA<br/>Mémo : 24-25 - Laurent Gilis<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240619T093018Z
+UID:Cours-154772-11-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241127T071500Z
+DTEND:20241127T091500Z
+SUMMARY;LANGUAGE=fr:Simulation en gestion - Lenaerts - 24-25
+LOCATION;LANGUAGE=fr:UMONS-Wa-Drechsel
+DESCRIPTION;LANGUAGE=fr:Matière : Simulation en gestion\nEnseignant : Lenae
+ rts\nSalle : UMONS-Wa-Drechsel\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Simulation en gestion<br/>Enseignant
+  : Lenaerts<br/>Salle : UMONS-Wa-Drechsel<br/>Mémo : 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T091900Z
+UID:Cours-155184-2-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20240926T134500Z
+DTEND:20240926T154500Z
+SUMMARY;LANGUAGE=fr:Inter.management & HR - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Inter.management & HR\nEnseignant : Baras
+ \nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Inter.management & HR<br/>Enseignant
+  : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T084355Z
+UID:Cours-158526-13-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241211T123000Z
+DTEND:20241211T163000Z
+SUMMARY;LANGUAGE=fr:Prob. Co2 & Bilan Carbone - Mathot
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Prob. Co2 & Bilan Carbone\nEnseignant : M
+ athot\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prob. Co2 & Bilan Carbone<br/>Enseig
+ nant : Mathot<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T084355Z
+UID:Cours-158527-8-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241104T123000Z
+DTEND:20241104T163000Z
+SUMMARY;LANGUAGE=fr:Prob. Co2 & Bilan Carbone - Mathot
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Prob. Co2 & Bilan Carbone\nEnseignant : M
+ athot\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prob. Co2 & Bilan Carbone<br/>Enseig
+ nant : Mathot<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T084355Z
+UID:Cours-158527-11-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241125T123000Z
+DTEND:20241125T163000Z
+SUMMARY;LANGUAGE=fr:Prob. Co2 & Bilan Carbone - Mathot
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Prob. Co2 & Bilan Carbone\nEnseignant : M
+ athot\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prob. Co2 & Bilan Carbone<br/>Enseig
+ nant : Mathot<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T084355Z
+UID:Cours-158527-13-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241209T123000Z
+DTEND:20241209T163000Z
+SUMMARY;LANGUAGE=fr:Prob. Co2 & Bilan Carbone - Mathot
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Prob. Co2 & Bilan Carbone\nEnseignant : M
+ athot\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prob. Co2 & Bilan Carbone<br/>Enseig
+ nant : Mathot<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240904T090057Z
+UID:Cours-159588-4-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241008T061500Z
+DTEND:20241008T081500Z
+SUMMARY;LANGUAGE=fr:Inter.management & HR - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Inter.management & HR\nEnseignant : Baras
+ \nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Inter.management & HR<br/>Enseignant
+  : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240826T075357Z
+UID:Cours-167879-4-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241007T093000Z
+DTEND:20241007T103000Z
+SUMMARY;LANGUAGE=fr:Inter.management & HR - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Inter.management & HR\nEnseignant : Baras
+ \nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Inter.management & HR<br/>Enseignant
+  : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240619T093008Z
+UID:Cours-179944-8-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241105T071500Z
+DTEND:20241105T091500Z
+SUMMARY;LANGUAGE=fr:Simulation en gestion - Lenaerts - 24-25
+LOCATION;LANGUAGE=fr:UMONS-SalleAcadWA
+DESCRIPTION;LANGUAGE=fr:Matière : Simulation en gestion\nEnseignant : Lenae
+ rts\nSalle : UMONS-SalleAcadWA\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Simulation en gestion<br/>Enseignant
+  : Lenaerts<br/>Salle : UMONS-SalleAcadWA<br/>Mémo : 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T053226Z
+UID:Cours-180384-13-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241209T071500Z
+DTEND:20241209T113000Z
+SUMMARY;LANGUAGE=fr:Inter.management & HR - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Inter.management & HR\nEnseignant : Baras
+ \nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Inter.management & HR<br/>Enseignant
+  : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T080122Z
+UID:Cours-187109-12-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241206T073000Z
+DTEND:20241206T113000Z
+SUMMARY;LANGUAGE=fr:Inter.management & HR - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Inter.management & HR\nEnseignant : Baras
+ \nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Inter.management & HR<br/>Enseignant
+  : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T112058Z
+UID:Cours-187113-3-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241001T061500Z
+DTEND:20241001T081500Z
+SUMMARY;LANGUAGE=fr:Inter.management & HR - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Inter.management & HR\nEnseignant : Baras
+ \nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Inter.management & HR<br/>Enseignant
+  : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240619T092951Z
+UID:Cours-203785-12-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241203T071500Z
+DTEND:20241203T163000Z
+SUMMARY;LANGUAGE=fr:Simulation en gestion - Lenaerts - 24-25
+DESCRIPTION;LANGUAGE=fr:Matière : Simulation en gestion\nEnseignant : Lenae
+ rts\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Simulation en gestion<br/>Enseignant
+  : Lenaerts<br/>Mémo : 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240619T092925Z
+UID:Cours-203787-12-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241204T071500Z
+DTEND:20241204T163000Z
+SUMMARY;LANGUAGE=fr:Simulation en gestion - Lenaerts - 24-25
+DESCRIPTION;LANGUAGE=fr:Matière : Simulation en gestion\nEnseignant : Lenae
+ rts\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Simulation en gestion<br/>Enseignant
+  : Lenaerts<br/>Mémo : 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240619T092958Z
+UID:Cours-203788-12-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241205T071500Z
+DTEND:20241205T163000Z
+SUMMARY;LANGUAGE=fr:Simulation en gestion - Lenaerts - 24-25
+DESCRIPTION;LANGUAGE=fr:Matière : Simulation en gestion\nEnseignant : Lenae
+ rts\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Simulation en gestion<br/>Enseignant
+  : Lenaerts<br/>Mémo : 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240710T072140Z
+UID:Cours-203791-6-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241022T061500Z
+DTEND:20241022T143000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Informatique\, BA3 TL 
+ - LDT - Salon Job contact - 24-25
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Informat
+ ique\, BA3 TL - LDT\nMatière : Salon Job contact\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Inf
+ ormatique\, BA3 TL - LDT<br/>Matière : Salon Job contact<br/>Mémo : 24-25<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240820T084355Z
+UID:Cours-203873-13-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241210T123000Z
+DTEND:20241210T163000Z
+SUMMARY;LANGUAGE=fr:Prob. Co2 & Bilan Carbone - Mathot
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Prob. Co2 & Bilan Carbone\nEnseignant : M
+ athot\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prob. Co2 & Bilan Carbone<br/>Enseig
+ nant : Mathot<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T053217Z
+UID:Cours-203944-11-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241125T071500Z
+DTEND:20241125T113000Z
+SUMMARY;LANGUAGE=fr:Inter.management & HR - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Inter.management & HR\nEnseignant : Baras
+ \nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Inter.management & HR<br/>Enseignant
+  : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T121057Z
+UID:Cours-207937-5-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241014T113000Z
+DTEND:20241014T153000Z
+SUMMARY;LANGUAGE=fr:Inter.management & HR - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Inter.management & HR\nEnseignant : Baras
+ \nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Inter.management & HR<br/>Enseignant
+  : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240912T081320Z
+UID:Cours-207942-4-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241007T061500Z
+DTEND:20241007T091500Z
+SUMMARY;LANGUAGE=fr:Compétences managériales - Bouillon
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Compétences managériales\nEnseignant : Bo
+ uillon\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Compétences managériales<br/>Enseign
+ ant : Bouillon<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240912T081320Z
+UID:Cours-207942-6-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241021T061500Z
+DTEND:20241021T091500Z
+SUMMARY;LANGUAGE=fr:Compétences managériales - Bouillon
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Compétences managériales\nEnseignant : Bo
+ uillon\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Compétences managériales<br/>Enseign
+ ant : Bouillon<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240912T081320Z
+UID:Cours-207942-8-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241104T071500Z
+DTEND:20241104T101500Z
+SUMMARY;LANGUAGE=fr:Compétences managériales - Bouillon
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Compétences managériales\nEnseignant : Bo
+ uillon\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Compétences managériales<br/>Enseign
+ ant : Bouillon<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240821T120946Z
+UID:Cours-208699-5-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241018T063000Z
+DTEND:20241018T103000Z
+SUMMARY;LANGUAGE=fr:Intercultural communication - Parmentier - Placé AA 24-
+ 25 - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Intercultural communication\nEnseignant :
+  Parmentier\nMémo : Placé AA 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intercultural communication<br/>Ense
+ ignant : Parmentier<br/>Mémo : Placé AA 24-25<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240822T074452Z
+UID:Cours-208873-3-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20240930T113000Z
+DTEND:20240930T143000Z
+SUMMARY;LANGUAGE=fr:Compétences managériales - Bouillon
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Compétences managériales\nEnseignant : Bo
+ uillon\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Compétences managériales<br/>Enseign
+ ant : Bouillon<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240822T074452Z
+UID:Cours-208873-10-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241118T123000Z
+DTEND:20241118T153000Z
+SUMMARY;LANGUAGE=fr:Compétences managériales - Bouillon
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Compétences managériales\nEnseignant : Bo
+ uillon\nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Compétences managériales<br/>Enseign
+ ant : Bouillon<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+LAST-MODIFIED:20240826T075410Z
+UID:Cours-210200-8-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART:20241104T103000Z
+DTEND:20241104T113000Z
+SUMMARY;LANGUAGE=fr:Inter.management & HR - Baras
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Inter.management & HR\nEnseignant : Baras
+ \nSalle : 2/SA\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Inter.management & HR<br/>Enseignant
+  : Baras<br/>Salle : 2/SA<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+UID:Ferie-939-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240928
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+UID:Ferie-940-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145731Z
+UID:Ferie-941-MA2_TL_-_Life_Data_Technologies-Index-Education
+DTSTART;VALUE=DATE:20241111
+DTEND;VALUE=DATE:20241112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+END:VCALENDAR

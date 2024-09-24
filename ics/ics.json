@@ -1,389 +1,100 @@
 {
-  "AESI 3 SC HUM ARTICLE 132": {
-    "groupes": {
+    "bachelier-en-biotechnique": {
+        "bloc1": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_BA1P_Biotechnique.ics?version=2024.0.8.0&icalsecurise=E9E2AAF89221FAD87A91172D26677F04526AE9BC0F277F45CE4B0DB2D7EF1FA0B2A1256EFC0917A59BE4364927CDB8F9&param=643d5b312e2e36325d2666683d3126663d3131313131",
+        "bloc2": {
+            "bioelectronique": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Bioelectronique___Instrum__Bloc_2.ics?version=2024.0.8.0&icalsecurise=1169BC4B7D20727C460D9FEA43145A68ADD190E33440414591F98954440A4A369AF31FB118B621DE797F5C069E63A0B4&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "bioinformatique": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Bioinformatique_Bloc_2.ics?version=2024.0.8.0&icalsecurise=4F2C68AE4CB3C8478164353DBF0045580A935134C0A38E1524229EA470FEA7950A13D52D4B5678D383D73559EAED9328&param=643d5b312e2e36325d2666683d3126663d3131313131"
+        },
+        "bloc3": {
+            "bioelectronique": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Bioelectronique___Instrum__Bloc3.ics?version=2024.0.8.0&icalsecurise=010D2A5D9669B52D209ED306BCEC3C2B278290435466314685E2F9C8D369EC3CAD7CBAFDEBD343ED2C19A2327D2C052A&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "bioinformatique": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Bioinformatique_Bloc3.ics?version=2024.0.8.0&icalsecurise=B00754B565773C88BF059C1B9435B37AD228DF0D034CAF2F5E8D18FB7662256C495A2333EFB07363015A59FF020FABCD&param=643d5b312e2e36325d2666683d3126663d3131313131"
+        }
+    },
+    "bachelier-en-electronique": {
+        "bloc1": {
+            "groupe1" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe1_BA1P_Electronique.ics?version=2024.0.8.0&icalsecurise=5A6815D77ADB4AD3C57997700926DEC29F988110EFD4A3F8E2EE75E6A67E93FC691B73E1AAFAE56B4429049CB2D5E8E1&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "groupe2" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe2_BA1P_Electronique.ics?version=2024.0.8.0&icalsecurise=431E00C6341F19EB973DE1052872F7562AACC98EBB01C22D02C6FD792662AE7BD26EDBDDC37B3DB74F045E53C9D4954C&param=643d5b312e2e36325d2666683d3126663d3131313131"
+        },
+        "bloc2": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_BA2P_Electronique.ics?version=2024.0.8.0&icalsecurise=2ED413432F02EF0C5F86BFB0BA735977F219DB25C67EBDD080F3798EC947D1DBF8706A6D41B8FEBAA489A95569A9087C&param=643d5b312e2e36325d2666683d3126663d3131313131",
+        "bloc3": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_BA3P_Electronique.ics?version=2024.0.8.0&icalsecurise=C234A53253EE1B8BE48D75516315C455746C960ABCC236898F8B613A5F5A481D12E0D6B0899DF3D7025F115D6EF7F2C0&param=643d5b312e2e36325d2666683d3126663d3131313131"
+    },
+    "bachelier-en-informatique": {
+        "bloc1": {
+            "groupe1": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_1_BA1P_Informatique.ics?version=2024.0.8.0&icalsecurise=EC99A4C0D7D6270368B9B3F1586727DBF92BC2C1CB4AE19D1600672E66C1A8D8262695BFC2007B2D61CEE878D3CB86D0&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "groupe2": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_2_BA1P_Informatique.ics?version=2024.0.8.0&icalsecurise=9E3A1D05EA92779D797F5025FACE145D856B61DB77D5D00D1CC60E6AC3A343E459A6433BB62C2A600313F2890E1697AC&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "groupe3": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_3_BA1P_Informatique.ics?version=2024.0.8.0&icalsecurise=431E00C6341F19EB973DE1052872F756BEA5D2A956A4D6D56B42B4479E141FBAE9631A6BDB3F177EAF9C2C28A07244C5&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "groupe4": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_4_BA1P_Informatique.ics?version=2024.0.8.0&icalsecurise=431E00C6341F19EB973DE1052872F75619A92C6D53B4B63C2CA3A2CA7BDDB5D1CBBF7C837F0DAA02DF81EA2CB6DD0EB3&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "groupe5": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_5_BA1P_Informatique.ics?version=2024.0.8.0&icalsecurise=CA726228FFEAD412CD9AC9A1054854D8A6B491B053F2DA04E801CF77446D259C66C152EB945D33A6A425862CA7917BD1&param=643d5b312e2e36325d2666683d3126663d3131313131"
+        },
+        "bloc2": {
+            "Developpement1": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_1_BA2P_Informatique_Develop_.ics?version=2024.0.8.0&icalsecurise=0ED009EA4ADA0632833671314CB0ABA996FAD0E43493797C0AFA6A2ABDF5045F9500ABA06AB188AAA7121C602B65E1CC&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "Developpement2": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_2_BA2P_Informatique_Develop_.ics?version=2024.0.8.0&icalsecurise=8BC05FB2690C5DE57C4E03AECE273597121493E952B95C71D170FD46AF1CCB32CAC20287E02729138430E877D7A2D2B8&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "Securite1": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_1_BA2P_Informatique_Securite.ics?version=2024.0.8.0&icalsecurise=5A6815D77ADB4AD3C57997700926DEC2C0275C4A651169E962BF140A922CD6F63A23E84C8CFAAD4B72057228907E0606&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "Securite2": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_2_BA2P_Informatique_Securite.ics?version=2024.0.8.0&icalsecurise=5A6815D77ADB4AD3C57997700926DEC259FAE083E58FE04133B01E1CD204DECA3F018A8DA86A51CD09D0256D1656F71D&param=643d5b312e2e36325d2666683d3126663d3131313131"
+        },
+        "bloc3": {
+          "Developpement": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_Developpement_BA3P_Informatique.ics?version=2024.0.8.0&icalsecurise=0ED009EA4ADA0632833671314CB0ABA9D852EAF36D553CD0A51A121288ECD4E3EC8A6E250AAD06675C5CAF1377FB9063&param=643d5b312e2e36325d2666683d3126663d3131313131",
+          "Securite": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_Securite_BA3P_Informatique.ics?version=2024.0.8.0&icalsecurise=8BC05FB2690C5DE57C4E03AECE2735976E9460AD80F1E76F59B51817D5C93B0F89F367FBFF508FCCE27416880C5E86FF&param=643d5b312e2e36325d2666683d3126663d3131313131"
+        }
+    },
+    "bachelier-en-technique-graphiques": {
+        "bloc1": {
+            "groupe1": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_1_BA1P_Infographie.ics?version=2024.0.8.0&icalsecurise=B9EC750E1CE7038ACFFFCBA0DD0E677AC766575A8D5C30E97DAEF173B365E056D6DFCEDC61779169F853B85D5ED3EC89&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "groupe2": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_2_BA1P_Infographie.ics?version=2024.0.8.0&icalsecurise=B9EC750E1CE7038ACFFFCBA0DD0E677AA5FDEF7A6D5F1E1F254E84317321DAB613ED8311FA3681E16406AB2079D448BC&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "groupe3": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_3_BA1P_Infographie.ics?version=2024.0.8.0&icalsecurise=13362C2A58324BA4D648849143286D3FF84F35A0EB9FEF075F23DC9B75A73B1D4B78A4EE7B88BC0EEC14149ACE406A29&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "groupe4": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_4_BA1P_Infographie.ics?version=2024.0.8.0&icalsecurise=B9EC750E1CE7038ACFFFCBA0DD0E677A4F6DA6D1C746CFBCA245EA248CF9F8EA2E7C4003AFC2FF7C3BE5C607D2933FA7&param=643d5b312e2e36325d2666683d3126663d3131313131"
+        },
+        "bloc2": {
+            "groupe1" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_1_BA2P_Teknika.ics?version=2024.0.8.0&icalsecurise=5A6815D77ADB4AD3C57997700926DEC2BBA7323D356EA0201B117054AAC34AAC4D0C274AD5DDF88E0346FA9814E43A55&param=643d5b312e2e36325d2666683d3126663d3131303030",
+            "groupe2" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_2_BA2P_Teknika.ics?version=2024.0.8.0&icalsecurise=85C547264133FF66038F429C61BA07913CBCB24CE77D93910DFF77A969DCB35CFE1E6849CDE6A1DCE3DA380420026784&param=643d5b312e2e36325d2666683d3126663d3131303030"
+        },
+        "bloc3": {
+            "coneption-et-animation-3D" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Conception_et_animation_3D.ics?version=2024.0.8.0&icalsecurise=7317547A25C5B72B62BED420C359029DDCF4ACB11E8A90D8E0D9D18C6EC852875680991417DA8028A2C7D650A6ED5635&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "design-et-developpement-web" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Design_et_developpement_web.ics?version=2024.0.8.0&icalsecurise=033EB7A5824CB5F62146799F9AB468BB26AA08B339EF0058A8E1812166DFB43BB5003CDEFE52DF346341CE22BEAF9300&param=643d5b312e2e36325d2666683d3126663d3131313131"
+        }
+    },
+    "master-en-construction": {
+        "master0": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_M0_Passerelle_Construction.ics?version=2024.0.8.0&icalsecurise=7B902DA271BF1F5A952C0AB8079E88E442C38258E1314DDE3869B0987C8FBAE10D190813B4A69205566C5FA2259B0254&param=643d5b312e2e36325d2666683d3126663d3131313131",
+        "master1": {
+            "energie-et-environnement" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_MA1_TL___Construction_Energie_Environnement.ics?version=2024.0.8.0&icalsecurise=88AF3E3044E7178C737A182055144C6F753CBAEA512BB665F750AF8BA79F540CC00DC4281E745CE5DDFE9CB68D5B6947&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "genie-civil-et-batiment" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_MA1_TL___Construction_GC___Batiment.ics?version=2024.0.8.0&icalsecurise=058BD6FE06CBD3ABFD29BEF4471FD58842778867C0564505A1F128B2E522DFCD0F6B3AE8F4152F1EF82ED1E12BEB51E4&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "gestion" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_MA1_TL___Construction_Gestion.ics?version=2024.0.8.0&icalsecurise=9C0F2A8BF13BE5702C9E7B1DB67032911532523D49CE2C23B5D94911D1D5CF6DFFF1A774345853D34515ABF159E22E7D&param=643d5b312e2e36325d2666683d3126663d3131313131"
+        },
+        "master2": {
+            "energie-et-environnement" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_MA2_TL___Construction_Energie_env.ics?version=2024.0.8.0&icalsecurise=FD095DEDA54A4DF370DCC395DFB6AB52A14F374D2B53A76DCF61AA4AD1F6C20897346BB4819C9EE58180BE484EA92734&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "genie-civil-et-batiment" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_MA2_TL___Construction_GC___Batiment.ics?version=2024.0.8.0&icalsecurise=058BD6FE06CBD3ABFD29BEF4471FD5887C747C34D6AE93B1DAE772CAD7FB8EC6704C3AB7F8B46D5B6A23FA46557B9812&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "gestion" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_MA2_TL___Construction_Gestion.ics?version=2024.0.8.0&icalsecurise=FE76DF61B10BC675775F6343D8A36BD35BF8BF8B93ACBF214E1432067C03FB6A51EE28498C822F48A34D630DD5EF8AFE&param=643d5b312e2e36325d2666683d3126663d3131313131"
+        }
+    },
+    "master-en-geometre": {
+        "master1": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_MA1_TL___Geometre.ics?version=2024.0.8.0&icalsecurise=058BD6FE06CBD3ABFD29BEF4471FD588D756F8CCDAC3449B4BDD6A22619B7EFECB3813BF5BE1EDA8F08A9DFC0BEF24B8&param=643d5b312e2e36325d2666683d3126663d3131313131",
+        "master2": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_MA2_TL___Geometre.ics?version=2024.0.8.0&icalsecurise=5EF2240EA3285EB627328537D4695115EFDF039FB5E6F4B9A76C545601C2666A512200F4153AADA4931A0B06EDF8779A&param=643d5b312e2e36325d2666683d3126663d3131313131"
+    },
+    "master-en-informatique": {
+        "master0": {
+            "electro-vers-info" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_M0_Pass_Electro_vers_Master_Informatique.ics?version=2024.0.8.0&icalsecurise=1F6D64F7166F3A2848E5F0C8E5E6CA4AA2B9FC6DC4E1D7B3CE0D67F73B16848626024ACE652535EF19757C52B7456499&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "info-vers-info" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_M0_Pass_Info_vers_Master_Informatique.ics?version=2024.0.8.0&icalsecurise=2AC7D3764205D8CA449F8DEDD7E42B78E269655EE97C4F42FC418EB427E1D7283518C0A5CBD95DBC942B03A1282AB975&param=643d5b312e2e36325d2666683d3126663d3131313131"
+        },
+        "master1": {
+            "automation-et-systèmes-embarques" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_MA1_TL___Info_Automation_et_Sys__emb_.ics?version=2024.0.8.0&icalsecurise=2E4DF22E61ED26D52EEBF01DE08D5282B02162BCDBDA3A663D676346711F49E92B0A9FA1D92183E1FD87EBA7788125D2&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "IA-et-big-data" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_MA1_TL___Info_IA_et_Big_Data.ics?version=2024.0.8.0&icalsecurise=058BD6FE06CBD3ABFD29BEF4471FD5889CC67109B228B22AED5FC011FABC6A5F0E68796DF2058771BB7AF68F97404BDA&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "gestion" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_MA1_TL___Informatique_Gestion.ics?version=2024.0.8.0&icalsecurise=FE76DF61B10BC675775F6343D8A36BD3EE94611B1DD6DF889C3A8E8173DD33F58CCF4CA713769570DAC6CCE781C4F613&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "passerelle-automation" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_MA1_TL___PASS_Info_Automation_et_Sys__emb_.ics?version=2024.0.8.0&icalsecurise=3CEB0B5C6D368993F27698FEB474CFB205F4965C350A45D531B87B784B446AAD7DADCB928C070C6C46415A737965DF0B&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "passerelle-IA-et-big-data" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_MA1_TL___PASS_Info_IA_et_Big_Data.ics?version=2024.0.8.0&icalsecurise=E17B560D251A02200C0C0950F48C01E55145027D5870E17B9CF749F855AA4B51C557F6B289B1E106F53FBEF1A2685235&param=643d5b312e2e36325d2666683d3126663d3131313131"
+        },
+        "master2": {
+            "automation-et-systèmes-embarques" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_MA2_TL___Info_Automation_et_Sys__emb_.ics?version=2024.0.8.0&icalsecurise=5EF2240EA3285EB627328537D46951151515DF2617E31A40ADE4DC0DAB292C20B6A6E990358007BE4478A77B02B74E01&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "IA-et-big-data" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_MA2_TL___Info_Reseaux_et_securite.ics?version=2024.0.8.0&icalsecurise=5EF2240EA3285EB627328537D4695115C746804308FEACFD7EAF98DC2D8FD12F337BC237A082F15008EA956BA5346C02&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "gestion" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_MA2_TL___Info_Gestion.ics?version=2024.0.8.0&icalsecurise=FD095DEDA54A4DF370DCC395DFB6AB52C3F5D4C986C2EFE4C9B1978ED225F7470952310DF06CFE91BFF7D34410482BDD&param=643d5b312e2e36325d2666683d3126663d3131313131"
+        }
+    },
+    "master-LDT": {
+        "master0": {
+            "LDT-biochimie" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_M0_LDT_BioChimieAgro.ics?version=2024.0.8.0&icalsecurise=D0184689E21203D21D0F84DE8F5895356D2116FE9BB9A77D0C3EA298B287E46F0193D4CFC53941BC26ACDF1E7198FA27&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "LDT" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_M0_LDT_Info.ics?version=2024.0.8.0&icalsecurise=AA14085A5882E976CC6855EA0986F6CC319FDF45E72CE4DBDDF17E81B1B834BD080E058A0F03E39657A0F3E287822BAF&param=643d5b312e2e36325d2666683d3126663d3131313131",
+            "bioinfo" : "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_M0_LDT_Bioinfo.ics?version=2024.0.8.0&icalsecurise=7B902DA271BF1F5A952C0AB8079E88E42FDD829E6622971D980603F5F56031DD72ADBABE988F09CA93DDBB7B8C8C9641&param=643d5b312e2e36325d2666683d3126663d3131313131"
+        },
+        "master1": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_MA1_TL___LDT.ics?version=2024.0.8.0&icalsecurise=0C322E4EE11580BEB99FFCED3F2A7F8245D7B530B3E966FAE152C13E85D20D0372F6EEC1705100488D17A119BAF79993&param=643d5b312e2e36325d2666683d3126663d3131313131",
+        "master2": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_MA2_TL___Life_Data_Technologies.ics?version=2024.0.8.0&icalsecurise=9C0F2A8BF13BE5702C9E7B1DB67032911BF3B055E0CD5C60CDC3D1D80E8473FDB269E01509BCB8B00DFFB0DD91CE82BF&param=643d5b312e2e36325d2666683d3126663d3131313131"
     }
-  },
-  "AESI Arts Plastiques B3 Mons": {
-    "groupes": {
-    }
-  },
-  "AESI Français EPC B3 Tournai": {
-    "groupes": {
-    }
-  },
-  "AESI Français Morale B3 Tournai": {
-    "groupes": {
-    }
-  },
-  "AESI Français-FLE B3 Mons": {
-    "groupes": {
-    }
-  },
-  "AESI Langues Germaniques B3 Mons": {
-    "groupes": {
-    }
-  },
-  "AESI Mathématiques B3 Mons": {
-    "groupes": {
-    }
-  },
-  "AESI Mathématiques B3 Tournai": {
-    "groupes": {
-    }
-  },
-  "AESI Sciences B3 Mons": {
-    "groupes": {
-    }
-  },
-  "AESI Sciences Humaines B3 Mons": {
-    "groupes": {
-    }
-  },
-  "AESI Sciences Humaines B3 Tournai": {
-    "groupes": {
-    }
-  },
-  "B3 PP Mons Session Prolongée": {
-    "groupes": {
-    }
-  },
-  "BA1 Assistant de direction": {
-    "groupes": {
-    }
-  },
-  "BA1 Assistant social (Ms)": {
-    "groupes": {
-    }
-  },
-  "BA1 Assistant social (To)": {
-    "groupes": {
-    }
-  },
-  "BA1 Conseiller social": {
-    "groupes": {
-    }
-  },
-  "BA1 Droit": {
-    "groupes": {
-    }
-  },
-  "BA1 Sciences industrielles": {
-    "groupes": {
-    }
-  },
-  "BA1 Tourisme": {
-    "groupes": {
-    }
-  },
-  "BA1P Biotechnique": {
-    "groupes": {
-    }
-  },
-  "BA1P Electronique": {
-    "groupes": {
-    }
-  },
-  "BA1P Infographie": {
-    "groupes": {
-    }
-  },
-  "BA1P Informatique": {
-    "groupes": {
-      "g1": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_1_BA1P_Informatique.ics?version=2024.0.8.0&icalsecurise=EC99A4C0D7D6270368B9B3F1586727DBF92BC2C1CB4AE19D1600672E66C1A8D8262695BFC2007B2D61CEE878D3CB86D0&param=643d5b312e2e36325d2666683d3126663d3131313131",
-      "g2": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_2_BA1P_Informatique.ics?version=2024.0.8.0&icalsecurise=9E3A1D05EA92779D797F5025FACE145D856B61DB77D5D00D1CC60E6AC3A343E459A6433BB62C2A600313F2890E1697AC&param=643d5b312e2e36325d2666683d3126663d3131313131",
-      "g3": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_3_BA1P_Informatique.ics?version=2024.0.8.0&icalsecurise=431E00C6341F19EB973DE1052872F756BEA5D2A956A4D6D56B42B4479E141FBAE9631A6BDB3F177EAF9C2C28A07244C5&param=643d5b312e2e36325d2666683d3126663d3131313131",
-      "g4": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_4_BA1P_Informatique.ics?version=2024.0.8.0&icalsecurise=431E00C6341F19EB973DE1052872F75619A92C6D53B4B63C2CA3A2CA7BDDB5D1CBBF7C837F0DAA02DF81EA2CB6DD0EB3&param=643d5b312e2e36325d2666683d3126663d3131313131",
-      "g5": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_5_BA1P_Informatique.ics?version=2024.0.8.0&icalsecurise=CA726228FFEAD412CD9AC9A1054854D8A6B491B053F2DA04E801CF77446D259C66C152EB945D33A6A425862CA7917BD1&param=643d5b312e2e36325d2666683d3126663d3131313131"
-    }
-  },
-  "BA2 Assistant de direction": {
-    "groupes": {
-    }
-  },
-  "BA2 Assistant social (Ms)": {
-    "groupes": {
-    }
-  },
-  "BA2 Assistant social (To)": {
-    "groupes": {
-    }
-  },
-  "BA2 Conseiller social": {
-    "groupes": {
-    }
-  },
-  "BA2 Droit": {
-    "groupes": {
-    }
-  },
-  "BA2 Sciences industrielles": {
-    "groupes": {
-    }
-  },
-  "BA2 Tourisme": {
-    "groupes": {
-    }
-  },
-  "BA2P Biotechnique": {
-    "groupes": {
-    }
-  },
-  "BA2P Electronique": {
-    "groupes": {
-    }
-  },
-  "BA2P Infographie": {
-    "groupes": {
-    }
-  },
-  "BA2P Informatique": {
-    "groupes": {
-      "Développement1": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_1_BA2P_Informatique_Develop_.ics?version=2024.0.8.0&icalsecurise=0ED009EA4ADA0632833671314CB0ABA996FAD0E43493797C0AFA6A2ABDF5045F9500ABA06AB188AAA7121C602B65E1CC&param=643d5b312e2e36325d2666683d3126663d3131313131",
-      "Développement2": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_2_BA2P_Informatique_Develop_.ics?version=2024.0.8.0&icalsecurise=8BC05FB2690C5DE57C4E03AECE273597121493E952B95C71D170FD46AF1CCB32CAC20287E02729138430E877D7A2D2B8&param=643d5b312e2e36325d2666683d3126663d3131313131",
-      "Sécurité1": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_1_BA2P_Informatique_Securite.ics?version=2024.0.8.0&icalsecurise=5A6815D77ADB4AD3C57997700926DEC2C0275C4A651169E962BF140A922CD6F63A23E84C8CFAAD4B72057228907E0606&param=643d5b312e2e36325d2666683d3126663d3131313131",
-      "Sécurité2": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_2_BA2P_Informatique_Securite.ics?version=2024.0.8.0&icalsecurise=5A6815D77ADB4AD3C57997700926DEC259FAE083E58FE04133B01E1CD204DECA3F018A8DA86A51CD09D0256D1656F71D&param=643d5b312e2e36325d2666683d3126663d3131313131"
-    }
-  },
-  "BA3 Assistant de direction": {
-    "groupes": {
-    }
-  },
-  "BA3 Assistant social (Ms)": {
-    "groupes": {
-    }
-  },
-  "BA3 Assistant social (To)": {
-    "groupes": {
-    }
-  },
-  "BA3 Conseiller social": {
-    "groupes": {
-    }
-  },
-  "BA3 Droit": {
-    "groupes": {
-    }
-  },
-  "BA3 Sciences industrielles": {
-    "groupes": {
-    }
-  },
-  "BA3 Session prolongée Tournai": {
-    "groupes": {
-    }
-  },
-  "BA3 Tourisme": {
-    "groupes": {
-    }
-  },
-  "BA3P Biotechnique": {
-    "groupes": {
-    }
-  },
-  "BA3P Electronique": {
-    "groupes": {
-    }
-  },
-  "BA3P Infographie": {
-    "groupes": {
-    }
-  },
-  "BA3P Informatique": {
-    "groupes": {
-      "Développement": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_Developpement_BA3P_Informatique.ics?version=2024.0.8.0&icalsecurise=0ED009EA4ADA0632833671314CB0ABA9D852EAF36D553CD0A51A121288ECD4E3EC8A6E250AAD06675C5CAF1377FB9063&param=643d5b312e2e36325d2666683d3126663d3131313131",
-      "Sécurité": "https://hehplanning2024.umons.ac.be/Telechargements/ical/Edt_Groupe_Securite_BA3P_Informatique.ics?version=2024.0.8.0&icalsecurise=8BC05FB2690C5DE57C4E03AECE2735976E9460AD80F1E76F59B51817D5C93B0F89F367FBFF508FCCE27416880C5E86FF&param=643d5b312e2e36325d2666683d3126663d3131313131"
-    }
-  },
-  "BA3PP session prolongée Tournai": {
-    "groupes": {
-    }
-  },
-  "EPC Péda Mons": {
-    "groupes": {
-    }
-  },
-  "ES B1 Mons": {
-    "groupes": {
-    }
-  },
-  "ES B1 Tournai": {
-    "groupes": {
-    }
-  },
-  "ES B2 Mons": {
-    "groupes": {
-    }
-  },
-  "ES B2 Tournai": {
-    "groupes": {
-    }
-  },
-  "ES B3 Mons": {
-    "groupes": {
-    }
-  },
-  "ES B3 Tournai": {
-    "groupes": {
-    }
-  },
-  "M0 LDT BioChimieAgro": {
-    "groupes": {
-    }
-  },
-  "M0 LDT Info": {
-    "groupes": {
-    }
-  },
-  "M0 LDT-Bioinfo": {
-    "groupes": {
-    }
-  },
-  "M0 Pass Electro vers Master Informatique": {
-    "groupes": {
-    }
-  },
-  "M0 Pass Info vers Master Informatique": {
-    "groupes": {
-    }
-  },
-  "M0 Passerelle Construction": {
-    "groupes": {
-    }
-  },
-  "MA1 Ingénieur industriel": {
-    "groupes": {
-    }
-  },
-  "MA2 Ingénieur industriel": {
-    "groupes": {
-    }
-  },
-  "PP B3 Mons": {
-    "groupes": {
-    }
-  },
-  "PP B3 Tournai": {
-    "groupes": {
-    }
-  },
-  "PS B3 Tournai": {
-    "groupes": {
-    }
-  },
-  "S1 B1 Tournai": {
-    "groupes": {
-    }
-  },
-  "S1 B2 Tournai": {
-    "groupes": {
-    }
-  },
-  "S2 B1 Mons": {
-    "groupes": {
-    }
-  },
-  "S2 B1 Tournai": {
-    "groupes": {
-    }
-  },
-  "S2 B2 Mons": {
-    "groupes": {
-    }
-  },
-  "S2 B2 Tournai": {
-    "groupes": {
-    }
-  },
-  "S3 Arts Plastiques-ECA B1 Mons": {
-    "groupes": {
-    }
-  },
-  "S3 Arts Plastiques-ECA B2 Mons": {
-    "groupes": {
-    }
-  },
-  "S3 FMTTN B1 Tournai": {
-    "groupes": {
-    }
-  },
-  "S3 Français-ECA B1 Mons": {
-    "groupes": {
-    }
-  },
-  "S3 Français-ECA B1 Tournai": {
-    "groupes": {
-    }
-  },
-  "S3 Français-ECA B2 Mons": {
-    "groupes": {
-    }
-  },
-  "S3 Français-ECA B2 Tournai": {
-    "groupes": {
-    }
-  },
-  "S3 Français-EPC B1 Tournai": {
-    "groupes": {
-    }
-  },
-  "S3 Français-EPC B2 Tournai": {
-    "groupes": {
-    }
-  },
-  "S3 Français-FLE-FLA B1 Mons": {
-    "groupes": {
-    }
-  },
-  "S3 Français-FLE-FLA B2 Mons": {
-    "groupes": {
-    }
-  },
-  "S3 Langues Germaniques B1 Mons": {
-    "groupes": {
-    }
-  },
-  "S3 Langues Germaniques B2 Mons": {
-    "groupes": {
-    }
-  },
-  "S3 Mathématiques-Numérique B1 Mons": {
-    "groupes": {
-    }
-  },
-  "S3 Mathématiques-Numérique B1 Tournai": {
-    "groupes": {
-    }
-  },
-  "S3 Mathématiques-Numérique B2 Mons": {
-    "groupes": {
-    }
-  },
-  "S3 Mathématiques-Numérique B2 Tournai": {
-    "groupes": {
-    }
-  },
-  "S3 Sciences B1 Mons": {
-    "groupes": {
-    }
-  },
-  "S3 Sciences B2 Mons": {
-    "groupes": {
-    }
-  },
-  "S3 Sciences Humaines B1 Mons": {
-    "groupes": {
-    }
-  },
-  "S3 Sciences Humaines B1 Tournai": {
-    "groupes": {
-    }
-  },
-  "S3 Sciences Humaines B2 Mons": {
-    "groupes": {
-    }
-  },
-  "S3 Sciences Humaines B2 Tournai": {
-    "groupes": {
-    }
-  }
 }

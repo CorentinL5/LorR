@@ -1,0 +1,1604 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
+METHOD:PUBLISH
+X-CALSTART:20240916T000000Z
+X-CALEND:20241221T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - <BA2P Biotechnique> <Option> Bioelectronique
+  & Instrum. Bloc 2 - du 16 septembre au 21 décembre 2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de <BA2P Biotechnique> <Option> Bi
+ oelectronique & Instrum. Bloc 2 généré par le logiciel HP (©INDEX ÉDUCATIO
+ N) le 24 sept. 2024 - Haute Ecole en Hainaut - valable sur la période du 1
+ 6 septembre au 21 décembre 2024 - Semaines : semaine 38 - 51
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240703T093349Z
+UID:Cours-154890-9-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241114T123000Z
+DTEND:20241114T153000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electro app & trait
+ . signaux1 - Vassart - Laboratoires
+LOCATION;LANGUAGE=fr:2/10E
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectro app & trait. signaux1\nEnseignant : Vassart\nSalle : 2/10E\nType : 
+ Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electro app & trait. signaux1<br/>Enseignant : Vassart<br/>Salle : 
+ 2/10E<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240703T093349Z
+UID:Cours-154890-10-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241121T123000Z
+DTEND:20241121T153000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electro app & trait
+ . signaux1 - Vassart - Laboratoires
+LOCATION;LANGUAGE=fr:1/24
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectro app & trait. signaux1\nEnseignant : Vassart\nSalle : 1/24\nType : L
+ aboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electro app & trait. signaux1<br/>Enseignant : Vassart<br/>Salle : 
+ 1/24<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240703T093349Z
+UID:Cours-154890-11-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241128T123000Z
+DTEND:20241128T153000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electro app & trait
+ . signaux1 - Vassart - Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectro app & trait. signaux1\nEnseignant : Vassart\nSalle : 2/10A\nType : 
+ Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electro app & trait. signaux1<br/>Enseignant : Vassart<br/>Salle : 
+ 2/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240703T093349Z
+UID:Cours-154890-13-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241212T123000Z
+DTEND:20241212T153000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electro app & trait
+ . signaux1 - Vassart - Laboratoires
+LOCATION;LANGUAGE=fr:2/10E
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectro app & trait. signaux1\nEnseignant : Vassart\nSalle : 2/10E\nType : 
+ Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electro app & trait. signaux1<br/>Enseignant : Vassart<br/>Salle : 
+ 2/10E<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240703T093349Z
+UID:Cours-154890-14-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241219T123000Z
+DTEND:20241219T153000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electro app & trait
+ . signaux1 - Vassart - Laboratoires
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectro app & trait. signaux1\nEnseignant : Vassart\nSalle : 2/10A\nType : 
+ Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electro app & trait. signaux1<br/>Enseignant : Vassart<br/>Salle : 
+ 2/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20230823T100111Z
+UID:Cours-154946-3-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20240930T071500Z
+DTEND:20240930T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electronique numéri
+ que1 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectronique numérique1\nEnseignant : Fanchon\nSalle : 2/10B\nType : Cours\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electronique numérique1<br/>Enseignant : Fanchon<br/>Salle : 2/10B<
+ br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20230824T122403Z
+UID:Cours-154949-6-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241025T083000Z
+DTEND:20241025T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Appli. élec & élect
+ ro-sécurité - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : A
+ ppli. élec & électro-sécurité\nEnseignant : Fanchon\nSalle : 2/10A\nType :
+  Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Appli. élec & électro-sécurité<br/>Enseignant : Fanchon<br/>Salle :
+  2/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T083719Z
+UID:Cours-158855-14-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241218T123000Z
+DTEND:20241218T163000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Radioprotection - F
+ anchon - Laboratoire CMMI - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : R
+ adioprotection\nEnseignant : Fanchon\nSalle : 1/13\nMémo : Laboratoire CMM
+ I\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Radioprotection<br/>Enseignant : Fanchon<br/>Salle : 1/13<br/>Mémo 
+ : Laboratoire CMMI<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T083914Z
+UID:Cours-158859-5-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241016T073000Z
+DTEND:20241016T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Radioprotection - F
+ anchon - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : R
+ adioprotection\nEnseignant : Fanchon\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Radioprotection<br/>Enseignant : Fanchon<br/>Salle : 1/13<br/>Type 
+ : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240910T094729Z
+UID:Cours-162699-10-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241122T123000Z
+DTEND:20241122T143000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electronique numéri
+ que1 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectronique numérique1\nEnseignant : Fanchon\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electronique numérique1<br/>Enseignant : Fanchon<br/>Salle : 1/13<b
+ r/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20220928T122038Z
+UID:Cours-163813-6-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241021T071500Z
+DTEND:20241021T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electronique numéri
+ que1 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectronique numérique1\nEnseignant : Fanchon\nSalle : 2/10B\nType : Cours\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electronique numérique1<br/>Enseignant : Fanchon<br/>Salle : 2/10B<
+ br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240910T094503Z
+UID:Cours-165298-1-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20240920T083000Z
+DTEND:20240920T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Appli. élec & élect
+ ro-sécurité - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : A
+ ppli. élec & électro-sécurité\nEnseignant : Fanchon\nSalle : 2/10A\nType :
+  Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Appli. élec & électro-sécurité<br/>Enseignant : Fanchon<br/>Salle :
+  2/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240910T094503Z
+UID:Cours-165298-3-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241004T083000Z
+DTEND:20241004T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Appli. élec & élect
+ ro-sécurité - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : A
+ ppli. élec & électro-sécurité\nEnseignant : Fanchon\nSalle : 2/10A\nType :
+  Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Appli. élec & électro-sécurité<br/>Enseignant : Fanchon<br/>Salle :
+  2/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240910T094503Z
+UID:Cours-165298-4-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241011T083000Z
+DTEND:20241011T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Appli. élec & élect
+ ro-sécurité - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : A
+ ppli. élec & électro-sécurité\nEnseignant : Fanchon\nSalle : 2/10A\nType :
+  Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Appli. élec & électro-sécurité<br/>Enseignant : Fanchon<br/>Salle :
+  2/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240910T094503Z
+UID:Cours-165298-5-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241018T083000Z
+DTEND:20241018T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2\, Bioelectronique & I
+ nstrum. Bloc3 - Appli. élec & électro-sécurité - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\, Bioelectro
+ nique & Instrum. Bloc3\nMatière : Appli. élec & électro-sécurité\nEnseigna
+ nt : Fanchon\nSalle : 2/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2\, Bioel
+ ectronique & Instrum. Bloc3<br/>Matière : Appli. élec & électro-sécurité<b
+ r/>Enseignant : Fanchon<br/>Salle : 2/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240620T062542Z
+UID:Cours-180357-8-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241107T071500Z
+DTEND:20241107T161500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Appli. élec & élect
+ ro-sécurité - Fanchon - Formation Mini Usine 24-25
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : A
+ ppli. élec & électro-sécurité\nEnseignant : Fanchon\nMémo : Formation Mini
+  Usine 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Appli. élec & électro-sécurité<br/>Enseignant : Fanchon<br/>Mémo : 
+ Formation Mini Usine 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240620T062558Z
+UID:Cours-183692-8-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241104T073000Z
+DTEND:20241104T163000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Appli. élec & élect
+ ro-sécurité - Fanchon - Formation Mini Usine 24-25
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : A
+ ppli. élec & électro-sécurité\nEnseignant : Fanchon\nMémo : Formation Mini
+  Usine 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Appli. élec & électro-sécurité<br/>Enseignant : Fanchon<br/>Mémo : 
+ Formation Mini Usine 24-25<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20230823T100042Z
+UID:Cours-183705-4-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241007T071500Z
+DTEND:20241007T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electronique numéri
+ que1 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectronique numérique1\nEnseignant : Fanchon\nSalle : 2/10B\nType : Cours\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electronique numérique1<br/>Enseignant : Fanchon<br/>Salle : 2/10B<
+ br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20230823T100042Z
+UID:Cours-183705-5-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241014T071500Z
+DTEND:20241014T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electronique numéri
+ que1 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectronique numérique1\nEnseignant : Fanchon\nSalle : 2/10B\nType : Cours\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electronique numérique1<br/>Enseignant : Fanchon<br/>Salle : 2/10B<
+ br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T101812Z
+UID:Cours-183706-10-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241120T093000Z
+DTEND:20241120T113000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electronique numéri
+ que1 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectronique numérique1\nEnseignant : Fanchon\nSalle : 2/10B\nType : Cours\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electronique numérique1<br/>Enseignant : Fanchon<br/>Salle : 2/10B<
+ br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240910T094552Z
+UID:Cours-183708-2-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20240926T113000Z
+DTEND:20240926T133000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electronique numéri
+ que1 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectronique numérique1\nEnseignant : Fanchon\nSalle : 2/10B\nType : Cours\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electronique numérique1<br/>Enseignant : Fanchon<br/>Salle : 2/10B<
+ br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240904T071524Z
+UID:Cours-189976-1-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20240919T113000Z
+DTEND:20240919T143000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electro app & trait
+ . signaux1 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectro app & trait. signaux1\nEnseignant : Fanchon\nSalle : 1/13\nType : C
+ ours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electro app & trait. signaux1<br/>Enseignant : Fanchon<br/>Salle : 
+ 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240904T071524Z
+UID:Cours-189976-3-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241003T113000Z
+DTEND:20241003T143000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electro app & trait
+ . signaux1 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectro app & trait. signaux1\nEnseignant : Fanchon\nSalle : 1/11\nType : C
+ ours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electro app & trait. signaux1<br/>Enseignant : Fanchon<br/>Salle : 
+ 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240904T071524Z
+UID:Cours-189976-5-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241017T113000Z
+DTEND:20241017T143000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electro app & trait
+ . signaux1 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectro app & trait. signaux1\nEnseignant : Fanchon\nSalle : 1/11\nType : C
+ ours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electro app & trait. signaux1<br/>Enseignant : Fanchon<br/>Salle : 
+ 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240904T071524Z
+UID:Cours-189976-6-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241024T113000Z
+DTEND:20241024T143000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electro app & trait
+ . signaux1 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectro app & trait. signaux1\nEnseignant : Fanchon\nSalle : 1/11\nType : C
+ ours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electro app & trait. signaux1<br/>Enseignant : Fanchon<br/>Salle : 
+ 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20230905T135405Z
+UID:Cours-189977-2-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20240925T071500Z
+DTEND:20240925T101500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electro app & trait
+ . signaux1 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectro app & trait. signaux1\nEnseignant : Fanchon\nSalle : 1/13\nType : C
+ ours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electro app & trait. signaux1<br/>Enseignant : Fanchon<br/>Salle : 
+ 1/13<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T083219Z
+UID:Cours-203834-8-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241106T071500Z
+DTEND:20241106T161500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Appli. élec & élect
+ ro-sécurité - Fanchon - 24-25 Formation Mini Usine
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : A
+ ppli. élec & électro-sécurité\nEnseignant : Fanchon\nMémo : 24-25 Formatio
+ n Mini Usine\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Appli. élec & électro-sécurité<br/>Enseignant : Fanchon<br/>Mémo : 
+ 24-25 Formation Mini Usine<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T100959Z
+UID:Cours-205329-9-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241113T123000Z
+DTEND:20241113T153000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Radioprotection - F
+ anchon - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : R
+ adioprotection\nEnseignant : Fanchon\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Radioprotection<br/>Enseignant : Fanchon<br/>Salle : 1/13<br/>Type 
+ : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240910T093742Z
+UID:Cours-205330-13-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241209T123000Z
+DTEND:20241209T153000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Radioprotection - F
+ anchon - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : R
+ adioprotection\nEnseignant : Fanchon\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Radioprotection<br/>Enseignant : Fanchon<br/>Salle : 1/11<br/>Type 
+ : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T100953Z
+UID:Cours-205331-3-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241002T071500Z
+DTEND:20241002T101500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Radioprotection - F
+ anchon - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : R
+ adioprotection\nEnseignant : Fanchon\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Radioprotection<br/>Enseignant : Fanchon<br/>Salle : 1/13<br/>Type 
+ : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240910T094712Z
+UID:Cours-205345-1-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20240916T083000Z
+DTEND:20240916T103000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electronique numéri
+ que1 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:1/13
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectronique numérique1\nEnseignant : Fanchon\nSalle : 1/13\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electronique numérique1<br/>Enseignant : Fanchon<br/>Salle : 1/13<b
+ r/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240910T094712Z
+UID:Cours-205345-12-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241202T093000Z
+DTEND:20241202T113000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electronique numéri
+ que1 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectronique numérique1\nEnseignant : Fanchon\nSalle : 2/10B\nType : Cours\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electronique numérique1<br/>Enseignant : Fanchon<br/>Salle : 2/10B<
+ br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240910T094712Z
+UID:Cours-205345-13-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241209T093000Z
+DTEND:20241209T113000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Electronique numéri
+ que1 - Fanchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : E
+ lectronique numérique1\nEnseignant : Fanchon\nSalle : 2/10B\nType : Cours\
+ n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Electronique numérique1<br/>Enseignant : Fanchon<br/>Salle : 2/10B<
+ br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240910T093755Z
+UID:Cours-214724-4-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241009T061500Z
+DTEND:20241009T081500Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Radioprotection - F
+ anchon - Cours
+LOCATION;LANGUAGE=fr:2/10B
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : R
+ adioprotection\nEnseignant : Fanchon\nSalle : 2/10B\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Radioprotection<br/>Enseignant : Fanchon<br/>Salle : 2/10B<br/>Type
+  : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240910T093734Z
+UID:Cours-214725-10-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241119T123000Z
+DTEND:20241119T143000Z
+SUMMARY;LANGUAGE=fr:Bioelectronique & Instrum. Bloc 2 - Radioprotection - F
+ anchon - Cours
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:TD : Bioelectronique & Instrum. Bloc 2\nMatière : R
+ adioprotection\nEnseignant : Fanchon\nSalle : 2/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Bioelectronique & Instrum. Bloc 2<br/>Mat
+ ière : Radioprotection<br/>Enseignant : Fanchon<br/>Salle : 2/10A<br/>Type
+  : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125838Z
+UID:Cours-154879-1-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20240917T113000Z
+DTEND:20240917T133000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125838Z
+UID:Cours-154879-2-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20240924T113000Z
+DTEND:20240924T133000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125838Z
+UID:Cours-154879-3-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241001T113000Z
+DTEND:20241001T133000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125838Z
+UID:Cours-154879-4-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241008T113000Z
+DTEND:20241008T133000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125838Z
+UID:Cours-154879-5-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241015T113000Z
+DTEND:20241015T133000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240905T125838Z
+UID:Cours-154879-6-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241022T113000Z
+DTEND:20241022T133000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T075556Z
+UID:Cours-154888-3-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241004T113000Z
+DTEND:20241004T143000Z
+SUMMARY;LANGUAGE=fr:Biotechnologie - Conjaerts - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Biotechnologie\nEnseignant : Conjaerts\nS
+ alle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biotechnologie<br/>Enseignant : Conj
+ aerts<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T075556Z
+UID:Cours-154888-4-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241011T113000Z
+DTEND:20241011T143000Z
+SUMMARY;LANGUAGE=fr:Biotechnologie - Conjaerts - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Biotechnologie\nEnseignant : Conjaerts\nS
+ alle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biotechnologie<br/>Enseignant : Conj
+ aerts<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T075556Z
+UID:Cours-154888-5-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241018T113000Z
+DTEND:20241018T143000Z
+SUMMARY;LANGUAGE=fr:Biotechnologie - Conjaerts - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Biotechnologie\nEnseignant : Conjaerts\nS
+ alle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biotechnologie<br/>Enseignant : Conj
+ aerts<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T075556Z
+UID:Cours-154888-6-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241025T113000Z
+DTEND:20241025T143000Z
+SUMMARY;LANGUAGE=fr:Biotechnologie - Conjaerts - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Biotechnologie\nEnseignant : Conjaerts\nS
+ alle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Biotechnologie<br/>Enseignant : Conj
+ aerts<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-1-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20240919T073000Z
+DTEND:20240919T103000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-2-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20240926T073000Z
+DTEND:20240926T103000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-3-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241003T073000Z
+DTEND:20241003T103000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-4-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241010T073000Z
+DTEND:20241010T103000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-5-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241017T073000Z
+DTEND:20241017T103000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-6-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241024T073000Z
+DTEND:20241024T103000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-9-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241114T083000Z
+DTEND:20241114T113000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 2/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 2/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-10-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241121T083000Z
+DTEND:20241121T113000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:2/LELEC
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 2/LELEC\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 2/LELEC<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-11-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241128T083000Z
+DTEND:20241128T113000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 2/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 2/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091315Z
+UID:Cours-154893-12-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241205T083000Z
+DTEND:20241205T113000Z
+SUMMARY;LANGUAGE=fr:Instrumentation 2 - Vassart - Cours
+LOCATION;LANGUAGE=fr:2/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Instrumentation 2\nEnseignant : Vassart\n
+ Salle : 2/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Instrumentation 2<br/>Enseignant : V
+ assart<br/>Salle : 2/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091702Z
+UID:Cours-154922-14-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241219T093000Z
+DTEND:20241219T113000Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T100028Z
+UID:Cours-154944-14-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241217T123000Z
+DTEND:20241217T163000Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240613T091102Z
+UID:Cours-155384-11-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241126T071500Z
+DTEND:20241126T164500Z
+SUMMARY;LANGUAGE=fr:Culture cellulaire - Conjaerts - Formation Aptaskil 24-
+ 25 - TP
+DESCRIPTION;LANGUAGE=fr:Matière : Culture cellulaire\nEnseignant : Conjaert
+ s\nMémo : Formation Aptaskil 24-25\nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Culture cellulaire<br/>Enseignant : 
+ Conjaerts<br/>Mémo : Formation Aptaskil 24-25<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240613T091102Z
+UID:Cours-155393-11-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241125T071500Z
+DTEND:20241125T164500Z
+SUMMARY;LANGUAGE=fr:Culture cellulaire - Conjaerts - Formation Aptaskil 24-
+ 25 - TP
+DESCRIPTION;LANGUAGE=fr:Matière : Culture cellulaire\nEnseignant : Conjaert
+ s\nMémo : Formation Aptaskil 24-25\nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Culture cellulaire<br/>Enseignant : 
+ Conjaerts<br/>Mémo : Formation Aptaskil 24-25<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T081133Z
+UID:Cours-160282-12-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241206T123000Z
+DTEND:20241206T143000Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091712Z
+UID:Cours-160283-14-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241219T071500Z
+DTEND:20241219T091500Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240612T073217Z
+UID:Cours-183639-8-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241105T071500Z
+DTEND:20241105T161500Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Labo Ath condorc
+ et 24-25 - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nMémo : Labo Ath condorcet 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Mémo : Labo Ath condorcet 24-25<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240612T073217Z
+UID:Cours-183639-9-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241112T071500Z
+DTEND:20241112T161500Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Labo Ath condorc
+ et 24-25 - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nMémo : Labo Ath condorcet 24-25\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Mémo : Labo Ath condorcet 24-25<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240919T070148Z
+UID:Cours-183671-6-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241021T113000Z
+DTEND:20241021T143000Z
+SUMMARY;LANGUAGE=fr:Elém. de Physio. humaine - Sclavons - interrogation dis
+ pensatoire sur les 3 premiers chapitres du cours d'éléments de physiologie
+  humaine - Cours
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Elém. de Physio. humaine\nEnseignant : Sc
+ lavons\nSalle : 1/29\nMémo : interrogation dispensatoire sur les 3 premier
+ s chapitres du cours d'éléments de physiologie humaine\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Elém. de Physio. humaine<br/>Enseign
+ ant : Sclavons<br/>Salle : 1/29<br/>Mémo : interrogation dispensatoire sur
+  les 3 premiers chapitres du cours d'éléments de physiologie humaine<br/>T
+ ype : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T120058Z
+UID:Cours-183672-3-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20240930T113000Z
+DTEND:20240930T143000Z
+SUMMARY;LANGUAGE=fr:Elém. de Physio. humaine - Sclavons - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Elém. de Physio. humaine\nEnseignant : Sc
+ lavons\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Elém. de Physio. humaine<br/>Enseign
+ ant : Sclavons<br/>Salle : 1/18<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091634Z
+UID:Cours-183910-4-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241008T073000Z
+DTEND:20241008T103000Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091634Z
+UID:Cours-183910-5-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241015T073000Z
+DTEND:20241015T103000Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091634Z
+UID:Cours-183910-6-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241022T073000Z
+DTEND:20241022T103000Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240902T091634Z
+UID:Cours-183910-13-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241210T083000Z
+DTEND:20241210T113000Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T075916Z
+UID:Cours-203716-13-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241213T071500Z
+DTEND:20241213T113000Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240821T084413Z
+UID:Cours-203717-14-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241216T093000Z
+DTEND:20241216T113000Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240613T091111Z
+UID:Cours-203718-11-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241127T070000Z
+DTEND:20241127T163000Z
+SUMMARY;LANGUAGE=fr:Culture cellulaire - Conjaerts - Formation Aptaskil 24-
+ 25 - TP
+DESCRIPTION;LANGUAGE=fr:Matière : Culture cellulaire\nEnseignant : Conjaert
+ s\nMémo : Formation Aptaskil 24-25\nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Culture cellulaire<br/>Enseignant : 
+ Conjaerts<br/>Mémo : Formation Aptaskil 24-25<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T093341Z
+UID:Cours-205308-2-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20240925T110000Z
+DTEND:20240925T130000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T093341Z
+UID:Cours-205308-3-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241002T110000Z
+DTEND:20241002T130000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/21\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/21<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T093341Z
+UID:Cours-205308-4-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241009T110000Z
+DTEND:20241009T130000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T093341Z
+UID:Cours-205308-5-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241016T110000Z
+DTEND:20241016T130000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T093341Z
+UID:Cours-205308-6-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241023T110000Z
+DTEND:20241023T130000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240821T084044Z
+UID:Cours-205311-1-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20240916T113000Z
+DTEND:20240916T133000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T081658Z
+UID:Cours-205321-12-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241203T123000Z
+DTEND:20241203T143000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T081708Z
+UID:Cours-205322-14-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241217T093000Z
+DTEND:20241217T113000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 2/10F\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 2/10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240710T081650Z
+UID:Cours-205323-10-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241119T071500Z
+DTEND:20241119T091500Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:2/10F
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 2/10F\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 2/10F<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240917T082853Z
+UID:Cours-205341-1-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20240917T083000Z
+DTEND:20240917T103000Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240917T082853Z
+UID:Cours-205341-2-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20240924T083000Z
+DTEND:20240924T103000Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240917T082853Z
+UID:Cours-205341-3-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241001T083000Z
+DTEND:20241001T103000Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240917T082853Z
+UID:Cours-205341-10-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241119T093000Z
+DTEND:20241119T113000Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240917T082853Z
+UID:Cours-205341-12-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241203T093000Z
+DTEND:20241203T113000Z
+SUMMARY;LANGUAGE=fr:Chimie anal. instr. appl. 1 - Biondo - Cours
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:Matière : Chimie anal. instr. appl. 1\nEnseignant :
+  Biondo\nSalle : 1/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Chimie anal. instr. appl. 1<br/>Ense
+ ignant : Biondo<br/>Salle : 1/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T080332Z
+UID:Cours-205342-6-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241023T083000Z
+DTEND:20241023T103000Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T080332Z
+UID:Cours-205342-9-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241113T093000Z
+DTEND:20241113T113000Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T075544Z
+UID:Cours-211896-8-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241108T071500Z
+DTEND:20241108T113000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T075544Z
+UID:Cours-211896-9-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241115T071500Z
+DTEND:20241115T113000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T075544Z
+UID:Cours-211896-10-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241122T071500Z
+DTEND:20241122T113000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T075544Z
+UID:Cours-211896-11-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241129T071500Z
+DTEND:20241129T113000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T075544Z
+UID:Cours-211896-12-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241206T071500Z
+DTEND:20241206T113000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/27
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/27\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/27<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T075544Z
+UID:Cours-211896-14-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241220T071500Z
+DTEND:20241220T113000Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10A\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10A<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T075544Z
+UID:Cours-211897-13-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241210T123000Z
+DTEND:20241210T164500Z
+SUMMARY;LANGUAGE=fr:Bases de données & Dev. web - Branders - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:Matière : Bases de données & Dev. web\nEnseignant :
+  Branders\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Bases de données & Dev. web<br/>Ense
+ ignant : Branders<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T080824Z
+UID:Cours-211900-13-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241211T073000Z
+DTEND:20241211T170000Z
+SUMMARY;LANGUAGE=fr:Culture cellulaire - Pietka
+LOCATION;LANGUAGE=fr:1/30
+DESCRIPTION;LANGUAGE=fr:Matière : Culture cellulaire\nEnseignant : Pietka\n
+ Salle : 1/30\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Culture cellulaire<br/>Enseignant : 
+ Pietka<br/>Salle : 1/30<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T080458Z
+UID:Cours-211901-8-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241108T123000Z
+DTEND:20241108T163000Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T080653Z
+UID:Cours-211902-13-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241212T071500Z
+DTEND:20241212T113000Z
+SUMMARY;LANGUAGE=fr:Culture cellulaire - Pietka
+LOCATION;LANGUAGE=fr:1/30
+DESCRIPTION;LANGUAGE=fr:Matière : Culture cellulaire\nEnseignant : Pietka\n
+ Salle : 1/30\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Culture cellulaire<br/>Enseignant : 
+ Pietka<br/>Salle : 1/30<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T080326Z
+UID:Cours-211927-6-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241023T061500Z
+DTEND:20241023T081500Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T080326Z
+UID:Cours-211927-9-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241113T071500Z
+DTEND:20241113T091500Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T080458Z
+UID:Cours-211947-12-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241206T143000Z
+DTEND:20241206T163000Z
+SUMMARY;LANGUAGE=fr:Techniques bioinformatiques 1 - Coornaert - Cours
+LOCATION;LANGUAGE=fr:1/10A
+DESCRIPTION;LANGUAGE=fr:Matière : Techniques bioinformatiques 1\nEnseignant
+  : Coornaert\nSalle : 1/10A\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Techniques bioinformatiques 1<br/>En
+ seignant : Coornaert<br/>Salle : 1/10A<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240903T080632Z
+UID:Cours-211948-12-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241204T073000Z
+DTEND:20241204T170000Z
+SUMMARY;LANGUAGE=fr:Culture cellulaire - Pietka
+LOCATION;LANGUAGE=fr:1/30
+DESCRIPTION;LANGUAGE=fr:Matière : Culture cellulaire\nEnseignant : Pietka\n
+ Salle : 1/30\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Culture cellulaire<br/>Enseignant : 
+ Pietka<br/>Salle : 1/30<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240919T070148Z
+UID:Cours-215555-2-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20240923T113000Z
+DTEND:20240923T143000Z
+SUMMARY;LANGUAGE=fr:Elém. de Physio. humaine - Sclavons - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Elém. de Physio. humaine\nEnseignant : Sc
+ lavons\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Elém. de Physio. humaine<br/>Enseign
+ ant : Sclavons<br/>Salle : 1/18<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240919T070148Z
+UID:Cours-215555-4-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241007T113000Z
+DTEND:20241007T143000Z
+SUMMARY;LANGUAGE=fr:Elém. de Physio. humaine - Sclavons - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Elém. de Physio. humaine\nEnseignant : Sc
+ lavons\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Elém. de Physio. humaine<br/>Enseign
+ ant : Sclavons<br/>Salle : 1/18<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+LAST-MODIFIED:20240919T070148Z
+UID:Cours-215555-5-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART:20241014T113000Z
+DTEND:20241014T143000Z
+SUMMARY;LANGUAGE=fr:Elém. de Physio. humaine - Sclavons - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Elém. de Physio. humaine\nEnseignant : Sc
+ lavons\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Elém. de Physio. humaine<br/>Enseign
+ ant : Sclavons<br/>Salle : 1/18<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+UID:Ferie-939-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240928
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+UID:Ferie-940-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145702Z
+UID:Ferie-941-Bioelectronique_&_Instrum._Bloc_2-Index-Education
+DTSTART;VALUE=DATE:20241111
+DTEND;VALUE=DATE:20241112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+END:VCALENDAR

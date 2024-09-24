@@ -1,0 +1,1462 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
+METHOD:PUBLISH
+X-CALSTART:20240916T000000Z
+X-CALEND:20241221T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - <TTQG3 - BA3P Infographie> <Options> TTQG3-W
+ eb Design et développement web - du 16 septembre au 21 décembre 2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de <TTQG3 - BA3P Infographie> <Opt
+ ions> TTQG3-Web Design et développement web généré par le logiciel HP (©IN
+ DEX ÉDUCATION) le 24 sept. 2024 - Haute Ecole en Hainaut - valable sur la 
+ période du 16 septembre au 21 décembre 2024 - Semaines : semaine 38 - 51
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240902T092620Z
+UID:Cours-209062-8-Design_et_developpement_web-Index-Education
+DTSTART:20241105T071500Z
+DTEND:20241105T163000Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Workshop 360 - Dubray\, S
+ ottiaux
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Wor
+ kshop 360\nEnseignants : Dubray\, Sottiaux\nSalle : 1/16\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Workshop 360<br/>Enseignants : Dubray\, Sottiaux<br/>Salle : 1/16<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T064828Z
+UID:Cours-209173-2-Design_et_developpement_web-Index-Education
+DTSTART:20240925T061500Z
+DTEND:20240925T101500Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Technologies web 1 - Mill
+ er - Cours
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Tec
+ hnologies web 1\nEnseignant : Miller\nSalle : 1/14\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Technologies web 1<br/>Enseignant : Miller<br/>Salle : 1/14<br/>Type 
+ : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T064828Z
+UID:Cours-209173-3-Design_et_developpement_web-Index-Education
+DTSTART:20241002T061500Z
+DTEND:20241002T101500Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Technologies web 1 - Mill
+ er - Cours
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Tec
+ hnologies web 1\nEnseignant : Miller\nSalle : 1/14\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Technologies web 1<br/>Enseignant : Miller<br/>Salle : 1/14<br/>Type 
+ : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240903T065052Z
+UID:Cours-209177-4-Design_et_developpement_web-Index-Education
+DTSTART:20241009T061500Z
+DTEND:20241009T101500Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Technologies web 1 - Mill
+ er - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Tec
+ hnologies web 1\nEnseignant : Miller\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Technologies web 1<br/>Enseignant : Miller<br/>Salle : 1/23<br/>Type 
+ : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240903T065052Z
+UID:Cours-209177-5-Design_et_developpement_web-Index-Education
+DTSTART:20241016T061500Z
+DTEND:20241016T101500Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Technologies web 1 - Mill
+ er - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Tec
+ hnologies web 1\nEnseignant : Miller\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Technologies web 1<br/>Enseignant : Miller<br/>Salle : 1/23<br/>Type 
+ : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240903T065052Z
+UID:Cours-209177-6-Design_et_developpement_web-Index-Education
+DTSTART:20241023T061500Z
+DTEND:20241023T101500Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Technologies web 1 - Mill
+ er - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Tec
+ hnologies web 1\nEnseignant : Miller\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Technologies web 1<br/>Enseignant : Miller<br/>Salle : 1/23<br/>Type 
+ : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240903T065024Z
+UID:Cours-209181-1-Design_et_developpement_web-Index-Education
+DTSTART:20240918T061500Z
+DTEND:20240918T101500Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Technologies web 1 - Mill
+ er - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Tec
+ hnologies web 1\nEnseignant : Miller\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Technologies web 1<br/>Enseignant : Miller<br/>Salle : 1/23<br/>Type 
+ : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240902T071315Z
+UID:Cours-209182-9-Design_et_developpement_web-Index-Education
+DTSTART:20241112T071500Z
+DTEND:20241112T111500Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Technologies Web 2 - Depr
+ eter - Cours
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Tec
+ hnologies Web 2\nEnseignant : Depreter\nSalle : 2/10D\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Technologies Web 2<br/>Enseignant : Depreter<br/>Salle : 2/10D<br/>Ty
+ pe : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240902T071315Z
+UID:Cours-209182-10-Design_et_developpement_web-Index-Education
+DTSTART:20241119T071500Z
+DTEND:20241119T111500Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Technologies Web 2 - Depr
+ eter - Cours
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Tec
+ hnologies Web 2\nEnseignant : Depreter\nSalle : 2/10C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Technologies Web 2<br/>Enseignant : Depreter<br/>Salle : 2/10C<br/>Ty
+ pe : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240902T071315Z
+UID:Cours-209182-11-Design_et_developpement_web-Index-Education
+DTSTART:20241126T071500Z
+DTEND:20241126T111500Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Technologies Web 2 - Depr
+ eter - Cours
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Tec
+ hnologies Web 2\nEnseignant : Depreter\nSalle : 2/10C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Technologies Web 2<br/>Enseignant : Depreter<br/>Salle : 2/10C<br/>Ty
+ pe : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240902T071315Z
+UID:Cours-209182-12-Design_et_developpement_web-Index-Education
+DTSTART:20241203T071500Z
+DTEND:20241203T111500Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Technologies Web 2 - Depr
+ eter - Cours
+LOCATION;LANGUAGE=fr:2/10C
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Tec
+ hnologies Web 2\nEnseignant : Depreter\nSalle : 2/10C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Technologies Web 2<br/>Enseignant : Depreter<br/>Salle : 2/10C<br/>Ty
+ pe : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T070012Z
+UID:Cours-209190-9-Design_et_developpement_web-Index-Education
+DTSTART:20241113T071500Z
+DTEND:20241113T111500Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Technologies Web 2 - Depr
+ eter - Cours
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Tec
+ hnologies Web 2\nEnseignant : Depreter\nSalle : 2/10D\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Technologies Web 2<br/>Enseignant : Depreter<br/>Salle : 2/10D<br/>Ty
+ pe : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240917T082200Z
+UID:Cours-209191-10-Design_et_developpement_web-Index-Education
+DTSTART:20241118T123000Z
+DTEND:20241118T163000Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Technologies Web 2 - Depr
+ eter - Cours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Tec
+ hnologies Web 2\nEnseignant : Depreter\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Technologies Web 2<br/>Enseignant : Depreter<br/>Salle : 1/23<br/>Typ
+ e : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240902T092128Z
+UID:Cours-209203-12-Design_et_developpement_web-Index-Education
+DTSTART:20241202T123000Z
+DTEND:20241202T163000Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Design web 3 - Dubray - C
+ ours
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Des
+ ign web 3\nEnseignant : Dubray\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Design web 3<br/>Enseignant : Dubray<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240902T092128Z
+UID:Cours-209204-14-Design_et_developpement_web-Index-Education
+DTSTART:20241219T073000Z
+DTEND:20241219T113000Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Design web 3 - Dubray - E
+ xamen
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Des
+ ign web 3\nEnseignant : Dubray\nSalle : 1/18\nType : Examen\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Design web 3<br/>Enseignant : Dubray<br/>Salle : 1/18<br/>Type : Exam
+ en<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240910T114647Z
+UID:Cours-209400-9-Design_et_developpement_web-Index-Education
+DTSTART:20241112T123000Z
+DTEND:20241112T163000Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Design web 3 - Dubray - C
+ ours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Des
+ ign web 3\nEnseignant : Dubray\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Design web 3<br/>Enseignant : Dubray<br/>Salle : 1/18<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240910T114838Z
+UID:Cours-211544-9-Design_et_developpement_web-Index-Education
+DTSTART:20241114T083000Z
+DTEND:20241114T113000Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Design web 3 - Dubray - C
+ ours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Des
+ ign web 3\nEnseignant : Dubray\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Design web 3<br/>Enseignant : Dubray<br/>Salle : 1/18<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240910T114838Z
+UID:Cours-211544-11-Design_et_developpement_web-Index-Education
+DTSTART:20241128T083000Z
+DTEND:20241128T113000Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Design web 3 - Dubray - C
+ ours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Des
+ ign web 3\nEnseignant : Dubray\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Design web 3<br/>Enseignant : Dubray<br/>Salle : 1/18<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240902T092614Z
+UID:Cours-211545-8-Design_et_developpement_web-Index-Education
+DTSTART:20241106T071500Z
+DTEND:20241106T163000Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Workshop 360 - Dubray\, S
+ ottiaux
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Wor
+ kshop 360\nEnseignants : Dubray\, Sottiaux\nSalle : 1/16\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Workshop 360<br/>Enseignants : Dubray\, Sottiaux<br/>Salle : 1/16<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240902T092610Z
+UID:Cours-211546-8-Design_et_developpement_web-Index-Education
+DTSTART:20241107T073000Z
+DTEND:20241107T163000Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Workshop 360 - Dubray\, S
+ ottiaux
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Wor
+ kshop 360\nEnseignants : Dubray\, Sottiaux\nSalle : 1/16\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Workshop 360<br/>Enseignants : Dubray\, Sottiaux<br/>Salle : 1/16<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240902T092600Z
+UID:Cours-211547-8-Design_et_developpement_web-Index-Education
+DTSTART:20241108T071500Z
+DTEND:20241108T171500Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Workshop 360 - Dubray\, S
+ ottiaux
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Wor
+ kshop 360\nEnseignants : Dubray\, Sottiaux\nSalle : 1/16\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Workshop 360<br/>Enseignants : Dubray\, Sottiaux<br/>Salle : 1/16<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240910T114817Z
+UID:Cours-211837-1-Design_et_developpement_web-Index-Education
+DTSTART:20240919T071500Z
+DTEND:20240919T101500Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Design web 3 - Dubray - C
+ ours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Des
+ ign web 3\nEnseignant : Dubray\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Design web 3<br/>Enseignant : Dubray<br/>Salle : 1/18<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240910T114817Z
+UID:Cours-211837-5-Design_et_developpement_web-Index-Education
+DTSTART:20241017T071500Z
+DTEND:20241017T101500Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Design web 3 - Dubray - C
+ ours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Des
+ ign web 3\nEnseignant : Dubray\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Design web 3<br/>Enseignant : Dubray<br/>Salle : 1/18<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240910T114647Z
+UID:Cours-214735-4-Design_et_developpement_web-Index-Education
+DTSTART:20241010T061500Z
+DTEND:20241010T101500Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Design web 3 - Dubray - C
+ ours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Des
+ ign web 3\nEnseignant : Dubray\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Design web 3<br/>Enseignant : Dubray<br/>Salle : 1/18<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240910T114751Z
+UID:Cours-214736-10-Design_et_developpement_web-Index-Education
+DTSTART:20241120T071500Z
+DTEND:20241120T111500Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Design web 3 - Dubray - C
+ ours
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Des
+ ign web 3\nEnseignant : Dubray\nSalle : 1/23\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Design web 3<br/>Enseignant : Dubray<br/>Salle : 1/23<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240910T114838Z
+UID:Cours-214738-10-Design_et_developpement_web-Index-Education
+DTSTART:20241121T073000Z
+DTEND:20241121T113000Z
+SUMMARY;LANGUAGE=fr:Design et développement web - Design web 3 - Dubray - C
+ ours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Option : Design et développement web\nMatière : Des
+ ign web 3\nEnseignant : Dubray\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Option : Design et développement web<br/>Matiè
+ re : Design web 3<br/>Enseignant : Dubray<br/>Salle : 1/18<br/>Type : Cour
+ s<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240827T060452Z
+UID:Cours-156489-2-Design_et_developpement_web-Index-Education
+DTSTART:20240923T113000Z
+DTEND:20240923T153000Z
+SUMMARY;LANGUAGE=fr:Projet Demoreel - Maslowski - Cours
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Projet Demoreel\nEnseignant : Maslowski\n
+ Salle : 1/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projet Demoreel<br/>Enseignant : Mas
+ lowski<br/>Salle : 1/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240827T060452Z
+UID:Cours-156489-3-Design_et_developpement_web-Index-Education
+DTSTART:20240930T113000Z
+DTEND:20240930T153000Z
+SUMMARY;LANGUAGE=fr:Projet Demoreel - Maslowski - Cours
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Projet Demoreel\nEnseignant : Maslowski\n
+ Salle : 1/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projet Demoreel<br/>Enseignant : Mas
+ lowski<br/>Salle : 1/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240827T060452Z
+UID:Cours-156489-4-Design_et_developpement_web-Index-Education
+DTSTART:20241007T113000Z
+DTEND:20241007T153000Z
+SUMMARY;LANGUAGE=fr:Projet Demoreel - Maslowski - Cours
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Projet Demoreel\nEnseignant : Maslowski\n
+ Salle : 1/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projet Demoreel<br/>Enseignant : Mas
+ lowski<br/>Salle : 1/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240827T060452Z
+UID:Cours-156489-5-Design_et_developpement_web-Index-Education
+DTSTART:20241014T113000Z
+DTEND:20241014T153000Z
+SUMMARY;LANGUAGE=fr:Projet Demoreel - Maslowski - Cours
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Projet Demoreel\nEnseignant : Maslowski\n
+ Salle : 1/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projet Demoreel<br/>Enseignant : Mas
+ lowski<br/>Salle : 1/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240827T060452Z
+UID:Cours-156489-8-Design_et_developpement_web-Index-Education
+DTSTART:20241104T123000Z
+DTEND:20241104T163000Z
+SUMMARY;LANGUAGE=fr:Projet Demoreel - Maslowski - Cours
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Projet Demoreel\nEnseignant : Maslowski\n
+ Salle : 1/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Projet Demoreel<br/>Enseignant : Mas
+ lowski<br/>Salle : 1/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240910T061851Z
+UID:Cours-156492-14-Design_et_developpement_web-Index-Education
+DTSTART:20241217T071500Z
+DTEND:20241217T113000Z
+SUMMARY;LANGUAGE=fr:Semaine atypique - Claus\, D'Hondt\, Dubray\, Maslowski
+ \, Sottiaux - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Semaine atypique\nEnseignants : Claus\, D
+ 'Hondt\, Dubray\, Maslowski\, Sottiaux\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Semaine atypique<br/>Enseignants : C
+ laus\, D'Hondt\, Dubray\, Maslowski\, Sottiaux<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240904T093212Z
+UID:Cours-156854-12-Design_et_developpement_web-Index-Education
+DTSTART:20241204T071500Z
+DTEND:20241204T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA1P Infographie\, Groupe 2 BA1P Infographie\,
+  Groupe 3 BA1P Infographie\, Groupe 4 BA1P Infographie - Coding Day - Clau
+ s\, Depreter\, Miller - 24-25 - TP
+LOCATION;LANGUAGE=fr:1/RESTO2
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA1P Infographie\, Groupe 2 BA1P Info
+ graphie\, Groupe 3 BA1P Infographie\, Groupe 4 BA1P Infographie\nMatière :
+  Coding Day\nEnseignants : Claus\, Depreter\, Miller\nSalle : 1/RESTO2\nMé
+ mo : 24-25\nType : TP\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA1P Infographie\, Groupe 2 BA1P
+  Infographie\, Groupe 3 BA1P Infographie\, Groupe 4 BA1P Infographie<br/>M
+ atière : Coding Day<br/>Enseignants : Claus\, Depreter\, Miller<br/>Salle 
+ : 1/RESTO2<br/>Mémo : 24-25<br/>Type : TP<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T063730Z
+UID:Cours-158717-1-Design_et_developpement_web-Index-Education
+DTSTART:20240920T113000Z
+DTEND:20240920T153000Z
+SUMMARY;LANGUAGE=fr:Stage - Claus\, Souris - Cours
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Stage\nEnseignants : Claus\, Souris\nSall
+ e : 1/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Stage<br/>Enseignants : Claus\, Sour
+ is<br/>Salle : 1/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240917T051959Z
+UID:Cours-158987-1-Design_et_developpement_web-Index-Education
+DTSTART:20240917T061500Z
+DTEND:20240917T081500Z
+SUMMARY;LANGUAGE=fr:Intro. aux droits d'auteur - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Intro. aux droits d'auteur\nEnseignant : 
+ Sottiaux\nSalle : 2/SA\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intro. aux droits d'auteur<br/>Ensei
+ gnant : Sottiaux<br/>Salle : 2/SA<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240917T052051Z
+UID:Cours-158988-3-Design_et_developpement_web-Index-Education
+DTSTART:20241004T083000Z
+DTEND:20241004T103000Z
+SUMMARY;LANGUAGE=fr:Intro. aux droits d'auteur - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Intro. aux droits d'auteur\nEnseignant : 
+ Sottiaux\nSalle : 2/SA\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intro. aux droits d'auteur<br/>Ensei
+ gnant : Sottiaux<br/>Salle : 2/SA<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240924T114338Z
+UID:Cours-162590-13-Design_et_developpement_web-Index-Education
+DTSTART:20241209T071500Z
+DTEND:20241209T091500Z
+SUMMARY;LANGUAGE=fr:Intro. aux droits d'auteur - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:Matière : Intro. aux droits d'auteur\nEnseignant : 
+ Sottiaux\nSalle : 1/32\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intro. aux droits d'auteur<br/>Ensei
+ gnant : Sottiaux<br/>Salle : 1/32<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240924T114251Z
+UID:Cours-168295-6-Design_et_developpement_web-Index-Education
+DTSTART:20241023T113000Z
+DTEND:20241023T133000Z
+SUMMARY;LANGUAGE=fr:Intro. aux droits d'auteur - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Intro. aux droits d'auteur\nEnseignant : 
+ Sottiaux\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intro. aux droits d'auteur<br/>Ensei
+ gnant : Sottiaux<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240822T081227Z
+UID:Cours-180847-1-Design_et_developpement_web-Index-Education
+DTSTART:20240920T061500Z
+DTEND:20240920T081500Z
+SUMMARY;LANGUAGE=fr:Plan de com' & concept créa - Sottiaux
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Plan de com' & concept créa\nEnseignant :
+  Sottiaux\nSalle : 1/16\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Plan de com' & concept créa<br/>Ense
+ ignant : Sottiaux<br/>Salle : 1/16<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20230921T114444Z
+UID:Cours-180848-3-Design_et_developpement_web-Index-Education
+DTSTART:20241004T061500Z
+DTEND:20241004T081500Z
+SUMMARY;LANGUAGE=fr:Plan de com' & concept créa - Sottiaux
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Plan de com' & concept créa\nEnseignant :
+  Sottiaux\nSalle : 1/16\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Plan de com' & concept créa<br/>Ense
+ ignant : Sottiaux<br/>Salle : 1/16<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20230921T114555Z
+UID:Cours-180852-5-Design_et_developpement_web-Index-Education
+DTSTART:20241016T133000Z
+DTEND:20241016T153000Z
+SUMMARY;LANGUAGE=fr:Plan de com' & concept créa - Sottiaux
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Plan de com' & concept créa\nEnseignant :
+  Sottiaux\nSalle : 2/09C\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Plan de com' & concept créa<br/>Ense
+ ignant : Sottiaux<br/>Salle : 2/09C<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20230921T114444Z
+UID:Cours-180853-4-Design_et_developpement_web-Index-Education
+DTSTART:20241011T061500Z
+DTEND:20241011T081500Z
+SUMMARY;LANGUAGE=fr:Plan de com' & concept créa - Sottiaux
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Plan de com' & concept créa\nEnseignant :
+  Sottiaux\nSalle : 1/16\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Plan de com' & concept créa<br/>Ense
+ ignant : Sottiaux<br/>Salle : 1/16<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20231018T083314Z
+UID:Cours-180854-6-Design_et_developpement_web-Index-Education
+DTSTART:20241023T133000Z
+DTEND:20241023T153000Z
+SUMMARY;LANGUAGE=fr:Plan de com' & concept créa - Sottiaux
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:Matière : Plan de com' & concept créa\nEnseignant :
+  Sottiaux\nSalle : 1/23\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Plan de com' & concept créa<br/>Ense
+ ignant : Sottiaux<br/>Salle : 1/23<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240917T052017Z
+UID:Cours-184598-1-Design_et_developpement_web-Index-Education
+DTSTART:20240920T083000Z
+DTEND:20240920T103000Z
+SUMMARY;LANGUAGE=fr:Intro. aux droits d'auteur - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:2/SA
+DESCRIPTION;LANGUAGE=fr:Matière : Intro. aux droits d'auteur\nEnseignant : 
+ Sottiaux\nSalle : 2/SA\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intro. aux droits d'auteur<br/>Ensei
+ gnant : Sottiaux<br/>Salle : 2/SA<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240924T114319Z
+UID:Cours-184616-11-Design_et_developpement_web-Index-Education
+DTSTART:20241125T071500Z
+DTEND:20241125T091500Z
+SUMMARY;LANGUAGE=fr:Intro. aux droits d'auteur - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:Matière : Intro. aux droits d'auteur\nEnseignant : 
+ Sottiaux\nSalle : 1/29\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intro. aux droits d'auteur<br/>Ensei
+ gnant : Sottiaux<br/>Salle : 1/29<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240903T064344Z
+UID:Cours-187021-2-Design_et_developpement_web-Index-Education
+DTSTART:20240923T061500Z
+DTEND:20240923T081500Z
+SUMMARY;LANGUAGE=fr:TFE - Derville\, Dubray\, Maslowski\, Miller
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : TFE\nEnseignants : Derville\, Dubray\, Ma
+ slowski\, Miller\nSalle : 1/18\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : TFE<br/>Enseignants : Derville\, Dub
+ ray\, Maslowski\, Miller<br/>Salle : 1/18<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20231002T065749Z
+UID:Cours-192651-5-Design_et_developpement_web-Index-Education
+DTSTART:20241016T113000Z
+DTEND:20241016T133000Z
+SUMMARY;LANGUAGE=fr:Intro. aux droits d'auteur - Sottiaux - Cours
+LOCATION;LANGUAGE=fr:2/09C
+DESCRIPTION;LANGUAGE=fr:Matière : Intro. aux droits d'auteur\nEnseignant : 
+ Sottiaux\nSalle : 2/09C\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Intro. aux droits d'auteur<br/>Ensei
+ gnant : Sottiaux<br/>Salle : 2/09C<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240710T072140Z
+UID:Cours-203791-6-Design_et_developpement_web-Index-Education
+DTSTART:20241022T061500Z
+DTEND:20241022T143000Z
+SUMMARY;LANGUAGE=fr:BA3 TL - Construction\, BA3 TL - Informatique\, BA3 TL 
+ - LDT - Salon Job contact - 24-25
+DESCRIPTION;LANGUAGE=fr:Options : BA3 TL - Construction\, BA3 TL - Informat
+ ique\, BA3 TL - LDT\nMatière : Salon Job contact\nMémo : 24-25\n
+X-ALT-DESC;FMTTYPE=text/html:Options : BA3 TL - Construction\, BA3 TL - Inf
+ ormatique\, BA3 TL - LDT<br/>Matière : Salon Job contact<br/>Mémo : 24-25<
+ br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240910T061846Z
+UID:Cours-208534-14-Design_et_developpement_web-Index-Education
+DTSTART:20241216T070000Z
+DTEND:20241216T163000Z
+SUMMARY;LANGUAGE=fr:Semaine atypique - D'Hondt\, Dubray\, Maslowski\, Sotti
+ aux - Cours
+LOCATION;LANGUAGE=fr:1/14\, 1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Semaine atypique\nEnseignants : D'Hondt\,
+  Dubray\, Maslowski\, Sottiaux\nSalles : 1/14\, 1/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Semaine atypique<br/>Enseignants : D
+ 'Hondt\, Dubray\, Maslowski\, Sottiaux<br/>Salles : 1/14\, 1/16<br/>Type :
+  Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240910T061819Z
+UID:Cours-208535-13-Design_et_developpement_web-Index-Education
+DTSTART:20241210T071500Z
+DTEND:20241210T164500Z
+SUMMARY;LANGUAGE=fr:Semaine atypique - Claus\, D'Hondt\, Dubray\, Maslowski
+ \, Sottiaux - Cours
+LOCATION;LANGUAGE=fr:1/14\, 1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Semaine atypique\nEnseignants : Claus\, D
+ 'Hondt\, Dubray\, Maslowski\, Sottiaux\nSalles : 1/14\, 1/16\nType : Cours
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Semaine atypique<br/>Enseignants : C
+ laus\, D'Hondt\, Dubray\, Maslowski\, Sottiaux<br/>Salles : 1/14\, 1/16<br
+ />Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240910T061825Z
+UID:Cours-208536-13-Design_et_developpement_web-Index-Education
+DTSTART:20241211T070000Z
+DTEND:20241211T163000Z
+SUMMARY;LANGUAGE=fr:Semaine atypique - Claus\, D'Hondt\, Dubray\, Maslowski
+  - Cours
+LOCATION;LANGUAGE=fr:1/14\, 1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Semaine atypique\nEnseignants : Claus\, D
+ 'Hondt\, Dubray\, Maslowski\nSalles : 1/14\, 1/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Semaine atypique<br/>Enseignants : C
+ laus\, D'Hondt\, Dubray\, Maslowski<br/>Salles : 1/14\, 1/16<br/>Type : Co
+ urs<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240910T061831Z
+UID:Cours-208537-13-Design_et_developpement_web-Index-Education
+DTSTART:20241212T070000Z
+DTEND:20241212T163000Z
+SUMMARY;LANGUAGE=fr:Semaine atypique - Claus\, D'Hondt\, Dubray\, Maslowski
+ \, Sottiaux - Cours
+LOCATION;LANGUAGE=fr:1/14\, 1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Semaine atypique\nEnseignants : Claus\, D
+ 'Hondt\, Dubray\, Maslowski\, Sottiaux\nSalles : 1/14\, 1/16\nType : Cours
+ \n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Semaine atypique<br/>Enseignants : C
+ laus\, D'Hondt\, Dubray\, Maslowski\, Sottiaux<br/>Salles : 1/14\, 1/16<br
+ />Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240910T061837Z
+UID:Cours-208538-13-Design_et_developpement_web-Index-Education
+DTSTART:20241213T070000Z
+DTEND:20241213T163000Z
+SUMMARY;LANGUAGE=fr:Semaine atypique - Claus\, D'Hondt\, Dubray\, Maslowski
+  - Cours
+LOCATION;LANGUAGE=fr:1/14\, 1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Semaine atypique\nEnseignants : Claus\, D
+ 'Hondt\, Dubray\, Maslowski\nSalles : 1/14\, 1/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Semaine atypique<br/>Enseignants : C
+ laus\, D'Hondt\, Dubray\, Maslowski<br/>Salles : 1/14\, 1/16<br/>Type : Co
+ urs<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240822T081324Z
+UID:Cours-208927-2-Design_et_developpement_web-Index-Education
+DTSTART:20240923T083000Z
+DTEND:20240923T103000Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 1/18<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240822T093356Z
+UID:Cours-208928-14-Design_et_developpement_web-Index-Education
+DTSTART:20241218T123000Z
+DTEND:20241218T143000Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240903T064406Z
+UID:Cours-209161-5-Design_et_developpement_web-Index-Education
+DTSTART:20241014T061500Z
+DTEND:20241014T081500Z
+SUMMARY;LANGUAGE=fr:TFE - Derville\, Dubray\, Maslowski\, Miller
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : TFE\nEnseignants : Derville\, Dubray\, Ma
+ slowski\, Miller\nSalle : 1/18\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : TFE<br/>Enseignants : Derville\, Dub
+ ray\, Maslowski\, Miller<br/>Salle : 1/18<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240903T064350Z
+UID:Cours-209162-3-Design_et_developpement_web-Index-Education
+DTSTART:20240930T061500Z
+DTEND:20240930T081500Z
+SUMMARY;LANGUAGE=fr:TFE - Derville\, Dubray\, Maslowski\, Miller
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : TFE\nEnseignants : Derville\, Dubray\, Ma
+ slowski\, Miller\nSalle : 1/18\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : TFE<br/>Enseignants : Derville\, Dub
+ ray\, Maslowski\, Miller<br/>Salle : 1/18<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240903T064358Z
+UID:Cours-209163-4-Design_et_developpement_web-Index-Education
+DTSTART:20241007T061500Z
+DTEND:20241007T081500Z
+SUMMARY;LANGUAGE=fr:TFE - Derville\, Dubray\, Maslowski\, Miller
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : TFE\nEnseignants : Derville\, Dubray\, Ma
+ slowski\, Miller\nSalle : 1/18\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : TFE<br/>Enseignants : Derville\, Dub
+ ray\, Maslowski\, Miller<br/>Salle : 1/18<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240903T065144Z
+UID:Cours-209164-11-Design_et_developpement_web-Index-Education
+DTSTART:20241129T093000Z
+DTEND:20241129T113000Z
+SUMMARY;LANGUAGE=fr:TFE - Derville\, Dubray\, Maslowski\, Miller
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Matière : TFE\nEnseignants : Derville\, Dubray\, Ma
+ slowski\, Miller\nSalle : 1/16\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : TFE<br/>Enseignants : Derville\, Dub
+ ray\, Maslowski\, Miller<br/>Salle : 1/16<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T063944Z
+UID:Cours-209166-10-Design_et_developpement_web-Index-Education
+DTSTART:20241122T071500Z
+DTEND:20241122T091500Z
+SUMMARY;LANGUAGE=fr:Stage - Claus\, Souris - Cours
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Stage\nEnseignants : Claus\, Souris\nSall
+ e : 1/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Stage<br/>Enseignants : Claus\, Sour
+ is<br/>Salle : 1/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240903T070140Z
+UID:Cours-209168-9-Design_et_developpement_web-Index-Education
+DTSTART:20241115T071500Z
+DTEND:20241115T091500Z
+SUMMARY;LANGUAGE=fr:Stage - Claus\, Souris - Cours
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Stage\nEnseignants : Claus\, Souris\nSall
+ e : 1/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Stage<br/>Enseignants : Claus\, Sour
+ is<br/>Salle : 1/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T074944Z
+UID:Cours-209397-1-Design_et_developpement_web-Index-Education
+DTSTART:20240916T061500Z
+DTEND:20240916T103000Z
+SUMMARY;LANGUAGE=fr:Prépresse et industrie graph 3 - Dubray
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Prépresse et industrie graph 3\nEnseignan
+ t : Dubray\nSalle : 1/18\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prépresse et industrie graph 3<br/>E
+ nseignant : Dubray<br/>Salle : 1/18<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T074944Z
+UID:Cours-209397-6-Design_et_developpement_web-Index-Education
+DTSTART:20241021T061500Z
+DTEND:20241021T103000Z
+SUMMARY;LANGUAGE=fr:Prépresse et industrie graph 3 - Dubray
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Prépresse et industrie graph 3\nEnseignan
+ t : Dubray\nSalle : 1/18\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prépresse et industrie graph 3<br/>E
+ nseignant : Dubray<br/>Salle : 1/18<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T075047Z
+UID:Cours-209398-1-Design_et_developpement_web-Index-Education
+DTSTART:20240916T113000Z
+DTEND:20240916T154500Z
+SUMMARY;LANGUAGE=fr:Prépresse et industrie graph 3 - Derville
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Prépresse et industrie graph 3\nEnseignan
+ t : Derville\nSalle : 1/18\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prépresse et industrie graph 3<br/>E
+ nseignant : Derville<br/>Salle : 1/18<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T075047Z
+UID:Cours-209398-6-Design_et_developpement_web-Index-Education
+DTSTART:20241021T113000Z
+DTEND:20241021T154500Z
+SUMMARY;LANGUAGE=fr:Prépresse et industrie graph 3 - Derville
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Prépresse et industrie graph 3\nEnseignan
+ t : Derville\nSalle : 1/18\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prépresse et industrie graph 3<br/>E
+ nseignant : Derville<br/>Salle : 1/18<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T120435Z
+UID:Cours-209401-1-Design_et_developpement_web-Index-Education
+DTSTART:20240919T113000Z
+DTEND:20240919T153000Z
+SUMMARY;LANGUAGE=fr:C.A.O. - Claus - Cours
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:Matière : C.A.O.\nEnseignant : Claus\nSalle : 1/14\
+ nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : C.A.O.<br/>Enseignant : Claus<br/>Sa
+ lle : 1/14<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T120435Z
+UID:Cours-209401-4-Design_et_developpement_web-Index-Education
+DTSTART:20241010T113000Z
+DTEND:20241010T153000Z
+SUMMARY;LANGUAGE=fr:C.A.O. - Claus - Cours
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:Matière : C.A.O.\nEnseignant : Claus\nSalle : 1/14\
+ nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : C.A.O.<br/>Enseignant : Claus<br/>Sa
+ lle : 1/14<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T120435Z
+UID:Cours-209401-5-Design_et_developpement_web-Index-Education
+DTSTART:20241017T113000Z
+DTEND:20241017T153000Z
+SUMMARY;LANGUAGE=fr:C.A.O. - Claus - Cours
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:Matière : C.A.O.\nEnseignant : Claus\nSalle : 1/14\
+ nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : C.A.O.<br/>Enseignant : Claus<br/>Sa
+ lle : 1/14<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T120435Z
+UID:Cours-209401-6-Design_et_developpement_web-Index-Education
+DTSTART:20241024T113000Z
+DTEND:20241024T153000Z
+SUMMARY;LANGUAGE=fr:C.A.O. - Claus - Cours
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:Matière : C.A.O.\nEnseignant : Claus\nSalle : 1/14\
+ nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : C.A.O.<br/>Enseignant : Claus<br/>Sa
+ lle : 1/14<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T120435Z
+UID:Cours-209401-9-Design_et_developpement_web-Index-Education
+DTSTART:20241114T123000Z
+DTEND:20241114T163000Z
+SUMMARY;LANGUAGE=fr:C.A.O. - Claus - Cours
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:Matière : C.A.O.\nEnseignant : Claus\nSalle : 1/14\
+ nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : C.A.O.<br/>Enseignant : Claus<br/>Sa
+ lle : 1/14<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T120435Z
+UID:Cours-209401-10-Design_et_developpement_web-Index-Education
+DTSTART:20241121T123000Z
+DTEND:20241121T163000Z
+SUMMARY;LANGUAGE=fr:C.A.O. - Claus - Cours
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:Matière : C.A.O.\nEnseignant : Claus\nSalle : 1/14\
+ nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : C.A.O.<br/>Enseignant : Claus<br/>Sa
+ lle : 1/14<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T120435Z
+UID:Cours-209401-11-Design_et_developpement_web-Index-Education
+DTSTART:20241128T123000Z
+DTEND:20241128T163000Z
+SUMMARY;LANGUAGE=fr:C.A.O. - Claus - Cours
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:Matière : C.A.O.\nEnseignant : Claus\nSalle : 1/14\
+ nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : C.A.O.<br/>Enseignant : Claus<br/>Sa
+ lle : 1/14<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T120435Z
+UID:Cours-209401-12-Design_et_developpement_web-Index-Education
+DTSTART:20241205T123000Z
+DTEND:20241205T163000Z
+SUMMARY;LANGUAGE=fr:C.A.O. - Claus - Cours
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:Matière : C.A.O.\nEnseignant : Claus\nSalle : 1/14\
+ nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : C.A.O.<br/>Enseignant : Claus<br/>Sa
+ lle : 1/14<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240902T092043Z
+UID:Cours-209402-14-Design_et_developpement_web-Index-Education
+DTSTART:20241217T123000Z
+DTEND:20241217T163000Z
+SUMMARY;LANGUAGE=fr:C.A.O. - Claus - Cours
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:Matière : C.A.O.\nEnseignant : Claus\nSalle : 1/14\
+ nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : C.A.O.<br/>Enseignant : Claus<br/>Sa
+ lle : 1/14<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T120443Z
+UID:Cours-209403-2-Design_et_developpement_web-Index-Education
+DTSTART:20240926T061500Z
+DTEND:20240926T103000Z
+SUMMARY;LANGUAGE=fr:Prépresse et industrie graph 3 - Dubray
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Prépresse et industrie graph 3\nEnseignan
+ t : Dubray\nSalle : 1/18\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prépresse et industrie graph 3<br/>E
+ nseignant : Dubray<br/>Salle : 1/18<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T120443Z
+UID:Cours-209403-3-Design_et_developpement_web-Index-Education
+DTSTART:20241003T061500Z
+DTEND:20241003T103000Z
+SUMMARY;LANGUAGE=fr:Prépresse et industrie graph 3 - Dubray
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Prépresse et industrie graph 3\nEnseignan
+ t : Dubray\nSalle : 1/18\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prépresse et industrie graph 3<br/>E
+ nseignant : Dubray<br/>Salle : 1/18<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240905T115413Z
+UID:Cours-209413-14-Design_et_developpement_web-Index-Education
+DTSTART:20241220T071500Z
+DTEND:20241220T113000Z
+SUMMARY;LANGUAGE=fr:Prépresse et industrie graph 3 - Derville
+LOCATION;LANGUAGE=fr:1/18\, 1/21
+DESCRIPTION;LANGUAGE=fr:Matière : Prépresse et industrie graph 3\nEnseignan
+ t : Derville\nSalles : 1/18\, 1/21\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prépresse et industrie graph 3<br/>E
+ nseignant : Derville<br/>Salles : 1/18\, 1/21<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240823T075145Z
+UID:Cours-209414-14-Design_et_developpement_web-Index-Education
+DTSTART:20241220T123000Z
+DTEND:20241220T164500Z
+SUMMARY;LANGUAGE=fr:Prépresse et industrie graph 3 - Dubray
+DESCRIPTION;LANGUAGE=fr:Matière : Prépresse et industrie graph 3\nEnseignan
+ t : Dubray\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prépresse et industrie graph 3<br/>E
+ nseignant : Dubray<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240910T114647Z
+UID:Cours-210015-11-Design_et_developpement_web-Index-Education
+DTSTART:20241127T071500Z
+DTEND:20241127T111500Z
+SUMMARY;LANGUAGE=fr:Design web 3 - Dubray - Cours
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Design web 3\nEnseignant : Dubray\nSalle 
+ : 1/16\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Design web 3<br/>Enseignant : Dubray
+ <br/>Salle : 1/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240924T125939Z
+UID:Cours-215805-2-Design_et_developpement_web-Index-Education
+DTSTART:20240926T113000Z
+DTEND:20240926T154500Z
+SUMMARY;LANGUAGE=fr:Prépresse et industrie graph 3 - Derville
+LOCATION;LANGUAGE=fr:1/14\, 1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Prépresse et industrie graph 3\nEnseignan
+ t : Derville\nSalles : 1/14\, 1/18\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prépresse et industrie graph 3<br/>E
+ nseignant : Derville<br/>Salles : 1/14\, 1/18<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240903T070121Z
+UID:Cours-211845-3-Design_et_developpement_web-Index-Education
+DTSTART:20241004T133000Z
+DTEND:20241004T153000Z
+SUMMARY;LANGUAGE=fr:Stage - Souris - Cours
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Stage\nEnseignant : Souris\nSalle : 1/16\
+ nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Stage<br/>Enseignant : Souris<br/>Sa
+ lle : 1/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240906T073142Z
+UID:Cours-211846-4-Design_et_developpement_web-Index-Education
+DTSTART:20241011T083000Z
+DTEND:20241011T103000Z
+SUMMARY;LANGUAGE=fr:Stage - Claus - Cours
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Stage\nEnseignant : Claus\nSalle : 1/16\n
+ Type : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Stage<br/>Enseignant : Claus<br/>Sal
+ le : 1/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240906T073142Z
+UID:Cours-211846-6-Design_et_developpement_web-Index-Education
+DTSTART:20241025T083000Z
+DTEND:20241025T103000Z
+SUMMARY;LANGUAGE=fr:Stage - Claus - Cours
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Stage\nEnseignant : Claus\nSalle : 1/16\n
+ Type : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Stage<br/>Enseignant : Claus<br/>Sal
+ le : 1/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240904T072811Z
+UID:Cours-212962-2-Design_et_developpement_web-Index-Education
+DTSTART:20240925T113000Z
+DTEND:20240925T133000Z
+SUMMARY;LANGUAGE=fr:Stage - Souris - Cours
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:Matière : Stage\nEnseignant : Souris\nSalle : 1/16\
+ nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Stage<br/>Enseignant : Souris<br/>Sa
+ lle : 1/16<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240905T115746Z
+UID:Cours-214499-3-Design_et_developpement_web-Index-Education
+DTSTART:20240930T083000Z
+DTEND:20240930T103000Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 1/18<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240905T115746Z
+UID:Cours-214499-4-Design_et_developpement_web-Index-Education
+DTSTART:20241007T083000Z
+DTEND:20241007T103000Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 1/18<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240905T115746Z
+UID:Cours-214499-5-Design_et_developpement_web-Index-Education
+DTSTART:20241014T083000Z
+DTEND:20241014T103000Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 1/18<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240905T115746Z
+UID:Cours-214499-8-Design_et_developpement_web-Index-Education
+DTSTART:20241104T093000Z
+DTEND:20241104T113000Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 1/18\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 1/18<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240905T115746Z
+UID:Cours-214499-11-Design_et_developpement_web-Index-Education
+DTSTART:20241125T093000Z
+DTEND:20241125T113000Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 2/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 2/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240905T115746Z
+UID:Cours-214499-12-Design_et_developpement_web-Index-Education
+DTSTART:20241202T093000Z
+DTEND:20241202T113000Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 2/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 2/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240905T115746Z
+UID:Cours-214499-13-Design_et_developpement_web-Index-Education
+DTSTART:20241209T093000Z
+DTEND:20241209T113000Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 2/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 2/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240905T115746Z
+UID:Cours-214500-11-Design_et_developpement_web-Index-Education
+DTSTART:20241129T071500Z
+DTEND:20241129T091500Z
+SUMMARY;LANGUAGE=fr:Gestion éco. et finan. de l'en - Lenaerts - Cours
+LOCATION;LANGUAGE=fr:2/11
+DESCRIPTION;LANGUAGE=fr:Matière : Gestion éco. et finan. de l'en\nEnseignan
+ t : Lenaerts\nSalle : 2/11\nType : Cours\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Gestion éco. et finan. de l'en<br/>E
+ nseignant : Lenaerts<br/>Salle : 2/11<br/>Type : Cours<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240905T115404Z
+UID:Cours-214510-10-Design_et_developpement_web-Index-Education
+DTSTART:20241122T123000Z
+DTEND:20241122T164500Z
+SUMMARY;LANGUAGE=fr:Prépresse et industrie graph 3 - Derville\, Dubray
+LOCATION;LANGUAGE=fr:1/10B\, 1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Prépresse et industrie graph 3\nEnseignan
+ ts : Derville\, Dubray\nSalles : 1/10B\, 1/18\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prépresse et industrie graph 3<br/>E
+ nseignants : Derville\, Dubray<br/>Salles : 1/10B\, 1/18<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240905T115553Z
+UID:Cours-214512-3-Design_et_developpement_web-Index-Education
+DTSTART:20241002T113000Z
+DTEND:20241002T154500Z
+SUMMARY;LANGUAGE=fr:Prépresse et industrie graph 3 - Derville\, Dubray
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Prépresse et industrie graph 3\nEnseignan
+ ts : Derville\, Dubray\nSalle : 1/18\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prépresse et industrie graph 3<br/>E
+ nseignants : Derville\, Dubray<br/>Salle : 1/18<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240905T115313Z
+UID:Cours-214518-5-Design_et_developpement_web-Index-Education
+DTSTART:20241018T061500Z
+DTEND:20241018T103000Z
+SUMMARY;LANGUAGE=fr:Prépresse et industrie graph 3 - Derville\, Dubray
+LOCATION;LANGUAGE=fr:1/16\, 1/21
+DESCRIPTION;LANGUAGE=fr:Matière : Prépresse et industrie graph 3\nEnseignan
+ ts : Derville\, Dubray\nSalles : 1/16\, 1/21\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prépresse et industrie graph 3<br/>E
+ nseignants : Derville\, Dubray<br/>Salles : 1/16\, 1/21<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240924T125942Z
+UID:Cours-215806-3-Design_et_developpement_web-Index-Education
+DTSTART:20241003T113000Z
+DTEND:20241003T134500Z
+SUMMARY;LANGUAGE=fr:Prépresse et industrie graph 3 - Derville
+LOCATION;LANGUAGE=fr:1/14\, 1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Prépresse et industrie graph 3\nEnseignan
+ t : Derville\nSalles : 1/14\, 1/18\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prépresse et industrie graph 3<br/>E
+ nseignant : Derville<br/>Salles : 1/14\, 1/18<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+LAST-MODIFIED:20240924T130001Z
+UID:Cours-215807-3-Design_et_developpement_web-Index-Education
+DTSTART:20241004T111500Z
+DTEND:20241004T133000Z
+SUMMARY;LANGUAGE=fr:Prépresse et industrie graph 3 - Derville
+LOCATION;LANGUAGE=fr:1/14\, 1/18
+DESCRIPTION;LANGUAGE=fr:Matière : Prépresse et industrie graph 3\nEnseignan
+ t : Derville\nSalles : 1/14\, 1/18\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : Prépresse et industrie graph 3<br/>E
+ nseignant : Derville<br/>Salles : 1/14\, 1/18<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+UID:Ferie-939-Design_et_developpement_web-Index-Education
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240928
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+UID:Ferie-940-Design_et_developpement_web-Index-Education
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145717Z
+UID:Ferie-941-Design_et_developpement_web-Index-Education
+DTSTART;VALUE=DATE:20241111
+DTEND;VALUE=DATE:20241112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+END:VCALENDAR

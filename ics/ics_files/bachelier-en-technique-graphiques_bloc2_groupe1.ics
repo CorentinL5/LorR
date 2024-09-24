@@ -1,0 +1,1275 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - HYPERPLANNING 2024
+METHOD:PUBLISH
+X-CALSTART:20240916T000000Z
+X-CALEND:20241221T000000Z
+X-WR-CALNAME;LANGUAGE=fr:HYP - <BA2P Infographie> <laboratoire> Groupe 1 BA
+ 2P Teknika - du 16 septembre au 21 décembre 2024
+X-WR-CALDESC;LANGUAGE=fr:Emploi du temps de <BA2P Infographie> <laboratoire
+ > Groupe 1 BA2P Teknika généré par le logiciel HP (©INDEX ÉDUCATION) le 24
+  sept. 2024 - Haute Ecole en Hainaut - valable sur la période du 16 septem
+ bre au 21 décembre 2024 - Semaines : semaine 38 - 51
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T125420Z
+UID:Cours-156525-9-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241114T071500Z
+DTEND:20241114T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - PHP - Miller - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : PHP\nEnseigna
+ nt : Miller\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : PHP<b
+ r/>Enseignant : Miller<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T125420Z
+UID:Cours-156525-10-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241121T071500Z
+DTEND:20241121T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - PHP - Miller - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : PHP\nEnseigna
+ nt : Miller\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : PHP<b
+ r/>Enseignant : Miller<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T125420Z
+UID:Cours-156525-11-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241128T071500Z
+DTEND:20241128T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - PHP - Miller - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : PHP\nEnseigna
+ nt : Miller\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : PHP<b
+ r/>Enseignant : Miller<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T125420Z
+UID:Cours-156525-13-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241212T071500Z
+DTEND:20241212T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - PHP - Miller - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : PHP\nEnseigna
+ nt : Miller\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : PHP<b
+ r/>Enseignant : Miller<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T125420Z
+UID:Cours-156525-14-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241219T071500Z
+DTEND:20241219T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - PHP - Miller - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : PHP\nEnseigna
+ nt : Miller\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : PHP<b
+ r/>Enseignant : Miller<br/>Salle : 1/10B<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20231116T125526Z
+UID:Cours-180830-12-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241203T071500Z
+DTEND:20241203T161500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika\, Groupe 2 BA2P Teknika - Atelier
+  de recherche créative - Derville\, Dubray
+LOCATION;LANGUAGE=fr:1/10B\, 1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\, Groupe 2 BA2P Teknika\
+ nMatière : Atelier de recherche créative\nEnseignants : Derville\, Dubray\
+ nSalles : 1/10B\, 1/18\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika\, Groupe 2 BA2P Tek
+ nika<br/>Matière : Atelier de recherche créative<br/>Enseignants : Dervill
+ e\, Dubray<br/>Salles : 1/10B\, 1/18<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20231116T125526Z
+UID:Cours-180832-12-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241204T071500Z
+DTEND:20241204T161500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika\, Groupe 2 BA2P Teknika - Atelier
+  de recherche créative - Derville\, Dubray
+LOCATION;LANGUAGE=fr:1/10B\, 1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\, Groupe 2 BA2P Teknika\
+ nMatière : Atelier de recherche créative\nEnseignants : Derville\, Dubray\
+ nSalles : 1/10B\, 1/18\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika\, Groupe 2 BA2P Tek
+ nika<br/>Matière : Atelier de recherche créative<br/>Enseignants : Dervill
+ e\, Dubray<br/>Salles : 1/10B\, 1/18<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20231116T125310Z
+UID:Cours-180833-12-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241205T071500Z
+DTEND:20241205T161500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika\, Groupe 2 BA2P Teknika - Atelier
+  de recherche créative - Derville\, Dubray
+LOCATION;LANGUAGE=fr:1/10B\, 1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\, Groupe 2 BA2P Teknika\
+ nMatière : Atelier de recherche créative\nEnseignants : Derville\, Dubray\
+ nSalles : 1/10B\, 1/18\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika\, Groupe 2 BA2P Tek
+ nika<br/>Matière : Atelier de recherche créative<br/>Enseignants : Dervill
+ e\, Dubray<br/>Salles : 1/10B\, 1/18<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240821T074707Z
+UID:Cours-184528-11-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241129T071500Z
+DTEND:20241129T114500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Colorimétrie - Gryspeert\, Rema
+ cle - co Teaching 24-25 - Laboratoires
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Colorimétrie\
+ nEnseignants : Gryspeert\, Remacle\nSalle : 1/32\nMémo : co Teaching 24-25
+ \nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Color
+ imétrie<br/>Enseignants : Gryspeert\, Remacle<br/>Salle : 1/32<br/>Mémo : 
+ co Teaching 24-25<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20231009T055034Z
+UID:Cours-184537-14-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241217T123000Z
+DTEND:20241217T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Colorimétrie - Gryspeert - Inte
+ rro
+LOCATION;LANGUAGE=fr:1/11
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Colorimétrie\
+ nEnseignant : Gryspeert\nSalle : 1/11\nType : Interro\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Color
+ imétrie<br/>Enseignant : Gryspeert<br/>Salle : 1/11<br/>Type : Interro<br/
+ >
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240903T070758Z
+UID:Cours-184550-8-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241108T123000Z
+DTEND:20241108T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Bases de données - Malaise - La
+ boratoires
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Bases de donn
+ ées\nEnseignant : Malaise\nSalle : 2/10D\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Bases
+  de données<br/>Enseignant : Malaise<br/>Salle : 2/10D<br/>Type : Laborato
+ ires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240903T070758Z
+UID:Cours-184550-10-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241122T123000Z
+DTEND:20241122T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Bases de données - Malaise - La
+ boratoires
+LOCATION;LANGUAGE=fr:2/10E
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Bases de donn
+ ées\nEnseignant : Malaise\nSalle : 2/10E\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Bases
+  de données<br/>Enseignant : Malaise<br/>Salle : 2/10E<br/>Type : Laborato
+ ires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20230831T131600Z
+UID:Cours-184551-13-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241213T123000Z
+DTEND:20241213T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Bases de données - Malaise - La
+ boratoires
+LOCATION;LANGUAGE=fr:2/10D
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Bases de donn
+ ées\nEnseignant : Malaise\nSalle : 2/10D\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Bases
+  de données<br/>Enseignant : Malaise<br/>Salle : 2/10D<br/>Type : Laborato
+ ires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20230905T141857Z
+UID:Cours-184558-14-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241218T123000Z
+DTEND:20241218T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Traitement du son - Sottiaux - 
+ Laboratoires
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Traitement du
+  son\nEnseignant : Sottiaux\nSalle : 1/23\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Trait
+ ement du son<br/>Enseignant : Sottiaux<br/>Salle : 1/23<br/>Type : Laborat
+ oires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240821T081853Z
+UID:Cours-184561-10-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241120T123000Z
+DTEND:20241120T143000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Traitement du son - Sottiaux - 
+ Laboratoires
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Traitement du
+  son\nEnseignant : Sottiaux\nSalle : 1/23\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Trait
+ ement du son<br/>Enseignant : Sottiaux<br/>Salle : 1/23<br/>Type : Laborat
+ oires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240821T065204Z
+UID:Cours-184625-9-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241115T123000Z
+DTEND:20241115T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Mise en page et impr. - Dubray 
+ - Examen
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Mise en page 
+ et impr.\nEnseignant : Dubray\nSalle : 1/18\nType : Examen\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Mise 
+ en page et impr.<br/>Enseignant : Dubray<br/>Salle : 1/18<br/>Type : Exame
+ n<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20230904T075249Z
+UID:Cours-184626-4-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241008T113000Z
+DTEND:20241008T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Mise en page et impr. - Dubray 
+ - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Mise en page 
+ et impr.\nEnseignant : Dubray\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Mise 
+ en page et impr.<br/>Enseignant : Dubray<br/>Salle : 1/10B<br/>Type : Labo
+ ratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240821T080936Z
+UID:Cours-186982-1-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20240917T061500Z
+DTEND:20240917T103000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Modélisation 3Dconstruction - S
+ ouris - Laboratoires
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Modélisation 
+ 3Dconstruction\nEnseignant : Souris\nSalle : 1/14\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Modél
+ isation 3Dconstruction<br/>Enseignant : Souris<br/>Salle : 1/14<br/>Type :
+  Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240821T080941Z
+UID:Cours-186984-6-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241022T061500Z
+DTEND:20241022T103000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Modélisation 3Dconstruction - S
+ ouris - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Modélisation 
+ 3Dconstruction\nEnseignant : Souris\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Modél
+ isation 3Dconstruction<br/>Enseignant : Souris<br/>Salle : 1/10B<br/>Type 
+ : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240821T061115Z
+UID:Cours-187132-4-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241011T061500Z
+DTEND:20241011T103000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Prépresse & industrie graph.1 -
+  Derville - Laboratoires
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Prépresse & i
+ ndustrie graph.1\nEnseignant : Derville\nSalle : 1/18\nType : Laboratoires
+ \n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Prépr
+ esse & industrie graph.1<br/>Enseignant : Derville<br/>Salle : 1/18<br/>Ty
+ pe : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240703T085622Z
+UID:Cours-190727-1-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20240919T063000Z
+DTEND:20240919T103000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Colorimétrie - Gryspeert - Labo
+ ratoires
+LOCATION;LANGUAGE=fr:2/10E
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Colorimétrie\
+ nEnseignant : Gryspeert\nSalle : 2/10E\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Color
+ imétrie<br/>Enseignant : Gryspeert<br/>Salle : 2/10E<br/>Type : Laboratoir
+ es<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240703T085622Z
+UID:Cours-190727-2-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20240926T063000Z
+DTEND:20240926T103000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Colorimétrie - Gryspeert - Labo
+ ratoires
+LOCATION;LANGUAGE=fr:2/10E
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Colorimétrie\
+ nEnseignant : Gryspeert\nSalle : 2/10E\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Color
+ imétrie<br/>Enseignant : Gryspeert<br/>Salle : 2/10E<br/>Type : Laboratoir
+ es<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240703T085622Z
+UID:Cours-190727-3-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241003T063000Z
+DTEND:20241003T103000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Colorimétrie - Gryspeert - Labo
+ ratoires
+LOCATION;LANGUAGE=fr:2/10E
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Colorimétrie\
+ nEnseignant : Gryspeert\nSalle : 2/10E\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Color
+ imétrie<br/>Enseignant : Gryspeert<br/>Salle : 2/10E<br/>Type : Laboratoir
+ es<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240703T085622Z
+UID:Cours-190727-4-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241010T063000Z
+DTEND:20241010T103000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Colorimétrie - Gryspeert - Labo
+ ratoires
+LOCATION;LANGUAGE=fr:2/10E
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Colorimétrie\
+ nEnseignant : Gryspeert\nSalle : 2/10E\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Color
+ imétrie<br/>Enseignant : Gryspeert<br/>Salle : 2/10E<br/>Type : Laboratoir
+ es<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240703T085622Z
+UID:Cours-190727-5-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241017T063000Z
+DTEND:20241017T103000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Colorimétrie - Gryspeert - Labo
+ ratoires
+LOCATION;LANGUAGE=fr:2/10E
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Colorimétrie\
+ nEnseignant : Gryspeert\nSalle : 2/10E\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Color
+ imétrie<br/>Enseignant : Gryspeert<br/>Salle : 2/10E<br/>Type : Laboratoir
+ es<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240703T085622Z
+UID:Cours-190727-6-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241024T063000Z
+DTEND:20241024T103000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Colorimétrie - Gryspeert - Labo
+ ratoires
+LOCATION;LANGUAGE=fr:2/10E
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Colorimétrie\
+ nEnseignant : Gryspeert\nSalle : 2/10E\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Color
+ imétrie<br/>Enseignant : Gryspeert<br/>Salle : 2/10E<br/>Type : Laboratoir
+ es<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240703T085622Z
+UID:Cours-190727-8-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241107T073000Z
+DTEND:20241107T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Colorimétrie - Gryspeert - Labo
+ ratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Colorimétrie\
+ nEnseignant : Gryspeert\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Color
+ imétrie<br/>Enseignant : Gryspeert<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240821T080945Z
+UID:Cours-192480-2-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20240924T061500Z
+DTEND:20240924T103000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Modélisation 3Dconstruction - S
+ ouris - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Modélisation 
+ 3Dconstruction\nEnseignant : Souris\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Modél
+ isation 3Dconstruction<br/>Enseignant : Souris<br/>Salle : 1/10B<br/>Type 
+ : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240821T080945Z
+UID:Cours-192480-3-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241001T061500Z
+DTEND:20241001T103000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Modélisation 3Dconstruction - S
+ ouris - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Modélisation 
+ 3Dconstruction\nEnseignant : Souris\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Modél
+ isation 3Dconstruction<br/>Enseignant : Souris<br/>Salle : 1/10B<br/>Type 
+ : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240821T080945Z
+UID:Cours-192480-4-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241008T061500Z
+DTEND:20241008T103000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Modélisation 3Dconstruction - S
+ ouris - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Modélisation 
+ 3Dconstruction\nEnseignant : Souris\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Modél
+ isation 3Dconstruction<br/>Enseignant : Souris<br/>Salle : 1/10B<br/>Type 
+ : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240821T080945Z
+UID:Cours-192480-5-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241015T061500Z
+DTEND:20241015T103000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Modélisation 3Dconstruction - S
+ ouris - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Modélisation 
+ 3Dconstruction\nEnseignant : Souris\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Modél
+ isation 3Dconstruction<br/>Enseignant : Souris<br/>Salle : 1/10B<br/>Type 
+ : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T124507Z
+UID:Cours-206690-1-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20240917T113000Z
+DTEND:20240917T133000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Anglais - Remacle
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Anglais\nEnse
+ ignant : Remacle\nSalle : 1/32\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Angla
+ is<br/>Enseignant : Remacle<br/>Salle : 1/32<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T124507Z
+UID:Cours-206690-6-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241022T113000Z
+DTEND:20241022T133000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Anglais - Remacle
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Anglais\nEnse
+ ignant : Remacle\nSalle : 1/32\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Angla
+ is<br/>Enseignant : Remacle<br/>Salle : 1/32<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240814T090241Z
+UID:Cours-206692-8-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241105T093000Z
+DTEND:20241105T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Anglais - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Anglais\nEnse
+ ignant : Remacle\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Angla
+ is<br/>Enseignant : Remacle<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240814T090241Z
+UID:Cours-206692-9-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241112T093000Z
+DTEND:20241112T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Anglais - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Anglais\nEnse
+ ignant : Remacle\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Angla
+ is<br/>Enseignant : Remacle<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240814T090241Z
+UID:Cours-206692-10-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241119T093000Z
+DTEND:20241119T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Anglais - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Anglais\nEnse
+ ignant : Remacle\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Angla
+ is<br/>Enseignant : Remacle<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240814T090241Z
+UID:Cours-206692-11-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241126T093000Z
+DTEND:20241126T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Anglais - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Anglais\nEnse
+ ignant : Remacle\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Angla
+ is<br/>Enseignant : Remacle<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240821T064950Z
+UID:Cours-208386-12-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241206T071500Z
+DTEND:20241206T161500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika\, Groupe 2 BA2P Teknika - Atelier
+  de recherche créative - Derville\, Dubray
+LOCATION;LANGUAGE=fr:1/10B\, 1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\, Groupe 2 BA2P Teknika\
+ nMatière : Atelier de recherche créative\nEnseignants : Derville\, Dubray\
+ nSalles : 1/10B\, 1/18\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika\, Groupe 2 BA2P Tek
+ nika<br/>Matière : Atelier de recherche créative<br/>Enseignants : Dervill
+ e\, Dubray<br/>Salles : 1/10B\, 1/18<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240903T063631Z
+UID:Cours-208389-1-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20240920T113000Z
+DTEND:20240920T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Mise en page et impr. - Dubray 
+ - Laboratoires
+LOCATION;LANGUAGE=fr:1/14
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Mise en page 
+ et impr.\nEnseignant : Dubray\nSalle : 1/14\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Mise 
+ en page et impr.<br/>Enseignant : Dubray<br/>Salle : 1/14<br/>Type : Labor
+ atoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240903T063631Z
+UID:Cours-208389-3-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241004T113000Z
+DTEND:20241004T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Mise en page et impr. - Dubray 
+ - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Mise en page 
+ et impr.\nEnseignant : Dubray\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Mise 
+ en page et impr.<br/>Enseignant : Dubray<br/>Salle : 1/10B<br/>Type : Labo
+ ratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240903T063631Z
+UID:Cours-208389-4-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241011T113000Z
+DTEND:20241011T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Mise en page et impr. - Dubray 
+ - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Mise en page 
+ et impr.\nEnseignant : Dubray\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Mise 
+ en page et impr.<br/>Enseignant : Dubray<br/>Salle : 1/10B<br/>Type : Labo
+ ratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240903T063631Z
+UID:Cours-208389-5-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241018T113000Z
+DTEND:20241018T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Mise en page et impr. - Dubray 
+ - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Mise en page 
+ et impr.\nEnseignant : Dubray\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Mise 
+ en page et impr.<br/>Enseignant : Dubray<br/>Salle : 1/10B<br/>Type : Labo
+ ratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240903T063543Z
+UID:Cours-208432-13-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241210T071500Z
+DTEND:20241210T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Prépresse & industrie graph.1 -
+  Derville - Laboratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Prépresse & i
+ ndustrie graph.1\nEnseignant : Derville\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Prépr
+ esse & industrie graph.1<br/>Enseignant : Derville<br/>Type : Laboratoires
+ <br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240821T074514Z
+UID:Cours-208433-3-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241001T113000Z
+DTEND:20241001T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Prépresse & industrie graph.1 -
+  Derville - Laboratoires
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Prépresse & i
+ ndustrie graph.1\nEnseignant : Derville\nSalle : 1/18\nType : Laboratoires
+ \n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Prépr
+ esse & industrie graph.1<br/>Enseignant : Derville<br/>Salle : 1/18<br/>Ty
+ pe : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240821T074633Z
+UID:Cours-208435-2-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20240924T113000Z
+DTEND:20240924T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Colorimétrie - Gryspeert - Labo
+ ratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Colorimétrie\
+ nEnseignant : Gryspeert\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Color
+ imétrie<br/>Enseignant : Gryspeert<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240821T074633Z
+UID:Cours-208435-8-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241105T123000Z
+DTEND:20241105T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Colorimétrie - Gryspeert - Labo
+ ratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Colorimétrie\
+ nEnseignant : Gryspeert\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Color
+ imétrie<br/>Enseignant : Gryspeert<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240821T074659Z
+UID:Cours-208438-9-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241115T071500Z
+DTEND:20241115T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Colorimétrie - Gryspeert - Labo
+ ratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Colorimétrie\
+ nEnseignant : Gryspeert\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Color
+ imétrie<br/>Enseignant : Gryspeert<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T124639Z
+UID:Cours-208462-6-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241025T113000Z
+DTEND:20241025T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Modélisation 3Dconstruction - S
+ ouris - Laboratoires
+LOCATION;LANGUAGE=fr:1/10B
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Modélisation 
+ 3Dconstruction\nEnseignant : Souris\nSalle : 1/10B\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Modél
+ isation 3Dconstruction<br/>Enseignant : Souris<br/>Salle : 1/10B<br/>Type 
+ : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240822T112344Z
+UID:Cours-208474-8-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241104T083000Z
+DTEND:20241104T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Traitement du son - Sottiaux - 
+ Laboratoires
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Traitement du
+  son\nEnseignant : Sottiaux\nSalle : 1/23\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Trait
+ ement du son<br/>Enseignant : Sottiaux<br/>Salle : 1/23<br/>Type : Laborat
+ oires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240923T074718Z
+UID:Cours-208475-11-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241127T123000Z
+DTEND:20241127T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Traitement du son - Sottiaux - 
+ Laboratoires
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Traitement du
+  son\nEnseignant : Sottiaux\nSalle : 1/23\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Trait
+ ement du son<br/>Enseignant : Sottiaux<br/>Salle : 1/23<br/>Type : Laborat
+ oires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240821T081858Z
+UID:Cours-208479-9-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241113T123000Z
+DTEND:20241113T143000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Traitement du son - Sottiaux - 
+ Laboratoires
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Traitement du
+  son\nEnseignant : Sottiaux\nSalle : 1/23\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Trait
+ ement du son<br/>Enseignant : Sottiaux<br/>Salle : 1/23<br/>Type : Laborat
+ oires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240910T061628Z
+UID:Cours-208499-14-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241220T071500Z
+DTEND:20241220T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Création graphique 3D - D'Hondt
+  - Laboratoires
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Création grap
+ hique 3D\nEnseignant : D'Hondt\nSalle : 1/16\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Créat
+ ion graphique 3D<br/>Enseignant : D'Hondt<br/>Salle : 1/16<br/>Type : Labo
+ ratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240902T092329Z
+UID:Cours-208500-6-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241023T113000Z
+DTEND:20241023T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Création graphique 3D - D'Hondt
+  - Laboratoires
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Création grap
+ hique 3D\nEnseignant : D'Hondt\nSalle : 1/16\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Créat
+ ion graphique 3D<br/>Enseignant : D'Hondt<br/>Salle : 1/16<br/>Type : Labo
+ ratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T124507Z
+UID:Cours-211510-2-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20240923T061500Z
+DTEND:20240923T081500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Anglais - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Anglais\nEnse
+ ignant : Remacle\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Angla
+ is<br/>Enseignant : Remacle<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T124507Z
+UID:Cours-211510-3-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20240930T061500Z
+DTEND:20240930T081500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Anglais - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Anglais\nEnse
+ ignant : Remacle\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Angla
+ is<br/>Enseignant : Remacle<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T124507Z
+UID:Cours-211510-4-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241007T061500Z
+DTEND:20241007T081500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Anglais - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Anglais\nEnse
+ ignant : Remacle\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Angla
+ is<br/>Enseignant : Remacle<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T124507Z
+UID:Cours-211510-6-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241021T061500Z
+DTEND:20241021T081500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Anglais - Remacle
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Anglais\nEnse
+ ignant : Remacle\nSalle : 1/32\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Angla
+ is<br/>Enseignant : Remacle<br/>Salle : 1/32<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T124507Z
+UID:Cours-211510-10-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241118T071500Z
+DTEND:20241118T091500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Anglais - Remacle
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Anglais\nEnse
+ ignant : Remacle\nSalle : 1/21\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Angla
+ is<br/>Enseignant : Remacle<br/>Salle : 1/21<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T124507Z
+UID:Cours-211510-11-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241125T071500Z
+DTEND:20241125T091500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Anglais - Remacle
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Anglais\nEnse
+ ignant : Remacle\nSalle : 1/21\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Angla
+ is<br/>Enseignant : Remacle<br/>Salle : 1/21<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T124507Z
+UID:Cours-211510-12-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241202T071500Z
+DTEND:20241202T091500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Anglais - Remacle
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Anglais\nEnse
+ ignant : Remacle\nSalle : 1/21\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Angla
+ is<br/>Enseignant : Remacle<br/>Salle : 1/21<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T124507Z
+UID:Cours-211510-13-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241209T071500Z
+DTEND:20241209T091500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Anglais - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Anglais\nEnse
+ ignant : Remacle\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Angla
+ is<br/>Enseignant : Remacle<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T124507Z
+UID:Cours-211510-14-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241216T071500Z
+DTEND:20241216T091500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Anglais - Remacle
+LOCATION;LANGUAGE=fr:1/29
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Anglais\nEnse
+ ignant : Remacle\nSalle : 1/29\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Angla
+ is<br/>Enseignant : Remacle<br/>Salle : 1/29<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240903T065135Z
+UID:Cours-211521-13-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241213T071500Z
+DTEND:20241213T111500Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - PHP - Miller - Laboratoires
+LOCATION;LANGUAGE=fr:1/21
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : PHP\nEnseigna
+ nt : Miller\nSalle : 1/21\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : PHP<b
+ r/>Enseignant : Miller<br/>Salle : 1/21<br/>Type : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T115252Z
+UID:Cours-211834-14-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241217T071500Z
+DTEND:20241217T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Prépresse & industrie graph.1 -
+  Derville - Laboratoires
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Prépresse & i
+ ndustrie graph.1\nEnseignant : Derville\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Prépr
+ esse & industrie graph.1<br/>Enseignant : Derville<br/>Type : Laboratoires
+ <br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T115244Z
+UID:Cours-214517-1-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20240920T061500Z
+DTEND:20240920T103000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Prépresse & industrie graph.1 -
+  Derville - Laboratoires
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Prépresse & i
+ ndustrie graph.1\nEnseignant : Derville\nSalle : 1/18\nType : Laboratoires
+ \n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Prépr
+ esse & industrie graph.1<br/>Enseignant : Derville<br/>Salle : 1/18<br/>Ty
+ pe : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T115244Z
+UID:Cours-214517-3-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241004T061500Z
+DTEND:20241004T103000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Prépresse & industrie graph.1 -
+  Derville - Laboratoires
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Prépresse & i
+ ndustrie graph.1\nEnseignant : Derville\nSalle : 1/18\nType : Laboratoires
+ \n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Prépr
+ esse & industrie graph.1<br/>Enseignant : Derville<br/>Salle : 1/18<br/>Ty
+ pe : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T115244Z
+UID:Cours-214517-8-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241108T071500Z
+DTEND:20241108T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Prépresse & industrie graph.1 -
+  Derville - Laboratoires
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Prépresse & i
+ ndustrie graph.1\nEnseignant : Derville\nSalle : 1/18\nType : Laboratoires
+ \n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Prépr
+ esse & industrie graph.1<br/>Enseignant : Derville<br/>Salle : 1/18<br/>Ty
+ pe : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T115244Z
+UID:Cours-214517-10-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241122T071500Z
+DTEND:20241122T113000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Prépresse & industrie graph.1 -
+  Derville - Laboratoires
+LOCATION;LANGUAGE=fr:1/18
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Prépresse & i
+ ndustrie graph.1\nEnseignant : Derville\nSalle : 1/18\nType : Laboratoires
+ \n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Prépr
+ esse & industrie graph.1<br/>Enseignant : Derville<br/>Salle : 1/18<br/>Ty
+ pe : Laboratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240905T125214Z
+UID:Cours-214565-1-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20240916T083000Z
+DTEND:20240916T103000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika\, Groupe 2 BA2P Teknika - Anglais
+  - Delmotte
+LOCATION;LANGUAGE=fr:1/32
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\, Groupe 2 BA2P Teknika\
+ nMatière : Anglais\nEnseignant : Delmotte\nSalle : 1/32\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika\, Groupe 2 BA2P Tek
+ nika<br/>Matière : Anglais<br/>Enseignant : Delmotte<br/>Salle : 1/32<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240910T061619Z
+UID:Cours-214704-1-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20240919T113000Z
+DTEND:20240919T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Création graphique 3D - D'Hondt
+  - Laboratoires
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Création grap
+ hique 3D\nEnseignant : D'Hondt\nSalle : 1/16\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Créat
+ ion graphique 3D<br/>Enseignant : D'Hondt<br/>Salle : 1/16<br/>Type : Labo
+ ratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240910T061619Z
+UID:Cours-214704-2-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20240926T113000Z
+DTEND:20240926T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Création graphique 3D - D'Hondt
+  - Laboratoires
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Création grap
+ hique 3D\nEnseignant : D'Hondt\nSalle : 1/16\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Créat
+ ion graphique 3D<br/>Enseignant : D'Hondt<br/>Salle : 1/16<br/>Type : Labo
+ ratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240910T061619Z
+UID:Cours-214704-3-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241003T113000Z
+DTEND:20241003T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Création graphique 3D - D'Hondt
+  - Laboratoires
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Création grap
+ hique 3D\nEnseignant : D'Hondt\nSalle : 1/16\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Créat
+ ion graphique 3D<br/>Enseignant : D'Hondt<br/>Salle : 1/16<br/>Type : Labo
+ ratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240910T061619Z
+UID:Cours-214704-4-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241010T113000Z
+DTEND:20241010T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Création graphique 3D - D'Hondt
+  - Laboratoires
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Création grap
+ hique 3D\nEnseignant : D'Hondt\nSalle : 1/16\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Créat
+ ion graphique 3D<br/>Enseignant : D'Hondt<br/>Salle : 1/16<br/>Type : Labo
+ ratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240910T061619Z
+UID:Cours-214704-5-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241017T113000Z
+DTEND:20241017T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Création graphique 3D - D'Hondt
+  - Laboratoires
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Création grap
+ hique 3D\nEnseignant : D'Hondt\nSalle : 1/16\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Créat
+ ion graphique 3D<br/>Enseignant : D'Hondt<br/>Salle : 1/16<br/>Type : Labo
+ ratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240910T061619Z
+UID:Cours-214704-6-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241024T113000Z
+DTEND:20241024T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Création graphique 3D - D'Hondt
+  - Laboratoires
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Création grap
+ hique 3D\nEnseignant : D'Hondt\nSalle : 1/16\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Créat
+ ion graphique 3D<br/>Enseignant : D'Hondt<br/>Salle : 1/16<br/>Type : Labo
+ ratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240910T061619Z
+UID:Cours-214704-8-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241107T123000Z
+DTEND:20241107T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Création graphique 3D - D'Hondt
+  - Laboratoires
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Création grap
+ hique 3D\nEnseignant : D'Hondt\nSalle : 1/23\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Créat
+ ion graphique 3D<br/>Enseignant : D'Hondt<br/>Salle : 1/23<br/>Type : Labo
+ ratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240910T061619Z
+UID:Cours-214704-9-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241114T123000Z
+DTEND:20241114T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Création graphique 3D - D'Hondt
+  - Laboratoires
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Création grap
+ hique 3D\nEnseignant : D'Hondt\nSalle : 1/16\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Créat
+ ion graphique 3D<br/>Enseignant : D'Hondt<br/>Salle : 1/16<br/>Type : Labo
+ ratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240910T061619Z
+UID:Cours-214704-10-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241121T123000Z
+DTEND:20241121T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Création graphique 3D - D'Hondt
+  - Laboratoires
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Création grap
+ hique 3D\nEnseignant : D'Hondt\nSalle : 1/16\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Créat
+ ion graphique 3D<br/>Enseignant : D'Hondt<br/>Salle : 1/16<br/>Type : Labo
+ ratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240910T061619Z
+UID:Cours-214704-11-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241128T123000Z
+DTEND:20241128T163000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Création graphique 3D - D'Hondt
+  - Laboratoires
+LOCATION;LANGUAGE=fr:1/16
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Création grap
+ hique 3D\nEnseignant : D'Hondt\nSalle : 1/16\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Créat
+ ion graphique 3D<br/>Enseignant : D'Hondt<br/>Salle : 1/16<br/>Type : Labo
+ ratoires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+LAST-MODIFIED:20240923T074606Z
+UID:Cours-215723-11-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART:20241129T123000Z
+DTEND:20241129T153000Z
+SUMMARY;LANGUAGE=fr:Groupe 1 BA2P Teknika - Traitement du son - Sottiaux - 
+ Laboratoires
+LOCATION;LANGUAGE=fr:1/23
+DESCRIPTION;LANGUAGE=fr:TD : Groupe 1 BA2P Teknika\nMatière : Traitement du
+  son\nEnseignant : Sottiaux\nSalle : 1/23\nType : Laboratoires\n
+X-ALT-DESC;FMTTYPE=text/html:TD : Groupe 1 BA2P Teknika<br/>Matière : Trait
+ ement du son<br/>Enseignant : Sottiaux<br/>Salle : 1/23<br/>Type : Laborat
+ oires<br/>
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+UID:Ferie-939-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART;VALUE=DATE:20240927
+DTEND;VALUE=DATE:20240928
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+UID:Ferie-940-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:HYPERPLANNING
+DTSTAMP:20240924T145716Z
+UID:Ferie-941-Groupe_1_BA2P_Teknika-Index-Education
+DTSTART;VALUE=DATE:20241111
+DTEND;VALUE=DATE:20241112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+END:VCALENDAR
