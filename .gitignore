@@ -8,3 +8,6 @@ logs/
 
 # Powershell
 *.ps1
+
+# test files
+test.*
