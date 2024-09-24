@@ -117,8 +117,7 @@ function addEventToCalendar(event ,color) {
 
         // Créer un élément pour l'événement et l'ajouter à la case du calendrier
         const eventElement = document.createElement('div');
-        eventElement.className = 'event';
-        eventElement.innerHTML = `<span class="summary">${summary}</span><br> ${location || ''}  ${formattedStartDate} - ${formattedEndDate}`;
+        eventElement.className = 'event';eventElement.innerHTML = `<span class="summary">${summary}</span><br> ${location || ''} <br> ${formattedStartDate} - ${formattedEndDate}`;
         eventElement.style.backgroundColor = color;
         calendarDay.appendChild(eventElement);
     }
@@ -162,8 +161,9 @@ function generateCalendar() {
         dayElement.innerHTML = `<strong>${formattedDate}</strong>`;
 
         // Ajouter la classe "old" si la date est passée
-        if (currentDay < date) {
+        if (currentDay < date.setHours(0, 0, 0, 0)) {
             dayElement.classList.add('old');
+            console.log( currentDay, date);
         }
 
         currentWeek.appendChild(dayElement);
