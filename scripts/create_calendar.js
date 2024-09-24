@@ -145,6 +145,7 @@ function generateCalendar() {
     while (currentDay <= endDate) {
         // Commencer une nouvelle semaine chaque lundi
         if (currentDay.getDay() === 1 || calendar.lastChild === null) {
+            currentWeek = document.createElement('div');
             currentWeek.className = 'week-row';
             calendar.appendChild(currentWeek);
         }
@@ -163,7 +164,6 @@ function generateCalendar() {
         // Ajouter la classe "old" si la date est passée
         if (currentDay < date.setHours(0, 0, 0, 0)) {
             dayElement.classList.add('old');
-            console.log( currentDay, date);
         }
 
         currentWeek.appendChild(dayElement);
