@@ -16,7 +16,6 @@ function addInfoToURL(param, info) {
     url.searchParams.set(param, info);
     window.history.replaceState({}, '', url);
     params = new URLSearchParams(window.location.search);
-    console.log(params.get('display'))
 }
 
 function msToTime(duration, display = "short") {
@@ -126,10 +125,8 @@ function addEventToCalendar(event ,color) {
 }
 
 // Fonction pour générer un calendrier structuré en semaines pour le mois en cours
-function generateCalendar(calendar_display = "daily") {
+function generateCalendar() {
     let currentWeek = document.createElement('div');
-    calendar_display = calendar_display.toLowerCase();
-    console.log(calendar_display);
     const calendar = document.getElementById('calendar');
     calendar.innerHTML = ''; // Vider le calendrier avant de le remplir
     const date = new Date();
@@ -172,18 +169,16 @@ function generateCalendar(calendar_display = "daily") {
         currentDay.setDate(currentDay.getDate() + 1);
     }
 
-    if (calendar_display) {
-        // ajoute un bouton pour aller au jour actuel
-        const currentDayElement = `day-${currentYear}-${currentMonth + 1}-${currentDate}`;
-        const todayButton = document.createElement('a');
-        todayButton.className = 'today-button';
-        todayButton.href = `#${currentDayElement}`
-        todayButton.innerHTML = 'Aujourd\'hui';
-        if (calendar && calendar.parentNode) {
-            calendar.parentNode.insertBefore(todayButton, calendar);
-        } else {
-            console.error('Impossible de trouver le parent du calendrier.');
-        }
+     // ajoute un bouton pour aller au jour actuel
+    const currentDayElement = `day-${currentYear}-${currentMonth + 1}-${currentDate}`;
+    const todayButton = document.createElement('a');
+    todayButton.className = 'today-button';
+    todayButton.href = `#${currentDayElement}`
+    todayButton.innerHTML = 'Aujourd\'hui';
+    if (calendar && calendar.parentNode) {
+        calendar.parentNode.insertBefore(todayButton, calendar);
+    } else {
+        console.error('Impossible de trouver le parent du calendrier.');
     }
 }
 

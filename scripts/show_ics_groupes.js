@@ -23,7 +23,7 @@ fetch('./ics/ics.json')
                 for (const [groupName] of Object.entries(value.groupes)) {
                     calendar_group = `${(key + "_" + groupName).replace(" ", "_")}`;
                     const link = document.createElement('a');
-                    link.href = `calendar.html?calendar_group=${calendar_group}&display=Daily`;
+                    link.href = `calendar.html?calendar_group=${calendar_group}`;
                     link.textContent = groupName;
                     main.appendChild(link);
 
