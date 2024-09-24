@@ -93,8 +93,8 @@ async function loadICSFile(f_toload) {
 function addEventToCalendar(event ,color) {
     const startDate = event.startDate.toJSDate();
     const endDate = event.endDate.toJSDate();
-    const formattedStartDate = startDate.toLocaleString('belgium');
-    const formattedEndDate = endDate.toLocaleString('belgium');
+    const formattedStartDate = startDate.toLocaleString('belgium', { hour: '2-digit', minute: '2-digit' });
+    const formattedEndDate = endDate.toLocaleString('belgium', { hour: '2-digit', minute: '2-digit' });
     let summary = event.summary;
     let location = event.location;
     /*let description = event.description;
@@ -118,7 +118,7 @@ function addEventToCalendar(event ,color) {
         // Créer un élément pour l'événement et l'ajouter à la case du calendrier
         const eventElement = document.createElement('div');
         eventElement.className = 'event';
-        eventElement.innerHTML = `${summary}<br> ${location}<ul><li> -${formattedStartDate}</li> <li> -${formattedEndDate}</li></ul> <br> ${msToTime(endDate - startDate)}`;
+        eventElement.innerHTML = `<span class="summary">${summary}</span><br> ${location || ''}  ${formattedStartDate} - ${formattedEndDate}`;
         eventElement.style.backgroundColor = color;
         calendarDay.appendChild(eventElement);
     }
@@ -154,6 +154,9 @@ function generateCalendar() {
         const dayElement = document.createElement('div');
         dayElement.className = 'day empty';
         dayElement.id = `day-${currentDay.getFullYear()}-${(currentDay.getMonth() + 1)}-${currentDay.getDate()}`;
+        if (currentDay.getDate() === currentDate) {
+            dayElement.classList.add('today');
+        }
         const dayName = ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'][currentDay.getDay()];
         const formattedDate = `${dayName} ${currentDay.getDate().toString().padStart(2, '0')}/${(currentDay.getMonth() + 1).toString().padStart(2, '0')}/${currentDay.getFullYear().toString().slice(-2)}`;
         dayElement.innerHTML = `<strong>${formattedDate}</strong>`;
@@ -169,7 +172,7 @@ function generateCalendar() {
         currentDay.setDate(currentDay.getDate() + 1);
     }
 
-     // ajoute un bouton pour aller au jour actuel
+    // ajoute un bouton pour aller au jour actuel
     const currentDayElement = `day-${currentYear}-${currentMonth + 1}-${currentDate}`;
     const todayButton = document.createElement('a');
     todayButton.className = 'today-button';
@@ -183,12 +186,10 @@ function generateCalendar() {
 }
 
 
-
 // Récupère les informations de l'URL
 let params = new URLSearchParams(window.location.search);
 const calendar_group = params.get('calendar_group') || showCustomAlert("Aucun calendrier spécifié._nl_Veuillez sélectionner un groupe.");
 const calendar_display = params.get('display');
-
 
 
 generateCalendar(calendar_display);

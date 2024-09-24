@@ -110,6 +110,10 @@ main {
     padding: 5px;
 }
 
+.event .summary {
+    font-weight: bold;
+}
+
 .old {
     filter: grayscale(0.55);
 }
