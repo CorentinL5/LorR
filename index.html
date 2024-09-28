@@ -1,28 +1,84 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Bienvenue sur LorR, l'alternative intuitive pour naviguer facilement dans votre emploi du temps.">
+        <meta name="keywords" content="LorR, emploi du temps, HEH, Hyperplanning, ergonomie, étudiant, navigation facile">
+        <meta name="author" content="CorentinL5">
 
-    <title>LorR | Groupes</title>
+        <title>LorR | Bienvenue</title>
 
-    <link rel="icon" href="assets/lorr-icon.ico" type="image/x-icon">
+        <link rel="icon" href="assets/lorr-icon.ico" type="image/x-icon">
 
-    <script src="scripts/custom_alerts.js"></script>
+        <script src="scripts/custom_alerts.js"></script>
+        <script src="scripts/navigation.js"></script>
 
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/choices.css">
-</head>
-<body>
-    <header>
-        <h1>Choissiez L'orR</h1>
-    </header>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/choices.css">
 
-    <main id="groupes">
+        <style>
+            body {
+                margin: 0;
+                font-family: 'Roboto', sans-serif;
+                background-color: #f4f4f4; /* Couleur gris clair pour le fond */
+                color: #333; /* Couleur du texte en gris foncé */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                height: 100vh;
+                text-align: center;
+            }
 
-    </main>
-    <script src="scripts/show_ics_groupes.js"></script>
-    <script src="scripts/custom_alerts.js"></script>
-</body>
+            .container {
+                max-width: 800px;
+                padding: 20px;
+                background: white;
+                border-radius: 15px;
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                margin-top: 50px;
+            }
+
+            .container h2 {
+                font-size: 2.5rem;
+                color: #00549f; /* Bleu HEH pour le titre */
+                margin-bottom: 10px;
+            }
+
+            .container p {
+                font-size: 1.2rem;
+                line-height: 1.5;
+                color: #333;
+                margin-bottom: 20px;
+            }
+
+            .btn {
+                display: inline-block;
+                padding: 10px 20px;
+                font-size: 1rem;
+                color: white;
+                background-color: #00549f; /* Bleu HEH pour le bouton */
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+
+            .btn:hover {
+                background-color: #003c73; /* Bleu plus foncé pour l'effet hover */
+            }
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <h2>Bienvenue sur LorR</h2>
+        <p>
+            Découvrez une nouvelle manière de naviguer dans vos emplois du temps, avec une ergonomie et une simplicité surpassant Hyperplanning.
+            <br>Optimisé pour les étudiants et les enseignants, LorR vous offre une expérience fluide et agréable.
+        </p>
+        <a href="choices.html" class="btn">Commencer</a>
+    </div>
+    </body>
 </html>

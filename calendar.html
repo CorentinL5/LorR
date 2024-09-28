@@ -1,37 +1,34 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>LorR | Calendrier</title>
+            <title>LorR | Calendrier</title>
 
-    <link rel="stylesheet" href="styles/style.css">
+            <link rel="icon" href="assets/lorr-icon.ico" type="image/x-icon">
 
-    <link rel="icon" href="assets/lorr-icon.ico" type="image/x-icon">
+            <script src="scripts/custom_alerts.js"></script>
+            <script src="scripts/navigation.js"></script>
 
-    <script src="scripts/custom_alerts.js"></script>
-    <!-- Librairie pour parser l'ICS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ical.js/1.5.0/ical.min.js"></script>
-</head>
-<body>
-    <header>
-        <h1>L'orR</h1>
-    </header>
+            <link rel="stylesheet" href="styles/style.css">
+            <link rel="stylesheet" href="styles/choices.css">
+            <link rel="stylesheet" href="styles/calendar.css">
 
-    <main>
-        <div id="calendar">
-            <!-- Calendrier généré ici -->
-        </div>
+            <!-- Librairie pour parser l'ICS -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/ical.js/1.5.0/ical.min.js"></script>
+    </head>
+    <body>
+        <main>
+            <div id="calendar">
+                <!-- Calendrier généré ici -->
+                <script src="scripts/create_calendar.js"></script>
+            </div>
+        </main>
+        <footer>
+            <p>By Tarumo</p>
+        </footer>
 
-    </main>
-
-    <footer>
-        <p>By Tarumo</p>
-    </footer>
-
-    <script src="scripts/custom_alerts.js"></script>
-    <script src="scripts/create_calendar.js"></script>
-</body>
+    </body>
 </html>

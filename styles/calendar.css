@@ -1,0 +1,52 @@
+#calendar {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#calendar * {
+    border-radius: 5px;
+}
+
+.week-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.day {
+    height: 50%;
+    width: calc(100% / 7);
+    border: solid 1px black;
+}
+
+.event {
+    background-color: #f0f0f0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f0f0f0;
+    margin: 5px;
+    padding: 5px;
+}
+
+.event .summary {
+    font-weight: bold;
+}
+
+.old {
+    filter: grayscale(0.85);
+}
+
+@media (max-width: 1200px) {
+    .week-row {
+        flex-direction: column;
+    }
+
+    .day {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .day.empty {
+        display: none;
+    }
+}

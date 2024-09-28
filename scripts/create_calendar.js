@@ -118,7 +118,8 @@ function addEventToCalendar(event ,color) {
         // Créer un élément pour l'événement et l'ajouter à la case du calendrier
         const eventElement = document.createElement('div');
         eventElement.className = 'event';eventElement.innerHTML = `<span class="summary">${summary}</span><br> ${location || ''} <br> ${formattedStartDate} - ${formattedEndDate}`;
-        eventElement.style.backgroundColor = color;
+        eventElement.style.backgroundColor = color + '85';
+        eventElement.style.borderColor = color;
         calendarDay.appendChild(eventElement);
     }
 }
@@ -194,4 +195,3 @@ const calendar_display = params.get('display');
 
 generateCalendar(calendar_display);
 loadICSFile(calendar_group).then(() => console.log('Calendrier chargé avec succès!'));
-
