@@ -104,3 +104,10 @@ body.dark-theme .dark-theme-toggle {
     background-color: #F9F6EE;
     color: #282b30;
 }
+
+
+@media (max-width: 600px) {
+    html {
+        font-size: 0.7rem;
+    }
+}
