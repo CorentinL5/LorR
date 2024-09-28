@@ -76,7 +76,7 @@ fetch('./ics/ics.json')
         // Ajouter un bouton pour soumettre les choix sélectionnés
         const submitButton = document.createElement('button');
         submitButton.type = 'submit';
-        submitButton.textContent = 'Valider les choix';
+        submitButton.textContent = 'Valider le.s choix';
         submitButton.id = 'submitChoices';
 
         form.appendChild(submitButton);
@@ -88,16 +88,13 @@ fetch('./ics/ics.json')
                 .map(checkbox => checkbox.value);
             if (selectedLinks.length === 0) {
                 showCustomAlert('Aucun cours sélectionné');
-                return;
             } else if (selectedLinks.length === 1) {
                 window.location.href = selectedLinks[0];
-                return;
             } else if (selectedLinks.length > 1) {
                 showCustomAlert('Veuillez sélectionner un seul cours <br>Cette fonctionnalité n\'est pas encore disponible');
-                return;
+            } else {
+                showCustomAlert('Woaw ! <br>Une erreur inconnue est survenue');
             }
-            showCustomAlert('Liens sélectionnés:<br>' + selectedLinks.join('<br>'));
-            /*alert('Liens sélectionnés:\n' + selectedLinks.join('\n'));*/
         });
 
         // Ajouter le formulaire à la page

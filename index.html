@@ -1,86 +1,151 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Bienvenue sur LorR, l'alternative intuitive pour naviguer facilement dans votre emploi du temps.">
-        <meta name="keywords" content="LorR, emploi du temps, HEH, Hyperplanning, ergonomie, étudiant, navigation facile">
-        <meta name="author" content="CorentinL5">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenue sur LorR, l'alternative intuitive pour naviguer facilement dans votre emploi du temps.">
+    <meta name="keywords" content="LorR, emploi du temps, HEH, Hyperplanning, ergonomie, étudiant, navigation facile">
+    <meta name="author" content="CorentinL5">
 
-        <title>LorR | Bienvenue</title>
+    <title>LorR | Bienvenue</title>
 
-        <link rel="icon" href="assets/lorr-icon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/lorr-icon.ico" type="image/x-icon">
 
-        <script src="scripts/custom_alerts.js"></script>
-        <script src="scripts/navigation.js"></script>
-        <script src="scripts/dark_theme.js"></script>
+    <script src="scripts/custom_alerts.js"></script>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/dark_theme.js"></script>
 
-        <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
 
-        <!-- Librairie pour les émojis -->
-        <script src="https://kit.fontawesome.com/67823d9271.js" crossorigin="anonymous"></script>
+    <!-- Librairie pour les émojis -->
+    <script src="https://kit.fontawesome.com/67823d9271.js" crossorigin="anonymous"></script>
 
-        <style>
-            body {
-                margin: 0;
-                font-family: 'Roboto', sans-serif;
-                background-color: #f4f4f4; /* Couleur gris clair pour le fond */
-                color: #333; /* Couleur du texte en gris foncé */
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: space-between;
-                height: 100vh;
-                text-align: center;
-            }
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 100vh;
+            text-align: center;
+        }
 
-            .container {
-                max-width: 800px;
-                padding: 20px;
-                background: rgba(255, 255, 255, .1);
-                border-radius: 15px;
-                box-shadow: 0 4px 30px rgba(155, 155, 155, 0.3);
-                margin: 75px 15px;
-            }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background: rgba(255, 255, 255, .1);
+            border-radius: 15px;
+            box-shadow: 0 4px 30px rgba(155, 155, 155, 0.3);
+            margin: 75px 15px;
+        }
 
-            .container h2 {
-                font-size: 2.5rem;
-                color: #0165be; /* Bleu HEH pour le titre */
-                margin-bottom: 10px;
-            }
+        .container h2 {
+            font-size: 2.5rem;
+            color: #0165be; /* Bleu HEH pour le titre */
+            margin-bottom: 10px;
+        }
 
-            .container p {
-                font-size: 1.2rem;
-                line-height: 1.5;
-                margin-bottom: 20px;
-            }
+        .container p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
 
-            .btn {
-                display: inline-block;
-                padding: 10px 20px;
-                font-size: 1rem;
-                color: white;
-                background-color: #00549f; /* Bleu HEH pour le bouton */
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-                transition: background-color 0.3s;
-            }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
 
-            .btn:hover {
-                background-color: #003c73; /* Bleu plus foncé pour l'effet hover */
-            }
-        </style>
-    </head>
-    <body>
-    <div class="container">
-        <h2>Bienvenue sur LorR</h2>
-        <p>
-            Découvrez une nouvelle manière de naviguer dans vos emplois du temps, avec une ergonomie et une simplicité surpassant Hyperplanning.
-            <br>Optimisé pour les étudiants et les enseignants, LorR vous offre une expérience fluide et agréable.
-        </p>
-        <a href="choices.html" class="btn">Commencer</a>
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background: rgb(0,135,255);
+            background: linear-gradient(0deg, rgba(0,135,255,1) 0%, rgba(0,84,159,1) 90%);
+            min-width: 160px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 0 0 5px 5px;
+            z-index: 1;
+        }
+
+        .dropdown-content .dropdown-btn {
+            display: block;
+            color: #F9F6EE;
+            width: 100%;
+            padding: 12px 16px;
+            text-decoration: none;
+            background: none;
+            border: none;
+            text-align: left;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-transform: capitalize;
+        }
+
+        .dropdown-content .dropdown-btn:not(:last-child) {
+            border-bottom: 1px solid #ddd;
+        }
+
+        .dropdown-content .dropdown-btn:last-child {
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .dropdown-content .dropdown-btn:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown-content .dropdown-btn:disabled {
+            color: #999;
+            cursor: not-allowed;
+            background-color: rgb(136 136 136 / 25%);
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+            width: 100%;
+        }
+
+        .dropdown:hover .dropbtn,
+        .dropdown:focus .dropbtn,
+        .dropdown:active .dropbtn {
+            background-color: #003c73;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .dropbtn {
+            background-color: #00549f; /* Couleur du bouton */
+            color: white;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .dropbtn i {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Bienvenue sur LorR</h2>
+    <p>
+        Découvrez une nouvelle manière de naviguer dans vos emplois du temps, avec une ergonomie et une simplicité surpassant Hyperplanning.
+        <br>Optimisé pour les étudiants et les enseignants, LorR vous offre une expérience fluide et agréable.
+    </p>
+    <div class="dropdown">
+        <button class="dropbtn">
+            Choisir une option
+            <i class="fa-solid fa-chevron-down"></i>
+        </button>
+            <div class="dropdown-content">
+                <button onclick="location.href='choices.html'" class="dropdown-btn">étudiant</button>
+                <button onclick="location.href='#'" class="dropdown-btn" disabled>professeur</button>
+            </div>
     </div>
-    </body>
+</div>
+</body>
 </html>

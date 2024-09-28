@@ -31,33 +31,6 @@ function applyTheme(theme) {
     }
 }
 
-// Ajoutez le CSS suivant pour gérer le style du thème sombre et du bouton
-/*
-.dark-theme {
-    background-color: #282b30;
-    color: whitesmoke;
-}
-
-.dark-theme-toggle {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    z-index: 10000;
-    padding: 10px;
-    background-color: #282b30;
-    color: whitesmoke;
-    border: none;
-    cursor: pointer;
-    font-family: sans-serif;
-    font-size: 14px;
-}
-
-.dark-theme .dark-theme-toggle {
-    background-color: whitesmoke;
-    color: #282b30;
-}
-*/
-
 // Ajout d'un événement pour les liens
 document.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', (event) => {
