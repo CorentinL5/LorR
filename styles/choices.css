@@ -42,13 +42,13 @@
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
 }
 
 /* Style pour le titre principal */
 #groupes #formChoices div > strong {
     font-size: 1.5em;
-    color: #2c3e50;
+    color: #2980b9;
     display: block;
     margin-bottom: 10px;
 }
@@ -60,7 +60,7 @@
     padding: 10px;
     border: 1px solid #e1e1e1;
     border-radius: 5px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 
 /* Style pour les cases à cocher */

@@ -1,22 +1,8 @@
-const json_colors = {
-    "light": [
+const json_colors = [
         "#ff5871", "#ee6291", "#c47ecd", "#9f7fcf", "#818cce", "#5db4f3", "#56c7f9", "#66d7e6", "#7ec9c5", "#84ca8a",
         "#abd57b", "#dae66b", "#eeda00", "#ffd651", "#ffbb50", "#e6776b", "#b3a097", "#afafaf", "#9aaab4", "#ff4356"
-    ],
-    "dark": [
-        "#263238", "#212121", "#37474F", "#1C313A", "#004D40", "#3E2723", "#BF360C", "#4A148C", "#880E4F", "#311B92",
-        "#0D47A1", "#01579B", "#006064", "#1B5E20", "#33691E", "#827717", "#F57F17", "#E65100", "#4E342E", "#5D4037"
     ]
-}
 const colorCache = {};
-
-//mettre l'info dans l'url lors d'un clic sur un bouton
-function addInfoToURL(param, info) {
-    const url = new URL(window.location.href);
-    url.searchParams.set(param, info);
-    window.history.replaceState({}, '', url);
-    params = new URLSearchParams(window.location.search);
-}
 
 function msToTime(duration, display = "short") {
     let milliseconds = ((duration % 1000) / 100)
@@ -54,8 +40,8 @@ function assignColor(vevent) {
         color = colorCache[vevent_summary]; // Utilise la couleur déjà assignée
     } else {
         // Génère un index basé sur le résumé pour choisir une couleur
-        const index = hashStringToIndex(vevent_summary, json_colors.light.length);
-        color = json_colors.light[index]; // Sélectionne une couleur basée sur l'index
+        const index = hashStringToIndex(vevent_summary, json_colors.length);
+        color = json_colors[index]; // Sélectionne une couleur basée sur l'index
 
         // Enregistre la couleur dans le cache pour ce résumé
         colorCache[vevent_summary] = color;

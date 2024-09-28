@@ -38,11 +38,12 @@ a {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #F9F6EE;
+    color: #282b30;
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    transition: background-color 0.04s ease, color 0.04s ease;
 }
 
 main {
@@ -72,4 +73,34 @@ main {
     background: lightcoral;
     color: white;
     text-shadow: 0 0.1rem #bcb4b4;
+}
+
+
+/* Mode sombre */
+.dark-theme {
+    background-color: #282b30;
+    color: #F9F6EE;
+}
+
+body > .dark-theme-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 10000;
+    padding: 10px;
+    background-color: #282b30;
+    color: #F9F6EE;
+    border: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 14px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+
+}
+
+body.dark-theme .dark-theme-toggle {
+    background-color: #F9F6EE;
+    color: #282b30;
 }

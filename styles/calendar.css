@@ -16,7 +16,9 @@
 .day {
     height: 50%;
     width: calc(100% / 7);
-    border: solid 1px black;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #888888;
 }
 
 .event {
