@@ -73,7 +73,7 @@ form.addEventListener('submit', (event) => {
     if (selectedLinks.length === 0) {
         showCustomAlert('Aucun cours sélectionné');
     } else if (selectedLinks.length > 1) {
-        window.location.href = `calendar.html?calendar_group=${selectedLinks[0]}`;
+        window.location.href = `calendar.html?calendar_group=${selectedLinks.join('_:_').replaceAll(" ", "_")}`;
     } else {
         showCustomAlert('Woaw ! <br>Une erreur inconnue est survenue');
     }
