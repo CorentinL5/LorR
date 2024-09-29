@@ -62,11 +62,17 @@ async function loadICSFile(f_toload) {
         const comp = new ICAL.Component(jcalData);
         const events = comp.getAllSubcomponents('vevent');
 
-        // Récupérer les événements et les ajouter au calendrier
-        events.forEach(event => {
+        // Récupérer les événements, les trie et les ajoute au calendrier
+        events.sort((a, b) => {
+            const eventA = new ICAL.Event(a);
+            const eventB = new ICAL.Event(b);
+            return eventA.startDate.toJSDate() - eventB.startDate.toJSDate();
+        }).forEach(event => {
             const vevent = new ICAL.Event(event);
             addEventToCalendar(vevent, assignColor(vevent));
         });
+
+
     }
     catch (error) {
         console.error('Erreur lors du chargement du fichier ICS:', error);
@@ -89,14 +95,16 @@ function addEventToCalendar(event ,color) {
     } else if (description == null && summary == null) {
         description = "Description non disponible"
     }*/
-    if (startDate.toDateString() !== endDate.toDateString()) {
-        while (startDate < endDate) {
-            addHTMLEventToCalendar(startDate, summary, location, formattedStartDate, formattedEndDate, color);
-            startDate.setDate(startDate.getDate() + 1);
-        }
-    }
 
-    addHTMLEventToCalendar(startDate, summary, location, formattedStartDate, formattedEndDate, color);
+    if (startDate.toDateString() !== endDate.toDateString()) {
+        let tempDate = new Date(startDate); // Clone de startDate pour la manipulation
+        while (tempDate < endDate && tempDate.toDateString() !== endDate.toDateString()) {
+            addHTMLEventToCalendar(tempDate, summary, location, formattedStartDate, formattedEndDate, color);
+            tempDate.setDate(tempDate.getDate() + 1); // Incrémente tempDate sans toucher à startDate
+        }
+    } else {
+        addHTMLEventToCalendar(startDate, summary, location, formattedStartDate, formattedEndDate, color);
+    }
 }
 
 function addHTMLEventToCalendar(startDate, summary, location, formattedStartDate, formattedEndDate, color) {
@@ -114,6 +122,8 @@ function addHTMLEventToCalendar(startDate, summary, location, formattedStartDate
         eventElement.className = 'event';eventElement.innerHTML = `<span class="summary">${summary}</span><br> ${location || ''} <br> ${formattedStartDate} - ${formattedEndDate}`;
         eventElement.style.backgroundColor = color + '85';
         eventElement.style.borderColor = color;
+
+
         calendarDay.appendChild(eventElement);
     }
 }
@@ -128,7 +138,7 @@ function generateCalendar() {
     const currentYear = date.getFullYear();
     const currentMonth = date.getMonth(); // Mois actuel (0-11)
     const currentDate = date.getDate(); // Jour actuel (1-31)
-    const currentDayOfWeek = (date.getDay() === 0) ? 7 : date.getDay(); // Jour de la semaine actuel (lundi=1, dimanche=7)
+    //const currentDayOfWeek = (date.getDay() === 0) ? 7 : date.getDay(); // Jour de la semaine actuel (lundi=1, dimanche=7)
 
     // Calculer les dates pour la semaine précédente, actuelle et suivante
     /*const startDate = new Date(currentYear, currentMonth, currentDate - currentDayOfWeek - 6); // Début de la semaine précédente (lundi)
