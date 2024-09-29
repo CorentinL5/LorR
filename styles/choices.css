@@ -72,13 +72,15 @@
     cursor: pointer;
 }
 
+/* Style pour les cases à cocher survolées */
 #groupes #formChoices div:not(:has(div)):has(input[type="checkbox"]:hover) {
     background-color: rgb(0 84 159 / 30%);
     border-color: rgb(136 136 136 / 53%);
 }
+
 /* Style pour les cases à cocher cochées */
-#groupes #formChoices div > div > input[type="checkbox"]:checked {
-    opacity:0.5;
+#groupes #formChoices div:not(:has(div)):has(input[type="checkbox"]:checked) {
+    border-color: #dd0000;
 }
 
 
