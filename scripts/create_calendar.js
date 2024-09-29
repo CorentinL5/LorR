@@ -1,4 +1,4 @@
-const json_colors = [
+const jsonColors = [
         "#ff5871", "#ee6291", "#c47ecd", "#9f7fcf", "#818cce", "#5db4f3", "#56c7f9", "#66d7e6", "#7ec9c5", "#84ca8a",
         "#abd57b", "#dae66b", "#eeda00", "#ffd651", "#ffbb50", "#e6776b", "#b3a097", "#afafaf", "#9aaab4", "#ff4356"
     ]
@@ -25,8 +25,8 @@ function assignColor(vevent) {
         color = colorCache[vevent_summary]; // Utilise la couleur déjà assignée
     } else {
         // Génère un index basé sur le résumé pour choisir une couleur
-        const index = hashStringToIndex(vevent_summary, json_colors.length);
-        color = json_colors[index % json_colors.length]; // Sélectionne une couleur basée sur l'index
+        const index = hashStringToIndex(vevent_summary, jsonColors.length);
+        color = jsonColors[index % jsonColors.length]; // Sélectionne une couleur basée sur l'index
 
         // Enregistre la couleur dans le cache pour ce résumé
         colorCache[vevent_summary] = color;
@@ -34,34 +34,6 @@ function assignColor(vevent) {
 
     // Retourne la couleur assignée pour l'événement
     return color;
-}
-
-// Fonction pour charger et parser le fichier ICS
-async function loadICSFile(f_toload) {
-    let icsText;
-    try {
-        const response = await fetch('ics/ics_files/' + f_toload + '.ics');
-        icsText = await response.text();
-
-        // Utiliser ical.js pour parser l'ICS
-        const jcalData = ICAL.parse(icsText);
-        const comp = new ICAL.Component(jcalData);
-        const events = comp.getAllSubcomponents('vevent');
-
-        // Récupérer les événements, les trie et les ajoute au calendrier
-        events.sort((a, b) => {
-            const eventA = new ICAL.Event(a);
-            const eventB = new ICAL.Event(b);
-            return eventA.startDate.toJSDate() - eventB.startDate.toJSDate();
-        }).forEach(event => {
-            const vevent = new ICAL.Event(event);
-            addEventToCalendar(vevent, assignColor(vevent));
-        });
-    }
-    catch (error) {
-        console.error('Erreur lors du chargement du fichier ICS:', error);
-        showCustomAlert("Le Calendrier n'a pas pu être chargé complétement.");
-    }
 }
 
 // Fonction pour ajouter un événement au calendrier
@@ -111,7 +83,6 @@ function addHTMLEventToCalendar(startDate, summary, location, formattedStartDate
         calendarDay.appendChild(eventElement);
     }
 }
-
 
 // Fonction pour générer un calendrier structuré en semaines pour le mois en cours
 function generateCalendar() {
@@ -176,12 +147,40 @@ function generateCalendar() {
     }
 }
 
-
 // Récupère les informations de l'URL
 let params = new URLSearchParams(window.location.search);
-const calendar_group = params.get('calendar_group') || showCustomAlert("Aucun calendrier spécifié._nl_Veuillez sélectionner un groupe.");
-const calendar_display = params.get('display');
+let calendarGroup = params.get('calendar_group') || showCustomAlert("Aucun calendrier spécifié._nl_Veuillez sélectionner un groupe.");
+const calendarDisplay = params.get('display');
 
+generateCalendar(calendarDisplay);
 
-generateCalendar(calendar_display);
-loadICSFile(calendar_group).then(() => console.log('Calendrier chargé !'));
+calendarGroup = calendarGroup.split('_:_');
+
+calendarGroup.forEach(calendar => {
+    let lessonToLoad = calendar.split('_.'); // Correction: séparé par un simple '_'
+
+    // Vérifier si lessonToLoad[1] existe et remplacer les _ par des espaces
+    if (lessonToLoad.length > 1 && lessonToLoad[1]) {
+        lessonToLoad[1] = lessonToLoad[1].replace(/_/g, ' ');
+    }
+
+    // Charger le fichier ICS correspondant
+    loadICSFile(lessonToLoad[0])
+        .then(events => {
+            events.forEach(event => {
+                const vevent = new ICAL.Event(event);
+
+                // Si aucun nom de leçon n'est spécifié, ajouter l'événement
+                if (lessonToLoad.length === 1) {
+                    addEventToCalendar(vevent, assignColor(vevent));
+                }
+                // Si le nom de l'événement correspond au nom de la leçon, ajouter l'événement
+                else if (vevent.summary === lessonToLoad[1]) {
+                    addEventToCalendar(vevent, assignColor(vevent));
+                }
+            });
+        })
+        .catch(error => {
+            console.error("Erreur lors du chargement du fichier ICS : ", error);
+        });
+});

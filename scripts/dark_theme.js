@@ -1,3 +1,4 @@
+// Événement DOMContentLoaded pour exécuter le script une fois que le document est chargé
 document.addEventListener('DOMContentLoaded', () => {
     // Création du bouton pour activer/désactiver le thème sombre
     const darkThemeButton = document.createElement('button');
@@ -13,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     applyTheme(theme);
 });
 
+// Fonction pour basculer entre les thèmes
 function toggleTheme() {
     // Récupère le thème actuel et bascule entre 'dark' et 'light'
     const currentTheme = sessionStorage.getItem('theme') === 'dark' ? 'light' : 'dark';
@@ -20,6 +22,7 @@ function toggleTheme() {
     applyTheme(currentTheme);
 }
 
+// Fonction pour appliquer le thème
 function applyTheme(theme) {
     const darkThemeButton = document.getElementById('dark-theme-button');
     if (theme === 'dark') {

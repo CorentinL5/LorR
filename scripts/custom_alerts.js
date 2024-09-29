@@ -1,4 +1,4 @@
-// Function to create a custom alert box
+// Fonction pour afficher une alerte personnalisée
 function showCustomAlert(message) {
     getUrl = new URL(window.location.href);
     if (getUrl.searchParams.has('noalert')) { return;}
@@ -63,6 +63,8 @@ function showCustomAlert(message) {
         remove_alertbox(alertBox);
     }, 5000);
 }
+
+// Fonction pour supprimer l'alerte
 function remove_alertbox(alertBox) {
     // remove the alert after a nice slide animation
     alertBox.style.transition = 'transform 0.5s, opacity 0.5s';
@@ -74,11 +76,15 @@ function remove_alertbox(alertBox) {
     }, 500);
 }
 
-// Check if the URL has the 'alert' parameter and display the custom alert
+// Vérifie si l'URL contient un paramètre 'alert' et affiche l'alerte
 let getUrl = new URL(window.location.href);
 if (getUrl.searchParams.has('alert') && !getUrl.searchParams.has('noalert')) {
     const alertMessage = getUrl.searchParams.get('alert');
     getUrl.searchParams.delete('alert');
     window.history.replaceState({}, '', getUrl);
-    showCustomAlert(alertMessage);
+    // faire showCustomAlert dans le DOMContentLoaded
+    document.addEventListener('DOMContentLoaded', function () {
+        showCustomAlert(alertMessage);
+    });
+
 }

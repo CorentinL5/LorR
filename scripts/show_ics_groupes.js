@@ -1,56 +1,3 @@
-// Fonction récursive pour afficher la hiérarchie du JSON et générer le formulaire
-function displayJSON(parentKey, obj, container, form) {
-    Object.entries(obj).forEach(([key, value]) => {
-        // Créer une div pour contenir le niveau actuel
-        const div = document.createElement('div');
-
-        // Nom de la clé actuelle, construit avec le parent pour garder la hiérarchie
-        const fullKey = parentKey ? `${parentKey}_${key}` : key;
-
-        // Vérifier si la valeur est une URL (string)
-        if (typeof value === 'string' && value.startsWith('http')) {
-            // Créer un lien avec le nom complet
-            const linkText = makeTextBetter(key);
-
-            // Créer une checkbox pour chaque lien
-            const checkbox = document.createElement('input');
-            checkbox.type = 'checkbox';
-            checkbox.value = `calendar.html?calendar_group=${fullKey}`;
-            checkbox.id = fullKey;
-
-            // Créer un label pour la checkbox
-            const label = document.createElement('label');
-            label.htmlFor = fullKey;
-            label.textContent = linkText;
-
-            // Ajouter la checkbox et le label au div
-            div.appendChild(checkbox);
-            div.appendChild(label);
-        } else if (typeof value === 'object') {
-            // Appel récursif pour les objets imbriqués
-            const header = document.createElement('strong');
-            header.textContent = makeTextBetter(key);
-            div.appendChild(header);
-            displayJSON(fullKey, value, div, form);
-        } else {
-            // Cas non attendu (non URL et non objet)
-            div.textContent = `${key}: ${value}`;
-        }
-
-        // Ajouter l'élément créé au conteneur parent
-        container.appendChild(div);
-        form.appendChild(container); // Ajouter le div au formulaire
-    });
-}
-
-function capitalizeEachWord(str) {
-    return str.replace(/\b\w/g, l => l.toUpperCase());
-}
-
-function makeTextBetter(str) {
-    return capitalizeEachWord(str.replaceAll("-", " ").replaceAll("_", " ")).replaceAll(" En ", " en ").replaceAll(" Et ", " et ");
-}
-
 // Chargement du fichier JSON avec fetch
 fetch('./ics/ics.json')
     .then(response => {
@@ -89,9 +36,11 @@ fetch('./ics/ics.json')
             if (selectedLinks.length === 0) {
                 showCustomAlert('Aucun cours sélectionné');
             } else if (selectedLinks.length === 1) {
-                window.location.href = selectedLinks[0];
-            } else if (selectedLinks.length > 1) { /*à changer quand possible et limiter à un nombre assez petit*/
-                showCustomAlert('Veuillez sélectionner un seul cours <br>Cette fonctionnalité n\'est pas encore disponible');
+                window.location.href = `calendar.html?calendar_group=${selectedLinks[0]}`;
+            } else if (selectedLinks.length > 3) {
+                showCustomAlert('Trop de cours sélectionnés');
+            } else if (selectedLinks.length > 1) {
+                window.location.href = `lessons.html?calendar_group=${selectedLinks.join(',')}`;
             } else {
                 showCustomAlert('Woaw ! <br>Une erreur inconnue est survenue');
             }

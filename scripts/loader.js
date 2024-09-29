@@ -1,3 +1,4 @@
+// Événement DOMContentLoaded pour afficher un indicateur de chargement
 document.addEventListener('DOMContentLoaded', function () {
     // Crée l'élément de chargement
     const loadingElement = document.createElement('div');

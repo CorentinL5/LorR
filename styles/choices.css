@@ -1,5 +1,5 @@
 /* Style pour le bouton de soumission */
-#groupes #linkForm #submitChoices {
+#linkForm #submitChoices {
     position: fixed;
     right: 1em;
     bottom: 1em;
@@ -16,17 +16,17 @@
 }
 
 /* Style pour le bouton de soumission au survol */
-#groupes #linkForm #submitChoices:hover {
+#linkForm #submitChoices:hover {
     background-color: rgb(0, 99, 204);
 }
 
 /* Style pour le bouton de soumission au clic */
-#groupes #linkForm #submitChoices:active {
+#linkForm #submitChoices:active {
     background-color: rgb(0, 84, 173);
 }
 
 /* Style pour le conteneur */
-#groupes #formChoices {
+#formChoices {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
@@ -34,7 +34,7 @@
 
 }
 /* Style pour le conteneur principal */
-#groupes #formChoices div {
+#formChoices div {
     font-family: Arial, sans-serif;
     margin: 10px;
     padding: 10px;
@@ -44,7 +44,7 @@
 }
 
 /* Style pour le titre principal */
-#groupes #formChoices div > strong {
+#formChoices div > strong {
     font-size: 1.5em;
     color: #2980b9;
     display: block;
@@ -52,7 +52,7 @@
 }
 
 /* Style pour les blocs */
-#groupes #formChoices div > div {
+#formChoices div > div {
     position: relative;
     margin-top: 15px;
     padding: 10px;
@@ -62,7 +62,7 @@
 }
 
 /* Style pour les cases à cocher */
-#groupes #formChoices div > div > input[type="checkbox"] {
+#formChoices div > div > input[type="checkbox"] {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -72,20 +72,20 @@
     cursor: pointer;
 }
 
-/* Style pour les cases à cocher survolées */
-#groupes #formChoices div:not(:has(div)):has(input[type="checkbox"]:hover) {
-    background-color: rgb(0 84 159 / 30%);
-    border-color: rgb(136 136 136 / 53%);
+/* Style pour les cases à cocher cochées */
+#formChoices div:not(:has(div)):has(input[type="checkbox"]:checked) {
+    border-color: rgb(222 0 0 / 60%);
+    background-color: rgb(222 0 0 / 10%);
 }
 
-/* Style pour les cases à cocher cochées */
-#groupes #formChoices div:not(:has(div)):has(input[type="checkbox"]:checked) {
-    border-color: #dd0000;
+/* Style pour les cases à cocher survolées */
+#formChoices div:not(:has(div)):has(input[type="checkbox"]:hover) {
+    background-color: rgb(0 84 159 / 30%);
 }
 
 
 /* Style pour les sous-titres */
-#groupes #formChoices div > div > strong {
+#formChoices div > div > strong {
     font-size: 1.2em;
     font-weight: bold;
     color: #2980b9;
@@ -94,7 +94,7 @@
 }
 
 /* Style pour les liens */
-#groupes #formChoices div > div > div > a,
+#formChoices div > div > div > a,
 div > a {
     color: #3498db;
     text-decoration: none;
@@ -102,12 +102,12 @@ div > a {
     display: block;
 }
 
-#groupes #formChoices div > div > div > a:hover,
+#formChoices div > div > div > a:hover,
 div > a:hover {
     text-decoration: underline;
 }
 
-#groupes #formChoices div > div > div > a:active,
+#formChoices div > div > div > a:active,
 div > a:active {
     color: #2980b9;
 }
