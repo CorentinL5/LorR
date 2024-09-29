@@ -16,7 +16,6 @@ function msToTime(duration, display = "short") {
     if (display === "short") {
         return hours + "h" + minutes;
     } else {return hours + ":" + minutes + ":" + seconds + "." + milliseconds;}
-
 }
 
 // Fonction simple de hachage pour obtenir un index unique basé sur une chaîne
@@ -41,7 +40,7 @@ function assignColor(vevent) {
     } else {
         // Génère un index basé sur le résumé pour choisir une couleur
         const index = hashStringToIndex(vevent_summary, json_colors.length);
-        color = json_colors[index]; // Sélectionne une couleur basée sur l'index
+        color = json_colors[index % json_colors.length]; // Sélectionne une couleur basée sur l'index
 
         // Enregistre la couleur dans le cache pour ce résumé
         colorCache[vevent_summary] = color;
@@ -90,8 +89,17 @@ function addEventToCalendar(event ,color) {
     } else if (description == null && summary == null) {
         description = "Description non disponible"
     }*/
+    if (startDate.toDateString() !== endDate.toDateString()) {
+        while (startDate < endDate) {
+            addHTMLEventToCalendar(startDate, summary, location, formattedStartDate, formattedEndDate, color);
+            startDate.setDate(startDate.getDate() + 1);
+        }
+    }
 
+    addHTMLEventToCalendar(startDate, summary, location, formattedStartDate, formattedEndDate, color);
+}
 
+function addHTMLEventToCalendar(startDate, summary, location, formattedStartDate, formattedEndDate, color) {
     // Format de l'identifiant : `day-YYYY-MM-DD`
     const calendarDayId = `day-${startDate.getFullYear()}-${startDate.getMonth() + 1}-${startDate.getDate()}`;
 
@@ -110,6 +118,7 @@ function addEventToCalendar(event ,color) {
     }
 }
 
+
 // Fonction pour générer un calendrier structuré en semaines pour le mois en cours
 function generateCalendar() {
     let currentWeek = document.createElement('div');
@@ -122,9 +131,10 @@ function generateCalendar() {
     const currentDayOfWeek = (date.getDay() === 0) ? 7 : date.getDay(); // Jour de la semaine actuel (lundi=1, dimanche=7)
 
     // Calculer les dates pour la semaine précédente, actuelle et suivante
-    const startDate = new Date(currentYear, currentMonth, currentDate - currentDayOfWeek - 6); // Début de la semaine précédente (lundi)
-    const endDate = new Date(currentYear, currentMonth, currentDate + (7 - currentDayOfWeek) + 7); // Fin de la semaine suivante (dimanche)
-    console.log(startDate, endDate);
+    /*const startDate = new Date(currentYear, currentMonth, currentDate - currentDayOfWeek - 6); // Début de la semaine précédente (lundi)
+    const endDate = new Date(currentYear, currentMonth, currentDate + (7 - currentDayOfWeek) + 7); // Fin de la semaine suivante (dimanche)*/
+    const startDate = new Date(2024, 8, 2);
+    const endDate = new Date(2024, 11, 31); // Fin du mois de décembre
     // Variables pour créer le calendrier
     let currentDay = new Date(startDate);
 
@@ -180,4 +190,4 @@ const calendar_display = params.get('display');
 
 
 generateCalendar(calendar_display);
-loadICSFile(calendar_group).then(() => console.log('Calendrier chargé avec succès!'));
+loadICSFile(calendar_group).then(() => console.log('Calendrier chargé !'));

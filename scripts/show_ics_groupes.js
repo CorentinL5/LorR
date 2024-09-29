@@ -90,7 +90,7 @@ fetch('./ics/ics.json')
                 showCustomAlert('Aucun cours sélectionné');
             } else if (selectedLinks.length === 1) {
                 window.location.href = selectedLinks[0];
-            } else if (selectedLinks.length > 1) {
+            } else if (selectedLinks.length > 1) { /*à changer quand possible et limiter à un nombre assez petit*/
                 showCustomAlert('Veuillez sélectionner un seul cours <br>Cette fonctionnalité n\'est pas encore disponible');
             } else {
                 showCustomAlert('Woaw ! <br>Une erreur inconnue est survenue');
