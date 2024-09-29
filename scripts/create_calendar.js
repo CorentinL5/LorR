@@ -4,20 +4,6 @@ const json_colors = [
     ]
 const colorCache = {};
 
-function msToTime(duration, display = "short") {
-    let milliseconds = ((duration % 1000) / 100)
-        , seconds = ((duration / 1000) % 60)
-        , minutes = ((duration / (1000 * 60)) % 60)
-        , hours = ((duration / (1000 * 60 * 60)) % 24);
-
-    hours = (hours < 10) ? "0" + hours : hours;
-    minutes = (minutes < 10) ? "0" + minutes : minutes;
-    seconds = (seconds < 10) ? "0" + seconds : seconds;
-    if (display === "short") {
-        return hours + "h" + minutes;
-    } else {return hours + ":" + minutes + ":" + seconds + "." + milliseconds;}
-}
-
 // Fonction simple de hachage pour obtenir un index unique basé sur une chaîne
 function hashStringToIndex(str, max) {
     let hash = 0;
@@ -71,12 +57,10 @@ async function loadICSFile(f_toload) {
             const vevent = new ICAL.Event(event);
             addEventToCalendar(vevent, assignColor(vevent));
         });
-
-
     }
     catch (error) {
         console.error('Erreur lors du chargement du fichier ICS:', error);
-        showCustomAlert("Le Calendrier n'a pas pu être chargé complétement,_nl_Veuillez réessayer ou Re-choisissez votre groupe.");
+        showCustomAlert("Le Calendrier n'a pas pu être chargé complétement.");
     }
 }
 
