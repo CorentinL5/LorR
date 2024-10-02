@@ -105,6 +105,9 @@ main {
     color: #282b30;
 }
 
+.hidden {
+    display: none;
+}
 
 @media (max-width: 600px) {
     html {

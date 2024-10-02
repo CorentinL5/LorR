@@ -8,6 +8,60 @@
     border-radius: 5px;
 }
 
+#menuButton {
+    padding: 1em 1.5em;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 101;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* font-size: 1.2em; */
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#menuButton:hover {
+    background-color: #2980b9;
+}
+
+#menu {
+    padding: 20px;
+    padding-bottom: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: black;
+    z-index: 100;
+    overflow-y: auto;
+    box-sizing: border-box;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.menu-event {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: .8em;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.menu-event:hover {
+    transform: scale(1.01);
+}
+
+/* Ajout d'un style pour le texte du menu */
+#menu span {
+    font-size: 1.5em;
+}
+
 
 .week-row {
     position: relative;
@@ -82,7 +136,7 @@
     top: 0;
     left: 0;
     background-color: rgba(240, 240, 240, 0.45);
-    padding: 5px;
+    padding: 2.95px;
     font-size: 12px;
     font-weight: bold;
     border-radius: 5px 0 ;

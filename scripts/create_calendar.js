@@ -37,7 +37,7 @@ function assignColor(vevent) {
 }
 
 // Fonction pour ajouter un événement au calendrier
-function addEventToCalendar(event ,color) {
+function addEvent(event ,color) {
     const startDate = event.startDate.toJSDate();
     const endDate = event.endDate.toJSDate();
     const formattedStartDate = startDate.toLocaleString('belgium', { hour: '2-digit', minute: '2-digit' });
@@ -56,13 +56,16 @@ function addEventToCalendar(event ,color) {
         let tempDate = new Date(startDate); // Clone de startDate pour la manipulation
         while (tempDate < endDate && tempDate.toDateString() !== endDate.toDateString()) {
             addHTMLEventToCalendar(tempDate, summary, location, formattedStartDate, formattedEndDate, color);
+            addEventToMenu(summary, color);
             tempDate.setDate(tempDate.getDate() + 1); // Incrémente tempDate sans toucher à startDate
         }
     } else {
         addHTMLEventToCalendar(startDate, summary, location, formattedStartDate, formattedEndDate, color);
+        addEventToMenu(summary, color);
     }
 }
 
+// Fonction pour ajouter un événement HTML au calendrier
 function addHTMLEventToCalendar(startDate, summary, location, formattedStartDate, formattedEndDate, color) {
     // Format de l'identifiant : `day-YYYY-MM-DD`
     const calendarDayId = `day-${startDate.getFullYear()}-${startDate.getMonth() + 1}-${startDate.getDate()}`;
@@ -150,12 +153,76 @@ function generateCalendar() {
     }
 }
 
+// Fonction qui crée un menu absolu pour voir tous les cours
+function generateMenu() {
+    const menu = document.createElement('div');
+    menu.id = 'menu';
+    menu.style.display = 'none';
+    const menuButton = document.createElement('button');
+    menuButton.id = 'menuButton';
+    menuButton.textContent = 'Voir tes cours';
+    document.body.appendChild(menu);
+    document.body.appendChild(menuButton);
+
+}
+
+function addEventToMenu(lessonName, color) {
+    let menu = document.getElementById('menu');
+
+    // Si le menu n'existe pas, on le génère et le récupère ensuite
+    if (!menu) {
+        generateMenu();
+        menu = document.getElementById('menu');
+    }
+
+    // Vérifier si le menuList existe et est un tableau
+    if (typeof menuList === 'undefined') {
+        menuList = [];
+    }
+
+    // Vérifie si le lessonName est déjà dans le menu ou fait partie des exceptions
+    if (menuList.includes(lessonName) || lessonName === "Vacances" || lessonName === "Férié") {
+        return;
+    }
+
+    // Création de l'événement dans le menu
+    const menuEvent = document.createElement('div');
+    menuEvent.className = 'menu-event';
+    menuEvent.style.backgroundColor = color;
+    menuEvent.style.borderColor = color;
+    menuEvent.innerHTML = `<span>${lessonName}</span>`;
+    menu.appendChild(menuEvent);
+
+    const menuButton = document.getElementById('menuButton');
+
+    // Vérifier si l'événement du bouton n'a pas déjà été attaché
+    if (!menuButton.hasEventListener) {
+        menuButton.addEventListener('click', () => {
+            const menu = document.getElementById('menu'); // Récupération directe de l'élément
+            if (menu.style.display === 'none') {
+                menu.style.display = 'block';
+                menuButton.textContent = 'Cacher tes cours';
+            } else {
+                menu.style.display = 'none';
+                menuButton.textContent = 'Voir tes cours';
+            }
+        });
+        menuButton.hasEventListener = true; // Marquer que l'événement a été ajouté
+    }
+
+    // Ajouter l'événement à la liste du menu
+    menuList.push(lessonName);
+}
+
+
 // Récupère les informations de l'URL
 let params = new URLSearchParams(window.location.search);
 let calendarGroup = params.get('calendar_group') || showCustomAlert("Aucun calendrier spécifié._nl_Veuillez sélectionner un groupe.");
 const calendarDisplay = params.get('display');
 
 generateCalendar(calendarDisplay);
+generateMenu();
+let menuList = []
 
 calendarGroup = calendarGroup.replaceAll(' et ', '&').replaceAll('$$','?');
 
@@ -177,11 +244,11 @@ calendarGroup.forEach(calendar => {
 
                 // Si aucun nom de leçon n'est spécifié, ajouter l'événement
                 if (lessonToLoad.length === 1) {
-                    addEventToCalendar(vevent, assignColor(vevent));
+                    addEvent(vevent, assignColor(vevent));
                 }
                 // Si le nom de l'événement correspond au nom de la leçon, ajouter l'événement
                 else if (vevent.summary === lessonToLoad[1]) {
-                    addEventToCalendar(vevent, assignColor(vevent));
+                    addEvent(vevent, assignColor(vevent));
                 }
             });
         })
