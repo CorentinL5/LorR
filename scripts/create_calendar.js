@@ -73,12 +73,15 @@ function addHTMLEventToCalendar(startDate, summary, location, formattedStartDate
         // Supprimer la classe "empty" de la case du calendrier
         calendarDay.classList.remove('empty');
 
+
         // Créer un élément pour l'événement et l'ajouter à la case du calendrier
         const eventElement = document.createElement('div');
         eventElement.className = 'event';eventElement.innerHTML = `<span class="summary">${summary}</span><br> ${location || ''} <br> ${formattedStartDate} - ${formattedEndDate}`;
         eventElement.style.backgroundColor = color + '85';
         eventElement.style.borderColor = color;
-
+        if (summary.toLowerCase() === "vacances" || summary.toLowerCase() === "férié") {
+            eventElement.classList.add(summary.toLowerCase());
+        }
 
         calendarDay.appendChild(eventElement);
     }

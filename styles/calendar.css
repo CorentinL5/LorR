@@ -3,23 +3,61 @@
     margin-top: 50px;
 }
 
-#calendar * {
+#calendar *,
+#calendar *:after {
     border-radius: 5px;
 }
 
+
 .week-row {
+    position: relative;
+    margin-bottom: 1em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .day {
+    min-height: 40px;
     height: 50%;
     width: calc(100% / 7);
     border-style: dotted;
     border-width: 1px;
     border-color: #888888;
 }
+
+.day:has(div.vacances),
+.day:has(div.férié) {
+    position: relative;
+    background-color: rgba(85, 85, 245, 0.5);
+    min-height: 250px;
+}
+.day:has(div.férié) {
+    background-color: rgba(115, 225, 215, 0.5);
+}
+
+.day:has(div.vacances):after,
+.day:has(div.férié):after {
+    content: "Vacances";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    opacity: 0.4;
+    padding: 5px;
+    font-size: 550%;
+    font-weight: bold;
+}
+
+.day:has(div.férié):after {
+    content: "Férié";
+}
+
+.day .vacances,
+.day .férié {
+    display:none;
+}
+
 
 .event {
     background-color: #f0f0f0;
@@ -35,19 +73,19 @@
 }
 
 .old {
-    filter: grayscale(0.85);
+    filter: grayscale(0.5);
 }
 
-.old:after {
-    content: "passé";
+.old:before {
+    content: "Passé";
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #f0f0f0;
-    color: #888888;
+    background-color: rgba(240, 240, 240, 0.45);
     padding: 5px;
     font-size: 12px;
     font-weight: bold;
+    border-radius: 5px 0 ;
 }
 
 @media (max-width: 1200px) {

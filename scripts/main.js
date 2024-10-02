@@ -104,13 +104,17 @@ function displayJSON(parentKey, obj, container, form, checked) {
                 checkbox.value = `${fullKey}`;
                 checkbox.id = fullKey;
                 checkbox.checked = checked;
+                if (fullKey.toLowerCase().endsWith("vacances") || fullKey.toLowerCase().endsWith("férié")) {
+                    div.style.display = "none";
+                }
+
 
 
 
             // Créer un label pour la checkbox
             const label = document.createElement('label');
             label.htmlFor = fullKey;
-            label.textContent = linkText;
+            label.textContent = linkText.replace('Summary ', '');
 
             // Ajouter la checkbox et le label au div
             div.appendChild(checkbox);
