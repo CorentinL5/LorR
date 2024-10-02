@@ -154,10 +154,12 @@ const calendarDisplay = params.get('display');
 
 generateCalendar(calendarDisplay);
 
-calendarGroup = calendarGroup.split('_:_');
+calendarGroup = calendarGroup.replaceAll(' et ', '&').replaceAll('$$','?');
+
+calendarGroup = calendarGroup.split(';');
 
 calendarGroup.forEach(calendar => {
-    let lessonToLoad = calendar.split('_.'); // Correction: séparé par un simple '_'
+    let lessonToLoad = calendar.split('_summary_');
 
     // Vérifier si lessonToLoad[1] existe et remplacer les _ par des espaces
     if (lessonToLoad.length > 1 && lessonToLoad[1]) {

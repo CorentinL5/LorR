@@ -39,7 +39,7 @@ if (files_to_load && files_to_load.length > 0) {
                 if (!summaryList.includes(summary)) {
                     summaryList.push(summary);  // Ajoute chaque résumé d'événement à la liste globale
                     // Ajoute chaque résumé d'événement dans l'objet du fichier correspondant
-                    eventsJSON[ics_file]["." + summary] = "https";
+                    eventsJSON[ics_file]["summary_" + summary] = "https";
                 }
             });
 
@@ -47,7 +47,7 @@ if (files_to_load && files_to_load.length > 0) {
             console.log(`Événements pour ${ics_file}:`, eventsJSON[ics_file]);
             if (Object.keys(eventsJSON).length === files_to_load.length) {
                 // Après avoir chargé tous les fichiers, afficher les choix
-                displayJSON('', eventsJSON, divChoices, form);
+                displayJSON('', eventsJSON, divChoices, form, 1);
             }
         }).catch(err => {
             console.error(`Erreur de chargement du fichier ${ics_file}:`, err);
@@ -73,7 +73,8 @@ form.addEventListener('submit', (event) => {
     if (selectedLinks.length === 0) {
         showCustomAlert('Aucun cours sélectionné');
     } else if (selectedLinks.length > 1) {
-        window.location.href = `calendar.html?calendar_group=${selectedLinks.join('_:_').replaceAll(" ", "_")}`;
+        console.log(selectedLinks);
+        window.location.href = `calendar.html?calendar_group=${selectedLinks.join(';').replaceAll('&', ' et ').replaceAll('?','$$')}`;
     } else {
         showCustomAlert('Woaw ! <br>Une erreur inconnue est survenue');
     }

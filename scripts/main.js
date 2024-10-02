@@ -85,7 +85,7 @@ function makeTextBetter(str) {
 }
 
 // Fonction récursive pour afficher la hiérarchie du JSON et générer le formulaire
-function displayJSON(parentKey, obj, container, form) {
+function displayJSON(parentKey, obj, container, form, checked) {
     Object.entries(obj).forEach(([key, value]) => {
         // Créer une div pour contenir le niveau actuel
         const div = document.createElement('div');
@@ -99,10 +99,13 @@ function displayJSON(parentKey, obj, container, form) {
             const linkText = makeTextBetter(key);
 
             // Créer une checkbox pour chaque lien
-            const checkbox = document.createElement('input');
-            checkbox.type = 'checkbox';
-            checkbox.value = `${fullKey}`;
-            checkbox.id = fullKey;
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.value = `${fullKey}`;
+                checkbox.id = fullKey;
+                checkbox.checked = checked;
+
+
 
             // Créer un label pour la checkbox
             const label = document.createElement('label');
@@ -117,7 +120,7 @@ function displayJSON(parentKey, obj, container, form) {
             const header = document.createElement('strong');
             header.textContent = makeTextBetter(key);
             div.appendChild(header);
-            displayJSON(fullKey, value, div, form);
+            displayJSON(fullKey, value, div, form, checked);
         } else {
             // Cas non attendu (non URL et non objet)
             div.textContent = `${key}: ${value}`;
