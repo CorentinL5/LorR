@@ -217,12 +217,19 @@ function addEventToMenu(lessonName, color) {
 
 // Récupère les informations de l'URL
 let params = new URLSearchParams(window.location.search);
+
+if (!params.has('calendar_group')) {
+    window.location.href = 'index.html?alert=Aucun calendrier spécifié.';
+}
+
 let calendarGroup = params.get('calendar_group') || showCustomAlert("Aucun calendrier spécifié._nl_Veuillez sélectionner un groupe.");
 const calendarDisplay = params.get('display');
 
 generateCalendar(calendarDisplay);
 generateMenu();
 let menuList = []
+
+
 
 calendarGroup = calendarGroup.replaceAll(' et ', '&').replaceAll('$$','?');
 
