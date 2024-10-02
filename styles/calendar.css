@@ -38,6 +38,18 @@
     filter: grayscale(0.85);
 }
 
+.old:after {
+    content: "passé";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f0f0f0;
+    color: #888888;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
 @media (max-width: 1200px) {
     .week-row {
         flex-direction: column;

@@ -156,7 +156,7 @@ generateCalendar(calendarDisplay);
 
 calendarGroup = calendarGroup.replaceAll(' et ', '&').replaceAll('$$','?');
 
-calendarGroup = calendarGroup.split(';');
+calendarGroup = calendarGroup.split('_lesson_');
 
 calendarGroup.forEach(calendar => {
     let lessonToLoad = calendar.split('_summary_');
