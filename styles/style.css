@@ -36,6 +36,10 @@ a {
     text-decoration: none;
 }
 
+html.no-scroll {
+    overflow: hidden;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #F9F6EE;

@@ -28,15 +28,19 @@
     background-color: #2980b9;
 }
 
+html:not(.menu-open) #menu {
+    opacity: 0;
+    visibility: hidden;
+}
+
 #menu {
-    padding: 20px;
-    padding-bottom: 100px;
+    padding: 20px 20px 100px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgb(0 0 0 / 70%);
     color: black;
     z-index: 100;
     overflow-y: auto;
@@ -44,7 +48,17 @@
     transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
+#menu h2 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2.5em;
+}
+
 .menu-event {
+    color: whitesmoke;
+    border-style: solid;
+    border-width: thin;
+    border-left-width: 10px;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -136,7 +150,7 @@
     top: 0;
     left: 0;
     background-color: rgba(240, 240, 240, 0.45);
-    padding: 2.95px;
+    padding: 3px;
     font-size: 12px;
     font-weight: bold;
     border-radius: 5px 0 ;

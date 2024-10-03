@@ -158,6 +158,10 @@ function generateMenu() {
     const menu = document.createElement('div');
     menu.id = 'menu';
     menu.style.display = 'none';
+    document.documentElement.classList.remove('no-scroll');
+    const menuTitle = document.createElement('h2');
+    menuTitle.textContent = 'Tes Cours';
+    menu.appendChild(menuTitle);
     const menuButton = document.createElement('button');
     menuButton.id = 'menuButton';
     menuButton.textContent = 'Voir tes cours';
@@ -188,7 +192,6 @@ function addEventToMenu(lessonName, color) {
     // Création de l'événement dans le menu
     const menuEvent = document.createElement('div');
     menuEvent.className = 'menu-event';
-    menuEvent.style.backgroundColor = color;
     menuEvent.style.borderColor = color;
     menuEvent.innerHTML = `<span>${lessonName}</span>`;
     menu.appendChild(menuEvent);
@@ -201,9 +204,11 @@ function addEventToMenu(lessonName, color) {
             const menu = document.getElementById('menu'); // Récupération directe de l'élément
             if (menu.style.display === 'none') {
                 menu.style.display = 'block';
+                document.documentElement.classList.add('no-scroll');
                 menuButton.textContent = 'Cacher tes cours';
             } else {
                 menu.style.display = 'none';
+                document.documentElement.classList.remove('no-scroll');
                 menuButton.textContent = 'Voir tes cours';
             }
         });
