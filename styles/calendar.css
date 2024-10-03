@@ -28,11 +28,6 @@
     background-color: #2980b9;
 }
 
-html:not(.menu-open) #menu {
-    opacity: 0;
-    visibility: hidden;
-}
-
 #menu {
     padding: 20px 20px 100px;
     position: fixed;
