@@ -12,7 +12,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background: #00549f;
+    background: rgba(35, 131, 196, 0.75);
     color: white;
 
     /* Reste */
