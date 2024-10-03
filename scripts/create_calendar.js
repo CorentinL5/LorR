@@ -192,6 +192,7 @@ function addEventToMenu(lessonName, color) {
     // Création de l'événement dans le menu
     const menuEvent = document.createElement('div');
     menuEvent.className = 'menu-event';
+    menuEvent.style.backgroundColor = color;
     menuEvent.style.borderColor = color;
     menuEvent.innerHTML = `<span>${lessonName}</span>`;
     menu.appendChild(menuEvent);

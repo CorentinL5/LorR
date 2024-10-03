@@ -59,11 +59,15 @@
     border-radius: 5px;
     font-size: .8em;
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .menu-event:hover {
-    transform: scale(1.01);
+    transform: scale(1.005);
+}
+
+.menu-event:not(:hover) {
+    background-color: transparent !important;
 }
 
 /* Ajout d'un style pour le texte du menu */
