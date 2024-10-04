@@ -167,6 +167,11 @@
 
     #calendar .day {
         min-height: 125px;
+        position: static;
+    }
+
+    #calendar .day:has(div.férié),
+    #calendar .day:has(div.vacances)  {
         position: relative;
     }
 
