@@ -193,7 +193,10 @@
         display:none;
     }
 
-    /* afficher tout les events mais pas .férié ou .vacances ou .empty en grand */
+    .day:hover {
+        border: 2px solid rgba(196, 131, 35, 1);
+    }
+
     .day:hover .events:has(.event:not(.vacances):not(.férié):not(.empty)) {
         display: block;
         position: absolute;
