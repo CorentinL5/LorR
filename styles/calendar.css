@@ -101,7 +101,6 @@
 
 .day:has(div.vacances),
 .day:has(div.férié) {
-    position: relative;
     background-color: rgba(85, 85, 245, 0.5);
     min-height: 250px;
 }
@@ -113,13 +112,10 @@
 .day:has(div.vacances):after,
 .day:has(div.férié):after {
     content: "Vacances";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-45deg);
+    text-align: center;
+    transform: translateY(50%) rotate(90deg);) rotate(90deg);) rotate(90deg);) rotate(90deg);) rotate(90deg);) rotate(90deg);) rotate(90deg);) rotate(90deg);) rotate(90deg);) rotate(90deg);) rotate(90deg);
     opacity: 0.4;
     padding: 5px;
-    font-size: 350%;
     font-weight: bold;
 }
 
@@ -170,18 +166,8 @@
         position: static;
     }
 
-    #calendar .day:has(div.férié),
-    #calendar .day:has(div.vacances)  {
-        position: relative;
-    }
-
     #calendar .day strong span {
         display: none;
-    }
-
-    .day:has(div.vacances):after,
-    .day:has(div.férié):after {
-        font-size: 125%;
     }
 
     #calendar .event {

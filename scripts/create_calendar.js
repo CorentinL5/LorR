@@ -149,7 +149,7 @@ function generateCalendar() {
     }
 
     // ajoute un bouton pour aller au jour actuel
-    const currentDayElement = `day-${currentYear}-${currentMonth + 1}-${currentDate}`;
+    /*const currentDayElement = `day-${currentYear}-${currentMonth + 1}-${currentDate}`;
     const todayButton = document.createElement('a');
     todayButton.className = 'today-button';
     todayButton.href = `#${currentDayElement}`
@@ -158,7 +158,7 @@ function generateCalendar() {
         calendar.parentNode.insertBefore(todayButton, calendar);
     } else {
         console.error('Impossible de trouver le parent du calendrier.');
-    }
+    }*/
 }
 
 // Fonction qui crée un menu absolu pour voir tous les cours
