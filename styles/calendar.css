@@ -14,7 +14,7 @@
     bottom: 20px;
     left: 20px;
     z-index: 101;
-    background-color: #3498db;
+    background-color: rgba(35, 131, 196, 1);
     color: white;
     border: none;
     border-radius: 5px;
@@ -86,11 +86,17 @@
 
 .day {
     min-height: 40px;
-    height: 50%;
+    height: auto;
     width: calc(100% / 7);
     border-style: dotted;
     border-width: 1px;
     border-color: #888888;
+    display: flex;
+    flex-direction: column;
+}
+
+.today {
+    border: 2px solid rgba(35, 131, 196, 1);
 }
 
 .day:has(div.vacances),
@@ -99,6 +105,7 @@
     background-color: rgba(85, 85, 245, 0.5);
     min-height: 250px;
 }
+
 .day:has(div.férié) {
     background-color: rgba(115, 225, 215, 0.5);
 }
@@ -125,7 +132,6 @@
     display:none;
 }
 
-
 .event {
     background-color: #f0f0f0;
     border-style: solid;
@@ -133,6 +139,10 @@
     border-color: #f0f0f0;
     margin: 5px;
     padding: 5px;
+}
+
+.event span {
+    display: block;
 }
 
 .event .summary {
@@ -157,15 +167,50 @@
 
 @media (max-width: 1200px) {
     .week-row {
-        flex-direction: column;
+        width:100%;
     }
 
-    .day {
-        width: 100%;
-        margin: 5px 0;
+    #calendar .day {
+        min-height: 100%;
     }
 
-    .day.empty {
+    #calendar .day strong span {
         display: none;
+    }
+
+    .day:has(div.vacances):after,
+    .day:has(div.férié):after {
+        font-size: 100%;
+        content: '';
+    }
+
+    #calendar .event {
+        height: auto;
+        width: auto;
+    }
+
+    .event span {
+        display:none;
+    }
+
+    .old:before,
+    .day:after {
+        position: static;
+        display: block;
+    }
+
+    /* afficher tout les events mais pas .férié ou .vacances ou .empty en grand */
+    .day:hover .events:has(.event:not(.vacances):not(.férié):not(.empty)) {
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+    }
+
+    .day:hover .event > span {
+        display:block;
     }
 }

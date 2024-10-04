@@ -77,17 +77,24 @@ function addHTMLEventToCalendar(startDate, summary, location, formattedStartDate
         calendarDay.classList.remove('empty');
 
 
+
         // Créer un élément pour l'événement et l'ajouter à la case du calendrier
         const eventElement = document.createElement('div');
-        eventElement.className = 'event';eventElement.innerHTML = `<span class="summary">${summary}</span><br> ${location || ''} <br> ${formattedStartDate} - ${formattedEndDate}`;
+        eventElement.className = 'event';eventElement.innerHTML = `<span class="summary">${summary}</span> <span class="location">${location || ''}</span> <span class="formatted-dates">${formattedStartDate} - ${formattedEndDate}</span>`;
         eventElement.style.backgroundColor = color + '85';
         eventElement.style.borderColor = color;
         if (summary.toLowerCase() === "vacances" || summary.toLowerCase() === "férié") {
             eventElement.classList.add(summary.toLowerCase());
         }
 
-        calendarDay.appendChild(eventElement);
+        const calendarDayEventsDiv = calendarDay.querySelector('.events');
+
+        calendarDayEventsDiv.appendChild(eventElement);
     }
+}
+
+function dateToFullDate(date) {
+    return date.toLocaleDateString('fr-BE', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 }
 
 // Fonction pour générer un calendrier structuré en semaines pour le mois en cours
@@ -99,6 +106,7 @@ function generateCalendar() {
     const currentYear = date.getFullYear();
     const currentMonth = date.getMonth(); // Mois actuel (0-11)
     const currentDate = date.getDate(); // Jour actuel (1-31)
+    const fullDate = dateToFullDate(date);
     //const currentDayOfWeek = (date.getDay() === 0) ? 7 : date.getDay(); // Jour de la semaine actuel (lundi=1, dimanche=7)
 
     // Calculer les dates pour la semaine précédente, actuelle et suivante
@@ -122,12 +130,12 @@ function generateCalendar() {
         const dayElement = document.createElement('div');
         dayElement.className = 'day empty';
         dayElement.id = `day-${currentDay.getFullYear()}-${(currentDay.getMonth() + 1)}-${currentDay.getDate()}`;
-        if (currentDay.getDate() === currentDate) {
+        if (dateToFullDate(currentDay) === fullDate) {
             dayElement.classList.add('today');
         }
         const dayName = ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'][currentDay.getDay()];
-        const formattedDate = `${dayName} ${currentDay.getDate().toString().padStart(2, '0')}/${(currentDay.getMonth() + 1).toString().padStart(2, '0')}/${currentDay.getFullYear().toString().slice(-2)}`;
-        dayElement.innerHTML = `<strong>${formattedDate}</strong>`;
+        const formattedDate = `<span>${dayName}</span> ${currentDay.getDate().toString().padStart(2, '0')}/${(currentDay.getMonth() + 1).toString().padStart(2, '0')}<span>/${currentDay.getFullYear().toString().slice(-2)}</span>`;
+        dayElement.innerHTML = `<strong>${formattedDate}</strong> <div class="events"></div>`;
 
         // Ajouter la classe "old" si la date est passée
         if (currentDay < date.setHours(0, 0, 0, 0)) {

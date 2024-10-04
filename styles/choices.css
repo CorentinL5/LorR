@@ -96,7 +96,7 @@
 /* Style pour les liens */
 #formChoices div > div > div > a,
 div > a {
-    color: #3498db;
+    color: rgba(35, 131, 196, 1);
     text-decoration: none;
     margin-left: 10px;
     display: block;
