@@ -22,8 +22,9 @@ Les étapes sont cliquables dès que les choix nécessaires sont faits.
 depuis l’accueil. **Copier mon lien** permet de le retrouver dans un autre
 navigateur.
 
-Les liens partagés contiennent un code compact après `#p=`. LorR compresse la
-sélection dans le navigateur et l’encode en Base64URL. Le serveur ne stocke
+Les liens partagés contiennent un code compact après `#p=`. LorR regroupe
+les cours par source, formation, groupe et type pour réduire la sélection
+avant de la compresser et de l’encoder en Base64URL. Le serveur ne stocke
 aucun code. Les anciens liens restent utilisables. LorR vérifie le code et
 les domaines invités autorisés avant de demander les horaires.
 
@@ -38,7 +39,9 @@ les domaines invités autorisés avant de demander les horaires.
 Chaque cours garde sa couleur pastel. Un clic sur une séance affiche ses
 détails. Les périodes fériées ont un seul bloc dans la liste et la grille
 semaine. La grille entière s’affiche dans la page, avec la même taille quand
-tu changes de période ou de vue.
+tu changes de période ou de vue. Les boutons de vue restent visibles en
+haut de l’écran pendant le défilement. Le navigateur se souvient de la vue
+choisie.
 
 ## Lancer LorR en local
 
@@ -78,19 +81,27 @@ même onglet.
 
 La page `/stats` affiche les totaux et les compteurs des sept derniers jours.
 Elle couvre les chargements de l’accueil, les ouvertures du créateur, les
-demandes d’horaires, les cours chargés, les liens invités distincts et les
-clics qui ouvrent le détail d’un cours.
+demandes d’horaires, les cours chargés, les cours différents, les liens
+invités distincts et les clics qui ouvrent le détail d’un cours.
 
-LorR compte chaque cours une fois par formation et par réponse du serveur,
-même si le cours a plusieurs séances. Un lien invité compte une fois au
-total et une fois par jour où le serveur charge son catalogue.
+LorR compte chaque cours chargé une fois par formation et par réponse du
+serveur, même si le cours a plusieurs séances. Pour les cours différents,
+une matière compte une fois par lien invité au total et une fois par jour de
+chargement. Un lien invité compte une fois au total et une fois par jour où
+le serveur charge son catalogue.
 
 Les statistiques utilisent SQLite si PHP propose l’extension `pdo_sqlite`.
 Quand cette extension est indisponible, LorR conserve les compteurs dans
 un fichier JSON. Par défaut, ces fichiers sont placés dans `var/`. Donne
 à PHP le droit d’écrire dans ce dossier ou choisis un dossier persistant
 avec `LORR_STATS_DIR`. Le serveur stocke les compteurs, les dates et des
-empreintes des liens invités normalisés.
+empreintes des liens invités et des matières.
+
+## Proposer une idée
+
+Le bouton de l’accueil utilise l’adresse LinkedIn définie dans
+`LORR_LINKEDIN_URL`. Tu peux y renseigner un lien de profil ou de messagerie.
+Sans cette adresse, le bouton ouvre une nouvelle proposition sur GitHub.
 
 ## Licence
 

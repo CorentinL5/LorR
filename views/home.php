@@ -1,3 +1,9 @@
+<?php
+$linkedinUrl = trim(getenv('LORR_LINKEDIN_URL') ?: '');
+$hasLinkedin = filter_var($linkedinUrl, FILTER_VALIDATE_URL) !== false
+    && preg_match('~\Ahttps://(?:[a-z0-9-]+\.)?linkedin\.com/(?:in/|messaging/).+\z~i', $linkedinUrl) === 1;
+$ideaUrl = $hasLinkedin ? $linkedinUrl : 'https://github.com/CorentinL5/LorR/issues/new';
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -24,6 +30,7 @@
         </a>
         <nav class="home-links" aria-label="Navigation">
             <a href="#comment-ca-marche">Comment ça marche</a>
+            <a href="#proposer-une-idee">Proposer une idée</a>
             <a href="stats">Statistiques</a>
         </nav>
     </header>
@@ -49,6 +56,18 @@
                 <li><h3>Ouvre ton planning</h3><p>Consulte toutes les séances publiées en liste, par semaine ou par mois.</p></li>
             </ol>
             <p class="home-save">Garde ton planning sur cet appareil ou copie son lien pour le rouvrir ailleurs. Aucun compte à créer.</p>
+        </section>
+
+        <section id="proposer-une-idee" class="panel home-idea" aria-labelledby="idea-title">
+            <div class="panel-body">
+                <div>
+                    <h2 id="idea-title">Proposer une idée</h2>
+                    <p>Une fonction te manque ou tu as repéré un bug ?</p>
+                </div>
+                <a class="button button-blue" href="<?= htmlspecialchars($ideaUrl, ENT_QUOTES, 'UTF-8') ?>" rel="noreferrer">
+                    <?= $hasLinkedin ? 'Écrire sur LinkedIn' : 'Proposer sur GitHub' ?> <span aria-hidden="true">↗</span>
+                </a>
+            </div>
         </section>
     </main>
 </body>

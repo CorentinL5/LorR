@@ -18,8 +18,17 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
     const monthFormat = new Intl.DateTimeFormat('fr-BE', {month: 'long', year: 'numeric', timeZone: 'UTC'});
     const weekdays = ['Lun.', 'Mar.', 'Mer.', 'Jeu.', 'Ven.', 'Sam.', 'Dim.'];
     const formationOrder = new Intl.Collator('fr-BE', {numeric: true});
+    const viewPreferenceKey = 'lorr-calendar-view';
 
     let mode = 'list';
+    try {
+        const savedMode = localStorage.getItem(viewPreferenceKey);
+        if (['list', 'week', 'month'].includes(savedMode)) {
+            mode = savedMode;
+        }
+    } catch {
+        // The calendar remains available without browser storage.
+    }
     let currentDate;
     let days = new Map();
     let noticePeriods = [];
@@ -520,6 +529,11 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
         const button = event.target.closest('[data-view]');
         if (button) {
             mode = button.dataset.view;
+            try {
+                localStorage.setItem(viewPreferenceKey, mode);
+            } catch {
+                // Keep the selected view for this page.
+            }
             render();
         }
     });

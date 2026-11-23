@@ -46,7 +46,10 @@
                 </div>
                 <output id="loading-percent" aria-hidden="true">0 %</output>
             </div>
-            <progress id="loading-progress" value="0" max="100" aria-label="Avancement du chargement"></progress>
+            <div class="loading-track">
+                <progress id="loading-progress" value="0" max="100" aria-label="Avancement du chargement"></progress>
+                <span class="loading-sweep" aria-hidden="true"></span>
+            </div>
         </section>
         <div class="planning-feedback">
             <p id="planning-status" class="status" role="status"></p>
