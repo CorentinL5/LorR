@@ -19,6 +19,8 @@ nécessaire.
    toutes les semaines publiées.
 
 Les étapes sont cliquables dès que les choix nécessaires sont faits.
+**Reprendre ma sélection** rouvre le brouillon depuis l’accueil.
+Dans l’étape des cours, **Ma sélection** affiche uniquement les cours cochés.
 **Enregistrer** garde le planning sur cet appareil et permet de le rouvrir
 depuis l’accueil. **Copier mon lien** crée un lien court du type
 `/p/Gx2mQ7tW4-Lb` pour ouvrir ce planning dans un autre navigateur.
@@ -31,8 +33,9 @@ LorR vérifie le code et les domaines invités avant de demander les horaires.
 
 ## Consulter les horaires
 
-- **Mois** est la vue par défaut. Clique sur une date ou sur le nombre de
-  séances supplémentaires pour voir le détail de la journée.
+- **Mois** est la vue par défaut. Le sélecteur permet d’aller à un mois.
+  Clique sur une date ou sur le nombre de séances supplémentaires pour voir
+  le détail de la journée.
 - **Semaine** place les cours selon l’heure et la durée. Les cours simultanés
   sont côte à côte. Le sélecteur permet d’aller directement à une semaine.
 - **Liste** regroupe les séances par semaine.
@@ -43,6 +46,20 @@ semaine. La grille entière s’affiche dans la page, avec la même taille quand
 tu changes de période ou de vue. Les boutons de vue restent visibles en
 haut de l’écran pendant le défilement. Le navigateur se souvient de la vue
 choisie.
+
+## Agenda et application web
+
+**Télécharger le .ics** exporte les séances sélectionnées et les repères
+visibles du planning. Le fichier contient les horaires disponibles au
+moment du téléchargement. Importe-le dans l’application de calendrier
+de ton choix.
+
+Sur un site servi en HTTPS, utilise **Installer LorR** si le navigateur
+propose l’installation. Sur iPhone et iPad, ouvre LorR dans Safari et
+choisis **Partager**, puis **Sur l’écran d’accueil**. Active **Ouvrir comme
+app web** si cette option apparaît. Une fois le site chargé, tu peux rouvrir
+un planning déjà enregistré hors connexion si les horaires sont encore
+disponibles dans le cache du navigateur.
 
 ## Lancer LorR en local
 

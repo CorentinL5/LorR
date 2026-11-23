@@ -16,7 +16,7 @@ if (is_string($path)) {
 }
 
 if ($local && $route
-    && preg_match('~^/(?:assets/[\w-]+\.(?:ico|svg|webp)|scripts/[\w-]+\.js|styles/[\w-]+\.css)$~D', $route)
+    && preg_match('~^/(?:sw\.js|assets/[\w-]+\.(?:ico|png|svg|webp)|scripts/[\w-]+\.js|styles/[\w-]+\.css)$~D', $route)
     && is_file(__DIR__ . $route)
 ) {
     return false;
@@ -47,9 +47,10 @@ if ($route !== null && str_starts_with($route, '/p/')) {
     }
 }
 
+$countPageView = ($_SERVER['REQUEST_METHOD'] ?? '') === 'GET' && ($_SERVER['HTTP_X_LORR_APP_CACHE'] ?? '') !== '1';
 switch ($route) {
     case '/':
-        if (($_SERVER['REQUEST_METHOD'] ?? '') === 'GET') {
+        if ($countPageView) {
             require __DIR__ . '/server/usage.php';
             recordUsage(['home' => 1]);
         }
@@ -57,7 +58,7 @@ switch ($route) {
         break;
     case '/planning':
         require __DIR__ . '/server/planning-sources.php';
-        if (($_SERVER['REQUEST_METHOD'] ?? '') === 'GET') {
+        if ($countPageView) {
             require __DIR__ . '/server/usage.php';
             recordUsage(['planner' => 1]);
         }
@@ -68,6 +69,10 @@ switch ($route) {
         require __DIR__ . '/server/usage.php';
         $usage = siteUsage();
         require __DIR__ . '/views/stats.php';
+        break;
+    case '/manifest.webmanifest':
+        header('Content-Type: application/manifest+json; charset=UTF-8');
+        readfile(__DIR__ . '/manifest.webmanifest');
         break;
     case '/api/planning':
         require __DIR__ . '/api-planning.php';

@@ -20,6 +20,7 @@ $ideaUrl = $hasLinkedin ? $linkedinUrl : 'https://github.com/CorentinL5/LorR/iss
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/planning.css">
+    <?php require __DIR__ . '/web-app-head.php'; ?>
     <script src="scripts/home.js" defer></script>
 </head>
 <body>
@@ -31,6 +32,7 @@ $ideaUrl = $hasLinkedin ? $linkedinUrl : 'https://github.com/CorentinL5/LorR/iss
                 <p>Compose ton emploi du temps étudiant à partir d’Hyperplanning. Retrouve tous tes cours, TP et labos au même endroit.</p>
                 <div class="step-actions">
                     <a href="planning?nouveau=1" class="button button-yellow">Créer mon planning <span aria-hidden="true">↗</span></a>
+                    <a href="planning?reprendre=1" id="resume-planning-link" class="button button-green" hidden>Reprendre ma sélection</a>
                     <a href="planning" id="saved-planning-link" class="button button-light" hidden>Mon planning enregistré</a>
                 </div>
                 <a class="home-guide-link" href="#comment-ca-marche">Comment ça marche</a>
@@ -61,5 +63,6 @@ $ideaUrl = $hasLinkedin ? $linkedinUrl : 'https://github.com/CorentinL5/LorR/iss
             </div>
         </section>
     </main>
+    <?php require __DIR__ . '/site-footer.php'; ?>
 </body>
 </html>

@@ -16,7 +16,12 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
-body { margin: 0; }
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
 [hidden] { display: none !important; }
 
 h1, h2, h3, h4, p { margin: 0; }
@@ -38,6 +43,22 @@ button { cursor: pointer; }
     justify-content: space-between;
     gap: 1rem;
 }
+
+.site-footer {
+    margin-block-start: auto;
+    padding-block: 1.4rem;
+    text-align: center;
+}
+
+.site-footer > p:first-child {
+    padding-block-start: .85rem;
+    border-top: 1px solid #c9c2bb;
+    color: var(--muted);
+    font: 700 .95rem/1.5 var(--heading);
+}
+
+.site-footer #install-app { margin-top: .4rem; }
+.site-footer #install-guide { margin-top: .25rem; font-size: .9rem; }
 
 .site-nav {
     display: flex;
@@ -850,6 +871,20 @@ button.calendar-date[aria-pressed=true] { background: var(--yellow); }
 .choice-filter p { font-size: .9rem; color: var(--muted); }
 .choice-filter #course-count { margin: 0; }
 
+.course-filter-tools {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem 0.8rem;
+}
+
+.course-filter-tools button[aria-pressed=true] {
+    color: var(--ink);
+    background: var(--green);
+    border-radius: 5px;
+    padding-inline: .4rem;
+}
+
 .group-filter {
     padding: 0.6rem 0.75rem;
     margin-bottom: 1rem;
@@ -937,7 +972,7 @@ button.calendar-date[aria-pressed=true] { background: var(--yellow); }
 
 .calendar-shortcuts label { display: block; font-size: .85rem; margin-bottom: 0.15rem; }
 .calendar-shortcuts select { width: 100%; }
-#week-picker { min-width: 0; }
+#week-picker, #month-picker { min-width: 0; }
 
 .calendar-cell[aria-current=date] {
     background: #fff2be;

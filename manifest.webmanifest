@@ -1,0 +1,17 @@
+{
+    "id": "./",
+    "name": "LorR · Mon emploi du temps",
+    "short_name": "LorR",
+    "description": "Ton emploi du temps étudiant à partir d’Hyperplanning.",
+    "lang": "fr-BE",
+    "start_url": "./",
+    "scope": "./",
+    "display": "standalone",
+    "background_color": "#fcf8ef",
+    "theme_color": "#fcf8ef",
+    "icons": [
+        {"src": "assets/pwa-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+        {"src": "assets/pwa-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+        {"src": "assets/pwa-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+    ]
+}

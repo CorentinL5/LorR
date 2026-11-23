@@ -16,6 +16,8 @@ const courseCount = document.getElementById('course-count');
 const courseList = document.getElementById('planning-courses');
 const courseActions = document.getElementById('course-actions');
 const courseFilter = document.getElementById('course-filter');
+const reviewCourses = document.getElementById('review-courses');
+const checkCourses = document.getElementById('check-courses');
 const courseGroupFilter = document.getElementById('course-group-filter');
 const courseGroupChoices = document.getElementById('course-group-choices');
 const toggleAllCourseGroups = document.getElementById('toggle-all-course-groups');
@@ -32,6 +34,7 @@ const stepPanels = ['link-step', 'formation-step', 'course-panel', 'my-planning'
 const dayList = document.getElementById('planning-days');
 const copyButton = document.getElementById('copy-planning');
 const saveButton = document.getElementById('save-planning');
+const exportButton = document.getElementById('export-planning');
 const linkStatus = document.getElementById('link-status');
 const linkFallback = document.getElementById('link-fallback');
 const linkInput = document.getElementById('planning-address');
@@ -46,6 +49,7 @@ let selections;
 let selectedCourses;
 let selectedCourseGroups;
 let showAllCourseGroups;
+let reviewSelectedCourses = false;
 let hiddenNotices;
 let legacyHiddenCourses;
 let activeRequest;
@@ -464,11 +468,15 @@ function activeEvents() {
     return events.filter(event => selections.has(selectionKey(event.url, event.formation)));
 }
 
-function renderDays() {
-    const selected = activeEvents().filter(event =>
+function selectedPlanningSessions() {
+    return uniqueSessions(activeEvents().filter(event =>
         event.notice ? !hiddenNotices.has(noticeKey(event)) : selectedCourses.has(courseKey(event))
-    );
-    const sessions = uniqueSessions(selected, courseKey);
+    ), courseKey);
+}
+
+function renderDays() {
+    const sessions = selectedPlanningSessions();
+    exportButton.disabled = !sessions.length;
     const markers = planningView.show(sessions);
     const count = sessions.filter(event => !event.notice).length;
     scheduleCount.textContent = [
@@ -490,7 +498,11 @@ function isPicked(option) {
 
 function countCourses() {
     const count = courses.filter(isPicked).length;
-    courseCount.textContent = count + (count === 1 ? ' cours sélectionné' : ' cours sélectionnés');
+    const selected = count + (count === 1 ? ' cours sélectionné' : ' cours sélectionnés');
+    const visible = shownCourses.length;
+    courseCount.textContent = visible === courses.length
+        ? selected
+        : selected + ' · ' + visible + (visible === 1 ? ' affiché' : ' affichés');
     const auto = [...notices.keys()].filter(key => !hiddenNotices.has(key)).length;
     noticeCount.textContent = 'Repères du calendrier · ' + auto + '/' + notices.size;
     createButton.disabled = !stepAvailable(4);
@@ -523,10 +535,16 @@ function makeCourseCheckbox(option, withSubject) {
     const label = checkbox(courseLabel(option, withSubject), isPicked(option), checked => {
         chooseCourse(option, checked);
         saveChoices();
-        countCourses();
+        if (reviewSelectedCourses) {
+            renderCourseList();
+        } else {
+            countCourses();
+        }
     });
+    const input = label.querySelector('input');
+    input.dataset.courseKey = option.keys[0];
     if (!withSubject) {
-        label.querySelector('input').setAttribute('aria-label', courseLabel(option, true));
+        input.setAttribute('aria-label', courseLabel(option, true));
     }
     applyCourseColor(label, option.keys[0]);
     return label;
@@ -537,6 +555,8 @@ function updateGroupToggle() {
 }
 
 function renderCourseGroups() {
+    const active = document.activeElement;
+    const focusedGroup = courseGroupChoices.contains(active) ? active.dataset.groupKey : null;
     const grouped = new Map();
     for (const option of courses) {
         option.groupKeys = new Set();
@@ -568,6 +588,7 @@ function renderCourseGroups() {
     }
     courseGroupFilter.hidden = !choicesByFormation.length;
     courseGroupChoices.replaceChildren();
+    let groupToFocus;
     for (const {url, formation, options} of choicesByFormation) {
         const fieldset = element('fieldset', '', 'formation-groups');
         const duplicate = choicesByFormation.some(other => other.formation === formation && other.url !== url);
@@ -576,7 +597,7 @@ function renderCourseGroups() {
         const choices = element('div', '', 'group-options');
         for (const [key, name] of [...options].sort((a, b) => alphabetic.compare(a[1], b[1]))) {
             const shortLabel = name.replace(formation, '').replace(/\s+/g, ' ').trim() || name;
-            choices.append(checkbox(shortLabel, selectedCourseGroups.has(key), checked => {
+            const groupOption = checkbox(shortLabel, selectedCourseGroups.has(key), checked => {
                 if (checked) {
                     selectedCourseGroups.add(key);
                     showAllCourseGroups = false;
@@ -586,18 +607,35 @@ function renderCourseGroups() {
                 updateGroupToggle();
                 saveChoices();
                 renderCourseList();
-            }));
+            });
+            const input = groupOption.querySelector('input');
+            input.dataset.groupKey = key;
+            if (key === focusedGroup) {
+                groupToFocus = input;
+            }
+            choices.append(groupOption);
         }
         fieldset.append(choices);
         courseGroupChoices.append(fieldset);
     }
     updateGroupToggle();
+    if (focusedGroup) {
+        (groupToFocus ?? courseFilter).focus({preventScroll: true});
+    }
 }
 
 function renderCourseList() {
+    const previousInputs = [...courseList.querySelectorAll('input')];
+    const focusIndex = previousInputs.indexOf(document.activeElement);
+    const focusedCourse = previousInputs[focusIndex]?.dataset.courseKey;
+    const previousDetails = new Map([...courseList.querySelectorAll('details')].map(group => [group.dataset.subject, group.open]));
+    const scrollPosition = courseList.scrollTop;
     const search = choiceText(courseFilter.value).split(' ').filter(Boolean);
     shownCourses = courses.filter(option => {
-        if (!showAllCourseGroups && !option.common && !isPicked(option)
+        if (reviewSelectedCourses && !isPicked(option)) {
+            return false;
+        }
+        if (!reviewSelectedCourses && !showAllCourseGroups && !option.common && !isPicked(option)
             && ![...option.groupKeys].some(key => selectedCourseGroups.has(key))) {
             return false;
         }
@@ -605,7 +643,10 @@ function renderCourseList() {
         return search.every(word => terms.includes(word));
     });
     subjectGroups = [];
+    const focusActions = courseActions.contains(document.activeElement);
     courseActions.hidden = !shownCourses.length;
+    checkCourses.hidden = reviewSelectedCourses;
+    reviewCourses.setAttribute('aria-pressed', String(reviewSelectedCourses));
     courseList.replaceChildren();
     const bySubject = new Map();
     for (const option of shownCourses) {
@@ -615,12 +656,13 @@ function renderCourseList() {
         }
         bySubject.get(subject).push(option);
     }
-    for (const variants of bySubject.values()) {
+    for (const [subject, variants] of bySubject) {
         if (variants.length === 1) {
             courseList.append(makeCourseCheckbox(variants[0], true));
         } else {
             const group = element('details', '', 'course-group');
-            group.open = search.length > 0 || selectedCourseGroups.size > 0;
+            group.dataset.subject = subject;
+            group.open = search.length > 0 || (previousDetails.get(subject) ?? (selectedCourseGroups.size > 0));
             const summary = element('summary', variants[0].sample.subject);
             const counter = element('span', '', 'course-group-count');
             summary.append(counter);
@@ -633,10 +675,23 @@ function renderCourseList() {
         }
     }
     if (courses.length && !shownCourses.length) {
-        const message = search.length
-            ? 'Aucun cours ne correspond à la recherche.'
-            : 'Choisis un groupe pour afficher ses cours.';
+        let message = 'Choisis un groupe pour afficher ses cours.';
+        if (search.length) {
+            message = 'Aucun cours ne correspond à la recherche.';
+        } else if (reviewSelectedCourses) {
+            message = 'Aucun cours sélectionné.';
+        }
         courseList.append(element('p', message));
+    }
+    courseList.scrollTop = scrollPosition;
+    if (focusedCourse) {
+        const inputs = [...courseList.querySelectorAll('input')].filter(input => !input.closest('details:not([open])'));
+        const nextFocus = inputs.find(input => input.dataset.courseKey === focusedCourse)
+            ?? inputs[Math.min(focusIndex, inputs.length - 1)]
+            ?? reviewCourses;
+        nextFocus.focus({preventScroll: true});
+    } else if (focusActions && !shownCourses.length) {
+        reviewCourses.focus({preventScroll: true});
     }
     countCourses();
 }
@@ -683,7 +738,11 @@ function toggleCourses(checked) {
         input.checked = checked;
     }
     saveChoices();
-    countCourses();
+    if (reviewSelectedCourses) {
+        renderCourseList();
+    } else {
+        countCourses();
+    }
 }
 
 function formationSignature() {
@@ -848,6 +907,7 @@ async function restorePlanning() {
     notices = new Map();
     formationFilter.value = '';
     courseFilter.value = '';
+    reviewSelectedCourses = false;
     loadedFormations = '';
     failedFormations = [];
     linkFallback.hidden = true;
@@ -855,6 +915,7 @@ async function restorePlanning() {
     statusMessage.textContent = '';
     const address = new URL(location.href);
     const startNew = address.searchParams.has('nouveau');
+    const resumeDraft = !startNew && address.searchParams.has('reprendre');
     const historyHash = planningHistoryHash();
     const incomingHash = address.hash || (startNew ? '' : historyHash);
 
@@ -912,6 +973,8 @@ async function restorePlanning() {
     if (created && selections.size) {
         showStep(4);
         loadSchedule();
+    } else if (resumeDraft && selections.size) {
+        openCourseSelection();
     } else {
         showStep(sources.size ? 2 : 1);
     }
@@ -920,6 +983,14 @@ async function restorePlanning() {
 sourceForm.addEventListener('submit', async event => {
     event.preventDefault();
     const url = new FormData(sourceForm).get('url');
+    if (sources.has(planningSource(url))) {
+        sourceForm.reset();
+        formationFilter.value = '';
+        renderFormations();
+        statusMessage.textContent = 'Ce lien est déjà ajouté. Retrouve ses formations ci-dessous.';
+        showStep(2, true);
+        return;
+    }
     const request = startRequest('Recherche des formations');
     function showCatalogue(result) {
         sources.set(result.url, result.formations);
@@ -946,7 +1017,7 @@ sourceForm.addEventListener('submit', async event => {
         }
         showCatalogue(result);
         sourceForm.reset();
-        statusMessage.textContent = '';
+        statusMessage.textContent = result.warning ? 'Dernières formations affichées. ' + result.warning : '';
     } catch (error) {
         if (!request.signal.aborted) {
             statusMessage.textContent = error.message;
@@ -963,6 +1034,19 @@ saveButton.addEventListener('click', () => {
     } catch {
         linkStatus.textContent = 'Impossible de sauvegarder sur cet appareil. Tu peux copier le lien.';
     }
+});
+
+exportButton.addEventListener('click', () => {
+    const sessions = selectedPlanningSessions();
+    const file = new Blob([planningCalendarFile(sessions)], {type: 'text/calendar;charset=utf-8'});
+    const address = URL.createObjectURL(file);
+    const download = document.createElement('a');
+    download.href = address;
+    download.download = 'planning-lorr.ics';
+    document.body.append(download);
+    download.click();
+    download.remove();
+    setTimeout(() => URL.revokeObjectURL(address), 60000);
 });
 
 copyButton.addEventListener('click', async () => {
@@ -1041,10 +1125,15 @@ editCourses.addEventListener('click', () => goToStep(3));
 loadButton.addEventListener('click', () => goToStep(3));
 retryButton.addEventListener('click', () => loadSchedule(true));
 createButton.addEventListener('click', () => goToStep(4));
-document.getElementById('check-courses').addEventListener('click', () => toggleCourses(true));
+checkCourses.addEventListener('click', () => toggleCourses(true));
 document.getElementById('uncheck-courses').addEventListener('click', () => toggleCourses(false));
 formationFilter.addEventListener('input', renderFormations);
 courseFilter.addEventListener('input', renderCourseList);
+reviewCourses.addEventListener('click', () => {
+    reviewSelectedCourses = !reviewSelectedCourses;
+    courseList.scrollTop = 0;
+    renderCourseList();
+});
 toggleAllCourseGroups.addEventListener('click', () => {
     showAllCourseGroups = !showAllCourseGroups;
     updateGroupToggle();

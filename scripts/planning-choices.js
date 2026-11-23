@@ -82,3 +82,31 @@ function uniqueSessions(events, courseKey) {
         .map(event => ({...event, formation: [...event.formations].join(' · ')}))
         .sort((a, b) => (a.date + a.start).localeCompare(b.date + b.start));
 }
+
+function nextPlanningDay(date) {
+    const tomorrow = new Date(date + 'T00:00:00Z');
+    tomorrow.setUTCDate(tomorrow.getUTCDate() + 1);
+    return tomorrow.toISOString().slice(0, 10);
+}
+
+function groupNoticePeriods(sessions) {
+    const periods = [];
+    const recent = new Map();
+    const formationOrder = new Intl.Collator('fr-BE', {numeric: true});
+    for (const event of sessions) {
+        if (!event.notice || !event.allDay) {
+            continue;
+        }
+        const formations = [...(event.formations || [event.formation])].sort(formationOrder.compare);
+        const key = JSON.stringify([event.url, event.notice, event.subject, formations]);
+        const previous = recent.get(key);
+        if (previous && nextPlanningDay(previous.rangeEnd || previous.date) === event.date) {
+            previous.rangeEnd = event.date;
+        } else {
+            const period = {...event};
+            periods.push(period);
+            recent.set(key, period);
+        }
+    }
+    return periods;
+}

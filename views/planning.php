@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/planning.css">
+    <?php require __DIR__ . '/web-app-head.php'; ?>
     <script id="planning-source-config" type="application/json"><?= json_encode([
         'hehHostPattern' => HEH_PLANNING_HOST_PATTERN,
         'extraHosts' => extraPlanningHosts(),
@@ -20,6 +21,7 @@
     <script src="scripts/calendar-view.js" defer></script>
     <script src="scripts/planning-data.js" defer></script>
     <script src="scripts/planning-choices.js" defer></script>
+    <script src="scripts/calendar-export.js" defer></script>
     <script src="scripts/planning.js" defer></script>
 </head>
 <body>
@@ -102,7 +104,10 @@
                     </fieldset>
                     <div class="choice-filter">
                         <label for="course-filter">Filtrer les cours</label>
-                        <input id="course-filter" type="search" placeholder="Matière, formation ou groupe">
+                        <div class="course-filter-tools">
+                            <input id="course-filter" type="search" placeholder="Matière, formation ou groupe">
+                            <button id="review-courses" type="button" class="text-button" aria-pressed="false">Ma sélection</button>
+                        </div>
                         <p id="course-count" role="status"></p>
                     </div>
                     <div id="course-actions" class="course-actions" hidden>
@@ -133,6 +138,7 @@
                     <div class="step-actions">
                         <button id="edit-courses" type="button" class="button button-light">Modifier mes cours</button>
                         <button id="save-planning" type="button" class="button button-green" disabled>Enregistrer</button>
+                        <button id="export-planning" type="button" class="button button-light" disabled>Télécharger le .ics</button>
                         <button id="copy-planning" type="button" class="button button-yellow" disabled>Copier mon lien <span aria-hidden="true">↗</span></button>
                     </div>
                 </div>
@@ -156,6 +162,10 @@
                         <div id="week-picker">
                             <label for="calendar-week-select">Aller à la semaine</label>
                             <select id="calendar-week-select"></select>
+                        </div>
+                        <div id="month-picker" hidden>
+                            <label for="calendar-month-select">Aller au mois</label>
+                            <select id="calendar-month-select"></select>
                         </div>
                         <button id="calendar-today" type="button" class="button button-light">Aujourd’hui</button>
                     </div>
@@ -182,5 +192,6 @@
         </header>
         <div id="day-sessions"></div>
     </dialog>
+    <?php require __DIR__ . '/site-footer.php'; ?>
 </body>
 </html>

@@ -6,6 +6,8 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
     const period = document.getElementById('calendar-period');
     const weekPicker = document.getElementById('week-picker');
     const weekSelect = document.getElementById('calendar-week-select');
+    const monthPicker = document.getElementById('month-picker');
+    const monthSelect = document.getElementById('calendar-month-select');
     const todayButton = document.getElementById('calendar-today');
     const dayDetails = document.getElementById('day-detail');
     const dayTitle = document.getElementById('day-title');
@@ -36,6 +38,7 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
     let weekScale;
     let firstDate;
     let lastDate;
+    let pickerRange = '';
 
     function addDays(date, offset) {
         const nextDate = new Date(date);
@@ -97,32 +100,19 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
         return event.date === lastDay(event) ? start : start + ' au ' + dayFormat.format(dateOf(lastDay(event)));
     }
 
-    function groupNoticePeriods(sessions) {
-        const periods = [];
-        const recent = new Map();
-        for (const event of sessions) {
-            if (!isAllDayNotice(event)) {
-                continue;
-            }
-            const formations = [...(event.formations || [event.formation])].sort(formationOrder.compare);
-            const key = JSON.stringify([event.url, event.notice, event.subject, formations]);
-            const previous = recent.get(key);
-            const consecutive = previous && keyOf(addDays(dateOf(lastDay(previous)), 1)) === event.date;
-            if (consecutive) {
-                previous.rangeEnd = event.date;
-            } else {
-                const period = {...event};
-                periods.push(period);
-                recent.set(key, period);
-            }
+    function fillPeriodPickers() {
+        const range = keyOf(firstDate) + ':' + keyOf(lastDate);
+        if (range === pickerRange) {
+            return;
         }
-        return periods;
-    }
-
-    function fillWeekPicker() {
+        pickerRange = range;
         weekSelect.replaceChildren();
         for (let week = monday(firstDate); week <= lastDate; week = addDays(week, 7)) {
             weekSelect.add(new Option(shortDate.formatRange(week, addDays(week, 6)), keyOf(week)));
+        }
+        monthSelect.replaceChildren();
+        for (let month = firstOfMonth(firstDate); month <= lastDate; month = firstOfMonth(month, 1)) {
+            monthSelect.add(new Option(monthFormat.format(month), keyOf(month)));
         }
     }
 
@@ -490,8 +480,11 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
         next.disabled = start >= lastPeriod;
         period.textContent = weekly ? shortDate.formatRange(start, addDays(start, 6)) : monthFormat.format(currentDate);
         weekPicker.hidden = !weekly;
+        monthPicker.hidden = weekly;
         if (weekly) {
             weekSelect.value = keyOf(start);
+        } else {
+            monthSelect.value = keyOf(start);
         }
 
         const viewport = element('div', '', 'calendar-viewport');
@@ -540,7 +533,11 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
     previous.addEventListener('click', () => move(-1));
     next.addEventListener('click', () => move(1));
     weekSelect.addEventListener('change', () => {
-        currentDate = dateOf(weekSelect.value);
+        currentDate = adjust(dateOf(weekSelect.value));
+        render();
+    });
+    monthSelect.addEventListener('change', () => {
+        currentDate = adjust(dateOf(monthSelect.value));
         render();
     });
     todayButton.addEventListener('click', () => {
@@ -567,7 +564,7 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
                 lastDate = last > date ? last : date;
                 currentDate = adjust(currentDate || date);
                 updateWeekScale();
-                fillWeekPicker();
+                fillPeriodPickers();
             }
             render();
             return noticePeriods.length + sessions.filter(event => event.notice && !isAllDayNotice(event)).length;

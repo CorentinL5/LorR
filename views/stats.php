@@ -23,6 +23,7 @@ $today = usageDay();
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/planning.css">
+    <?php require __DIR__ . '/web-app-head.php'; ?>
 </head>
 <body>
     <?php require __DIR__ . '/site-header.php'; ?>
@@ -77,5 +78,6 @@ $today = usageDay();
             </div>
         </section>
     </main>
+    <?php require __DIR__ . '/site-footer.php'; ?>
 </body>
 </html>

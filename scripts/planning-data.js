@@ -317,12 +317,13 @@ async function readCachedPlanning(url, formations) {
     return {catalogue, schedules};
 }
 
-function browserPlanningResult(url, cache, errors = []) {
+function browserPlanningResult(url, cache, errors = [], warning = '') {
     return {
         url,
         formations: cache.catalogue?.data ?? [],
         schedules: [...cache.schedules].map(([formation, entry]) => ({formation, events: entry.data})),
         errors,
+        warning,
     };
 }
 
@@ -384,7 +385,7 @@ async function fetchPlanning(data, signal, onProgress, onSnapshot = () => {}, in
             onSnapshot(browserPlanningResult(url, cache));
         });
         rememberPlanningResult(cache, url, result);
-        return browserPlanningResult(url, cache, result.errors ?? []);
+        return browserPlanningResult(url, cache, result.errors ?? [], result.warning ?? '');
     } catch (error) {
         if (signal.aborted || !cache.schedules.size) {
             throw error;
