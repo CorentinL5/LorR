@@ -1,15 +1,11 @@
 <?php
 declare(strict_types=1);
 
+require_once __DIR__ . '/storage.php';
+
 const PLANNING_LINK_ID_LENGTH = 12;
 const MAX_STORED_PLANNING_CODE = 4096;
-const MAX_PLANNING_LINKS_PER_DIRECTORY = 512;
-
-function planningLinkDirectory(string $id): string
-{
-    $root = getenv('LORR_LINKS_DIR') ?: dirname(__DIR__) . '/var/planning-links';
-    return $root . '/' . $id[0];
-}
+const MAX_PLANNING_LINKS_PER_PREFIX = 512;
 
 function planningLinkBase64(string $bytes): string
 {
@@ -31,48 +27,52 @@ function validStoredPlanningCode(mixed $code): bool
     return $bytes !== false && planningLinkBase64($bytes) === $match[1];
 }
 
+function openPlanningLinkDatabase(): ?PDO
+{
+    if (!hasLocalSqlite()) {
+        return null;
+    }
+    $directory = localStorageDirectory();
+    if ($directory === null) {
+        throw new RuntimeException('Le stockage SQLite est indisponible.');
+    }
+
+    $database = openLocalDatabase($directory);
+    $database->exec(
+        'CREATE TABLE IF NOT EXISTS planning_links (
+            id TEXT PRIMARY KEY,
+            code TEXT NOT NULL
+        ) WITHOUT ROWID'
+    );
+    return $database;
+}
+
+function findPlanningLink(PDO $database, string $id): ?string
+{
+    $query = $database->prepare('SELECT code FROM planning_links WHERE id = ?');
+    $query->execute([$id]);
+    $code = $query->fetchColumn();
+    return is_string($code) ? $code : null;
+}
+
 function storePlanningLink(string $code): ?string
 {
+    $database = openPlanningLinkDatabase();
+    if ($database === null) {
+        return null;
+    }
+
     $id = planningLinkId($code);
-    $directory = planningLinkDirectory($id);
-    if (!is_dir($directory) && !@mkdir($directory, 0700, true) && !is_dir($directory)) {
-        return null;
-    }
-
-    $lock = @fopen($directory . '/.lock', 'c');
-    if ($lock === false) {
-        return null;
-    }
-    try {
-        if (!flock($lock, LOCK_EX)) {
-            return null;
-        }
-        $path = $directory . '/' . $id . '.link';
-        if (is_file($path)) {
-            $stored = @file_get_contents($path, false, null, 0, MAX_STORED_PLANNING_CODE + 1);
-            return $stored === $code ? $id : null;
-        }
-
-        $entries = @scandir($directory, SCANDIR_SORT_NONE);
-        if ($entries === false
-            || count(array_filter($entries, static fn (string $name): bool => str_ends_with($name, '.link'))) >= MAX_PLANNING_LINKS_PER_DIRECTORY) {
-            return null;
-        }
-
-        $temporary = @tempnam($directory, 'link-');
-        if ($temporary === false) {
-            return null;
-        }
-        if (realpath(dirname($temporary)) !== realpath($directory)
-            || @file_put_contents($temporary, $code) !== strlen($code)
-            || !@rename($temporary, $path)) {
-            @unlink($temporary);
-            return null;
-        }
-        return $id;
-    } finally {
-        fclose($lock);
-    }
+    $prefix = $id[0];
+    $insert = $database->prepare(
+        'INSERT INTO planning_links (id, code)
+        SELECT :id, :code
+        WHERE (SELECT COUNT(*) FROM planning_links WHERE id >= :first AND id < :next) < '
+        . MAX_PLANNING_LINKS_PER_PREFIX . '
+        ON CONFLICT (id) DO NOTHING'
+    );
+    $insert->execute(['id' => $id, 'code' => $code, 'first' => $prefix, 'next' => chr(ord($prefix) + 1)]);
+    return findPlanningLink($database, $id) === $code ? $id : null;
 }
 
 function createPlanningLink(): void
@@ -102,7 +102,11 @@ function createPlanningLink(): void
         return;
     }
 
-    $id = storePlanningLink($code);
+    try {
+        $id = storePlanningLink($code);
+    } catch (RuntimeException) {
+        $id = null;
+    }
     if ($id === null) {
         http_response_code(503);
         return;
@@ -125,8 +129,17 @@ function openPlanningLink(string $base, string $route): bool
     }
 
     $id = $match[1];
-    $path = planningLinkDirectory($id) . '/' . $id . '.link';
-    $code = @file_get_contents($path, false, null, 0, MAX_STORED_PLANNING_CODE + 1);
+    try {
+        $database = openPlanningLinkDatabase();
+        if ($database === null) {
+            http_response_code(503);
+            return true;
+        }
+        $code = findPlanningLink($database, $id);
+    } catch (RuntimeException) {
+        http_response_code(503);
+        return true;
+    }
     if (!validStoredPlanningCode($code) || planningLinkId($code) !== $id) {
         http_response_code(404);
         header('Content-Type: text/plain; charset=UTF-8');

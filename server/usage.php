@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+require_once __DIR__ . '/storage.php';
+
 const USAGE_METRICS = ['home', 'planner', 'reads', 'courses', 'clicks'];
 const USAGE_DISTINCT_TABLES = ['sources' => 'usage_sources', 'distinct_courses' => 'usage_courses'];
 
@@ -12,16 +14,6 @@ function usageDay(): DateTimeImmutable
 function emptyUsageCounts(): array
 {
     return array_fill_keys(USAGE_METRICS, 0);
-}
-
-function usageDirectory(): ?string
-{
-    $directory = getenv('LORR_STATS_DIR') ?: dirname(__DIR__) . '/var';
-    if (!is_dir($directory) && !@mkdir($directory, 0700, true) && !is_dir($directory)) {
-        return null;
-    }
-
-    return $directory;
 }
 
 function readUsageSnapshot(string $directory): ?array
@@ -44,15 +36,9 @@ function readUsageSnapshot(string $directory): ?array
     return $data + $emptySets;
 }
 
-function hasUsageSqlite(): bool
-{
-    return class_exists(PDO::class) && in_array('sqlite', PDO::getAvailableDrivers(), true);
-}
-
 function openUsageDatabase(string $directory): PDO
 {
-    $database = new PDO('sqlite:' . $directory . '/lorr-stats.sqlite');
-    $database->exec('PRAGMA busy_timeout = 2000');
+    $database = openLocalDatabase($directory);
     $database->exec(
         'CREATE TABLE IF NOT EXISTS usage_counts (
             day TEXT NOT NULL,
@@ -220,35 +206,35 @@ function recordFileUsage(string $directory, array $counts, array $distinct): voi
 
 function recordUsage(array $counts, array $distinct = []): void
 {
-    $directory = usageDirectory();
+    $directory = localStorageDirectory();
     if ($directory === null) {
         return;
     }
-    if (hasUsageSqlite()) {
+    if (hasLocalSqlite()) {
         try {
             recordDatabaseUsage(openUsageDatabase($directory), $counts, $distinct);
         } catch (RuntimeException) {
             // Usage statistics must not interrupt the requested page.
         }
-    } elseif (!is_file($directory . '/lorr-stats.sqlite')) {
+    } elseif (!is_file($directory . '/' . LORR_SQLITE_FILENAME)) {
         recordFileUsage($directory, $counts, $distinct);
     }
 }
 
 function siteUsage(): ?array
 {
-    $directory = usageDirectory();
+    $directory = localStorageDirectory();
     if ($directory === null) {
         return null;
     }
-    if (hasUsageSqlite()) {
+    if (hasLocalSqlite()) {
         try {
             return readUsageDatabase(openUsageDatabase($directory));
         } catch (RuntimeException) {
             return null;
         }
     }
-    if (is_file($directory . '/lorr-stats.sqlite')) {
+    if (is_file($directory . '/' . LORR_SQLITE_FILENAME)) {
         return null;
     }
 
