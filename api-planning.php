@@ -171,67 +171,69 @@ foreach ($requested as $name) {
 }
 
 $errors = [];
+$warning = null;
 if (!cacheLifetime($catalogue, CATALOGUE_TTL, $requestTime) || $missing) {
     if ($catalogue !== null || $schedules) {
         sendUpdate(['type' => 'snapshot', 'data' => cachedPlanningResponse($url, $catalogue, $schedules)]);
     }
-    if (!function_exists('proc_open')) {
-        respond(503, ['error' => 'Cet hébergement doit autoriser PHP à lancer le lecteur Hyperplanning.']);
-    }
-    if (function_exists('set_time_limit')) {
-        set_time_limit(115);
-    }
-    $command = ['node', __DIR__ . '/server/read.cjs', $url, json_encode($missing, JSON_UNESCAPED_UNICODE)];
-    if ($streaming) {
-        $command[] = '--heartbeat';
-    }
-    $process = proc_open(
-        $command,
-        [0 => ['pipe', 'r'], 1 => ['pipe', 'w'], 2 => ['file', PHP_OS_FAMILY === 'Windows' ? 'NUL' : '/dev/null', 'a']],
-        $pipes,
-        __DIR__
-    );
-    if (!is_resource($process)) {
-        respond(503, ['error' => 'La lecture d’Hyperplanning est indisponible pour le moment.']);
-    }
-
-    fclose($pipes[0]);
     $result = null;
     $received = [];
-    $failure = 'La lecture d’Hyperplanning a été interrompue. Réessaie dans un instant.';
-    while (($line = fgets($pipes[1])) !== false) {
-        $message = json_decode($line, true);
-        switch ($message['type'] ?? '') {
-            case 'progress':
-            case 'heartbeat':
-                sendUpdate($message);
-                break;
-            case 'result':
-                $result = $message['data'];
-                break;
-            case 'schedule':
-                $name = $message['schedule']['formation'];
-                $entry = ['time' => time(), 'data' => $message['schedule']['events']];
-                $received[$name] = $schedules[$name] = $entry;
-                writeCache($directory, cachePath($directory, $url, $name), $entry);
-                sendUpdate(['type' => 'snapshot', 'data' => cachedPlanningResponse($url, null, [$name => $entry])]);
-                break;
-            case 'error':
-                $failure = $message['error'];
-                break;
+    $failureStatus = 503;
+    $failure = 'La lecture d’Hyperplanning est indisponible pour le moment.';
+    if (!function_exists('proc_open')) {
+        $failure = 'Cet hébergement doit autoriser PHP à lancer le lecteur Hyperplanning.';
+    } else {
+        if (function_exists('set_time_limit')) {
+            set_time_limit(115);
         }
-        if ($streaming && connection_aborted()) {
-            proc_terminate($process);
+        $command = ['node', __DIR__ . '/server/read.cjs', $url, json_encode($missing, JSON_UNESCAPED_UNICODE)];
+        if ($streaming) {
+            $command[] = '--heartbeat';
+        }
+        $process = @proc_open(
+            $command,
+            [0 => ['pipe', 'r'], 1 => ['pipe', 'w'], 2 => ['file', PHP_OS_FAMILY === 'Windows' ? 'NUL' : '/dev/null', 'a']],
+            $pipes,
+            __DIR__
+        );
+        if (is_resource($process)) {
+            fclose($pipes[0]);
+            $failure = 'La lecture d’Hyperplanning a été interrompue. Réessaie dans un instant.';
+            while (($line = fgets($pipes[1])) !== false) {
+                $message = json_decode($line, true);
+                switch ($message['type'] ?? '') {
+                    case 'progress':
+                    case 'heartbeat':
+                        sendUpdate($message);
+                        break;
+                    case 'result':
+                        $result = $message['data'];
+                        break;
+                    case 'schedule':
+                        $name = $message['schedule']['formation'];
+                        $entry = ['time' => time(), 'data' => $message['schedule']['events']];
+                        $received[$name] = $schedules[$name] = $entry;
+                        writeCache($directory, cachePath($directory, $url, $name), $entry);
+                        sendUpdate(['type' => 'snapshot', 'data' => cachedPlanningResponse($url, null, [$name => $entry])]);
+                        break;
+                    case 'error':
+                        $failure = $message['error'];
+                        break;
+                }
+                if ($streaming && connection_aborted()) {
+                    proc_terminate($process);
+                    fclose($pipes[1]);
+                    proc_close($process);
+                    exit;
+                }
+            }
             fclose($pipes[1]);
-            proc_close($process);
-            exit;
+            $failureStatus = proc_close($process) === 2 ? 503 : 502;
         }
     }
-    fclose($pipes[1]);
-    $status = proc_close($process);
 
-    if ($result === null && !$schedules) {
-        respond($status === 2 ? 503 : 502, ['error' => $failure]);
+    if ($result === null && !$schedules && ($requested || $catalogue === null)) {
+        respond($failureStatus, ['error' => $failure]);
     }
     if ($result !== null) {
         $catalogue = ['time' => time(), 'data' => $result['formations']];
@@ -245,6 +247,7 @@ if (!cacheLifetime($catalogue, CATALOGUE_TTL, $requestTime) || $missing) {
         }
         $errors = $result['errors'];
     } else {
+        $warning = $failure;
         foreach ($missing as $name) {
             if (!isset($received[$name])) {
                 $errors[] = ['formation' => $name, 'error' => $failure];
@@ -285,4 +288,8 @@ if ($legacy) {
     respond(200, ['formations' => $catalogue['data'] ?? [], 'events' => reset($schedules)['data']]);
 }
 
-respond(200, cachedPlanningResponse($url, $catalogue, $schedules, $errors));
+$response = cachedPlanningResponse($url, $catalogue, $schedules, $errors);
+if ($warning !== null) {
+    $response['warning'] = $warning;
+}
+respond(200, $response);
