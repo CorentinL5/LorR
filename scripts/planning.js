@@ -721,7 +721,10 @@ async function restorePlanning() {
             if (!isCurrent()) {
                 return;
             }
-            const restored = readPlanningState(state);
+            const restored = readPlanningState(unpackPlanningState(state));
+            if (state[0] !== 2 || code?.startsWith('b.')) {
+                code = null;
+            }
             sources = restored.restoredSources;
             selections = restored.restoredSelections;
             selectedCourses = restored.restoredCourses;

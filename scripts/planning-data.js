@@ -60,23 +60,120 @@ function isPlanningFormation(name) {
         && planningTextEncoder.encode(name).length <= 300;
 }
 
-async function encodePlanningCode(state) {
-    const bytes = planningTextEncoder.encode(JSON.stringify(state));
-    if (bytes.length > planningLinkMaxBytes) {
-        throw new Error('Code trop volumineux.');
+function packPlanningState([, formations, picked, excluded = []]) {
+    const sources = new Map();
+    const groupsByFormation = formations.map(([host, name]) => {
+        const url = 'https://' + host + '/invite';
+        if (!sources.has(url)) {
+            const heh = /^hehplanning([0-9]{4})\.umons\.ac\.be$/.exec(host);
+            const reference = heh ? Number(heh[1]) : host;
+            sources.set(url, [reference, []]);
+        }
+        const groups = [];
+        sources.get(url)[1].push([name, groups]);
+        return {entries: groups, indexes: new Map()};
+    });
+    for (const [index, group, subject, type] of picked) {
+        const {entries, indexes} = groupsByFormation[index];
+        const key = JSON.stringify([group, type]);
+        if (!indexes.has(key)) {
+            const entry = [group, type];
+            indexes.set(key, entry);
+            entries.push(entry);
+        }
+        indexes.get(key).push(subject);
+    }
+    for (const key of excluded) {
+        const [url, kind, subject, first, last] = JSON.parse(key);
+        const source = sources.get(url);
+        source[2] ??= [];
+        source[2].push(first === last ? [kind, subject, first] : [kind, subject, first, last]);
+    }
+    return [2, [...sources.values()]];
+}
+
+function unpackPlanningState(state) {
+    if (!Array.isArray(state) || state[0] !== 2) {
+        return state;
+    }
+    const [, sources] = state;
+    if (state.length !== 2 || !Array.isArray(sources) || sources.length > planningLinkMaxSources) {
+        throw new Error('Sources invalides.');
     }
 
-    let data = bytes;
-    let prefix = 'b.';
+    const unpacked = [1, [], [], []];
+    const [, formations, picked, excluded] = unpacked;
+    let size = JSON.stringify(unpacked).length;
+    function appendRow(list, row) {
+        size += planningTextEncoder.encode(JSON.stringify(row)).length + Number(list.length > 0);
+        // The legacy form can omit the trailing empty notice array.
+        if (size > planningLinkMaxBytes + 3) {
+            throw new Error('Code trop volumineux.');
+        }
+        list.push(row);
+    }
+
+    for (const source of sources) {
+        if (!Array.isArray(source) || source.length < 2 || source.length > 3) {
+            throw new Error('Source invalide.');
+        }
+        const [reference, entries, notices = []] = source;
+        const host = Number.isInteger(reference) && reference >= 0 && reference <= 9999
+            ? 'hehplanning' + String(reference).padStart(4, '0') + '.umons.ac.be'
+            : reference;
+        if (!isPlanningHost(host) || !Array.isArray(entries) || !entries.length || !Array.isArray(notices)) {
+            throw new Error('Source invalide.');
+        }
+
+        for (const entry of entries) {
+            if (!Array.isArray(entry) || entry.length !== 2 || !isPlanningFormation(entry[0]) || !Array.isArray(entry[1])) {
+                throw new Error('Formation invalide.');
+            }
+            const [name, groups] = entry;
+            const index = formations.length;
+            appendRow(formations, [host, name]);
+            for (const group of groups) {
+                if (!Array.isArray(group) || group.length < 3 || !group.every(value => typeof value === 'string')) {
+                    throw new Error('Cours invalide.');
+                }
+                for (let item = 2; item < group.length; item++) {
+                    appendRow(picked, [index, group[0], group[item], group[1]]);
+                }
+            }
+        }
+        for (const notice of notices) {
+            if (!Array.isArray(notice) || notice.length < 3 || notice.length > 4
+                || !notice.every(value => typeof value === 'string')) {
+                throw new Error('Repère du calendrier invalide.');
+            }
+            const [kind, subject, first, last = first] = notice;
+            appendRow(excluded, JSON.stringify(['https://' + host + '/invite', kind, subject, first, last]));
+        }
+    }
+    return unpacked;
+}
+
+async function compressPlanningBytes(bytes) {
     if (typeof CompressionStream === 'function' && typeof DecompressionStream === 'function') {
         const stream = new Blob([bytes]).stream().pipeThrough(new CompressionStream('deflate'));
         const compressed = new Uint8Array(await new Response(stream).arrayBuffer());
         if (compressed.length < bytes.length) {
-            data = compressed;
-            prefix = 'z.';
+            return {data: compressed, prefix: 'z.'};
         }
     }
+    return {data: bytes, prefix: 'b.'};
+}
 
+async function encodePlanningCode(state) {
+    const raw = planningTextEncoder.encode(JSON.stringify(state));
+    if (raw.length > planningLinkMaxBytes) {
+        throw new Error('Code trop volumineux.');
+    }
+
+    const packed = planningTextEncoder.encode(JSON.stringify(packPlanningState(state)));
+    const candidates = packed.length <= planningLinkMaxBytes ? [raw, packed] : [raw];
+    const compressed = await Promise.all(candidates.map(compressPlanningBytes));
+    const {data, prefix} = compressed.reduce((best, option) => option.data.length < best.data.length ? option : best);
     let binary = '';
     for (let start = 0; start < data.length; start += 8192) {
         binary += String.fromCharCode(...data.subarray(start, start + 8192));
