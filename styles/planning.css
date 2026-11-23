@@ -571,11 +571,10 @@ fieldset { min-inline-size: 0; padding: 0; margin: 0; border: 0; }
     text-transform: capitalize;
 }
 
-.calendar-scroll {
+.calendar-viewport {
     width: 100%;
-    height: clamp(24rem, 66vh, 42rem);
-    overflow: auto;
-    scrollbar-gutter: stable;
+    height: var(--calendar-height);
+    overflow: clip;
     border: var(--border);
     border-radius: 10px;
     background: var(--white);
@@ -584,8 +583,9 @@ fieldset { min-inline-size: 0; padding: 0; margin: 0; border: 0; }
 .calendar-grid {
     display: grid;
     grid-template-columns: repeat(7, minmax(0, 1fr));
-    min-width: 650px;
-    overflow: hidden;
+    min-width: 0;
+    height: 100%;
+    overflow: clip;
     background: #dcd4c9;
     gap: 1px;
 }
@@ -605,7 +605,7 @@ fieldset { min-inline-size: 0; padding: 0; margin: 0; border: 0; }
     background: var(--white);
 }
 
-.calendar-month { grid-template-rows: auto repeat(6, 7.5rem); }
+.calendar-month { grid-template-rows: auto repeat(6, minmax(0, 1fr)); }
 .calendar-month .calendar-cell { min-height: 0; overflow: hidden; }
 .calendar-cell.outside-month { background: #f0ede6; }
 
@@ -627,10 +627,14 @@ button.calendar-date { background: var(--sky); border-color: var(--ink); }
 button.calendar-date[aria-pressed=true] { background: var(--yellow); }
 
 .calendar-week {
-    --hour-height: 3.7rem;
+    --time-axis-width: 4rem;
+    --week-columns: var(--time-axis-width) repeat(7, minmax(0, 1fr));
+    grid-template-columns: var(--week-columns);
+    grid-template-rows: 4.65rem minmax(0, 1fr);
     gap: 0;
-    overflow: clip;
 }
+
+.calendar-week.has-week-notices { grid-template-rows: 4.65rem auto minmax(0, 1fr); }
 
 .calendar-week > .calendar-weekday { height: 4.65rem; }
 .week-date[aria-current=date] { background: var(--yellow); }
@@ -648,17 +652,11 @@ button.calendar-date[aria-pressed=true] { background: var(--yellow); }
 
 .week-time-axis, .week-track {
     position: relative;
-    height: calc(var(--week-hours) * var(--hour-height));
+    min-height: 0;
     background-color: var(--white);
 }
 
 .week-time-axis { background-color: #f4efe5; }
-
-.week-axis-title, .week-all-day-label, .week-time-axis {
-    position: sticky;
-    inset-inline-start: 0;
-    z-index: 1;
-}
 
 .week-hour {
     position: absolute;
@@ -673,11 +671,8 @@ button.calendar-date[aria-pressed=true] { background: var(--yellow); }
 
 .week-track {
     border-inline-start: 1px solid #dcd4c9;
-    background-image: repeating-linear-gradient(
-        to bottom,
-        #dcd4c9 0 1px,
-        transparent 1px var(--hour-height)
-    );
+    background-image: linear-gradient(to bottom, #dcd4c9 0 1px, transparent 1px);
+    background-size: 100% calc(100% / var(--week-hours));
 }
 
 .week-track-today { background-color: #fff6d7; }
@@ -913,7 +908,7 @@ button.calendar-date[aria-pressed=true] { background: var(--yellow); }
 .week-notice-band {
     display: grid;
     grid-column: 1 / -1;
-    grid-auto-rows: minmax(1.9rem, auto);
+    grid-template-columns: var(--week-columns);
 }
 
 .week-notice-chip {
@@ -978,3 +973,30 @@ button.calendar-date[aria-pressed=true] { background: var(--yellow); }
 }
 
 .calendar-month .calendar-extra { padding-block: 0.1rem; line-height: 1.25; }
+
+.week-date-button {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    text-underline-offset: 0.16em;
+    text-decoration: underline;
+}
+
+@media (max-width: 610px) {
+    .calendar-week { --time-axis-width: 2.45rem; }
+    .calendar-weekday { padding-inline: 0.12rem; font-size: .66rem; }
+    .week-hour { inset-inline-end: 0.25rem; font-size: .62rem; }
+    .week-all-day-label { padding-inline: 0.15rem; font-size: .58rem; line-height: 1.2; }
+    .calendar-month .calendar-cell { padding: 0.18rem; }
+    .calendar-date { min-width: 1.35rem; min-height: 1.35rem; font-size: .7rem; }
+    .calendar-cell-header { column-gap: 0.1rem; }
+    .calendar-chip { padding-inline: 0.12rem; font-size: .64rem; }
+    .calendar-month .calendar-extra { font-size: .61rem; overflow-wrap: anywhere; }
+    .calendar-week .week-session { padding-inline: 0.12rem; font-size: .62rem; }
+    .week-session small { display: none; }
+    .week-session span { overflow: hidden; font-size: .59rem; text-overflow: ellipsis; }
+    .day-status-holiday { max-width: 100%; padding-inline: 0.13rem; font-size: .56rem; }
+    .day-status-empty, .today-label { font-size: .59rem; overflow-wrap: anywhere; }
+}

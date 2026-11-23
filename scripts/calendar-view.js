@@ -25,7 +25,6 @@ function createPlanningView(container, element, courseKey) {
     let noticePeriods = [];
     let dailyLayouts = new Map();
     let weekScale;
-    const scrollPositions = new Map();
     let firstDate;
     let lastDate;
 
@@ -175,6 +174,15 @@ function createPlanningView(container, element, courseKey) {
         dayDetails.showModal();
     }
 
+    function dayDetailButton(date, sessions, label, className) {
+        const button = element('button', label, className);
+        button.type = 'button';
+        button.setAttribute('aria-label', dayFormat.format(date));
+        button.setAttribute('aria-haspopup', 'dialog');
+        button.addEventListener('click', () => showDay(date, sessions));
+        return button;
+    }
+
     function renderList() {
         const todayKey = keyOf(today());
         const entries = new Map();
@@ -250,12 +258,10 @@ function createPlanningView(container, element, courseKey) {
         let cluster = [];
         let laneEnds = [];
         let clusterEnd = 0;
-        let width = 1;
         function finishCluster() {
             for (const slot of cluster) {
                 slot.lanes = laneEnds.length;
             }
-            width = Math.max(width, laneEnds.length);
             cluster = [];
             laneEnds = [];
         }
@@ -270,11 +276,10 @@ function createPlanningView(container, element, courseKey) {
             cluster.push(slot);
         }
         finishCluster();
-        return {date, allDay, slots, width, status: dayStatus(entries)};
+        return {date, allDay, slots, status: dayStatus(entries)};
     }
 
     function updateWeekScale() {
-        const widths = [110, 110, 110, 110, 110, 84, 84];
         let firstHour = 8;
         let lastHour = 18;
         let noticeRows = 0;
@@ -282,18 +287,18 @@ function createPlanningView(container, element, courseKey) {
         for (const key of days.keys()) {
             const day = layoutDay(dateOf(key));
             dailyLayouts.set(key, day);
-            const weekday = (day.date.getUTCDay() + 6) % 7;
-            widths[weekday] = Math.max(widths[weekday], day.width * 84);
             noticeRows = Math.max(noticeRows, day.allDay.length);
             for (const slot of day.slots) {
                 firstHour = Math.min(firstHour, Math.floor(slot.start / 60));
                 lastHour = Math.max(lastHour, Math.ceil(slot.end / 60));
             }
         }
-        weekScale = {firstHour, lastHour, widths, noticeRows};
+        const bandHeight = noticeRows ? 2.7 + (noticeRows - 1) * 1.9 : 0;
+        const height = Math.max(48, 4.65 + bandHeight + (lastHour - firstHour) * 3.4);
+        weekScale = {firstHour, lastHour, noticeRows, height};
     }
 
-    function renderWeekNotices(week, start, columns, rows) {
+    function renderWeekNotices(week, start, rows) {
         if (!rows) {
             return null;
         }
@@ -315,7 +320,6 @@ function createPlanningView(container, element, courseKey) {
         }
 
         const band = element('div', '', 'week-notice-band');
-        band.style.gridTemplateColumns = columns;
         band.style.gridTemplateRows = rows === 1 ? '2.7rem' : '2.7rem repeat(' + (rows - 1) + ', 1.9rem)';
         const rowSpan = '1 / span ' + rows;
         const label = element('div', 'Toute la journée', 'week-all-day week-all-day-label');
@@ -346,16 +350,18 @@ function createPlanningView(container, element, courseKey) {
             const date = addDays(start, index);
             return dailyLayouts.get(keyOf(date)) || layoutDay(date);
         });
-        const {firstHour, lastHour, widths, noticeRows} = weekScale;
+        const {firstHour, lastHour, noticeRows} = weekScale;
         const duration = (lastHour - firstHour) * 60;
         const grid = element('div', '', 'calendar-grid calendar-week');
-        grid.style.gridTemplateColumns = '4rem ' + widths.map(width => 'minmax(' + width + 'px, 1fr)').join(' ');
-        grid.style.minWidth = 'calc(4rem + ' + widths.reduce((sum, width) => sum + width, 0) + 'px)';
         grid.style.setProperty('--week-hours', lastHour - firstHour);
+        grid.classList.toggle('has-week-notices', noticeRows > 0);
 
         grid.append(element('div', 'Heures', 'calendar-weekday week-axis-title'));
         for (const [index, day] of week.entries()) {
-            const heading = element('div', weekdays[index] + ' ' + day.date.getUTCDate(), 'calendar-weekday week-date');
+            const label = weekdays[index] + ' ' + day.date.getUTCDate();
+            const heading = element('div', '', 'calendar-weekday week-date');
+            const events = days.get(keyOf(day.date)) || [];
+            heading.append(events.length ? dayDetailButton(day.date, events, label, 'week-date-button') : label);
             heading.setAttribute('aria-label', dayFormat.format(day.date));
             if (keyOf(day.date) === todayKey) {
                 heading.setAttribute('aria-current', 'date');
@@ -368,7 +374,7 @@ function createPlanningView(container, element, courseKey) {
             grid.append(heading);
         }
 
-        const allDay = renderWeekNotices(week, start, grid.style.gridTemplateColumns, noticeRows);
+        const allDay = renderWeekNotices(week, start, noticeRows);
         if (allDay) {
             grid.append(allDay);
         }
@@ -430,12 +436,7 @@ function createPlanningView(container, element, courseKey) {
             cell.classList.toggle('outside-month', outside);
             const header = element('div', '', 'calendar-cell-header');
             if (sessions.length) {
-                const dateButton = element('button', String(date.getUTCDate()), 'calendar-date');
-                dateButton.type = 'button';
-                dateButton.setAttribute('aria-label', dayFormat.format(date));
-                dateButton.setAttribute('aria-haspopup', 'dialog');
-                dateButton.addEventListener('click', () => showDay(date, sessions));
-                header.append(dateButton);
+                header.append(dayDetailButton(date, sessions, String(date.getUTCDate()), 'calendar-date'));
             } else {
                 header.append(element('h3', String(date.getUTCDate()), 'calendar-date'));
             }
@@ -481,28 +482,16 @@ function createPlanningView(container, element, courseKey) {
             weekSelect.value = keyOf(start);
         }
 
-        const scroll = element('div', '', 'calendar-scroll');
-        scroll.tabIndex = 0;
-        scroll.dataset.view = mode;
-        scroll.setAttribute('role', 'region');
-        scroll.setAttribute('aria-label', weekly ? 'Calendrier de la semaine' : 'Calendrier du mois');
+        const viewport = element('div', '', 'calendar-viewport');
+        viewport.setAttribute('role', 'region');
+        viewport.setAttribute('aria-label', weekly ? 'Calendrier de la semaine' : 'Calendrier du mois');
+        viewport.style.setProperty('--calendar-height', weekScale.height + 'rem');
         const todayKey = keyOf(today());
-        scroll.append(weekly ? renderWeek(start, todayKey) : renderMonth(start, todayKey));
-        container.append(scroll);
-        const position = scrollPositions.get(mode);
-        if (position) {
-            scroll.scrollLeft = position.left;
-            scroll.scrollTop = position.top;
-        }
+        viewport.append(weekly ? renderWeek(start, todayKey) : renderMonth(start, todayKey));
+        container.append(viewport);
     }
 
     function render() {
-        const previousScroll = container.querySelector('.calendar-scroll');
-        if (previousScroll) {
-            scrollPositions.set(previousScroll.dataset.view, {
-                left: previousScroll.scrollLeft, top: previousScroll.scrollTop,
-            });
-        }
         container.replaceChildren();
         options.hidden = !days.size;
         navigation.hidden = !days.size || mode === 'list';
@@ -540,12 +529,6 @@ function createPlanningView(container, element, courseKey) {
     todayButton.addEventListener('click', () => {
         currentDate = today();
         render();
-        const scroll = container.querySelector('.calendar-scroll');
-        const cell = scroll?.querySelector('[aria-current=date]');
-        if (cell) {
-            scroll.scrollLeft += cell.getBoundingClientRect().left - scroll.getBoundingClientRect().left
-                - (scroll.clientWidth - cell.offsetWidth) / 2;
-        }
     });
 
     return {
