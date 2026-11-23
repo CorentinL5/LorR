@@ -87,24 +87,21 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     respond(405, ['error' => 'Cette adresse accepte uniquement les requêtes POST.']);
 }
 
-$data = json_decode(file_get_contents('php://input', false, null, 0, 32768), true);
+require __DIR__ . '/server/planning-sources.php';
+$body = file_get_contents('php://input', false, null, 0, MAX_PLANNING_REQUEST_BYTES + 1);
+if ($body === false) {
+    respond(400, ['error' => 'Impossible de lire la demande d’horaires.']);
+}
+if (strlen($body) > MAX_PLANNING_REQUEST_BYTES) {
+    respond(413, ['error' => 'La demande d’horaires est trop volumineuse.']);
+}
+$data = json_decode($body, true);
 if (!is_array($data) || !is_string($data['url'] ?? null)) {
     respond(400, ['error' => 'Indique un lien vers un espace invité.']);
 }
 
-$parts = parse_url(trim($data['url']));
-$host = strtolower($parts['host'] ?? '');
-$extraHosts = preg_split('/\s*,\s*/', strtolower(getenv('LORR_PLANNING_HOSTS') ?: ''), -1, PREG_SPLIT_NO_EMPTY);
-$supportedHost = preg_match('/\Ahehplanning[0-9]{4}\.umons\.ac\.be\z/', $host)
-    || in_array($host, $extraHosts, true);
-
-if (($parts['scheme'] ?? '') !== 'https'
-    || !in_array($parts['path'] ?? '', ['/invite', '/invite/'], true)
-    || isset($parts['pass'])
-    || isset($parts['user'])
-    || isset($parts['port'])
-    || !$supportedHost
-) {
+$url = planningSource($data['url']);
+if ($url === null) {
     respond(400, ['error' => 'Utilise un lien HTTPS /invite d’un établissement pris en charge.']);
 }
 
@@ -114,18 +111,20 @@ if (!is_array($requested) || !array_is_list($requested)) {
     respond(400, ['error' => 'La liste des formations est invalide.']);
 }
 foreach ($requested as $name) {
-    if (!is_string($name) || trim($name) === '' || strlen($name) > 300 || str_contains($name, "\0")) {
+    if (!is_string($name) || trim($name) === '' || strlen($name) > 300 || preg_match('/[\x00-\x1f\x7f]/', $name)) {
         respond(400, ['error' => 'La formation est invalide.']);
     }
 }
 $requested = array_values(array_unique($requested));
+if (count($requested) > MAX_FORMATIONS_PER_SOURCE) {
+    respond(400, ['error' => 'Choisis au maximum ' . MAX_FORMATIONS_PER_SOURCE . ' formations par lien invité.']);
+}
 
 require __DIR__ . '/server/usage.php';
 if ($requested) {
     recordUsage(['reads' => 1]);
 }
 
-$url = 'https://' . $host . '/invite';
 $directory = sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'lorr-hyperplanning-v3';
 $cataloguePath = cachePath($directory, $url);
 $requestTime = time();

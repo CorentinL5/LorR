@@ -56,6 +56,8 @@ let courses = [];
 let shownCourses = [];
 let subjectGroups = [];
 let notices = new Map();
+let planningLinkRevision = 0;
+let planningRestoreRevision = 0;
 
 function selectionKey(url, formation) {
     return JSON.stringify([url, formation]);
@@ -102,30 +104,49 @@ function saveChoices() {
     updatePlanningLink();
 }
 
-function readPlanningLink(encoded) {
-    const [version, formations, picked, excluded = []] = JSON.parse(encoded);
-    if (version !== 1 || !Array.isArray(formations) || !Array.isArray(picked) || !Array.isArray(excluded)) {
+function readPlanningState(state) {
+    if (!Array.isArray(state) || state.length < 3 || state.length > 4) {
+        throw new Error('Format du lien invalide.');
+    }
+    const [version, formations, picked, excluded = []] = state;
+    if (version !== 1 || !Array.isArray(formations) || !formations.length
+        || !Array.isArray(picked) || !picked.length || !Array.isArray(excluded)) {
         throw new Error('Format du lien invalide.');
     }
     const restoredSources = new Map();
     const restoredSelections = new Map();
-    const targets = formations.map(([host, formation]) => {
-        if (typeof host !== 'string' || !/^[a-z0-9.-]+$/.test(host)
-            || typeof formation !== 'string' || !formation.trim()) {
+    const targets = formations.map(row => {
+        if (!Array.isArray(row) || row.length !== 2 || !isPlanningHost(row[0]) || !isPlanningFormation(row[1])) {
             throw new Error('Formation invalide.');
         }
+        const [host, formation] = row;
         const url = 'https://' + host + '/invite';
-        const names = restoredSources.get(url) || [];
-        restoredSources.set(url, [...names, formation]);
+        if (!restoredSources.has(url)) {
+            restoredSources.set(url, []);
+        }
+        const names = restoredSources.get(url);
+        if (!names.includes(formation)) {
+            names.push(formation);
+        }
+        if (restoredSources.size > planningLinkMaxSources || names.length > planningSourceConfig.maxFormationsPerSource) {
+            throw new Error('Trop de formations dans le lien.');
+        }
         restoredSelections.set(selectionKey(url, formation), {url, formation});
         return {url, formation};
     });
-    const restoredCourses = new Set(picked.map(([index, group, subject, type]) => {
-        const target = targets[index];
-        if (!Number.isInteger(index) || !target || ![group, subject, type].every(value => typeof value === 'string')) {
+    for (const [url, names] of restoredSources) {
+        planningRequestBody(url, names);
+    }
+    const restoredCourses = new Set(picked.map(row => {
+        if (!Array.isArray(row) || row.length !== 4) {
             throw new Error('Cours invalide.');
         }
-        return courseKey({...target, group, subject, type});
+        const [index, group, subject, type] = row;
+        if (!Number.isInteger(index) || index < 0 || index >= targets.length || !subject
+            || ![group, subject, type].every(value => typeof value === 'string')) {
+            throw new Error('Cours invalide.');
+        }
+        return courseKey({...targets[index], group, subject, type});
     }));
     const restoredNotices = new Set(excluded.filter(key => {
         const fields = typeof key === 'string' ? JSON.parse(key) : null;
@@ -135,39 +156,61 @@ function readPlanningLink(encoded) {
     return {restoredSources, restoredSelections, restoredCourses, restoredNotices};
 }
 
-function updatePlanningLink() {
+function planningShareState() {
+    const indexes = new Map();
+    const formations = [...selections].map(([key, {url, formation}], index) => {
+        indexes.set(key, index);
+        return [new URL(url).hostname, formation];
+    });
+    const picked = [...selectedCourses].flatMap(key => {
+        const [url, formation, group, subject, type] = JSON.parse(key);
+        const index = indexes.get(selectionKey(url, formation));
+        return index === undefined ? [] : [[index, group, subject, type]];
+    });
+    const activeSources = new Set([...selections.values()].map(selection => selection.url));
+    const excluded = [...hiddenNotices].filter(key => activeSources.has(JSON.parse(key)[0]));
+    return excluded.length ? [1, formations, picked, excluded] : [1, formations, picked];
+}
+
+async function updatePlanningLink(existingCode = null) {
+    const revision = ++planningLinkRevision;
     const address = new URL(location.href);
-    const savedHash = new URLSearchParams(address.hash.slice(1));
-    if (created && selections.size && !legacyHiddenCourses) {
-        const indexes = new Map();
-        const formations = [...selections].map(([key, {url, formation}], index) => {
-            indexes.set(key, index);
-            return [new URL(url).hostname, formation];
-        });
-        const picked = [...selectedCourses].flatMap(key => {
-            const [url, formation, group, subject, type] = JSON.parse(key);
-            const index = indexes.get(selectionKey(url, formation));
-            return index === undefined ? [] : [[index, group, subject, type]];
-        });
-        const activeSources = new Set([...selections.values()].map(selection => selection.url));
-        const excluded = [...hiddenNotices].filter(key => activeSources.has(JSON.parse(key)[0]));
-        const state = excluded.length ? [1, formations, picked, excluded] : [1, formations, picked];
-        savedHash.set('planning', JSON.stringify(state));
-        address.hash = savedHash.toString();
-        copyButton.disabled = false;
-        saveButton.disabled = false;
-        linkInput.value = address.href;
-    } else {
-        savedHash.delete('planning');
-        address.hash = savedHash.toString();
-        copyButton.disabled = true;
-        saveButton.disabled = true;
-        linkFallback.hidden = true;
-        linkInput.value = '';
+    const originalAddress = address.href;
+    copyButton.disabled = true;
+    saveButton.disabled = true;
+    linkFallback.hidden = true;
+    linkInput.value = '';
+
+    let code;
+    let errorMessage = '';
+    if (created && selections.size && selectedCourses.size && !legacyHiddenCourses) {
+        try {
+            if (existingCode) {
+                code = existingCode;
+            } else {
+                const state = planningShareState();
+                readPlanningState(state);
+                code = await encodePlanningCode(state);
+            }
+        } catch {
+            errorMessage = 'Ce planning est trop volumineux ou ne peut pas être partagé par lien.';
+        }
     }
+    if (revision !== planningLinkRevision || location.href !== originalAddress) {
+        return;
+    }
+    address.search = '';
+    address.hash = code ? 'p=' + code : '';
     if (address.href !== location.href) {
         history.replaceState(null, '', address);
         linkStatus.textContent = '';
+    }
+    if (code) {
+        copyButton.disabled = false;
+        saveButton.disabled = false;
+        linkInput.value = address.href;
+    } else if (errorMessage) {
+        linkStatus.textContent = errorMessage;
     }
 }
 
@@ -632,7 +675,9 @@ async function loadSchedule(retry = false) {
     }
 }
 
-function restorePlanning() {
+async function restorePlanning() {
+    const revision = ++planningRestoreRevision;
+    planningLinkRevision++;
     activeRequest?.abort();
     activeRequest = null;
     events = [];
@@ -647,34 +692,54 @@ function restorePlanning() {
     statusMessage.textContent = '';
     const address = new URL(location.href);
     const startNew = address.searchParams.has('nouveau');
-    if (startNew) {
-        address.searchParams.delete('nouveau');
+    if (address.search) {
+        address.search = '';
         history.replaceState(null, '', address);
     }
-    const encoded = new URLSearchParams(address.hash.slice(1)).get('planning');
-    if (encoded === null) {
-        loadLocalChoices(startNew);
-    } else {
-        try {
-            const restored = readPlanningLink(encoded);
+
+    let code = null;
+    const isCurrent = () => revision === planningRestoreRevision && location.hash === address.hash;
+    try {
+        if (address.hash.length > planningLinkMaxBytes * 3 + 10) {
+            throw new Error('Lien trop volumineux.');
+        }
+        const params = new URLSearchParams(address.hash.slice(1));
+        if (params.getAll('p').length + params.getAll('planning').length > 1) {
+            throw new Error('Le lien contient plusieurs codes.');
+        }
+        code = params.get('p');
+        const legacy = params.get('planning');
+        if (code !== null || legacy !== null) {
+            loadLocalChoices(true);
+            showStep(1);
+            sourceForm.querySelector('button').disabled = true;
+            statusMessage.textContent = 'Lecture du lien…';
+            if (legacy !== null && planningTextEncoder.encode(legacy).length > planningLinkMaxBytes) {
+                throw new Error('Lien trop volumineux.');
+            }
+            const state = code !== null ? await decodePlanningCode(code) : JSON.parse(legacy);
+            if (!isCurrent()) {
+                return;
+            }
+            const restored = readPlanningState(state);
             sources = restored.restoredSources;
             selections = restored.restoredSelections;
             selectedCourses = restored.restoredCourses;
             hiddenNotices = restored.restoredNotices;
-            legacyHiddenCourses = null;
-            created = Boolean(selectedCourses.size && selections.size);
-        } catch {
-            sources = new Map();
-            selections = new Map();
-            selectedCourses = new Set();
-            hiddenNotices = new Set();
-            legacyHiddenCourses = null;
-            created = false;
-            statusMessage.textContent = 'Ce lien de planning est incomplet ou invalide.';
+            created = true;
+            statusMessage.textContent = '';
+        } else {
+            loadLocalChoices(startNew);
         }
+    } catch {
+        if (!isCurrent()) {
+            return;
+        }
+        loadLocalChoices(true);
+        statusMessage.textContent = 'Ce lien de planning est incomplet ou invalide.';
     }
     setBusy(false);
-    updatePlanningLink();
+    updatePlanningLink(code);
     renderFormations();
     if (created && selections.size) {
         showStep(4);

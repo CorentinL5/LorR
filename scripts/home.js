@@ -1,17 +1,22 @@
-function openLegacyPlanning() {
-    if (new URLSearchParams(location.hash.slice(1)).has('planning')) {
+function hasPlanningCode(hash) {
+    const params = new URLSearchParams(hash.slice(1));
+    return params.has('p') || params.has('planning');
+}
+
+function openLinkedPlanning() {
+    if (hasPlanningCode(location.hash)) {
         location.replace('planning' + location.hash);
         return true;
     }
     return false;
 }
 
-if (!openLegacyPlanning()) {
+if (!openLinkedPlanning()) {
     const showSavedPlanning = () => {
         try {
             const saved = localStorage.getItem('lorr-saved-planning');
             const link = document.getElementById('saved-planning-link');
-            const available = Boolean(saved?.startsWith('#') && new URLSearchParams(saved.slice(1)).has('planning'));
+            const available = Boolean(saved?.startsWith('#') && hasPlanningCode(saved));
             link.hidden = !available;
             if (available) {
                 link.href = 'planning' + saved;
@@ -21,7 +26,7 @@ if (!openLegacyPlanning()) {
         }
     };
     showSavedPlanning();
-    window.addEventListener('hashchange', openLegacyPlanning);
+    window.addEventListener('hashchange', openLinkedPlanning);
     window.addEventListener('pageshow', showSavedPlanning);
     window.addEventListener('storage', showSavedPlanning);
 }

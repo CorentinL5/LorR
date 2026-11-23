@@ -11,6 +11,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/planning.css">
+    <script id="planning-source-config" type="application/json"><?= json_encode([
+        'hehHostPattern' => HEH_PLANNING_HOST_PATTERN,
+        'extraHosts' => extraPlanningHosts(),
+        'maxFormationsPerSource' => MAX_FORMATIONS_PER_SOURCE,
+        'maxRequestBytes' => MAX_PLANNING_REQUEST_BYTES,
+    ], JSON_HEX_TAG | JSON_THROW_ON_ERROR) ?></script>
     <script src="scripts/calendar-view.js" defer></script>
     <script src="scripts/planning-data.js" defer></script>
     <script src="scripts/planning-choices.js" defer></script>

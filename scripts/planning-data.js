@@ -1,4 +1,10 @@
 const planningCachePrefix = 'lorr-tab-planning-v2:';
+const planningSourceConfig = JSON.parse(document.getElementById('planning-source-config').textContent);
+const hehPlanningHost = new RegExp('^(?:' + planningSourceConfig.hehHostPattern + ')$');
+const extraPlanningHosts = new Set(planningSourceConfig.extraHosts);
+const planningTextEncoder = new TextEncoder();
+const planningLinkMaxBytes = 256 * 1024;
+const planningLinkMaxSources = 32;
 const courseClickBatchLimit = 100;
 let pendingCourseClicks = 0;
 let courseClickTimer;
@@ -39,17 +45,79 @@ document.addEventListener('visibilitychange', () => {
 });
 window.addEventListener('pagehide', flushCourseClicks);
 
+function isPlanningHost(host) {
+    return typeof host === 'string' && host === host.trim() && (hehPlanningHost.test(host) || extraPlanningHosts.has(host));
+}
+
 function planningSource(url) {
-    try {
-        const address = new URL(url);
-        if (address.protocol === 'https:' && !address.username && !address.password
-            && !address.port && ['/invite', '/invite/'].includes(address.pathname)) {
-            return address.origin + '/invite';
-        }
-    } catch {
-        // Invalid URLs are handled by the connector.
+    const match = typeof url === 'string' && /^https:\/\/([a-z0-9.-]+)\/invite\/?(?:[?#][^\x00-\x20\x7f]*)?$/i.exec(url.trim());
+    const host = match ? match[1].toLowerCase() : null;
+    return isPlanningHost(host) ? 'https://' + host + '/invite' : null;
+}
+
+function isPlanningFormation(name) {
+    return typeof name === 'string' && name.trim() && !/[\x00-\x1f\x7f]/.test(name)
+        && planningTextEncoder.encode(name).length <= 300;
+}
+
+async function encodePlanningCode(state) {
+    const bytes = planningTextEncoder.encode(JSON.stringify(state));
+    if (bytes.length > planningLinkMaxBytes) {
+        throw new Error('Code trop volumineux.');
     }
-    return null;
+
+    let data = bytes;
+    let prefix = 'b.';
+    if (typeof CompressionStream === 'function' && typeof DecompressionStream === 'function') {
+        const stream = new Blob([bytes]).stream().pipeThrough(new CompressionStream('deflate'));
+        const compressed = new Uint8Array(await new Response(stream).arrayBuffer());
+        if (compressed.length < bytes.length) {
+            data = compressed;
+            prefix = 'z.';
+        }
+    }
+
+    let binary = '';
+    for (let start = 0; start < data.length; start += 8192) {
+        binary += String.fromCharCode(...data.subarray(start, start + 8192));
+    }
+    return prefix + btoa(binary).replaceAll('+', '-').replaceAll('/', '_').replace(/=+$/, '');
+}
+
+async function decodePlanningCode(code) {
+    if (code.length > Math.ceil(planningLinkMaxBytes * 4 / 3) + 2 || !/^[bz]\.[A-Za-z0-9_-]+$/.test(code)) {
+        throw new Error('Code invalide.');
+    }
+
+    const binary = atob(code.slice(2).replaceAll('-', '+').replaceAll('_', '/'));
+    const bytes = Uint8Array.from(binary, char => char.charCodeAt(0));
+    const decoder = new TextDecoder('utf-8', {fatal: true});
+    if (code.startsWith('b.')) {
+        if (bytes.length > planningLinkMaxBytes) {
+            throw new Error('Code trop volumineux.');
+        }
+        return JSON.parse(decoder.decode(bytes));
+    }
+
+    const stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream('deflate'));
+    const reader = stream.getReader();
+    let size = 0;
+    let json = '';
+    try {
+        while (true) {
+            const {value, done} = await reader.read();
+            if (done) {
+                return JSON.parse(json + decoder.decode());
+            }
+            size += value.length;
+            if (size > planningLinkMaxBytes) {
+                throw new Error('Code trop volumineux.');
+            }
+            json += decoder.decode(value, {stream: true});
+        }
+    } finally {
+        await reader.cancel().catch(() => {});
+    }
 }
 
 function readTabPlanning(key) {
@@ -83,12 +151,18 @@ function saveTabPlanning(key, data, maxAge) {
 
 async function fetchPlanning(data, signal, onProgress) {
     const url = planningSource(data.url);
+    if (!url) {
+        throw new Error('Utilise un lien HTTPS /invite d’un établissement pris en charge.');
+    }
     const cached = [];
     const missing = [];
-    const requested = data.formations || [];
-    const catalogue = url ? readTabPlanning(url) : null;
+    const requested = [...new Set(data.formations)];
+    if (requested.length > planningSourceConfig.maxFormationsPerSource || requested.some(name => !isPlanningFormation(name))) {
+        throw new Error('Vérifie la liste des formations choisies.');
+    }
+    const catalogue = readTabPlanning(url);
     for (const formation of requested) {
-        const events = url ? readTabPlanning(JSON.stringify([url, formation])) : null;
+        const events = readTabPlanning(JSON.stringify([url, formation]));
         if (events) {
             cached.push({formation, events});
         } else {
@@ -102,8 +176,7 @@ async function fetchPlanning(data, signal, onProgress) {
     }
 
     try {
-        const request = requested.length ? {...data, formations: missing} : data;
-        const result = await requestPlanning(request, signal, onProgress);
+        const result = await requestPlanning(url, missing, signal, onProgress);
         const fresh = result.schedules || [];
         if (result.url) {
             saveTabPlanning(result.url, result.formations, result.catalogueMaxAge);
@@ -125,11 +198,19 @@ async function fetchPlanning(data, signal, onProgress) {
     }
 }
 
-async function requestPlanning(data, signal, onProgress) {
+function planningRequestBody(url, formations) {
+    const body = JSON.stringify({url, formations});
+    if (planningTextEncoder.encode(body).length > planningSourceConfig.maxRequestBytes) {
+        throw new Error('La demande d’horaires est trop volumineuse.');
+    }
+    return body;
+}
+
+async function requestPlanning(url, formations, signal, onProgress) {
     const response = await fetch('api/planning', {
         method: 'POST',
         headers: {'Content-Type': 'application/json', Accept: 'application/x-ndjson'},
-        body: JSON.stringify(data),
+        body: planningRequestBody(url, formations),
         signal,
     });
 

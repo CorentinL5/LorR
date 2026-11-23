@@ -49,6 +49,7 @@ switch ($route) {
         require __DIR__ . '/views/home.php';
         break;
     case '/planning':
+        require __DIR__ . '/server/planning-sources.php';
         if (($_SERVER['REQUEST_METHOD'] ?? '') === 'GET') {
             require __DIR__ . '/server/usage.php';
             recordUsage(['planner' => 1]);

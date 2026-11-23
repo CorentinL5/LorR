@@ -22,6 +22,11 @@ Les étapes sont cliquables dès que les choix nécessaires sont faits.
 depuis l’accueil. **Copier mon lien** permet de le retrouver dans un autre
 navigateur.
 
+Les liens partagés contiennent un code compact après `#p=`. LorR compresse la
+sélection dans le navigateur et l’encode en Base64URL. Le serveur ne stocke
+aucun code. Les anciens liens restent utilisables. LorR vérifie le code et
+les domaines invités autorisés avant de demander les horaires.
+
 ## Consulter les horaires
 
 - **Liste** regroupe les séances par semaine.
