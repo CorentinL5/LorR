@@ -19,16 +19,14 @@ nécessaire.
 
 Les étapes sont cliquables dès que les choix nécessaires sont faits.
 **Enregistrer** garde le planning sur cet appareil et permet de le rouvrir
-depuis l’accueil. **Copier mon lien** permet de le retrouver dans un autre
-navigateur.
+depuis l’accueil. **Copier mon lien** crée un lien court du type
+`/p/Gx2mQ7tW4-Lb` pour ouvrir ce planning dans un autre navigateur.
+La barre d’adresse affiche simplement `/planning` après l’ouverture.
 
-Les liens partagés contiennent un code compact après `#p=`. LorR regroupe
-les cours par source, formation, groupe et type pour réduire la sélection
-avant de la compresser et de l’encoder en Base64URL. Le serveur ne stocke
-aucun code. Les anciens liens restent utilisables. LorR vérifie le code et
-les domaines invités autorisés avant de demander les horaires.
-La barre d’adresse affiche simplement `/planning` après l’ouverture. Utilise
-**Copier mon lien** pour récupérer l’adresse complète à partager.
+LorR conserve la sélection associée au lien court dans un fichier local.
+Si le fichier ne peut pas être créé, le bouton copie le lien autonome avec
+le code compressé après `#p=`. Les anciens liens restent utilisables.
+LorR vérifie le code et les domaines invités avant de demander les horaires.
 
 ## Consulter les horaires
 
@@ -68,6 +66,10 @@ ton offre LWS autorise cette fonction et l’exécution de Chromium. LWS
 Le routeur PHP sert l’accueil sur `/` et le créateur sur `/planning`.
 Sur Apache, active le module `mod_rewrite` et autorise les règles du fichier
 `.htaccess`.
+
+Les liens courts utilisent le dossier `var/planning-links`. PHP doit pouvoir y écrire.
+Tu peux choisir un autre dossier persistant avec `LORR_LINKS_DIR`. Conserve ce
+dossier lors des mises à jour pour que les liens déjà partagés restent actifs.
 
 Le domaine annuel de la HEH sur `umons.ac.be` est pris en charge. Pour ajouter
 d’autres établissements, renseigne leurs noms de domaine exacts dans

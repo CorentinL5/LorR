@@ -15,5 +15,5 @@ test.*
 # Node.js
 node_modules/
 
-# Local usage data
+# Local stats and share links
 /var/

@@ -5,9 +5,11 @@ const extraPlanningHosts = new Set(planningSourceConfig.extraHosts);
 const planningTextEncoder = new TextEncoder();
 const planningLinkMaxBytes = 256 * 1024;
 const planningLinkMaxSources = 32;
+const maxStoredPlanningCode = 4096;
 const courseClickBatchLimit = 100;
 let pendingCourseClicks = 0;
 let courseClickTimer;
+let cachedShortLink;
 
 function flushCourseClicks() {
     if (!pendingCourseClicks) {
@@ -215,6 +217,40 @@ async function decodePlanningCode(code) {
     } finally {
         await reader.cancel().catch(() => {});
     }
+}
+
+async function shortPlanningLink(portableLink) {
+    if (cachedShortLink?.portableLink === portableLink) {
+        return cachedShortLink.address;
+    }
+    const code = new URLSearchParams(new URL(portableLink).hash.slice(1)).get('p');
+    if (!code || code.length > maxStoredPlanningCode) {
+        return portableLink;
+    }
+
+    const request = new AbortController();
+    const timeout = setTimeout(() => request.abort(), 4000);
+    try {
+        const response = await fetch('api/planning/links', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({code}),
+            signal: request.signal,
+        });
+        if (response.ok) {
+            const {id} = await response.json();
+            if (typeof id === 'string' && id.length === 12 && /^[A-Za-z0-9_-]+$/.test(id)) {
+                const address = new URL('p/' + id, portableLink).href;
+                cachedShortLink = {portableLink, address};
+                return address;
+            }
+        }
+    } catch {
+        // The portable link still works if the short link cannot be saved.
+    } finally {
+        clearTimeout(timeout);
+    }
+    return portableLink;
 }
 
 function readTabPlanning(key) {

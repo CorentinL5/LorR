@@ -59,6 +59,7 @@ let notices = new Map();
 let planningLinkRevision = 0;
 let planningRestoreRevision = 0;
 let planningRestoreTimer;
+let portablePlanningLink = '';
 
 function selectionKey(url, formation) {
     return JSON.stringify([url, formation]);
@@ -200,6 +201,7 @@ async function updatePlanningLink(existingCode = null) {
     saveButton.disabled = true;
     linkFallback.hidden = true;
     linkInput.value = '';
+    portablePlanningLink = '';
 
     let code;
     let errorMessage = '';
@@ -224,9 +226,9 @@ async function updatePlanningLink(existingCode = null) {
     linkStatus.textContent = errorMessage;
     if (code) {
         address.hash = hash;
+        portablePlanningLink = address.href;
         copyButton.disabled = false;
         saveButton.disabled = false;
-        linkInput.value = address.href;
     }
 }
 
@@ -800,7 +802,7 @@ sourceForm.addEventListener('submit', async event => {
 
 saveButton.addEventListener('click', () => {
     try {
-        localStorage.setItem('lorr-saved-planning', new URL(linkInput.value).hash);
+        localStorage.setItem('lorr-saved-planning', new URL(portablePlanningLink).hash);
         linkStatus.textContent = 'Planning enregistré. Retrouve-le depuis l’accueil.';
     } catch {
         linkStatus.textContent = 'Impossible de sauvegarder sur cet appareil. Tu peux copier le lien.';
@@ -808,10 +810,34 @@ saveButton.addEventListener('click', () => {
 });
 
 copyButton.addEventListener('click', async () => {
+    const portableLink = portablePlanningLink;
+    const revision = planningLinkRevision;
+    copyButton.disabled = true;
+    linkFallback.hidden = true;
+    linkStatus.textContent = 'Création du lien court…';
+    const shareLink = shortPlanningLink(portableLink);
+    let copied = false;
     try {
-        await navigator.clipboard.writeText(linkInput.value);
-        linkStatus.textContent = 'Lien copié !';
+        const clipboard = navigator.clipboard;
+        if (typeof ClipboardItem === 'function' && clipboard?.write) {
+            const text = shareLink.then(address => new Blob([address], {type: 'text/plain'}));
+            await clipboard.write([new ClipboardItem({'text/plain': text})]);
+        } else {
+            await clipboard.writeText(await shareLink);
+        }
+        copied = true;
     } catch {
+        // The link can be selected when the browser denies clipboard access.
+    }
+    const address = await shareLink;
+    if (revision !== planningLinkRevision) {
+        return;
+    }
+    copyButton.disabled = false;
+    if (copied) {
+        linkStatus.textContent = address === portableLink ? 'Lien complet copié.' : 'Lien court copié !';
+    } else {
+        linkInput.value = address;
         linkFallback.hidden = false;
         linkInput.focus();
         linkInput.select();

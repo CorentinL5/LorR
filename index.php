@@ -40,6 +40,13 @@ if (isset($redirects[$route])) {
     exit;
 }
 
+if ($route !== null && str_starts_with($route, '/p/')) {
+    require __DIR__ . '/server/planning-links.php';
+    if (openPlanningLink($base, $route)) {
+        exit;
+    }
+}
+
 switch ($route) {
     case '/':
         if (($_SERVER['REQUEST_METHOD'] ?? '') === 'GET') {
@@ -64,6 +71,10 @@ switch ($route) {
         break;
     case '/api/planning':
         require __DIR__ . '/api-planning.php';
+        break;
+    case '/api/planning/links':
+        require __DIR__ . '/server/planning-links.php';
+        createPlanningLink();
         break;
     case '/api/stats/course-clicks':
         require __DIR__ . '/server/course-clicks.php';
