@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>LorR</title>
+  <g transform="rotate(-7 32 32)">
+    <rect x="11" y="11" width="48" height="48" rx="13" fill="#202122"/>
+    <rect x="6" y="6" width="48" height="48" rx="13" fill="#ffcc36" stroke="#202122" stroke-width="4"/>
+    <path d="M30 14c2.2 9.3 6.7 13.8 16 16-9.3 2.2-13.8 6.7-16 16-2.2-9.3-6.7-13.8-16-16 9.3-2.2 13.8-6.7 16-16Z" fill="#202122"/>
+  </g>
+</svg>
