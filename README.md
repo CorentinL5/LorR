@@ -5,8 +5,6 @@ d’Hyperplanning. Tu choisis les formations et les cours que tu suis, puis tu
 retrouves ton planning avec un lien. Aucun compte ni base de données n’est
 nécessaire.
 
-[![Temps de développement suivi sur WakaTime](https://wakatime.com/badge/user/579bed4b-39bc-4178-85cd-cca984453d63/project/cb56e377-0419-4f36-af6e-e1e2ebeeb7c1.svg)](https://wakatime.com/badge/user/579bed4b-39bc-4178-85cd-cca984453d63/project/cb56e377-0419-4f36-af6e-e1e2ebeeb7c1)
-
 <img src="./assets/planning-hero.webp" alt="Agenda illustré LorR" width="360">
 
 ## Créer un planning
