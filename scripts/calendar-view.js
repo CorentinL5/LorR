@@ -1,4 +1,4 @@
-function createPlanningView(container, element, courseKey) {
+function createPlanningView(container, element, courseKey, recordCourseClick) {
     const options = document.getElementById('view-options');
     const navigation = document.getElementById('calendar-tools');
     const previous = document.getElementById('calendar-previous');
@@ -145,6 +145,9 @@ function createPlanningView(container, element, courseKey) {
             return [element('dt', label), description];
         }));
         details.showModal();
+        if (!event.notice) {
+            recordCourseClick();
+        }
     }
 
     function sessionButton(event, label, className) {

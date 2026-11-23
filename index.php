@@ -44,14 +44,14 @@ switch ($route) {
     case '/':
         if (($_SERVER['REQUEST_METHOD'] ?? '') === 'GET') {
             require __DIR__ . '/server/usage.php';
-            recordUsage('home');
+            recordUsage(['home' => 1]);
         }
         require __DIR__ . '/views/home.php';
         break;
     case '/planning':
         if (($_SERVER['REQUEST_METHOD'] ?? '') === 'GET') {
             require __DIR__ . '/server/usage.php';
-            recordUsage('planner');
+            recordUsage(['planner' => 1]);
         }
         require __DIR__ . '/views/planning.php';
         break;
@@ -63,6 +63,9 @@ switch ($route) {
         break;
     case '/api/planning':
         require __DIR__ . '/api-planning.php';
+        break;
+    case '/api/stats/course-clicks':
+        require __DIR__ . '/server/course-clicks.php';
         break;
     default:
         http_response_code(404);

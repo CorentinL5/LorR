@@ -1,8 +1,11 @@
 <?php
 $labels = [
-    'home' => 'Chargements de l’accueil',
-    'planner' => 'Ouvertures du créateur',
-    'reads' => 'Demandes d’horaires',
+    'home' => ['Chargements de l’accueil', 'Accueil'],
+    'planner' => ['Ouvertures du créateur', 'Créateur'],
+    'reads' => ['Demandes d’horaires', 'Horaires'],
+    'courses' => ['Cours chargés', 'Cours'],
+    'sources' => ['Liens invités distincts', 'Liens'],
+    'clicks' => ['Clics sur des cours', 'Clics'],
 ];
 $today = usageDay();
 ?>
@@ -38,12 +41,12 @@ $today = usageDay();
                 <?php if ($usage === null): ?>
                     <p>Les statistiques sont momentanément indisponibles.</p>
                 <?php else: ?>
-                    <p>Chaque chargement ou demande compte une fois. Les totaux s’accumulent depuis l’activation des statistiques.</p>
+                    <p>Chaque lien invité compte une seule fois dans le total et une fois par jour d’utilisation.</p>
                     <dl class="stats-totals" aria-label="Totaux">
-                        <?php foreach ($labels as $metric => $label): ?>
+                        <?php foreach ($labels as $metric => [$label]): ?>
                             <div class="stats-total">
                                 <dt><?= $label ?></dt>
-                                <dd><?= number_format($usage['total'][$metric], 0, ',', ' ') ?></dd>
+                                <dd><?= number_format($usage['total'][$metric] ?? 0, 0, ',', ' ') ?></dd>
                             </div>
                         <?php endforeach; ?>
                     </dl>
@@ -53,9 +56,9 @@ $today = usageDay();
                             <thead>
                                 <tr>
                                     <th scope="col">Date</th>
-                                    <th scope="col">Accueil</th>
-                                    <th scope="col">Créateur</th>
-                                    <th scope="col">Horaires</th>
+                                    <?php foreach ($labels as [, $shortLabel]): ?>
+                                        <th scope="col"><?= $shortLabel ?></th>
+                                    <?php endforeach; ?>
                                 </tr>
                             </thead>
                             <tbody>
@@ -63,12 +66,12 @@ $today = usageDay();
                                     <?php
                                     $day = $today->modify('-' . $offset . ' days');
                                     $date = $day->format('Y-m-d');
-                                    $counts = $usage['daily'][$date] ?? emptyUsageCounts();
+                                    $counts = $usage['daily'][$date] ?? [];
                                     ?>
                                     <tr>
                                         <th scope="row"><time datetime="<?= $date ?>"><?= $day->format('d/m/Y') ?></time></th>
-                                        <?php foreach ($counts as $count): ?>
-                                            <td><?= number_format($count, 0, ',', ' ') ?></td>
+                                        <?php foreach (array_keys($labels) as $metric): ?>
+                                            <td><?= number_format($counts[$metric] ?? 0, 0, ',', ' ') ?></td>
                                         <?php endforeach; ?>
                                     </tr>
                                 <?php endfor; ?>

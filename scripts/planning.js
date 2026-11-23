@@ -36,7 +36,7 @@ const preferenceKey = 'lorr-hyperplanning';
 const alphabetic = new Intl.Collator('fr-BE', {numeric: true});
 const formationNames = new Intl.ListFormat('fr-BE');
 const noticeDate = new Intl.DateTimeFormat('fr-BE', {dateStyle: 'medium', timeZone: 'UTC'});
-const planningView = createPlanningView(dayList, element, courseKey);
+const planningView = createPlanningView(dayList, element, courseKey, recordCourseClick);
 
 let sources;
 let selections;

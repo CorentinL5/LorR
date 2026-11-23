@@ -1,4 +1,43 @@
 const planningCachePrefix = 'lorr-tab-planning-v2:';
+const courseClickBatchLimit = 100;
+let pendingCourseClicks = 0;
+let courseClickTimer;
+
+function flushCourseClicks() {
+    if (!pendingCourseClicks) {
+        return;
+    }
+    clearTimeout(courseClickTimer);
+    courseClickTimer = undefined;
+    const body = JSON.stringify({clicks: pendingCourseClicks});
+    pendingCourseClicks = 0;
+    fetch('api/stats/course-clicks', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body,
+        keepalive: true,
+        credentials: 'omit',
+        referrerPolicy: 'no-referrer',
+    }).catch(() => {
+        // A statistics request must not interrupt the planner.
+    });
+}
+
+function recordCourseClick() {
+    pendingCourseClicks++;
+    if (pendingCourseClicks >= courseClickBatchLimit) {
+        flushCourseClicks();
+    } else {
+        courseClickTimer ??= setTimeout(flushCourseClicks, 2500);
+    }
+}
+
+document.addEventListener('visibilitychange', () => {
+    if (document.hidden) {
+        flushCourseClicks();
+    }
+});
+window.addEventListener('pagehide', flushCourseClicks);
 
 function planningSource(url) {
     try {

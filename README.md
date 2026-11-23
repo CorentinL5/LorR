@@ -71,15 +71,21 @@ même onglet.
 
 ## Statistiques publiques
 
-La page `/stats` affiche les chargements de l’accueil, les ouvertures du
-créateur et les demandes d’horaires. Elle présente les totaux et les
-compteurs des sept derniers jours.
+La page `/stats` affiche les totaux et les compteurs des sept derniers jours.
+Elle couvre les chargements de l’accueil, les ouvertures du créateur, les
+demandes d’horaires, les cours chargés, les liens invités distincts et les
+clics qui ouvrent le détail d’un cours.
+
+LorR compte chaque cours une fois par formation et par réponse du serveur,
+même si le cours a plusieurs séances. Un lien invité compte une fois au
+total et une fois par jour où le serveur charge son catalogue.
 
 Les statistiques utilisent SQLite si PHP propose l’extension `pdo_sqlite`.
 Quand cette extension est indisponible, LorR conserve les compteurs dans
 un fichier JSON. Par défaut, ces fichiers sont placés dans `var/`. Donne
 à PHP le droit d’écrire dans ce dossier ou choisis un dossier persistant
-avec `LORR_STATS_DIR`. Le stockage contient uniquement des totaux et des dates.
+avec `LORR_STATS_DIR`. Le serveur stocke les compteurs, les dates et des
+empreintes des liens invités normalisés.
 
 ## Licence
 

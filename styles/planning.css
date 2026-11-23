@@ -1002,8 +1002,8 @@ button.calendar-date[aria-pressed=true] { background: var(--yellow); }
     box-shadow: 3px 3px 0 var(--ink);
 }
 
-.stats-total:nth-child(2) { background: var(--green); }
-.stats-total:nth-child(3) { background: var(--yellow); }
+.stats-total:nth-child(3n+2) { background: var(--green); }
+.stats-total:nth-child(3n) { background: var(--yellow); }
 .stats-total dd { margin: 0; font: 700 2.15rem/1.3 var(--heading); overflow-wrap: anywhere; }
 
 .stats-table { overflow: auto; margin-top: 0.6rem; }
@@ -1016,6 +1016,9 @@ button.calendar-date[aria-pressed=true] { background: var(--yellow); }
     .stats-totals { grid-template-columns: minmax(0, 1fr); }
     .stats-total { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 0.25rem 0.6rem; }
     .stats-total dd { font-size: 1.75rem; }
+    .stats-table table { table-layout: fixed; }
+    .stats-table th, .stats-table td { padding: 0.4rem 0.2rem; font-size: clamp(0.65rem, 2vw, 0.8rem); white-space: normal; overflow-wrap: anywhere; }
+    .stats-table th:first-child { width: 20%; }
 }
 
 .week-date-button {

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-const USAGE_METRICS = ['home', 'planner', 'reads'];
+const USAGE_METRICS = ['home', 'planner', 'reads', 'courses', 'clicks'];
 
 function usageDay(): DateTimeImmutable
 {
@@ -27,7 +27,7 @@ function readUsageSnapshot(string $directory): ?array
 {
     $file = $directory . '/lorr-stats.json';
     if (!is_file($file)) {
-        return ['total' => emptyUsageCounts(), 'daily' => []];
+        return ['total' => emptyUsageCounts(), 'daily' => [], 'sources' => []];
     }
     $content = @file_get_contents($file);
     if ($content === false) {
@@ -38,6 +38,8 @@ function readUsageSnapshot(string $directory): ?array
         return null;
     }
 
+    $data['total'] += emptyUsageCounts();
+    $data['sources'] ??= [];
     return $data;
 }
 
@@ -58,9 +60,18 @@ function openUsageDatabase(string $directory): PDO
             PRIMARY KEY (day, metric)
         ) WITHOUT ROWID'
     );
+    $database->exec(
+        'CREATE TABLE IF NOT EXISTS usage_sources (
+            day TEXT NOT NULL,
+            fingerprint TEXT NOT NULL,
+            PRIMARY KEY (day, fingerprint)
+        ) WITHOUT ROWID'
+    );
 
     $file = $directory . '/lorr-stats.json';
-    if (is_file($file) && $database->query('SELECT 1 FROM usage_counts LIMIT 1')->fetchColumn() === false) {
+    if (is_file($file) && $database->query(
+        'SELECT 1 FROM usage_counts UNION ALL SELECT 1 FROM usage_sources LIMIT 1'
+    )->fetchColumn() === false) {
         $snapshot = readUsageSnapshot($directory);
         if ($snapshot === null) {
             throw new RuntimeException('Impossible de reprendre les compteurs JSON.');
@@ -72,7 +83,13 @@ function openUsageDatabase(string $directory): PDO
             $insert = $database->prepare('INSERT OR IGNORE INTO usage_counts (day, metric, amount) VALUES (?, ?, ?)');
             foreach (['total' => $snapshot['total']] + $snapshot['daily'] as $day => $counts) {
                 foreach (USAGE_METRICS as $metric) {
-                    $insert->execute([$day, $metric, $counts[$metric]]);
+                    $insert->execute([$day, $metric, $counts[$metric] ?? 0]);
+                }
+            }
+            $insertSource = $database->prepare('INSERT OR IGNORE INTO usage_sources (day, fingerprint) VALUES (?, ?)');
+            foreach ($snapshot['sources'] as $day => $sources) {
+                foreach (array_keys($sources) as $source) {
+                    $insertSource->execute([$day, $source]);
                 }
             }
             $database->commit();
@@ -88,8 +105,12 @@ function openUsageDatabase(string $directory): PDO
 function readUsageDatabase(PDO $database): array
 {
     $cutoff = usageDay()->modify('-6 days')->format('Y-m-d');
-    $query = $database->prepare('SELECT day, metric, amount FROM usage_counts WHERE day = ? OR day >= ?');
-    $query->execute(['total', $cutoff]);
+    $query = $database->prepare(
+        "SELECT day, metric, amount FROM usage_counts WHERE day = 'total' OR day >= :cutoff
+        UNION ALL
+        SELECT day, 'sources', COUNT(*) FROM usage_sources WHERE day = 'total' OR day >= :cutoff GROUP BY day"
+    );
+    $query->execute(['cutoff' => $cutoff]);
     $data = ['total' => emptyUsageCounts(), 'daily' => []];
     foreach ($query as $row) {
         $day = $row['day'];
@@ -104,7 +125,32 @@ function readUsageDatabase(PDO $database): array
     return $data;
 }
 
-function recordFileUsage(string $directory, string $metric): void
+function recordDatabaseUsage(PDO $database, array $counts, ?string $source): void
+{
+    $date = usageDay()->format('Y-m-d');
+    $database->beginTransaction();
+    try {
+        if ($counts) {
+            $update = $database->prepare(
+                'INSERT INTO usage_counts (day, metric, amount) VALUES (?, ?, ?), (?, ?, ?)
+                    ON CONFLICT (day, metric) DO UPDATE SET amount = amount + excluded.amount'
+            );
+            foreach ($counts as $metric => $amount) {
+                $update->execute(['total', $metric, $amount, $date, $metric, $amount]);
+            }
+        }
+        if ($source !== null) {
+            $insert = $database->prepare('INSERT OR IGNORE INTO usage_sources (day, fingerprint) VALUES (?, ?), (?, ?)');
+            $insert->execute(['total', $source, $date, $source]);
+        }
+        $database->commit();
+    } catch (RuntimeException $error) {
+        $database->rollBack();
+        throw $error;
+    }
+}
+
+function recordFileUsage(string $directory, array $counts, ?string $source): void
 {
     $lock = @fopen($directory . '/lorr-stats.lock', 'c');
     if ($lock === false) {
@@ -125,12 +171,18 @@ function recordFileUsage(string $directory, string $metric): void
         $cutoff = $today->modify('-6 days')->format('Y-m-d');
         foreach (array_keys($data['daily']) as $day) {
             if ($day < $cutoff) {
-                unset($data['daily'][$day]);
+                unset($data['daily'][$day], $data['sources'][$day]);
             }
         }
-        $data['daily'][$date] ??= emptyUsageCounts();
-        $data['daily'][$date][$metric]++;
-        $data['total'][$metric]++;
+        $data['daily'][$date] = ($data['daily'][$date] ?? []) + emptyUsageCounts();
+        foreach ($counts as $metric => $amount) {
+            $data['daily'][$date][$metric] += $amount;
+            $data['total'][$metric] += $amount;
+        }
+        if ($source !== null) {
+            $data['sources']['total'][$source] = true;
+            $data['sources'][$date][$source] = true;
+        }
 
         $temporary = @tempnam($directory, 'usage-');
         if ($temporary === false) {
@@ -146,28 +198,21 @@ function recordFileUsage(string $directory, string $metric): void
     }
 }
 
-function recordUsage(string $metric): void
+function recordUsage(array $counts, ?string $sourceUrl = null): void
 {
-    if (!in_array($metric, USAGE_METRICS, true)) {
-        return;
-    }
     $directory = usageDirectory();
     if ($directory === null) {
         return;
     }
+    $source = $sourceUrl === null ? null : hash('sha256', $sourceUrl);
     if (hasUsageSqlite()) {
         try {
-            $database = openUsageDatabase($directory);
-            $update = $database->prepare(
-                'INSERT INTO usage_counts (day, metric, amount) VALUES (?, ?, 1), (?, ?, 1)
-                    ON CONFLICT (day, metric) DO UPDATE SET amount = amount + 1'
-            );
-            $update->execute(['total', $metric, usageDay()->format('Y-m-d'), $metric]);
+            recordDatabaseUsage(openUsageDatabase($directory), $counts, $source);
         } catch (RuntimeException) {
             // Usage statistics must not interrupt the requested page.
         }
     } elseif (!is_file($directory . '/lorr-stats.sqlite')) {
-        recordFileUsage($directory, $metric);
+        recordFileUsage($directory, $counts, $source);
     }
 }
 
@@ -193,7 +238,16 @@ function siteUsage(): ?array
         return null;
     }
     try {
-        return flock($lock, LOCK_SH) ? readUsageSnapshot($directory) : null;
+        $data = flock($lock, LOCK_SH) ? readUsageSnapshot($directory) : null;
+        if ($data === null) {
+            return null;
+        }
+        $data['total']['sources'] = count($data['sources']['total'] ?? []);
+        foreach (array_keys($data['daily']) as $day) {
+            $data['daily'][$day]['sources'] = count($data['sources'][$day] ?? []);
+        }
+        unset($data['sources']);
+        return $data;
     } finally {
         fclose($lock);
     }

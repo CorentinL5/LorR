@@ -120,9 +120,9 @@ foreach ($requested as $name) {
 }
 $requested = array_values(array_unique($requested));
 
+require __DIR__ . '/server/usage.php';
 if ($requested) {
-    require __DIR__ . '/server/usage.php';
-    recordUsage('reads');
+    recordUsage(['reads' => 1]);
 }
 
 $url = 'https://' . $host . '/invite';
@@ -216,6 +216,21 @@ if ($catalogue === null || $missing) {
     }
 } else {
     sendUpdate(['type' => 'progress', 'done' => 1, 'total' => 1, 'message' => 'Données récentes déjà disponibles']);
+}
+
+$loadedCourses = 0;
+foreach ($schedules as $schedule) {
+    $courses = [];
+    foreach ($schedule['events'] as $event) {
+        if (empty($event['notice'])) {
+            $course = serialize([$event['subject'], $event['group'] ?? '', $event['type'] ?? '']);
+            $courses[$course] = true;
+        }
+    }
+    $loadedCourses += count($courses);
+}
+if ($catalogue !== null || $loadedCourses > 0) {
+    recordUsage($loadedCourses ? ['courses' => $loadedCourses] : [], $catalogue !== null ? $url : null);
 }
 
 if ($legacy) {
