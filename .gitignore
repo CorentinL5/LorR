@@ -11,3 +11,6 @@ logs/
 
 # test files
 test.*
+
+# Node.js
+node_modules/
