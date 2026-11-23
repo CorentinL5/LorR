@@ -87,7 +87,7 @@ async function fetchPlanning(data, signal, onProgress) {
 }
 
 async function requestPlanning(data, signal, onProgress) {
-    const response = await fetch('api-planning.php', {
+    const response = await fetch('api/planning', {
         method: 'POST',
         headers: {'Content-Type': 'application/json', Accept: 'application/x-ndjson'},
         body: JSON.stringify(data),

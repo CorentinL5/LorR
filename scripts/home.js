@@ -1,6 +1,6 @@
 function openLegacyPlanning() {
     if (new URLSearchParams(location.hash.slice(1)).has('planning')) {
-        location.replace('planning.html' + location.hash);
+        location.replace('planning' + location.hash);
         return true;
     }
     return false;
@@ -14,7 +14,7 @@ if (!openLegacyPlanning()) {
             const available = Boolean(saved?.startsWith('#') && new URLSearchParams(saved.slice(1)).has('planning'));
             link.hidden = !available;
             if (available) {
-                link.href = 'planning.html' + saved;
+                link.href = 'planning' + saved;
             }
         } catch {
             // The public home page remains available when storage is disabled.

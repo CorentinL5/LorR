@@ -120,6 +120,11 @@ foreach ($requested as $name) {
 }
 $requested = array_values(array_unique($requested));
 
+if ($requested) {
+    require __DIR__ . '/server/usage.php';
+    recordUsage('reads');
+}
+
 $url = 'https://' . $host . '/invite';
 $directory = sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'lorr-hyperplanning-v3';
 $cataloguePath = cachePath($directory, $url);
@@ -143,8 +148,13 @@ foreach ($requested as $name) {
 
 $errors = [];
 if ($catalogue === null || $missing) {
-    set_time_limit(115);
-    $command = ['node', __DIR__ . '/planning/read.cjs', $url, json_encode($missing, JSON_UNESCAPED_UNICODE)];
+    if (!function_exists('proc_open')) {
+        respond(503, ['error' => 'Cet hébergement doit autoriser PHP à lancer le lecteur Hyperplanning.']);
+    }
+    if (function_exists('set_time_limit')) {
+        set_time_limit(115);
+    }
+    $command = ['node', __DIR__ . '/server/read.cjs', $url, json_encode($missing, JSON_UNESCAPED_UNICODE)];
     if ($streaming) {
         $command[] = '--heartbeat';
     }

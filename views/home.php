@@ -22,7 +22,10 @@
             <span class="brand-mark" aria-hidden="true">✦</span>
             LorR<span class="brand-dot" aria-hidden="true">.</span>
         </a>
-        <a href="#comment-ca-marche">Comment ça marche</a>
+        <nav class="home-links" aria-label="Navigation">
+            <a href="#comment-ca-marche">Comment ça marche</a>
+            <a href="stats">Statistiques</a>
+        </nav>
     </header>
     <main class="shell">
         <section class="hero">
@@ -30,8 +33,8 @@
                 <h1>Ton planning,<br><span>à ta façon.</span></h1>
                 <p>Compose ton emploi du temps étudiant à partir d’Hyperplanning. Retrouve tous tes cours, TP et labos au même endroit.</p>
                 <div class="step-actions">
-                    <a href="planning.html?nouveau=1" class="button button-yellow">Créer mon planning <span aria-hidden="true">↗</span></a>
-                    <a href="planning.html" id="saved-planning-link" class="button button-light" hidden>Mon planning enregistré</a>
+                    <a href="planning?nouveau=1" class="button button-yellow">Créer mon planning <span aria-hidden="true">↗</span></a>
+                    <a href="planning" id="saved-planning-link" class="button button-light" hidden>Mon planning enregistré</a>
                 </div>
             </div>
             <img class="hero-art" src="assets/planning-hero.webp" alt="" width="960" height="720" fetchpriority="high">

@@ -14,3 +14,6 @@ test.*
 
 # Node.js
 node_modules/
+
+# Local usage data
+/var/

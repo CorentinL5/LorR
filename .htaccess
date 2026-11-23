@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^(?:assets/[\w-]+\.(?:ico|svg|webp)|scripts/[\w-]+\.js|styles/[\w-]+\.css)$ - [END]
+RewriteRule ^ index.php [END]
