@@ -23,13 +23,7 @@
     <script src="scripts/planning.js" defer></script>
 </head>
 <body>
-    <header class="site-header shell">
-        <a class="brand" href="./" aria-label="LorR, accueil">
-            <span class="brand-mark" aria-hidden="true">✦</span>
-            LorR<span class="brand-dot" aria-hidden="true">.</span>
-        </a>
-        <a id="go-home" class="button button-light" href="./">Accueil</a>
-    </header>
+    <?php require __DIR__ . '/site-header.php'; ?>
     <main class="shell">
         <ol class="steps" aria-label="Étapes de création">
             <li aria-current="step"><button type="button" data-step="1"><span aria-hidden="true">1</span> Lien</button></li>
@@ -142,9 +136,9 @@
                     <input id="planning-address" type="url" readonly>
                 </div>
                 <div id="view-options" class="view-options" role="group" aria-label="Affichage du planning" hidden>
-                    <button type="button" data-view="list" aria-pressed="true">Liste</button>
+                    <button type="button" data-view="month" aria-pressed="true">Mois</button>
                     <button type="button" data-view="week" aria-pressed="false">Semaine</button>
-                    <button type="button" data-view="month" aria-pressed="false">Mois</button>
+                    <button type="button" data-view="list" aria-pressed="false">Liste</button>
                 </div>
                 <div id="calendar-tools" hidden>
                     <div class="calendar-tools">

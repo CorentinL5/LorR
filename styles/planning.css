@@ -39,6 +39,25 @@ button { cursor: pointer; }
     gap: 1rem;
 }
 
+.site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 0.25rem;
+    font-weight: 700;
+}
+
+.site-nav a {
+    display: block;
+    padding: 0.4rem 0.58rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.site-nav a:hover { text-decoration: underline; text-underline-offset: 0.2em; }
+.site-nav [aria-current=page] { border-color: var(--ink); background: var(--purple); }
+
 .brand {
     display: inline-flex;
     align-items: center;
@@ -464,7 +483,9 @@ fieldset { min-inline-size: 0; padding: 0; margin: 0; border: 0; }
 
 @media (max-width: 610px) {
     .shell { width: calc(100% - 2rem); }
-    .site-header { min-height: 76px; }
+    .site-header { flex-wrap: wrap; gap: 0.55rem; padding-block: 0.75rem; }
+    .site-nav { width: 100%; justify-content: flex-start; gap: 0.2rem; font-size: 0.84rem; }
+    .site-nav a { padding-inline: 0.35rem; }
     .hero { grid-template-columns: minmax(0, 1fr); padding: 1.2rem; border-radius: 16px; box-shadow: 4px 4px 0 var(--ink); }
     .hero h1 { font-size: clamp(2.55rem, 11vw, 3.6rem); }
     .hero p { margin-block: .8rem 1rem; }
@@ -484,7 +505,9 @@ fieldset { min-inline-size: 0; padding: 0; margin: 0; border: 0; }
 }
 
 
-.site-header > a:last-child:not(.button) {
+.home-guide-link {
+    display: inline-block;
+    margin-top: 0.85rem;
     font-weight: 700;
     text-underline-offset: 0.2em;
 }
@@ -1003,15 +1026,6 @@ button.calendar-date[aria-pressed=true] { background: var(--yellow); }
 }
 
 .calendar-month .calendar-extra { padding-block: 0.1rem; line-height: 1.25; }
-
-.home-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 0.35rem 1rem;
-    font-weight: 700;
-    text-underline-offset: 0.2em;
-}
 
 .stats-panel { max-width: 940px; margin: 0 auto 2rem; }
 .stats-panel h1 { font-size: clamp(1.35rem, 3vw, 1.85rem); }

@@ -25,13 +25,7 @@ $today = usageDay();
     <link rel="stylesheet" href="styles/planning.css">
 </head>
 <body>
-    <header class="site-header shell">
-        <a class="brand" href="./" aria-label="LorR, accueil">
-            <span class="brand-mark" aria-hidden="true">✦</span>
-            LorR<span class="brand-dot" aria-hidden="true">.</span>
-        </a>
-        <a class="button button-light" href="./">Accueil</a>
-    </header>
+    <?php require __DIR__ . '/site-header.php'; ?>
     <main class="shell">
         <section class="panel stats-panel" aria-labelledby="stats-title">
             <header class="panel-header panel-purple">

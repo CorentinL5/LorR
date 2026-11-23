@@ -58,6 +58,7 @@ let subjectGroups = [];
 let notices = new Map();
 let planningLinkRevision = 0;
 let planningRestoreRevision = 0;
+let planningRestoreTimer;
 
 function selectionKey(url, formation) {
     return JSON.stringify([url, formation]);
@@ -172,10 +173,29 @@ function planningShareState() {
     return excluded.length ? [1, formations, picked, excluded] : [1, formations, picked];
 }
 
+function planningHistoryHash() {
+    const hash = history.state?.lorrPlanningHash;
+    return typeof hash === 'string' ? hash : '';
+}
+
+function keepPlanningInHistory(hash) {
+    const address = new URL(location.href);
+    address.search = '';
+    address.hash = '';
+    if (address.href !== location.href || hash !== planningHistoryHash()) {
+        try {
+            history.replaceState({...history.state, lorrPlanningHash: hash}, '', address);
+        } catch {
+            // Keep the original address if the browser cannot store the state.
+        }
+    }
+    return address;
+}
+
 async function updatePlanningLink(existingCode = null) {
     const revision = ++planningLinkRevision;
-    const address = new URL(location.href);
-    const originalAddress = address.href;
+    const originalAddress = location.href;
+    const originalHistoryHash = planningHistoryHash();
     copyButton.disabled = true;
     saveButton.disabled = true;
     linkFallback.hidden = true;
@@ -196,21 +216,17 @@ async function updatePlanningLink(existingCode = null) {
             errorMessage = 'Ce planning est trop volumineux ou ne peut pas être partagé par lien.';
         }
     }
-    if (revision !== planningLinkRevision || location.href !== originalAddress) {
+    if (revision !== planningLinkRevision || location.href !== originalAddress || planningHistoryHash() !== originalHistoryHash) {
         return;
     }
-    address.search = '';
-    address.hash = code ? 'p=' + code : '';
-    if (address.href !== location.href) {
-        history.replaceState(null, '', address);
-        linkStatus.textContent = '';
-    }
+    const hash = code ? '#p=' + code : '';
+    const address = keepPlanningInHistory(hash);
+    linkStatus.textContent = errorMessage;
     if (code) {
+        address.hash = hash;
         copyButton.disabled = false;
         saveButton.disabled = false;
         linkInput.value = address.href;
-    } else if (errorMessage) {
-        linkStatus.textContent = errorMessage;
     }
 }
 
@@ -692,18 +708,18 @@ async function restorePlanning() {
     statusMessage.textContent = '';
     const address = new URL(location.href);
     const startNew = address.searchParams.has('nouveau');
-    if (address.search) {
-        address.search = '';
-        history.replaceState(null, '', address);
-    }
+    const historyHash = planningHistoryHash();
+    const incomingHash = address.hash || (startNew ? '' : historyHash);
 
     let code = null;
-    const isCurrent = () => revision === planningRestoreRevision && location.hash === address.hash;
+    let validHash = '';
+    const isCurrent = () => revision === planningRestoreRevision
+        && location.href === address.href && planningHistoryHash() === historyHash;
     try {
-        if (address.hash.length > planningLinkMaxBytes * 3 + 10) {
+        if (incomingHash.length > planningLinkMaxBytes * 3 + 10) {
             throw new Error('Lien trop volumineux.');
         }
-        const params = new URLSearchParams(address.hash.slice(1));
+        const params = new URLSearchParams(incomingHash.slice(1));
         if (params.getAll('p').length + params.getAll('planning').length > 1) {
             throw new Error('Le lien contient plusieurs codes.');
         }
@@ -722,6 +738,7 @@ async function restorePlanning() {
                 return;
             }
             const restored = readPlanningState(unpackPlanningState(state));
+            validHash = incomingHash;
             if (state[0] !== 2 || code?.startsWith('b.')) {
                 code = null;
             }
@@ -741,6 +758,7 @@ async function restorePlanning() {
         loadLocalChoices(true);
         statusMessage.textContent = 'Ce lien de planning est incomplet ou invalide.';
     }
+    keepPlanningInHistory(validHash);
     setBusy(false);
     updatePlanningLink(code);
     renderFormations();
@@ -849,10 +867,16 @@ function stopLoadingBeforeNavigation() {
     }
 }
 
-document.getElementById('go-home').addEventListener('click', event => {
-    if (!event.defaultPrevented && event.button === 0 && !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey) {
-        stopLoadingBeforeNavigation();
+document.querySelector('.site-header').addEventListener('click', event => {
+    const link = event.target.closest('a');
+    if (!link || event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) {
+        return;
     }
+    if (link.getAttribute('aria-current') === 'page') {
+        event.preventDefault();
+        return;
+    }
+    stopLoadingBeforeNavigation();
 });
 window.addEventListener('pagehide', stopLoadingBeforeNavigation);
 window.addEventListener('pageshow', event => {
@@ -861,5 +885,11 @@ window.addEventListener('pageshow', event => {
         restorePlanning();
     }
 });
-window.addEventListener('hashchange', restorePlanning);
+function restoreAfterNavigation() {
+    clearTimeout(planningRestoreTimer);
+    planningRestoreTimer = setTimeout(restorePlanning, 0);
+}
+
+window.addEventListener('hashchange', restoreAfterNavigation);
+window.addEventListener('popstate', restoreAfterNavigation);
 restorePlanning();

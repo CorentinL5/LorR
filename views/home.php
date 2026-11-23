@@ -23,17 +23,7 @@ $ideaUrl = $hasLinkedin ? $linkedinUrl : 'https://github.com/CorentinL5/LorR/iss
     <script src="scripts/home.js" defer></script>
 </head>
 <body>
-    <header class="site-header shell">
-        <a class="brand" href="./" aria-label="LorR, accueil">
-            <span class="brand-mark" aria-hidden="true">✦</span>
-            LorR<span class="brand-dot" aria-hidden="true">.</span>
-        </a>
-        <nav class="home-links" aria-label="Navigation">
-            <a href="#comment-ca-marche">Comment ça marche</a>
-            <a href="#proposer-une-idee">Proposer une idée</a>
-            <a href="stats">Statistiques</a>
-        </nav>
-    </header>
+    <?php require __DIR__ . '/site-header.php'; ?>
     <main class="shell">
         <section class="hero">
             <div class="hero-copy">
@@ -43,6 +33,7 @@ $ideaUrl = $hasLinkedin ? $linkedinUrl : 'https://github.com/CorentinL5/LorR/iss
                     <a href="planning?nouveau=1" class="button button-yellow">Créer mon planning <span aria-hidden="true">↗</span></a>
                     <a href="planning" id="saved-planning-link" class="button button-light" hidden>Mon planning enregistré</a>
                 </div>
+                <a class="home-guide-link" href="#comment-ca-marche">Comment ça marche</a>
             </div>
             <img class="hero-art" src="assets/planning-hero.webp" alt="" width="960" height="720" fetchpriority="high">
         </section>

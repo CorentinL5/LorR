@@ -27,14 +27,16 @@ les cours par source, formation, groupe et type pour réduire la sélection
 avant de la compresser et de l’encoder en Base64URL. Le serveur ne stocke
 aucun code. Les anciens liens restent utilisables. LorR vérifie le code et
 les domaines invités autorisés avant de demander les horaires.
+La barre d’adresse affiche simplement `/planning` après l’ouverture. Utilise
+**Copier mon lien** pour récupérer l’adresse complète à partager.
 
 ## Consulter les horaires
 
-- **Liste** regroupe les séances par semaine.
+- **Mois** est la vue par défaut. Clique sur une date ou sur le nombre de
+  séances supplémentaires pour voir le détail de la journée.
 - **Semaine** place les cours selon l’heure et la durée. Les cours simultanés
   sont côte à côte. Le sélecteur permet d’aller directement à une semaine.
-- **Mois** affiche un aperçu des journées. Clique sur une date ou sur le
-  nombre de séances supplémentaires pour voir le détail de la journée.
+- **Liste** regroupe les séances par semaine.
 
 Chaque cours garde sa couleur pastel. Un clic sur une séance affiche ses
 détails. Les périodes fériées ont un seul bloc dans la liste et la grille

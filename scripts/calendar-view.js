@@ -20,7 +20,7 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
     const formationOrder = new Intl.Collator('fr-BE', {numeric: true});
     const viewPreferenceKey = 'lorr-calendar-view';
 
-    let mode = 'list';
+    let mode = 'month';
     try {
         const savedMode = localStorage.getItem(viewPreferenceKey);
         if (['list', 'week', 'month'].includes(savedMode)) {
