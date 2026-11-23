@@ -4,6 +4,7 @@ $labels = [
     'planner' => ['Ouvertures du créateur', 'Créateur'],
     'reads' => ['Demandes d’horaires', 'Horaires'],
     'courses' => ['Cours chargés', 'Cours'],
+    'distinct_courses' => ['Cours différents', 'Distincts'],
     'sources' => ['Liens invités distincts', 'Liens'],
     'clicks' => ['Clics sur des cours', 'Clics'],
 ];
@@ -41,7 +42,7 @@ $today = usageDay();
                 <?php if ($usage === null): ?>
                     <p>Les statistiques sont momentanément indisponibles.</p>
                 <?php else: ?>
-                    <p>Chaque lien invité compte une seule fois dans le total et une fois par jour d’utilisation.</p>
+                    <p>Les liens invités et les matières d’un même espace Hyperplanning comptent une fois au total et une fois par jour de chargement.</p>
                     <dl class="stats-totals" aria-label="Totaux">
                         <?php foreach ($labels as $metric => [$label]): ?>
                             <div class="stats-total">

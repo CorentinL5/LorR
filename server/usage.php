@@ -2,6 +2,7 @@
 declare(strict_types=1);
 
 const USAGE_METRICS = ['home', 'planner', 'reads', 'courses', 'clicks'];
+const USAGE_DISTINCT_TABLES = ['sources' => 'usage_sources', 'distinct_courses' => 'usage_courses'];
 
 function usageDay(): DateTimeImmutable
 {
@@ -26,8 +27,9 @@ function usageDirectory(): ?string
 function readUsageSnapshot(string $directory): ?array
 {
     $file = $directory . '/lorr-stats.json';
+    $emptySets = array_fill_keys(array_keys(USAGE_DISTINCT_TABLES), []);
     if (!is_file($file)) {
-        return ['total' => emptyUsageCounts(), 'daily' => [], 'sources' => []];
+        return ['total' => emptyUsageCounts(), 'daily' => []] + $emptySets;
     }
     $content = @file_get_contents($file);
     if ($content === false) {
@@ -39,8 +41,7 @@ function readUsageSnapshot(string $directory): ?array
     }
 
     $data['total'] += emptyUsageCounts();
-    $data['sources'] ??= [];
-    return $data;
+    return $data + $emptySets;
 }
 
 function hasUsageSqlite(): bool
@@ -60,17 +61,19 @@ function openUsageDatabase(string $directory): PDO
             PRIMARY KEY (day, metric)
         ) WITHOUT ROWID'
     );
-    $database->exec(
-        'CREATE TABLE IF NOT EXISTS usage_sources (
-            day TEXT NOT NULL,
-            fingerprint TEXT NOT NULL,
-            PRIMARY KEY (day, fingerprint)
-        ) WITHOUT ROWID'
-    );
+    foreach (USAGE_DISTINCT_TABLES as $table) {
+        $database->exec(
+            "CREATE TABLE IF NOT EXISTS $table (
+                day TEXT NOT NULL,
+                fingerprint TEXT NOT NULL,
+                PRIMARY KEY (day, fingerprint)
+            ) WITHOUT ROWID"
+        );
+    }
 
     $file = $directory . '/lorr-stats.json';
     if (is_file($file) && $database->query(
-        'SELECT 1 FROM usage_counts UNION ALL SELECT 1 FROM usage_sources LIMIT 1'
+        'SELECT 1 FROM usage_counts UNION ALL SELECT 1 FROM usage_sources UNION ALL SELECT 1 FROM usage_courses LIMIT 1'
     )->fetchColumn() === false) {
         $snapshot = readUsageSnapshot($directory);
         if ($snapshot === null) {
@@ -86,10 +89,12 @@ function openUsageDatabase(string $directory): PDO
                     $insert->execute([$day, $metric, $counts[$metric] ?? 0]);
                 }
             }
-            $insertSource = $database->prepare('INSERT OR IGNORE INTO usage_sources (day, fingerprint) VALUES (?, ?)');
-            foreach ($snapshot['sources'] as $day => $sources) {
-                foreach (array_keys($sources) as $source) {
-                    $insertSource->execute([$day, $source]);
+            foreach (USAGE_DISTINCT_TABLES as $metric => $table) {
+                $insertDistinct = $database->prepare("INSERT OR IGNORE INTO $table (day, fingerprint) VALUES (?, ?)");
+                foreach ($snapshot[$metric] as $day => $fingerprints) {
+                    foreach (array_keys($fingerprints) as $fingerprint) {
+                        $insertDistinct->execute([$day, $fingerprint]);
+                    }
                 }
             }
             $database->commit();
@@ -105,11 +110,12 @@ function openUsageDatabase(string $directory): PDO
 function readUsageDatabase(PDO $database): array
 {
     $cutoff = usageDay()->modify('-6 days')->format('Y-m-d');
-    $query = $database->prepare(
-        "SELECT day, metric, amount FROM usage_counts WHERE day = 'total' OR day >= :cutoff
-        UNION ALL
-        SELECT day, 'sources', COUNT(*) FROM usage_sources WHERE day = 'total' OR day >= :cutoff GROUP BY day"
-    );
+    $period = "day = 'total' OR day >= :cutoff";
+    $queries = ["SELECT day, metric, amount FROM usage_counts WHERE $period"];
+    foreach (USAGE_DISTINCT_TABLES as $metric => $table) {
+        $queries[] = "SELECT day, '$metric', COUNT(*) FROM $table WHERE $period GROUP BY day";
+    }
+    $query = $database->prepare(implode(' UNION ALL ', $queries));
     $query->execute(['cutoff' => $cutoff]);
     $data = ['total' => emptyUsageCounts(), 'daily' => []];
     foreach ($query as $row) {
@@ -125,9 +131,10 @@ function readUsageDatabase(PDO $database): array
     return $data;
 }
 
-function recordDatabaseUsage(PDO $database, array $counts, ?string $source): void
+function recordDatabaseUsage(PDO $database, array $counts, array $distinct): void
 {
-    $date = usageDay()->format('Y-m-d');
+    $today = usageDay();
+    $date = $today->format('Y-m-d');
     $database->beginTransaction();
     try {
         if ($counts) {
@@ -139,9 +146,17 @@ function recordDatabaseUsage(PDO $database, array $counts, ?string $source): voi
                 $update->execute(['total', $metric, $amount, $date, $metric, $amount]);
             }
         }
-        if ($source !== null) {
-            $insert = $database->prepare('INSERT OR IGNORE INTO usage_sources (day, fingerprint) VALUES (?, ?), (?, ?)');
-            $insert->execute(['total', $source, $date, $source]);
+        foreach ($distinct as $metric => $fingerprints) {
+            if (!$fingerprints) {
+                continue;
+            }
+            $table = USAGE_DISTINCT_TABLES[$metric];
+            $insert = $database->prepare("INSERT OR IGNORE INTO $table (day, fingerprint) VALUES (?, ?), (?, ?)");
+            foreach ($fingerprints as $fingerprint) {
+                $insert->execute(['total', $fingerprint, $date, $fingerprint]);
+            }
+            $prune = $database->prepare("DELETE FROM $table WHERE day < ?");
+            $prune->execute([$today->modify('-6 days')->format('Y-m-d')]);
         }
         $database->commit();
     } catch (RuntimeException $error) {
@@ -150,7 +165,7 @@ function recordDatabaseUsage(PDO $database, array $counts, ?string $source): voi
     }
 }
 
-function recordFileUsage(string $directory, array $counts, ?string $source): void
+function recordFileUsage(string $directory, array $counts, array $distinct): void
 {
     $lock = @fopen($directory . '/lorr-stats.lock', 'c');
     if ($lock === false) {
@@ -171,7 +186,10 @@ function recordFileUsage(string $directory, array $counts, ?string $source): voi
         $cutoff = $today->modify('-6 days')->format('Y-m-d');
         foreach (array_keys($data['daily']) as $day) {
             if ($day < $cutoff) {
-                unset($data['daily'][$day], $data['sources'][$day]);
+                unset($data['daily'][$day]);
+                foreach (array_keys(USAGE_DISTINCT_TABLES) as $metric) {
+                    unset($data[$metric][$day]);
+                }
             }
         }
         $data['daily'][$date] = ($data['daily'][$date] ?? []) + emptyUsageCounts();
@@ -179,9 +197,11 @@ function recordFileUsage(string $directory, array $counts, ?string $source): voi
             $data['daily'][$date][$metric] += $amount;
             $data['total'][$metric] += $amount;
         }
-        if ($source !== null) {
-            $data['sources']['total'][$source] = true;
-            $data['sources'][$date][$source] = true;
+        foreach ($distinct as $metric => $fingerprints) {
+            foreach ($fingerprints as $fingerprint) {
+                $data[$metric]['total'][$fingerprint] = true;
+                $data[$metric][$date][$fingerprint] = true;
+            }
         }
 
         $temporary = @tempnam($directory, 'usage-');
@@ -198,21 +218,20 @@ function recordFileUsage(string $directory, array $counts, ?string $source): voi
     }
 }
 
-function recordUsage(array $counts, ?string $sourceUrl = null): void
+function recordUsage(array $counts, array $distinct = []): void
 {
     $directory = usageDirectory();
     if ($directory === null) {
         return;
     }
-    $source = $sourceUrl === null ? null : hash('sha256', $sourceUrl);
     if (hasUsageSqlite()) {
         try {
-            recordDatabaseUsage(openUsageDatabase($directory), $counts, $source);
+            recordDatabaseUsage(openUsageDatabase($directory), $counts, $distinct);
         } catch (RuntimeException) {
             // Usage statistics must not interrupt the requested page.
         }
     } elseif (!is_file($directory . '/lorr-stats.sqlite')) {
-        recordFileUsage($directory, $counts, $source);
+        recordFileUsage($directory, $counts, $distinct);
     }
 }
 
@@ -242,11 +261,13 @@ function siteUsage(): ?array
         if ($data === null) {
             return null;
         }
-        $data['total']['sources'] = count($data['sources']['total'] ?? []);
-        foreach (array_keys($data['daily']) as $day) {
-            $data['daily'][$day]['sources'] = count($data['sources'][$day] ?? []);
+        foreach (array_keys(USAGE_DISTINCT_TABLES) as $metric) {
+            $data['total'][$metric] = count($data[$metric]['total'] ?? []);
+            foreach (array_keys($data['daily']) as $day) {
+                $data['daily'][$day][$metric] = count($data[$metric][$day] ?? []);
+            }
+            unset($data[$metric]);
         }
-        unset($data['sources']);
         return $data;
     } finally {
         fclose($lock);

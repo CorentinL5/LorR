@@ -218,18 +218,26 @@ if ($catalogue === null || $missing) {
 }
 
 $loadedCourses = 0;
+$subjects = [];
 foreach ($schedules as $schedule) {
     $courses = [];
     foreach ($schedule['events'] as $event) {
         if (empty($event['notice'])) {
             $course = serialize([$event['subject'], $event['group'] ?? '', $event['type'] ?? '']);
             $courses[$course] = true;
+            $subject = trim(preg_replace('/\s+/u', ' ', $event['subject']) ?? $event['subject']);
+            if ($subject !== '') {
+                $subjects[$subject] = true;
+            }
         }
     }
     $loadedCourses += count($courses);
 }
 if ($catalogue !== null || $loadedCourses > 0) {
-    recordUsage($loadedCourses ? ['courses' => $loadedCourses] : [], $catalogue !== null ? $url : null);
+    recordUsage($loadedCourses ? ['courses' => $loadedCourses] : [], [
+        'sources' => $catalogue !== null ? [hash('sha256', $url)] : [],
+        'distinct_courses' => array_map(static fn ($subject): string => hash('sha256', $url . "\n" . $subject), array_keys($subjects)),
+    ]);
 }
 
 if ($legacy) {
