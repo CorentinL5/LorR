@@ -16,6 +16,9 @@ const courseCount = document.getElementById('course-count');
 const courseList = document.getElementById('planning-courses');
 const courseActions = document.getElementById('course-actions');
 const courseFilter = document.getElementById('course-filter');
+const courseGroupFilter = document.getElementById('course-group-filter');
+const courseGroupChoices = document.getElementById('course-group-choices');
+const toggleAllCourseGroups = document.getElementById('toggle-all-course-groups');
 const courseTools = document.getElementById('course-tools');
 const noticePanel = document.getElementById('calendar-notices');
 const noticeCount = document.getElementById('notice-count');
@@ -41,9 +44,13 @@ const planningView = createPlanningView(dayList, element, courseKey, recordCours
 let sources;
 let selections;
 let selectedCourses;
+let selectedCourseGroups;
+let showAllCourseGroups;
 let hiddenNotices;
 let legacyHiddenCourses;
 let activeRequest;
+let scheduleRequest;
+let requestLocksControls = false;
 let lastLoadingPercent = -1;
 let progressPauseTimer;
 let interruptedNavigation = false;
@@ -75,6 +82,8 @@ function loadLocalChoices(startNew) {
         sources = new Map(saved?.sources);
         selections = new Map(saved?.formations);
         selectedCourses = new Set(saved?.selectedCourses);
+        selectedCourseGroups = new Set(saved?.courseGroups);
+        showAllCourseGroups = saved?.showAllCourseGroups === true;
         hiddenNotices = new Set(saved?.hiddenNotices);
         created = saved?.created ?? (selectedCourses.size > 0);
         legacyHiddenCourses = selections.size && !saved?.selectedCourses && Array.isArray(saved?.hiddenCourses)
@@ -84,6 +93,8 @@ function loadLocalChoices(startNew) {
         sources = new Map();
         selections = new Map();
         selectedCourses = new Set();
+        selectedCourseGroups = new Set();
+        showAllCourseGroups = false;
         hiddenNotices = new Set();
         legacyHiddenCourses = null;
         created = false;
@@ -97,6 +108,8 @@ function saveChoices() {
             sources: [...sources],
             formations: [...selections],
             selectedCourses: legacyHiddenCourses ? undefined : [...selectedCourses],
+            courseGroups: [...selectedCourseGroups],
+            showAllCourseGroups,
             hiddenNotices: [...hiddenNotices],
             hiddenCourses: legacyHiddenCourses ? [...legacyHiddenCourses] : undefined,
         }));
@@ -261,7 +274,7 @@ function stepAvailable(number) {
         return selections.size > 0;
     }
     if (number === 4) {
-        return !activeRequest && loadedFormations === formationSignature()
+        return loadedFormations === formationSignature()
             && activeEvents().some(event => !event.notice && selectedCourses.has(courseKey(event)));
     }
     return number === 1;
@@ -300,25 +313,38 @@ function updateRetry() {
 
 function showScheduleStatus() {
     if (failedFormations.length) {
-        const names = [...new Set(failedFormations.map(item => item.formation))];
-        statusMessage.textContent = 'Horaires indisponibles pour ' + formationNames.format(names) + '.';
+        const messages = [];
+        const available = failedFormations.filter(item => item.available).map(item => item.formation);
+        const missing = failedFormations.filter(item => !item.available).map(item => item.formation);
+        if (available.length) {
+            messages.push('Derniers horaires affichés pour ' + formationNames.format([...new Set(available)]) + '. Actualisation impossible.');
+        }
+        if (missing.length) {
+            messages.push('Aucun horaire disponible pour ' + formationNames.format([...new Set(missing)]) + '.');
+        }
+        const reasons = [...new Set(failedFormations.map(item => item.error).filter(Boolean))];
+        if (reasons.length === 1) {
+            messages.push(reasons[0]);
+        }
+        statusMessage.textContent = messages.join(' ');
     } else {
         statusMessage.textContent = events.length ? '' : 'Aucun cours publié pour ces formations.';
     }
     updateRetry();
 }
 
-function setBusy(value) {
+function setBusy(value, lock = value) {
+    requestLocksControls = lock;
     if (!value) {
         clearTimeout(progressPauseTimer);
     }
     updateRetry();
     loadingPanel.hidden = !value;
-    formationPanel.disabled = value;
-    sourceForm.querySelector('button').disabled = value;
-    document.getElementById('cancel-source').disabled = value;
-    loadButton.disabled = value || !selections.size;
-    editCourses.disabled = value;
+    formationPanel.disabled = lock;
+    sourceForm.querySelector('button').disabled = lock;
+    document.getElementById('cancel-source').disabled = lock;
+    loadButton.disabled = lock || !selections.size;
+    editCourses.disabled = lock;
     countCourses();
 }
 
@@ -343,15 +369,17 @@ function updateLoading(fraction, message) {
     }, maximumProgressPause);
 }
 
-function startRequest(title) {
+function startRequest(title, lock = true) {
     activeRequest?.abort();
     activeRequest = new AbortController();
     lastLoadingPercent = -1;
     loadingTitle.textContent = title;
     statusMessage.textContent = '';
     updateLoading(0, 'Préparation…');
-    setBusy(true);
-    loadingPanel.scrollIntoView({block: 'nearest'});
+    setBusy(true, lock);
+    if (lock) {
+        loadingPanel.scrollIntoView({block: 'nearest'});
+    }
     return activeRequest;
 }
 
@@ -365,7 +393,7 @@ function finishRequest(request) {
 function countFormations() {
     const count = selections.size;
     formationCount.textContent = count + (count === 1 ? ' formation choisie' : ' formations choisies');
-    loadButton.disabled = Boolean(activeRequest) || count === 0;
+    loadButton.disabled = requestLocksControls || count === 0;
     updateStepButtons();
 }
 
@@ -504,9 +532,75 @@ function makeCourseCheckbox(option, withSubject) {
     return label;
 }
 
+function updateGroupToggle() {
+    toggleAllCourseGroups.setAttribute('aria-pressed', String(showAllCourseGroups));
+}
+
+function renderCourseGroups() {
+    const grouped = new Map();
+    for (const option of courses) {
+        option.groupKeys = new Set();
+        option.common = false;
+        for (const key of option.keys) {
+            const [url, formation, group] = JSON.parse(key);
+            const names = courseGroupNames(group, formation);
+            if (!names.length) {
+                option.common = true;
+                continue;
+            }
+            const reference = selectionKey(url, formation);
+            if (!grouped.has(reference)) {
+                grouped.set(reference, {url, formation, options: new Map()});
+            }
+            for (const name of names) {
+                const groupKey = JSON.stringify([url, formation, choiceText(name)]);
+                option.groupKeys.add(groupKey);
+                grouped.get(reference).options.set(groupKey, name);
+            }
+        }
+    }
+
+    const choicesByFormation = [...grouped.values()].filter(item => item.options.size > 1);
+    const uniqueGroups = new Set([...grouped.values()].filter(item => item.options.size === 1)
+        .map(item => item.options.keys().next().value));
+    for (const option of courses) {
+        option.common ||= [...option.groupKeys].some(key => uniqueGroups.has(key));
+    }
+    courseGroupFilter.hidden = !choicesByFormation.length;
+    courseGroupChoices.replaceChildren();
+    for (const {url, formation, options} of choicesByFormation) {
+        const fieldset = element('fieldset', '', 'formation-groups');
+        const duplicate = choicesByFormation.some(other => other.formation === formation && other.url !== url);
+        const label = duplicate ? formation + ' · ' + new URL(url).hostname : formation;
+        fieldset.append(element('legend', label));
+        const choices = element('div', '', 'group-options');
+        for (const [key, name] of [...options].sort((a, b) => alphabetic.compare(a[1], b[1]))) {
+            const shortLabel = name.replace(formation, '').replace(/\s+/g, ' ').trim() || name;
+            choices.append(checkbox(shortLabel, selectedCourseGroups.has(key), checked => {
+                if (checked) {
+                    selectedCourseGroups.add(key);
+                    showAllCourseGroups = false;
+                } else {
+                    selectedCourseGroups.delete(key);
+                }
+                updateGroupToggle();
+                saveChoices();
+                renderCourseList();
+            }));
+        }
+        fieldset.append(choices);
+        courseGroupChoices.append(fieldset);
+    }
+    updateGroupToggle();
+}
+
 function renderCourseList() {
     const search = choiceText(courseFilter.value).split(' ').filter(Boolean);
     shownCourses = courses.filter(option => {
+        if (!showAllCourseGroups && !option.common && !isPicked(option)
+            && ![...option.groupKeys].some(key => selectedCourseGroups.has(key))) {
+            return false;
+        }
         const terms = choiceText(courseLabel(option, true) + ' ' + [...option.formations].join(' '));
         return search.every(word => terms.includes(word));
     });
@@ -526,7 +620,7 @@ function renderCourseList() {
             courseList.append(makeCourseCheckbox(variants[0], true));
         } else {
             const group = element('details', '', 'course-group');
-            group.open = search.length > 0;
+            group.open = search.length > 0 || selectedCourseGroups.size > 0;
             const summary = element('summary', variants[0].sample.subject);
             const counter = element('span', '', 'course-group-count');
             summary.append(counter);
@@ -538,8 +632,11 @@ function renderCourseList() {
             courseList.append(group);
         }
     }
-    if (search.length && !shownCourses.length) {
-        courseList.append(element('p', 'Aucun cours ne correspond à la recherche.'));
+    if (courses.length && !shownCourses.length) {
+        const message = search.length
+            ? 'Aucun cours ne correspond à la recherche.'
+            : 'Choisis un groupe pour afficher ses cours.';
+        courseList.append(element('p', message));
     }
     countCourses();
 }
@@ -572,6 +669,7 @@ function renderCourses() {
         .sort((a, b) => alphabetic.compare(courseLabel(a, true), courseLabel(b, true)));
     notices = new Map(available.filter(event => event.notice).map(event => [noticeKey(event), event]));
     courseTools.hidden = !courses.length;
+    renderCourseGroups();
     renderCourseList();
     renderNotices();
     countCourses();
@@ -598,7 +696,9 @@ function openCourseSelection() {
     }
     statusMessage.textContent = '';
     showStep(3, true);
-    if (loadedFormations === formationSignature()) {
+    if (scheduleRequest && activeRequest === scheduleRequest) {
+        renderCourses();
+    } else if (loadedFormations === formationSignature()) {
         renderCourses();
         showScheduleStatus();
     } else {
@@ -615,18 +715,50 @@ async function loadSchedule(retry = false) {
     if (!targets.length) {
         return;
     }
-    const request = startRequest('Chargement des cours');
+    const request = startRequest('Chargement des cours', false);
+    scheduleRequest = request;
+    const signature = formationSignature();
     const failures = [];
-    const loadedEvents = retry ? [...events] : [];
+    const displayed = new Map();
+    for (const event of retry ? events : []) {
+        const key = selectionKey(event.url, event.formation);
+        if (!displayed.has(key)) {
+            displayed.set(key, []);
+        }
+        displayed.get(key).push(event);
+    }
     if (!retry) {
         failedFormations = [];
         events = [];
     }
-    if (step === 3) {
-        renderCourses();
-    } else {
-        renderDays();
+
+    function mergeSchedules(result) {
+        const {url, formations, schedules} = result;
+        if (formations.length) {
+            sources.set(url, [...new Set([...formations, ...sources.get(url)])]);
+        }
+        for (const {formation, events: schedule} of schedules) {
+            const key = selectionKey(url, formation);
+            displayed.set(key, schedule.map(event => ({...event, formation, url})));
+        }
     }
+
+    function renderLoadedSchedules() {
+        events = [...displayed.values()].flat().sort((a, b) => (a.date + a.start).localeCompare(b.date + b.start)
+            || alphabetic.compare(a.subject, b.subject));
+        if (activeRequest === request && displayed.size) {
+            loadedFormations = signature;
+            loadingPanel.hidden = true;
+            statusMessage.textContent = 'Horaires disponibles. Actualisation en cours…';
+        }
+        if (step === 3) {
+            renderCourses();
+        } else {
+            renderDays();
+        }
+    }
+
+    renderLoadedSchedules();
     try {
         const bySource = new Map();
         for (const {formation, url} of targets) {
@@ -635,37 +767,49 @@ async function loadSchedule(retry = false) {
             }
             bySource.get(url).push(formation);
         }
+        const entries = [...bySource.entries()];
+        const caches = await Promise.all(entries.map(([url, formations]) => readCachedPlanning(url, formations)));
+        if (request.signal.aborted) {
+            return;
+        }
+        for (const [index, [url]] of entries.entries()) {
+            mergeSchedules(browserPlanningResult(url, caches[index]));
+        }
+        if (displayed.size) {
+            renderLoadedSchedules();
+        }
 
-        for (const [index, [url, formations]] of [...bySource].entries()) {
+        for (const [index, [url, formations]] of entries.entries()) {
             const host = new URL(url).hostname;
             const prefix = bySource.size > 1 ? (index + 1) + '/' + bySource.size + ' · ' + host + ' · ' : '';
             const report = (fraction, message) => updateLoading((index + fraction) / bySource.size, prefix + message);
             report(0, 'Recherche des horaires publiés…');
             try {
-                const result = await fetchPlanning({url, formations}, request.signal, report);
+                const result = await fetchPlanning({url, formations}, request.signal, report, snapshot => {
+                    mergeSchedules(snapshot);
+                    if (snapshot.schedules.length) {
+                        renderLoadedSchedules();
+                    }
+                }, caches[index]);
                 if (request.signal.aborted) {
                     return;
                 }
-                if (Array.isArray(result.formations)) {
-                    sources.set(url, [...new Set([...result.formations, ...sources.get(url)])]);
+                mergeSchedules(result);
+                for (const {formation, error} of result.errors) {
+                    failures.push({url, formation, error});
                 }
-                for (const {formation, events: schedule} of result.schedules) {
-                    loadedEvents.push(...schedule.map(event => ({...event, formation, url})));
-                }
-                for (const {formation} of result.errors) {
-                    failures.push({url, formation});
+                if (result.schedules.length) {
+                    renderLoadedSchedules();
                 }
                 report(1, 'Horaires récupérés');
             } catch (error) {
                 if (request.signal.aborted) {
                     return;
                 }
-                failures.push(...formations.map(formation => ({url, formation})));
+                failures.push(...formations.map(formation => ({url, formation, error: error.message})));
             }
         }
 
-        events = loadedEvents.sort((a, b) => (a.date + a.start).localeCompare(b.date + b.start)
-            || alphabetic.compare(a.subject, b.subject));
         if (legacyHiddenCourses && events.length) {
             for (const event of events) {
                 const key = courseKey(event);
@@ -677,18 +821,19 @@ async function loadSchedule(retry = false) {
             saveChoices();
         }
 
-        failedFormations = failures;
-        loadedFormations = formationSignature();
+        failedFormations = failures.map(item => ({
+            ...item, available: displayed.has(selectionKey(item.url, item.formation)),
+        }));
+        loadedFormations = signature;
         renderFormations();
         showScheduleStatus();
     } finally {
         finishRequest(request);
+        if (scheduleRequest === request) {
+            scheduleRequest = null;
+        }
         if (!request.signal.aborted) {
-            if (step === 3) {
-                renderCourses();
-            } else {
-                renderDays();
-            }
+            renderLoadedSchedules();
         }
     }
 }
@@ -776,8 +921,22 @@ sourceForm.addEventListener('submit', async event => {
     event.preventDefault();
     const url = new FormData(sourceForm).get('url');
     const request = startRequest('Recherche des formations');
+    function showCatalogue(result) {
+        sources.set(result.url, result.formations);
+        saveChoices();
+        renderFormations();
+        if (step === 1) {
+            showStep(2, true);
+        }
+    }
     try {
-        const result = await fetchPlanning({url}, request.signal, updateLoading);
+        const result = await fetchPlanning({url}, request.signal, updateLoading, snapshot => {
+            if (snapshot.formations.length) {
+                showCatalogue(snapshot);
+                setBusy(false);
+                statusMessage.textContent = 'Dernières formations affichées. Actualisation en cours…';
+            }
+        });
         if (request.signal.aborted) {
             return;
         }
@@ -785,12 +944,9 @@ sourceForm.addEventListener('submit', async event => {
             statusMessage.textContent = 'Aucune formation publiée dans cet espace invité.';
             return;
         }
-        sources.set(result.url, result.formations);
-        saveChoices();
-        renderFormations();
+        showCatalogue(result);
         sourceForm.reset();
         statusMessage.textContent = '';
-        showStep(2, true);
     } catch (error) {
         if (!request.signal.aborted) {
             statusMessage.textContent = error.message;
@@ -857,13 +1013,16 @@ function goToStep(number) {
         return;
     }
 
-    activeRequest?.abort();
-    activeRequest = null;
+    const keepSchedule = number === 3 && scheduleRequest && activeRequest === scheduleRequest;
+    if (!keepSchedule) {
+        activeRequest?.abort();
+        activeRequest = null;
+        setBusy(false);
+    }
     if (created) {
         created = false;
         saveChoices();
     }
-    setBusy(false);
     statusMessage.textContent = '';
     if (number === 3) {
         openCourseSelection();
@@ -886,6 +1045,12 @@ document.getElementById('check-courses').addEventListener('click', () => toggleC
 document.getElementById('uncheck-courses').addEventListener('click', () => toggleCourses(false));
 formationFilter.addEventListener('input', renderFormations);
 courseFilter.addEventListener('input', renderCourseList);
+toggleAllCourseGroups.addEventListener('click', () => {
+    showAllCourseGroups = !showAllCourseGroups;
+    updateGroupToggle();
+    saveChoices();
+    renderCourseList();
+});
 function stopLoadingBeforeNavigation() {
     if (activeRequest) {
         interruptedNavigation = true;

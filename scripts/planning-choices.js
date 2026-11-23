@@ -2,6 +2,12 @@ function choiceText(value = '') {
     return String(value ?? '').normalize('NFD').replace(/\p{M}/gu, '').trim().replace(/\s+/g, ' ').toLowerCase();
 }
 
+function courseGroupNames(group, formation) {
+    return (group ?? '').split(/[\r\n;]+|\s+(?=groupe\s)/i)
+        .map(name => name.trim())
+        .filter(name => name && choiceText(name) !== choiceText(formation));
+}
+
 function noticeKey(event) {
     return JSON.stringify([event.url, event.notice, choiceText(event.subject), ...(event.period || [event.date, event.date])]);
 }

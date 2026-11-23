@@ -4,6 +4,7 @@ declare(strict_types=1);
 const STREAM_TYPE = 'application/x-ndjson';
 const CATALOGUE_TTL = 900;
 const SCHEDULE_TTL = 120;
+const PLANNING_CACHE_RETENTION = 7 * 86400;
 
 $streaming = str_contains($_SERVER['HTTP_ACCEPT'] ?? '', STREAM_TYPE);
 header('Content-Type: ' . ($streaming ? STREAM_TYPE : 'application/json') . '; charset=UTF-8');
@@ -49,21 +50,48 @@ function cachePath(string $directory, string $url, string $formation = ''): stri
     return $directory . DIRECTORY_SEPARATOR . hash('sha256', $url . "\n" . $formation) . '.json';
 }
 
-function readCache(string $path, int $ttl): ?array
+function readCache(string $path): ?array
 {
     $stored = @file_get_contents($path);
     if ($stored === false) {
         return null;
     }
     $entry = json_decode($stored, true);
-    if (!is_array($entry['data'] ?? null) || !is_int($entry['time'] ?? null)) {
+    if (!is_array($entry['data'] ?? null) || !is_int($entry['time'] ?? null)
+        || cacheLifetime($entry, PLANNING_CACHE_RETENTION, time()) === 0) {
         return null;
     }
-    $maxAge = $entry['time'] + $ttl - time();
-    return $maxAge > 0 ? ['data' => $entry['data'], 'maxAge' => $maxAge] : null;
+    return $entry;
 }
 
-function writeCache(string $directory, string $path, array $data): void
+function cacheLifetime(?array $entry, int $ttl, int $now): int
+{
+    return $entry === null ? 0 : max(0, min($ttl, $entry['time'] + $ttl - $now));
+}
+
+function cachedPlanningResponse(string $url, ?array $catalogue, array $schedules, array $errors = []): array
+{
+    $now = time();
+    $results = [];
+    foreach ($schedules as $name => $entry) {
+        $results[] = [
+            'formation' => (string) $name,
+            'events' => $entry['data'],
+            'maxAge' => cacheLifetime($entry, SCHEDULE_TTL, $now),
+            'cacheMaxAge' => cacheLifetime($entry, PLANNING_CACHE_RETENTION, $now),
+        ];
+    }
+    return [
+        'url' => $url,
+        'formations' => $catalogue['data'] ?? [],
+        'catalogueMaxAge' => cacheLifetime($catalogue, CATALOGUE_TTL, $now),
+        'catalogueCacheMaxAge' => cacheLifetime($catalogue, PLANNING_CACHE_RETENTION, $now),
+        'schedules' => $results,
+        'errors' => $errors,
+    ];
+}
+
+function writeCache(string $directory, string $path, array $entry): void
 {
     if (!is_dir($directory)) {
         @mkdir($directory, 0700, true);
@@ -76,7 +104,7 @@ function writeCache(string $directory, string $path, array $data): void
     if ($temporary === false) {
         return;
     }
-    $content = json_encode(['time' => time(), 'data' => $data], JSON_UNESCAPED_UNICODE);
+    $content = json_encode($entry, JSON_UNESCAPED_UNICODE);
     if ($content === false || @file_put_contents($temporary, $content) === false || !@rename($temporary, $path)) {
         @unlink($temporary);
     }
@@ -128,25 +156,25 @@ if ($requested) {
 $directory = sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'lorr-hyperplanning-v3';
 $cataloguePath = cachePath($directory, $url);
 $requestTime = time();
-$cachedCatalogue = readCache($cataloguePath, CATALOGUE_TTL);
-$catalogue = $cachedCatalogue['data'] ?? null;
-$catalogueExpires = $requestTime + ($cachedCatalogue['maxAge'] ?? 0);
-$scheduleExpiries = [];
+$catalogue = readCache($cataloguePath);
 $schedules = [];
 $missing = [];
 
 foreach ($requested as $name) {
-    $cached = readCache(cachePath($directory, $url, $name), SCHEDULE_TTL);
+    $cached = readCache(cachePath($directory, $url, $name));
     if ($cached !== null) {
-        $schedules[$name] = ['formation' => $name, 'events' => $cached['data']];
-        $scheduleExpiries[$name] = $requestTime + $cached['maxAge'];
-    } else {
+        $schedules[$name] = $cached;
+    }
+    if (!cacheLifetime($cached, SCHEDULE_TTL, $requestTime)) {
         $missing[] = $name;
     }
 }
 
 $errors = [];
-if ($catalogue === null || $missing) {
+if (!cacheLifetime($catalogue, CATALOGUE_TTL, $requestTime) || $missing) {
+    if ($catalogue !== null || $schedules) {
+        sendUpdate(['type' => 'snapshot', 'data' => cachedPlanningResponse($url, $catalogue, $schedules)]);
+    }
     if (!function_exists('proc_open')) {
         respond(503, ['error' => 'Cet hébergement doit autoriser PHP à lancer le lecteur Hyperplanning.']);
     }
@@ -169,6 +197,7 @@ if ($catalogue === null || $missing) {
 
     fclose($pipes[0]);
     $result = null;
+    $received = [];
     $failure = 'La lecture d’Hyperplanning a été interrompue. Réessaie dans un instant.';
     while (($line = fgets($pipes[1])) !== false) {
         $message = json_decode($line, true);
@@ -179,6 +208,13 @@ if ($catalogue === null || $missing) {
                 break;
             case 'result':
                 $result = $message['data'];
+                break;
+            case 'schedule':
+                $name = $message['schedule']['formation'];
+                $entry = ['time' => time(), 'data' => $message['schedule']['events']];
+                $received[$name] = $schedules[$name] = $entry;
+                writeCache($directory, cachePath($directory, $url, $name), $entry);
+                sendUpdate(['type' => 'snapshot', 'data' => cachedPlanningResponse($url, null, [$name => $entry])]);
                 break;
             case 'error':
                 $failure = $message['error'];
@@ -198,19 +234,21 @@ if ($catalogue === null || $missing) {
         respond($status === 2 ? 503 : 502, ['error' => $failure]);
     }
     if ($result !== null) {
-        $catalogue = $result['formations'];
-        $catalogueExpires = time() + CATALOGUE_TTL;
+        $catalogue = ['time' => time(), 'data' => $result['formations']];
         writeCache($directory, $cataloguePath, $catalogue);
         foreach ($result['schedules'] as $schedule) {
             $name = $schedule['formation'];
-            $schedules[$name] = $schedule;
-            $scheduleExpiries[$name] = time() + SCHEDULE_TTL;
-            writeCache($directory, cachePath($directory, $url, $name), $schedule['events']);
+            if (!isset($received[$name])) {
+                $schedules[$name] = ['time' => time(), 'data' => $schedule['events']];
+                writeCache($directory, cachePath($directory, $url, $name), $schedules[$name]);
+            }
         }
         $errors = $result['errors'];
     } else {
         foreach ($missing as $name) {
-            $errors[] = ['formation' => $name, 'error' => $failure];
+            if (!isset($received[$name])) {
+                $errors[] = ['formation' => $name, 'error' => $failure];
+            }
         }
     }
 } else {
@@ -221,7 +259,7 @@ $loadedCourses = 0;
 $subjects = [];
 foreach ($schedules as $schedule) {
     $courses = [];
-    foreach ($schedule['events'] as $event) {
+    foreach ($schedule['data'] as $event) {
         if (empty($event['notice'])) {
             $course = serialize([$event['subject'], $event['group'] ?? '', $event['type'] ?? '']);
             $courses[$course] = true;
@@ -244,18 +282,7 @@ if ($legacy) {
     if (!$schedules) {
         respond(502, ['error' => $errors[0]['error'] ?? 'Impossible de lire les horaires.']);
     }
-    respond(200, ['formations' => $catalogue ?? [], 'events' => reset($schedules)['events']]);
+    respond(200, ['formations' => $catalogue['data'] ?? [], 'events' => reset($schedules)['data']]);
 }
 
-$responseTime = time();
-foreach ($schedules as $name => $schedule) {
-    $schedules[$name]['maxAge'] = max(0, $scheduleExpiries[$name] - $responseTime);
-}
-
-respond(200, [
-    'url' => $url,
-    'formations' => $catalogue ?? [],
-    'catalogueMaxAge' => max(0, $catalogueExpires - $responseTime),
-    'schedules' => array_values($schedules),
-    'errors' => $errors,
-]);
+respond(200, cachedPlanningResponse($url, $catalogue, $schedules, $errors));

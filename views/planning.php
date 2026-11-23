@@ -94,6 +94,12 @@
             </header>
             <div class="panel-body">
                 <div id="course-tools" hidden>
+                    <fieldset id="course-group-filter" class="group-filter" hidden>
+                        <legend>Choisis tes groupes</legend>
+                        <p>Les cours communs restent affichés.</p>
+                        <div id="course-group-choices"></div>
+                        <button id="toggle-all-course-groups" type="button" class="text-button" aria-pressed="false">Voir tous les groupes</button>
+                    </fieldset>
                     <div class="choice-filter">
                         <label for="course-filter">Filtrer les cours</label>
                         <input id="course-filter" type="search" placeholder="Matière, formation ou groupe">

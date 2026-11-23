@@ -1,4 +1,5 @@
 const planningCachePrefix = 'lorr-tab-planning-v2:';
+const planningCacheName = 'lorr-planning-horaires-v1';
 const planningSourceConfig = JSON.parse(document.getElementById('planning-source-config').textContent);
 const hehPlanningHost = new RegExp('^(?:' + planningSourceConfig.hehHostPattern + ')$');
 const extraPlanningHosts = new Set(planningSourceConfig.extraHosts);
@@ -10,6 +11,7 @@ const courseClickBatchLimit = 100;
 let pendingCourseClicks = 0;
 let courseClickTimer;
 let cachedShortLink;
+let browserPlanningCache;
 
 function flushCourseClicks() {
     if (!pendingCourseClicks) {
@@ -253,14 +255,32 @@ async function shortPlanningLink(portableLink) {
     return portableLink;
 }
 
-function readTabPlanning(key) {
+function openBrowserPlanningCache() {
+    browserPlanningCache ??= Promise.resolve().then(() => window.caches?.open(planningCacheName)).catch(() => null);
+    return browserPlanningCache;
+}
+
+function planningCacheAddress(key) {
+    const address = new URL('api/planning', location.href);
+    address.searchParams.set('cache', key);
+    return address.href;
+}
+
+async function readPlanningEntry(key) {
     try {
-        const raw = sessionStorage.getItem(planningCachePrefix + key);
-        if (raw) {
-            const entry = JSON.parse(raw);
-            if (entry.expires > Date.now()) {
-                return entry.data;
+        const cache = await openBrowserPlanningCache();
+        const address = planningCacheAddress(key);
+        const response = await cache?.match(address);
+        const entry = response ? await response.json() : JSON.parse(sessionStorage.getItem(planningCachePrefix + key));
+        if (Array.isArray(entry?.data) && Number.isFinite(entry.expires)) {
+            entry.keepUntil ??= entry.expires;
+            if (entry.keepUntil > Date.now()) {
+                return entry;
             }
+        }
+        if (response) {
+            await cache.delete(address);
+        } else {
             sessionStorage.removeItem(planningCachePrefix + key);
         }
     } catch {
@@ -269,65 +289,109 @@ function readTabPlanning(key) {
     return null;
 }
 
-function saveTabPlanning(key, data, maxAge) {
-    if (Array.isArray(data) && Number.isFinite(maxAge) && maxAge > 0) {
-        try {
-            sessionStorage.setItem(planningCachePrefix + key, JSON.stringify({
-                data,
-                expires: Date.now() + maxAge * 1000,
-            }));
-        } catch {
-            // The planning also works if the browser storage is full.
+async function savePlanningEntry(key, entry) {
+    try {
+        const cache = await openBrowserPlanningCache();
+        const json = JSON.stringify(entry);
+        if (cache) {
+            await cache.put(planningCacheAddress(key), new Response(json));
+        } else {
+            sessionStorage.setItem(planningCachePrefix + key, json);
+        }
+    } catch {
+        // The planning also works if the browser storage is full.
+    }
+}
+
+async function readCachedPlanning(url, formations) {
+    const [catalogue, ...entries] = await Promise.all([
+        readPlanningEntry(url),
+        ...formations.map(formation => readPlanningEntry(JSON.stringify([url, formation]))),
+    ]);
+    const schedules = new Map();
+    for (const [index, entry] of entries.entries()) {
+        if (entry) {
+            schedules.set(formations[index], entry);
+        }
+    }
+    return {catalogue, schedules};
+}
+
+function browserPlanningResult(url, cache, errors = []) {
+    return {
+        url,
+        formations: cache.catalogue?.data ?? [],
+        schedules: [...cache.schedules].map(([formation, entry]) => ({formation, events: entry.data})),
+        errors,
+    };
+}
+
+function rememberPlanningResult(cache, url, result) {
+    const now = Date.now();
+    function remember(key, stored, data, maxAge, cacheMaxAge) {
+        if (!Array.isArray(data)) {
+            return stored;
+        }
+        const fresh = Number.isFinite(maxAge) ? maxAge : 0;
+        const retained = Number.isFinite(cacheMaxAge) ? cacheMaxAge : fresh;
+        const entry = {data, expires: now + fresh * 1000, keepUntil: now + retained * 1000};
+        if (stored && stored.keepUntil > entry.keepUntil) {
+            return stored;
+        }
+        if (retained > 0) {
+            savePlanningEntry(key, entry);
+        }
+        return entry;
+    }
+
+    if (result.catalogueCacheMaxAge !== 0) {
+        cache.catalogue = remember(url, cache.catalogue, result.formations, result.catalogueMaxAge, result.catalogueCacheMaxAge);
+    }
+    for (const {formation, events, maxAge, cacheMaxAge} of result.schedules || []) {
+        const key = JSON.stringify([url, formation]);
+        const entry = remember(key, cache.schedules.get(formation), events, maxAge, cacheMaxAge);
+        if (entry) {
+            cache.schedules.set(formation, entry);
         }
     }
 }
 
-async function fetchPlanning(data, signal, onProgress) {
+async function fetchPlanning(data, signal, onProgress, onSnapshot = () => {}, initialCache = null) {
     const url = planningSource(data.url);
     if (!url) {
         throw new Error('Utilise un lien HTTPS /invite d’un établissement pris en charge.');
     }
-    const cached = [];
-    const missing = [];
     const requested = [...new Set(data.formations)];
     if (requested.length > planningSourceConfig.maxFormationsPerSource || requested.some(name => !isPlanningFormation(name))) {
         throw new Error('Vérifie la liste des formations choisies.');
     }
-    const catalogue = readTabPlanning(url);
-    for (const formation of requested) {
-        const events = readTabPlanning(JSON.stringify([url, formation]));
-        if (events) {
-            cached.push({formation, events});
-        } else {
-            missing.push(formation);
-        }
-    }
+    const cache = initialCache ?? await readCachedPlanning(url, requested);
+    signal.throwIfAborted();
+    const now = Date.now();
+    const missing = requested.filter(formation => !(cache.schedules.get(formation)?.expires > now));
 
-    if (catalogue && !missing.length) {
+    if (cache.catalogue?.expires > now && !missing.length) {
         onProgress(1, 'Données récentes déjà disponibles');
-        return {url, formations: catalogue, schedules: cached, errors: []};
+        return browserPlanningResult(url, cache);
     }
 
     try {
-        const result = await requestPlanning(url, missing, signal, onProgress);
-        const fresh = result.schedules || [];
-        if (result.url) {
-            saveTabPlanning(result.url, result.formations, result.catalogueMaxAge);
-            for (const schedule of fresh) {
-                saveTabPlanning(
-                    JSON.stringify([result.url, schedule.formation]), schedule.events, schedule.maxAge,
-                );
-            }
+        if (initialCache === null && (cache.catalogue || cache.schedules.size)) {
+            onSnapshot(browserPlanningResult(url, cache));
         }
-        return {...result, schedules: [...cached, ...fresh]};
+        const result = await requestPlanning(url, missing, signal, onProgress, snapshot => {
+            rememberPlanningResult(cache, url, snapshot);
+            onSnapshot(browserPlanningResult(url, cache));
+        });
+        rememberPlanningResult(cache, url, result);
+        return browserPlanningResult(url, cache, result.errors ?? []);
     } catch (error) {
-        if (signal.aborted || !cached.length) {
+        if (signal.aborted || !cache.schedules.size) {
             throw error;
         }
-        return {
-            url, formations: catalogue || requested, schedules: cached,
-            errors: missing.map(formation => ({formation, error: error.message})),
-        };
+        const errors = missing.filter(formation => !(cache.schedules.get(formation)?.expires > Date.now()))
+            .map(formation => ({formation, error: error.message}));
+        return browserPlanningResult(url, cache, errors);
     }
 }
 
@@ -339,7 +403,20 @@ function planningRequestBody(url, formations) {
     return body;
 }
 
-async function requestPlanning(url, formations, signal, onProgress) {
+async function requestPlanning(url, formations, signal, onProgress, onSnapshot) {
+    const request = new AbortController();
+    const abort = () => request.abort(signal.reason);
+    signal.addEventListener('abort', abort, {once: true});
+    const timeout = setTimeout(() => request.abort(new Error('L’espace invité met trop de temps à répondre.')), 120000);
+    try {
+        return await streamPlanning(url, formations, request.signal, onProgress, onSnapshot);
+    } finally {
+        clearTimeout(timeout);
+        signal.removeEventListener('abort', abort);
+    }
+}
+
+async function streamPlanning(url, formations, signal, onProgress, onSnapshot) {
     const response = await fetch('api/planning', {
         method: 'POST',
         headers: {'Content-Type': 'application/json', Accept: 'application/x-ndjson'},
@@ -374,6 +451,8 @@ async function requestPlanning(url, formations, signal, onProgress) {
                 const message = JSON.parse(line);
                 if (message.type === 'progress' && message.total > 0 && !signal.aborted) {
                     onProgress(message.done / message.total, message.message);
+                } else if (message.type === 'snapshot' && !signal.aborted) {
+                    onSnapshot(message.data);
                 } else if (message.type === 'result') {
                     result = message.data;
                 } else if (message.type === 'error') {

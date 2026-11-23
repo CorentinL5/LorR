@@ -12,8 +12,9 @@ nécessaire.
 1. Colle le lien HTTPS de l’espace invité de ton établissement. Il se termine
    par `/invite`.
 2. Choisis tes formations. Tu peux ajouter un autre établissement si nécessaire.
-3. Filtre et coche tes cours. LorR regroupe les doublons et coche d’office les
-   jours fériés et les vacances signalés par Hyperplanning.
+3. Choisis tes groupes, puis coche les cours affichés en une fois ou cours
+   par cours. Les cours communs restent visibles. LorR regroupe les doublons
+   et coche d’office les jours fériés et les vacances signalés par Hyperplanning.
 4. Clique sur **Créer mon emploi du temps** pour afficher les séances sur
    toutes les semaines publiées.
 
@@ -23,9 +24,9 @@ depuis l’accueil. **Copier mon lien** crée un lien court du type
 `/p/Gx2mQ7tW4-Lb` pour ouvrir ce planning dans un autre navigateur.
 La barre d’adresse affiche simplement `/planning` après l’ouverture.
 
-LorR conserve la sélection associée au lien court dans un fichier local.
-Si le fichier ne peut pas être créé, le bouton copie le lien autonome avec
-le code compressé après `#p=`. Les anciens liens restent utilisables.
+LorR conserve la sélection associée au lien court dans SQLite.
+Si SQLite est indisponible, le bouton copie le lien autonome avec le code
+compressé après `#p=`.
 LorR vérifie le code et les domaines invités avant de demander les horaires.
 
 ## Consulter les horaires
@@ -67,19 +68,22 @@ Le routeur PHP sert l’accueil sur `/` et le créateur sur `/planning`.
 Sur Apache, active le module `mod_rewrite` et autorise les règles du fichier
 `.htaccess`.
 
-Les liens courts utilisent le dossier `var/planning-links`. PHP doit pouvoir y écrire.
-Tu peux choisir un autre dossier persistant avec `LORR_LINKS_DIR`. Conserve ce
-dossier lors des mises à jour pour que les liens déjà partagés restent actifs.
+Les liens courts utilisent la base SQLite de LorR, `var/lorr-stats.sqlite` par
+défaut. PHP doit disposer de `pdo_sqlite` et pouvoir écrire dans le dossier
+de la base. Tu peux choisir un dossier persistant avec `LORR_STATS_DIR`.
+Conserve la base lors des mises à jour pour garder les liens partagés.
 
 Le domaine annuel de la HEH sur `umons.ac.be` est pris en charge. Pour ajouter
 d’autres établissements, renseigne leurs noms de domaine exacts dans
 `LORR_PLANNING_HOSTS`, séparés par des virgules. Le lecteur utilise les vues
 publiques **Promotions** et **Emploi du temps en liste** de PRONOTE Campus.
 
-LorR lit ensemble les formations d’un même établissement. Le serveur met en
-cache les horaires pendant deux minutes et la liste des formations pendant
-quinze minutes. Le navigateur réutilise les horaires encore frais dans le
-même onglet.
+LorR lit ensemble les formations d’un même établissement. Le navigateur et le
+serveur réutilisent les dernières données jusqu’à sept jours et les affichent
+dès qu’elles sont disponibles. Le serveur actualise les horaires après deux
+minutes et les listes de formations après quinze minutes. Tu peux consulter
+le planning pendant l’actualisation. Si Hyperplanning ne répond pas, LorR
+laisse les derniers horaires disponibles à l’écran.
 
 ## Statistiques publiques
 

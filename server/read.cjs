@@ -354,7 +354,11 @@ async function readPlanning(page) {
                 }
             }
             events.push(...await readCalendarNotices(page));
-            schedules.push({formation, events});
+            const schedule = {formation, events};
+            schedules.push(schedule);
+            if (mode === '--heartbeat') {
+                send('schedule', {schedule});
+            }
         } catch (error) {
             console.error(formation, error.message);
             errors.push({formation, error: 'Impossible de lire les horaires de cette formation.'});

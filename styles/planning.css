@@ -305,9 +305,17 @@ main.shell { padding-bottom: 3rem; }
     to { transform: translateX(233.33%); }
 }
 
+@keyframes loading-pulse {
+    from { opacity: 0.45; }
+    to { opacity: 1; }
+}
+
 @media (prefers-reduced-motion: reduce) {
     #loading-progress::-webkit-progress-value { transition: none; }
-    .loading-sweep::before { animation: none; margin-inline: auto; }
+    .loading-sweep::before {
+        margin-inline: auto;
+        animation: loading-pulse 1.2s ease-in-out infinite alternate;
+    }
 }
 
 .panel {
@@ -841,6 +849,33 @@ button.calendar-date[aria-pressed=true] { background: var(--yellow); }
 .choice-filter input { width: min(100%, 24rem); }
 .choice-filter p { font-size: .9rem; color: var(--muted); }
 .choice-filter #course-count { margin: 0; }
+
+.group-filter {
+    padding: 0.6rem 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #c9c2bb;
+    border-radius: 8px;
+    background: var(--sky);
+}
+
+.group-filter > p { color: var(--muted); font-size: .9rem; }
+.formation-groups { margin-block: .45rem; }
+.group-options { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .2rem; }
+
+.group-options label {
+    display: flex;
+    align-items: center;
+    gap: .35rem;
+    padding: .35rem .55rem;
+    border: 1px solid #8c819a;
+    border-radius: 7px;
+    background: var(--white);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.group-options label:has(:checked) { border-color: var(--ink); background: var(--green); }
+.group-options input { margin: 0; accent-color: #1d653b; }
 
 .choice-groups {
     display: grid;
