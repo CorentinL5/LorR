@@ -1,4 +1,4 @@
     <link rel="icon" href="assets/lorr-icon.svg" type="image/svg+xml" sizes="any">
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="apple-touch-icon" href="assets/pwa-192.png">
-    <script src="scripts/web-app.js?v=3" defer></script>
+    <script src="scripts/web-app.js?v=4" defer></script>

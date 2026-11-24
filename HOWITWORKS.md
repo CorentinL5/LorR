@@ -345,6 +345,22 @@ le téléchargement de `planning-lorr.ics`. Le fichier représente le
 planning visible au moment de l’export. Le README rappelle comment
 vérifier les horaires à jour.
 
+### Abonnement iCal
+
+**Copier le lien d’abonnement iCal** utilise le même code que le lien court.
+`/p/{id}/planning.ics` vérifie ce code dans SQLite, puis récupère les horaires
+des formations indiquées. Le flux ne conserve pas de fichier par abonnement.
+Il utilise le cache PHP des formations et tente une actualisation lorsqu’une
+entrée date de plus de dix minutes. Un verrou par source espace les tentatives
+d’une minute. Si une formation manque et que la lecture échoue, le serveur
+renvoie `503` au lieu d’envoyer un calendrier incomplet.
+
+[`planning-calendar.php`](server/planning-calendar.php) garde les séances des
+cours cochés et inclut tous les congés publiés pour les formations du lien.
+Il produit un flux iCalendar en UTC pour les séances et des dates sans heure
+pour les congés. La réponse utilise un `ETag` pour éviter de retransférer un
+planning identique. L’application de calendrier choisit quand interroger le flux.
+
 ## 7. Enregistrement et liens de partage
 
 **Enregistrer** garde le fragment du planning sous la clé

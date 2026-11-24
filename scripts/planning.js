@@ -35,6 +35,7 @@ const stepButtons = document.querySelectorAll('.steps [data-step]');
 const stepPanels = ['link-step', 'formation-step', 'course-panel', 'my-planning'].map(id => document.getElementById(id));
 const dayList = document.getElementById('planning-days');
 const copyButton = document.getElementById('copy-planning');
+const subscriptionButton = document.getElementById('copy-calendar-subscription');
 const sharePlanning = document.getElementById('share-planning');
 const saveButton = document.getElementById('save-planning');
 const exportButton = document.getElementById('export-planning');
@@ -43,6 +44,7 @@ const laterNoticesOption = document.getElementById('include-later-notices');
 const linkStatus = document.getElementById('link-status');
 const linkFallback = document.getElementById('link-fallback');
 const linkInput = document.getElementById('planning-address');
+const linkLabel = linkFallback.querySelector('label');
 const preferenceKey = 'lorr-hyperplanning';
 const alphabetic = new Intl.Collator('fr-BE', {numeric: true});
 const formationNames = new Intl.ListFormat('fr-BE');
@@ -237,6 +239,7 @@ async function updatePlanningLink(existingCode = null) {
     const originalAddress = location.href;
     const originalHistoryHash = planningHistoryHash();
     copyButton.disabled = true;
+    subscriptionButton.disabled = true;
     saveButton.disabled = true;
     linkFallback.hidden = true;
     linkInput.value = '';
@@ -267,6 +270,7 @@ async function updatePlanningLink(existingCode = null) {
         address.hash = hash;
         portablePlanningLink = address.href;
         copyButton.disabled = false;
+        subscriptionButton.disabled = false;
         saveButton.disabled = false;
     }
 }
@@ -1121,21 +1125,35 @@ exportButton.addEventListener('click', () => {
     setTimeout(() => URL.revokeObjectURL(address), 60000);
 });
 
-copyButton.addEventListener('click', async () => {
+async function copySharedLink(subscription) {
+    const button = subscription ? subscriptionButton : copyButton;
     const portableLink = portablePlanningLink;
     const revision = planningLinkRevision;
-    copyButton.disabled = true;
+    button.disabled = true;
     linkFallback.hidden = true;
-    linkStatus.textContent = 'Création du lien court…';
-    const shareLink = shortPlanningLink(portableLink);
+    linkStatus.textContent = subscription ? 'Préparation du lien iCal…' : 'Création du lien court…';
+    const shareLink = shortPlanningLink(portableLink).then(address => {
+        if (!subscription) {
+            return address;
+        }
+        return address === portableLink ? '' : address + '/planning.ics';
+    });
     let copied = false;
     try {
         const clipboard = navigator.clipboard;
+        const copyAddress = async () => {
+            const address = await shareLink;
+            if (!address) {
+                throw new Error('Lien indisponible.');
+            }
+            return address;
+        };
         if (typeof ClipboardItem === 'function' && clipboard?.write) {
-            const text = shareLink.then(address => new Blob([address], {type: 'text/plain'}));
+            const text = copyAddress().then(address => new Blob([address], {type: 'text/plain'}));
             await clipboard.write([new ClipboardItem({'text/plain': text})]);
         } else {
-            await clipboard.writeText(await shareLink);
+            const address = await copyAddress();
+            await clipboard.writeText(address);
         }
         copied = true;
     } catch {
@@ -1145,22 +1163,30 @@ copyButton.addEventListener('click', async () => {
     if (revision !== planningLinkRevision) {
         return;
     }
-    copyButton.disabled = false;
-    if (copied) {
+    button.disabled = false;
+    if (!address) {
+        linkStatus.textContent = 'Lien iCal indisponible. Tu peux télécharger le fichier .ics.';
+    } else if (copied) {
         const restoreFocus = sharePlanning.open && sharePlanning.contains(document.activeElement);
         sharePlanning.open = false;
         if (restoreFocus) {
             sharePlanning.querySelector('summary').focus({preventScroll: true});
         }
-        linkStatus.textContent = address === portableLink ? 'Lien complet copié.' : 'Lien court copié !';
+        linkStatus.textContent = subscription ? 'Lien iCal copié. Ajoute-le comme abonnement dans ton calendrier.'
+            : (address === portableLink ? 'Lien complet copié.' : 'Lien court copié !');
     } else {
+        linkLabel.textContent = subscription ? 'Lien d’abonnement iCal' : 'Lien du planning';
         linkInput.value = address;
         linkFallback.hidden = false;
         linkInput.focus();
         linkInput.select();
-        linkStatus.textContent = 'Sélectionne et copie ce lien.';
+        linkStatus.textContent = subscription ? 'Copie ce lien et ajoute-le comme abonnement dans ton calendrier.'
+            : 'Sélectionne et copie ce lien.';
     }
-});
+}
+
+copyButton.addEventListener('click', () => copySharedLink(false));
+subscriptionButton.addEventListener('click', () => copySharedLink(true));
 
 document.addEventListener('click', event => {
     if (sharePlanning.open && !sharePlanning.contains(event.target)) {

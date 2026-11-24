@@ -35,30 +35,30 @@ function validSharedHost(mixed $host): bool
     return is_string($host) && planningSource('https://' . $host . '/invite') === 'https://' . $host . '/invite';
 }
 
-function validSharedPlanningState(string $code): bool
+function decodeSharedPlanningState(string $code): ?array
 {
     $bytes = base64_decode(strtr(substr($code, 2), '-_', '+/'), true);
     if ($bytes === false) {
-        return false;
+        return null;
     }
     if (str_starts_with($code, 'z.')) {
         if (!function_exists('gzuncompress')) {
-            return false;
+            return null;
         }
         $bytes = @gzuncompress($bytes, MAX_PLANNING_SHARE_BYTES);
     }
-    if ($bytes === false) {
-        return false;
+    if ($bytes === false || strlen($bytes) > MAX_PLANNING_SHARE_BYTES) {
+        return null;
     }
 
     $state = json_decode($bytes, false, 12);
     if (!is_array($state) || !array_is_list($state)) {
-        return false;
+        return null;
     }
     if (($state[0] ?? null) === 1) {
-        return validLegacySharedPlanningState($state);
+        return validLegacySharedPlanningState($state) ? $state : null;
     }
-    return ($state[0] ?? null) === 2 && validPackedSharedPlanningState($state);
+    return ($state[0] ?? null) === 2 && validPackedSharedPlanningState($state) ? $state : null;
 }
 
 function validLegacySharedPlanningState(array $state): bool
@@ -186,6 +186,16 @@ function findPlanningLink(PDO $database, string $id): ?string
     return is_string($code) ? $code : null;
 }
 
+function loadPlanningLink(string $id): ?string
+{
+    $database = openPlanningLinkDatabase();
+    if ($database === null) {
+        throw new RuntimeException('Les liens courts sont indisponibles.');
+    }
+    $code = findPlanningLink($database, $id);
+    return validStoredPlanningCode($code) && hash_equals(planningLinkId($code), $id) ? $code : null;
+}
+
 function storePlanningLink(string $code): ?string
 {
     $database = openPlanningLinkDatabase();
@@ -228,7 +238,7 @@ function createPlanningLink(): void
     }
     $data = json_decode($body, true, 4);
     $code = $data['code'] ?? null;
-    if (!is_array($data) || count($data) !== 1 || !validStoredPlanningCode($code) || !validSharedPlanningState($code)) {
+    if (!is_array($data) || count($data) !== 1 || !validStoredPlanningCode($code) || decodeSharedPlanningState($code) === null) {
         http_response_code(400);
         return;
     }
@@ -261,17 +271,12 @@ function openPlanningLink(string $base, string $route): bool
 
     $id = $match[1];
     try {
-        $database = openPlanningLinkDatabase();
-        if ($database === null) {
-            http_response_code(503);
-            return true;
-        }
-        $code = findPlanningLink($database, $id);
+        $code = loadPlanningLink($id);
     } catch (RuntimeException) {
         http_response_code(503);
         return true;
     }
-    if (!validStoredPlanningCode($code) || planningLinkId($code) !== $id) {
+    if ($code === null) {
         http_response_code(404);
         header('Content-Type: text/plain; charset=UTF-8');
         echo 'Ce lien de planning est introuvable.';

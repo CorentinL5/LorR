@@ -17,7 +17,7 @@ final class GuestPlanningClient
     private array $calendar;
     private array $hours = [];
 
-    public function __construct(string $url)
+    public function __construct(string $url, ?float $deadline = null)
     {
         if (planningSource($url) !== $url) {
             throw new RuntimeException('Ce lien invité n’est pas pris en charge.');
@@ -28,7 +28,7 @@ final class GuestPlanningClient
         }
         $this->connection = $connection;
         $this->origin = substr($url, 0, -strlen('/invite'));
-        $this->deadline = microtime(true) + 80;
+        $this->deadline = min($deadline ?? INF, microtime(true) + 80);
         $this->sessionIv = random_bytes(16);
         $protocol = defined('CURLOPT_PROTOCOLS_STR') ? [CURLOPT_PROTOCOLS_STR => 'HTTPS'] : [CURLOPT_PROTOCOLS => CURLPROTO_HTTPS];
         curl_setopt_array($connection, $protocol + [
@@ -303,11 +303,11 @@ function guestPlanningNotice(string $from, string $until, string $subject, strin
         'start' => '', 'end' => '', 'group' => '', 'room' => '', 'type' => '', 'allDay' => true];
 }
 
-function readGuestPlanning(string $url, array $requested, callable $report, callable $publish): array
+function readGuestPlanning(string $url, array $requested, callable $report, callable $publish, ?float $deadline = null): array
 {
     $total = count($requested) + 1;
     $report(0, $total, 'Ouverture de l’espace invité');
-    $client = new GuestPlanningClient($url);
+    $client = new GuestPlanningClient($url, $deadline);
     $catalogue = $client->formations();
     $formations = array_map('strval', array_keys($catalogue));
     $report(1, $total, 'Liste des formations lue');

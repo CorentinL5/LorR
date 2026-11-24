@@ -20,7 +20,7 @@ planning avec un lien. Tu peux utiliser LorR sans compte.
 
 Clique sur une séance pour voir ses détails. **Enregistrer** garde ton planning
 sur cet appareil. Depuis l’accueil, **Reprendre ma sélection** rouvre ton
-brouillon. Dans **Partager**, **Copier mon lien** permet d’ouvrir ton planning
+brouillon. Dans **Partager / Télécharger**, **Copier mon lien** permet d’ouvrir ton planning
 sur un autre appareil.
 
 > [!NOTE]
@@ -34,8 +34,14 @@ sur un autre appareil.
 
 ## Exporter ou installer LorR
 
-Dans **Partager**, **Télécharger le .ics** exporte les séances sélectionnées
-et les repères visibles. Importe le fichier dans ton application de calendrier.
+Dans **Partager / Télécharger**, choisis la façon d’ajouter ton planning.
+
+- **Copier le lien d’abonnement iCal** donne un lien à ajouter comme abonnement.
+  L’abonnement suit les horaires publiés pour les cours choisis et inclut tous les
+  congés disponibles pour tes formations. Ton application fixe la fréquence des
+  mises à jour. Si tu modifies tes choix dans LorR, copie un nouveau lien.
+- **Télécharger le fichier .ics** exporte les séances sélectionnées et les
+  repères visibles au moment du téléchargement.
 
 > [!WARNING]
 > **Horaires non actualisés via ICS.** Le fichier contient les horaires
@@ -70,7 +76,7 @@ php -S 127.0.0.1:8000 index.php
    `scripts/`, `styles/` et `assets/`. Exclue `server/read.cjs` du déploiement
    PHP. Garde `.git/`, les documents et la configuration privée hors de la
    racine web.
-3. Pour les liens courts, active `pdo_sqlite` et donne à PHP le droit
+3. Pour les liens courts et les abonnements iCal, active `pdo_sqlite` et donne à PHP le droit
    d’écrire dans le dossier persistant configuré avec `LORR_STATS_DIR`.
 
 > [!IMPORTANT]

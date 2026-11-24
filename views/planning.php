@@ -21,7 +21,7 @@
     <script src="scripts/planning-data.js?v=2" defer></script>
     <script src="scripts/planning-choices.js?v=2" defer></script>
     <script src="scripts/calendar-export.js" defer></script>
-    <script src="scripts/planning.js?v=3" defer></script>
+    <script src="scripts/planning.js?v=4" defer></script>
 </head>
 <body>
     <?php require __DIR__ . '/site-header.php'; ?>
@@ -146,12 +146,13 @@
                     <div class="step-actions">
                         <button id="save-planning" type="button" class="button button-light" disabled>Enregistrer</button>
                         <details id="share-planning" class="share-actions">
-                            <summary class="button button-yellow">Partager <span aria-hidden="true">▾</span></summary>
+                            <summary class="button button-yellow">Partager / Télécharger <span aria-hidden="true">▾</span></summary>
                             <div class="share-options">
                                 <button id="copy-planning" type="button" class="button button-light" disabled>Copier mon lien</button>
-                                <button id="export-planning" type="button" class="button button-light" aria-describedby="ics-warning" disabled>Télécharger le .ics</button>
+                                <button id="copy-calendar-subscription" type="button" class="button button-light" disabled>Copier le lien d’abonnement iCal</button>
+                                <button id="export-planning" type="button" class="button button-light" aria-describedby="ics-warning" disabled>Télécharger le fichier .ics</button>
                                 <p id="ics-warning" class="ics-warning" hidden>
-                                    <strong>Horaires non actualisés via ICS.</strong><br>
+                                    <strong>Le fichier téléchargé ne se met pas à jour.</strong><br>
                                     Tu utilises le fichier à tes risques.<br>
                                     Confirme tes horaires sur Hyperplanning ou ici.
                                 </p>

@@ -56,6 +56,11 @@ if (in_array($route, ['/idees', '/idees/'], true)
 
 if ($route !== null && str_starts_with($route, '/p/')) {
     require __DIR__ . '/server/planning-links.php';
+    if (preg_match('~\A/p/([A-Za-z0-9_-]{' . PLANNING_LINK_ID_LENGTH . '})/planning\.ics\z~', $route, $match)) {
+        require __DIR__ . '/server/planning-calendar.php';
+        servePlanningCalendar($match[1]);
+        exit;
+    }
     if (openPlanningLink($base, $route)) {
         exit;
     }
