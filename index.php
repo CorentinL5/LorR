@@ -127,6 +127,7 @@ switch ($route) {
         break;
     default:
         http_response_code(404);
+        header('Cache-Control: no-store');
         header('Content-Type: text/plain; charset=UTF-8');
         echo 'Page introuvable.';
 }
