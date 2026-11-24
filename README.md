@@ -10,13 +10,19 @@ planning avec un lien. Tu peux utiliser LorR sans compte.
 
 ## Créer un planning
 
-1. Colle le lien HTTPS de l’espace invité de ton établissement. Il se termine
+1. Colle le lien de l’espace invité de ton établissement. Il se termine
    par `/invite`. [Exemple HEH](https://hehplanning2026.umons.ac.be/invite)
 2. Choisis tes formations. Tu peux ajouter un autre lien invité si nécessaire.
 3. Choisis tes groupes, puis coche les cours que tu suis. LorR sélectionne
    aussi les jours fériés et les vacances signalés par Hyperplanning.
 4. Clique sur **Créer mon emploi du temps** pour consulter toutes les
    semaines publiées. Sélectionne la vue **Mois**, **Semaine** ou **Liste**.
+
+Ouvre le lien invité de ton établissement.
+[HEH](https://hehplanning2026.umons.ac.be/invite),
+[HECh](http://hpl.hech.be:62080/hp/invite),
+[IHECS](https://ihecs-prod.pronote-campus.net/hp/invite) et
+[HEAJ](https://heaj-2627.pronote-campus.net/hp/invite).
 
 Clique sur une séance pour voir ses détails. **Enregistrer** garde ton planning
 sur cet appareil. Depuis l’accueil, **Reprendre ma sélection** rouvre ton
@@ -86,7 +92,7 @@ php -S 127.0.0.1:8000 index.php
 | Réglage | Valeur |
 | --- | --- |
 | `LORR_PUBLIC_URL` | URL HTTPS publique, avec le sous-dossier si nécessaire |
-| `LORR_PLANNING_HOSTS` | Domaines invités supplémentaires séparés par des virgules. Les domaines annuels HEH sont déjà pris en charge. |
+| `LORR_PLANNING_HOSTS` | Domaines invités supplémentaires séparés par des virgules, pour les adresses HTTPS qui se terminent par la route racine `/invite`. |
 | `LORR_STATS_DIR` | Dossier persistant accessible en écriture, hors de la racine web |
 | `LORR_SUPPORT_URL` | Lien HTTPS Revolut.me ou Ko-fi |
 

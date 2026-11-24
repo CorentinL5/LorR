@@ -3,6 +3,7 @@ const planningCacheName = 'lorr-planning-horaires-v1';
 const planningSourceConfig = JSON.parse(document.getElementById('planning-source-config').textContent);
 const hehPlanningHost = new RegExp('^(?:' + planningSourceConfig.hehHostPattern + ')$');
 const extraPlanningHosts = new Set(planningSourceConfig.extraHosts);
+const planningGuestUrls = new Map(Object.entries(planningSourceConfig.guestUrls));
 const planningTextEncoder = new TextEncoder();
 const planningLinkMaxBytes = 256 * 1024;
 const planningLinkMaxSources = 32;
@@ -49,14 +50,17 @@ document.addEventListener('visibilitychange', () => {
 });
 window.addEventListener('pagehide', flushCourseClicks);
 
-function isPlanningHost(host) {
-    return typeof host === 'string' && host === host.trim() && (hehPlanningHost.test(host) || extraPlanningHosts.has(host));
+function planningUrlForHost(host) {
+    if (typeof host !== 'string' || host !== host.trim()) {
+        return null;
+    }
+    return planningGuestUrls.get(host) ?? (hehPlanningHost.test(host) || extraPlanningHosts.has(host) ? 'https://' + host + '/invite' : null);
 }
 
 function planningSource(url) {
-    const match = typeof url === 'string' && /^https:\/\/([a-z0-9.-]+)\/invite\/?(?:[?#][^\x00-\x20\x7f]*)?$/i.exec(url.trim());
-    const host = match ? match[1].toLowerCase() : null;
-    return isPlanningHost(host) ? 'https://' + host + '/invite' : null;
+    const match = typeof url === 'string' && /^(https?:\/\/([a-z0-9.-]+)(?::[0-9]+)?(?:\/hp)?\/invite)\/?(?:[?#][^\x00-\x20\x7f]*)?$/i.exec(url.trim());
+    const canonical = match ? planningUrlForHost(match[2].toLowerCase()) : null;
+    return canonical && canonical === match[1].toLowerCase() ? canonical : null;
 }
 
 function isPlanningFormation(name) {
@@ -67,7 +71,7 @@ function isPlanningFormation(name) {
 function packPlanningState([, formations, picked, excluded = [], includeLaterNotices = false]) {
     const sources = new Map();
     const groupsByFormation = formations.map(([host, name]) => {
-        const url = 'https://' + host + '/invite';
+        const url = planningUrlForHost(host);
         if (!sources.has(url)) {
             const heh = /^hehplanning([0-9]{4})\.umons\.ac\.be$/.exec(host);
             const reference = heh ? Number(heh[1]) : host;
@@ -134,7 +138,8 @@ function unpackPlanningState(state) {
         const host = Number.isInteger(reference) && reference >= 0 && reference <= 9999
             ? 'hehplanning' + String(reference).padStart(4, '0') + '.umons.ac.be'
             : reference;
-        if (!isPlanningHost(host) || !Array.isArray(entries) || !entries.length || !Array.isArray(notices)) {
+        const url = planningUrlForHost(host);
+        if (!url || !Array.isArray(entries) || !entries.length || !Array.isArray(notices)) {
             throw new Error('Source invalide.');
         }
 
@@ -160,7 +165,7 @@ function unpackPlanningState(state) {
                 throw new Error('Repère du calendrier invalide.');
             }
             const [kind, subject, first, last = first] = notice;
-            appendRow(excluded, JSON.stringify(['https://' + host + '/invite', kind, subject, first, last]));
+            appendRow(excluded, JSON.stringify([url, kind, subject, first, last]));
         }
     }
     return unpacked;
@@ -372,7 +377,7 @@ function rememberPlanningResult(cache, url, result) {
 async function fetchPlanning(data, signal, onProgress, onSnapshot = () => {}, initialCache = null) {
     const url = planningSource(data.url);
     if (!url) {
-        throw new Error('Utilise un lien HTTPS /invite d’un établissement pris en charge.');
+        throw new Error('Utilise le lien /invite d’un établissement pris en charge.');
     }
     const requested = [...new Set(data.formations)];
     if (requested.length > planningSourceConfig.maxFormationsPerSource || requested.some(name => !isPlanningFormation(name))) {

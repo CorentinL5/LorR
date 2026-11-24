@@ -122,7 +122,7 @@ function readBrowserPlanning(string $url, array $missing, callable $publishSched
 function refreshRequestedPlanning($lock, string $url, array $missing, callable $publishSchedule, bool $streaming): array
 {
     $phpReader = hasPhpPlanningReader();
-    $browserReader = hasBrowserPlanningReader();
+    $browserReader = str_starts_with($url, 'https://') && hasBrowserPlanningReader();
     if (!$phpReader && !$browserReader) {
         return [null, 503, 'La lecture en direct est indisponible sur cet hébergement. Consulte les horaires sur Hyperplanning.'];
     }
@@ -174,7 +174,7 @@ if (!is_array($data) || !is_string($data['url'] ?? null)) {
 
 $url = planningSource($data['url']);
 if ($url === null) {
-    respond(400, ['error' => 'Utilise un lien HTTPS /invite d’un établissement pris en charge.']);
+    respond(400, ['error' => 'Utilise le lien /invite d’un établissement pris en charge.']);
 }
 
 $legacy = !array_key_exists('formations', $data) && !empty($data['formation']);

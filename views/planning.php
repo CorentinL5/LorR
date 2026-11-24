@@ -14,14 +14,15 @@
     <script id="planning-source-config" type="application/json"><?= json_encode([
         'hehHostPattern' => HEH_PLANNING_HOST_PATTERN,
         'extraHosts' => extraPlanningHosts(),
+        'guestUrls' => PLANNING_GUEST_URLS,
         'maxFormationsPerSource' => MAX_FORMATIONS_PER_SOURCE,
         'maxRequestBytes' => MAX_PLANNING_REQUEST_BYTES,
     ], JSON_HEX_TAG | JSON_THROW_ON_ERROR) ?></script>
     <script src="scripts/calendar-view.js?v=2" defer></script>
-    <script src="scripts/planning-data.js?v=2" defer></script>
+    <script src="scripts/planning-data.js?v=3" defer></script>
     <script src="scripts/planning-choices.js?v=2" defer></script>
     <script src="scripts/calendar-export.js" defer></script>
-    <script src="scripts/planning.js?v=4" defer></script>
+    <script src="scripts/planning.js?v=5" defer></script>
 </head>
 <body>
     <?php require __DIR__ . '/site-header.php'; ?>
@@ -61,7 +62,7 @@
                 <form id="source-form">
                     <label for="source-url">Lien invité Hyperplanning</label>
                     <div class="source-actions">
-                        <input id="source-url" type="url" name="url" required placeholder="https://…/invite" autocomplete="url" aria-describedby="source-example">
+                        <input id="source-url" type="url" name="url" required placeholder="Colle ton lien /invite" autocomplete="url" aria-describedby="source-example">
                         <button type="submit" class="button button-yellow" disabled>Ajouter le lien <span aria-hidden="true">↗</span></button>
                         <button id="cancel-source" type="button" class="text-button" hidden>Revenir aux formations</button>
                     </div>

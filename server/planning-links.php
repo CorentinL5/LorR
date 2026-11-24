@@ -32,7 +32,7 @@ function validStoredPlanningCode(mixed $code): bool
 
 function validSharedHost(mixed $host): bool
 {
-    return is_string($host) && planningSource('https://' . $host . '/invite') === 'https://' . $host . '/invite';
+    return planningUrlForHost($host) !== null;
 }
 
 function decodeSharedPlanningState(string $code): ?array

@@ -156,11 +156,14 @@ function readPlanningState(state) {
     const restoredSources = new Map();
     const restoredSelections = new Map();
     const targets = formations.map(row => {
-        if (!Array.isArray(row) || row.length !== 2 || !isPlanningHost(row[0]) || !isPlanningFormation(row[1])) {
+        if (!Array.isArray(row) || row.length !== 2 || !isPlanningFormation(row[1])) {
             throw new Error('Formation invalide.');
         }
         const [host, formation] = row;
-        const url = 'https://' + host + '/invite';
+        const url = planningUrlForHost(host);
+        if (!url) {
+            throw new Error('Source invalide.');
+        }
         if (!restoredSources.has(url)) {
             restoredSources.set(url, []);
         }

@@ -68,7 +68,10 @@ function calendarPlanningSchedules(array $choices): ?array
     $deadline = microtime(true) + 20;
     $schedules = [];
     foreach ($choices as $host => $formations) {
-        $url = 'https://' . $host . '/invite';
+        $url = planningUrlForHost($host);
+        if ($url === null) {
+            return null;
+        }
         [$schedules[$host], $missing] = cachedSchedules($url, array_map('strval', array_keys($formations)));
         if ($missing) {
             refreshCalendarSchedules($url, $missing, $deadline);

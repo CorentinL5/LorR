@@ -9,9 +9,10 @@ final class GuestPlanningClient
     private const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/145.0.0.0 Safari/537.36';
 
     private CurlHandle $connection;
-    private string $origin;
+    private string $applicationUrl;
     private string $sessionIv;
     private int $session;
+    private ?LegacyGuestPlanning $legacy = null;
     private int $sequence = 1;
     private float $deadline;
     private array $calendar;
@@ -22,16 +23,33 @@ final class GuestPlanningClient
         if (planningSource($url) !== $url) {
             throw new RuntimeException('Ce lien invité n’est pas pris en charge.');
         }
+        $address = parse_url($url);
+        $origin = $address['scheme'] . '://' . $address['host'] . (isset($address['port']) ? ':' . $address['port'] : '');
+        $http = $address['scheme'] === 'http';
+        $connectionOptions = [];
+        if ($http) {
+            // The legacy HECh endpoint is the only HTTP source. Pin its validated public address.
+            $ips = gethostbynamel($address['host']) ?: [];
+            $publicIps = array_filter($ips, 'guestPlanningPublicIpv4');
+            if (!$publicIps || count($publicIps) !== count($ips)) {
+                throw new RuntimeException('L’adresse du serveur invité est indisponible.');
+            }
+            $connectionOptions = [
+                CURLOPT_RESOLVE => [$address['host'] . ':' . $address['port'] . ':' . reset($publicIps)],
+                CURLOPT_NOPROXY => '*',
+            ];
+        }
         $connection = curl_init();
         if (!$connection) {
             throw new RuntimeException('Impossible d’ouvrir l’espace invité.');
         }
         $this->connection = $connection;
-        $this->origin = substr($url, 0, -strlen('/invite'));
+        $this->applicationUrl = substr($url, 0, -strlen('/invite'));
         $this->deadline = min($deadline ?? INF, microtime(true) + 80);
         $this->sessionIv = random_bytes(16);
-        $protocol = defined('CURLOPT_PROTOCOLS_STR') ? [CURLOPT_PROTOCOLS_STR => 'HTTPS'] : [CURLOPT_PROTOCOLS => CURLPROTO_HTTPS];
-        curl_setopt_array($connection, $protocol + [
+        $protocol = defined('CURLOPT_PROTOCOLS_STR') ? [CURLOPT_PROTOCOLS_STR => strtoupper($address['scheme'])]
+            : [CURLOPT_PROTOCOLS => $http ? CURLPROTO_HTTP : CURLPROTO_HTTPS];
+        curl_setopt_array($connection, $connectionOptions + $protocol + [
             CURLOPT_USERAGENT => self::USER_AGENT,
             CURLOPT_COOKIEFILE => '',
             CURLOPT_ENCODING => '',
@@ -39,7 +57,7 @@ final class GuestPlanningClient
             CURLOPT_REFERER => $url,
             CURLOPT_HTTPHEADER => [
                 'Content-Type: application/json; charset=UTF-8',
-                'Origin: ' . $this->origin,
+                'Origin: ' . $origin,
             ],
         ]);
 
@@ -48,10 +66,16 @@ final class GuestPlanningClient
             throw new RuntimeException('Cet espace invité ne répond pas dans un format reconnu.');
         }
         $start = json_decode($match[1], true);
-        if (($start['a'] ?? null) !== 2 || !is_int($start['i'] ?? null) || $start['i'] <= 0) {
+        $session = ($start['a'] ?? null) === 2 && is_int($start['i'] ?? null) ? $start['i'] : 0;
+        if (!$session && $http) {
+            require_once __DIR__ . '/legacy-guest-planning.php';
+            $this->legacy = new LegacyGuestPlanning($match[1], $this->sessionIv);
+            $session = $this->legacy->session;
+        }
+        if (!$session || $session <= 0) {
             throw new RuntimeException('Impossible d’ouvrir une session invitée.');
         }
-        $this->session = $start['i'];
+        $this->session = $session;
         $settings = $this->call('FonctionParametres', [
             'ModeJeton' => false,
             'Uuid' => base64_encode($this->sessionIv),
@@ -103,6 +127,16 @@ final class GuestPlanningClient
 
     private function call(string $method, ?array $data = null, ?array $signature = null): array
     {
+        if ($this->legacy !== null) {
+            $number = $this->legacy->sequence($this->sequence);
+            $address = $this->applicationUrl . '/appelfonction/2/' . $this->session . '/' . $number;
+            $payload = $this->legacy->request($method, $number, $data, $signature, $this->sequence === 1);
+            $response = json_decode($this->receive($address, $payload), true, 40);
+            $result = $this->legacy->response($method, $this->sequence + 1, $response);
+            $this->sequence += 2;
+            return $result;
+        }
+
         $number = $this->sequenceCode($this->sequence, $this->sequence === 1);
         $parameters = [];
         if ($signature !== null) {
@@ -111,7 +145,7 @@ final class GuestPlanningClient
         if ($data !== null) {
             $parameters['data'] = $data;
         }
-        $response = json_decode($this->receive($this->origin . '/appelfonction/2/' . $this->session . '/' . $number, [
+        $response = json_decode($this->receive($this->applicationUrl . '/appelfonction/2/' . $this->session . '/' . $number, [
             'session' => $this->session,
             'id' => $method,
             'no' => $number,
@@ -186,6 +220,20 @@ final class GuestPlanningClient
         }
         return guestPlanningEvents($courses, $weeks, $this->calendar, $this->hours);
     }
+}
+
+function guestPlanningPublicIpv4(string $ip): bool
+{
+    if (!filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4 | FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE)) {
+        return false;
+    }
+    // PHP 8.1's reserved-range flag does not exclude these special-use ranges.
+    [$first, $second, $third] = array_map('intval', explode('.', $ip));
+    return $first < 224
+        && !($first === 100 && $second >= 64 && $second <= 127)
+        && !($first === 192 && (($second === 0 && in_array($third, [0, 2], true)) || ($second === 88 && $third === 99)))
+        && !($first === 198 && (in_array($second, [18, 19], true) || ($second === 51 && $third === 100)))
+        && !($first === 203 && $second === 0 && $third === 113);
 }
 
 function guestPlanningDomain(mixed $value, int $maximum): array
