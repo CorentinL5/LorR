@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="676" viewBox="0 0 1120 676" role="img" aria-labelledby="title desc">
+  <title id="title">LorR · Séquence de chargement des horaires</title>
+  <desc id="desc">Le navigateur consulte son cache, puis demande les formations manquantes à l’API. Si le serveur doit actualiser ses données, il ouvre une session invitée et demande les semaines publiées et leurs séances. Il envoie les résultats partiels, puis le résultat final.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="m2 2 8 4-8 4" fill="none" stroke="#202124" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      text { fill:#202124; font-family:system-ui,sans-serif }
+      .headline { font-size:36px; font-weight:850; letter-spacing:-.9px }
+      .label { font-size:19px; font-weight:760 }
+      .small { font-size:13px; font-weight:680 }
+      .message { font-size:15px; font-weight:670 }
+      .file { font:13px ui-monospace,monospace }
+      .box { stroke:#202124; stroke-width:2.4 }
+      .life { stroke:#6b626c; stroke-width:1.5; stroke-dasharray:6 6 }
+      .arrow { fill:none; stroke:#202124; stroke-width:2; marker-end:url(#arrow) }
+      .reply { stroke-dasharray:6 4 }
+    </style>
+  </defs>
+  <rect x="1.5" y="1.5" width="1117" height="673" rx="24" fill="#fcf8ef" class="box"/>
+  <text x="40" y="39" class="small">DIAGRAMME DE SÉQUENCE</text>
+  <text x="40" y="81" class="headline">Charger les cours à la demande</text>
+
+  <rect x="40" y="251" width="1040" height="349" rx="14" fill="#f1e8ff" stroke="#766688" stroke-width="1.5"/>
+  <rect x="65" y="388" width="990" height="199" rx="12" fill="#fcf8ef" stroke="#766688" stroke-width="1.5"/>
+  <path d="M151 162V650M408 162V650M686 162V650M967 162V650" class="life"/>
+  <g text-anchor="middle">
+    <rect x="43" y="109" width="220" height="57" rx="11" fill="#202124"/>
+    <rect x="40" y="105" width="220" height="57" rx="11" fill="#aeedce" class="box"/>
+    <text x="150" y="130" class="label">Navigateur</text><text x="150" y="150" class="file">planning-data.js</text>
+    <rect x="302" y="109" width="218" height="57" rx="11" fill="#202124"/>
+    <rect x="299" y="105" width="218" height="57" rx="11" fill="#d0b1fa" class="box"/>
+    <text x="408" y="130" class="label">API LorR</text><text x="408" y="150" class="file">api-planning.php</text>
+    <rect x="580" y="109" width="218" height="57" rx="11" fill="#202124"/>
+    <rect x="577" y="105" width="218" height="57" rx="11" fill="#ffdc69" class="box"/>
+    <text x="686" y="130" class="label">Lecteur PHP</text><text x="686" y="150" class="file">GuestPlanningClient</text>
+    <rect x="861" y="109" width="218" height="57" rx="11" fill="#202124"/>
+    <rect x="858" y="105" width="218" height="57" rx="11" fill="#dceafd" class="box"/>
+    <text x="967" y="130" class="label">Hyperplanning</text><text x="967" y="150" class="file">Espace invité</text>
+  </g>
+
+  <text x="166" y="187" class="message">Afficher le cache local</text>
+  <path class="arrow" d="M152 195H187V211H153"/>
+  <path class="arrow" d="M153 237H406"/>
+  <text x="280" y="227" class="message" text-anchor="middle">POST /api/planning</text>
+
+  <rect x="40" y="251" width="302" height="26" rx="8" fill="#d0b1fa"/>
+  <text x="51" y="269" class="small">OPT · Cache serveur à actualiser</text>
+  <path class="arrow reply" d="M406 307H153"/>
+  <text x="280" y="298" class="message" text-anchor="middle">Cache disponible, si présent</text>
+  <path class="arrow" d="M410 338H684"/>
+  <text x="547" y="328" class="message" text-anchor="middle">Ouvrir le lecteur invité</text>
+  <path class="arrow" d="M688 370H965"/>
+  <text x="826" y="360" class="message" text-anchor="middle">Session et liste des formations</text>
+
+  <rect x="65" y="388" width="362" height="26" rx="8" fill="#fff0bc"/>
+  <text x="76" y="406" class="small">LOOP · Chaque formation à actualiser</text>
+  <path class="arrow" d="M688 440H965"/>
+  <text x="826" y="430" class="message" text-anchor="middle">Demander les semaines publiées</text>
+  <path class="arrow" d="M688 473H965"/>
+  <text x="826" y="463" class="message" text-anchor="middle">Lire leurs séances si elles existent</text>
+  <path class="arrow reply" d="M965 506H688"/>
+  <text x="826" y="496" class="message" text-anchor="middle">Réponse JSON</text>
+  <path class="arrow reply" d="M684 539H410"/>
+  <text x="547" y="529" class="message" text-anchor="middle">Séances et repères normalisés</text>
+  <path class="arrow reply" d="M406 571H153"/>
+  <text x="280" y="561" class="message" text-anchor="middle">snapshot · Affichage partiel</text>
+
+  <path class="arrow reply" d="M406 636H153"/>
+  <text x="280" y="625" class="message" text-anchor="middle">result · Réponse finale</text>
+  <text x="826" y="638" class="small" text-anchor="middle">NDJSON transmet aussi la progression.</text>
+</svg>

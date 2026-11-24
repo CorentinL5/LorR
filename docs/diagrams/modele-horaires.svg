@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="570" viewBox="0 0 1120 570" role="img" aria-labelledby="title desc">
+  <title id="title">LorR · Classe PHP et structures des horaires</title>
+  <desc id="desc">GuestPlanningClient ouvre la session et renvoie les formations et les horaires. La réponse API contient zéro ou plusieurs horaires de formation. Chaque horaire contient zéro ou plusieurs événements, chacun étant une séance ou un repère.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="m2 2 8 4-8 4" fill="none" stroke="#202124" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      text { fill:#202124; font-family:system-ui,sans-serif }
+      .headline { font-size:36px; font-weight:850; letter-spacing:-.9px }
+      .label { font-size:21px; font-weight:760 }
+      .small { font-size:13px; font-weight:680 }
+      .body { font-size:15px }
+      .file { font:14px ui-monospace,monospace }
+      .box { stroke:#202124; stroke-width:2.4 }
+      .line { fill:none; stroke:#202124; stroke-width:2; marker-end:url(#arrow) }
+    </style>
+  </defs>
+  <rect x="1.5" y="1.5" width="1117" height="567" rx="24" fill="#fcf8ef" class="box"/>
+  <text x="40" y="39" class="small">DIAGRAMME DE CLASSE ET DES DONNÉES</text>
+  <text x="40" y="81" class="headline">Du lecteur PHP aux séances</text>
+
+  <path d="M461 256H378" class="line" stroke-dasharray="5 4"/>
+  <text x="420" y="243" class="small" text-anchor="middle">dépend de</text>
+  <path d="M753 256H818" class="line"/>
+  <text x="788" y="243" class="small" text-anchor="middle">0..*</text>
+  <path d="M946 365V414H730V444" class="line"/>
+  <text x="753" y="433" class="small">0..*</text>
+
+  <g>
+    <rect x="46" y="144" width="326" height="247" rx="14" fill="#202124"/>
+    <rect x="41" y="139" width="326" height="247" rx="14" fill="#fffdf9" class="box"/>
+    <path d="M42 194v-41a13 13 0 0 1 13-13h298a13 13 0 0 1 13 13v41z" fill="#aeedce"/>
+    <path d="M42 194h324m-324 88h324" stroke="#202124" stroke-width="1.6"/>
+    <text x="58" y="162" class="small">« classe PHP »</text>
+    <text x="58" y="185" class="label">GuestPlanningClient</text>
+    <text x="58" y="220" class="file">− origin, connection</text>
+    <text x="58" y="243" class="file">− session, sequence, deadline</text>
+    <text x="58" y="266" class="file">− calendar, hours</text>
+    <text x="58" y="308" class="file">+ formations()</text>
+    <text x="58" y="331" class="file">+ schedule(formation)</text>
+    <text x="58" y="354" class="file">− receive(), call()</text>
+  </g>
+  <g>
+    <rect x="473" y="144" width="277" height="216" rx="14" fill="#202124"/>
+    <rect x="468" y="139" width="277" height="216" rx="14" fill="#fffdf9" class="box"/>
+    <path d="M469 194v-41a13 13 0 0 1 13-13h249a13 13 0 0 1 13 13v41z" fill="#d0b1fa"/>
+    <path d="M469 194h275" stroke="#202124" stroke-width="1.6"/>
+    <text x="485" y="162" class="small">« objet JSON »</text>
+    <text x="485" y="185" class="label">Réponse API</text>
+    <text x="485" y="220" class="file">url, formations[]</text>
+    <text x="485" y="243" class="file">catalogueMaxAge</text>
+    <text x="485" y="266" class="file">catalogueCacheMaxAge</text>
+    <text x="485" y="289" class="file">schedules[]</text>
+    <text x="485" y="312" class="file">errors[], warning?</text>
+    <text x="485" y="337" class="small">Construit par api-planning.php</text>
+  </g>
+  <g>
+    <rect x="831" y="144" width="245" height="220" rx="14" fill="#202124"/>
+    <rect x="826" y="139" width="245" height="220" rx="14" fill="#fffdf9" class="box"/>
+    <path d="M827 194v-41a13 13 0 0 1 13-13h217a13 13 0 0 1 13 13v41z" fill="#ffdc69"/>
+    <path d="M827 194h243" stroke="#202124" stroke-width="1.6"/>
+    <text x="843" y="162" class="small">« objet JSON »</text>
+    <text x="843" y="185" class="label">Horaire</text>
+    <text x="843" y="220" class="file">formation</text>
+    <text x="843" y="243" class="file">events[]</text>
+    <text x="843" y="266" class="file">fetchedAt</text>
+    <text x="843" y="289" class="file">maxAge, cacheMaxAge</text>
+    <text x="843" y="316" class="small">Un résultat par formation</text>
+  </g>
+  <text x="41" y="453" class="body">+ Méthode publique</text>
+  <text x="41" y="479" class="body">− Propriété ou méthode privée</text>
+  <text x="41" y="505" class="body">0..* Zéro, un ou plusieurs objets</text>
+  <g>
+    <rect x="473" y="455" width="603" height="82" rx="14" fill="#202124"/>
+    <rect x="468" y="450" width="603" height="82" rx="14" fill="#dceafd" class="box"/>
+    <text x="486" y="480" class="label">Événement</text>
+    <text x="653" y="478" class="file">date, subject, start, end</text>
+    <text x="653" y="499" class="file">group, teacher?, room, type</text>
+    <text x="653" y="520" class="file">notice?, allDay?, period?</text>
+    <text x="486" y="509" class="small">Séance ou repère</text>
+  </g>
+</svg>
