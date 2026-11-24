@@ -1,10 +1,10 @@
 # LorR est-il autorisé ?
 
+**L’espace Invités `/invite` de la HEH est public et accessible sans compte.**
 LorR est un projet étudiant indépendant qui crée un planning personnel à
 partir d’horaires publiés sur Hyperplanning, aussi appelé PRONOTE Campus.
-**La consultation des pages publiques de l’espace Invités est libre.
-L’autorisation de republier automatiquement ces horaires via LorR et iCal
-reste à confirmer.**
+Dans les sources publiques consultées, aucune règle ne tranche explicitement
+la republication des horaires par LorR, y compris via iCal.
 
 ## Quels horaires LorR récupère-t-il ?
 
@@ -31,9 +31,7 @@ dispense de consentement mentionnée concerne le dépôt des cookies fonctionnel
 [Politique de confidentialité de PRONOTE Campus](https://www.index-education.com/fr/article-3106-politique-confidentialite-espaces-pronote-campus.php)
 
 Le `robots.txt` de l’instance HEH a renvoyé `404` lors de la vérification du
-24 novembre 2026. Les textes consultés décrivent l’accès invité, les cookies
-et l’accessibilité. La permission de redistribuer les horaires reste une
-question distincte. [Vérifier le `robots.txt`](https://hehplanning2026.umons.ac.be/robots.txt)
+24 novembre 2026. [Vérifier le `robots.txt`](https://hehplanning2026.umons.ac.be/robots.txt)
 
 ## Le règlement de la HEH s’applique-t-il à LorR ?
 
@@ -41,8 +39,8 @@ La page 92 du règlement des études 2026–2027 prévoit une autorisation préa
 pour certains sites créés par des étudiants et consacrés à l’établissement, à
 son personnel, à une classe ou à des étudiants. LorR est un outil de planning
 pour Hyperplanning. Le fait qu’il utilise les horaires de la HEH ne suffit pas
-à établir que le site lui est consacré. L’application de cette clause à LorR
-reste à confirmer. [Règlement des études de la HEH, p. 92](https://www.heh.be/upload/pdf_perso/Reglement_des_Etudes_RDE_26-27.pdf#page=92)
+à établir que le site lui est consacré. Ce passage ne mentionne pas
+explicitement la republication d’horaires. [Règlement des études de la HEH, p. 92](https://www.heh.be/upload/pdf_perso/Reglement_des_Etudes_RDE_26-27.pdf#page=92)
 
 La publication d’horaires sur Internet permet leur consultation. Le droit
 sur une base de données dépend notamment des investissements consacrés à
