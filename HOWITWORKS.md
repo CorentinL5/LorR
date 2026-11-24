@@ -406,6 +406,9 @@ de lien pris en charge par le navigateur et par LorR.
 [`server/usage.php`](server/usage.php) agrège les compteurs en heure de
 Bruxelles. [`views/stats.php`](views/stats.php) affiche le total et les
 sept derniers jours. Les boutons d’information décrivent les unités.
+[`stats-chart.js`](scripts/stats-chart.js) lit les mêmes valeurs que le
+tableau pour tracer une courbe par compteur. Les cases de la légende
+filtrent les courbes et l’axe vertical s’adapte aux courbes affichées.
 
 | Mesure | Moment et unité |
 | --- | --- |

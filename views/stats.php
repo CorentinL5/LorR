@@ -23,6 +23,9 @@ $today = usageDay();
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/planning.css">
     <?php require __DIR__ . '/web-app-head.php'; ?>
+    <?php if ($usage !== null): ?>
+        <script src="scripts/stats-chart.js" defer></script>
+    <?php endif; ?>
 </head>
 <body>
     <?php require __DIR__ . '/site-header.php'; ?>
@@ -53,6 +56,23 @@ $today = usageDay();
                         <?php endforeach; ?>
                     </dl>
                     <h2 id="recent-usage-title">Les 7 derniers jours</h2>
+                    <figure id="usage-chart" class="stats-chart" hidden>
+                        <figcaption id="usage-chart-caption">Évolution quotidienne · Aujourd’hui est en cours</figcaption>
+                        <fieldset class="stats-chart-legend">
+                            <legend>Courbes affichées</legend>
+                            <?php foreach ($labels as $metric => [$label, $shortLabel]): ?>
+                                <label data-metric="<?= $metric ?>" title="<?= $label ?>">
+                                    <input type="checkbox" checked aria-label="<?= $label ?>">
+                                    <?= $shortLabel ?>
+                                </label>
+                            <?php endforeach; ?>
+                        </fieldset>
+                        <svg class="stats-chart-plot" role="img" aria-labelledby="usage-chart-caption" aria-describedby="usage-chart-description">
+                            <desc id="usage-chart-description">Les valeurs exactes figurent dans le tableau sous le graphique.</desc>
+                            <g></g>
+                        </svg>
+                        <p class="stats-chart-empty" role="status" hidden>Sélectionne un compteur pour afficher sa courbe.</p>
+                    </figure>
                     <div class="stats-table" role="region" aria-labelledby="recent-usage-title" tabindex="0">
                         <table>
                             <thead>
@@ -73,7 +93,8 @@ $today = usageDay();
                                     <tr>
                                         <th scope="row"><time datetime="<?= $date ?>"><?= $day->format('d/m/Y') ?></time></th>
                                         <?php foreach (array_keys($labels) as $metric): ?>
-                                            <td><?= number_format($counts[$metric] ?? 0, 0, ',', ' ') ?></td>
+                                            <?php $count = (int) ($counts[$metric] ?? 0); ?>
+                                            <td data-count="<?= $count ?>"><?= number_format($count, 0, ',', ' ') ?></td>
                                         <?php endforeach; ?>
                                     </tr>
                                 <?php endfor; ?>
