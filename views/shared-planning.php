@@ -7,12 +7,12 @@
     <?php require __DIR__ . '/site-meta.php'; ?>
     <link rel="icon" href="<?= $escapeMeta($base) ?>/assets/lorr-icon.svg" type="image/svg+xml" sizes="any">
     <link rel="stylesheet" href="<?= $escapeMeta($base) ?>/styles/planning.css">
+    <script src="<?= $escapeMeta($base) ?>/scripts/shared-planning.js" defer></script>
 </head>
 <body>
     <main class="shell">
         <h1>Emploi du temps partagé</h1>
         <a id="shared-planning" class="button button-yellow" href="<?= $escapeMeta($destination) ?>">Ouvrir le planning</a>
     </main>
-    <script>location.replace(document.getElementById('shared-planning').href);</script>
 </body>
 </html>

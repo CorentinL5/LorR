@@ -2,6 +2,7 @@
 declare(strict_types=1);
 
 const LORR_PUBLIC_PAGES = ['/', '/planning', '/stats', '/soutenir'];
+const LORR_PRODUCTION_HOST = 'lorr.corentinl5.be';
 
 function publicSiteUrl(string $base): string
 {
@@ -16,8 +17,8 @@ function publicSiteUrl(string $base): string
     }
 
     $host = strtolower($_SERVER['HTTP_HOST'] ?? '');
-    if ($host === 'lorr.corentinl5.be') {
-        return 'https://lorr.corentinl5.be' . $base;
+    if ($host === LORR_PRODUCTION_HOST) {
+        return 'https://' . LORR_PRODUCTION_HOST . $base;
     }
     if (!preg_match('/\A(?:[a-z0-9.-]+|\[[0-9a-f:]+\])(?::[0-9]{1,5})?\z/i', $host)) {
         return '';

@@ -1,13 +1,19 @@
 <?php
 declare(strict_types=1);
 
+require __DIR__ . '/server/site-url.php';
+
 $request = $_SERVER['REQUEST_URI'] ?? '/';
 $path = parse_url($request, PHP_URL_PATH);
 $local = PHP_SAPI === 'cli-server';
-$base = $local ? '' : rtrim(str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME'] ?? '/index.php')), '/');
+$atRoot = $local || strtolower($_SERVER['HTTP_HOST'] ?? '') === LORR_PRODUCTION_HOST;
+$base = $atRoot ? '' : rtrim(str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME'] ?? '/index.php')), '/');
 
 $route = null;
-if (is_string($path)) {
+$rewrittenRoute = $_SERVER['REDIRECT_LORR_ROUTE'] ?? $_SERVER['LORR_ROUTE'] ?? null;
+if (!$local && is_string($rewrittenRoute) && str_starts_with($rewrittenRoute, '/')) {
+    $route = $rewrittenRoute;
+} elseif (is_string($path)) {
     if ($base !== '' && $path === $base) {
         $route = '/index.php';
     } elseif (str_starts_with($path, $base . '/')) {
@@ -47,8 +53,6 @@ if (in_array($route, ['/idees', '/idees/'], true)
     header('Location: ' . $base . '/soutenir', true, 302);
     exit;
 }
-
-require __DIR__ . '/server/site-url.php';
 
 if ($route !== null && str_starts_with($route, '/p/')) {
     require __DIR__ . '/server/planning-links.php';

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /api/
+Sitemap: https://lorr.corentinl5.be/sitemap.xml

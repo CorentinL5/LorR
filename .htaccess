@@ -1,4 +1,5 @@
 RewriteEngine On
 RewriteRule ^(?:\.git(?:ignore|modules|attributes)?|\.env(?:\.[^/]*)?|var|server|views|node_modules)(?:/|$) - [F,END,NC]
-RewriteRule ^(?:sw\.js|assets/[\w-]+\.(?:gif|ico|png|svg|webp)|scripts/[\w-]+\.js|styles/[\w-]+\.css)$ - [END]
+RewriteRule ^(?:robots\.txt|sw\.js|assets/[\w-]+\.(?:gif|ico|png|svg|webp)|scripts/[\w-]+\.js|styles/[\w-]+\.css)$ - [END]
+RewriteRule ^(.*)$ - [E=LORR_ROUTE:/$1]
 RewriteRule ^ index.php [END]
