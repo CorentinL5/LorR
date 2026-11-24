@@ -409,12 +409,16 @@ sept derniers jours. Les boutons d’information décrivent les unités.
 [`stats-chart.js`](scripts/stats-chart.js) lit les mêmes valeurs que le
 tableau pour tracer une courbe par compteur. Les cases de la légende
 filtrent les courbes et l’axe vertical s’adapte aux courbes affichées.
-Le paramètre `heure=AAAA-MM-JJ` ouvre le détail horaire d’un jour de la
-semaine affichée. Les relevés horaires utilisent des clés UTC pour séparer
-les deux occurrences d’une heure au passage à l’heure d’hiver. La page
-affiche les créneaux en heure de Bruxelles et masque les heures à venir.
-Un tiret représente une heure sans historique. Un zéro indique un créneau
-suivi sans événement pour ce compteur.
+Le graphique horaire utilise les relevés des mêmes sept jours. Les deux
+graphiques partagent la légende et ajustent leur échelle verticale
+indépendamment. PHP fournit les créneaux horaires dans la page. Le
+navigateur les réutilise dans le tableau quand le lecteur change le jour.
+Le paramètre `heure=AAAA-MM-JJ` présélectionne le jour du tableau.
+Les relevés utilisent des clés UTC pour séparer les deux occurrences d’une
+heure au passage à l’heure d’hiver. La page affiche les créneaux en heure
+de Bruxelles jusqu’à l’heure en cours. La zone grisée et les tirets
+représentent les heures sans historique. Un zéro indique un créneau suivi
+sans événement pour ce compteur.
 
 | Mesure | Moment et unité |
 | --- | --- |

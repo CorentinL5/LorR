@@ -18,34 +18,26 @@ for ($offset = 0; $offset < 7; $offset++) {
     $recentDays[$day->format('Y-m-d')] = $day;
 }
 $requestedDay = $_GET['heure'] ?? null;
-$hourlyDay = is_string($requestedDay) ? ($recentDays[$requestedDay] ?? null) : null;
+$requestedDay = is_string($requestedDay) && isset($recentDays[$requestedDay]) ? $requestedDay : null;
+$selectedDay = $requestedDay ?? $today->format('Y-m-d');
 $hourlySince = $usage['hourlySince'] ?? null;
-$rows = [];
-if ($hourlyDay === null) {
-    foreach ($recentDays as $date => $day) {
-        $rows[] = [
-            'date' => $date,
-            'label' => $day->format('d/m/Y'),
-            'short' => $day->format('d/m'),
-            'current' => $day == $today,
-            'counts' => $usage['daily'][$date] ?? [],
-        ];
-    }
-} else {
-    $start = $hourlyDay->getTimestamp();
-    $nextDay = $hourlyDay->modify('+1 day')->getTimestamp();
-    $last = min($nextDay - 3600, $currentHour);
-    for ($hour = $last; $hour >= $start; $hour -= 3600) {
+$metrics = array_keys($labels);
+$hoursByDay = [];
+foreach ($usage === null ? [] : array_reverse($recentDays, true) as $date => $day) {
+    $start = $day->getTimestamp();
+    $end = min($day->modify('+1 day')->getTimestamp(), $currentHour + 3600);
+    $hoursByDay[$date] = [];
+    for ($hour = $start; $hour < $end; $hour += 3600) {
         $local = $now->setTimestamp($hour);
         $label = $local->format('H:i');
         $repeated = $now->setTimestamp($hour - 3600)->format('H:i') === $label
             || $now->setTimestamp($hour + 3600)->format('H:i') === $label;
-        $rows[] = [
-            'date' => $local->format('c'),
+        $counts = $usage['hourly'][usageHourKey($hour)] ?? [];
+        $hoursByDay[$date][] = [
             'label' => $repeated ? $label . ' (UTC' . $local->format('P') . ')' : $label,
-            'short' => $local->format('H') . ' h',
             'current' => $hour === $currentHour,
-            'counts' => $hourlySince !== null && $hour >= $hourlySince ? ($usage['hourly'][usageHourKey($hour)] ?? []) : null,
+            'counts' => $hourlySince !== null && $hour >= $hourlySince
+                ? array_map(static fn ($metric) => (int) ($counts[$metric] ?? 0), $metrics) : null,
         ];
     }
 }
@@ -60,10 +52,10 @@ if ($hourlyDay === null) {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/planning.css?v=3">
+    <link rel="stylesheet" href="styles/planning.css?v=4">
     <?php require __DIR__ . '/web-app-head.php'; ?>
     <?php if ($usage !== null): ?>
-        <script src="scripts/stats-chart.js?v=3" defer></script>
+        <script src="scripts/stats-chart.js?v=4" defer></script>
     <?php endif; ?>
 </head>
 <body>
@@ -95,31 +87,7 @@ if ($hourlyDay === null) {
                         <?php endforeach; ?>
                     </dl>
                     <h2 id="recent-usage-title">Les 7 derniers jours</h2>
-                    <div class="stats-period">
-                        <nav aria-label="Période du graphique">
-                            <a href="stats#recent-usage-title" <?= $hourlyDay === null ? 'aria-current="true"' : '' ?>>Par jour</a>
-                            <a href="stats?heure=<?= $today->format('Y-m-d') ?>#recent-usage-title" <?= $hourlyDay !== null ? 'aria-current="true"' : '' ?>>Par heure</a>
-                        </nav>
-                        <?php if ($hourlyDay !== null): ?>
-                            <form action="stats#recent-usage-title" method="get">
-                                <label for="stats-hour-day">Jour</label>
-                                <select id="stats-hour-day" name="heure">
-                                    <?php foreach ($recentDays as $date => $day): ?>
-                                        <option value="<?= $date ?>" <?= $day == $hourlyDay ? 'selected' : '' ?>><?= $day == $today ? 'Aujourd’hui' : $day->format('d/m/Y') ?></option>
-                                    <?php endforeach; ?>
-                                </select>
-                                <button type="submit">Afficher</button>
-                            </form>
-                        <?php endif; ?>
-                    </div>
-                    <figure id="usage-chart" class="stats-chart" hidden>
-                        <figcaption id="usage-chart-caption">
-                            <?php if ($hourlyDay === null): ?>
-                                Évolution quotidienne · Aujourd’hui est en cours
-                            <?php else: ?>
-                                <?= $hourlyDay->format('d/m/Y') ?> · Heure de Bruxelles<?= $hourlyDay == $today ? ' · Heure actuelle en cours' : '' ?>
-                            <?php endif; ?>
-                        </figcaption>
+                    <div id="usage-chart" class="stats-chart" hidden>
                         <fieldset class="stats-chart-legend">
                             <legend>Courbes affichées</legend>
                             <?php foreach ($labels as $metric => [$label, $shortLabel]): ?>
@@ -129,39 +97,69 @@ if ($hourlyDay === null) {
                                 </label>
                             <?php endforeach; ?>
                         </fieldset>
+                        <h3 id="usage-chart-caption">Par jour</h3>
                         <svg class="stats-chart-plot" role="img" aria-labelledby="usage-chart-caption" aria-describedby="usage-chart-description">
                             <desc id="usage-chart-description">Les valeurs exactes figurent dans le tableau sous le graphique.</desc>
                             <g></g>
                         </svg>
                         <p class="stats-chart-empty" role="status" hidden>Sélectionne un compteur pour afficher sa courbe.</p>
-                        <p class="stats-chart-unavailable" role="status" hidden>Aucun relevé horaire pour cette journée.</p>
-                    </figure>
-                    <?php if ($hourlyDay !== null): ?>
-                        <p class="stats-hour-note">Le tiret indique une heure antérieure au début de la collecte horaire.</p>
-                    <?php endif; ?>
-                    <div id="usage-table" class="stats-table" role="region" aria-labelledby="recent-usage-title" tabindex="0">
+                        <div class="stats-hour-chart">
+                            <h3 id="usage-hour-chart-caption">Par heure</h3>
+                            <p id="usage-hour-chart-description">Un point par heure · Heure de Bruxelles</p>
+                            <svg id="usage-hour-chart" class="stats-chart-plot" role="img" aria-labelledby="usage-hour-chart-caption" aria-describedby="usage-hour-chart-description" hidden>
+                                <g></g>
+                            </svg>
+                            <p id="usage-hour-unavailable" class="stats-chart-unavailable" role="status" hidden>Aucun relevé horaire sur cette période.</p>
+                            <p id="usage-hour-gaps" class="stats-hour-note" hidden>La zone grisée précède le début des relevés horaires.</p>
+                        </div>
+                    </div>
+                    <div id="usage-table" class="stats-table" role="region" aria-label="Valeurs par jour" tabindex="0">
                         <table>
                             <thead>
                                 <tr>
-                                    <th scope="col"><?= $hourlyDay === null ? 'Date' : 'Heure' ?></th>
+                                    <th scope="col">Date</th>
                                     <?php foreach ($labels as [, $shortLabel]): ?>
                                         <th scope="col"><?= $shortLabel ?></th>
                                     <?php endforeach; ?>
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php foreach ($rows as $row): ?>
+                                <?php foreach ($recentDays as $date => $day): ?>
                                     <tr>
-                                        <th scope="row"><time datetime="<?= $row['date'] ?>" data-short="<?= $row['short'] ?>" <?= $row['current'] ? 'aria-current="time"' : '' ?>><?= $row['label'] ?></time></th>
-                                        <?php foreach (array_keys($labels) as $metric): ?>
-                                            <?php $count = $row['counts'] === null ? null : (int) ($row['counts'][$metric] ?? 0); ?>
-                                            <td data-count="<?= $count ?>"><?= $count === null ? '—' : number_format($count, 0, ',', ' ') ?></td>
+                                        <th scope="row"><time datetime="<?= $date ?>" data-short="<?= $day->format('d/m') ?>" <?= $day == $today ? 'aria-current="date"' : '' ?>><?= $day->format('d/m/Y') ?></time></th>
+                                        <?php foreach ($metrics as $metric): ?>
+                                            <?php $count = (int) ($usage['daily'][$date][$metric] ?? 0); ?>
+                                            <td data-count="<?= $count ?>"><?= number_format($count, 0, ',', ' ') ?></td>
                                         <?php endforeach; ?>
                                     </tr>
                                 <?php endforeach; ?>
                             </tbody>
                         </table>
                     </div>
+                    <details id="usage-hour-details" class="stats-hour-details" <?= $requestedDay !== null ? 'open' : '' ?> hidden>
+                        <summary>Valeurs par heure</summary>
+                        <label for="stats-hour-day">Jour</label>
+                        <select id="stats-hour-day">
+                            <?php foreach ($recentDays as $date => $day): ?>
+                                <option value="<?= $date ?>" <?= $date === $selectedDay ? 'selected' : '' ?>><?= $day == $today ? 'Aujourd’hui' : $day->format('d/m/Y') ?></option>
+                            <?php endforeach; ?>
+                        </select>
+                        <p class="stats-hour-note">Le tiret indique une heure sans historique.</p>
+                        <div class="stats-table" role="region" aria-label="Valeurs par heure" tabindex="0">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Heure</th>
+                                        <?php foreach ($labels as [, $shortLabel]): ?>
+                                            <th scope="col"><?= $shortLabel ?></th>
+                                        <?php endforeach; ?>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </details>
+                    <script id="usage-hours" type="application/json"><?= json_encode($hoursByDay, JSON_HEX_TAG | JSON_THROW_ON_ERROR) ?></script>
                 <?php endif; ?>
             </div>
         </section>

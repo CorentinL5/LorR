@@ -1211,31 +1211,6 @@ button.calendar-date[aria-pressed=true] { background: var(--yellow); }
     line-height: 1.45;
 }
 
-.stats-period, .stats-period nav, .stats-period form {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: .5rem;
-}
-.stats-period { margin-block: .5rem .65rem; }
-.stats-period nav { margin-right: .4rem; }
-.stats-period a, .stats-period select, .stats-period button {
-    padding: .35rem .65rem;
-    border: 1px solid var(--ink);
-    border-radius: 7px;
-    background: var(--white);
-    color: var(--ink);
-    font: 700 .85rem/1.3 var(--heading);
-}
-.stats-period a { text-decoration: none; }
-.stats-period a[aria-current="true"] {
-    background: var(--purple);
-    box-shadow: 2px 2px 0 var(--ink);
-}
-.stats-period form label, .stats-hour-note { font-size: .85rem; }
-.stats-hour-note, .stats-chart-unavailable { color: var(--muted); }
-.stats-chart-unavailable { margin-top: .9rem; }
-
 .stats-chart {
     margin: .6rem 0 1.2rem;
     padding: clamp(.55rem, 2vw, 1rem);
@@ -1245,10 +1220,21 @@ button.calendar-date[aria-pressed=true] { background: var(--yellow); }
     box-shadow: 3px 3px 0 var(--ink);
 }
 
-.stats-chart figcaption {
-    margin-bottom: .55rem;
+.stats-chart h3 { margin-top: .8rem; font-size: 1rem; }
+.stats-hour-chart { border-top: 1px solid #ddd5ca; margin-top: .5rem; }
+#usage-hour-chart-description, .stats-hour-note, .stats-chart-unavailable {
     color: var(--muted);
-    font-size: .88rem;
+    font-size: .85rem;
+}
+.stats-hour-note, .stats-chart-unavailable { margin-top: .3rem; }
+.stats-hour-details { margin-top: .8rem; }
+.stats-hour-details summary { cursor: pointer; font-weight: 700; margin-bottom: .5rem; }
+.stats-hour-details select {
+    padding: .25rem .4rem;
+    border: 1px solid var(--ink);
+    border-radius: 6px;
+    background: var(--white);
+    color: var(--ink);
 }
 
 .stats-chart-legend {
@@ -1285,13 +1271,13 @@ button.calendar-date[aria-pressed=true] { background: var(--yellow); }
 .stats-chart [data-metric="sources"] { --series-color: #725600; --series-dash: 2 3; }
 .stats-chart [data-metric="clicks"] { --series-color: #802b25; --series-dash: 8 3 2 3; }
 
-.stats-chart-plot, .stats-chart-empty {
+.stats-chart-plot {
     display: block;
     width: 100%;
-    height: clamp(13rem, 32vw, 18rem);
-    margin-top: .6rem;
+    height: clamp(10rem, 27vw, 14rem);
+    margin-top: .3rem;
 }
-.stats-chart-empty { display: grid; place-items: center; color: var(--muted); text-align: center; }
+.stats-chart-empty { margin-block: .35rem .55rem; color: var(--muted); }
 .stats-chart-label { fill: var(--muted); font-size: .72rem; font-variant-numeric: tabular-nums; }
 .stats-chart-today { fill: #f3eaff; }
 .stats-chart-grid { stroke: #ddd5ca; }
