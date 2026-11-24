@@ -572,6 +572,10 @@ fieldset { min-inline-size: 0; padding: 0; margin: 0; border: 0; }
     .source-actions > .text-button { width: 100%; text-align: left; }
     .panel-header { min-height: 58px; }
     .panel-body { padding: .85rem; }
+    .planning-toolbar > .step-actions { width: 100%; }
+    .share-actions { flex-basis: 100%; min-width: 0; }
+    .share-actions summary { width: 100%; justify-content: space-between; white-space: normal; }
+    .share-options { position: static; width: 100%; margin-top: .45rem; }
 }
 
 @media (max-width: 365px) {
