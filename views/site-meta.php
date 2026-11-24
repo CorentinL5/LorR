@@ -3,6 +3,7 @@
     '/' => ['LorR – Emploi du temps étudiant avec Hyperplanning', 'Crée ton emploi du temps étudiant à partir d’Hyperplanning. Choisis tes formations et tes cours, puis consulte, partage ou exporte ton planning. Sans compte.'],
     '/planning' => ['Créer mon planning Hyperplanning – LorR', 'Colle le lien invité de ton établissement, choisis tes formations et tes cours, puis ouvre ton planning en vue mois, semaine ou liste.'],
     '/stats' => ['Statistiques d’utilisation – LorR', 'Consulte les statistiques publiques de LorR : ouvertures du créateur, cours et séances chargés, et liens Hyperplanning utilisés.'],
+    '/statsohshit' => ['Statistiques avancées – LorR', 'Requêtes Hyperplanning, cache et calendriers iCal de LorR.'],
     '/soutenir' => ['Soutenir le projet étudiant LorR', 'Retrouve le code de LorR sur GitHub, propose une amélioration ou soutiens le projet étudiant.'],
     default => ['Emploi du temps partagé · LorR', 'Ouvre ce planning étudiant partagé avec LorR.'],
 };

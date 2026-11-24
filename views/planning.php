@@ -22,7 +22,7 @@
     <script src="scripts/planning-data.js?v=3" defer></script>
     <script src="scripts/planning-choices.js?v=2" defer></script>
     <script src="scripts/calendar-export.js" defer></script>
-    <script src="scripts/planning.js?v=5" defer></script>
+    <script src="scripts/planning.js?v=6" defer></script>
 </head>
 <body>
     <?php require __DIR__ . '/site-header.php'; ?>

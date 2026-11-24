@@ -2,6 +2,7 @@
 declare(strict_types=1);
 
 require_once __DIR__ . '/planning-cache.php';
+require_once __DIR__ . '/planning-traffic.php';
 
 function calendarPlanningChoices(array $state): array
 {
@@ -190,6 +191,21 @@ function calendarIcsBody(array $events, string $stamp): string
     return implode("\r\n", array_map('foldCalendarIcsLine', $lines)) . "\r\n";
 }
 
+function recordPlanningCalendarResponse(string $method, array $choices, string $outcome): void
+{
+    if ($method !== 'GET') {
+        return;
+    }
+    $sources = [];
+    foreach (array_keys($choices) as $host) {
+        $url = planningUrlForHost($host);
+        if ($url !== null) {
+            $sources[$url] = ['ical' => 1];
+        }
+    }
+    recordPlanningActivity([$outcome => 1], $sources);
+}
+
 function servePlanningCalendar(string $id): void
 {
     header('Cache-Control: no-store');
@@ -214,6 +230,7 @@ function servePlanningCalendar(string $id): void
     $choices = calendarPlanningChoices($state);
     $schedules = calendarPlanningSchedules($choices);
     if ($schedules === null) {
+        recordPlanningCalendarResponse($method, $choices, 'icalUnavailable');
         header('Retry-After: ' . PLANNING_REFRESH_INTERVAL);
         http_response_code(503);
         return;
@@ -231,7 +248,9 @@ function servePlanningCalendar(string $id): void
     $clientTags = array_map('trim', explode(',', $_SERVER['HTTP_IF_NONE_MATCH'] ?? ''));
     if (array_intersect(['*', $tag, 'W/' . $tag], $clientTags)) {
         http_response_code(304);
+        recordPlanningCalendarResponse($method, $choices, 'icalUnchanged');
     } elseif ($method === 'GET') {
+        recordPlanningCalendarResponse($method, $choices, 'icalDelivered');
         echo $body;
     }
 }

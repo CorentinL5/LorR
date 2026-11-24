@@ -467,13 +467,28 @@ vérifie la méthode, le type JSON et le nombre reçu avant de répondre
 stockent les totaux, les dates et les empreintes des sources et
 des matières distinctes.
 
-Le tableau **Requêtes vers Hyperplanning par lien de base** suit le trafic
+La page de statistiques avancées est accessible depuis le lien **détails**
+en bas de la vue d’ensemble. Le tableau **Requêtes vers Hyperplanning par
+lien de base** suit le trafic
 des lecteurs PHP et Chromium. Il compte une tentative par requête et mesure
 les octets des corps, hors en-têtes HTTP. Le cache peut servir des horaires
 sans ajouter de tentative. Les relevés commencent à la mise en service de
 ce suivi. LorR regroupe les compteurs par URL invitée dans
 `planning-traffic.json`. Un verrou protège les écritures et un remplacement
 atomique publie chaque état complet. [planning-traffic.php](server/planning-traffic.php)
+
+Le lecteur PHP compte aussi les échecs de transport et les réponses HTTP
+autres que 200. Il additionne les durées cURL pour calculer la moyenne.
+Les nouvelles mesures commencent avec leur mise en service.
+
+`planning-activity.json` stocke des compteurs par URL invitée canonique.
+Une demande à LorR compte dans le cache frais si le catalogue et tous les
+horaires demandés sont frais à son arrivée. Un GET iCal pour un calendrier
+connu compte une fois dans son résultat HTTP (200, 304 ou 503) et une fois
+par source incluse. Les totaux comptent aussi les exports locaux lancés
+et les liens courts fournis. Le signal d’export est facultatif et peut
+manquer si le navigateur est hors ligne. Ces relevés enregistrent des
+comptes agrégés, sans adresse IP, identifiant de visiteur ou choix de cours.
 
 [`storage.php`](server/storage.php) ouvre `LORR_STATS_DIR` ou `var/`
 et détecte SQLite. `usage_counts` mémorise les compteurs par jour et

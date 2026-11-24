@@ -116,8 +116,10 @@ final class GuestPlanningClient
         }
         $result = curl_exec($this->connection);
         $received = (int) curl_getinfo($this->connection, CURLINFO_SIZE_DOWNLOAD_T);
-        recordPlanningTraffic($this->guestUrl, 1, strlen($requestBody), $received);
-        if ($result === false || curl_getinfo($this->connection, CURLINFO_RESPONSE_CODE) !== 200) {
+        $durationMs = (int) round(curl_getinfo($this->connection, CURLINFO_TOTAL_TIME) * 1000);
+        $failed = $result === false || curl_getinfo($this->connection, CURLINFO_RESPONSE_CODE) !== 200;
+        recordPlanningTraffic($this->guestUrl, 1, strlen($requestBody), $received, $durationMs, $failed);
+        if ($failed) {
             throw new RuntimeException('L’espace invité ne répond pas pour le moment.');
         }
         return $body;

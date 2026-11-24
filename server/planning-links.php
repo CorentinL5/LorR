@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/storage.php';
 require_once __DIR__ . '/planning-sources.php';
+require_once __DIR__ . '/planning-traffic.php';
 
 const PLANNING_LINK_ID_LENGTH = 12;
 const MAX_STORED_PLANNING_CODE = 4096;
@@ -252,6 +253,7 @@ function createPlanningLink(): void
         http_response_code(503);
         return;
     }
+    recordPlanningActivity(['shortLinks' => 1]);
     header('Content-Type: application/json; charset=UTF-8');
     echo json_encode(['id' => $id]);
 }

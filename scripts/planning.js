@@ -1126,6 +1126,12 @@ exportButton.addEventListener('click', () => {
     download.click();
     download.remove();
     setTimeout(() => URL.revokeObjectURL(address), 60000);
+    void fetch('api/stats/calendar-export', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        credentials: 'omit',
+        keepalive: true,
+    }).catch(() => {});
 });
 
 async function copySharedLink(subscription) {

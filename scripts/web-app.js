@@ -39,7 +39,7 @@ if (window.isSecureContext && !installedApp) {
 }
 
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js?v=30').catch(() => {
+    navigator.serviceWorker.register('sw.js?v=31').catch(() => {
         // The site and its existing browser cache can work without a worker.
     });
 }

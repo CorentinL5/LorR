@@ -201,6 +201,7 @@ if (count($requested) > MAX_FORMATIONS_PER_SOURCE) {
 }
 
 require __DIR__ . '/server/usage.php';
+require_once __DIR__ . '/server/planning-traffic.php';
 if ($requested) {
     recordUsage(['reads' => 1]);
 }
@@ -209,10 +210,15 @@ $directory = planningCacheDirectory();
 $cataloguePath = cachePath($directory, $url);
 $catalogue = readCache($cataloguePath);
 [$schedules, $missing] = cachedSchedules($url, $requested);
+$freshCache = cacheLifetime($catalogue, CATALOGUE_TTL, time()) > 0 && !$missing;
+recordPlanningActivity([], [$url => [
+    ($requested ? 'schedules' : 'catalogues') => 1,
+    'freshCache' => (int) $freshCache,
+]]);
 
 $errors = [];
 $warning = null;
-if (!cacheLifetime($catalogue, CATALOGUE_TTL, time()) || $missing) {
+if (!$freshCache) {
     if ($catalogue !== null || $schedules) {
         sendUpdate(['type' => 'snapshot', 'data' => cachedPlanningResponse($url, $catalogue, $schedules)]);
     }

@@ -35,6 +35,7 @@ $redirects = [
     '/planning.php' => '/planning',
     '/planning/' => '/planning',
     '/stats/' => '/stats',
+    '/statsohshit/' => '/statsohshit',
     '/soutenir/' => '/soutenir',
     '/api-planning.php' => '/api/planning',
     '/api/planning/' => '/api/planning',
@@ -86,10 +87,16 @@ switch ($route) {
     case '/stats':
         header('Cache-Control: no-store');
         require __DIR__ . '/server/usage.php';
-        require __DIR__ . '/server/planning-traffic.php';
         $usage = siteUsage();
-        $planningTraffic = planningTraffic();
         require __DIR__ . '/views/stats.php';
+        break;
+    case '/statsohshit':
+        header('Cache-Control: no-store');
+        header('X-Robots-Tag: noindex');
+        require __DIR__ . '/server/planning-traffic.php';
+        $planningTraffic = planningTraffic();
+        $planningActivity = planningStatsSnapshot('planning-activity');
+        require __DIR__ . '/views/stats-advanced.php';
         break;
     case '/soutenir':
         require __DIR__ . '/views/soutenir.php';
@@ -128,6 +135,21 @@ switch ($route) {
         break;
     case '/api/stats/course-clicks':
         require __DIR__ . '/server/course-clicks.php';
+        break;
+    case '/api/stats/calendar-export':
+        header('Cache-Control: no-store');
+        if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') {
+            header('Allow: POST');
+            http_response_code(405);
+            break;
+        }
+        if (($_SERVER['CONTENT_TYPE'] ?? '') !== 'application/json') {
+            http_response_code(415);
+            break;
+        }
+        require __DIR__ . '/server/planning-traffic.php';
+        recordPlanningActivity(['icsExports' => 1]);
+        http_response_code(204);
         break;
     case '/api/stats/github':
         require __DIR__ . '/server/github-stats.php';
