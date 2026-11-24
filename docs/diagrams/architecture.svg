@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="592" viewBox="0 0 1120 592" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="716" viewBox="0 0 1120 716" role="img" aria-labelledby="title desc">
   <title id="title">LorR · Diagramme de composants</title>
-  <desc id="desc">Le navigateur envoie un lien invité à LorR. Le serveur PHP interroge Hyperplanning et conserve un cache des horaires. Les préférences restent dans le navigateur. SQLite conserve les codes courts et les statistiques. La page Soutenir lit aussi les chiffres publics de GitHub.</desc>
+  <desc id="desc">Le navigateur envoie un lien invité à LorR. L’application de calendrier interroge le flux iCal. PHP retrouve la sélection dans SQLite, lit le cache des horaires et consulte Hyperplanning si nécessaire. Les préférences restent dans le navigateur. SQLite conserve aussi les statistiques. La page Soutenir lit les chiffres publics de GitHub.</desc>
   <defs>
     <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1.1" fill="#e2d9ca"/>
@@ -20,8 +20,8 @@
       .line { stroke:#202124; stroke-width:2.4; fill:none; marker-end:url(#arrow) }
     </style>
   </defs>
-  <rect x="1.5" y="1.5" width="1117" height="589" rx="24" fill="#fcf8ef" stroke="#202124" stroke-width="3"/>
-  <path d="M24 112h1072v456H24z" fill="url(#dots)"/>
+  <rect x="1.5" y="1.5" width="1117" height="713" rx="24" fill="#fcf8ef" stroke="#202124" stroke-width="3"/>
+  <path d="M24 112h1072v580H24z" fill="url(#dots)"/>
   <text x="40" y="39" class="small">DIAGRAMME DE COMPOSANTS</text>
   <text x="40" y="81" class="headline">LorR, du navigateur aux horaires</text>
   <g transform="translate(1022 34) rotate(8)"><rect x="3" y="3" width="49" height="49" rx="9" fill="#202124"/><rect width="49" height="49" rx="9" fill="#ffcc39" class="box"/><path d="m25 9-12 19h10l-2 12 15-20H25z" fill="#202124"/></g>
@@ -31,7 +31,9 @@
   <path class="line" d="M694 279H757V364H828"/>
   <path class="line" d="M168 327V430"/>
   <path class="line" d="M565 327V430"/>
+  <path class="line" d="M355 619H372V280H426"/>
   <text x="361" y="214" class="small" text-anchor="middle">HTTPS</text>
+  <text x="399" y="266" class="small" text-anchor="middle">iCal</text>
   <text x="762" y="201" class="small" text-anchor="middle">Session invitée</text>
   <text x="735" y="265" class="small" text-anchor="middle">API publique</text>
 
@@ -43,7 +45,7 @@
     <path d="M59 218h208" stroke="#202124" stroke-opacity=".35"/>
     <text x="59" y="247" class="file">scripts/planning.js</text>
     <text x="59" y="274" class="body">Choix, calendrier, partage</text>
-    <text x="59" y="295" class="body">et export ICS</text>
+    <text x="59" y="295" class="body">et téléchargement du fichier .ics</text>
   </g>
   <g>
     <rect x="441" y="145" width="246" height="179" rx="15" class="shadow"/>
@@ -52,8 +54,8 @@
     <text x="454" y="202" class="label">LorR sur LWS</text>
     <path d="M454 218h208" stroke="#202124" stroke-opacity=".35"/>
     <text x="454" y="247" class="file">index.php · Apache</text>
-    <text x="454" y="274" class="body">Pages, API et lecteur invité</text>
-    <text x="454" y="295" class="body">PHP avec cURL et OpenSSL</text>
+    <text x="454" y="274" class="body">Pages, API et flux iCal</text>
+    <text x="454" y="295" class="body">Lecteur invité en PHP</text>
   </g>
   <g>
     <rect x="843" y="145" width="233" height="131" rx="15" class="shadow"/>
@@ -82,5 +84,12 @@
     <text x="454" y="476" class="label">Sur le serveur</text>
     <text x="454" y="502" class="body">Fichiers temporaires pour les horaires</text>
     <text x="454" y="523" class="body">SQLite pour les liens courts et les compteurs</text>
+  </g>
+  <g>
+    <rect x="46" y="568" width="306" height="113" rx="15" class="shadow"/>
+    <rect x="41" y="563" width="306" height="113" rx="15" fill="#ffdc69" class="box"/>
+    <text x="59" y="592" class="small">« client externe »</text>
+    <text x="59" y="620" class="label">Application de calendrier</text>
+    <text x="59" y="648" class="file">GET /p/{id}/planning.ics</text>
   </g>
 </svg>

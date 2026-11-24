@@ -21,7 +21,7 @@ recharger. Pour installer ou déployer le projet, consulte le [README](README.md
 
 ## 1. Architecture et routes
 
-![Diagramme UML de composants. Le navigateur dialogue avec PHP sur LWS. PHP lit Hyperplanning et consulte GitHub. Le navigateur et le serveur ont chacun leur stockage.](docs/diagrams/architecture.svg)
+![Diagramme UML de composants. Le navigateur et l’application de calendrier dialoguent avec PHP sur LWS. Le flux iCal lit la sélection dans SQLite et utilise le cache des horaires. PHP consulte aussi Hyperplanning et GitHub.](docs/diagrams/architecture.svg)
 
 Les flèches indiquent quel composant lance la requête ou utilise un stockage.
 Sur LWS, Apache sert les ressources statiques et remet les autres chemins
@@ -41,7 +41,7 @@ en PHP a permis de déployer la lecture en direct sur LWS sans Node.js.
 | [`index.php`](index.php) | Détermine le chemin demandé et la base de l’installation. En local, laisse le serveur PHP intégré servir les ressources statiques prévues. Charge la vue ou le traitement de l’API. |
 | [`views/`](views/) | Contient le HTML des pages et les éléments communs. Les noms de champs, identifiants et attributs `data-*` relient le HTML aux scripts. |
 | [`scripts/`](scripts/) | Contient l’état du créateur, l’accès à l’API, le rendu des horaires, le partage et l’export. |
-| [`server/`](server/) | Contient le lecteur invité, la validation des liens, le stockage et les statistiques. |
+| [`server/`](server/) | Contient le lecteur invité, la validation des liens, le flux iCal, le stockage et les statistiques. |
 | [`styles/planning.css`](styles/planning.css) | Définit l’identité visuelle de LorR, les panneaux, les étapes, les grilles et les styles des dialogues. |
 
 Le routeur utilise `REDIRECT_LORR_ROUTE` ou `LORR_ROUTE` lorsqu’Apache les
@@ -55,6 +55,7 @@ de l’installation si celle-ci se trouve dans un sous-dossier.
 | `/stats` | `siteUsage()` dans `server/usage.php`, puis `views/stats.php` |
 | `/soutenir` | `views/soutenir.php`, puis chargement des chiffres GitHub en JavaScript |
 | `/p/{id}` | Recherche de l’identifiant dans SQLite et ouverture du planning correspondant |
+| `GET /p/{id}/planning.ics` | Lecture de la sélection dans SQLite et génération du flux iCal avec les cours choisis et tous les congés publiés |
 | `POST /api/planning` | Lecture du catalogue et des horaires |
 | `POST /api/planning/links` | Création d’un identifiant court pour une sélection |
 | `POST /api/stats/course-clicks` | Ajout d’un lot de clics au compteur |
