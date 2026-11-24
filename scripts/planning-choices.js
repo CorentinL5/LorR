@@ -2,10 +2,15 @@ function choiceText(value = '') {
     return String(value ?? '').normalize('NFD').replace(/\p{M}/gu, '').trim().replace(/\s+/g, ' ').toLowerCase();
 }
 
+function cleanCourseGroupName(name) {
+    return name.replace(/[,\s]+$/, '').trimStart();
+}
+
 function courseGroupNames(group, formation) {
-    return (group ?? '').split(/[\r\n;]+|\s+(?=groupe\s)/i)
-        .map(name => name.trim())
-        .filter(name => name && choiceText(name) !== choiceText(formation));
+    const formationName = choiceText(formation);
+    return (group ?? '').split(/[\r\n;]+|[\s,]+(?=groupe\s)/i)
+        .map(cleanCourseGroupName)
+        .filter(name => name && choiceText(name) !== formationName);
 }
 
 function noticeKey(event) {

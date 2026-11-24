@@ -87,13 +87,20 @@ function courseKey(event) {
     return JSON.stringify([event.url, event.formation, event.group, event.subject, event.type]);
 }
 
+function courseGroupKey(url, formation, name) {
+    return JSON.stringify([url, formation, choiceText(cleanCourseGroupName(name))]);
+}
+
 function loadLocalChoices(startNew) {
     try {
         const saved = startNew ? null : JSON.parse(localStorage.getItem(preferenceKey));
         sources = new Map(saved?.sources);
         selections = new Map(saved?.formations);
         selectedCourses = new Set(saved?.selectedCourses);
-        selectedCourseGroups = new Set(saved?.courseGroups);
+        selectedCourseGroups = new Set((saved?.courseGroups ?? []).map(key => {
+            const [url, formation, name] = JSON.parse(key);
+            return courseGroupKey(url, formation, name);
+        }));
         showAllCourseGroups = saved?.showAllCourseGroups === true;
         hiddenNotices = new Set(saved?.hiddenNotices);
         created = saved?.created ?? (selectedCourses.size > 0);
@@ -604,7 +611,7 @@ function renderCourseGroups() {
                 grouped.set(reference, {url, formation, options: new Map()});
             }
             for (const name of names) {
-                const groupKey = JSON.stringify([url, formation, choiceText(name)]);
+                const groupKey = courseGroupKey(url, formation, name);
                 option.groupKeys.add(groupKey);
                 grouped.get(reference).options.set(groupKey, name);
             }

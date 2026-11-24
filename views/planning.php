@@ -19,9 +19,9 @@
     ], JSON_HEX_TAG | JSON_THROW_ON_ERROR) ?></script>
     <script src="scripts/calendar-view.js" defer></script>
     <script src="scripts/planning-data.js" defer></script>
-    <script src="scripts/planning-choices.js" defer></script>
+    <script src="scripts/planning-choices.js?v=2" defer></script>
     <script src="scripts/calendar-export.js" defer></script>
-    <script src="scripts/planning.js" defer></script>
+    <script src="scripts/planning.js?v=2" defer></script>
 </head>
 <body>
     <?php require __DIR__ . '/site-header.php'; ?>
