@@ -1,9 +1,10 @@
 # LorR
 
 LorR crée ton emploi du temps étudiant à partir de l’espace invité public
-d’Hyperplanning. Tu choisis les formations et les cours que tu suis, puis tu
-retrouves ton planning avec un lien. Aucun compte ni serveur de base de données n’est
-nécessaire.
+d’Hyperplanning. Tu choisis tes formations et tes cours, puis tu retrouves ton
+planning avec un lien. Tu peux utiliser LorR sans compte.
+
+[Ouvrir LorR](https://lorr.corentinl5.be/)
 
 <img src="./assets/planning-hero.svg" alt="Agenda illustré LorR" width="360">
 
@@ -73,6 +74,36 @@ Dans Chrome et Edge, ce choix dépend des réglages de l’application.
 LorR reste installé après un effacement du cache. Pour le réinstaller,
 désinstalle d’abord l’application via le navigateur ou l’appareil.
 
+## Passage à PHP
+
+Les premières versions suivies dans ce dépôt utilisaient des pages HTML,
+du JavaScript et des fichiers ICS archivés. Le passage à PHP s’est fait en
+deux étapes.
+
+1. Les pages sont passées au routeur `index.php`. Le navigateur a gardé le
+   JavaScript qui gère la sélection des cours et le calendrier. Le serveur
+   utilisait alors Node.js et Chromium pour lire l’espace invité.
+2. Sur LWS, le lecteur `server/guest-planning.php` a remplacé Chromium.
+   Il utilise les extensions PHP `curl` et `openssl`. Le site fonctionne
+   sur LWS sans Node.js et sans compilation de l’interface.
+
+## Lecture des horaires Hyperplanning
+
+Le navigateur envoie le lien invité à `/api/planning`. Le serveur vérifie
+le domaine, ouvre une session invitée en HTTPS et lit la liste des formations.
+Après le choix des formations, il demande leurs horaires pour les semaines
+publiées. Le choix des cours se fait ensuite dans le navigateur.
+
+C’est de l’extraction automatisée de données publiques. Le lecteur PHP
+lit les paramètres d’ouverture dans la page `/invite`, puis utilise les
+réponses JSON des appels internes de l’espace invité pour les horaires.
+L’intégration dépend du format de ces réponses. Un changement chez
+Hyperplanning peut nécessiter une mise à jour du lecteur.
+
+L’établissement décide quelles formations et quelles semaines sont
+disponibles dans l’espace invité. LorR lit cette publication sans compte et
+à la demande. [Documentation de l’espace Invités](https://doc.index-education.com/fr/hyperplanning/hyperplanning/HYPERPLANNING/E/Espace_Invit%C3%A9s.htm)
+
 ## Lancer LorR en local
 
 Installe PHP 8.1 ou plus récent avec les extensions `curl` et `openssl`.
@@ -86,10 +117,11 @@ Ouvre [l’accueil de LorR](http://127.0.0.1:8000/) puis clique sur **Créer mon
 
 ## Configurer le serveur
 
-Le lecteur PHP ouvre l’espace invité à la demande. Il lit la liste des
-formations, puis les semaines publiées pour les formations choisies.
-Sur LWS, publie les fichiers PHP et les ressources web. Le lecteur utilise
-les extensions PHP `curl` et `openssl`.
+Sur LWS, déploie `index.php`, `api-planning.php`, `.htaccess`, `robots.txt`,
+`manifest.webmanifest`, `sw.js` et les dossiers `views/`, `server/`, `scripts/`,
+`styles/` et `assets/`. Laisse `server/read.cjs` dans le dépôt. Garde `.git/`,
+les fichiers Markdown, la configuration privée et les données locales hors
+de la racine publique.
 
 Pour utiliser le lecteur Chromium de secours sur un autre serveur, installe
 Node.js 20 ou plus récent, lance `npm ci` et `npm run install:browser`, puis
@@ -99,9 +131,10 @@ avec `LORR_CHROMIUM_PATH`.
 Le routeur PHP sert l’accueil sur `/` et le créateur sur `/planning`.
 Sur Apache, active le module `mod_rewrite` et autorise les règles du fichier
 `.htaccess`.
-Sur l’hébergement, utilise `LORR_STATS_DIR` pour placer les données SQLite et
-les caches hors de la racine web. Garde les fichiers de configuration privés
-dans les paramètres de l’hébergement ou dans le dossier local ignoré par Git.
+Sur l’hébergement, utilise `LORR_STATS_DIR` pour placer SQLite et les fichiers
+des statistiques hors de la racine web. Le cache des horaires utilise le
+dossier temporaire de PHP. Garde la configuration privée dans les paramètres
+de l’hébergement ou dans le dossier local ignoré par Git.
 
 Les pages publiques et les liens de planning partagés utilisent le GIF
 LorR en boucle pour l’aperçu des liens. `/robots.txt` indique le sitemap
@@ -119,8 +152,8 @@ Conserve la base lors des mises à jour pour garder les liens partagés.
 
 Le domaine annuel de la HEH sur `umons.ac.be` est pris en charge. Pour ajouter
 d’autres établissements, renseigne leurs noms de domaine exacts dans
-`LORR_PLANNING_HOSTS`, séparés par des virgules. Le lecteur utilise les vues
-publiques **Promotions** et **Emploi du temps en liste** de PRONOTE Campus.
+`LORR_PLANNING_HOSTS`, séparés par des virgules. Vérifie que l’espace invité
+de chaque établissement fonctionne avec le lecteur avant de l’ajouter.
 
 LorR lit ensemble les formations choisies sur un même espace invité. Le navigateur et le
 serveur réutilisent les dernières données jusqu’à sept jours et les affichent
@@ -163,6 +196,20 @@ Sur l’hébergement, renseigne `LORR_SUPPORT_URL` avec ton lien HTTPS Revolut.m
 ou Ko-fi. En local avec `php -S`, tu peux écrire le lien dans
 `var/support-url.txt` s’il est absent de l’environnement. Git ignore ce fichier.
 
-## Licence
+## Documents du dépôt
 
-[Licence MIT](LICENSE)
+Garde ces fichiers dans Git à la racine du dépôt.
+
+| Fichier | Contenu |
+| --- | --- |
+| [README.md](README.md) | Utilisation, lecture des horaires et déploiement |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Étapes pour travailler avec Corentin dans le dépôt |
+| [SECURITY.md](SECURITY.md) | Canal privé pour signaler une faille |
+| [LICENSE](LICENSE) | Droits sur le code et la documentation |
+
+## Droits sur le code
+
+Tous droits réservés. Pour contribuer, travaille avec Corentin Lallement
+dans le dépôt d’origine. Pour republier le code ou héberger une autre
+version de LorR, demande son autorisation écrite. Les versions déjà
+distribuées sous licence MIT conservent cette licence. [Conditions complètes](LICENSE)
