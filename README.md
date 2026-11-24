@@ -106,8 +106,8 @@ Sur l’hébergement, utilise `LORR_STATS_DIR` pour placer les données SQLite e
 les caches hors de la racine web. Garde les fichiers de configuration privés
 dans les paramètres de l’hébergement ou dans le dossier local ignoré par Git.
 
-Les pages publiques et les liens de planning partagés ont un aperçu avec
-un GIF LorR en boucle et une image PNG. `/robots.txt` indique le sitemap
+Les pages publiques et les liens de planning partagés utilisent le GIF
+LorR en boucle pour l’aperçu des liens. `/robots.txt` indique le sitemap
 disponible sur `/sitemap.xml`. Les liens de planning partagés ne sont pas
 inclus dans le sitemap et portent une consigne `noindex`.
 Pour fixer l’adresse publique, renseigne `LORR_PUBLIC_URL`
