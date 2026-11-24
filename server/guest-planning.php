@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+require_once __DIR__ . '/planning-traffic.php';
+
 final class GuestPlanningClient
 {
     private const VIEW = 'DIPLOME.EDT.EDT_LISTE';
@@ -9,6 +11,7 @@ final class GuestPlanningClient
     private const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/145.0.0.0 Safari/537.36';
 
     private CurlHandle $connection;
+    private string $guestUrl;
     private string $applicationUrl;
     private string $sessionIv;
     private int $session;
@@ -44,6 +47,7 @@ final class GuestPlanningClient
             throw new RuntimeException('Impossible d’ouvrir l’espace invité.');
         }
         $this->connection = $connection;
+        $this->guestUrl = $url;
         $this->applicationUrl = substr($url, 0, -strlen('/invite'));
         $this->deadline = min($deadline ?? INF, microtime(true) + 80);
         $this->sessionIv = random_bytes(16);
@@ -106,10 +110,14 @@ final class GuestPlanningClient
                 return strlen($chunk);
             },
         ]);
+        $requestBody = $payload === null ? '' : json_encode($payload, JSON_THROW_ON_ERROR);
         if ($payload !== null) {
-            curl_setopt($this->connection, CURLOPT_POSTFIELDS, json_encode($payload, JSON_THROW_ON_ERROR));
+            curl_setopt($this->connection, CURLOPT_POSTFIELDS, $requestBody);
         }
-        if (curl_exec($this->connection) === false || curl_getinfo($this->connection, CURLINFO_RESPONSE_CODE) !== 200) {
+        $result = curl_exec($this->connection);
+        $received = (int) curl_getinfo($this->connection, CURLINFO_SIZE_DOWNLOAD_T);
+        recordPlanningTraffic($this->guestUrl, 1, strlen($requestBody), $received);
+        if ($result === false || curl_getinfo($this->connection, CURLINFO_RESPONSE_CODE) !== 200) {
             throw new RuntimeException('L’espace invité ne répond pas pour le moment.');
         }
         return $body;

@@ -15,6 +15,11 @@ function progress(done, message) {
 }
 const origin = new URL(url).origin;
 
+function isPortalRequest(request) {
+    return new URL(request.url()).origin === origin
+        && !['font', 'image', 'media'].includes(request.resourceType());
+}
+
 const months = [
     'janvier', 'février', 'mars', 'avril', 'mai', 'juin',
     'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre',
@@ -382,6 +387,7 @@ async function main() {
         return;
     }
 
+    const pendingSizes = new Set();
     try {
         const page = await browser.newPage({
             locale: 'fr-BE',
@@ -389,10 +395,25 @@ async function main() {
             viewport: {width: 1600, height: 3000},
         });
         page.setDefaultTimeout(6000);
-        await page.route('**/*', route => {
-            const request = route.request();
-            const unused = ['font', 'image', 'media'].includes(request.resourceType());
-            return !unused && new URL(request.url()).origin === origin ? route.continue() : route.abort();
+        const measured = new WeakSet();
+        await page.route('**/*', route => isPortalRequest(route.request()) ? route.continue() : route.abort());
+        page.on('request', request => {
+            if (isPortalRequest(request)) {
+                measured.add(request);
+                send('traffic', {sent: request.postDataBuffer()?.length ?? 0});
+            }
+        });
+        page.on('requestfinished', request => {
+            if (!measured.has(request)) {
+                return;
+            }
+            const size = request.sizes().then(({responseBodySize}) => {
+                if (responseBodySize > 0) {
+                    send('traffic', {received: responseBodySize});
+                }
+            }, () => {});
+            pendingSizes.add(size);
+            void size.finally(() => pendingSizes.delete(size));
         });
         send('result', {data: await readPlanning(page)});
     } catch (error) {
@@ -400,6 +421,7 @@ async function main() {
         send('error', {error: 'Impossible de lire les données publiques de cet espace invité.'});
         process.exitCode = 1;
     } finally {
+        await Promise.all(pendingSizes);
         await browser.close();
     }
 }

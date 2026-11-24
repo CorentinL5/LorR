@@ -467,6 +467,14 @@ vérifie la méthode, le type JSON et le nombre reçu avant de répondre
 stockent les totaux, les dates et les empreintes des sources et
 des matières distinctes.
 
+Le tableau **Requêtes vers Hyperplanning par lien de base** suit le trafic
+des lecteurs PHP et Chromium. Il compte une tentative par requête et mesure
+les octets des corps, hors en-têtes HTTP. Le cache peut servir des horaires
+sans ajouter de tentative. Les relevés commencent à la mise en service de
+ce suivi. LorR regroupe les compteurs par URL invitée dans
+`planning-traffic.json`. Un verrou protège les écritures et un remplacement
+atomique publie chaque état complet. [planning-traffic.php](server/planning-traffic.php)
+
 [`storage.php`](server/storage.php) ouvre `LORR_STATS_DIR` ou `var/`
 et détecte SQLite. `usage_counts` mémorise les compteurs par jour et
 par mesure. `usage_sources` et `usage_courses` dédupliquent les empreintes

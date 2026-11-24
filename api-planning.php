@@ -68,6 +68,7 @@ function cachedPlanningResponse(string $url, ?array $catalogue, array $schedules
 
 function readBrowserPlanning(string $url, array $missing, callable $publishSchedule, bool $streaming): array
 {
+    require_once __DIR__ . '/server/planning-traffic.php';
     if (function_exists('set_time_limit')) {
         set_time_limit(115);
     }
@@ -103,6 +104,13 @@ function readBrowserPlanning(string $url, array $missing, callable $publishSched
                 break;
             case 'schedule':
                 $publishSchedule($message['schedule']['formation'], $message['schedule']['events']);
+                break;
+            case 'traffic':
+                if (isset($message['sent']) && is_int($message['sent']) && $message['sent'] >= 0) {
+                    recordPlanningTraffic($url, 1, $message['sent'], 0);
+                } elseif (isset($message['received']) && is_int($message['received']) && $message['received'] > 0) {
+                    recordPlanningTraffic($url, 0, 0, $message['received']);
+                }
                 break;
             case 'error':
                 $failure = $message['error'];

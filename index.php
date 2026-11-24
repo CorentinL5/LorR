@@ -86,7 +86,9 @@ switch ($route) {
     case '/stats':
         header('Cache-Control: no-store');
         require __DIR__ . '/server/usage.php';
+        require __DIR__ . '/server/planning-traffic.php';
         $usage = siteUsage();
+        $planningTraffic = planningTraffic();
         require __DIR__ . '/views/stats.php';
         break;
     case '/soutenir':

@@ -1557,6 +1557,14 @@ button.calendar-date[aria-pressed=true] { background: var(--yellow); }
 .stats-table th, .stats-table td { padding: 0.55rem 0.6rem; border-bottom: 1px solid #bcb2a5; text-align: right; white-space: nowrap; }
 .stats-table th:first-child { text-align: left; }
 .stats-table thead { background: var(--sky); }
+.stats-planning-traffic { margin-top: .9rem; }
+.stats-planning-traffic p { margin: .65rem .9rem; }
+.stats-planning-traffic .stats-table th:first-child {
+    position: static;
+    max-width: 19rem;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
 
 @media (max-width: 610px) {
     .stats-totals { grid-template-columns: minmax(0, 1fr); }
