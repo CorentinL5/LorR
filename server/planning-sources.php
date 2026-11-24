@@ -7,6 +7,17 @@ const MAX_PLANNING_REQUEST_BYTES = 32768;
 
 function hasPlanningReader(): bool
 {
+    return hasPhpPlanningReader() || hasBrowserPlanningReader();
+}
+
+function hasPhpPlanningReader(): bool
+{
+    return function_exists('curl_init') && function_exists('openssl_encrypt')
+        && is_file(__DIR__ . '/guest-planning.php');
+}
+
+function hasBrowserPlanningReader(): bool
+{
     return function_exists('proc_open') && is_file(__DIR__ . '/read.cjs');
 }
 

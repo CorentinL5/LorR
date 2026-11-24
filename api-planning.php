@@ -185,9 +185,29 @@ if (!cacheLifetime($catalogue, CATALOGUE_TTL, $requestTime) || $missing) {
     $received = [];
     $failureStatus = 503;
     $failure = 'La lecture d’Hyperplanning est indisponible pour le moment.';
+    $publishSchedule = static function (string $name, array $events) use ($directory, $url, &$received, &$schedules): void {
+        $entry = ['time' => time(), 'data' => $events];
+        $received[$name] = $schedules[$name] = $entry;
+        writeCache($directory, cachePath($directory, $url, $name), $entry);
+        sendUpdate(['type' => 'snapshot', 'data' => cachedPlanningResponse($url, null, [$name => $entry])]);
+    };
+    if (hasPhpPlanningReader()) {
+        require __DIR__ . '/server/guest-planning.php';
+        try {
+            $result = readGuestPlanning($url, $missing, static function (int $done, int $total, string $message) use ($streaming): void {
+                sendUpdate(['type' => 'progress', 'done' => $done, 'total' => $total, 'message' => $message]);
+                if ($streaming && connection_aborted()) {
+                    exit;
+                }
+            }, $publishSchedule);
+        } catch (RuntimeException | JsonException $error) {
+            $failure = $error->getMessage();
+        }
+    }
+
     if (!hasPlanningReader()) {
         $failure = 'La lecture en direct est indisponible sur cet hébergement. Consulte les horaires sur Hyperplanning.';
-    } else {
+    } elseif ($result === null && hasBrowserPlanningReader()) {
         if (function_exists('set_time_limit')) {
             set_time_limit(115);
         }
@@ -218,11 +238,7 @@ if (!cacheLifetime($catalogue, CATALOGUE_TTL, $requestTime) || $missing) {
                         $result = $message['data'];
                         break;
                     case 'schedule':
-                        $name = $message['schedule']['formation'];
-                        $entry = ['time' => time(), 'data' => $message['schedule']['events']];
-                        $received[$name] = $schedules[$name] = $entry;
-                        writeCache($directory, cachePath($directory, $url, $name), $entry);
-                        sendUpdate(['type' => 'snapshot', 'data' => cachedPlanningResponse($url, null, [$name => $entry])]);
+                        $publishSchedule($message['schedule']['formation'], $message['schedule']['events']);
                         break;
                     case 'error':
                         $failure = $message['error'];

@@ -75,12 +75,10 @@ désinstalle d’abord l’application via le navigateur ou l’appareil.
 
 ## Lancer LorR en local
 
-Installe PHP 8.1 ou plus récent, Node.js 20 ou plus récent et npm. Exécute
-ces commandes dans le dossier du projet.
+Installe PHP 8.1 ou plus récent avec les extensions `curl` et `openssl`.
+Exécute cette commande dans le dossier du projet.
 
 ```sh
-npm ci
-npm run install:browser
 php -S 127.0.0.1:8000 index.php
 ```
 
@@ -88,16 +86,15 @@ Ouvre [l’accueil de LorR](http://127.0.0.1:8000/) puis clique sur **Créer mon
 
 ## Configurer le serveur
 
-Pour actualiser les horaires à la demande, PHP doit pouvoir lancer Node.js et Chromium. Installe le navigateur avec
-le compte qui exécute PHP ou renseigne `LORR_CHROMIUM_PATH` avec le chemin
-de Chromium. Le lecteur utilise la fonction PHP `proc_open`. Vérifie que
-ton offre LWS autorise cette fonction et l’exécution de Chromium. LWS
-[documente des restrictions de `proc_open` sur les offres mutualisées](https://aide.lws.fr/base/Hebergement-web-mutualise/Programmation/Configurer-PHP).
+Le lecteur PHP ouvre l’espace invité à la demande. Il lit la liste des
+formations, puis les semaines publiées pour les formations choisies.
+Sur LWS, publie les fichiers PHP et les ressources web. Le lecteur utilise
+les extensions PHP `curl` et `openssl`.
 
-Sur un hébergement PHP seul, publie les fichiers PHP et les ressources web.
-Laisse `server/read.cjs` et `node_modules/` de côté. LorR affiche alors un
-message dans le créateur quand la lecture en direct est indisponible.
-Les horaires déjà dans le cache du navigateur restent consultables.
+Pour utiliser le lecteur Chromium de secours sur un autre serveur, installe
+Node.js 20 ou plus récent, lance `npm ci` et `npm run install:browser`, puis
+autorise `proc_open` pour PHP. Tu peux indiquer le chemin de Chromium
+avec `LORR_CHROMIUM_PATH`.
 
 Le routeur PHP sert l’accueil sur `/` et le créateur sur `/planning`.
 Sur Apache, active le module `mod_rewrite` et autorise les règles du fichier
@@ -125,7 +122,7 @@ d’autres établissements, renseigne leurs noms de domaine exacts dans
 `LORR_PLANNING_HOSTS`, séparés par des virgules. Le lecteur utilise les vues
 publiques **Promotions** et **Emploi du temps en liste** de PRONOTE Campus.
 
-LorR lit ensemble les formations d’un même établissement. Le navigateur et le
+LorR lit ensemble les formations choisies sur un même espace invité. Le navigateur et le
 serveur réutilisent les dernières données jusqu’à sept jours et les affichent
 dès qu’elles sont disponibles. Le serveur actualise les horaires après deux
 minutes et les listes de formations après quinze minutes. Tu peux consulter
