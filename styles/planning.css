@@ -1675,6 +1675,8 @@ button.calendar-date[aria-pressed=true] { background: var(--yellow); }
 }
 
 @media (max-width: 610px) {
+    .support-actions { display: grid; grid-template-columns: minmax(0, 1fr); }
+    .support-actions .button { text-align: center; justify-content: center; }
     .stats-advanced-highlights { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .stats-advanced-requests { grid-column: 1 / -1; }
     .stats-advanced-highlights .stats-featured-card dt { padding-right: 0; }
@@ -1687,10 +1689,16 @@ button.calendar-date[aria-pressed=true] { background: var(--yellow); }
     .stats-totals { grid-template-columns: minmax(0, 1fr); }
     .stats-total { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 0.25rem 0.6rem; }
     .stats-total dd { font-size: 1.75rem; }
-    .stats-table table { width: max-content; min-width: 100%; }
-    .stats-table th, .stats-table td { padding: .45rem .55rem; font-size: .75rem; }
-    .stats-table th:first-child { position: sticky; left: 0; background: var(--paper); }
-    .stats-table thead th:first-child { background: var(--sky); }
+    #usage-table table { width: max-content; min-width: 100%; }
+    #usage-table th, #usage-table td { padding: .45rem .55rem; font-size: .75rem; }
+    #usage-table th:first-child { position: sticky; left: 0; background: var(--paper); }
+    #usage-table thead th:first-child { background: var(--sky); }
+    .stats-chart-legend label { min-height: 2.25rem; }
+    .stats-dashboard-header { align-items: flex-start; flex-direction: column; }
+}
+
+@media (max-width: 380px) {
+    .stats-advanced-highlights, .stats-advanced-share dl { grid-template-columns: minmax(0, 1fr); }
 }
 
 .week-date-button {

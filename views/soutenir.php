@@ -3,7 +3,7 @@ $supportUrl = getenv('LORR_SUPPORT_URL');
 if ($supportUrl === false && PHP_SAPI === 'cli-server') {
     $supportUrl = @file_get_contents(__DIR__ . '/../var/support-url.txt', false, null, 0, 4096);
 }
-$supportUrl = trim($supportUrl ?: '');
+$supportUrl = trim($supportUrl ?: 'https://revolut.me/corentinl5');
 $supportLink = filter_var($supportUrl, FILTER_VALIDATE_URL) ? parse_url($supportUrl) : [];
 $showSupport = strtolower($supportLink['scheme'] ?? '') === 'https'
     && in_array(strtolower($supportLink['host'] ?? ''), ['revolut.me', 'ko-fi.com', 'www.ko-fi.com'], true)
@@ -21,7 +21,7 @@ $showSupport = strtolower($supportLink['scheme'] ?? '') === 'https'
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/planning.css">
+    <link rel="stylesheet" href="styles/planning.css?v=11">
     <?php require __DIR__ . '/web-app-head.php'; ?>
     <script src="scripts/support.js" defer></script>
 </head>
@@ -41,7 +41,8 @@ $showSupport = strtolower($supportLink['scheme'] ?? '') === 'https'
                     <?php if ($showSupport): ?>
                         <a class="button button-green" href="<?= htmlspecialchars($supportUrl, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?>"
                             target="_blank" rel="noopener noreferrer" aria-describedby="support-note">
-                            Offrir un café <span aria-hidden="true">↗</span>
+                            <?= strtolower($supportLink['host']) === 'revolut.me' ? 'Offrir un café via Revolut' : 'Offrir un café via Ko-fi' ?>
+                            <span aria-hidden="true">↗</span>
                         </a>
                     <?php endif; ?>
                 </div>

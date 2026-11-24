@@ -35,7 +35,7 @@ $sourceMetrics = ['catalogues' => 'Catalogues', 'schedules' => 'Horaires', 'fres
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/planning.css?v=10">
+    <link rel="stylesheet" href="styles/planning.css?v=11">
     <?php require __DIR__ . '/web-app-head.php'; ?>
 </head>
 <body>

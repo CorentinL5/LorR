@@ -97,7 +97,8 @@ php -S 127.0.0.1:8000 index.php
 | `LORR_SUPPORT_URL` | Lien HTTPS Revolut.me ou Ko-fi |
 
 En local, `var/support-url.txt` peut fournir le lien de soutien si la
-variable `LORR_SUPPORT_URL` est absente. Git ignore ce fichier.
+variable `LORR_SUPPORT_URL` est absente. Git ignore ce fichier. LorR affiche
+le lien Revolut du projet par défaut.
 
 ## Statistiques et soutien
 

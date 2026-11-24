@@ -46,7 +46,7 @@ if ($usage !== null) {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/planning.css?v=10">
+    <link rel="stylesheet" href="styles/planning.css?v=11">
     <?php require __DIR__ . '/web-app-head.php'; ?>
     <?php if ($usage !== null): ?>
         <script src="scripts/stats-chart.js?v=9" defer></script>
