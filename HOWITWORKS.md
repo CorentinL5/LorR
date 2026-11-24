@@ -415,10 +415,11 @@ graphiques. Une seconde sélection rétablit les courbes choisies auparavant.
 [`stats-chart.js`](scripts/stats-chart.js) lit les mêmes valeurs que le
 tableau pour tracer une courbe par compteur. Les cases de la légende
 filtrent les courbes et l’axe vertical s’adapte aux courbes affichées.
-Le graphique horaire utilise les relevés des mêmes sept jours. Les deux
-graphiques partagent la légende et ajustent leur échelle verticale
-indépendamment. PHP fournit les créneaux horaires dans la page. Le
-navigateur les réutilise dans le tableau quand le lecteur change le jour.
+Le graphique horaire affiche les 36 derniers créneaux, y compris l’heure
+en cours. Les deux graphiques partagent la légende et ajustent leur
+échelle verticale indépendamment. PHP fournit les créneaux des sept
+derniers jours pour que le tableau horaire reste disponible pour chaque
+date.
 Un clic sur une date ouvre le tableau horaire de ce jour. Un clic sur un
 point horaire affiche ses valeurs sous le graphique. Le paramètre
 `heure=AAAA-MM-JJ` présélectionne le jour du tableau.

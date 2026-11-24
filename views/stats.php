@@ -55,7 +55,7 @@ foreach ($usage === null ? [] : array_reverse($recentDays, true) as $date => $da
     <link rel="stylesheet" href="styles/planning.css?v=6">
     <?php require __DIR__ . '/web-app-head.php'; ?>
     <?php if ($usage !== null): ?>
-        <script src="scripts/stats-chart.js?v=5" defer></script>
+        <script src="scripts/stats-chart.js?v=6" defer></script>
     <?php endif; ?>
 </head>
 <body>
@@ -89,8 +89,8 @@ foreach ($usage === null ? [] : array_reverse($recentDays, true) as $date => $da
                         <p id="usage-day-selection" class="stats-chart-selection" role="status">Choisis une date pour afficher ses valeurs et ouvrir le détail horaire.</p>
                         <p class="stats-chart-empty" role="status" hidden>Sélectionne un compteur pour afficher sa courbe.</p>
                         <div class="stats-hour-chart">
-                            <h3 id="usage-hour-chart-caption">Par heure</h3>
-                            <p id="usage-hour-chart-description">Un point par heure · Heure de Bruxelles</p>
+                            <h3 id="usage-hour-chart-caption">Les 36 dernières heures</h3>
+                            <p id="usage-hour-chart-description">Un point par heure · Heure de Bruxelles · Heure en cours incluse</p>
                             <svg id="usage-hour-chart" class="stats-chart-plot" role="img" aria-labelledby="usage-hour-chart-caption" aria-describedby="usage-hour-chart-description" hidden>
                                 <g></g>
                             </svg>

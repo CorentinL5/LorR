@@ -24,14 +24,13 @@ const usageDays = [...usageTable.querySelectorAll('tbody tr')].reverse().map(row
 });
 const usageHourlyPeriods = Object.entries(usageHours).flatMap(([date, hours]) => {
     const day = date.slice(8, 10) + '/' + date.slice(5, 7);
-    return hours.map((hour, index) => ({
-        label: index === 0 ? day : '',
-        midday: hour.label === '12:00',
+    return hours.map(hour => ({
+        day,
+        label: hour.label.slice(0, 5),
         date: day + ' · ' + hour.label,
-        current: hour.current,
         counts: hour.counts,
     }));
-});
+}).slice(-36);
 const usageSeries = [...usageChart.querySelectorAll('.stats-chart-legend [data-metric]')].map((item, index) => ({
     metric: item.dataset.metric,
     label: item.title,
@@ -115,13 +114,16 @@ function drawUsagePlot(plot, periods, selected, hourly = false) {
             usageSvg('text', {class: 'stats-chart-label', x: left - 8, y: position, 'text-anchor': 'end', 'dominant-baseline': 'middle'}, usageNumber.format(value)),
         );
     }
+    const hourTickSpacing = width < 360 ? 18 : width < 640 ? 12 : 6;
     for (const [index, period] of periods.entries()) {
-        const label = period.label || (period.midday && width >= 640 ? '12 h' : '');
-        if (!label) continue;
+        const endTick = hourly && (index === 0 || index === lastIndex);
+        if (hourly && !endTick && index % hourTickSpacing !== 0) continue;
+        const label = endTick ? period.day + ' · ' + period.label : period.label;
+        const anchor = endTick ? (index === 0 ? 'start' : 'end') : 'middle';
         const position = x(index);
         content.append(
             usageSvg('line', {class: 'stats-chart-grid', x1: position, x2: position, y1: top, y2: bottom}),
-            usageSvg('text', {class: 'stats-chart-label', x: position, y: bottom + 21, 'text-anchor': 'middle'}, label),
+            usageSvg('text', {class: 'stats-chart-label', x: position, y: bottom + 21, 'text-anchor': anchor}, label),
         );
     }
     for (const {metric, label, values} of seriesData) {
