@@ -1,4 +1,9 @@
 RewriteEngine On
+RewriteRule ^\.well-known/acme-challenge/[a-zA-Z0-9_-]+$ - [END]
+RewriteCond %{HTTP_HOST} ^lorr\.corentinl5\.be(?::80)?$ [NC]
+RewriteCond %{HTTPS} !=on
+RewriteCond %{ENV:HTTPS} !^(?:on|1)$ [NC]
+RewriteRule ^ https://lorr.corentinl5.be%{REQUEST_URI} [R=308,END]
 RewriteRule ^(?:\.git(?:ignore|modules|attributes)?|\.env(?:\.[^/]*)?|var|server|views|node_modules)(?:/|$) - [F,END,NC]
 RewriteRule ^(?:robots\.txt|sw\.js|assets/[\w-]+\.(?:gif|ico|png|svg|webp)|scripts/[\w-]+\.js|styles/[\w-]+\.css)$ - [END]
 RewriteRule ^(.*)$ - [E=LORR_ROUTE:/$1]
