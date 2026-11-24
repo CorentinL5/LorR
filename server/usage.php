@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/storage.php';
 
-const USAGE_METRICS = ['home', 'planner', 'reads', 'courses', 'clicks'];
+const USAGE_METRICS = ['home', 'planner', 'reads', 'courses', 'sessions', 'clicks'];
 const USAGE_DISTINCT_TABLES = ['sources' => 'usage_sources', 'distinct_courses' => 'usage_courses'];
 
 function usageDay(): DateTimeImmutable

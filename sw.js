@@ -1,15 +1,16 @@
 const scope = new URL(self.registration.scope);
 const shellPrefix = 'lorr-app-shell:' + scope.pathname + ':';
-const shellCache = shellPrefix + '1';
+const shellCache = shellPrefix + '25';
 const shellAssets = [
     'styles/planning.css',
-    'scripts/home.js', 'scripts/web-app.js', 'scripts/calendar-view.js',
+    'scripts/home.js', 'scripts/web-app.js', 'scripts/calendar-view.js', 'scripts/support.js',
     'scripts/calendar-export.js', 'scripts/planning-choices.js', 'scripts/planning-data.js', 'scripts/planning.js',
-    'assets/favicon.svg', 'assets/planning-hero.webp',
+    'assets/lorr-icon.svg',
     'assets/pwa-192.png', 'assets/pwa-512.png', 'assets/pwa-maskable.png',
     'manifest.webmanifest',
 ].map(path => new URL(path, scope).href);
-const shellPages = ['./', 'planning'].map(path => new URL(path, scope).href);
+const shellPages = ['./', 'planning', 'soutenir'].map(path => new URL(path, scope).href);
+const githubStatsAddress = new URL('api/stats/github', scope).href;
 
 self.addEventListener('install', event => {
     event.waitUntil((async () => {
@@ -38,7 +39,7 @@ self.addEventListener('fetch', event => {
     const address = new URL(request.url);
     const pageAddress = address.origin + address.pathname;
     const shellNavigation = request.mode === 'navigate' && shellPages.includes(pageAddress);
-    if (!shellNavigation && !shellAssets.includes(address.href)) {
+    if (!shellNavigation && !shellAssets.includes(address.href) && address.href !== githubStatsAddress) {
         return;
     }
 

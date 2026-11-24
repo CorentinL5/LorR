@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="hero-art" aria-hidden="true" focusable="false" viewBox="0 0 960 720" width="960" height="720">
+  <title>Le calendrier animé de LorR</title>
+  <defs>
+    <clipPath id="lorr-hero-board-clip" clipPathUnits="userSpaceOnUse">
+      <rect class="board-clip" width="960" height="720"/>
+    </clipPath>
+    <path id="lorr-hero-orbit" pathLength="120" d="M127 227C228 99 612 46 812 123s152 267-26 348"/>
+  </defs>
+  <style>
+    .hero-art { --hero-entry-offset: 0s; --hero-cycle: 5.6s; }
+    .hero-art.hero-entered { --hero-entry-offset: -3s; }
+    .hero-art :is(.board, .sticker, .sparkle, .ring, .slot, .ground, .confetti, .wink) {
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .hero-art .ground {
+      animation: lorr-hero-ground-in .7s var(--hero-entry-offset) ease-out both,
+        lorr-hero-ground-float var(--hero-cycle) 1s ease-in-out infinite;
+    }
+    .hero-art .board-clip {
+      transform-box: view-box;
+      transform-origin: center bottom;
+      animation: lorr-hero-board-reveal .67s var(--hero-entry-offset) ease-in-out both;
+    }
+    .hero-art .board {
+      animation: lorr-hero-canvas-in 1s var(--hero-entry-offset) ease-in-out both,
+        lorr-hero-board-float var(--hero-cycle) 1s ease-in-out infinite;
+    }
+    .hero-art .ring {
+      transform-origin: center bottom;
+      animation: lorr-hero-ring-in .58s calc(var(--delay) + var(--hero-entry-offset))
+        cubic-bezier(.22,.88,.3,1.28) both;
+    }
+    .hero-art .slot {
+      animation: lorr-hero-slot-in .62s calc(var(--delay) + var(--hero-entry-offset)) cubic-bezier(.2,.75,.23,1.29) both,
+        lorr-hero-slot-float var(--hero-cycle) calc(1.22s + var(--delay) + var(--delay)) ease-in-out infinite;
+    }
+    .hero-art .check {
+      stroke-dasharray: 104;
+      animation: lorr-hero-draw-check .54s calc(.95s + var(--hero-entry-offset)) ease-out both;
+    }
+    .hero-art .bolt {
+      animation: lorr-hero-bolt-in .75s calc(.12s + var(--hero-entry-offset)) cubic-bezier(.22,.84,.24,1.22) both;
+    }
+    .hero-art .bolt-float { animation: lorr-hero-hover-bolt var(--hero-cycle) .92s ease-in-out infinite; }
+    .hero-art .smile {
+      animation: lorr-hero-smile-in .88s calc(.5s + var(--hero-entry-offset)) cubic-bezier(.22,.84,.24,1.23) both;
+    }
+    .hero-art .smile-float { animation: lorr-hero-hover-smile var(--hero-cycle) 1.4s ease-in-out infinite; }
+    .hero-art .wink { animation: lorr-hero-wink var(--hero-cycle) 1.4s ease-in-out infinite; }
+    .hero-art .sparkle { animation: lorr-hero-twinkle var(--hero-cycle) var(--delay) ease-in-out infinite; }
+    .hero-art .orbit { stroke-dasharray: 1 1.4; animation: lorr-hero-orbit var(--hero-cycle) linear infinite; }
+    .hero-art .orbit-accent {
+      stroke-dasharray: 1.45 118.55;
+      animation: lorr-hero-orbit-sweep var(--hero-cycle) linear infinite;
+    }
+    .hero-art .confetti {
+      transform: scale(0);
+      animation: lorr-hero-celebrate .9s calc(1.35s + var(--hero-entry-offset)) ease-out both;
+    }
+    @keyframes lorr-hero-ground-in {
+      from { transform: scaleX(.52); }
+      to { transform: none; }
+    }
+    @keyframes lorr-hero-ground-float {
+      0%, 100% { transform: none; }
+      49% { transform: scale(.9,.87); }
+    }
+    @keyframes lorr-hero-board-reveal {
+      0%, 31% { transform: scaleY(0); }
+      100% { transform: scaleY(1); }
+    }
+    @keyframes lorr-hero-canvas-in {
+      0%, 21% { transform: var(--hero-board-start, translateY(104px) rotate(-11deg) scale(.64,.57)); }
+      21% { animation-timing-function: cubic-bezier(.2,.82,.28,1); }
+      67% { transform: var(--hero-board-bounce, translateY(-13px) rotate(1.8deg) scale(1.021,1.033)); }
+      86% { transform: var(--hero-board-settle, translateY(4px) rotate(-.5deg) scale(1.008,.98)); }
+      100% { transform: none; }
+    }
+    @keyframes lorr-hero-board-float {
+      0%, 100% { transform: none; }
+      49% { transform: var(--hero-board-hop, translateY(-18px) rotate(-.7deg) scale(1.012)); }
+    }
+    @keyframes lorr-hero-ring-in {
+      from { transform: var(--hero-ring-start, translateY(9px) rotate(-14deg) scale(.58,0)); }
+      to { transform: none; }
+    }
+    @keyframes lorr-hero-slot-in {
+      from { transform: var(--hero-slot-start, translateY(-22px) rotate(-10deg) scale(0)); }
+      to { transform: none; }
+    }
+    @keyframes lorr-hero-slot-float {
+      0%, 24%, 100% { transform: none; }
+      10% { transform: var(--hero-slot-bounce, translateY(-7px) rotate(-2deg) scale(1.067)); }
+      17% { transform: var(--hero-slot-settle, translateY(1px) rotate(.65deg) scale(.986)); }
+    }
+    @keyframes lorr-hero-draw-check {
+      from { stroke-dashoffset: 104; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes lorr-hero-bolt-in {
+      from { transform: var(--hero-bolt-start, translateX(-62px) rotate(23deg) scale(.08)); }
+      to { transform: none; }
+    }
+    @keyframes lorr-hero-smile-in {
+      from { transform: var(--hero-smile-start, translate(44px, 38px) rotate(22deg) scale(.08)); }
+      to { transform: none; }
+    }
+    @keyframes lorr-hero-hover-bolt {
+      0%, 100% { transform: none; }
+      45% { transform: var(--hero-bolt-hop, translateY(-21px) rotate(-8deg)); }
+      73% { transform: var(--hero-bolt-settle, translateY(2px) rotate(2deg)); }
+    }
+    @keyframes lorr-hero-hover-smile {
+      0%, 100% { transform: var(--hero-smile-rest, rotate(-4deg)); }
+      52% { transform: var(--hero-smile-hop, translateY(-17px) rotate(6deg)); }
+    }
+    @keyframes lorr-hero-wink {
+      0%, 52%, 59%, 100% { transform: scaleY(1); }
+      55% { transform: scaleY(.12); }
+    }
+    @keyframes lorr-hero-twinkle {
+      0%, 23%, 73%, 100% { transform: var(--hero-star-rest, scale(.93) rotate(-6deg)); }
+      49% { transform: var(--hero-star-peak, scale(1.13) rotate(10deg)); }
+    }
+    @keyframes lorr-hero-orbit { to { stroke-dashoffset: -12; } }
+    @keyframes lorr-hero-orbit-sweep { to { stroke-dashoffset: -120; } }
+    @keyframes lorr-hero-celebrate {
+      0% { transform: scale(0); }
+      38% { transform: translate(calc(var(--x) * .65), calc(var(--y) * .65)) rotate(23deg) scale(1); }
+      100% { transform: translate(var(--x), var(--y)) rotate(40deg) scale(0); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .hero-art {
+        --hero-board-start: translateY(12px) scale(.93);
+        --hero-board-bounce: translateY(-3px) scale(1.006);
+        --hero-board-settle: translateY(1px);
+        --hero-board-hop: translateY(-6px) scale(1.014);
+        --hero-ring-start: scaleY(0);
+        --hero-slot-start: scaleX(0);
+        --hero-slot-bounce: scaleX(1.03);
+        --hero-slot-settle: none;
+        --hero-bolt-start: scale(.88);
+        --hero-bolt-hop: translateY(-5px);
+        --hero-bolt-settle: none;
+        --hero-smile-start: scale(.88);
+        --hero-smile-rest: none;
+        --hero-smile-hop: translateY(-4px);
+        --hero-star-rest: scale(.95);
+        --hero-star-peak: scale(1.05);
+      }
+      .hero-art :is(.ground, .confetti) { animation: none; }
+      .hero-art .orbit-accent { display: none; }
+      .hero-art .orbit { animation-duration: 12s; }
+    }
+  </style>
+  <ellipse class="ground" cx="489" cy="642" rx="411" ry="35" fill="#202122" opacity=".9"/>
+  <use class="orbit" href="#lorr-hero-orbit" fill="none" stroke="#8264c4" stroke-width="4" opacity=".6"/>
+  <use class="orbit-accent" href="#lorr-hero-orbit" fill="none" stroke="#6844ae" stroke-width="6" stroke-linecap="round"/>
+  <g clip-path="url(#lorr-hero-board-clip)">
+    <g class="board" stroke="#202122" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="skewX(-6)">
+        <rect x="195" y="156" width="604" height="478" rx="37" fill="#66d5e5" stroke-width="9"/>
+        <rect x="181" y="132" width="604" height="478" rx="37" fill="#fff7e6" stroke-width="9"/>
+        <path d="M185 217h596" fill="none" stroke-width="8"/>
+        <path d="M201 212h564" fill="none" stroke="#d3b4ff" stroke-width="8"/>
+        <rect x="225" y="250" width="513" height="318" rx="19" fill="#fffdf8" stroke="#395ed0" stroke-width="7"/>
+        <path d="M225 314h513m-513 64h513m-513 64h513m-513 64h513M328 250v318m103-318v318m102-318v318m103-318v318" fill="none" stroke="#395ed0" stroke-width="5"/>
+        <g stroke-width="4">
+          <rect class="slot" style="--delay:.52s" x="236" y="454" width="82" height="41" rx="11" fill="#66d5e5"/>
+          <rect class="slot" style="--delay:.62s" x="339" y="325" width="82" height="41" rx="11" fill="#d3b4ff"/>
+          <rect class="slot" style="--delay:.71s" x="339" y="390" width="82" height="41" rx="11" fill="#ffcc36"/>
+          <rect class="slot" style="--delay:.8s" x="442" y="518" width="184" height="40" rx="11" fill="#ffcc36"/>
+          <rect class="slot" style="--delay:.9s" x="544" y="325" width="82" height="41" rx="11" fill="#adf0c8"/>
+          <rect class="slot" style="--delay:.99s" x="646" y="390" width="82" height="41" rx="11" fill="#d3b4ff"/>
+        </g>
+        <path class="check" d="m454 410 19 17 35-38" fill="none" stroke="#268159" stroke-width="12"/>
+        <g fill="#202122" stroke="none">
+          <ellipse cx="258" cy="159" rx="30" ry="21"/><ellipse cx="407" cy="159" rx="30" ry="21"/>
+          <ellipse cx="557" cy="159" rx="30" ry="21"/><ellipse cx="707" cy="159" rx="30" ry="21"/>
+        </g>
+        <g fill="none" stroke-width="29">
+          <path class="ring" style="--delay:.21s" d="M256 153C224 86 287 46 299 101"/>
+          <path class="ring" style="--delay:.27s" d="M405 153C373 86 436 46 448 101"/>
+          <path class="ring" style="--delay:.33s" d="M555 153C523 86 586 46 598 101"/>
+          <path class="ring" style="--delay:.39s" d="M705 153C673 86 736 46 748 101"/>
+        </g>
+        <g fill="none" stroke="#36d6bd" stroke-width="17">
+          <path class="ring" style="--delay:.21s" d="M256 153C224 86 287 46 299 101"/>
+          <path class="ring" style="--delay:.27s" d="M405 153C373 86 436 46 448 101"/>
+          <path class="ring" style="--delay:.33s" d="M555 153C523 86 586 46 598 101"/>
+          <path class="ring" style="--delay:.39s" d="M705 153C673 86 736 46 748 101"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="sticker bolt" stroke="#202122" stroke-width="9" stroke-linejoin="round">
+    <g class="sticker bolt-float">
+      <path d="m79 279 95-1-38 77 58-4-128 143 37-106-58 3z" fill="#202122" transform="translate(7 9)"/>
+      <path d="m79 279 95-1-38 77 58-4-128 143 37-106-58 3z" fill="#ff7950"/>
+    </g>
+  </g>
+  <g class="sticker smile">
+    <g class="sticker smile-float">
+      <circle cx="785" cy="538" r="116" fill="#202122"/>
+      <circle cx="775" cy="526" r="116" fill="#d3b4ff" stroke="#202122" stroke-width="9"/>
+      <g fill="none" stroke="#202122" stroke-width="13" stroke-linecap="round">
+        <path d="M712 502q17-31 38 0"/>
+        <path class="wink" d="M800 502q21-31 38 0"/>
+      </g>
+      <path d="M731 542q44 17 88 0c-5 34-25 52-44 52s-39-18-44-52Z" fill="#202122"/>
+      <circle cx="698" cy="538" r="11" fill="#ff9ebe"/><circle cx="850" cy="538" r="11" fill="#ff9ebe"/>
+    </g>
+  </g>
+  <g stroke="#202122" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path class="sparkle" style="--delay:-1s" d="M830 83c8 44 20 55 58 64-38 10-51 23-58 66-8-43-22-56-59-66 37-9 51-20 59-64Z" fill="#ffcc36"/>
+    <path class="sparkle" style="--delay:-2s" d="m119 158 9 21 22 8-22 9-9 22-9-22-22-9 22-8z" fill="#adf0c8"/>
+    <path class="sparkle" style="--delay:-.4s" d="m903 338 7 17 17 7-17 7-7 17-7-17-17-7 17-7z" fill="#fff7e6"/>
+  </g>
+  <g fill="#ffcc36" stroke="#202122" stroke-width="3">
+    <circle class="confetti" style="--x:-65px;--y:-78px" cx="251" cy="250" r="8"/>
+    <rect class="confetti" style="--x:90px;--y:-65px" x="645" y="248" width="14" height="14" rx="4" fill="#adf0c8"/>
+    <circle class="confetti" style="--x:98px;--y:63px" cx="688" cy="384" r="9" fill="#d3b4ff"/>
+    <rect class="confetti" style="--x:-105px;--y:71px" x="246" y="474" width="15" height="15" rx="4" fill="#ff7950"/>
+  </g>
+</svg>

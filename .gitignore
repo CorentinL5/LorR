@@ -15,5 +15,16 @@ test.*
 # Node.js
 node_modules/
 
-# Local stats and share links
+# Local settings and application data
 /var/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.pem
+*.key
+*.pfx
+*.p12

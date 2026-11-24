@@ -16,7 +16,7 @@ if (is_string($path)) {
 }
 
 if ($local && $route
-    && preg_match('~^/(?:sw\.js|assets/[\w-]+\.(?:ico|png|svg|webp)|scripts/[\w-]+\.js|styles/[\w-]+\.css)$~D', $route)
+    && preg_match('~^/(?:sw\.js|assets/[\w-]+\.(?:gif|ico|png|svg|webp)|scripts/[\w-]+\.js|styles/[\w-]+\.css)$~D', $route)
     && is_file(__DIR__ . $route)
 ) {
     return false;
@@ -29,6 +29,7 @@ $redirects = [
     '/planning.php' => '/planning',
     '/planning/' => '/planning',
     '/stats/' => '/stats',
+    '/soutenir/' => '/soutenir',
     '/api-planning.php' => '/api/planning',
     '/api/planning/' => '/api/planning',
 ];
@@ -39,6 +40,15 @@ if (isset($redirects[$route])) {
     header('Location: ' . $location, true, 308);
     exit;
 }
+
+if (in_array($route, ['/idees', '/idees/'], true)
+    && in_array($_SERVER['REQUEST_METHOD'] ?? '', ['GET', 'HEAD'], true)
+) {
+    header('Location: ' . $base . '/soutenir', true, 302);
+    exit;
+}
+
+require __DIR__ . '/server/site-url.php';
 
 if ($route !== null && str_starts_with($route, '/p/')) {
     require __DIR__ . '/server/planning-links.php';
@@ -70,8 +80,32 @@ switch ($route) {
         $usage = siteUsage();
         require __DIR__ . '/views/stats.php';
         break;
+    case '/soutenir':
+        require __DIR__ . '/views/soutenir.php';
+        break;
+    case '/robots.txt':
+        header('Content-Type: text/plain; charset=UTF-8');
+        echo "User-agent: *\nDisallow: {$base}/api/\n";
+        $publicUrl = publicSiteUrl($base);
+        if ($publicUrl !== '') {
+            echo 'Sitemap: ' . $publicUrl . "/sitemap.xml\n";
+        }
+        break;
+    case '/sitemap.xml':
+        header('Content-Type: application/xml; charset=UTF-8');
+        $publicUrl = publicSiteUrl($base);
+        echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
+        echo "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n";
+        if ($publicUrl !== '') {
+            foreach (LORR_PUBLIC_PAGES as $page) {
+                echo '  <url><loc>' . htmlspecialchars($publicUrl . $page, ENT_XML1, 'UTF-8') . "</loc></url>\n";
+            }
+        }
+        echo "</urlset>\n";
+        break;
     case '/manifest.webmanifest':
         header('Content-Type: application/manifest+json; charset=UTF-8');
+        header('Cache-Control: no-cache');
         readfile(__DIR__ . '/manifest.webmanifest');
         break;
     case '/api/planning':
@@ -83,6 +117,9 @@ switch ($route) {
         break;
     case '/api/stats/course-clicks':
         require __DIR__ . '/server/course-clicks.php';
+        break;
+    case '/api/stats/github':
+        require __DIR__ . '/server/github-stats.php';
         break;
     default:
         http_response_code(404);

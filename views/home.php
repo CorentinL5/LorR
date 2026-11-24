@@ -1,21 +1,10 @@
-<?php
-$linkedinUrl = trim(getenv('LORR_LINKEDIN_URL') ?: '');
-$hasLinkedin = filter_var($linkedinUrl, FILTER_VALIDATE_URL) !== false
-    && preg_match('~\Ahttps://(?:[a-z0-9-]+\.)?linkedin\.com/(?:in/|messaging/).+\z~i', $linkedinUrl) === 1;
-$ideaUrl = $hasLinkedin ? $linkedinUrl : 'https://github.com/CorentinL5/LorR/issues/new';
-?>
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-BE">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#fcf8ef">
-    <title>LorR · Crée ton emploi du temps étudiant</title>
-    <meta name="description" content="Crée ton emploi du temps étudiant depuis Hyperplanning. Choisis tes formations et tes cours, puis ouvre ton planning en liste ou en calendrier.">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="LorR · Ton emploi du temps étudiant à ta façon">
-    <meta property="og:description" content="Choisis tes cours Hyperplanning et retrouve ton planning étudiant avec un lien.">
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" sizes="any">
+    <?php require __DIR__ . '/site-meta.php'; ?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -37,7 +26,7 @@ $ideaUrl = $hasLinkedin ? $linkedinUrl : 'https://github.com/CorentinL5/LorR/iss
                 </div>
                 <a class="home-guide-link" href="#comment-ca-marche">Comment ça marche</a>
             </div>
-            <img class="hero-art" src="assets/planning-hero.webp" alt="" width="960" height="720" fetchpriority="high">
+            <?php readfile(__DIR__ . '/../assets/planning-hero.svg'); ?>
         </section>
 
         <section id="comment-ca-marche" class="home-guide" aria-labelledby="guide-title">
@@ -48,20 +37,14 @@ $ideaUrl = $hasLinkedin ? $linkedinUrl : 'https://github.com/CorentinL5/LorR/iss
                 <li><h3>Coche tes cours</h3><p>Sélectionne les cours et les groupes que tu suis.</p></li>
                 <li><h3>Ouvre ton planning</h3><p>Consulte toutes les séances publiées en liste, par semaine ou par mois.</p></li>
             </ol>
-            <p class="home-save">Garde ton planning sur cet appareil ou copie son lien pour le rouvrir ailleurs. Aucun compte à créer.</p>
+            <p class="home-save">Garde ton planning sur cet appareil, copie son lien pour le rouvrir ailleurs ou exporte-le au format ICS. Aucun compte à créer.</p>
         </section>
 
-        <section id="proposer-une-idee" class="panel home-idea" aria-labelledby="idea-title">
-            <div class="panel-body">
-                <div>
-                    <h2 id="idea-title">Proposer une idée</h2>
-                    <p>Une fonction te manque ou tu as repéré un bug ?</p>
-                </div>
-                <a class="button button-blue" href="<?= htmlspecialchars($ideaUrl, ENT_QUOTES, 'UTF-8') ?>" rel="noreferrer">
-                    <?= $hasLinkedin ? 'Écrire sur LinkedIn' : 'Proposer sur GitHub' ?> <span aria-hidden="true">↗</span>
-                </a>
-            </div>
+        <section class="home-guide" aria-labelledby="sources-title">
+            <h2 id="sources-title">Quels horaires peux-tu ajouter ?</h2>
+            <p>LorR utilise les horaires que ton établissement publie dans son espace invité Hyperplanning, aussi appelé PRONOTE Campus. Le créateur prend en charge la Haute École en Hainaut (HEH) en Belgique. Utilise le lien invité de l’année en cours.</p>
         </section>
+
     </main>
     <?php require __DIR__ . '/site-footer.php'; ?>
 </body>

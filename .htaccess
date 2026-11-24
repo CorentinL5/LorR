@@ -1,3 +1,4 @@
 RewriteEngine On
-RewriteRule ^(?:sw\.js|assets/[\w-]+\.(?:ico|png|svg|webp)|scripts/[\w-]+\.js|styles/[\w-]+\.css)$ - [END]
+RewriteRule ^(?:\.git(?:ignore|modules|attributes)?|\.env(?:\.[^/]*)?|var|server|views|node_modules)(?:/|$) - [F,END,NC]
+RewriteRule ^(?:sw\.js|assets/[\w-]+\.(?:gif|ico|png|svg|webp)|scripts/[\w-]+\.js|styles/[\w-]+\.css)$ - [END]
 RewriteRule ^ index.php [END]

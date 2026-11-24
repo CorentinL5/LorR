@@ -7,6 +7,6 @@
         <a id="go-home" href="./"<?= $route === '/' ? ' aria-current="page"' : '' ?>>Accueil</a>
         <a href="planning"<?= $route === '/planning' ? ' aria-current="page"' : '' ?>>Planning</a>
         <a href="stats"<?= $route === '/stats' ? ' aria-current="page"' : '' ?>>Statistiques</a>
-        <a href="./#proposer-une-idee">Proposer une idée</a>
+        <a href="soutenir"<?= $route === '/soutenir' ? ' aria-current="page"' : '' ?>>Soutenir</a>
     </nav>
 </header>

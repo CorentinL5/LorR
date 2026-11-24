@@ -4,9 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#fcf8ef">
-    <title>Créateur de planning · LorR</title>
+    <?php require __DIR__ . '/site-meta.php'; ?>
     <meta name="robots" content="noindex, follow">
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" sizes="any">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -56,16 +55,22 @@
             <div class="hero-copy">
                 <h1>Ton planning,<br><span>à ta façon.</span></h1>
                 <p>Choisis les cours, TP et labos que tu suis. Retrouve ton emploi du temps avec un seul lien.</p>
+                <?php if (!hasPlanningReader()): ?>
+                    <p>La lecture des nouveaux horaires est indisponible sur cet hébergement. Tu peux consulter les horaires sur Hyperplanning.</p>
+                <?php endif; ?>
                 <form id="source-form">
                     <label for="source-url">Lien invité Hyperplanning</label>
                     <div class="source-actions">
-                        <input id="source-url" type="url" name="url" required placeholder="https://…/invite" autocomplete="url">
+                        <input id="source-url" type="url" name="url" required placeholder="https://…/invite" autocomplete="url" aria-describedby="source-example">
                         <button type="submit" class="button button-yellow" disabled>Ajouter le lien <span aria-hidden="true">↗</span></button>
                         <button id="cancel-source" type="button" class="text-button" hidden>Revenir aux formations</button>
                     </div>
+                    <small class="source-example" id="source-example">
+                        Exemple HEH <a href="https://hehplanning2026.umons.ac.be/invite" target="_blank" rel="noopener noreferrer">https://hehplanning2026.umons.ac.be/invite</a>
+                    </small>
                 </form>
             </div>
-            <img class="hero-art" src="assets/planning-hero.webp" alt="" width="960" height="720" fetchpriority="high">
+            <?php readfile(__DIR__ . '/../assets/planning-hero.svg'); ?>
         </section>
 
         <section class="panel step-panel" id="formation-step" aria-labelledby="formation-title" hidden>
@@ -134,12 +139,24 @@
             </header>
             <div class="panel-body">
                 <div class="planning-toolbar">
-                    <p id="schedule-count"></p>
+                    <div>
+                        <p id="schedule-count"></p>
+                        <p id="schedule-freshness" hidden><span id="schedule-freshness-label"></span> <time id="schedule-fetched-at"></time></p>
+                    </div>
                     <div class="step-actions">
-                        <button id="edit-courses" type="button" class="button button-light">Modifier mes cours</button>
-                        <button id="save-planning" type="button" class="button button-green" disabled>Enregistrer</button>
-                        <button id="export-planning" type="button" class="button button-light" disabled>Télécharger le .ics</button>
-                        <button id="copy-planning" type="button" class="button button-yellow" disabled>Copier mon lien <span aria-hidden="true">↗</span></button>
+                        <button id="save-planning" type="button" class="button button-light" disabled>Enregistrer</button>
+                        <details id="share-planning" class="share-actions">
+                            <summary class="button button-yellow">Partager <span aria-hidden="true">▾</span></summary>
+                            <div class="share-options">
+                                <button id="copy-planning" type="button" class="button button-light" disabled>Copier mon lien</button>
+                                <button id="export-planning" type="button" class="button button-light" aria-describedby="ics-warning" disabled>Télécharger le .ics</button>
+                                <p id="ics-warning" class="ics-warning" hidden>
+                                    <strong>Horaires non actualisés via ICS.</strong><br>
+                                    Tu utilises le fichier à tes risques.<br>
+                                    Confirme tes horaires sur Hyperplanning ou ici.
+                                </p>
+                            </div>
+                        </details>
                     </div>
                 </div>
                 <p id="link-status" class="status" role="status"></p>

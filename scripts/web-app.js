@@ -43,3 +43,39 @@ if ('serviceWorker' in navigator) {
         // The site and its existing browser cache can work without a worker.
     });
 }
+
+const heroArt = document.querySelector('svg.hero-art');
+if (heroArt && typeof heroArt.getAnimations === 'function') {
+    let heroOnScreen = !('IntersectionObserver' in window);
+    let heroStarted = false;
+    let heroObserver;
+
+    const startVisibleHero = () => {
+        if (heroStarted || !heroOnScreen || document.hidden) {
+            return;
+        }
+        heroStarted = true;
+        heroObserver?.disconnect();
+        document.removeEventListener('visibilitychange', startVisibleHero);
+
+        const entrance = [];
+        for (const animation of heroArt.getAnimations({subtree: true})) {
+            animation.currentTime = 0;
+            animation.play();
+            if (animation.effect.getTiming().iterations === 1) {
+                entrance.push(animation.finished);
+            }
+        }
+        Promise.allSettled(entrance).then(() => heroArt.classList.add('hero-entered'));
+    };
+
+    if ('IntersectionObserver' in window) {
+        heroObserver = new IntersectionObserver(([entry]) => {
+            heroOnScreen = entry.isIntersecting && entry.intersectionRatio >= 0.12;
+            startVisibleHero();
+        }, {threshold: 0.12});
+        heroObserver.observe(heroArt);
+    }
+    document.addEventListener('visibilitychange', startVisibleHero);
+    startVisibleHero();
+}

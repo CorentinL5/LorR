@@ -1,12 +1,13 @@
 <?php
 $labels = [
-    'home' => ['Chargements de l’accueil', 'Accueil'],
-    'planner' => ['Ouvertures du créateur', 'Créateur'],
-    'reads' => ['Demandes d’horaires', 'Horaires'],
-    'courses' => ['Cours chargés', 'Cours'],
-    'distinct_courses' => ['Cours différents', 'Distincts'],
-    'sources' => ['Liens invités distincts', 'Liens'],
-    'clicks' => ['Clics sur des cours', 'Clics'],
+    'home' => ['Chargements de l’accueil', 'Accueil', 'Nombre de chargements de la page d’accueil. Les visites répétées sont incluses.'],
+    'planner' => ['Ouvertures du créateur', 'Créateur', 'Nombre de chargements de la page qui permet de créer un planning.'],
+    'reads' => ['Demandes d’horaires', 'Horaires', 'Nombre de demandes reçues pour charger les horaires d’une ou plusieurs formations, y compris lorsque LorR utilise son cache.'],
+    'courses' => ['Cours chargés', 'Cours', 'Dans chaque réponse et chaque formation, LorR compte une fois chaque combinaison matière, groupe et type de cours, même si elle a plusieurs séances.'],
+    'sessions' => ['Séances chargées', 'Séances', 'LorR compte chaque séance renvoyée pour chaque formation, même si elle vient du cache. Les fériés et les vacances sont exclus.'],
+    'distinct_courses' => ['Cours différents', 'Distincts', 'Une matière compte une seule fois par lien invité au total, et une fois par jour dans le tableau. Les groupes et les types de cours sont regroupés.'],
+    'sources' => ['Liens invités distincts', 'Liens', 'Un lien invité Hyperplanning compte une seule fois au total, et une fois par jour où son catalogue est chargé.'],
+    'clicks' => ['Clics sur des cours', 'Clics', 'Nombre de clics qui ouvrent le détail d’un cours, déclarés par le navigateur.'],
 ];
 $today = usageDay();
 ?>
@@ -16,9 +17,7 @@ $today = usageDay();
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#fcf8ef">
-    <title>Statistiques · LorR</title>
-    <meta name="description" content="Consulte les compteurs publics d’utilisation de LorR.">
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" sizes="any">
+    <?php require __DIR__ . '/site-meta.php'; ?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -37,11 +36,18 @@ $today = usageDay();
                 <?php if ($usage === null): ?>
                     <p>Les statistiques sont momentanément indisponibles.</p>
                 <?php else: ?>
-                    <p>Les liens invités et les matières d’un même espace Hyperplanning comptent une fois au total et une fois par jour de chargement.</p>
                     <dl class="stats-totals" aria-label="Totaux">
-                        <?php foreach ($labels as $metric => [$label]): ?>
+                        <?php foreach ($labels as $metric => [$label, , $description]): ?>
                             <div class="stats-total">
-                                <dt><?= $label ?></dt>
+                                <dt>
+                                    <?= $label ?>
+                                    <details class="stat-info" name="stats-explanations">
+                                        <summary aria-label="Comprendre la statistique <?= $label ?>">
+                                            <span class="stat-info-mark" aria-hidden="true"></span>
+                                        </summary>
+                                        <p><?= $description ?></p>
+                                    </details>
+                                </dt>
                                 <dd><?= number_format($usage['total'][$metric] ?? 0, 0, ',', ' ') ?></dd>
                             </div>
                         <?php endforeach; ?>

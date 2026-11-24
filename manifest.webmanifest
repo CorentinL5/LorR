@@ -7,6 +7,9 @@
     "start_url": "./",
     "scope": "./",
     "display": "standalone",
+    "launch_handler": {
+        "client_mode": "navigate-existing"
+    },
     "background_color": "#fcf8ef",
     "theme_color": "#fcf8ef",
     "icons": [

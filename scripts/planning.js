@@ -27,14 +27,18 @@ const noticeCount = document.getElementById('notice-count');
 const noticeChoices = document.getElementById('notice-choices');
 const createButton = document.getElementById('create-planning');
 const scheduleCount = document.getElementById('schedule-count');
-const editCourses = document.getElementById('edit-courses');
+const scheduleFreshness = document.getElementById('schedule-freshness');
+const scheduleFreshnessLabel = document.getElementById('schedule-freshness-label');
+const scheduleFetchedAt = document.getElementById('schedule-fetched-at');
 const stepIndicators = document.querySelectorAll('.steps li');
 const stepButtons = document.querySelectorAll('.steps [data-step]');
 const stepPanels = ['link-step', 'formation-step', 'course-panel', 'my-planning'].map(id => document.getElementById(id));
 const dayList = document.getElementById('planning-days');
 const copyButton = document.getElementById('copy-planning');
+const sharePlanning = document.getElementById('share-planning');
 const saveButton = document.getElementById('save-planning');
 const exportButton = document.getElementById('export-planning');
+const icsWarning = document.getElementById('ics-warning');
 const linkStatus = document.getElementById('link-status');
 const linkFallback = document.getElementById('link-fallback');
 const linkInput = document.getElementById('planning-address');
@@ -42,6 +46,9 @@ const preferenceKey = 'lorr-hyperplanning';
 const alphabetic = new Intl.Collator('fr-BE', {numeric: true});
 const formationNames = new Intl.ListFormat('fr-BE');
 const noticeDate = new Intl.DateTimeFormat('fr-BE', {dateStyle: 'medium', timeZone: 'UTC'});
+const scheduleFetchDate = new Intl.DateTimeFormat('fr-BE', {
+    dateStyle: 'long', timeStyle: 'short', timeZone: 'Europe/Brussels',
+});
 const planningView = createPlanningView(dayList, element, courseKey, recordCourseClick);
 
 let sources;
@@ -348,7 +355,6 @@ function setBusy(value, lock = value) {
     sourceForm.querySelector('button').disabled = lock;
     document.getElementById('cancel-source').disabled = lock;
     loadButton.disabled = lock || !selections.size;
-    editCourses.disabled = lock;
     countCourses();
 }
 
@@ -468,21 +474,46 @@ function activeEvents() {
     return events.filter(event => selections.has(selectionKey(event.url, event.formation)));
 }
 
-function selectedPlanningSessions() {
-    return uniqueSessions(activeEvents().filter(event =>
+function selectedPlanningEvents() {
+    return activeEvents().filter(event =>
         event.notice ? !hiddenNotices.has(noticeKey(event)) : selectedCourses.has(courseKey(event))
-    ), courseKey);
+    );
+}
+
+function renderScheduleFreshness(selectedEvents) {
+    scheduleFreshness.hidden = true;
+    let oldest = Infinity;
+    let newest = 0;
+    for (const {fetchedAt} of selectedEvents) {
+        if (!Number.isInteger(fetchedAt) || fetchedAt <= 0) {
+            return;
+        }
+        oldest = Math.min(oldest, fetchedAt);
+        newest = Math.max(newest, fetchedAt);
+    }
+    const date = new Date(oldest * 1000);
+    if (!Number.isFinite(date.getTime())) {
+        return;
+    }
+    scheduleFreshnessLabel.textContent = oldest === newest
+        ? 'Horaires récupérés le' : 'Horaires les plus anciens récupérés le';
+    scheduleFetchedAt.dateTime = date.toISOString();
+    scheduleFetchedAt.textContent = scheduleFetchDate.format(date);
+    scheduleFreshness.hidden = false;
 }
 
 function renderDays() {
-    const sessions = selectedPlanningSessions();
+    const selectedEvents = selectedPlanningEvents();
+    const sessions = uniqueSessions(selectedEvents, courseKey);
     exportButton.disabled = !sessions.length;
+    icsWarning.hidden = exportButton.disabled;
     const markers = planningView.show(sessions);
     const count = sessions.filter(event => !event.notice).length;
     scheduleCount.textContent = [
         count ? count + (count === 1 ? ' séance' : ' séances') : '',
         markers ? markers + (markers === 1 ? ' repère' : ' repères') : '',
     ].filter(Boolean).join(' · ');
+    renderScheduleFreshness(selectedEvents);
     if (!sessions.length && !activeRequest) {
         const placeholder = element('div', '', 'empty-planning');
         const icon = element('span', '✦', 'empty-icon');
@@ -796,9 +827,9 @@ async function loadSchedule(retry = false) {
         if (formations.length) {
             sources.set(url, [...new Set([...formations, ...sources.get(url)])]);
         }
-        for (const {formation, events: schedule} of schedules) {
+        for (const {formation, events: schedule, fetchedAt} of schedules) {
             const key = selectionKey(url, formation);
-            displayed.set(key, schedule.map(event => ({...event, formation, url})));
+            displayed.set(key, schedule.map(event => ({...event, formation, url, fetchedAt})));
         }
     }
 
@@ -1037,7 +1068,7 @@ saveButton.addEventListener('click', () => {
 });
 
 exportButton.addEventListener('click', () => {
-    const sessions = selectedPlanningSessions();
+    const sessions = uniqueSessions(selectedPlanningEvents(), courseKey);
     const file = new Blob([planningCalendarFile(sessions)], {type: 'text/calendar;charset=utf-8'});
     const address = URL.createObjectURL(file);
     const download = document.createElement('a');
@@ -1075,6 +1106,11 @@ copyButton.addEventListener('click', async () => {
     }
     copyButton.disabled = false;
     if (copied) {
+        const restoreFocus = sharePlanning.open && sharePlanning.contains(document.activeElement);
+        sharePlanning.open = false;
+        if (restoreFocus) {
+            sharePlanning.querySelector('summary').focus({preventScroll: true});
+        }
         linkStatus.textContent = address === portableLink ? 'Lien complet copié.' : 'Lien court copié !';
     } else {
         linkInput.value = address;
@@ -1082,6 +1118,18 @@ copyButton.addEventListener('click', async () => {
         linkInput.focus();
         linkInput.select();
         linkStatus.textContent = 'Sélectionne et copie ce lien.';
+    }
+});
+
+document.addEventListener('click', event => {
+    if (sharePlanning.open && !sharePlanning.contains(event.target)) {
+        sharePlanning.open = false;
+    }
+});
+sharePlanning.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && sharePlanning.open) {
+        sharePlanning.open = false;
+        sharePlanning.querySelector('summary').focus();
     }
 });
 
@@ -1121,7 +1169,6 @@ for (const button of stepButtons) {
 document.getElementById('add-source').addEventListener('click', () => goToStep(1));
 document.getElementById('cancel-source').addEventListener('click', () => goToStep(2));
 document.getElementById('edit-formations').addEventListener('click', () => goToStep(2));
-editCourses.addEventListener('click', () => goToStep(3));
 loadButton.addEventListener('click', () => goToStep(3));
 retryButton.addEventListener('click', () => loadSchedule(true));
 createButton.addEventListener('click', () => goToStep(4));

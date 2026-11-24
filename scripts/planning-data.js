@@ -321,7 +321,9 @@ function browserPlanningResult(url, cache, errors = [], warning = '') {
     return {
         url,
         formations: cache.catalogue?.data ?? [],
-        schedules: [...cache.schedules].map(([formation, entry]) => ({formation, events: entry.data})),
+        schedules: [...cache.schedules].map(([formation, entry]) => ({
+            formation, events: entry.data, fetchedAt: entry.fetchedAt,
+        })),
         errors,
         warning,
     };
@@ -329,14 +331,15 @@ function browserPlanningResult(url, cache, errors = [], warning = '') {
 
 function rememberPlanningResult(cache, url, result) {
     const now = Date.now();
-    function remember(key, stored, data, maxAge, cacheMaxAge) {
+    function remember(key, stored, data, maxAge, cacheMaxAge, fetchedAt) {
         if (!Array.isArray(data)) {
             return stored;
         }
         const fresh = Number.isFinite(maxAge) ? maxAge : 0;
         const retained = Number.isFinite(cacheMaxAge) ? cacheMaxAge : fresh;
-        const entry = {data, expires: now + fresh * 1000, keepUntil: now + retained * 1000};
-        if (stored && stored.keepUntil > entry.keepUntil) {
+        const entry = {data, expires: now + fresh * 1000, keepUntil: now + retained * 1000, fetchedAt};
+        const hasDifferentFetchDates = stored?.fetchedAt && fetchedAt && stored.fetchedAt !== fetchedAt;
+        if (stored && (hasDifferentFetchDates ? stored.fetchedAt > fetchedAt : stored.keepUntil > entry.keepUntil)) {
             return stored;
         }
         if (retained > 0) {
@@ -348,9 +351,9 @@ function rememberPlanningResult(cache, url, result) {
     if (result.catalogueCacheMaxAge !== 0) {
         cache.catalogue = remember(url, cache.catalogue, result.formations, result.catalogueMaxAge, result.catalogueCacheMaxAge);
     }
-    for (const {formation, events, maxAge, cacheMaxAge} of result.schedules || []) {
+    for (const {formation, events, maxAge, cacheMaxAge, fetchedAt} of result.schedules || []) {
         const key = JSON.stringify([url, formation]);
-        const entry = remember(key, cache.schedules.get(formation), events, maxAge, cacheMaxAge);
+        const entry = remember(key, cache.schedules.get(formation), events, maxAge, cacheMaxAge, fetchedAt);
         if (entry) {
             cache.schedules.set(formation, entry);
         }
