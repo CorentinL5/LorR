@@ -406,6 +406,12 @@ de lien pris en charge par le navigateur et par LorR.
 [`server/usage.php`](server/usage.php) agrège les compteurs en heure de
 Bruxelles. [`views/stats.php`](views/stats.php) affiche le total et les
 sept derniers jours. Les boutons d’information décrivent les unités.
+[`views/stats-overview.php`](views/stats-overview.php) affiche les chiffres
+clés et les barres à partir de ces totaux. Le donut additionne les
+chargements de l’accueil, les ouvertures du créateur, les demandes
+d’horaires et les clics sur les cours. Il représente leur répartition.
+Sélectionner une part ou son libellé isole ce compteur sur les deux
+graphiques. Une seconde sélection rétablit les courbes choisies auparavant.
 [`stats-chart.js`](scripts/stats-chart.js) lit les mêmes valeurs que le
 tableau pour tracer une courbe par compteur. Les cases de la légende
 filtrent les courbes et l’axe vertical s’adapte aux courbes affichées.
@@ -413,7 +419,9 @@ Le graphique horaire utilise les relevés des mêmes sept jours. Les deux
 graphiques partagent la légende et ajustent leur échelle verticale
 indépendamment. PHP fournit les créneaux horaires dans la page. Le
 navigateur les réutilise dans le tableau quand le lecteur change le jour.
-Le paramètre `heure=AAAA-MM-JJ` présélectionne le jour du tableau.
+Un clic sur une date ouvre le tableau horaire de ce jour. Un clic sur un
+point horaire affiche ses valeurs sous le graphique. Le paramètre
+`heure=AAAA-MM-JJ` présélectionne le jour du tableau.
 Les relevés utilisent des clés UTC pour séparer les deux occurrences d’une
 heure au passage à l’heure d’hiver. La page affiche les créneaux en heure
 de Bruxelles jusqu’à l’heure en cours. La zone grisée et les tirets

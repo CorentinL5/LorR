@@ -52,40 +52,25 @@ foreach ($usage === null ? [] : array_reverse($recentDays, true) as $date => $da
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/planning.css?v=4">
+    <link rel="stylesheet" href="styles/planning.css?v=6">
     <?php require __DIR__ . '/web-app-head.php'; ?>
     <?php if ($usage !== null): ?>
-        <script src="scripts/stats-chart.js?v=4" defer></script>
+        <script src="scripts/stats-chart.js?v=5" defer></script>
     <?php endif; ?>
 </head>
 <body>
     <?php require __DIR__ . '/site-header.php'; ?>
     <main class="shell">
-        <section class="panel stats-panel" aria-labelledby="stats-title">
-            <header class="panel-header panel-purple">
-                <span class="panel-icon" aria-hidden="true">▦</span>
+        <section class="stats-dashboard" aria-labelledby="stats-title">
+            <header class="stats-dashboard-header">
                 <h1 id="stats-title">Statistiques de LorR</h1>
+                <?php if ($usage !== null): ?><p>Totaux enregistrés</p><?php endif; ?>
             </header>
-            <div class="panel-body">
+            <div>
                 <?php if ($usage === null): ?>
                     <p>Les statistiques sont momentanément indisponibles.</p>
                 <?php else: ?>
-                    <dl class="stats-totals" aria-label="Totaux">
-                        <?php foreach ($labels as $metric => [$label, , $description]): ?>
-                            <div class="stats-total">
-                                <dt>
-                                    <?= $label ?>
-                                    <details class="stat-info" name="stats-explanations">
-                                        <summary aria-label="Comprendre la statistique <?= $label ?>">
-                                            <span class="stat-info-mark" aria-hidden="true"></span>
-                                        </summary>
-                                        <p><?= $description ?></p>
-                                    </details>
-                                </dt>
-                                <dd><?= number_format($usage['total'][$metric] ?? 0, 0, ',', ' ') ?></dd>
-                            </div>
-                        <?php endforeach; ?>
-                    </dl>
+                    <?php require __DIR__ . '/stats-overview.php'; ?>
                     <h2 id="recent-usage-title">Les 7 derniers jours</h2>
                     <div id="usage-chart" class="stats-chart" hidden>
                         <fieldset class="stats-chart-legend">
@@ -98,10 +83,10 @@ foreach ($usage === null ? [] : array_reverse($recentDays, true) as $date => $da
                             <?php endforeach; ?>
                         </fieldset>
                         <h3 id="usage-chart-caption">Par jour</h3>
-                        <svg class="stats-chart-plot" role="img" aria-labelledby="usage-chart-caption" aria-describedby="usage-chart-description">
-                            <desc id="usage-chart-description">Les valeurs exactes figurent dans le tableau sous le graphique.</desc>
+                        <svg class="stats-chart-plot" role="group" aria-labelledby="usage-chart-caption">
                             <g></g>
                         </svg>
+                        <p id="usage-day-selection" class="stats-chart-selection" role="status">Choisis une date pour afficher ses valeurs et ouvrir le détail horaire.</p>
                         <p class="stats-chart-empty" role="status" hidden>Sélectionne un compteur pour afficher sa courbe.</p>
                         <div class="stats-hour-chart">
                             <h3 id="usage-hour-chart-caption">Par heure</h3>
@@ -109,6 +94,7 @@ foreach ($usage === null ? [] : array_reverse($recentDays, true) as $date => $da
                             <svg id="usage-hour-chart" class="stats-chart-plot" role="img" aria-labelledby="usage-hour-chart-caption" aria-describedby="usage-hour-chart-description" hidden>
                                 <g></g>
                             </svg>
+                            <p id="usage-hour-selection" class="stats-chart-selection" role="status" hidden>Choisis une heure pour afficher ses valeurs.</p>
                             <p id="usage-hour-unavailable" class="stats-chart-unavailable" role="status" hidden>Aucun relevé horaire sur cette période.</p>
                             <p id="usage-hour-gaps" class="stats-hour-note" hidden>La zone grisée précède le début des relevés horaires.</p>
                         </div>
