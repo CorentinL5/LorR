@@ -77,6 +77,7 @@ function cachedPlanningResponse(string $url, ?array $catalogue, array $schedules
         $results[] = [
             'formation' => (string) $name,
             'events' => $entry['data'],
+            'fetchedAt' => $entry['time'],
             'maxAge' => cacheLifetime($entry, SCHEDULE_TTL, $now),
             'cacheMaxAge' => cacheLifetime($entry, PLANNING_CACHE_RETENTION, $now),
         ];
@@ -114,6 +115,10 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     header('Allow: POST');
     respond(405, ['error' => 'Cette adresse accepte uniquement les requêtes POST.']);
 }
+$contentType = strtolower(trim(explode(';', $_SERVER['CONTENT_TYPE'] ?? '', 2)[0]));
+if ($contentType !== 'application/json') {
+    respond(415, ['error' => 'Envoie la demande d’horaires au format JSON.']);
+}
 
 require __DIR__ . '/server/planning-sources.php';
 $body = file_get_contents('php://input', false, null, 0, MAX_PLANNING_REQUEST_BYTES + 1);
@@ -139,7 +144,7 @@ if (!is_array($requested) || !array_is_list($requested)) {
     respond(400, ['error' => 'La liste des formations est invalide.']);
 }
 foreach ($requested as $name) {
-    if (!is_string($name) || trim($name) === '' || strlen($name) > 300 || preg_match('/[\x00-\x1f\x7f]/', $name)) {
+    if (!validPlanningFormation($name)) {
         respond(400, ['error' => 'La formation est invalide.']);
     }
 }
@@ -180,8 +185,8 @@ if (!cacheLifetime($catalogue, CATALOGUE_TTL, $requestTime) || $missing) {
     $received = [];
     $failureStatus = 503;
     $failure = 'La lecture d’Hyperplanning est indisponible pour le moment.';
-    if (!function_exists('proc_open')) {
-        $failure = 'Cet hébergement doit autoriser PHP à lancer le lecteur Hyperplanning.';
+    if (!hasPlanningReader()) {
+        $failure = 'La lecture en direct est indisponible sur cet hébergement. Consulte les horaires sur Hyperplanning.';
     } else {
         if (function_exists('set_time_limit')) {
             set_time_limit(115);
@@ -190,11 +195,14 @@ if (!cacheLifetime($catalogue, CATALOGUE_TTL, $requestTime) || $missing) {
         if ($streaming) {
             $command[] = '--heartbeat';
         }
+        $workerEnvironment = getenv();
+        unset($workerEnvironment['LORR_IDEAS_MODERATOR_PASSWORD'], $workerEnvironment['LORR_IDEAS_MODERATOR_HASH']);
         $process = @proc_open(
             $command,
             [0 => ['pipe', 'r'], 1 => ['pipe', 'w'], 2 => ['file', PHP_OS_FAMILY === 'Windows' ? 'NUL' : '/dev/null', 'a']],
             $pipes,
-            __DIR__
+            __DIR__,
+            $workerEnvironment
         );
         if (is_resource($process)) {
             fclose($pipes[0]);
@@ -259,11 +267,13 @@ if (!cacheLifetime($catalogue, CATALOGUE_TTL, $requestTime) || $missing) {
 }
 
 $loadedCourses = 0;
+$loadedSessions = 0;
 $subjects = [];
 foreach ($schedules as $schedule) {
     $courses = [];
     foreach ($schedule['data'] as $event) {
         if (empty($event['notice'])) {
+            $loadedSessions++;
             $course = serialize([$event['subject'], $event['group'] ?? '', $event['type'] ?? '']);
             $courses[$course] = true;
             $subject = trim(preg_replace('/\s+/u', ' ', $event['subject']) ?? $event['subject']);
@@ -274,8 +284,8 @@ foreach ($schedules as $schedule) {
     }
     $loadedCourses += count($courses);
 }
-if ($catalogue !== null || $loadedCourses > 0) {
-    recordUsage($loadedCourses ? ['courses' => $loadedCourses] : [], [
+if ($catalogue !== null || $loadedSessions > 0) {
+    recordUsage($loadedSessions ? ['courses' => $loadedCourses, 'sessions' => $loadedSessions] : [], [
         'sources' => $catalogue !== null ? [hash('sha256', $url)] : [],
         'distinct_courses' => array_map(static fn ($subject): string => hash('sha256', $url . "\n" . $subject), array_keys($subjects)),
     ]);

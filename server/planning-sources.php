@@ -5,6 +5,17 @@ const HEH_PLANNING_HOST_PATTERN = 'hehplanning[0-9]{4}\.umons\.ac\.be';
 const MAX_FORMATIONS_PER_SOURCE = 100;
 const MAX_PLANNING_REQUEST_BYTES = 32768;
 
+function hasPlanningReader(): bool
+{
+    return function_exists('proc_open') && is_file(__DIR__ . '/read.cjs');
+}
+
+function validPlanningFormation(mixed $formation): bool
+{
+    return is_string($formation) && trim($formation) !== '' && strlen($formation) <= 300
+        && !preg_match('/[\x00-\x1f\x7f]/', $formation);
+}
+
 function extraPlanningHosts(): array
 {
     $hosts = preg_split('/\s*,\s*/', strtolower(trim(getenv('LORR_PLANNING_HOSTS') ?: '')), -1, PREG_SPLIT_NO_EMPTY);
