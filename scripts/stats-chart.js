@@ -7,30 +7,23 @@ const usageHourUnavailable = document.getElementById('usage-hour-unavailable');
 const usageHourGaps = document.getElementById('usage-hour-gaps');
 const usageDaySelection = document.getElementById('usage-day-selection');
 const usageHourSelection = document.getElementById('usage-hour-selection');
-const usageHourDay = document.getElementById('stats-hour-day');
-const usageHourDetails = document.getElementById('usage-hour-details');
-const usageHourData = document.getElementById('usage-hours');
-const usageHours = usageHourData ? JSON.parse(usageHourData.textContent) : {};
+const usageQuarterData = document.getElementById('usage-quarters');
 const usageNumber = new Intl.NumberFormat('fr-BE');
 const usageDays = [...usageTable.querySelectorAll('tbody tr')].reverse().map(row => {
     const date = row.querySelector('time');
     return {
         label: date.dataset.short ?? date.textContent.slice(0, 5),
         date: date.textContent,
-        key: date.dateTime,
         current: date.hasAttribute('aria-current'),
         counts: [...row.querySelectorAll('[data-count]')].map(cell => Number(cell.dataset.count)),
     };
 });
-const usageHourlyPeriods = Object.entries(usageHours).flatMap(([date, hours]) => {
-    const day = date.slice(8, 10) + '/' + date.slice(5, 7);
-    return hours.map(hour => ({
-        day,
-        label: hour.label.slice(0, 5),
-        date: day + ' · ' + hour.label,
-        counts: hour.counts,
-    }));
-}).slice(-36);
+const usageRecentPeriods = (usageQuarterData ? JSON.parse(usageQuarterData.textContent) : []).map(({day, label, counts}) => ({
+    day,
+    label: label.slice(0, 5),
+    date: day + ' · ' + label,
+    counts,
+}));
 const usageSeries = [...usageChart.querySelectorAll('.stats-chart-legend [data-metric]')].map((item, index) => ({
     metric: item.dataset.metric,
     label: item.title,
@@ -38,11 +31,11 @@ const usageSeries = [...usageChart.querySelectorAll('.stats-chart-legend [data-m
     checkbox: item.querySelector('input'),
     index,
 }));
-const firstRecordedHour = usageHourlyPeriods.findIndex(period => period.counts !== null);
+const firstRecordedQuarter = usageRecentPeriods.findIndex(period => period.counts !== null);
 const dayHint = usageDaySelection.textContent;
 const hourHint = usageHourSelection.textContent;
-let selectedDay = usageHourDetails.open ? usageDays.findIndex(day => day.key === usageHourDay.value) : -1;
-let selectedHour = -1;
+let selectedDay = -1;
+let selectedQuarter = -1;
 
 function visibleUsageSeries() {
     return usageSeries.filter(series => series.checkbox.checked);
@@ -59,7 +52,7 @@ function usageSvg(tag, attributes = {}, text = '') {
 
 function drawUsagePlot(plot, periods, selected, hourly = false) {
     const plotContent = plot.querySelector('g');
-    const showPlot = selected.length > 0 && (!hourly || firstRecordedHour >= 0);
+    const showPlot = selected.length > 0 && (!hourly || firstRecordedQuarter >= 0);
     plot.toggleAttribute('hidden', !showPlot);
     if (!showPlot) {
         plotContent.replaceChildren();
@@ -93,8 +86,8 @@ function drawUsagePlot(plot, periods, selected, hourly = false) {
     const y = count => Math.round(bottom - (bottom - top) * count / limit);
     const content = document.createDocumentFragment();
 
-    if (hourly && firstRecordedHour > 0) {
-        const collectedFrom = (x(firstRecordedHour - 1) + x(firstRecordedHour)) / 2;
+    if (hourly && firstRecordedQuarter > 0) {
+        const collectedFrom = (x(firstRecordedQuarter - 1) + x(firstRecordedQuarter)) / 2;
         content.append(usageSvg('rect', {
             x: left, y: top, width: collectedFrom - left, height: bottom - top, fill: '#ede7df',
         }));
@@ -114,10 +107,10 @@ function drawUsagePlot(plot, periods, selected, hourly = false) {
             usageSvg('text', {class: 'stats-chart-label', x: left - 8, y: position, 'text-anchor': 'end', 'dominant-baseline': 'middle'}, usageNumber.format(value)),
         );
     }
-    const hourTickSpacing = width < 360 ? 18 : width < 640 ? 12 : 6;
+    const quarterTickSpacing = width < 360 ? 72 : width < 640 ? 48 : 24;
     for (const [index, period] of periods.entries()) {
         const endTick = hourly && (index === 0 || index === lastIndex);
-        if (hourly && !endTick && index % hourTickSpacing !== 0) continue;
+        if (hourly && !endTick && index % quarterTickSpacing !== 0) continue;
         const label = endTick ? period.day + ' · ' + period.label : period.label;
         const anchor = endTick ? (index === 0 ? 'start' : 'end') : 'middle';
         const position = x(index);
@@ -167,7 +160,7 @@ function drawUsagePlot(plot, periods, selected, hourly = false) {
 
 function showUsageSelection(plot, output, period, index, hint, hourly = false) {
     const selected = visibleUsageSeries();
-    output.hidden = !selected.length || (hourly && firstRecordedHour < 0);
+    output.hidden = !selected.length || (hourly && firstRecordedQuarter < 0);
     const values = period ? selected.map(({shortLabel, index}) => shortLabel + ' ' + usageNumber.format(period.counts[index])) : [];
     const message = period ? [period.date, ...values].join(' · ') : hint;
     if (output.textContent !== message) output.textContent = message;
@@ -183,67 +176,39 @@ function showDaySelection() {
 }
 
 function showHourSelection() {
-    showUsageSelection(usageHourPlot, usageHourSelection, usageHourlyPeriods[selectedHour], selectedHour, hourHint, true);
+    showUsageSelection(usageHourPlot, usageHourSelection, usageRecentPeriods[selectedQuarter], selectedQuarter, hourHint, true);
 }
 
 function drawUsageCharts() {
     const selected = visibleUsageSeries();
     usageEmpty.hidden = selected.length > 0;
     drawUsagePlot(usagePlot, usageDays, selected);
-    usageHourUnavailable.hidden = firstRecordedHour >= 0;
-    usageHourGaps.hidden = firstRecordedHour <= 0 || !selected.length;
-    drawUsagePlot(usageHourPlot, usageHourlyPeriods, selected, true);
+    usageHourUnavailable.hidden = firstRecordedQuarter >= 0;
+    usageHourGaps.hidden = firstRecordedQuarter <= 0 || !selected.length;
+    drawUsagePlot(usageHourPlot, usageRecentPeriods, selected, true);
     showDaySelection();
     showHourSelection();
 }
 
-function showHourValues() {
-    const rows = [...usageHours[usageHourDay.value]].reverse().map(hour => {
-        const row = document.createElement('tr');
-        const title = document.createElement('th');
-        title.scope = 'row';
-        title.textContent = hour.label;
-        if (hour.current) title.setAttribute('aria-current', 'time');
-        row.append(title);
-        for (const {index} of usageSeries) {
-            const cell = row.insertCell();
-            cell.textContent = hour.counts === null ? '—' : usageNumber.format(hour.counts[index]);
-        }
-        return row;
-    });
-    usageHourDetails.querySelector('tbody').replaceChildren(...rows);
-}
-
-usageHourDay.addEventListener('change', () => {
-    selectedDay = usageDays.findIndex(day => day.key === usageHourDay.value);
-    showDaySelection();
-    showHourValues();
-});
-showHourValues();
-usageHourDetails.hidden = false;
-
-function openUsageDay(target) {
+function selectUsageDay(target) {
     selectedDay = Number(target.dataset.period);
-    usageHourDay.value = usageDays[selectedDay].key;
-    usageHourDetails.open = true;
     showDaySelection();
-    showHourValues();
 }
 
 usagePlot.addEventListener('click', event => {
     const target = event.target.closest('[data-period]');
-    if (target) openUsageDay(target);
+    if (target) selectUsageDay(target);
 });
 usagePlot.addEventListener('keydown', event => {
     if (event.target.matches('[data-period]') && (event.key === 'Enter' || event.key === ' ')) {
         event.preventDefault();
-        openUsageDay(event.target);
+        selectUsageDay(event.target);
     }
 });
 usageHourPlot.addEventListener('click', event => {
     const target = event.target.closest('[data-period]');
     if (target) {
-        selectedHour = Number(target.dataset.period);
+        selectedQuarter = Number(target.dataset.period);
         showHourSelection();
     }
 });

@@ -5,6 +5,8 @@ require_once __DIR__ . '/storage.php';
 
 const USAGE_METRICS = ['home', 'planner', 'reads', 'courses', 'sessions', 'clicks'];
 const USAGE_DISTINCT_TABLES = ['sources' => 'usage_sources', 'distinct_courses' => 'usage_courses'];
+const USAGE_QUARTER_SECONDS = 900;
+const USAGE_QUARTER_WINDOW = 144;
 
 function usageNow(): DateTimeImmutable
 {
@@ -21,6 +23,21 @@ function usageHourKey(int $timestamp): string
     return 'hour:' . gmdate('Y-m-d\TH:00\Z', $timestamp);
 }
 
+function usageQuarterStart(int $timestamp): int
+{
+    return intdiv($timestamp, USAGE_QUARTER_SECONDS) * USAGE_QUARTER_SECONDS;
+}
+
+function usageFirstQuarter(int $timestamp): int
+{
+    return usageQuarterStart($timestamp) - (USAGE_QUARTER_WINDOW - 1) * USAGE_QUARTER_SECONDS;
+}
+
+function usageQuarterKey(int $timestamp): string
+{
+    return 'quarter:' . gmdate('Y-m-d\TH:i\Z', $timestamp);
+}
+
 function emptyUsageCounts(): array
 {
     return array_fill_keys(USAGE_METRICS, 0);
@@ -30,8 +47,9 @@ function readUsageSnapshot(string $directory): ?array
 {
     $file = $directory . '/lorr-stats.json';
     $emptySets = array_fill_keys(array_keys(USAGE_DISTINCT_TABLES), []);
+    $emptyPeriods = ['hourly' => [], 'quarters' => []];
     if (!is_file($file)) {
-        return ['total' => emptyUsageCounts(), 'daily' => [], 'hourly' => []] + $emptySets;
+        return ['total' => emptyUsageCounts(), 'daily' => []] + $emptyPeriods + $emptySets;
     }
     $content = @file_get_contents($file);
     if ($content === false) {
@@ -43,7 +61,7 @@ function readUsageSnapshot(string $directory): ?array
     }
 
     $data['total'] += emptyUsageCounts();
-    return $data + ['hourly' => []] + $emptySets;
+    return $data + $emptyPeriods + $emptySets;
 }
 
 function openUsageDatabase(string $directory): PDO
@@ -80,13 +98,17 @@ function openUsageDatabase(string $directory): PDO
         $database->beginTransaction();
         try {
             $insert = $database->prepare('INSERT OR IGNORE INTO usage_counts (day, metric, amount) VALUES (?, ?, ?)');
-            foreach (['total' => $snapshot['total']] + $snapshot['daily'] + $snapshot['hourly'] as $day => $counts) {
+            $countsByPeriod = ['total' => $snapshot['total']] + $snapshot['daily'] + $snapshot['hourly'] + $snapshot['quarters'];
+            foreach ($countsByPeriod as $day => $counts) {
                 foreach (USAGE_METRICS as $metric) {
                     $insert->execute([$day, $metric, $counts[$metric] ?? 0]);
                 }
             }
             if (isset($snapshot['hourlySince'])) {
                 $insert->execute(['hourly-start', 'timestamp', $snapshot['hourlySince']]);
+            }
+            if (isset($snapshot['quartersSince'])) {
+                $insert->execute(['quarters-start', 'timestamp', $snapshot['quartersSince']]);
             }
             foreach (USAGE_DISTINCT_TABLES as $metric => $table) {
                 $insertDistinct = $database->prepare("INSERT OR IGNORE INTO $table (day, fingerprint) VALUES (?, ?)");
@@ -110,8 +132,9 @@ function readUsageDatabase(PDO $database): array
 {
     $now = usageNow();
     $cutoff = usageDay($now)->modify('-6 days');
-    $period = "day IN ('total', 'hourly-start') OR day BETWEEN :cutoff AND :today
-        OR day BETWEEN :firstHour AND :lastHour";
+    $timestamp = $now->getTimestamp();
+    $period = "day IN ('total', 'hourly-start', 'quarters-start') OR day BETWEEN :cutoff AND :today
+        OR day BETWEEN :firstHour AND :lastHour OR day BETWEEN :firstQuarter AND :lastQuarter";
     $queries = ["SELECT day, metric, amount FROM usage_counts WHERE $period"];
     foreach (USAGE_DISTINCT_TABLES as $metric => $table) {
         $queries[] = "SELECT day, '$metric', COUNT(*) FROM $table WHERE $period GROUP BY day";
@@ -121,9 +144,11 @@ function readUsageDatabase(PDO $database): array
         'cutoff' => $cutoff->format('Y-m-d'),
         'today' => $now->format('Y-m-d'),
         'firstHour' => usageHourKey($cutoff->getTimestamp()),
-        'lastHour' => usageHourKey($now->getTimestamp()),
+        'lastHour' => usageHourKey($timestamp),
+        'firstQuarter' => usageQuarterKey(usageFirstQuarter($timestamp)),
+        'lastQuarter' => usageQuarterKey(usageQuarterStart($timestamp)),
     ]);
-    $data = ['total' => emptyUsageCounts(), 'daily' => [], 'hourly' => []];
+    $data = ['total' => emptyUsageCounts(), 'daily' => [], 'hourly' => [], 'quarters' => []];
     foreach ($query as $row) {
         $day = $row['day'];
         $metric = $row['metric'];
@@ -131,8 +156,14 @@ function readUsageDatabase(PDO $database): array
             $data['total'][$metric] = (int) $row['amount'];
         } elseif ($day === 'hourly-start') {
             $data['hourlySince'] = (int) $row['amount'];
+        } elseif ($day === 'quarters-start') {
+            $data['quartersSince'] = (int) $row['amount'];
         } else {
-            $period = str_starts_with($day, 'hour:') ? 'hourly' : 'daily';
+            $period = match (true) {
+                str_starts_with($day, 'hour:') => 'hourly',
+                str_starts_with($day, 'quarter:') => 'quarters',
+                default => 'daily',
+            };
             $data[$period][$day] ??= emptyUsageCounts();
             $data[$period][$day][$metric] = (int) $row['amount'];
         }
@@ -144,35 +175,43 @@ function recordDatabaseUsage(PDO $database, array $counts, array $distinct): voi
 {
     $now = usageNow();
     $date = $now->format('Y-m-d');
-    $hour = intdiv($now->getTimestamp(), 3600) * 3600;
-    $bucket = usageHourKey($hour);
+    $timestamp = $now->getTimestamp();
+    $hour = intdiv($timestamp, 3600) * 3600;
+    $quarter = usageQuarterStart($timestamp);
+    $hourKey = usageHourKey($hour);
+    $quarterKey = usageQuarterKey($quarter);
     $cutoff = usageDay($now)->modify('-6 days');
     $firstHour = usageHourKey($cutoff->getTimestamp());
+    $firstQuarter = usageQuarterKey(usageFirstQuarter($timestamp));
+    $expiredBuckets = "(day >= 'hour:' AND day < ?) OR (day >= 'quarter:' AND day < ?)";
     $database->beginTransaction();
     try {
-        $start = $database->prepare("INSERT OR IGNORE INTO usage_counts VALUES ('hourly-start', 'timestamp', ?)");
-        $start->execute([$hour]);
+        $start = $database->prepare(
+            "INSERT INTO usage_counts VALUES ('hourly-start', 'timestamp', ?), ('quarters-start', 'timestamp', ?)
+                ON CONFLICT (day, metric) DO UPDATE SET amount = MIN(amount, excluded.amount)"
+        );
+        $start->execute([$hour, $quarter]);
         if ($counts) {
             $update = $database->prepare(
-                'INSERT INTO usage_counts (day, metric, amount) VALUES (?, ?, ?), (?, ?, ?), (?, ?, ?)
+                'INSERT INTO usage_counts (day, metric, amount) VALUES (?, ?, ?), (?, ?, ?), (?, ?, ?), (?, ?, ?)
                     ON CONFLICT (day, metric) DO UPDATE SET amount = amount + excluded.amount'
             );
             foreach ($counts as $metric => $amount) {
-                $update->execute(['total', $metric, $amount, $date, $metric, $amount, $bucket, $metric, $amount]);
+                $update->execute(['total', $metric, $amount, $date, $metric, $amount, $hourKey, $metric, $amount, $quarterKey, $metric, $amount]);
             }
         }
-        $database->prepare("DELETE FROM usage_counts WHERE day >= 'hour:' AND day < ?")->execute([$firstHour]);
+        $database->prepare("DELETE FROM usage_counts WHERE $expiredBuckets")->execute([$firstHour, $firstQuarter]);
         foreach ($distinct as $metric => $fingerprints) {
             if (!$fingerprints) {
                 continue;
             }
             $table = USAGE_DISTINCT_TABLES[$metric];
-            $insert = $database->prepare("INSERT OR IGNORE INTO $table (day, fingerprint) VALUES (?, ?), (?, ?), (?, ?)");
+            $insert = $database->prepare("INSERT OR IGNORE INTO $table (day, fingerprint) VALUES (?, ?), (?, ?), (?, ?), (?, ?)");
             foreach ($fingerprints as $fingerprint) {
-                $insert->execute(['total', $fingerprint, $date, $fingerprint, $bucket, $fingerprint]);
+                $insert->execute(['total', $fingerprint, $date, $fingerprint, $hourKey, $fingerprint, $quarterKey, $fingerprint]);
             }
-            $prune = $database->prepare("DELETE FROM $table WHERE day < ? OR (day >= 'hour:' AND day < ?)");
-            $prune->execute([$cutoff->format('Y-m-d'), $firstHour]);
+            $prune = $database->prepare("DELETE FROM $table WHERE day < ? OR $expiredBuckets");
+            $prune->execute([$cutoff->format('Y-m-d'), $firstHour, $firstQuarter]);
         }
         $database->commit();
     } catch (RuntimeException $error) {
@@ -199,11 +238,19 @@ function recordFileUsage(string $directory, array $counts, array $distinct): voi
 
         $now = usageNow();
         $date = $now->format('Y-m-d');
-        $hour = intdiv($now->getTimestamp(), 3600) * 3600;
-        $bucket = usageHourKey($hour);
+        $timestamp = $now->getTimestamp();
+        $hour = intdiv($timestamp, 3600) * 3600;
+        $quarter = usageQuarterStart($timestamp);
+        $periodKeys = ['daily' => $date, 'hourly' => usageHourKey($hour), 'quarters' => usageQuarterKey($quarter)];
         $cutoff = usageDay($now)->modify('-6 days');
         $data['hourlySince'] ??= $hour;
-        foreach (['daily' => $cutoff->format('Y-m-d'), 'hourly' => usageHourKey($cutoff->getTimestamp())] as $period => $first) {
+        $data['quartersSince'] ??= $quarter;
+        $earliest = [
+            'daily' => $cutoff->format('Y-m-d'),
+            'hourly' => usageHourKey($cutoff->getTimestamp()),
+            'quarters' => usageQuarterKey(usageFirstQuarter($timestamp)),
+        ];
+        foreach ($earliest as $period => $first) {
             foreach (array_keys($data[$period]) as $key) {
                 if ($key < $first) {
                     unset($data[$period][$key]);
@@ -213,18 +260,21 @@ function recordFileUsage(string $directory, array $counts, array $distinct): voi
                 }
             }
         }
-        $data['daily'][$date] = ($data['daily'][$date] ?? []) + emptyUsageCounts();
-        $data['hourly'][$bucket] = ($data['hourly'][$bucket] ?? []) + emptyUsageCounts();
+        foreach ($periodKeys as $period => $key) {
+            $data[$period][$key] = ($data[$period][$key] ?? []) + emptyUsageCounts();
+            foreach ($counts as $metric => $amount) {
+                $data[$period][$key][$metric] += $amount;
+            }
+        }
         foreach ($counts as $metric => $amount) {
-            $data['daily'][$date][$metric] += $amount;
-            $data['hourly'][$bucket][$metric] += $amount;
             $data['total'][$metric] += $amount;
         }
         foreach ($distinct as $metric => $fingerprints) {
             foreach ($fingerprints as $fingerprint) {
                 $data[$metric]['total'][$fingerprint] = true;
-                $data[$metric][$date][$fingerprint] = true;
-                $data[$metric][$bucket][$fingerprint] = true;
+                foreach ($periodKeys as $key) {
+                    $data[$metric][$key][$fingerprint] = true;
+                }
             }
         }
 
@@ -287,7 +337,7 @@ function siteUsage(): ?array
         }
         foreach (array_keys(USAGE_DISTINCT_TABLES) as $metric) {
             $data['total'][$metric] = count($data[$metric]['total'] ?? []);
-            foreach (['daily', 'hourly'] as $period) {
+            foreach (['daily', 'hourly', 'quarters'] as $period) {
                 foreach (array_keys($data[$period]) as $key) {
                     $data[$period][$key][$metric] = count($data[$metric][$key] ?? []);
                 }

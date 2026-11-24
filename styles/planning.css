@@ -1466,15 +1466,6 @@ button.calendar-date[aria-pressed=true] { background: var(--yellow); }
     font-size: .85rem;
 }
 .stats-hour-note, .stats-chart-unavailable { margin-top: .3rem; }
-.stats-hour-details { margin-top: .8rem; }
-.stats-hour-details summary { cursor: pointer; font-weight: 700; margin-bottom: .5rem; }
-.stats-hour-details select {
-    padding: .25rem .4rem;
-    border: 1px solid var(--ink);
-    border-radius: 6px;
-    background: var(--white);
-    color: var(--ink);
-}
 
 .stats-chart-legend {
     display: flex;

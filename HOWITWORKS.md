@@ -412,22 +412,16 @@ chargements de l’accueil, les ouvertures du créateur, les demandes
 d’horaires et les clics sur les cours. Il représente leur répartition.
 Sélectionner une part ou son libellé isole ce compteur sur les deux
 graphiques. Une seconde sélection rétablit les courbes choisies auparavant.
-[`stats-chart.js`](scripts/stats-chart.js) lit les mêmes valeurs que le
-tableau pour tracer une courbe par compteur. Les cases de la légende
-filtrent les courbes et l’axe vertical s’adapte aux courbes affichées.
-Le graphique horaire affiche les 36 derniers créneaux, y compris l’heure
-en cours. Les deux graphiques partagent la légende et ajustent leur
-échelle verticale indépendamment. PHP fournit les créneaux des sept
-derniers jours pour que le tableau horaire reste disponible pour chaque
-date.
-Un clic sur une date ouvre le tableau horaire de ce jour. Un clic sur un
-point horaire affiche ses valeurs sous le graphique. Le paramètre
-`heure=AAAA-MM-JJ` présélectionne le jour du tableau.
-Les relevés utilisent des clés UTC pour séparer les deux occurrences d’une
-heure au passage à l’heure d’hiver. La page affiche les créneaux en heure
-de Bruxelles jusqu’à l’heure en cours. La zone grisée et les tirets
-représentent les heures sans historique. Un zéro indique un créneau suivi
-sans événement pour ce compteur.
+[`stats-chart.js`](scripts/stats-chart.js) lit le tableau des sept jours
+et les relevés fournis par PHP pour les 36 dernières heures. Le second
+graphique affiche 144 créneaux de 15 min, dont le créneau en cours.
+Les deux graphiques partagent la légende et ajustent leur échelle verticale
+indépendamment. Un clic sur une date ou un créneau affiche ses valeurs
+sous le graphique.
+Les relevés utilisent des clés UTC pour séparer les créneaux répétés au
+passage à l’heure d’hiver. La page les affiche en heure de Bruxelles.
+La zone grisée indique les créneaux sans historique au quart d’heure.
+Un zéro indique un créneau suivi sans événement pour ce compteur.
 
 | Mesure | Moment et unité |
 | --- | --- |
@@ -435,8 +429,8 @@ sans événement pour ce compteur.
 | Demandes d’horaires | Une demande avec des formations reçue par `/api/planning`, même si PHP sert son cache. |
 | Cours chargés | Une combinaison matière, groupe et type par formation et par réponse. |
 | Séances chargées | Chaque séance renvoyée pour chaque formation, hors repères. |
-| Cours différents | Une matière par URL invitée, comptée une fois au total, par jour et par heure où elle est chargée. |
-| Liens invités distincts | Une URL invitée, comptée une fois au total, par jour et par heure où un catalogue est disponible dans la réponse. |
+| Cours différents | Une matière par URL invitée, comptée une fois au total et dans chaque période où elle est chargée. |
+| Liens invités distincts | Une URL invitée, comptée une fois au total et dans chaque période où un catalogue est disponible dans la réponse. |
 | Clics sur des cours | Nombre d’ouvertures de détails de séance déclaré par le navigateur. |
 
 `recordCourseClick()` cumule au plus 100 clics par envoi et déclenche
@@ -449,10 +443,10 @@ des matières distinctes.
 
 [`storage.php`](server/storage.php) ouvre `LORR_STATS_DIR` ou `var/`
 et détecte SQLite. `usage_counts` mémorise les compteurs par jour et
-par mesure. `usage_sources` et `usage_courses` dédupliquent par
-jour ou par heure et par empreinte. La valeur `total` sert aux agrégats
-historiques. Chaque écriture ajoute le créneau horaire dans la même
-transaction ou sous le même verrou JSON que les compteurs existants.
+par mesure. `usage_sources` et `usage_courses` dédupliquent les empreintes
+par période. La valeur `total` sert aux agrégats historiques. Chaque
+écriture met à jour le jour, l’heure et le quart d’heure en cours avec les
+totaux. Les relevés au quart d’heure expirent après 36 h.
 Les écritures SQLite utilisent une transaction. En mode JSON,
 un verrou protège la lecture et l’écriture. Si SQLite est installé
 après le mode JSON, une base vide importe les compteurs existants.

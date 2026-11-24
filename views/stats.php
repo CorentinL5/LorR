@@ -11,32 +11,26 @@ $labels = [
 ];
 $now = usageNow();
 $today = usageDay($now);
-$currentHour = intdiv($now->getTimestamp(), 3600) * 3600;
 $recentDays = [];
 for ($offset = 0; $offset < 7; $offset++) {
     $day = $today->modify('-' . $offset . ' days');
     $recentDays[$day->format('Y-m-d')] = $day;
 }
-$requestedDay = $_GET['heure'] ?? null;
-$requestedDay = is_string($requestedDay) && isset($recentDays[$requestedDay]) ? $requestedDay : null;
-$selectedDay = $requestedDay ?? $today->format('Y-m-d');
-$hourlySince = $usage['hourlySince'] ?? null;
 $metrics = array_keys($labels);
-$hoursByDay = [];
-foreach ($usage === null ? [] : array_reverse($recentDays, true) as $date => $day) {
-    $start = $day->getTimestamp();
-    $end = min($day->modify('+1 day')->getTimestamp(), $currentHour + 3600);
-    $hoursByDay[$date] = [];
-    for ($hour = $start; $hour < $end; $hour += 3600) {
-        $local = $now->setTimestamp($hour);
+$recentQuarters = [];
+if ($usage !== null) {
+    $quartersSince = $usage['quartersSince'] ?? null;
+    $currentQuarter = usageQuarterStart($now->getTimestamp());
+    for ($quarter = usageFirstQuarter($currentQuarter); $quarter <= $currentQuarter; $quarter += USAGE_QUARTER_SECONDS) {
+        $local = $now->setTimestamp($quarter);
         $label = $local->format('H:i');
-        $repeated = $now->setTimestamp($hour - 3600)->format('H:i') === $label
-            || $now->setTimestamp($hour + 3600)->format('H:i') === $label;
-        $counts = $usage['hourly'][usageHourKey($hour)] ?? [];
-        $hoursByDay[$date][] = [
+        $repeated = $now->setTimestamp($quarter - 3600)->format('H:i') === $label
+            || $now->setTimestamp($quarter + 3600)->format('H:i') === $label;
+        $counts = $usage['quarters'][usageQuarterKey($quarter)] ?? [];
+        $recentQuarters[] = [
+            'day' => $local->format('d/m'),
             'label' => $repeated ? $label . ' (UTC' . $local->format('P') . ')' : $label,
-            'current' => $hour === $currentHour,
-            'counts' => $hourlySince !== null && $hour >= $hourlySince
+            'counts' => $quartersSince !== null && $quarter >= $quartersSince
                 ? array_map(static fn ($metric) => (int) ($counts[$metric] ?? 0), $metrics) : null,
         ];
     }
@@ -52,10 +46,10 @@ foreach ($usage === null ? [] : array_reverse($recentDays, true) as $date => $da
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/planning.css?v=6">
+    <link rel="stylesheet" href="styles/planning.css?v=7">
     <?php require __DIR__ . '/web-app-head.php'; ?>
     <?php if ($usage !== null): ?>
-        <script src="scripts/stats-chart.js?v=6" defer></script>
+        <script src="scripts/stats-chart.js?v=7" defer></script>
     <?php endif; ?>
 </head>
 <body>
@@ -86,17 +80,17 @@ foreach ($usage === null ? [] : array_reverse($recentDays, true) as $date => $da
                         <svg class="stats-chart-plot" role="group" aria-labelledby="usage-chart-caption">
                             <g></g>
                         </svg>
-                        <p id="usage-day-selection" class="stats-chart-selection" role="status">Choisis une date pour afficher ses valeurs et ouvrir le détail horaire.</p>
+                        <p id="usage-day-selection" class="stats-chart-selection" role="status">Choisis une date pour afficher ses valeurs.</p>
                         <p class="stats-chart-empty" role="status" hidden>Sélectionne un compteur pour afficher sa courbe.</p>
                         <div class="stats-hour-chart">
                             <h3 id="usage-hour-chart-caption">Les 36 dernières heures</h3>
-                            <p id="usage-hour-chart-description">Un point par heure · Heure de Bruxelles · Heure en cours incluse</p>
+                            <p id="usage-hour-chart-description">Tranches de 15 min · Heure de Bruxelles</p>
                             <svg id="usage-hour-chart" class="stats-chart-plot" role="img" aria-labelledby="usage-hour-chart-caption" aria-describedby="usage-hour-chart-description" hidden>
                                 <g></g>
                             </svg>
-                            <p id="usage-hour-selection" class="stats-chart-selection" role="status" hidden>Choisis une heure pour afficher ses valeurs.</p>
-                            <p id="usage-hour-unavailable" class="stats-chart-unavailable" role="status" hidden>Aucun relevé horaire sur cette période.</p>
-                            <p id="usage-hour-gaps" class="stats-hour-note" hidden>La zone grisée précède le début des relevés horaires.</p>
+                            <p id="usage-hour-selection" class="stats-chart-selection" role="status" hidden>Choisis un créneau pour afficher ses valeurs.</p>
+                            <p id="usage-hour-unavailable" class="stats-chart-unavailable" role="status" hidden>Aucun relevé au quart d’heure sur cette période.</p>
+                            <p id="usage-hour-gaps" class="stats-hour-note" hidden>La zone grisée précède le début des relevés au quart d’heure.</p>
                         </div>
                     </div>
                     <div id="usage-table" class="stats-table" role="region" aria-label="Valeurs par jour" tabindex="0">
@@ -122,30 +116,7 @@ foreach ($usage === null ? [] : array_reverse($recentDays, true) as $date => $da
                             </tbody>
                         </table>
                     </div>
-                    <details id="usage-hour-details" class="stats-hour-details" <?= $requestedDay !== null ? 'open' : '' ?> hidden>
-                        <summary>Valeurs par heure</summary>
-                        <label for="stats-hour-day">Jour</label>
-                        <select id="stats-hour-day">
-                            <?php foreach ($recentDays as $date => $day): ?>
-                                <option value="<?= $date ?>" <?= $date === $selectedDay ? 'selected' : '' ?>><?= $day == $today ? 'Aujourd’hui' : $day->format('d/m/Y') ?></option>
-                            <?php endforeach; ?>
-                        </select>
-                        <p class="stats-hour-note">Le tiret indique une heure sans historique.</p>
-                        <div class="stats-table" role="region" aria-label="Valeurs par heure" tabindex="0">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Heure</th>
-                                        <?php foreach ($labels as [, $shortLabel]): ?>
-                                            <th scope="col"><?= $shortLabel ?></th>
-                                        <?php endforeach; ?>
-                                    </tr>
-                                </thead>
-                                <tbody></tbody>
-                            </table>
-                        </div>
-                    </details>
-                    <script id="usage-hours" type="application/json"><?= json_encode($hoursByDay, JSON_HEX_TAG | JSON_THROW_ON_ERROR) ?></script>
+                    <script id="usage-quarters" type="application/json"><?= json_encode($recentQuarters, JSON_HEX_TAG | JSON_THROW_ON_ERROR) ?></script>
                 <?php endif; ?>
             </div>
         </section>
