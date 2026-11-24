@@ -476,8 +476,11 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
         const start = weekly ? monday(currentDate) : firstOfMonth(currentDate);
         const firstPeriod = weekly ? monday(firstDate) : firstOfMonth(firstDate);
         const lastPeriod = weekly ? monday(lastDate) : firstOfMonth(lastDate);
+        const todayDate = today();
+        const todayPeriod = weekly ? monday(todayDate) : firstOfMonth(todayDate);
         previous.disabled = start <= firstPeriod;
         next.disabled = start >= lastPeriod;
+        todayButton.disabled = todayPeriod > lastPeriod;
         period.textContent = weekly ? shortDate.formatRange(start, addDays(start, 6)) : monthFormat.format(currentDate);
         weekPicker.hidden = !weekly;
         monthPicker.hidden = weekly;
@@ -491,7 +494,7 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
         viewport.setAttribute('role', 'region');
         viewport.setAttribute('aria-label', weekly ? 'Calendrier de la semaine' : 'Calendrier du mois');
         viewport.style.setProperty('--calendar-height', weekScale.height + 'rem');
-        const todayKey = keyOf(today());
+        const todayKey = keyOf(todayDate);
         viewport.append(weekly ? renderWeek(start, todayKey) : renderMonth(start, todayKey));
         container.append(viewport);
     }
@@ -541,7 +544,7 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
         render();
     });
     todayButton.addEventListener('click', () => {
-        currentDate = today();
+        currentDate = adjust(today());
         render();
     });
 
@@ -559,9 +562,8 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
                 const dates = [...days.keys()];
                 const date = today();
                 const first = dateOf(dates[0]);
-                const last = dateOf(dates.at(-1));
                 firstDate = first < date ? first : date;
-                lastDate = last > date ? last : date;
+                lastDate = dateOf(dates.at(-1));
                 currentDate = adjust(currentDate || date);
                 updateWeekScale();
                 fillPeriodPickers();

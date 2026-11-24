@@ -39,6 +39,7 @@ const sharePlanning = document.getElementById('share-planning');
 const saveButton = document.getElementById('save-planning');
 const exportButton = document.getElementById('export-planning');
 const icsWarning = document.getElementById('ics-warning');
+const laterNoticesOption = document.getElementById('include-later-notices');
 const linkStatus = document.getElementById('link-status');
 const linkFallback = document.getElementById('link-fallback');
 const linkInput = document.getElementById('planning-address');
@@ -58,6 +59,7 @@ let selectedCourseGroups;
 let showAllCourseGroups;
 let reviewSelectedCourses = false;
 let hiddenNotices;
+let includeLaterNotices;
 let legacyHiddenCourses;
 let activeRequest;
 let scheduleRequest;
@@ -103,6 +105,7 @@ function loadLocalChoices(startNew) {
         }));
         showAllCourseGroups = saved?.showAllCourseGroups === true;
         hiddenNotices = new Set(saved?.hiddenNotices);
+        includeLaterNotices = saved?.includeLaterNotices === true;
         created = saved?.created ?? (selectedCourses.size > 0);
         legacyHiddenCourses = selections.size && !saved?.selectedCourses && Array.isArray(saved?.hiddenCourses)
             ? new Set(saved.hiddenCourses)
@@ -114,6 +117,7 @@ function loadLocalChoices(startNew) {
         selectedCourseGroups = new Set();
         showAllCourseGroups = false;
         hiddenNotices = new Set();
+        includeLaterNotices = false;
         legacyHiddenCourses = null;
         created = false;
     }
@@ -129,6 +133,7 @@ function saveChoices() {
             courseGroups: [...selectedCourseGroups],
             showAllCourseGroups,
             hiddenNotices: [...hiddenNotices],
+            includeLaterNotices,
             hiddenCourses: legacyHiddenCourses ? [...legacyHiddenCourses] : undefined,
         }));
     } catch {
@@ -138,10 +143,10 @@ function saveChoices() {
 }
 
 function readPlanningState(state) {
-    if (!Array.isArray(state) || state.length < 3 || state.length > 4) {
+    if (!Array.isArray(state) || state.length < 3 || state.length > 5 || (state.length === 5 && state[4] !== true)) {
         throw new Error('Format du lien invalide.');
     }
-    const [version, formations, picked, excluded = []] = state;
+    const [version, formations, picked, excluded = [], restoredLaterNotices = false] = state;
     if (version !== 1 || !Array.isArray(formations) || !formations.length
         || !Array.isArray(picked) || !picked.length || !Array.isArray(excluded)) {
         throw new Error('Format du lien invalide.');
@@ -186,7 +191,7 @@ function readPlanningState(state) {
         return Array.isArray(fields) && fields.length === 5 && fields.every(value => typeof value === 'string')
             && restoredSources.has(fields[0]);
     }));
-    return {restoredSources, restoredSelections, restoredCourses, restoredNotices};
+    return {restoredSources, restoredSelections, restoredCourses, restoredNotices, restoredLaterNotices};
 }
 
 function planningShareState() {
@@ -202,6 +207,9 @@ function planningShareState() {
     });
     const activeSources = new Set([...selections.values()].map(selection => selection.url));
     const excluded = [...hiddenNotices].filter(key => activeSources.has(JSON.parse(key)[0]));
+    if (includeLaterNotices) {
+        return [1, formations, picked, excluded, true];
+    }
     return excluded.length ? [1, formations, picked, excluded] : [1, formations, picked];
 }
 
@@ -482,9 +490,26 @@ function activeEvents() {
 }
 
 function selectedPlanningEvents() {
-    return activeEvents().filter(event =>
+    const selected = activeEvents().filter(event =>
         event.notice ? !hiddenNotices.has(noticeKey(event)) : selectedCourses.has(courseKey(event))
     );
+    if (includeLaterNotices) {
+        return selected;
+    }
+    const lastCourse = selected.reduce((last, event) => !event.notice && event.date > last ? event.date : last, '');
+    if (!lastCourse) {
+        return selected;
+    }
+    return selected.flatMap(event => {
+        if (!event.notice) {
+            return [event];
+        }
+        const [start, end] = event.period || [event.date, event.date];
+        if (start > lastCourse) {
+            return [];
+        }
+        return [event.allDay && end > lastCourse ? {...event, period: [start, lastCourse]} : event];
+    });
 }
 
 function renderScheduleFreshness(selectedEvents) {
@@ -514,6 +539,7 @@ function renderDays() {
     const sessions = uniqueSessions(selectedEvents, courseKey);
     exportButton.disabled = !sessions.length;
     icsWarning.hidden = exportButton.disabled;
+    laterNoticesOption.checked = includeLaterNotices;
     const markers = planningView.show(sessions);
     const count = sessions.filter(event => !event.notice).length;
     scheduleCount.textContent = [
@@ -992,6 +1018,7 @@ async function restorePlanning() {
             selections = restored.restoredSelections;
             selectedCourses = restored.restoredCourses;
             hiddenNotices = restored.restoredNotices;
+            includeLaterNotices = restored.restoredLaterNotices;
             created = true;
             statusMessage.textContent = '';
         } else {
@@ -1072,6 +1099,13 @@ saveButton.addEventListener('click', () => {
     } catch {
         linkStatus.textContent = 'Impossible de sauvegarder sur cet appareil. Tu peux copier le lien.';
     }
+});
+
+laterNoticesOption.addEventListener('change', () => {
+    includeLaterNotices = laterNoticesOption.checked;
+    linkStatus.textContent = '';
+    saveChoices();
+    renderDays();
 });
 
 exportButton.addEventListener('click', () => {

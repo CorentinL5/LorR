@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/planning.css">
+    <link rel="stylesheet" href="styles/planning.css?v=8">
     <?php require __DIR__ . '/web-app-head.php'; ?>
     <script id="planning-source-config" type="application/json"><?= json_encode([
         'hehHostPattern' => HEH_PLANNING_HOST_PATTERN,
@@ -17,11 +17,11 @@
         'maxFormationsPerSource' => MAX_FORMATIONS_PER_SOURCE,
         'maxRequestBytes' => MAX_PLANNING_REQUEST_BYTES,
     ], JSON_HEX_TAG | JSON_THROW_ON_ERROR) ?></script>
-    <script src="scripts/calendar-view.js" defer></script>
-    <script src="scripts/planning-data.js" defer></script>
+    <script src="scripts/calendar-view.js?v=2" defer></script>
+    <script src="scripts/planning-data.js?v=2" defer></script>
     <script src="scripts/planning-choices.js?v=2" defer></script>
     <script src="scripts/calendar-export.js" defer></script>
-    <script src="scripts/planning.js?v=2" defer></script>
+    <script src="scripts/planning.js?v=3" defer></script>
 </head>
 <body>
     <?php require __DIR__ . '/site-header.php'; ?>
@@ -164,10 +164,16 @@
                     <label for="planning-address">Lien du planning</label>
                     <input id="planning-address" type="url" readonly>
                 </div>
-                <div id="view-options" class="view-options" role="group" aria-label="Affichage du planning" hidden>
-                    <button type="button" data-view="month" aria-pressed="true">Mois</button>
-                    <button type="button" data-view="week" aria-pressed="false">Semaine</button>
-                    <button type="button" data-view="list" aria-pressed="false">Liste</button>
+                <div id="view-options" class="planning-display" hidden>
+                    <div class="view-options" role="group" aria-label="Affichage du planning">
+                        <button type="button" data-view="month" aria-pressed="true">Mois</button>
+                        <button type="button" data-view="week" aria-pressed="false">Semaine</button>
+                        <button type="button" data-view="list" aria-pressed="false">Liste</button>
+                    </div>
+                    <label class="later-notices-option">
+                        <input id="include-later-notices" type="checkbox">
+                        Afficher les congés après mon dernier cours
+                    </label>
                 </div>
                 <div id="calendar-tools" hidden>
                     <div class="calendar-tools">

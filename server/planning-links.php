@@ -63,9 +63,10 @@ function validSharedPlanningState(string $code): bool
 
 function validLegacySharedPlanningState(array $state): bool
 {
-    if (count($state) < 3 || count($state) > 4 || !is_array($state[1]) || !array_is_list($state[1])
+    if (count($state) < 3 || count($state) > 5 || (count($state) === 5 && $state[4] !== true)
+        || !is_array($state[1]) || !array_is_list($state[1])
         || !is_array($state[2]) || !array_is_list($state[2]) || !$state[2]
-        || (count($state) === 4 && (!is_array($state[3]) || !array_is_list($state[3])))) {
+        || (count($state) >= 4 && (!is_array($state[3]) || !array_is_list($state[3])))) {
         return false;
     }
     $hosts = [];
@@ -110,7 +111,8 @@ function validSharedNotice(mixed $fields, int $minimum, int $maximum): bool
 
 function validPackedSharedPlanningState(array $state): bool
 {
-    if (count($state) !== 2 || !is_array($state[1]) || !array_is_list($state[1])
+    if ((count($state) !== 2 && (count($state) !== 3 || $state[2] !== true))
+        || !is_array($state[1]) || !array_is_list($state[1])
         || !$state[1] || count($state[1]) > MAX_PLANNING_SHARE_SOURCES) {
         return false;
     }

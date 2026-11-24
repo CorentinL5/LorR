@@ -280,8 +280,12 @@ ces données pour les listes et le calendrier.
    dans `hiddenNotices`, selon la source, le type, le libellé et la période.
 
 `selectedPlanningEvents()` filtre les événements avant l’affichage
-et l’export. Pour identifier un doublon de séance, `sessionKey()` compare
-la source, la date, les heures et la matière, puis le groupe, la salle,
+et l’export. Par défaut, LorR affiche les repères cochés jusqu’au jour
+du dernier cours sélectionné. Il coupe à cette date les congés qui la
+dépassent. La case **Afficher les congés après mon dernier cours**
+prolonge le planning avec les repères restants. Pour identifier un doublon
+de séance, `sessionKey()` compare la source, la date, les heures et la
+matière, puis le groupe, la salle,
 l’enseignant et le type. Pour un repère, le type de repère remplace ces
 quatre champs. `uniqueSessions()` affiche un seul événement par clé
 et conserve la liste des formations qui l’ont fourni. Les périodes
@@ -357,6 +361,9 @@ incluse dans ce lien.
 2. `packPlanningState()` essaie une version plus compacte, `[2, sources]`.
    Elle range les cours sous leur source, leur formation et leur couple
    groupe et type. Elle remplace les domaines annuels HEH par l’année.
+   Quand l’affichage des congés après le dernier cours est activé, chaque
+   format ajoute `true` en dernière position. Le format `1` inclut alors
+   aussi le tableau des exclusions, même s’il est vide.
 3. `encodePlanningCode()` choisit le plus petit résultat parmi les formats
    disponibles. Le préfixe `b.` indique le JSON en UTF-8 encodé en Base64URL.
    Le préfixe `z.` indique le même encodage après compression Deflate.

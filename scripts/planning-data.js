@@ -64,7 +64,7 @@ function isPlanningFormation(name) {
         && planningTextEncoder.encode(name).length <= 300;
 }
 
-function packPlanningState([, formations, picked, excluded = []]) {
+function packPlanningState([, formations, picked, excluded = [], includeLaterNotices = false]) {
     const sources = new Map();
     const groupsByFormation = formations.map(([host, name]) => {
         const url = 'https://' + host + '/invite';
@@ -93,7 +93,11 @@ function packPlanningState([, formations, picked, excluded = []]) {
         source[2] ??= [];
         source[2].push(first === last ? [kind, subject, first] : [kind, subject, first, last]);
     }
-    return [2, [...sources.values()]];
+    const packed = [2, [...sources.values()]];
+    if (includeLaterNotices) {
+        packed.push(true);
+    }
+    return packed;
 }
 
 function unpackPlanningState(state) {
@@ -101,17 +105,22 @@ function unpackPlanningState(state) {
         return state;
     }
     const [, sources] = state;
-    if (state.length !== 2 || !Array.isArray(sources) || sources.length > planningLinkMaxSources) {
+    if ((state.length !== 2 && (state.length !== 3 || state[2] !== true))
+        || !Array.isArray(sources) || sources.length > planningLinkMaxSources) {
         throw new Error('Sources invalides.');
     }
 
     const unpacked = [1, [], [], []];
+    if (state[2] === true) {
+        unpacked.push(true);
+    }
     const [, formations, picked, excluded] = unpacked;
+    const maxSize = planningLinkMaxBytes + (state[2] === true ? 0 : 3);
     let size = JSON.stringify(unpacked).length;
     function appendRow(list, row) {
         size += planningTextEncoder.encode(JSON.stringify(row)).length + Number(list.length > 0);
         // The legacy form can omit the trailing empty notice array.
-        if (size > planningLinkMaxBytes + 3) {
+        if (size > maxSize) {
             throw new Error('Code trop volumineux.');
         }
         list.push(row);

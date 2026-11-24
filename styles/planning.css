@@ -646,13 +646,39 @@ fieldset { min-inline-size: 0; padding: 0; margin: 0; border: 0; }
     border-color: var(--course-accent);
 }
 
-.view-options {
+.planning-display {
     position: sticky;
     inset-block-start: 0.5rem;
     z-index: 3;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .4rem .75rem;
+    margin: 1rem 0 0.6rem;
+    background: var(--white);
+}
+
+.later-notices-option {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    min-height: 2.5rem;
+    padding: .25rem .35rem;
+    font-size: .875rem;
+    cursor: pointer;
+}
+
+.later-notices-option input {
+    flex-shrink: 0;
+    width: 1rem;
+    height: 1rem;
+    margin: 0;
+    accent-color: var(--ink);
+}
+
+.view-options {
     display: inline-flex;
     gap: 0.25rem;
-    margin: 1rem 0 0.6rem;
     padding: 0.25rem;
     border: var(--border);
     border-radius: 10px;
