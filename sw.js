@@ -1,9 +1,9 @@
 const scope = new URL(self.registration.scope);
 const shellPrefix = 'lorr-app-shell:' + scope.pathname + ':';
-const shellCache = shellPrefix + '26';
+const shellCache = shellPrefix + '27';
 const shellAssets = [
     'styles/planning.css',
-    'scripts/home.js', 'scripts/web-app.js', 'scripts/calendar-view.js', 'scripts/support.js',
+    'scripts/home.js', 'scripts/web-app.js?v=2', 'scripts/calendar-view.js', 'scripts/support.js',
     'scripts/calendar-export.js', 'scripts/planning-choices.js?v=2', 'scripts/planning-data.js', 'scripts/planning.js?v=2',
     'assets/lorr-icon.svg',
     'assets/pwa-192.png', 'assets/pwa-512.png', 'assets/pwa-maskable.png',
