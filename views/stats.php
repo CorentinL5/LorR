@@ -49,7 +49,7 @@ if ($usage !== null) {
     <link rel="stylesheet" href="styles/planning.css?v=7">
     <?php require __DIR__ . '/web-app-head.php'; ?>
     <?php if ($usage !== null): ?>
-        <script src="scripts/stats-chart.js?v=8" defer></script>
+        <script src="scripts/stats-chart.js?v=9" defer></script>
     <?php endif; ?>
 </head>
 <body>
