@@ -104,6 +104,7 @@ variable `LORR_SUPPORT_URL` est absente. Git ignore ce fichier.
 | --- | --- |
 | [README.md](README.md) | Utilisation, avertissements et déploiement |
 | [HOWITWORKS.md](HOWITWORKS.md) | Architecture, diagrammes UML et parcours dans le code |
+| [AUTORISATION.md](AUTORISATION.md) | Accès invité, collecte des horaires et conditions de réutilisation |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Étapes pour travailler avec Corentin dans le dépôt |
 | [SECURITY.md](SECURITY.md) | Canal privé pour signaler une faille |
 | [LICENSE](LICENSE) | Droits sur le code et la documentation |
