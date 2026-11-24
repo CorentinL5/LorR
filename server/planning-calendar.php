@@ -3,9 +3,6 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/planning-cache.php';
 
-const CALENDAR_SCHEDULE_TTL = 600;
-const CALENDAR_RETRY_DELAY = 60;
-
 function calendarPlanningChoices(array $state): array
 {
     $choices = [];
@@ -35,40 +32,27 @@ function calendarPlanningChoices(array $state): array
     return $choices;
 }
 
-function refreshCalendarSchedules(string $url, array $paths, float $deadline): void
+function refreshCalendarSchedules(string $url, array $formations, float $deadline): void
 {
     if (microtime(true) >= $deadline || !hasPhpPlanningReader()) {
         return;
     }
 
-    $directory = planningCacheDirectory();
-    if (!is_dir($directory) && !@mkdir($directory, 0700, true) && !is_dir($directory)) {
-        return;
-    }
-    $lock = @fopen($directory . '/calendar-' . hash('sha256', $url) . '.lock', 'c+');
+    $lock = lockPlanningRefresh($url);
     if ($lock === false) {
         return;
     }
     try {
-        $now = time();
-        if (!flock($lock, LOCK_EX | LOCK_NB) || (int) stream_get_contents($lock, 20) > $now) {
-            return;
-        }
-        $missing = array_keys(array_filter($paths, static fn (string $path): bool =>
-            !cacheLifetime(readCache($path), CALENDAR_SCHEDULE_TTL, $now)
-        ));
-        if (!$missing) {
-            return;
-        }
-        rewind($lock);
-        if (!ftruncate($lock, 0) || fwrite($lock, (string) ($now + CALENDAR_RETRY_DELAY)) === false || !fflush($lock)) {
+        [, $missing] = cachedSchedules($url, $formations);
+        if (!$missing || microtime(true) >= $deadline || !reservePlanningRefresh($lock)) {
             return;
         }
 
+        $directory = planningCacheDirectory();
         require_once __DIR__ . '/guest-planning.php';
-        $result = readGuestPlanning($url, array_map('strval', $missing), static function (): void {},
-            static function (string $formation, array $events) use ($directory, $paths): void {
-                writeCache($directory, $paths[$formation], ['time' => time(), 'data' => $events]);
+        $result = readGuestPlanning($url, $missing, static function (): void {},
+            static function (string $formation, array $events) use ($directory, $url): void {
+                writeCache($directory, cachePath($directory, $url, $formation), ['time' => time(), 'data' => $events]);
             }, $deadline);
         writeCache($directory, cachePath($directory, $url), ['time' => time(), 'data' => $result['formations']]);
     } catch (RuntimeException | JsonException) {
@@ -85,23 +69,12 @@ function calendarPlanningSchedules(array $choices): ?array
     $schedules = [];
     foreach ($choices as $host => $formations) {
         $url = 'https://' . $host . '/invite';
-        $now = time();
-        $missing = [];
-        foreach ($formations as $formation => $courses) {
-            $path = cachePath($directory, $url, (string) $formation);
-            $entry = readCache($path);
-            if ($entry !== null) {
-                $schedules[$host][$formation] = $entry;
-            }
-            if (!cacheLifetime($entry, CALENDAR_SCHEDULE_TTL, $now)) {
-                $missing[$formation] = $path;
-            }
-        }
+        [$schedules[$host], $missing] = cachedSchedules($url, array_map('strval', array_keys($formations)));
         if ($missing) {
             refreshCalendarSchedules($url, $missing, $deadline);
         }
-        foreach ($missing as $formation => $path) {
-            $entry = readCache($path) ?? ($schedules[$host][$formation] ?? null);
+        foreach ($missing as $formation) {
+            $entry = readCache(cachePath($directory, $url, $formation)) ?? ($schedules[$host][$formation] ?? null);
             if ($entry === null) {
                 // An incomplete feed could remove valid events from a subscriber's calendar.
                 return null;
@@ -238,7 +211,7 @@ function servePlanningCalendar(string $id): void
     $choices = calendarPlanningChoices($state);
     $schedules = calendarPlanningSchedules($choices);
     if ($schedules === null) {
-        header('Retry-After: ' . CALENDAR_RETRY_DELAY);
+        header('Retry-After: ' . PLANNING_REFRESH_INTERVAL);
         http_response_code(503);
         return;
     }

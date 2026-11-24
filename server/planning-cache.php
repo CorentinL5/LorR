@@ -2,8 +2,9 @@
 declare(strict_types=1);
 
 const CATALOGUE_TTL = 900;
-const SCHEDULE_TTL = 120;
+const SCHEDULE_TTL = 600;
 const PLANNING_CACHE_RETENTION = 7 * 86400;
+const PLANNING_REFRESH_INTERVAL = 60;
 
 function planningCacheDirectory(): string
 {
@@ -32,6 +33,57 @@ function readCache(string $path): ?array
 function cacheLifetime(?array $entry, int $ttl, int $now): int
 {
     return $entry === null ? 0 : max(0, min($ttl, $entry['time'] + $ttl - $now));
+}
+
+function cachedSchedules(string $url, array $formations): array
+{
+    $directory = planningCacheDirectory();
+    $now = time();
+    $schedules = [];
+    $missing = [];
+    foreach ($formations as $formation) {
+        $entry = readCache(cachePath($directory, $url, $formation));
+        if ($entry !== null) {
+            $schedules[$formation] = $entry;
+        }
+        if (!cacheLifetime($entry, SCHEDULE_TTL, $now)) {
+            $missing[] = $formation;
+        }
+    }
+    return [$schedules, $missing];
+}
+
+/** @return resource|false */
+function lockPlanningRefresh(string $url)
+{
+    $directory = planningCacheDirectory();
+    if (!is_dir($directory) && !@mkdir($directory, 0700, true) && !is_dir($directory)) {
+        return false;
+    }
+    $lock = @fopen($directory . '/refresh-' . hash('sha256', $url) . '.lock', 'c+');
+    if ($lock !== false && !flock($lock, LOCK_EX | LOCK_NB)) {
+        fclose($lock);
+        return false;
+    }
+    return $lock;
+}
+
+function reservePlanningRefresh($lock): bool
+{
+    $now = time();
+    rewind($lock);
+    $stored = json_decode(stream_get_contents($lock, 128) ?: '', true);
+    // Two immediate sessions cover the first catalogue and timetable requests.
+    // Each further session needs one minute of accumulated credit.
+    $capacity = 2 * PLANNING_REFRESH_INTERVAL;
+    $elapsed = max(0, $now - (int) ($stored['time'] ?? $now));
+    $credit = min($capacity, (int) ($stored['credit'] ?? $capacity) + $elapsed);
+    if ($credit < PLANNING_REFRESH_INTERVAL) {
+        return false;
+    }
+    $entry = json_encode(['time' => $now, 'credit' => $credit - PLANNING_REFRESH_INTERVAL]);
+    rewind($lock);
+    return ftruncate($lock, 0) && fwrite($lock, $entry) === strlen($entry) && fflush($lock);
 }
 
 function writeCache(string $directory, string $path, array $entry): void

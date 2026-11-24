@@ -161,7 +161,7 @@ peut ainsi retourner à l’accueil immédiatement.
 | Emplacement | Clé et contenu | Règle de lecture |
 | --- | --- | --- |
 | Navigateur, cache `lorr-planning-horaires-v1` | URL invitée pour le catalogue. Couple URL et formation pour chaque horaire. `sessionStorage` sert de repli si Cache Storage est indisponible. | `expires` détermine la fraîcheur. `keepUntil` limite la réutilisation. Les durées transmises par PHP servent à calculer ces dates. |
-| PHP, dossier temporaire `lorr-hyperplanning-v3` | Fichier JSON nommé à partir d’une empreinte SHA-256 de l’URL et, pour un horaire, du nom de la formation. Une entrée contient `time` et `data`. | Catalogue récent 15 min. Horaire récent 2 min. Lecture de secours jusqu’à 7 jours après récupération. |
+| PHP, dossier temporaire `lorr-hyperplanning-v3` | Fichier JSON nommé à partir d’une empreinte SHA-256 de l’URL et, pour un horaire, du nom de la formation. La page et l’abonnement iCal partagent ces entrées. | Catalogue récent 15 min. Horaire récent 10 min. Lecture de secours jusqu’à 7 jours après récupération. |
 | Navigateur, cache du service worker | HTML et ressources de l’application. Voir la section 9. | Le service worker essaie le réseau avant son cache. |
 
 Le serveur envoie les données disponibles avant d’actualiser les entrées
@@ -352,8 +352,10 @@ vérifier les horaires à jour.
 `/p/{id}/planning.ics` vérifie ce code dans SQLite, puis récupère les horaires
 des formations indiquées. Le flux ne conserve pas de fichier par abonnement.
 Il utilise le cache PHP des formations et tente une actualisation lorsqu’une
-entrée date de plus de dix minutes. Un verrou par source espace les tentatives
-d’une minute. Si une formation manque et que la lecture échoue, le serveur
+entrée date de plus de dix minutes. La page et iCal partagent un verrou et un
+plafond par source. Deux lectures peuvent démarrer de suite pour ouvrir le
+catalogue puis charger les cours. Ensuite, LorR regagne une lecture par minute.
+Si une formation manque et que la lecture échoue, le serveur
 renvoie `503` au lieu d’envoyer un calendrier incomplet.
 
 [`planning-calendar.php`](server/planning-calendar.php) garde les séances des
