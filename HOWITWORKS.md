@@ -409,6 +409,12 @@ sept derniers jours. Les boutons d’information décrivent les unités.
 [`stats-chart.js`](scripts/stats-chart.js) lit les mêmes valeurs que le
 tableau pour tracer une courbe par compteur. Les cases de la légende
 filtrent les courbes et l’axe vertical s’adapte aux courbes affichées.
+Le paramètre `heure=AAAA-MM-JJ` ouvre le détail horaire d’un jour de la
+semaine affichée. Les relevés horaires utilisent des clés UTC pour séparer
+les deux occurrences d’une heure au passage à l’heure d’hiver. La page
+affiche les créneaux en heure de Bruxelles et masque les heures à venir.
+Un tiret représente une heure sans historique. Un zéro indique un créneau
+suivi sans événement pour ce compteur.
 
 | Mesure | Moment et unité |
 | --- | --- |
@@ -416,8 +422,8 @@ filtrent les courbes et l’axe vertical s’adapte aux courbes affichées.
 | Demandes d’horaires | Une demande avec des formations reçue par `/api/planning`, même si PHP sert son cache. |
 | Cours chargés | Une combinaison matière, groupe et type par formation et par réponse. |
 | Séances chargées | Chaque séance renvoyée pour chaque formation, hors repères. |
-| Cours différents | Une matière par URL invitée, comptée une fois au total et une fois pour chaque jour où elle est chargée. |
-| Liens invités distincts | Une URL invitée, comptée une fois au total et une fois pour chaque jour où un catalogue est disponible dans la réponse. |
+| Cours différents | Une matière par URL invitée, comptée une fois au total, par jour et par heure où elle est chargée. |
+| Liens invités distincts | Une URL invitée, comptée une fois au total, par jour et par heure où un catalogue est disponible dans la réponse. |
 | Clics sur des cours | Nombre d’ouvertures de détails de séance déclaré par le navigateur. |
 
 `recordCourseClick()` cumule au plus 100 clics par envoi et déclenche
@@ -431,7 +437,9 @@ des matières distinctes.
 [`storage.php`](server/storage.php) ouvre `LORR_STATS_DIR` ou `var/`
 et détecte SQLite. `usage_counts` mémorise les compteurs par jour et
 par mesure. `usage_sources` et `usage_courses` dédupliquent par
-jour et par empreinte. La valeur `total` sert aux agrégats historiques.
+jour ou par heure et par empreinte. La valeur `total` sert aux agrégats
+historiques. Chaque écriture ajoute le créneau horaire dans la même
+transaction ou sous le même verrou JSON que les compteurs existants.
 Les écritures SQLite utilisent une transaction. En mode JSON,
 un verrou protège la lecture et l’écriture. Si SQLite est installé
 après le mode JSON, une base vide importe les compteurs existants.

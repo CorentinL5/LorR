@@ -1211,6 +1211,31 @@ button.calendar-date[aria-pressed=true] { background: var(--yellow); }
     line-height: 1.45;
 }
 
+.stats-period, .stats-period nav, .stats-period form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .5rem;
+}
+.stats-period { margin-block: .5rem .65rem; }
+.stats-period nav { margin-right: .4rem; }
+.stats-period a, .stats-period select, .stats-period button {
+    padding: .35rem .65rem;
+    border: 1px solid var(--ink);
+    border-radius: 7px;
+    background: var(--white);
+    color: var(--ink);
+    font: 700 .85rem/1.3 var(--heading);
+}
+.stats-period a { text-decoration: none; }
+.stats-period a[aria-current="true"] {
+    background: var(--purple);
+    box-shadow: 2px 2px 0 var(--ink);
+}
+.stats-period form label, .stats-hour-note { font-size: .85rem; }
+.stats-hour-note, .stats-chart-unavailable { color: var(--muted); }
+.stats-chart-unavailable { margin-top: .9rem; }
+
 .stats-chart {
     margin: .6rem 0 1.2rem;
     padding: clamp(.55rem, 2vw, 1rem);
