@@ -137,11 +137,12 @@ function drawUsagePlot(plot, periods, selected, hourly = false) {
         }
         content.append(group);
     }
+    const edgeHitPadding = hourly ? 8 : 16;
     for (const [index, period] of periods.entries()) {
         if (!period.counts) continue;
         const position = x(index);
-        const start = index === 0 ? left - (hourly ? 0 : 16) : (x(index - 1) + position) / 2;
-        const end = index === lastIndex ? right + (hourly ? 0 : 16) : (position + x(index + 1)) / 2;
+        const start = index === 0 ? left - edgeHitPadding : (x(index - 1) + position) / 2;
+        const end = index === lastIndex ? right + edgeHitPadding : (position + x(index + 1)) / 2;
         const target = usageSvg('g', {class: 'stats-chart-target', 'data-period': index});
         if (!hourly) {
             target.setAttribute('role', 'button');
