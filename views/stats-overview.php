@@ -13,6 +13,10 @@ $activityColors = [
 $activity = array_intersect_key($totals, $activityColors);
 $volume = ['sessions' => $totals['sessions'], 'courses' => $totals['courses']];
 $actionCount = array_sum($activity);
+$donutPoint = static function (int $position) use ($actionCount): string {
+    $angle = 2 * M_PI * ($position % $actionCount) / $actionCount;
+    return sprintf('%.8F %.8F', 50 + 40 * sin($angle), 50 - 40 * cos($angle));
+};
 
 $formatTotal = static fn (int|float $value): string => number_format($value, 0, ',', ' ');
 $chartScale = static function (int $largest): array {
@@ -85,13 +89,15 @@ $showInfo = static function (string $metric) use ($labels): void {
                     <?php if ($actionCount > 0): ?>
                         <svg viewBox="0 0 100 100" aria-hidden="true">
                             <?php foreach (array_filter($activity) as $metric => $count): ?>
-                                <?php $share = 100 * $count / $actionCount; ?>
-                                <circle cx="50" cy="50" r="40" pathLength="100" fill="none" stroke="<?= $activityColors[$metric] ?>" stroke-width="20"
-                                    stroke-dasharray="<?= sprintf('%.6F %.6F', $share, 100 - $share) ?>" stroke-dashoffset="<?= sprintf('%.6F', -$offset) ?>"
-                                    transform="rotate(-90 50 50)" data-donut-metric="<?= $metric ?>">
+                                <g fill="none" stroke="<?= $activityColors[$metric] ?>" stroke-width="20" data-donut-metric="<?= $metric ?>">
                                     <title><?= $labels[$metric][0] ?> · <?= $formatTotal($count) ?></title>
-                                </circle>
-                                <?php $offset += $share; ?>
+                                    <?php if ($count === $actionCount): ?>
+                                        <circle cx="50" cy="50" r="40" />
+                                    <?php else: ?>
+                                        <path d="M <?= $donutPoint($offset) ?> A 40 40 0 <?= $count > $actionCount / 2 ? 1 : 0 ?> 1 <?= $donutPoint($offset + $count) ?>" />
+                                    <?php endif; ?>
+                                </g>
+                                <?php $offset += $count; ?>
                             <?php endforeach; ?>
                         </svg>
                     <?php endif; ?>
