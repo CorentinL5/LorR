@@ -29,18 +29,10 @@ final class GuestPlanningClient
         $address = parse_url($url);
         $origin = $address['scheme'] . '://' . $address['host'] . (isset($address['port']) ? ':' . $address['port'] : '');
         $http = $address['scheme'] === 'http';
-        $connectionOptions = [];
-        if ($http) {
-            // The legacy HECh endpoint is the only HTTP source. Pin its validated public address.
-            $ips = gethostbynamel($address['host']) ?: [];
-            $publicIps = array_filter($ips, 'guestPlanningPublicIpv4');
-            if (!$publicIps || count($publicIps) !== count($ips)) {
-                throw new RuntimeException('L’adresse du serveur invité est indisponible.');
-            }
-            $connectionOptions = [
-                CURLOPT_RESOLVE => [$address['host'] . ':' . $address['port'] . ':' . reset($publicIps)],
-                CURLOPT_NOPROXY => '*',
-            ];
+        $port = $address['port'] ?? ($http ? 80 : 443);
+        $ips = gethostbynamel($address['host']) ?: [];
+        if (!$ips || count(array_filter($ips, 'guestPlanningPublicIpv4')) !== count($ips)) {
+            throw new RuntimeException('L’adresse du serveur invité est indisponible.');
         }
         $connection = curl_init();
         if (!$connection) {
@@ -53,7 +45,11 @@ final class GuestPlanningClient
         $this->sessionIv = random_bytes(16);
         $protocol = defined('CURLOPT_PROTOCOLS_STR') ? [CURLOPT_PROTOCOLS_STR => strtoupper($address['scheme'])]
             : [CURLOPT_PROTOCOLS => $http ? CURLPROTO_HTTP : CURLPROTO_HTTPS];
-        curl_setopt_array($connection, $connectionOptions + $protocol + [
+        // Keep the original host for TLS, but connect only to a validated public IPv4 address.
+        if (!curl_setopt_array($connection, $protocol + [
+            CURLOPT_RESOLVE => [$address['host'] . ':' . $port . ':' . $ips[0]],
+            CURLOPT_IPRESOLVE => CURL_IPRESOLVE_V4,
+            CURLOPT_NOPROXY => '*',
             CURLOPT_USERAGENT => self::USER_AGENT,
             CURLOPT_COOKIEFILE => '',
             CURLOPT_ENCODING => '',
@@ -63,7 +59,9 @@ final class GuestPlanningClient
                 'Content-Type: application/json; charset=UTF-8',
                 'Origin: ' . $origin,
             ],
-        ]);
+        ])) {
+            throw new RuntimeException('Impossible de sécuriser la connexion à l’espace invité.');
+        }
 
         $html = $this->receive($url);
         if (!preg_match('/\bStart\s*\(\s*(\{[^{}]{1,2048}\})/', $html, $match)) {

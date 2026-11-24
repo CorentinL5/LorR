@@ -543,13 +543,15 @@ LorR vérifie les liens dans le navigateur et dans PHP. Le serveur
 reconstruit le lien à partir de son domaine et des adresses définies
 dans [planning-sources.php](server/planning-sources.php). Les liens
 IHECS, HEAJ et HECh utilisent la route `/hp/invite`. Le lien HECh utilise
-HTTP sur le port 62080. Le lecteur PHP fixe l’adresse IPv4 publique
-pour cette connexion et passe par l’adaptateur
+HTTP sur le port 62080 et passe par l’adaptateur
 [legacy-guest-planning.php](server/legacy-guest-planning.php) pour
 le format de session ancien. Les domaines supplémentaires déclarés
 dans `LORR_PLANNING_HOSTS` utilisent HTTPS et la route racine `/invite`.
-Le client PHP n’autorise pas les
-redirections. Les plafonds de taille, de durée et de nombre de
+Pour chaque connexion HTTP ou HTTPS, le lecteur PHP exige une réponse
+DNS IPv4 composée uniquement d’adresses publiques. Il fixe la première
+adresse validée dans cURL et conserve le nom d’hôte pour vérifier le
+certificat HTTPS. Le client PHP bloque les redirections.
+Les plafonds de taille, de durée et de nombre de
 formations s’appliquent aux lectures. L’interface insère les
 libellés des séances comme du texte.
 
