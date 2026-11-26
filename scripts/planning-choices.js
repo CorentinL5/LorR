@@ -33,11 +33,14 @@ function courseOptions(events, courseKey) {
         }
         const key = courseKey(event);
         if (!sourceOptions.has(key)) {
-            sourceOptions.set(key, {keys: [key], sample: event, formations: new Set(), sessions: new Set()});
+            sourceOptions.set(key, {keys: [key], sample: event, formations: new Set(), sessions: new Set(), teachers: new Map()});
         }
         const option = sourceOptions.get(key);
         option.formations.add(event.formation);
         option.sessions.add(sessionKey(event));
+        for (const name of (event.teacher ?? '').split(/[,;\r\n]+/)) {
+            if (name.trim()) option.teachers.set(choiceText(name), name.trim());
+        }
     }
 
     const options = new Map();
@@ -46,6 +49,7 @@ function courseOptions(events, courseKey) {
         const existing = options.get(signature);
         if (existing) {
             existing.keys.push(...option.keys);
+            for (const [key, name] of option.teachers) existing.teachers.set(key, name);
             for (const formation of option.formations) {
                 existing.formations.add(formation);
             }
@@ -114,4 +118,41 @@ function groupNoticePeriods(sessions) {
         }
     }
     return periods;
+}
+
+
+function changedCourseSlots(before, after, courseKey, selected, fromDate) {
+    function groupSlots(events) {
+        const groups = new Map();
+        for (const event of events) {
+            if (event.notice || event.allDay || !event.start || !event.end || event.date < fromDate) continue;
+            const course = courseKey(event);
+            if (!selected.has(course)) continue;
+            const key = JSON.stringify([course, event.date]);
+            if (!groups.has(key)) groups.set(key, new Map());
+            groups.get(key).set(JSON.stringify([event.start, event.end, choiceText(event.room)]), event);
+        }
+        return groups;
+    }
+
+    const previous = groupSlots(before);
+    const changes = [];
+    for (const [key, current] of groupSlots(after)) {
+        const old = previous.get(key);
+        if (!old) continue;
+        const removed = [...old].filter(([slot]) => !current.has(slot));
+        const added = [...current].filter(([slot]) => !old.has(slot));
+        if (removed.length !== 1 || added.length !== 1) continue;
+        const [[oldSlot, oldEvent]] = removed;
+        const [[newSlot, newEvent]] = added;
+        changes.push({
+            id: JSON.stringify([newEvent.url, newEvent.date, newEvent.group, newEvent.subject, newEvent.type, oldSlot, newSlot]),
+            course: courseKey(newEvent),
+            date: newEvent.date,
+            subject: newEvent.subject,
+            before: [oldEvent.start, oldEvent.end, oldEvent.room ?? ''],
+            after: [newEvent.start, newEvent.end, newEvent.room ?? ''],
+        });
+    }
+    return changes;
 }

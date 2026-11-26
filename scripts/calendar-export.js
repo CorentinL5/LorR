@@ -102,3 +102,21 @@ function planningCalendarFile(sessions) {
     lines.push('END:VCALENDAR');
     return lines.map(foldCalendarLine).join('\r\n') + '\r\n';
 }
+
+function downloadPlanningCalendar(sessions) {
+    const file = new Blob([planningCalendarFile(sessions)], {type: 'text/calendar;charset=utf-8'});
+    const address = URL.createObjectURL(file);
+    const download = document.createElement('a');
+    download.href = address;
+    download.download = 'planning-lorr.ics';
+    document.body.append(download);
+    download.click();
+    download.remove();
+    setTimeout(() => URL.revokeObjectURL(address), 60000);
+    void fetch('api/stats/calendar-export', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        credentials: 'omit',
+        keepalive: true,
+    }).catch(() => {});
+}

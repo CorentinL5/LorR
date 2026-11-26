@@ -6,6 +6,7 @@ require_once __DIR__ . '/planning-traffic.php';
 final class GuestPlanningClient
 {
     private const VIEW = 'DIPLOME.EDT.EDT_LISTE';
+    private const TEACHER_VIEW = 'ENSEIGNANT.EDT.EDT_GRILLE';
     private const RESOURCE_FILTER = ['_T' => 26, 'V' => '[0,6..7]'];
     private const MAX_RESPONSE_BYTES = 6 * 1024 * 1024;
     private const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/145.0.0.0 Safari/537.36';
@@ -20,6 +21,7 @@ final class GuestPlanningClient
     private float $deadline;
     private array $calendar;
     private array $hours = [];
+    private bool $publicTeacherSchedule = false;
 
     public function __construct(string $url, ?float $deadline = null)
     {
@@ -85,6 +87,12 @@ final class GuestPlanningClient
         ]);
         $this->calendar = is_array($settings['parametreGeneral'] ?? null) ? $settings['parametreGeneral'] : [];
         $profile = $this->call('DemandeParametreUtilisateur', null, ['Onglet' => '']);
+        foreach ($profile['listeOnglets'] ?? [] as $tab) {
+            if (($tab['G'] ?? null) === 'ENSEIGNANT'
+                && in_array('EDT', array_column($tab['listeOnglets'] ?? [], 'G'), true)) {
+                $this->publicTeacherSchedule = true;
+            }
+        }
         $hours = $profile['Horaire']['ListeHeures'] ?? null;
         $this->hours = is_array($hours) ? $hours : [];
     }
@@ -172,33 +180,50 @@ final class GuestPlanningClient
 
     public function formations(): array
     {
+        return $this->resources(self::VIEW, 1, '');
+    }
+
+    public function teachers(string $name): array
+    {
+        if (!$this->publicTeacherSchedule) {
+            throw new RuntimeException('Les horaires par enseignant ne sont pas publiés.');
+        }
+        return $this->resources(self::TEACHER_VIEW, 0, $name);
+    }
+
+    private function resources(string $view, int $kind, string $name): array
+    {
         $result = $this->call('FonctionRenvoyerListeDeRessource', [
-            'GenreRessource' => 1,
+            'GenreRessource' => $kind,
             'GenreRecherche' => 1,
             'AvecPublicationForcee' => false,
-            'NomRessource' => '',
+            'NomRessource' => $name,
             'PourEmail' => false,
             'PourRessource' => false,
             'filtresRessource' => [],
-        ], ['Onglet' => self::VIEW]);
+        ], ['Onglet' => $view]);
         if (!is_array($result['ListeRessources']['Liste'] ?? null)) {
-            throw new RuntimeException('La liste des formations n’est pas disponible.');
+            throw new RuntimeException('La liste demandée n’est pas disponible.');
         }
         $formations = [];
         foreach ($result['ListeRessources']['Liste'] as $record) {
             $label = $record['L'] ?? null;
             $identifier = $record['N'] ?? null;
-            if (($record['G'] ?? null) === 1 && is_string($identifier) && strlen($identifier) <= 128
+            if (($record['G'] ?? null) === $kind && is_string($identifier) && strlen($identifier) <= 128
                 && validPlanningFormation($label)) {
-                $formations[trim($label)] = ['L' => $label, 'N' => $identifier, 'G' => 1];
+                $formations[$kind === 1 ? trim($label) : $identifier] = ['L' => $label, 'N' => $identifier, 'G' => $kind];
             }
         }
         return $formations;
     }
 
-    public function schedule(array $formation): array
+    public function schedule(array $resource): array
     {
-        $signature = ['Onglet' => self::VIEW, 'listeRecherche' => [$formation]];
+        $teacher = ($resource['G'] ?? null) === 0;
+        if ($teacher && !$this->publicTeacherSchedule) {
+            throw new RuntimeException('Les horaires par enseignant ne sont pas publiés.');
+        }
+        $signature = ['Onglet' => $teacher ? self::TEACHER_VIEW : self::VIEW, 'listeRecherche' => [$resource]];
         $publication = $this->call('FonctionDomaineDePresence', [
             'FiltreRessources' => self::RESOURCE_FILTER,
             'AvecCalendrier' => false,
@@ -211,7 +236,7 @@ final class GuestPlanningClient
         if ($weeks) {
             $result = $this->call('FonctionEmploiDuTemps', [
                 'GenrePeriodeEDT' => 2,
-                'GenreAffichageEDT' => 1,
+                'GenreAffichageEDT' => $teacher ? 0 : 1,
                 'FiltreRessources' => self::RESOURCE_FILTER,
                 'AvecIndisponibilites' => false,
                 'AvecDomaineCours' => true,

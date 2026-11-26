@@ -239,6 +239,7 @@ async function shortPlanningLink(portableLink) {
     if (cachedShortLink?.portableLink === portableLink) {
         return cachedShortLink.address;
     }
+    if (!navigator.onLine) return portableLink;
     const code = new URLSearchParams(new URL(portableLink).hash.slice(1)).get('p');
     if (!code || code.length > maxStoredPlanningCode) {
         return portableLink;
@@ -270,7 +271,10 @@ async function shortPlanningLink(portableLink) {
 }
 
 function openBrowserPlanningCache() {
-    browserPlanningCache ??= Promise.resolve().then(() => window.caches?.open(planningCacheName)).catch(() => null);
+    browserPlanningCache ??= Promise.resolve().then(() => window.caches?.open(planningCacheName)).catch(() => {
+        browserPlanningCache = undefined;
+        return null;
+    });
     return browserPlanningCache;
 }
 
@@ -280,40 +284,66 @@ function planningCacheAddress(key) {
     return address.href;
 }
 
+function retainedPlanningEntry(entry) {
+    if (!Array.isArray(entry?.data) || !Number.isFinite(entry.expires)) {
+        return null;
+    }
+    entry.keepUntil ??= entry.expires;
+    return entry.keepUntil > Date.now() ? entry : null;
+}
+
+function newerPlanningEntry(candidate, stored) {
+    if ((candidate.fetchedAt ?? 0) !== (stored.fetchedAt ?? 0)) {
+        return (candidate.fetchedAt ?? 0) > (stored.fetchedAt ?? 0);
+    }
+    return candidate.keepUntil > stored.keepUntil
+        || (candidate.keepUntil === stored.keepUntil && candidate.expires > stored.expires);
+}
+
 async function readPlanningEntry(key) {
+    let fallback = null;
+    const fallbackKey = planningCachePrefix + key;
+    try {
+        const stored = sessionStorage.getItem(fallbackKey);
+        fallback = retainedPlanningEntry(JSON.parse(stored));
+        if (stored && !fallback) {
+            sessionStorage.removeItem(fallbackKey);
+        }
+    } catch {
+        // Session storage can be disabled or contain an invalid entry.
+    }
     try {
         const cache = await openBrowserPlanningCache();
         const address = planningCacheAddress(key);
         const response = await cache?.match(address);
-        const entry = response ? await response.json() : JSON.parse(sessionStorage.getItem(planningCachePrefix + key));
-        if (Array.isArray(entry?.data) && Number.isFinite(entry.expires)) {
-            entry.keepUntil ??= entry.expires;
-            if (entry.keepUntil > Date.now()) {
-                return entry;
-            }
-        }
-        if (response) {
+        const entry = response ? retainedPlanningEntry(await response.json()) : null;
+        if (response && !entry) {
             await cache.delete(address);
-        } else {
-            sessionStorage.removeItem(planningCachePrefix + key);
+        }
+        if (entry && (!fallback || newerPlanningEntry(entry, fallback))) {
+            return entry;
         }
     } catch {
-        // The connector remains available without browser storage.
+        // Try the session copy if Cache Storage cannot read the entry.
     }
-    return null;
+    return fallback;
 }
 
 async function savePlanningEntry(key, entry) {
+    const json = JSON.stringify(entry);
     try {
         const cache = await openBrowserPlanningCache();
-        const json = JSON.stringify(entry);
         if (cache) {
             await cache.put(planningCacheAddress(key), new Response(json));
-        } else {
-            sessionStorage.setItem(planningCachePrefix + key, json);
+            return;
         }
     } catch {
-        // The planning also works if the browser storage is full.
+        // Fall back to session storage if Cache Storage is full or inaccessible.
+    }
+    try {
+        sessionStorage.setItem(planningCachePrefix + key, json);
+    } catch {
+        // The planner remains usable without browser storage.
     }
 }
 
@@ -352,8 +382,7 @@ function rememberPlanningResult(cache, url, result) {
         const fresh = Number.isFinite(maxAge) ? maxAge : 0;
         const retained = Number.isFinite(cacheMaxAge) ? cacheMaxAge : fresh;
         const entry = {data, expires: now + fresh * 1000, keepUntil: now + retained * 1000, fetchedAt};
-        const hasDifferentFetchDates = stored?.fetchedAt && fetchedAt && stored.fetchedAt !== fetchedAt;
-        if (stored && (hasDifferentFetchDates ? stored.fetchedAt > fetchedAt : stored.keepUntil > entry.keepUntil)) {
+        if (stored && newerPlanningEntry(stored, entry)) {
             return stored;
         }
         if (retained > 0) {
@@ -393,6 +422,15 @@ async function fetchPlanning(data, signal, onProgress, onSnapshot = () => {}, in
         return browserPlanningResult(url, cache);
     }
 
+    if (!navigator.onLine) {
+        const message = 'Connexion nécessaire pour actualiser les horaires.';
+        if (!requested.length && !cache.catalogue) {
+            throw new Error('Connecte-toi pour charger les formations de cet espace invité.');
+        }
+        const errors = missing.map(formation => ({formation, error: message}));
+        return browserPlanningResult(url, cache, errors, requested.length ? '' : message);
+    }
+
     try {
         if (initialCache === null && (cache.catalogue || cache.schedules.size)) {
             onSnapshot(browserPlanningResult(url, cache));
@@ -404,12 +442,12 @@ async function fetchPlanning(data, signal, onProgress, onSnapshot = () => {}, in
         rememberPlanningResult(cache, url, result);
         return browserPlanningResult(url, cache, result.errors ?? [], result.warning ?? '');
     } catch (error) {
-        if (signal.aborted || !cache.schedules.size) {
+        if (signal.aborted || (requested.length ? !cache.schedules.size : !cache.catalogue)) {
             throw error;
         }
         const errors = missing.filter(formation => !(cache.schedules.get(formation)?.expires > Date.now()))
             .map(formation => ({formation, error: error.message}));
-        return browserPlanningResult(url, cache, errors);
+        return browserPlanningResult(url, cache, errors, error.message);
     }
 }
 
@@ -428,6 +466,14 @@ async function requestPlanning(url, formations, signal, onProgress, onSnapshot) 
     const timeout = setTimeout(() => request.abort(new Error('L’espace invité met trop de temps à répondre.')), 120000);
     try {
         return await streamPlanning(url, formations, request.signal, onProgress, onSnapshot);
+    } catch (error) {
+        request.signal.throwIfAborted();
+        if (error instanceof TypeError || error instanceof SyntaxError) {
+            throw new Error(navigator.onLine
+                ? 'La réponse de LorR est indisponible. Réessaie dans un instant.'
+                : 'Tu es hors connexion. Réessaie quand la connexion revient.');
+        }
+        throw error;
     } finally {
         clearTimeout(timeout);
         signal.removeEventListener('abort', abort);

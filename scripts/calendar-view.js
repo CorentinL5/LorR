@@ -1,20 +1,51 @@
 function createPlanningView(container, element, courseKey, recordCourseClick) {
+    const formationFilter = document.getElementById('display-formation-filter');
+    const formationSelect = document.getElementById('display-formation');
+    const searchPanel = document.getElementById('schedule-search');
+    const searchQuery = document.getElementById('schedule-search-query');
+    const searchStatus = document.getElementById('schedule-search-status');
+    const searchResults = document.getElementById('schedule-search-results');
+    const searchMore = document.getElementById('schedule-search-more');
+    const searchPageSize = 8;
+    const gapPanel = document.getElementById('schedule-gaps');
+    const gapTitle = document.getElementById('schedule-gaps-title');
+    const gapList = document.getElementById('schedule-gap-list');
+    const conflictPanel = document.getElementById('schedule-conflicts');
+    const conflictDays = document.getElementById('schedule-conflict-days');
+    const upcoming = document.getElementById('upcoming-session');
+    const currentPanel = document.getElementById('current-sessions');
+    const currentList = document.getElementById('current-sessions-list');
+    const countdown = document.getElementById('upcoming-countdown');
+    const upcomingDetail = document.getElementById('upcoming-detail');
+    const upcomingOpen = document.getElementById('upcoming-open');
+    const planningClock = new Intl.DateTimeFormat('sv-SE', {
+        timeZone: 'Europe/Brussels', year: 'numeric', month: '2-digit', day: '2-digit',
+        hour: '2-digit', minute: '2-digit',
+    });
     const options = document.getElementById('view-options');
+    const pastOption = document.getElementById('past-sessions-option');
+    const showPast = document.getElementById('show-past-sessions');
+    const calendarFrame = document.getElementById('calendar-frame');
     const navigation = document.getElementById('calendar-tools');
     const previous = document.getElementById('calendar-previous');
     const next = document.getElementById('calendar-next');
     const period = document.getElementById('calendar-period');
-    const weekPicker = document.getElementById('week-picker');
-    const weekSelect = document.getElementById('calendar-week-select');
-    const monthPicker = document.getElementById('month-picker');
-    const monthSelect = document.getElementById('calendar-month-select');
-    const todayButton = document.getElementById('calendar-today');
+    const compactWeek = matchMedia('(max-width: 610px)');
+    const dateForm = document.getElementById('calendar-date-form');
+    const dateInput = document.getElementById('calendar-date');
     const dayDetails = document.getElementById('day-detail');
     const dayTitle = document.getElementById('day-title');
     const daySessions = document.getElementById('day-sessions');
+    const openToday = document.getElementById('open-today');
+    const dayActions = document.getElementById('day-actions');
+    const copyDay = document.getElementById('copy-day');
+    const copyDayStatus = document.getElementById('copy-day-status');
+    const copyDayFallback = document.getElementById('copy-day-fallback');
+    const copyDayText = document.getElementById('copy-day-text');
     const details = document.getElementById('session-detail');
     const detailTitle = document.getElementById('session-title');
     const detailFields = document.getElementById('session-info');
+    const weekdayFormat = new Intl.DateTimeFormat('fr-BE', {weekday: 'long', timeZone: 'UTC'});
     const dayFormat = new Intl.DateTimeFormat('fr-BE', {dateStyle: 'full', timeZone: 'UTC'});
     const shortDate = new Intl.DateTimeFormat('fr-BE', {day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC'});
     const monthFormat = new Intl.DateTimeFormat('fr-BE', {month: 'long', year: 'numeric', timeZone: 'UTC'});
@@ -22,7 +53,7 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
     const formationOrder = new Intl.Collator('fr-BE', {numeric: true});
     const viewPreferenceKey = 'lorr-calendar-view';
 
-    let mode = 'month';
+    let mode = 'week';
     try {
         const savedMode = localStorage.getItem(viewPreferenceKey);
         if (['list', 'week', 'month'].includes(savedMode)) {
@@ -33,12 +64,20 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
     }
     let currentDate;
     let days = new Map();
+    let allDays = new Map();
+    let allSessions = [];
+    let shownFormations;
     let noticePeriods = [];
+    let allNoticePeriods = [];
     let dailyLayouts = new Map();
     let weekScale;
     let firstDate;
     let lastDate;
-    let pickerRange = '';
+    let daySummary = '';
+    let dayRevision = 0;
+    let searchableSessions = [];
+    let searchIndex;
+    let searchLimit = searchPageSize;
 
     function addDays(date, offset) {
         const nextDate = new Date(date);
@@ -63,8 +102,7 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
     }
 
     function today() {
-        const date = new Date();
-        return new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+        return dateOf(planningClock.format(new Date()).slice(0, 10));
     }
 
     function eventTime(event) {
@@ -98,22 +136,6 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
     function dateRange(event) {
         const start = dayFormat.format(dateOf(event.date));
         return event.date === lastDay(event) ? start : start + ' au ' + dayFormat.format(dateOf(lastDay(event)));
-    }
-
-    function fillPeriodPickers() {
-        const range = keyOf(firstDate) + ':' + keyOf(lastDate);
-        if (range === pickerRange) {
-            return;
-        }
-        pickerRange = range;
-        weekSelect.replaceChildren();
-        for (let week = monday(firstDate); week <= lastDate; week = addDays(week, 7)) {
-            weekSelect.add(new Option(shortDate.formatRange(week, addDays(week, 6)), keyOf(week)));
-        }
-        monthSelect.replaceChildren();
-        for (let month = firstOfMonth(firstDate); month <= lastDate; month = firstOfMonth(month, 1)) {
-            monthSelect.add(new Option(monthFormat.format(month), keyOf(month)));
-        }
     }
 
     function adjust(date) {
@@ -170,11 +192,122 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
         return item;
     }
 
-    function showDay(date, sessions) {
-        dayTitle.textContent = dayFormat.format(date);
-        daySessions.replaceChildren(...sessions.map(sessionCard));
+    function renderSearch(focusResult = null) {
+        searchPanel.hidden = !searchableSessions.length;
+        const terms = choiceText(searchQuery.value).split(' ').filter(Boolean);
+        if (!terms.length || !searchableSessions.length) {
+            searchResults.replaceChildren();
+            searchStatus.textContent = '';
+            searchMore.hidden = true;
+            return;
+        }
+
+        if (!searchIndex) {
+            const dates = new Map();
+            searchIndex = searchableSessions.map(event => {
+                if (!dates.has(event.date)) dates.set(event.date, dayFormat.format(dateOf(event.date)));
+                const date = dates.get(event.date);
+                const text = choiceText([event.subject, event.room, event.group, event.teacher, event.formation, event.type, date].join(' '));
+                return {event, date, text};
+            });
+        }
+        const now = planningClock.format(new Date()).replace(',', '');
+        const upcoming = [];
+        const past = [];
+        for (const {event, date, text} of searchIndex) {
+            if (!terms.every(term => text.includes(term))) continue;
+            const end = event.end || '23:59';
+            (event.date + ' ' + end > now ? upcoming : past).push({event, date});
+        }
+        const count = upcoming.length + past.length;
+        const matches = upcoming.concat(past.reverse()).slice(0, searchLimit);
+        const previousFocus = searchResults.contains(document.activeElement) ? document.activeElement.dataset.session : null;
+        searchResults.replaceChildren(...matches.map(({event, date}) => {
+            const item = element('li');
+            const button = sessionCard(event);
+            button.dataset.session = sessionKey(event);
+            button.setAttribute('aria-label', [event.subject, date, eventTime(event), event.room].filter(Boolean).join(', '));
+            item.append(element('span', date, 'search-session-date'), button);
+            return item;
+        }));
+        searchStatus.textContent = !count ? 'Aucune séance ne correspond à la recherche.'
+            : matches.length < count ? matches.length + ' séances affichées sur ' + count
+                : count + (count === 1 ? ' séance trouvée' : ' séances trouvées');
+        searchMore.hidden = matches.length >= count;
+        if (focusResult !== null || previousFocus) {
+            const buttons = [...searchResults.querySelectorAll('button')];
+            const target = focusResult !== null ? buttons[focusResult] : buttons.find(button => button.dataset.session === previousFocus);
+            (target ?? searchQuery).focus();
+        }
+    }
+
+    searchQuery.addEventListener('input', () => {
+        searchLimit = searchPageSize;
+        renderSearch();
+    });
+    searchMore.addEventListener('click', () => {
+        const previousLimit = searchLimit;
+        searchLimit += searchPageSize;
+        renderSearch(previousLimit);
+    });
+
+    function showDay(date, sessions, emptyLabel = 'Aucune séance prévue ce jour.') {
+        dayRevision++;
+        const title = dayFormat.format(date);
+        dayTitle.textContent = title;
+        const classes = sessions.filter(event => !event.notice);
+        const summaryRows = classes.map(event => [eventTime(event), event.subject, event.room].filter(Boolean).join(' · '));
+        const incomplete = allSchedulesAvailable ? '' : 'Horaires incomplets. Certaines séances peuvent manquer.';
+        daySummary = ['LorR · ' + title, incomplete, ...summaryRows].filter(Boolean).join('\n');
+        dayActions.hidden = !classes.length;
+        copyDayStatus.textContent = '';
+        copyDayFallback.hidden = true;
+        copyDayText.value = '';
+        const cards = sessions.map(sessionCard);
+        if (incomplete) cards.unshift(element('p', incomplete));
+        if (!cards.length) cards.push(element('p', emptyLabel));
+        daySessions.replaceChildren(...cards);
         dayDetails.showModal();
     }
+
+    function openCalendarDate(date, schedule = days) {
+        const key = keyOf(date);
+        const inRange = firstDate && lastDate && date >= firstDate && date <= lastDate;
+        if (inRange) {
+            currentDate = date;
+            if (mode !== 'list') render();
+        }
+        showDay(date, schedule.get(key) ?? [], inRange ? undefined : 'Aucun horaire chargé pour cette date.');
+    }
+
+    openToday.addEventListener('click', () => {
+        const date = today();
+        dateInput.value = keyOf(date);
+        openCalendarDate(date, allDays);
+    });
+
+    dateForm.addEventListener('submit', event => {
+        event.preventDefault();
+        if (dateInput.valueAsDate) openCalendarDate(dateInput.valueAsDate);
+    });
+
+    copyDay.addEventListener('click', async () => {
+        const revision = dayRevision;
+        try {
+            await navigator.clipboard.writeText(daySummary);
+            if (dayDetails.open && revision === dayRevision) {
+                copyDayStatus.textContent = 'Horaires et salles copiés.';
+            }
+        } catch {
+            if (dayDetails.open && revision === dayRevision) {
+                copyDayText.value = daySummary;
+                copyDayFallback.hidden = false;
+                copyDayText.focus();
+                copyDayText.select();
+                copyDayStatus.textContent = 'Le résumé est sélectionné. Tu peux le copier.';
+            }
+        }
+    });
 
     function dayDetailButton(date, sessions, label, className) {
         const button = element('button', label, className);
@@ -207,9 +340,14 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
         }
 
         const ordered = [...ranges, ...entries.values()].sort((a, b) => a.date.localeCompare(b.date));
+        pastOption.hidden = !ordered.some(entry => entry.end < todayKey);
+        const visible = showPast.checked ? ordered : ordered.filter(entry => entry.end >= todayKey);
+        if (!visible.length) {
+            container.append(element('p', 'Aucune séance à venir.', 'empty-planning'));
+        }
         let previousWeek;
         let section;
-        for (const entry of ordered) {
+        for (const entry of visible) {
             const week = monday(dateOf(entry.date));
             const weekKey = keyOf(week);
             if (weekKey !== previousWeek) {
@@ -471,37 +609,61 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
         return grid;
     }
 
+    function renderCompactWeek(start, todayKey) {
+        const week = element('div', '', 'compact-week');
+        week.setAttribute('role', 'region');
+        week.setAttribute('aria-label', 'Calendrier de la semaine');
+        for (let index = 0; index < 7; index++) {
+            const date = addDays(start, index);
+            const key = keyOf(date);
+            const sessions = days.get(key) ?? [];
+            const section = element('section', '', 'planning-day compact-week-day');
+            const title = element('h3', dayFormat.format(date));
+            section.classList.toggle('compact-week-empty', !sessions.length);
+            if (key === todayKey) {
+                title.setAttribute('aria-current', 'date');
+                title.append(element('span', 'Aujourd’hui', 'today-label'));
+            }
+            section.append(title, ...sessions.map(sessionCard));
+            if (!sessions.length) {
+                const message = date < firstDate || date > lastDate
+                    ? 'Aucun horaire chargé.' : 'Aucune séance prévue.';
+                section.append(element('p', message));
+            }
+            week.append(section);
+        }
+        container.append(week);
+    }
+
     function renderCalendar() {
         const weekly = mode === 'week';
         const start = weekly ? monday(currentDate) : firstOfMonth(currentDate);
         const firstPeriod = weekly ? monday(firstDate) : firstOfMonth(firstDate);
         const lastPeriod = weekly ? monday(lastDate) : firstOfMonth(lastDate);
         const todayDate = today();
-        const todayPeriod = weekly ? monday(todayDate) : firstOfMonth(todayDate);
         previous.disabled = start <= firstPeriod;
         next.disabled = start >= lastPeriod;
-        todayButton.disabled = todayPeriod > lastPeriod;
         period.textContent = weekly ? shortDate.formatRange(start, addDays(start, 6)) : monthFormat.format(currentDate);
-        weekPicker.hidden = !weekly;
-        monthPicker.hidden = weekly;
-        if (weekly) {
-            weekSelect.value = keyOf(start);
-        } else {
-            monthSelect.value = keyOf(start);
+        const todayKey = keyOf(todayDate);
+        if (weekly && compactWeek.matches) {
+            renderCompactWeek(start, todayKey);
+            return;
         }
-
         const viewport = element('div', '', 'calendar-viewport');
         viewport.setAttribute('role', 'region');
         viewport.setAttribute('aria-label', weekly ? 'Calendrier de la semaine' : 'Calendrier du mois');
         viewport.style.setProperty('--calendar-height', weekScale.height + 'rem');
-        const todayKey = keyOf(todayDate);
         viewport.append(weekly ? renderWeek(start, todayKey) : renderMonth(start, todayKey));
         container.append(viewport);
     }
 
     function render() {
+        calendarFrame.classList.toggle('compact-week-frame', mode === 'week' && compactWeek.matches);
+        pastOption.hidden = true;
         container.replaceChildren();
         options.hidden = !days.size;
+        dateForm.hidden = !days.size;
+        if (!dateInput.value) dateInput.value = keyOf(today());
         navigation.hidden = !days.size || mode === 'list';
         for (const button of options.querySelectorAll('[data-view]')) {
             button.setAttribute('aria-pressed', String(button.dataset.view === mode));
@@ -517,8 +679,11 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
     }
 
     function move(offset) {
+        const focused = document.activeElement;
         currentDate = adjust(mode === 'week' ? addDays(currentDate, offset * 7) : firstOfMonth(currentDate, offset));
         render();
+        if (mode === 'week' && compactWeek.matches) calendarFrame.scrollIntoView({block: 'start'});
+        if (focused.disabled && (focused === previous || focused === next)) period.focus({preventScroll: true});
     }
 
     options.addEventListener('click', event => {
@@ -533,43 +698,276 @@ function createPlanningView(container, element, courseKey, recordCourseClick) {
             render();
         }
     });
+    showPast.addEventListener('change', render);
+    compactWeek.addEventListener('change', render);
     previous.addEventListener('click', () => move(-1));
     next.addEventListener('click', () => move(1));
-    weekSelect.addEventListener('change', () => {
-        currentDate = adjust(dateOf(weekSelect.value));
-        render();
+    let visibleSession;
+    let currentSessionKeys;
+    let timedSessions = [];
+    let shownConflicts;
+    let shownGaps;
+    let allSchedulesAvailable = false;
+    upcomingOpen.addEventListener('click', () => {
+        if (visibleSession) showSession(visibleSession);
     });
-    monthSelect.addEventListener('change', () => {
-        currentDate = adjust(dateOf(monthSelect.value));
+
+    function renderConflicts(now, first, last) {
+        const conflicts = [];
+        for (const [date, sessions] of allDays) {
+            if (date < first || date > last) continue;
+            const overlaps = new Set();
+            const periods = [];
+            let latestEnding;
+            for (const session of sessions) {
+                if (session.notice || session.allDay || !session.start || !session.end
+                    || session.start >= session.end || date + ' ' + session.end <= now) continue;
+                // Sessions arrive sorted by start time. Only the latest end can overlap the next start.
+                if (latestEnding && session.start < latestEnding.end) {
+                    overlaps.add(latestEnding);
+                    overlaps.add(session);
+                    const end = session.end < latestEnding.end ? session.end : latestEnding.end;
+                    const previous = periods.at(-1);
+                    if (previous && session.start <= previous[1]) {
+                        if (end > previous[1]) previous[1] = end;
+                    } else {
+                        periods.push([session.start, end]);
+                    }
+                }
+                if (!latestEnding || session.end > latestEnding.end) latestEnding = session;
+            }
+            if (overlaps.size) {
+                conflicts.push([date, periods, [...new Set([...overlaps].map(session => session.subject))]]);
+            }
+        }
+
+        const signature = JSON.stringify(conflicts);
+        if (signature === shownConflicts) return;
+        shownConflicts = signature;
+        const focusedDate = document.activeElement.dataset?.conflictDate;
+        conflictPanel.hidden = !conflicts.length;
+        conflictDays.replaceChildren(...conflicts.map(([date, periods, subjects]) => {
+            const dateLabel = dayFormat.format(dateOf(date));
+            const item = element('li');
+            const button = element('button', 'Voir la journée', 'button button-light');
+            button.type = 'button';
+            button.dataset.conflictDate = date;
+            button.setAttribute('aria-label', 'Voir la journée du ' + dateLabel);
+            button.setAttribute('aria-haspopup', 'dialog');
+            button.addEventListener('click', () => showDay(dateOf(date), allDays.get(date)));
+            const hours = periods.map(([start, end]) => start + '–' + end).join(', ');
+            item.append(element('p', [dateLabel, hours, subjects.join(', ')].join(' · ')), button);
+            return item;
+        }));
+        if (focusedDate) {
+            const button = [...conflictDays.querySelectorAll('button')].find(item => item.dataset.conflictDate === focusedDate);
+            (button ?? (upcoming.hidden ? document.getElementById('planning-title') : upcomingOpen)).focus();
+        }
+    }
+
+    function sessionEndDate(event) {
+        return event.end < event.start ? nextPlanningDay(event.date) : event.date;
+    }
+
+    function compactDuration(total) {
+        const hours = Math.floor(total / 60);
+        const minutes = total % 60;
+        return hours ? hours + ' h' + (minutes ? ' ' + String(minutes).padStart(2, '0') : '') : minutes + ' min';
+    }
+
+    function upcomingTimeLabel(event, now, timestamp) {
+        const {date, start} = event;
+        const dateKey = now.slice(0, 10);
+        if (date === dateKey) {
+            const remaining = calendarTimestamp(date, start) - timestamp;
+            if (!Number.isFinite(remaining)) return '';
+            if (remaining < 60000) return 'Dans moins d’une minute';
+            return 'Dans ' + compactDuration(Math.ceil(remaining / 60000));
+        }
+        const day = dateOf(date);
+        const daysAway = (day - dateOf(dateKey)) / 86400000;
+        const label = daysAway === 1 ? 'Demain' : daysAway < 7 ? weekdayFormat.format(day) : dayFormat.format(day);
+        const [hour, minute] = start.split(':');
+        return label[0].toUpperCase() + label.slice(1) + ' à ' + Number(hour) + ' h' + (minute === '00' ? '' : ' ' + minute);
+    }
+
+    function renderCurrentSessions(sessions, timestamp) {
+        const signature = JSON.stringify(sessions.map(sessionKey));
+        if (signature !== currentSessionKeys) {
+            const focused = currentList.contains(document.activeElement) ? document.activeElement.dataset.session : null;
+            currentSessionKeys = signature;
+            currentPanel.hidden = !sessions.length;
+            currentList.replaceChildren(...sessions.map(event => {
+                const item = element('li');
+                const card = sessionCard(event);
+                card.dataset.session = sessionKey(event);
+                item.append(card, element('p', '', 'current-session-elapsed'));
+                return item;
+            }));
+            if (focused) {
+                const button = [...currentList.querySelectorAll('button')].find(item => item.dataset.session === focused);
+                (button ?? (upcoming.hidden ? document.getElementById('planning-title') : upcomingOpen)).focus({preventScroll: true});
+            }
+        }
+        for (const [index, label] of [...currentList.querySelectorAll('.current-session-elapsed')].entries()) {
+            const {date, start} = sessions[index];
+            const elapsed = Math.floor((timestamp - calendarTimestamp(date, start)) / 60000);
+            const text = elapsed >= 1 ? 'Commencé il y a ' + compactDuration(elapsed) : 'Vient de commencer';
+            if (label.textContent !== text) label.textContent = text;
+        }
+    }
+
+    function renderUpcoming(now, timestamp) {
+        const current = timedSessions.filter(event => event.date + ' ' + event.start <= now
+            && sessionEndDate(event) + ' ' + event.end > now);
+        visibleSession = timedSessions.find(event => event.date + ' ' + event.start > now);
+        upcoming.hidden = !visibleSession;
+        if (visibleSession) {
+            upcomingDetail.textContent = [
+                visibleSession.subject, dayFormat.format(dateOf(visibleSession.date)), eventTime(visibleSession), visibleSession.room,
+            ].filter(Boolean).join(' · ');
+            const label = upcomingTimeLabel(visibleSession, now, timestamp);
+            if (countdown.textContent !== label) countdown.textContent = label;
+            countdown.hidden = !label;
+        }
+        renderCurrentSessions(current, timestamp);
+    }
+
+    function renderGaps(now, first, last) {
+        const gaps = [];
+        for (const [date, sessions] of allDays) {
+            if (!allSchedulesAvailable || date < first || date > last || sessions.some(event => !event.notice && event.allDay)) continue;
+            const earliest = date === first ? now.slice(11) : '00:00';
+            let occupiedUntil = '';
+            for (const session of sessions) {
+                if (session.notice || !session.start || !session.end || session.end <= session.start) continue;
+                if (occupiedUntil && occupiedUntil < session.start) {
+                    const freeFrom = occupiedUntil > earliest ? occupiedUntil : earliest;
+                    const freeMinutes = minutes(session.start) - minutes(freeFrom);
+                    if (freeMinutes >= 30) {
+                        gaps.push({date, start: occupiedUntil, end: session.start, freeMinutes, ongoing: freeFrom > occupiedUntil});
+                    }
+                }
+                if (session.end > occupiedUntil) occupiedUntil = session.end;
+            }
+        }
+
+        const signature = JSON.stringify(gaps);
+        if (signature === shownGaps) return;
+        shownGaps = signature;
+        if (!gaps.length && document.activeElement === gapTitle) {
+            (upcoming.hidden ? document.getElementById('planning-title') : upcomingOpen).focus();
+        }
+        gapPanel.hidden = !gaps.length;
+        if (!gaps.length) return;
+        const count = gaps.length;
+        gapTitle.textContent = count === 1 ? '1 créneau libre entre tes cours' : count + ' créneaux libres entre tes cours';
+        gapList.replaceChildren(...gaps.map(({date, start, end, freeMinutes, ongoing}) => {
+            const hours = Math.floor(freeMinutes / 60);
+            const remainder = freeMinutes % 60;
+            const duration = [hours ? hours + ' h' : '', remainder ? remainder + ' min' : ''].filter(Boolean).join(' ');
+            const item = element('li');
+            item.append(
+                element('strong', dayFormat.format(dateOf(date))),
+                element('span', start + '–' + end + ' · ' + duration + (ongoing ? ' restantes' : ' de libre')),
+            );
+            return item;
+        }));
+    }
+
+    function renderAgendaSummary() {
+        const timestamp = Date.now();
+        const now = planningClock.format(timestamp).replace(',', '');
+        const first = now.slice(0, 10);
+        const last = keyOf(addDays(dateOf(first), 6));
+        renderUpcoming(now, timestamp);
+        renderConflicts(now, first, last);
+        renderGaps(now, first, last);
+    }
+
+    setInterval(renderAgendaSummary, 30_000);
+
+    function groupDays(sessions) {
+        const grouped = new Map();
+        for (const event of sessions) {
+            if (!grouped.has(event.date)) grouped.set(event.date, []);
+            grouped.get(event.date).push(event);
+        }
+        return grouped;
+    }
+
+    function updateFormationOptions() {
+        const options = new Map();
+        for (const event of allSessions) {
+            if (event.notice) continue;
+            for (const formation of event.formations) {
+                options.set(JSON.stringify([event.url, formation]), {url: event.url, formation});
+            }
+        }
+        const entries = [...options].sort((a, b) => formationOrder.compare(a[1].formation, b[1].formation)
+            || a[1].url.localeCompare(b[1].url));
+        const signature = JSON.stringify(entries.map(([key]) => key));
+        if (signature === shownFormations) return;
+        shownFormations = signature;
+        const multiple = options.size > 1;
+        const previous = formationSelect.value;
+        formationFilter.hidden = !multiple;
+        formationSelect.replaceChildren(new Option('Toutes les formations', ''));
+        if (!multiple) return;
+        const counts = new Map();
+        for (const {formation} of options.values()) counts.set(formation, (counts.get(formation) ?? 0) + 1);
+        for (const [key, {url, formation}] of entries) {
+            const label = counts.get(formation) > 1 ? formation + ' · ' + new URL(url).hostname : formation;
+            formationSelect.add(new Option(label, key));
+        }
+        if (options.has(previous)) formationSelect.value = previous;
+    }
+
+    function renderDisplayedSchedule() {
+        const filter = formationSelect.value;
+        let sessions = allSessions;
+        if (filter) {
+            const [url, formation] = JSON.parse(filter);
+            sessions = allSessions.filter(event => event.url === url && event.formations.has(formation));
+        }
+        days = filter ? groupDays(sessions) : allDays;
+        noticePeriods = filter ? groupNoticePeriods(sessions) : allNoticePeriods;
+        searchableSessions = sessions.filter(event => !event.notice);
+        searchIndex = null;
+        renderSearch();
+        if (days.size) updateWeekScale();
         render();
-    });
-    todayButton.addEventListener('click', () => {
-        currentDate = adjust(today());
-        render();
+    }
+
+    formationSelect.addEventListener('change', () => {
+        searchLimit = searchPageSize;
+        renderDisplayedSchedule();
     });
 
     return {
-        show(sessions) {
-            days = new Map();
-            noticePeriods = groupNoticePeriods(sessions);
-            for (const event of sessions) {
-                if (!days.has(event.date)) {
-                    days.set(event.date, []);
-                }
-                days.get(event.date).push(event);
-            }
-            if (days.size) {
-                const dates = [...days.keys()];
+        openDay(date) {
+            showDay(dateOf(date), allDays.get(date) ?? []);
+        },
+        show(sessions, schedulesAvailable) {
+            allSchedulesAvailable = schedulesAvailable;
+            allSessions = sessions;
+            allDays = groupDays(sessions);
+            allNoticePeriods = groupNoticePeriods(sessions);
+            timedSessions = sessions.filter(event => !event.notice && !event.allDay && event.start && event.end);
+            firstDate = undefined;
+            lastDate = undefined;
+            if (allDays.size) {
+                const dates = [...allDays.keys()];
                 const date = today();
                 const first = dateOf(dates[0]);
                 firstDate = first < date ? first : date;
                 lastDate = dateOf(dates.at(-1));
                 currentDate = adjust(currentDate || date);
-                updateWeekScale();
-                fillPeriodPickers();
             }
-            render();
-            return noticePeriods.length + sessions.filter(event => event.notice && !isAllDayNotice(event)).length;
+            updateFormationOptions();
+            renderDisplayedSchedule();
+            renderAgendaSummary();
+            return allNoticePeriods.length + sessions.filter(event => event.notice && !isAllDayNotice(event)).length;
         },
     };
 }

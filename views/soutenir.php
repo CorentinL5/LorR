@@ -21,13 +21,13 @@ $showSupport = strtolower($supportLink['scheme'] ?? '') === 'https'
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/planning.css?v=11">
+    <link rel="stylesheet" href="styles/planning.css?v=40">
     <?php require __DIR__ . '/web-app-head.php'; ?>
     <script src="scripts/support.js" defer></script>
 </head>
 <body>
     <?php require __DIR__ . '/site-header.php'; ?>
-    <main class="shell">
+    <main id="contenu" tabindex="-1" class="shell">
         <section class="panel stats-panel support-panel" aria-labelledby="support-title">
             <header class="panel-header panel-yellow">
                 <span class="panel-icon" aria-hidden="true">♥</span>

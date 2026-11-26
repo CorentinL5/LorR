@@ -13,24 +13,20 @@ function openLinkedPlanning() {
 
 if (!openLinkedPlanning()) {
     const showLocalPlannings = () => {
-        try {
-            const saved = localStorage.getItem('lorr-saved-planning');
-            const link = document.getElementById('saved-planning-link');
-            const available = Boolean(saved?.startsWith('#') && hasPlanningCode(saved));
-            link.hidden = !available;
-            if (available) {
-                link.href = 'planning' + saved;
-            }
-
-            const resume = document.getElementById('resume-planning-link');
-            resume.hidden = true;
-            const draft = JSON.parse(localStorage.getItem('lorr-hyperplanning'));
-            if (Array.isArray(draft?.sources) && draft.sources.length && (!draft.created || !available)) {
-                resume.hidden = false;
-            }
-        } catch {
-            // The public home page remains available when storage is disabled.
-        }
+        const group = document.getElementById('home-resume-actions');
+        const saved = document.getElementById('saved-planning-link');
+        const latest = document.getElementById('last-planning-link');
+        const resume = document.getElementById('resume-planning-link');
+        const createStudent = document.getElementById('create-student-planning');
+        const {draft, latest: completed} = localPlanningSlots();
+        const savedHash = localPlanningValue(planningSavedLinkKey);
+        saved.hidden = !savedHash?.startsWith('#') || !hasPlanningCode(savedHash);
+        if (!saved.hidden) saved.href = 'planning' + savedHash;
+        latest.hidden = !completed;
+        resume.hidden = !draft;
+        group.hidden = [latest, resume, saved].every(link => link.hidden);
+        createStudent.classList.toggle('button-yellow', group.hidden);
+        createStudent.classList.toggle('button-light', !group.hidden);
     };
     showLocalPlannings();
     window.addEventListener('hashchange', openLinkedPlanning);

@@ -8,7 +8,7 @@ const PLANNING_REFRESH_INTERVAL = 60;
 
 function planningCacheDirectory(): string
 {
-    return sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'lorr-hyperplanning-v3';
+    return getenv('LORR_PLANNING_CACHE_DIR') ?: sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'lorr-hyperplanning-v3';
 }
 
 function cachePath(string $directory, string $url, string $formation = ''): string
@@ -68,17 +68,22 @@ function lockPlanningRefresh(string $url)
     return $lock;
 }
 
-function reservePlanningRefresh($lock): bool
+function planningRefreshCredit($lock, int $now): int
 {
-    $now = time();
     rewind($lock);
     $stored = json_decode(stream_get_contents($lock, 128) ?: '', true);
     // Two immediate sessions cover the first catalogue and timetable requests.
     // Each further session needs one minute of accumulated credit.
     $capacity = 2 * PLANNING_REFRESH_INTERVAL;
     $elapsed = max(0, $now - (int) ($stored['time'] ?? $now));
-    $credit = min($capacity, (int) ($stored['credit'] ?? $capacity) + $elapsed);
-    if ($credit < PLANNING_REFRESH_INTERVAL) {
+    return min($capacity, (int) ($stored['credit'] ?? $capacity) + $elapsed);
+}
+
+function reservePlanningRefresh($lock, bool $keepCredit = false): bool
+{
+    $now = time();
+    $credit = planningRefreshCredit($lock, $now);
+    if ($credit < PLANNING_REFRESH_INTERVAL * ($keepCredit ? 2 : 1)) {
         return false;
     }
     $entry = json_encode(['time' => $now, 'credit' => $credit - PLANNING_REFRESH_INTERVAL]);
@@ -100,7 +105,7 @@ function writeCache(string $directory, string $path, array $entry): void
         return;
     }
     $content = json_encode($entry, JSON_UNESCAPED_UNICODE);
-    if ($content === false || @file_put_contents($temporary, $content) === false || !@rename($temporary, $path)) {
+    if ($content === false || @file_put_contents($temporary, $content) !== strlen($content) || !@rename($temporary, $path)) {
         @unlink($temporary);
     }
 }

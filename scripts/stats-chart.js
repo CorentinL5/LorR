@@ -2,6 +2,7 @@ const usageChart = document.getElementById('usage-chart');
 const usageTable = document.getElementById('usage-table') ?? usageChart.nextElementSibling;
 const usagePlot = usageChart.querySelector('svg');
 const usageEmpty = usageChart.querySelector('.stats-chart-empty');
+const usageDayUnavailable = document.getElementById('usage-day-unavailable');
 const usageHourPlot = document.getElementById('usage-hour-chart');
 const usageHourUnavailable = document.getElementById('usage-hour-unavailable');
 const usageHourGaps = document.getElementById('usage-hour-gaps');
@@ -18,6 +19,7 @@ const usageDays = [...usageTable.querySelectorAll('tbody tr')].reverse().map(row
         counts: [...row.querySelectorAll('[data-count]')].map(cell => Number(cell.dataset.count)),
     };
 });
+const hasDailyUsage = usageDays.some(period => period.counts.some(count => count > 0));
 const usageRecentPeriods = (usageQuarterData ? JSON.parse(usageQuarterData.textContent) : []).map(({day, label, counts}) => ({
     day,
     label: label.slice(0, 5),
@@ -174,6 +176,7 @@ function showUsageSelection(plot, output, period, index, hint, hourly = false) {
 
 function showDaySelection() {
     showUsageSelection(usagePlot, usageDaySelection, usageDays[selectedDay], selectedDay, dayHint);
+    if (!hasDailyUsage) usageDaySelection.hidden = true;
 }
 
 function showHourSelection() {
@@ -182,8 +185,9 @@ function showHourSelection() {
 
 function drawUsageCharts() {
     const selected = visibleUsageSeries();
-    usageEmpty.hidden = selected.length > 0;
-    drawUsagePlot(usagePlot, usageDays, selected);
+    usageEmpty.hidden = selected.length > 0 || !hasDailyUsage;
+    usageDayUnavailable.hidden = hasDailyUsage;
+    drawUsagePlot(usagePlot, usageDays, hasDailyUsage ? selected : []);
     usageHourUnavailable.hidden = firstRecordedQuarter >= 0;
     usageHourGaps.hidden = firstRecordedQuarter <= 0 || !selected.length;
     drawUsagePlot(usageHourPlot, usageRecentPeriods, selected, true);
@@ -212,6 +216,21 @@ usageHourPlot.addEventListener('click', event => {
         selectedQuarter = Number(target.dataset.period);
         showHourSelection();
     }
+});
+
+usageHourPlot.addEventListener('keydown', event => {
+    const last = usageRecentPeriods.length - 1;
+    let quarter = selectedQuarter;
+    switch (event.key) {
+        case 'ArrowLeft': quarter = selectedQuarter < 0 ? last : selectedQuarter - 1; break;
+        case 'ArrowRight': quarter++; break;
+        case 'Home': quarter = firstRecordedQuarter; break;
+        case 'End': quarter = last; break;
+        default: return;
+    }
+    event.preventDefault();
+    selectedQuarter = Math.max(firstRecordedQuarter, Math.min(last, quarter));
+    showHourSelection();
 });
 
 const activityButtons = [...document.querySelectorAll('[data-activity-metric]')];

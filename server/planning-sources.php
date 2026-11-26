@@ -4,6 +4,7 @@ declare(strict_types=1);
 const HEH_PLANNING_HOST_PATTERN = 'hehplanning[0-9]{4}\.umons\.ac\.be';
 const MAX_FORMATIONS_PER_SOURCE = 100;
 const MAX_PLANNING_REQUEST_BYTES = 32768;
+const HEH_CURRENT_PLANNING_HOST = 'hehplanning2026.umons.ac.be';
 const PLANNING_GUEST_URLS = [
     'hpl.hech.be' => 'http://hpl.hech.be:62080/hp/invite',
     'ihecs-prod.pronote-campus.net' => 'https://ihecs-prod.pronote-campus.net/hp/invite',

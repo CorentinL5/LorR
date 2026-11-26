@@ -7,6 +7,7 @@ const USAGE_METRICS = ['home', 'planner', 'reads', 'courses', 'sessions', 'click
 const USAGE_DISTINCT_TABLES = ['sources' => 'usage_sources', 'distinct_courses' => 'usage_courses'];
 const USAGE_QUARTER_SECONDS = 900;
 const USAGE_QUARTER_WINDOW = 144;
+const USAGE_DAILY_WINDOW = 60;
 
 function usageNow(): DateTimeImmutable
 {
@@ -135,13 +136,14 @@ function readUsageDatabase(PDO $database): array
     $timestamp = $now->getTimestamp();
     $period = "day IN ('total', 'hourly-start', 'quarters-start') OR day BETWEEN :cutoff AND :today
         OR day BETWEEN :firstHour AND :lastHour OR day BETWEEN :firstQuarter AND :lastQuarter";
-    $queries = ["SELECT day, metric, amount FROM usage_counts WHERE $period"];
+    $queries = ["SELECT day, metric, amount FROM usage_counts WHERE $period OR day BETWEEN :firstDay AND :today"];
     foreach (USAGE_DISTINCT_TABLES as $metric => $table) {
         $queries[] = "SELECT day, '$metric', COUNT(*) FROM $table WHERE $period GROUP BY day";
     }
     $query = $database->prepare(implode(' UNION ALL ', $queries));
     $query->execute([
         'cutoff' => $cutoff->format('Y-m-d'),
+        'firstDay' => usageDay($now)->modify('-' . USAGE_DAILY_WINDOW . ' days')->format('Y-m-d'),
         'today' => $now->format('Y-m-d'),
         'firstHour' => usageHourKey($cutoff->getTimestamp()),
         'lastHour' => usageHourKey($timestamp),
@@ -168,6 +170,8 @@ function readUsageDatabase(PDO $database): array
             $data[$period][$day][$metric] = (int) $row['amount'];
         }
     }
+    $first = $database->query("SELECT MIN(day) FROM usage_counts WHERE day BETWEEN '0000-01-01' AND '9999-12-31'")->fetchColumn();
+    $data['dailySince'] = is_string($first) ? $first : null;
     return $data;
 }
 
@@ -245,8 +249,9 @@ function recordFileUsage(string $directory, array $counts, array $distinct): voi
         $cutoff = usageDay($now)->modify('-6 days');
         $data['hourlySince'] ??= $hour;
         $data['quartersSince'] ??= $quarter;
+        $data['dailySince'] ??= $data['daily'] ? min(array_keys($data['daily'])) : $date;
         $earliest = [
-            'daily' => $cutoff->format('Y-m-d'),
+            'daily' => usageDay($now)->modify('-' . USAGE_DAILY_WINDOW . ' days')->format('Y-m-d'),
             'hourly' => usageHourKey($cutoff->getTimestamp()),
             'quarters' => usageQuarterKey(usageFirstQuarter($timestamp)),
         ];
@@ -274,6 +279,13 @@ function recordFileUsage(string $directory, array $counts, array $distinct): voi
                 $data[$metric]['total'][$fingerprint] = true;
                 foreach ($periodKeys as $key) {
                     $data[$metric][$key][$fingerprint] = true;
+                }
+            }
+        }
+        foreach (array_keys(USAGE_DISTINCT_TABLES) as $metric) {
+            foreach (array_keys($data[$metric]) as $key) {
+                if ($key < $cutoff->format('Y-m-d')) {
+                    unset($data[$metric][$key]);
                 }
             }
         }
@@ -335,6 +347,7 @@ function siteUsage(): ?array
         if ($data === null) {
             return null;
         }
+        $data['dailySince'] ??= $data['daily'] ? min(array_keys($data['daily'])) : null;
         foreach (array_keys(USAGE_DISTINCT_TABLES) as $metric) {
             $data['total'][$metric] = count($data[$metric]['total'] ?? []);
             foreach (['daily', 'hourly', 'quarters'] as $period) {
@@ -347,5 +360,64 @@ function siteUsage(): ?array
         return $data;
     } finally {
         fclose($lock);
+    }
+}
+
+function liveUsageSnapshot(array $usage, DateTimeImmutable $now): array
+{
+    $date = $now->format('Y-m-d');
+    $current = usageQuarterStart($now->getTimestamp());
+    $quarters = [];
+    for ($offset = 7; $offset >= 0; $offset--) {
+        $timestamp = $current - $offset * USAGE_QUARTER_SECONDS;
+        $counts = ($usage['quartersSince'] ?? PHP_INT_MAX) <= $timestamp
+            ? ($usage['quarters'][usageQuarterKey($timestamp)] ?? []) : null;
+        $quarters[] = ['start' => $timestamp, 'counts' => $counts];
+    }
+    return [
+        'updatedAt' => $now->getTimestamp(),
+        'today' => array_intersect_key($usage['daily'][$date] ?? [], emptyUsageCounts()),
+        'quarters' => $quarters,
+    ];
+}
+
+function readLiveUsage(): ?array
+{
+    $now = usageNow();
+    $directory = localStorageDirectory();
+    if ($directory === null) {
+        return null;
+    }
+    if (!hasLocalSqlite()) {
+        $snapshot = siteUsage();
+        return $snapshot === null ? null : liveUsageSnapshot($snapshot, $now);
+    }
+
+    try {
+        $database = openUsageDatabase($directory);
+        $current = usageQuarterStart($now->getTimestamp());
+        $today = $now->format('Y-m-d');
+        $query = $database->prepare(
+            "SELECT day, metric, amount FROM usage_counts
+             WHERE day IN (:today, 'quarters-start') OR day BETWEEN :first AND :last"
+        );
+        $query->execute([
+            'today' => $today,
+            'first' => usageQuarterKey($current - 7 * USAGE_QUARTER_SECONDS),
+            'last' => usageQuarterKey($current),
+        ]);
+        $usage = ['daily' => [], 'quarters' => []];
+        foreach ($query as ['day' => $period, 'metric' => $metric, 'amount' => $amount]) {
+            if ($period === 'quarters-start') {
+                $usage['quartersSince'] = (int) $amount;
+            } elseif ($period === $today) {
+                $usage['daily'][$today][$metric] = (int) $amount;
+            } else {
+                $usage['quarters'][$period][$metric] = (int) $amount;
+            }
+        }
+        return liveUsageSnapshot($usage, $now);
+    } catch (RuntimeException) {
+        return null;
     }
 }

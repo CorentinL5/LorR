@@ -14,6 +14,7 @@ test.*
 
 # Node.js
 node_modules/
+/vendor/
 
 # Local settings and application data
 /var/

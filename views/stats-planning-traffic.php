@@ -4,7 +4,7 @@ if ($planningTraffic) {
 }
 ?>
 <section class="stats-overview-card stats-planning-traffic" aria-labelledby="planning-traffic-title">
-    <h2 id="planning-traffic-title">Requêtes vers Hyperplanning par lien de base</h2>
+    <h3 id="planning-traffic-title">Requêtes vers Hyperplanning par lien de base</h3>
     <p>Les volumes mesurent les corps de requête et de réponse. La durée et les échecs couvrent les tentatives mesurées par le lecteur PHP.</p>
     <?php if ($planningTraffic === null): ?>
         <p>Les relevés sont momentanément indisponibles.</p>

@@ -33,27 +33,92 @@ function calendarPlanningChoices(array $state): array
     return $choices;
 }
 
-function refreshCalendarSchedules(string $url, array $formations, float $deadline): void
+function calendarNoticePreferences(array $state): array
+{
+    $notices = [];
+    if ($state[0] === 1) {
+        foreach ($state[3] ?? [] as $notice) {
+            $notices[] = json_decode($notice, true, 3, JSON_THROW_ON_ERROR);
+        }
+    } else {
+        foreach ($state[1] as $source) {
+            $reference = $source[0];
+            $host = is_int($reference) ? sprintf('hehplanning%04d.umons.ac.be', $reference) : $reference;
+            foreach ($source[2] ?? [] as $notice) {
+                [$kind, $subject, $first] = $notice;
+                $notices[] = [planningUrlForHost($host), $kind, $subject, $first, $notice[3] ?? $first];
+            }
+        }
+    }
+    return [$notices, ($state[$state[0] === 1 ? 4 : 2] ?? false) === true];
+}
+
+function calendarNoticeSubject(string $subject): string
+{
+    $subject = class_exists(Normalizer::class) ? (Normalizer::normalize($subject, Normalizer::FORM_D) ?: $subject) : $subject;
+    $subject = strtr($subject, [
+        'À' => 'a', 'Â' => 'a', 'Ä' => 'a', 'Ç' => 'c', 'É' => 'e', 'È' => 'e', 'Ê' => 'e', 'Ë' => 'e',
+        'Î' => 'i', 'Ï' => 'i', 'Ô' => 'o', 'Ö' => 'o', 'Ù' => 'u', 'Û' => 'u', 'Ü' => 'u', 'Ÿ' => 'y',
+        'à' => 'a', 'â' => 'a', 'ä' => 'a', 'ç' => 'c', 'é' => 'e', 'è' => 'e', 'ê' => 'e', 'ë' => 'e',
+        'î' => 'i', 'ï' => 'i', 'ô' => 'o', 'ö' => 'o', 'ù' => 'u', 'û' => 'u', 'ü' => 'u', 'ÿ' => 'y',
+    ]);
+    $text = preg_replace('/\p{M}+/u', '', $subject) ?? $subject;
+    $text = trim(preg_replace('/\s+/u', ' ', $text) ?? $text);
+    return function_exists('mb_strtolower') ? mb_strtolower($text, 'UTF-8') : strtolower($text);
+}
+
+function calendarSelectedNotices(array $events, bool $includeLaterNotices): array
+{
+    if ($includeLaterNotices) {
+        return $events;
+    }
+    $latestCourse = '';
+    foreach ($events as $event) {
+        if (empty($event['notice']) && $event['date'] > $latestCourse) {
+            $latestCourse = $event['date'];
+        }
+    }
+    if ($latestCourse === '') {
+        return $events;
+    }
+    foreach ($events as $key => &$event) {
+        if (empty($event['notice'])) {
+            continue;
+        }
+        [$first, $last] = $event['period'] ?? [$event['date'], $event['date']];
+        if ($first > $latestCourse) {
+            unset($events[$key]);
+        } elseif (!empty($event['allDay']) && $last > $latestCourse) {
+            $event['period'] = [$first, $latestCourse];
+        }
+    }
+    unset($event);
+    return $events;
+}
+
+function refreshCalendarSchedules(string $url, array $formations, float $deadline): array
 {
     if (microtime(true) >= $deadline || !hasPhpPlanningReader()) {
-        return;
+        return [];
     }
 
     $lock = lockPlanningRefresh($url);
     if ($lock === false) {
-        return;
+        return [];
     }
+    $received = [];
     try {
         [, $missing] = cachedSchedules($url, $formations);
         if (!$missing || microtime(true) >= $deadline || !reservePlanningRefresh($lock)) {
-            return;
+            return [];
         }
 
         $directory = planningCacheDirectory();
         require_once __DIR__ . '/guest-planning.php';
         $result = readGuestPlanning($url, $missing, static function (): void {},
-            static function (string $formation, array $events) use ($directory, $url): void {
-                writeCache($directory, cachePath($directory, $url, $formation), ['time' => time(), 'data' => $events]);
+            static function (string $formation, array $events) use ($directory, $url, &$received): void {
+                $received[$formation] = ['time' => time(), 'data' => $events];
+                writeCache($directory, cachePath($directory, $url, $formation), $received[$formation]);
             }, $deadline);
         writeCache($directory, cachePath($directory, $url), ['time' => time(), 'data' => $result['formations']]);
     } catch (RuntimeException | JsonException) {
@@ -61,6 +126,11 @@ function refreshCalendarSchedules(string $url, array $formations, float $deadlin
     } finally {
         fclose($lock);
     }
+    if ($received) {
+        require_once __DIR__ . '/planning-push-jobs.php';
+        queuePlanningPushVisit($url, $received);
+    }
+    return $received;
 }
 
 function calendarPlanningSchedules(array $choices): ?array
@@ -74,11 +144,10 @@ function calendarPlanningSchedules(array $choices): ?array
             return null;
         }
         [$schedules[$host], $missing] = cachedSchedules($url, array_map('strval', array_keys($formations)));
-        if ($missing) {
-            refreshCalendarSchedules($url, $missing, $deadline);
-        }
+        $refreshed = $missing ? refreshCalendarSchedules($url, $missing, $deadline) : [];
         foreach ($missing as $formation) {
-            $entry = readCache(cachePath($directory, $url, $formation)) ?? ($schedules[$host][$formation] ?? null);
+            $entry = $refreshed[$formation] ?? readCache(cachePath($directory, $url, $formation))
+                ?? ($schedules[$host][$formation] ?? null);
             if ($entry === null) {
                 // An incomplete feed could remove valid events from a subscriber's calendar.
                 return null;
@@ -89,10 +158,12 @@ function calendarPlanningSchedules(array $choices): ?array
     return $schedules;
 }
 
-function calendarPlanningEvents(array $choices, array $schedules): array
+function calendarPlanningEvents(array $choices, array $schedules, array $excludedNotices = []): array
 {
     $events = [];
+    $excluded = array_fill_keys(array_map('serialize', $excludedNotices), true);
     foreach ($schedules as $host => $formations) {
+        $url = $excluded ? planningUrlForHost($host) : null;
         foreach ($formations as $formation => $entry) {
             foreach ($entry['data'] as $event) {
                 $notice = $event['notice'] ?? '';
@@ -100,6 +171,12 @@ function calendarPlanningEvents(array $choices, array $schedules): array
                 $type = $event['type'] ?? '';
                 if (!$notice && !isset($choices[$host][$formation][serialize([$group, $event['subject'], $type])])) {
                     continue;
+                }
+                if ($notice && $excluded) {
+                    [$first, $last] = $event['period'] ?? [$event['date'], $event['date']];
+                    if (isset($excluded[serialize([$url, $notice, calendarNoticeSubject($event['subject']), $first, $last])])) {
+                        continue;
+                    }
                 }
                 $key = serialize([$host, $event['date'], $event['start'], $event['end'], $event['subject'], $notice,
                     $notice ? ($event['period'] ?? null) : [$group, $type, $event['room'] ?? '', $event['teacher'] ?? '']]);
@@ -240,7 +317,9 @@ function servePlanningCalendar(string $id): void
         $updated = max($updated, ...array_column($formations, 'time'));
     }
     $stamp = gmdate('Ymd\THis\Z', $updated);
-    $body = calendarIcsBody(calendarPlanningEvents($choices, $schedules), $stamp);
+    [$excludedNotices, $includeLaterNotices] = calendarNoticePreferences($state);
+    $events = calendarPlanningEvents($choices, $schedules, $excludedNotices);
+    $body = calendarIcsBody(calendarSelectedNotices($events, $includeLaterNotices), $stamp);
     $tag = '"' . hash('sha256', str_replace("\r\nDTSTAMP:$stamp\r\n", "\r\n", $body)) . '"';
     header('Content-Type: text/calendar; charset=UTF-8');
     header('Cache-Control: private, max-age=300');

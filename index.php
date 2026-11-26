@@ -34,8 +34,11 @@ $redirects = [
     '/planning.html' => '/planning',
     '/planning.php' => '/planning',
     '/planning/' => '/planning',
+    '/enseignant/' => '/enseignant',
+    '/mes-donnees/' => '/mes-donnees',
     '/stats/' => '/stats',
-    '/statsohshit/' => '/statsohshit',
+    '/statsohshit' => '/stats#hyperplanning',
+    '/statsohshit/' => '/stats#hyperplanning',
     '/soutenir/' => '/soutenir',
     '/api-planning.php' => '/api/planning',
     '/api/planning/' => '/api/planning',
@@ -43,7 +46,9 @@ $redirects = [
 
 if (isset($redirects[$route])) {
     $query = parse_url($request, PHP_URL_QUERY);
-    $location = $base . $redirects[$route] . (is_string($query) ? '?' . $query : '');
+    [$destination, $fragment] = array_pad(explode('#', $redirects[$route], 2), 2, null);
+    $location = $base . $destination . (is_string($query) ? '?' . $query : '')
+        . ($fragment !== null ? '#' . $fragment : '');
     header('Location: ' . $location, true, 308);
     exit;
 }
@@ -84,19 +89,28 @@ switch ($route) {
         }
         require __DIR__ . '/views/planning.php';
         break;
+    case '/mes-donnees':
+        require __DIR__ . '/server/planning-sources.php';
+        require __DIR__ . '/views/planning-personal.php';
+        break;
+    case '/enseignant':
+        header('Cache-Control: no-store');
+        if (!in_array($_SERVER['REQUEST_METHOD'] ?? '', ['GET', 'HEAD', 'POST'], true)) {
+            header('Allow: GET, HEAD, POST');
+            http_response_code(405);
+            break;
+        }
+        require __DIR__ . '/server/teacher-planning.php';
+        require __DIR__ . '/views/teacher-planning.php';
+        break;
     case '/stats':
         header('Cache-Control: no-store');
         require __DIR__ . '/server/usage.php';
-        $usage = siteUsage();
-        require __DIR__ . '/views/stats.php';
-        break;
-    case '/statsohshit':
-        header('Cache-Control: no-store');
-        header('X-Robots-Tag: noindex');
         require __DIR__ . '/server/planning-traffic.php';
+        $usage = siteUsage();
         $planningTraffic = planningTraffic();
         $planningActivity = planningStatsSnapshot('planning-activity');
-        require __DIR__ . '/views/stats-advanced.php';
+        require __DIR__ . '/views/stats.php';
         break;
     case '/soutenir':
         require __DIR__ . '/views/soutenir.php';
@@ -133,6 +147,10 @@ switch ($route) {
         require __DIR__ . '/server/planning-links.php';
         createPlanningLink();
         break;
+    case '/api/planning/push':
+        require __DIR__ . '/server/planning-push.php';
+        servePlanningPush();
+        break;
     case '/api/stats/course-clicks':
         require __DIR__ . '/server/course-clicks.php';
         break;
@@ -143,13 +161,34 @@ switch ($route) {
             http_response_code(405);
             break;
         }
-        if (($_SERVER['CONTENT_TYPE'] ?? '') !== 'application/json') {
+        if (strtolower(trim(explode(';', $_SERVER['CONTENT_TYPE'] ?? '', 2)[0])) !== 'application/json') {
             http_response_code(415);
             break;
         }
         require __DIR__ . '/server/planning-traffic.php';
         recordPlanningActivity(['icsExports' => 1]);
         http_response_code(204);
+        break;
+    case '/api/stats/live':
+        header('Content-Type: application/json; charset=UTF-8');
+        header('Cache-Control: no-store');
+        if (!in_array($_SERVER['REQUEST_METHOD'] ?? '', ['GET', 'HEAD'], true)) {
+            header('Allow: GET, HEAD');
+            http_response_code(405);
+            break;
+        }
+        require __DIR__ . '/server/usage.php';
+        $live = readLiveUsage();
+        if ($live === null) {
+            http_response_code(503);
+        }
+        if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+            echo json_encode($live, JSON_THROW_ON_ERROR);
+        }
+        break;
+    case '/api/stats/historique.csv':
+        require __DIR__ . '/server/usage-history.php';
+        serveUsageHistory();
         break;
     case '/api/stats/github':
         require __DIR__ . '/server/github-stats.php';

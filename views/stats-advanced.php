@@ -10,12 +10,11 @@ $formatBytes = static function (int $bytes): string {
 $escapeSource = static fn (string $url): string => htmlspecialchars($url, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
 $sources = $planningActivity['sources'] ?? [];
 ksort($sources);
-$totals = $planningActivity['totals'] ?? [];
+$activityTotals = $planningActivity['totals'] ?? [];
 $requests = array_sum(array_column($sources, 'catalogues')) + array_sum(array_column($sources, 'schedules'));
 $fresh = array_sum(array_column($sources, 'freshCache'));
 $cacheRate = $requests > 0 ? (int) round(100 * $fresh / $requests) : null;
-$ical = ($totals['icalDelivered'] ?? 0) + ($totals['icalUnchanged'] ?? 0) + ($totals['icalUnavailable'] ?? 0);
-$now = new DateTimeImmutable('now', new DateTimeZone('Europe/Brussels'));
+$ical = ($activityTotals['icalDelivered'] ?? 0) + ($activityTotals['icalUnchanged'] ?? 0) + ($activityTotals['icalUnavailable'] ?? 0);
 $calendarMetrics = [
     'icalDelivered' => ['Calendriers iCal envoyés', 'HTTP 200'],
     'icalUnchanged' => ['Calendriers déjà à jour', 'HTTP 304'],
@@ -24,28 +23,21 @@ $calendarMetrics = [
     'shortLinks' => ['Liens courts fournis', 'Liens réutilisés inclus'],
 ];
 $sourceMetrics = ['catalogues' => 'Catalogues', 'schedules' => 'Horaires', 'freshCache' => 'Cache frais', 'ical' => 'iCal'];
+$outcomeMetrics = [
+    'completeResponses' => ['Complètes et à jour', 'Toutes les données demandées sont à jour.'],
+    'cachedFallbackResponses' => ['Complètes avec repli sur le cache', 'Toutes les données sont disponibles. Une partie n’a pas pu être actualisée.'],
+    'partialResponses' => ['Partielles', 'Il manque les horaires d’au moins une formation.'],
+    'unavailableResponses' => ['Indisponibles', 'LorR ne dispose d’aucun des horaires demandés ou du catalogue demandé.'],
+];
+$outcomeTotals = [];
+foreach ($outcomeMetrics as $metric => [$label, $hint]) {
+    $outcomeTotals[$metric] = array_sum(array_column($sources, $metric));
+}
+$measuredOutcomes = array_sum($outcomeTotals);
 ?>
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#fcf8ef">
-    <?php require __DIR__ . '/site-meta.php'; ?>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/planning.css?v=11">
-    <?php require __DIR__ . '/web-app-head.php'; ?>
-</head>
-<body>
-    <?php require __DIR__ . '/site-header.php'; ?>
-    <main class="shell stats-advanced">
-        <header class="stats-dashboard-header">
-            <h1>Statistiques avancées</h1>
-            <a href="stats">← Vue d’ensemble</a>
-        </header>
-
+<div class="stats-advanced">
+    <section id="hyperplanning" class="stats-dashboard-section" aria-labelledby="hyperplanning-stats-title">
+        <h2 id="hyperplanning-stats-title">Hyperplanning et cache</h2>
         <dl class="stats-featured stats-advanced-highlights">
             <div class="stats-featured-card stats-advanced-requests">
                 <dt>Requêtes vers Hyperplanning</dt>
@@ -69,20 +61,27 @@ $sourceMetrics = ['catalogues' => 'Catalogues', 'schedules' => 'Horaires', 'fres
             </div>
         </dl>
 
-        <section class="stats-overview-card stats-advanced-share" aria-labelledby="calendar-stats-title">
-            <h2 id="calendar-stats-title">Calendriers et liens</h2>
-            <dl>
-                <?php foreach ($calendarMetrics as $key => [$label, $hint]): ?>
-                    <div>
-                        <dt><?= $label ?><small><?= $hint ?></small></dt>
-                        <dd><?= $planningActivity === null ? '—' : $formatCount($totals[$key] ?? 0) ?></dd>
-                    </div>
-                <?php endforeach; ?>
-            </dl>
+        <section class="stats-overview-card stats-advanced-share stats-response-outcomes" aria-labelledby="response-stats-title">
+            <h3 id="response-stats-title">Qualité des réponses de LorR</h3>
+            <?php if ($planningActivity === null): ?>
+                <p>Les relevés sont momentanément indisponibles.</p>
+            <?php elseif (!$measuredOutcomes): ?>
+                <p>Le relevé commence avec les prochaines demandes de catalogues et d’horaires.</p>
+            <?php else: ?>
+                <p><?= $formatCount($measuredOutcomes) ?> <?= $measuredOutcomes === 1 ? 'réponse mesurée' : 'réponses mesurées' ?> depuis le début du relevé.</p>
+                <dl>
+                    <?php foreach ($outcomeMetrics as $metric => [$label, $hint]): ?>
+                        <div>
+                            <dt><?= $label ?><small><?= $hint ?></small></dt>
+                            <dd><?= $formatCount($outcomeTotals[$metric]) ?><small><?= number_format(100 * $outcomeTotals[$metric] / $measuredOutcomes, 1, ',', ' ') ?> %</small></dd>
+                        </div>
+                    <?php endforeach; ?>
+                </dl>
+            <?php endif; ?>
         </section>
 
         <section class="stats-overview-card stats-planning-traffic stats-advanced-sources" aria-labelledby="source-stats-title">
-            <h2 id="source-stats-title">Demandes reçues par LorR</h2>
+            <h3 id="source-stats-title">Demandes reçues par LorR</h3>
             <p>Le cache est frais quand le catalogue et tous les horaires demandés sont encore à jour. Un calendrier iCal peut concerner plusieurs sources.</p>
             <?php if ($planningActivity === null): ?>
                 <p>Les relevés sont momentanément indisponibles.</p>
@@ -117,7 +116,17 @@ $sourceMetrics = ['catalogues' => 'Catalogues', 'schedules' => 'Horaires', 'fres
         <?php require __DIR__ . '/stats-planning-traffic.php'; ?>
 
         <p class="stats-advanced-note">Compteurs agrégés par source. Ces relevés ne contiennent ni IP, ni identifiant de visiteur, ni choix de cours.</p>
-    </main>
-    <?php require __DIR__ . '/site-footer.php'; ?>
-</body>
-</html>
+    </section>
+
+    <section id="calendriers" class="stats-dashboard-section stats-overview-card stats-advanced-share" aria-labelledby="calendar-stats-title">
+        <h2 id="calendar-stats-title">Calendriers et liens</h2>
+        <dl>
+            <?php foreach ($calendarMetrics as $key => [$label, $hint]): ?>
+                <div>
+                    <dt><?= $label ?><small><?= $hint ?></small></dt>
+                    <dd><?= $planningActivity === null ? '—' : $formatCount($activityTotals[$key] ?? 0) ?></dd>
+                </div>
+            <?php endforeach; ?>
+        </dl>
+    </section>
+</div>

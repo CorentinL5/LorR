@@ -211,19 +211,22 @@ $cataloguePath = cachePath($directory, $url);
 $catalogue = readCache($cataloguePath);
 [$schedules, $missing] = cachedSchedules($url, $requested);
 $freshCache = cacheLifetime($catalogue, CATALOGUE_TTL, time()) > 0 && !$missing;
-recordPlanningActivity([], [$url => [
+$activity = [
     ($requested ? 'schedules' : 'catalogues') => 1,
     'freshCache' => (int) $freshCache,
-]]);
+];
+$recordOutcome = static function (string $outcome) use ($url, $activity): void {
+    recordPlanningActivity([], [$url => $activity + [$outcome => 1]]);
+};
 
 $errors = [];
 $warning = null;
+$received = [];
 if (!$freshCache) {
     if ($catalogue !== null || $schedules) {
         sendUpdate(['type' => 'snapshot', 'data' => cachedPlanningResponse($url, $catalogue, $schedules)]);
     }
     $result = null;
-    $received = [];
     $failureStatus = 503;
     $failure = 'Les horaires sont déjà en cours d’actualisation. Réessaie dans un instant.';
     $refreshPending = true;
@@ -231,6 +234,8 @@ if (!$freshCache) {
         $entry = ['time' => time(), 'data' => $events];
         $received[$name] = $schedules[$name] = $entry;
         writeCache($directory, cachePath($directory, $url, $name), $entry);
+        require_once __DIR__ . '/server/planning-push-jobs.php';
+        queuePlanningPushVisit($url, [$name => $entry]);
         sendUpdate(['type' => 'snapshot', 'data' => cachedPlanningResponse($url, null, [$name => $entry])]);
     };
     $lock = lockPlanningRefresh($url);
@@ -249,7 +254,7 @@ if (!$freshCache) {
                 foreach ($result['schedules'] as $schedule) {
                     $name = $schedule['formation'];
                     if (!isset($received[$name])) {
-                        $schedules[$name] = ['time' => time(), 'data' => $schedule['events']];
+                        $received[$name] = $schedules[$name] = ['time' => time(), 'data' => $schedule['events']];
                         writeCache($directory, cachePath($directory, $url, $name), $schedules[$name]);
                     }
                 }
@@ -262,6 +267,7 @@ if (!$freshCache) {
 
     if ($refreshPending && $result === null) {
         if (!$schedules && ($requested || $catalogue === null)) {
+            $recordOutcome('unavailableResponses');
             if ($failureStatus === 503 && !headers_sent()) {
                 header('Retry-After: ' . PLANNING_REFRESH_INTERVAL);
             }
@@ -277,6 +283,13 @@ if (!$freshCache) {
 } else {
     sendUpdate(['type' => 'progress', 'done' => 1, 'total' => 1, 'message' => 'Données récentes déjà disponibles']);
 }
+
+$recordOutcome(match (true) {
+    $requested && !$schedules => 'unavailableResponses',
+    count($schedules) < count($requested) => 'partialResponses',
+    $warning !== null || $errors !== [] => 'cachedFallbackResponses',
+    default => 'completeResponses',
+});
 
 $loadedCourses = 0;
 $loadedSessions = 0;
@@ -301,6 +314,21 @@ if ($catalogue !== null || $loadedSessions > 0) {
         'sources' => $catalogue !== null ? [hash('sha256', $url)] : [],
         'distinct_courses' => array_map(static fn ($subject): string => hash('sha256', $url . "\n" . $subject), array_keys($subjects)),
     ]);
+}
+
+if ($requested) {
+    require_once __DIR__ . '/server/planning-push-jobs.php';
+    if ($freshCache && $url === planningUrlForHost(HEH_CURRENT_PLANNING_HOST)
+        && function_exists('fastcgi_finish_request')) {
+        register_shutdown_function(static function () use ($url): void {
+            if (fastcgi_finish_request()) {
+                ignore_user_abort(true);
+                require_once __DIR__ . '/server/teacher-planning.php';
+                refreshTeacherFormations($url, true);
+            }
+        });
+    }
+    queuePlanningPushVisit($url, $received);
 }
 
 if ($legacy) {

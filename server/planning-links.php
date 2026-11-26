@@ -21,9 +21,9 @@ function planningLinkId(string $code): string
     return substr(planningLinkBase64(hash('sha256', $code, true)), 0, PLANNING_LINK_ID_LENGTH);
 }
 
-function validStoredPlanningCode(mixed $code): bool
+function validStoredPlanningCode(mixed $code, int $maxLength = MAX_STORED_PLANNING_CODE): bool
 {
-    if (!is_string($code) || strlen($code) > MAX_STORED_PLANNING_CODE
+    if (!is_string($code) || strlen($code) > $maxLength
         || !preg_match('/\A[bz]\.([A-Za-z0-9_-]+)\z/', $code, $match)) {
         return false;
     }
@@ -197,13 +197,70 @@ function loadPlanningLink(string $id): ?string
     return validStoredPlanningCode($code) && hash_equals(planningLinkId($code), $id) ? $code : null;
 }
 
-function storePlanningLink(string $code): ?string
+function planningLinkSelection(array $state): string
+{
+    require_once __DIR__ . '/planning-calendar.php';
+    $choices = calendarPlanningChoices($state);
+    foreach ($choices as $host => $formations) {
+        foreach ($formations as &$courses) {
+            ksort($courses, SORT_STRING);
+        }
+        unset($courses);
+        ksort($formations, SORT_STRING);
+        $choices[$host] = $formations;
+    }
+    ksort($choices, SORT_STRING);
+
+    [$notices, $includeLaterNotices] = calendarNoticePreferences($state);
+    $notices = array_values(array_unique(array_map('serialize', $notices)));
+    sort($notices, SORT_STRING);
+    return hash('sha256', serialize([$choices, $notices, $includeLaterNotices]));
+}
+
+function storePlanningLink(string $code, array $state): ?string
 {
     $database = openPlanningLinkDatabase();
     if ($database === null) {
         return null;
     }
 
+    $database->beginTransaction();
+    try {
+        $database->exec('CREATE TABLE IF NOT EXISTS planning_link_states (
+            selection TEXT PRIMARY KEY, id TEXT NOT NULL
+        ) WITHOUT ROWID');
+        // Inserting the marker acquires the write lock and makes the backfill atomic.
+        $index = $database->prepare('INSERT OR IGNORE INTO planning_link_states (selection, id) VALUES (?, ?)');
+        $index->execute(['', '']);
+        if ($index->rowCount()) {
+            foreach ($database->query('SELECT id, code FROM planning_links ORDER BY id', PDO::FETCH_ASSOC) as $link) {
+                $previous = decodeSharedPlanningState($link['code']);
+                if ($previous !== null) {
+                    $index->execute([planningLinkSelection($previous), $link['id']]);
+                }
+            }
+        }
+        $selection = planningLinkSelection($state);
+        $lookup = $database->prepare('SELECT id FROM planning_link_states WHERE selection = ?');
+        $lookup->execute([$selection]);
+        $id = $lookup->fetchColumn();
+        $lookup->closeCursor();
+        if ($id === false) {
+            $id = insertPlanningLink($database, $code);
+            if ($id !== null) {
+                $index->execute([$selection, $id]);
+            }
+        }
+        $database->commit();
+        return $id;
+    } catch (Throwable $error) {
+        $database->rollBack();
+        throw $error;
+    }
+}
+
+function insertPlanningLink(PDO $database, string $code): ?string
+{
     $id = planningLinkId($code);
     $prefix = $id[0];
     $insert = $database->prepare(
@@ -239,13 +296,14 @@ function createPlanningLink(): void
     }
     $data = json_decode($body, true, 4);
     $code = $data['code'] ?? null;
-    if (!is_array($data) || count($data) !== 1 || !validStoredPlanningCode($code) || decodeSharedPlanningState($code) === null) {
+    $state = validStoredPlanningCode($code) ? decodeSharedPlanningState($code) : null;
+    if (!is_array($data) || count($data) !== 1 || $state === null) {
         http_response_code(400);
         return;
     }
 
     try {
-        $id = storePlanningLink($code);
+        $id = storePlanningLink($code, $state);
     } catch (RuntimeException) {
         $id = null;
     }
